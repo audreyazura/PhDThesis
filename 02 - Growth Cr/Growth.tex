@@ -1,0 +1,214 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{xcolor}
+
+\makeatletter
+	\renewcommand{\thechapter}{\Roman{chapter}}
+\makeatother
+
+\begin{document}
+
+\chapter{Growth of the samples}
+
+%	The growth took place at Tsukuba University, in the team of Pr. Shinji Kuroda. The samples were grown with Molecular Beam Epitaxy (MBE) and Atomic Layer Epitaxy (ALE, for the QD layer), via individual Cd, Te, Zn, Mg and Cr cells. MBE and ALE are two complementary techniques for the growth of semiconductor device.
+	
+	The sample were grown using Molecular Beam Epitaxy (MBE). This technique consist of heating cells containing the pure elements which will formed the semiconductor in order to sublimate or evaporate them, such as presented on Fig \ref{MBEScheme}. Once the element is at the right temperature, the cell is opened and the gas can travel in the chamber with a ballistic trajectory. The mean free path of this gas is long compared to the size of the cells and the chamber, allowing the atoms to condensate on the substrate without interacting before. Once reaching the surface, the atoms diffuse on it before stopping, either having dissipated their kinetic through interaction with the surface, or (more commonly) being kept by island of previously deposited atoms. In the ideal case, the growth occur layer by layer, slowly (about 1 monolayer/s), giving a good control of the thickness of the grown material.	
+
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{MBEScheme.eps}
+	\end{center}
+	\caption{Scheme of a MBE chamber and the position of the cells in regard of the substrate.}
+	\label{MBEScheme}
+	\end{figure}
+	
+	Since MBE is a slow growth process, it ask for ultra-vacuum condition, in the order of $10^{-8}$ Pa, to avoid any contamination of the sample. Each raw material is contained in a Knudsen cell, which consist of a crucibles of high-melting-point material with a low contaminating power (typically Pyrolytic Boron Nitride) wrapped in tungsten filament which will act as heater. A small shutter close the container, and is controlled by computer along each recipe sequences.
+	
+	This necessity of Ultra High Vacuum kept the MBE to be developed before the end of the 1960s \cite{FirstMBE}, although the the idea was formalized at the end of the 19th century. The good control on the growth this method offer make it really useful for the development of nanostructure and nanoscience. The deposition layer by layer give the possibility to grow really thin structure, and the transition between two materials can be really abrupt, on a few monolayer (ML). Growing nano-structure is still the main use of MBE. However, this method is mainly on research purpose, its slow growth speed and hard to fulfil growth conditions being an obstacle for the industrialization of the process.
+	
+	Another mode of MBE were used during the growth of the samples: Atomic Layer Epitaxy (ALE) or Migration-Enhanced Epitaxy (MEE). In this mode, the opening and closing of the cells are controlled during the growth in order to deposit one element at a time, with some time between each opening for the surface to relax. For CdTe, which was used to grow our QDs layer, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle, which is a complete sequence of opening and closing of the cells \cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
+	\newline
+	
+	In order to monitor each step of the growth, RHEED patterns of the sample surface were taken at different key moments. This technique require a high vacuum, a given since MBE ask for ultra-high vacuum condition, and the use of an electron gun able to produce high energy electron. The beam of the gun is sent at low angle, between 1$^{\circ}$ and 3$^{\circ}$, to the surface sample. This way, the electron will only probe the surface of the sample, entering the material only on a 3 or 4 ML. Therefore the detected pattern directly gives information on the flatness and the crystallinity of the surface. The detector, a CCD camera,  is set in order to collect only elastically scattered electrons.
+	
+	Incident electron have a wave vector $\mathbf{k_i} = 2 \pi / \lambda_e$, with $\lambda_e$ is the electron wavelength, typically 6 or 7 pm for an electron gun energy between 30 and 40 kV. Since only scattered diffraction is considered, the diffracted wave vector $\mathbf{k_f}$ as the same norm as the incident one $\mathbf{k_i}$. So the Ewald's Sphere has a radius equal to the norm of $\mathbf{k_i}$. In the reciprocal space, the plane of diffraction are infinite line. So, in the case of a perfect crystal, with a a perfect detector, the intersection with Ewald's sphere should be points. However, since the crystal can have some defect and neither the gun or the detector are perfect, the diffracted pattern present line, such as visible on Fig.\ref{RHEEDStep}(b).
+	
+	Once dots are grown, though, the surface become rough at the scale of the length of coherence of the beam. Therefore, the reciprocal space of the crystal is not line anymore. The electron can interact with several more layer while passing through the dots. This can be seen on the diffraction pattern, where lines become points, such as shown on Fig.\ref{RHEEDStep}(e).
+	
+	Another use of the RHEED diffraction is the monitoring of the number of layer grown through ALE. Focusing on the lowest angle reflected spot, called the specular spot, one can see small variation in the reflected intensity during the growth, showing oscillation through, such as presented on Fig.\ref{RHEEDOsc}. This intensity is minimal when there is half a ML grown, and maximal when the ML is fully grown. This is due to the variation of reflectivity of the surface: maximal for a flat surface, minimal for a rough one. Therefore, a period of these oscillation is exactly the growth of a single monolayer \cite{FirstRHEED,WoodRHEED}. We can also see the relaxation of a layer, if the variation of intensity disappear at a point.
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{SFDRheed.eps}
+	\end{center}
+	\caption{RHEED oscillation for the ALE of strained dots.}
+	\label{RHEEDOsc}
+	\end{figure}
+	
+	We studied to type of quantum dots: self assembled QDs, which have remaining strain on it, and strain free QDs. The strained dots are formed by the relaxation of a CdTe layer on ZnTe. Strain free dots are formed by thickness variation of a CdTe quantum well between CdMgTe barriers.
+	
+	%We are working with two sample holder, named "marked" and "unmarked", with slightly different temperature offset. The thermometer to measure the substrate temperature is placed at a few centimetre from the substrate holder, inducing another offset in the measured temperature.
+	
+	\section{Tsukuba machine specificity\label{Machine}}
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{MBEFull.eps}
+	\end{center}
+	\caption{MBE machine in which the growth took place. There is 8 cells available: Aluminium, Cadmium, Chromium, Iron, Magnesium, Manganese, Tellurium and Zinc.}
+	\label{MBE}
+	\end{figure}
+		
+		Sample holder in Tsukuba were flat plates of molybdenum, in which two screw holes were pierced. The two holes were used to fix two metallic rods which maintain the sample on the holder. This way, the sample didn't move or fall during the entry in the chamber or the growth. Two sample holders were available in Tsukuba, marked and unmarked, with a temperature offset difference of about 15$^{\circ}$C.
+		
+		The load lock chamber can hold to samples at the same time. Beginning at this stage, the sample were put upside down, in order for the sample to face the cells when entering the main chamber. Once the two samples holder were placed the load-lock chamber, it is pump and nitrogen gas is injected in.
+		
+		To put a sample holder in the main chamber, it was fixed to a transfer cane via a screw hole on his back. As shown on Fig.\ref{MBE}, the cell were placed on the lower part of the MBE machine, so the sample holder as to be put upside down in the main chamber in order to face them. Once in the chamber, the sample temperature was measured through a thermocouple at a few centimetre from the sample holder. This distance induced an offset on the measured temperature. This was important in the ALE to be in the temperature interval where 0.5 ML are grown each cycle. The temperature was therefore calibrated in order to grow the right number of monolayer for each growth (see part \ref{SKGrowth} and \ref{SFDGrowth}). The system being really stable in time, we kept this calibration for all the growth.
+		
+		The flux of each cells was calculated using Beam Equivalent Pressure (BEP) in the main chamber. The pressure in the main chamber was measured with a nude ionization gauge, both before and after having opened a single cell. Subtracting these two numbers gave us the BEP of the cell. The pressure in the main chamber was typically between $1.0 \times 10^{-9}$ Torr and $1.0 \times 10^{-8}$ Torr.
+%		All the flux measurement were done with a pressure a gauge: we took the pressure in the main chamber, open a single cell for a given time, and measure the pressure in the main chamber just after having close the cell. The main chamber was then pump again in order to recreate the ultra-vacuum conditions.
+Since the growth speed depend on the flux of the cell, we used this method to control it: we first calibrate the growth speed in function of the pressure in the chamber, and then used these equivalence to control the growth process.
+		
+	\section{Strained dots: CdTe/ZnTE\label{SK}}
+	
+	\subsection{Substrate preparation}
+	
+		The sample was grown on ZnTe(100) substrates. We prepared the substrate by deosoxidizing them through an etching process. It was done in four steps. All of them, except the etching in Bromure-ethanol, occur in an ultrasonic cleaning device vibrating the sample at 43kHz and last 3 minutes. We began with  cleaning in acetone, followed by one in ethanol. The third step was the actual etching: the substrate was put in a solution of Bromure-ethanol, with 3\% of Bromure, during 1 minute. We finally rinsed it in methanol. Once rinsed, we keep the sample in ethanol until fixing them to the sample holder. The growth usually occur the day after the cleaning.
+	
+	\subsection{Strained dots growth\label{SKGrowth}}
+	
+	Before beginning the actual growth, after we entered the sample in the main chamber, we had to heat the cells and the sample, and to do the flux calibration for each cell. The targeted flux and heating speed are presented in Tab.\ref{FluxTempSK} for each cell used during the growth of strained QDs. 
+	
+	\begin{table}[h!]
+	\begin{center}		
+		\begin{tabular}{| c | c |}
+			\hline
+			Elements & Targeted BEP (Torr) \\ \hline
+			Cd & $4.5\times10^{-7}$ \\
+			Cr & N/A \\
+			Te & $4.5\times10^{-7}$ \\
+			Zn & $6.8\times10^{-7}$ \\
+			\hline
+		\end{tabular}
+		\caption{Aimed flux for each cell during the growth of the strained QDs.}
+		\label{FluxTempSK}
+	\end{center}
+	\end{table}
+	
+	It was shown that the to have a good quality of material, it was better to grow the ZnTe in excess of Zn \cite{TeEffect}. Otherwise, vacancies appear in the bulk, optically visible, and the surface is more rough. Moreover, the adsorption power of the Zn is smaller than the Te. For these reason, we choose to grow the ZnTe barriers in excess of Zn.
+	
+	When the sample is exposed to either Cd or Te flux during ALE, only one atomic layer will be deposited under each flux: we call this \emph{auto-regulated} growth. So, we chose the same flux for both of the compound \cite{HMarALE}. 
+	
+	Beginning the growth, the substrate temperature was initially raised to $320^{\circ}$C. The Zn cell shutter was open starting at $250^{\circ}$C, in order to flatten the surface for the growth. While it took several minutes to raise the substrate temperature, only one Zn layer can be deposited at a time. When the substrate temperature reach $320^{\circ}$C, the Te shutter was also open, in order to grow a ZnTe layer of about $420$ nm, at about $0.4$ ML.s$^{-1}$. This thick ZnTe layer guaranteed us to the best possible surface for the growth of the QD layer \cite{ChangZnTe}. Once done, we set up the RHEED, growing a few more ZnTe level while searching the specular spot. The substrate temperature was then lowered to $195^{\circ}$C (marked sample holder) or $180^{\circ}$C (unmarked sample holder), the Zn cell being open until the temperature reach $250^{\circ}$C. Then, the ALE began.
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{RHEEDStep.eps}
+	\end{center}
+	\caption{Left: Layer structure of the strain Cr-doped CdTe QDs samples.
+		Right: RHEED pattern taken at different key moment of the growth: (a) before the growth of the ZnTe buffer, (b) after the growth of the ZnTe buffer, (c) after the (Cd,Cr)Te ALE, (d) after the Te deposition, (e) during the Te evaporation (the picture was taken at T$_{substrate} = 177^{\circ}$C) and (f) after the growth of the ZnTe cap.}
+	\label{RHEEDStep}
+	\end{figure}
+	
+	One of the main difficulty of this work was to calibrate the Cr flux in order to trap only a single Cr atom in most of the QDs of the sample. To achieve so, the Cr density must be of the same order as the QDs density at the surface of the sample. This means a really small flux, with a BEP of some $10^{-10}$ Torr, which is about one order lower than the main chamber pressure and therefore not measurable with our technique. The optimisation was done starting with the know how acquired in Grenoble on the Mn and trying to optimise it for the Tsukuba machine, through a feedback loop with the micro-PL characterization in Grenoble.
+
+	
+	This really small flux was achieve by heating the Cr cell around 1000K, low compared to its sublimation temperature, and opening the cell only once during the ALE, for only 5s. In order to have big enough QDs, emitting at right wavelengths, we needed 6.5 ML of CdTe. Going above this number will create dislocation and defects in the layer, preventing it to relax correctly to form the QDs. To do so, we had to do 13 cycles of Cd and Te cells opening, since each cycle grew half a layer. However, these 6.5 ML of CdTe don't relax naturally: we had to deposit Te above and evaporate before seeing the formation of the dots \cite{TinjodMBE}. The Cr cells was opened during the 7th cycle, halfway through the growth of the QD layer, in order to allow the Cr atoms to diffuse without going out the QD layers. The whole ALE recipe to grow the QDs layer is given in the Fig.\ref{RecipeSK}.
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{RecipeSK.eps}
+	\end{center}
+	\caption{Opening and closing cycles of each cell for the ALE of strained (Cd,Cr)Te samples.}
+	\label{RecipeSK}
+	\end{figure}
+
+	Once the ALE was finished, we lowered the substrate temperature to $90^{\circ}$C to deposit the Te layer which formed the dots. It was deposited during 5 minutes. We then heated up the substrate again until $200^{\circ}$C, were we stayed for 20s in order to evaporate all the deposited Te \cite{WojnarMBE}. If the dots were formed, we saw a spotty pattern like the one presented on Fig.\ref{RHEEDStep} (f). The Zn and Te cells were then opened, while the substrate temperature was raised to $240^{\circ}$C in order to grow a protective layer about $350$ nm thick above the QDs.
+	
+	\section{Strain-free dots: CdTe/CdMgTe\label{SFD}}
+		\subsection{Substrate preparation}
+		
+%		The strain-free dots are formed by the interface variation of a thin (about $4ML$) CdTe quantum well (QW) between CdMgTe layers. These thickness variations will create dots, in which we will want to include a single magnetic atom. The whole structure is ideally grown on a CdTe substrate, in order to have absolutely no strain in the dots layer.
+%		
+%		However, there was no CdTe substrate in Tsukuba. So, we had to grow a thick layer of CdTe in top of GaAs substrate, which a lattice parameter close to CdTe, on order to have a completely relaxed surface to do our growth.
+%		
+%		To achieve so, we start by cleaning the GaAs substrate. It was done in four step outside the MBE chamber, all of them using an ultrasonic cleaning. It was first immersed in acetone, during 5 minutes, with the ultrasonic frequency at $43MHz$. Staying at this frequency, it was then immersed in ethanol during 5 minutes again, and then in water for the same time. We finished with a last 5 minutes cleaning in water, at $23MHz$ this time.
+%		
+%		Putting the substrate in a chamber, we proceeded to the last step of the cleaning: hydrogen radical (H$^*$) cleaning, created by injecting nitrogen radical in a chamber of H gas, in order to remove Ga oxyde formed at the surface while transporting the sample. We check the final composition of the gas via the electron energy using optical probing. For a H$^*$ gas, this should be round 660nm. To achieve the H radical cleaning, we heat the GaAs substrate to $400^{\circ}$C and then open the valve between the main chamber and the one containing H$^*$ gas. We exposed it for 15 minutes, and then searched for line in the RHEED pattern, to check the quality of the cleaning. during this step, and also during the growth, the sample was rotating.
+%		
+%		Once the cleaning process is finished, we began the growth of the thick layer of CdTe. We began by a very thin layer of ZnTe in order to relaxed some of the strain. Staying at T$_{substrate} = 400^{\circ}$C, we first opened the Zn cell for 30s, then opened both Zn and Te cells for 50s, before closing again Te cell. We then go down to T$_{substrate} = 250^{\circ}$C under Zn flux and, once the temperature was stabilized, closed the Zn cell and proceeded to the CdTe layer growth, during 1h. Finally, once this layer was grown, we protected it from oxidation by adding a thin layer of Te while the substrate temperature was going down to $5^{\circ}$C.
+%		
+		The barrier for strain free samples are made of CdTe. The chosen substrate for the growth was GaAs, on which we grew a layer of about 3 $\mu$m of CdTe. Growing such a thick layer guaranty that the remaining strain are in the order of $0.1\%$ \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. Moreover, a small ZnTe layer was grown between GaAs and CdTe, which accelerated the relaxation of the strains \cite{StrainRelaxZnTeGaAs001}.
+		
+		For this sample, only a simple cleaning occur outside of the MBE machine. We did it in four steps, each of them lasting for 5 minutes in an ultrasonic cleaning device. We began with a cleaning acetone, at 43 kHz, followed by one in ethanol at the same frequency. We then put the substrate in water and clean it at 43 kHz. Finally, we changed the water and did the last step in water at 23 kHz, in order to clean the substrate from smaller dust particle.
+		
+		Since the surface of the GaAs is oxidized, no RHEED pattern was visible, as shown on Fig \ref{Hybrid}(a). The desoxidation was done in the MBE main chamber, in vacuum condition, using hydrogen radical (H$^*$). In order to form the radical gas, a hydrogen gas was ionized in a chamber by a RF power source of 300 W and with a frequency of 13.6 MHz. This gas composition is optically checked by probing the emission of the Balmer serie: for a pure hydrogen gas, peaks at 656 nm and 486 nm appear clearly. During the formation of this gas, the substrate temperature is raised to $400^{\circ}$C. Once the hydrogen chamber is full of H$^*$ gas, we initiate the rotation of the sample. Since the chamber was situated just under the main and linked to her, we just had to open the shutter between the two to send the radical gas onto the substrate. We exposed the substrate to this gas for 15 minutes, under a pressure of about $6\times10^{-7}$ Torr. We then checked the sample surface with RHEED, which should present a streak pattern with some dots as presented in Fig \ref{Hybrid}(b). 
+		
+		Once the cleaning of the sample was finished, we closed the H$^*$ gas chamber shutter, waited for the ultra-high vacuum to re-established in the main chamber and began the growth of the CdTe layer. We grew it in two times: one hour of growth just after the cleaning (described here) and about four hours just before the actual growth of  the quantum dots structure.
+		
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{HybridSubstrate.eps}
+	\end{center}
+	\caption{Left: Layer structure of the hybrid substrate with its protective Te cap.
+		Right: RHEED pattern taken at different key moment of the growth: (a) before H$^*$ cleaning of GaAs, (b) after H$^*$ cleaning of GaAs, (c) after the growth of the ZnTe layer, (d) after the growth of the CdTe layer.}
+	\label{Hybrid}
+	\end{figure}
+		
+		This first part of the growth took place on a rotating sample. It only take about 15 ML of ZnTe on GaAs for the II-VI compound go back to its original lattice parameter \cite{StrainRelaxZnTeGaAs001}. Moreover, CdTe over ZnTe has a critical thickness of 5 ML \cite{CritThickCdTeZnTe}. So, to accelerate the relaxation of strain, we decided to grow a thing layer of ZnTe above the GaAs, before growing the CdTe thick layer. We lowered the substrate temperature to $320^{\circ}$C and opened the Zn cells for 30s with a BEP of $7.05\times10^{-7}$ Torr in order to flatten the surface. We then opened the Te cells, with a BEP of $5.21\times10^{-7}$ Torr, along with the Zn cell during 50s to grow the ZnTe layer in excess of Zn, making a layer about 7.2 nm thick.
+		
+		We then went to the growth of the first CdTe layer. We lowered again the substrate temperature to $250^{\circ}$C, under Zn flux. Once stabilized at the temperature, we closed Zn cells and open the Cd and Te cells for 1h. The Te cell had the same flux as previously, while the Cd cells had a flux of $4.72\times10^{-7}$ Torr. This layer was 633 nm thick, grown at 0.54 ML.s$^{-1}$. In order to protect the surface, we deposit an amorphous protective layer of Te above it, while decreasing the substrate temperature.
+		
+		\subsection{Unstrained dots growth\label{SFDGrowth}}
+		
+	As said in the introduction, the strain free dots are formed by thickness variation of a CdTe QW surrounded by CdMgTe barrier. In order to have to good confinement while keeping a close enough lattice constant, we chose to use Cd$_{0.7}$Mg$_{0.3}$Te. Therefore, the first step of the growth was to chose the flux for the growth. We went through a process of trial and error, growing several samples and testing their composition with Electron Probe Mico-Analysis and X-Ray diffraction, as well as the thickness grown with a step gauge, in order to estimate the growth speed. Since we wanted to grow Cd$_{0.7}$Mg$_{0.3}$Te, we began the test with a ration Te:Cd of 1:0.7 and a ratio Te:Mg of 1:0.3. After five round of adjustment, we achieve the growth of Cd$_{0.7}$Mg$_{0.3}$Te, settling with the targeted flux presented in Tab.\ref{FluxTempSFD}.
+	For the settled Mg flux, the step gauge indicated a grown thickness of $520 \pm 5$ nm. Since we grew the test layer during 1h, we found a growing speed of about 0.15 nm.s$^{-1}$.
+	\begin{table}[h!]
+	\begin{center}		
+		\begin{tabular}{| c | c |}
+			\hline
+			Elements & Targeted BEP (Torr) \\ \hline
+			Cd & $4.5\times10^{-7}$ \\
+			Cr & N/A \\
+			Mg & $1.6\times10^{-8}$ \\
+			Te & $5.26\times10^{-7}$ \\
+			\hline
+		\end{tabular}
+		\caption{Aimed flux for each cell during the growth of the strained samples.}
+		\label{FluxTempSFD}
+	\end{center}
+	\end{table}
+	
+	We began to heat the substrate temperature to 180$^{\circ}$, in order to remove the protective amorphous Te layer. We waited a few second at this temperature to remove all the deposited Te, and then resumed the heating to go to $250^{\circ}$C. Starting at $200^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $250^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m layer of CdTe, in order to reach the thickness of the relaxation of strains for CdTe/GaAs \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}.
+	
+	For the growth of the quantum well, we had to take into account that the maximum cumulated thickness of CdMgTe grown over CdTe is 130 nm. Above this, the lattice mismatch create dislocation in the barriers \cite{LucienSFD}. We chose to grow 40 nm below the QW, and 90 nm above it, in order to have a thicker protective layer.
+%Moreover, it was shown on Mn that a thick layer above was better for the hole trapping.
+
+	Once the 40 nm barrier layer was grown, we lowered the substrate temperature under Te flux. Growing the QW layer in a Te environment smooth the surface layer of the sample and help having a flat surface to grow the well. Once the substrate temperature reach respectively $180^{\circ}$C (unmarked) or $195^{\circ}$C (marked), we began the ALE of the QW.
+[insert explication on the Cr SFD ALE here]
+The recipe is described in Fig.\ref{RecipeSFD}.
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{RecipeSFD.eps}
+	\end{center}
+	\caption{Opening and closing cycles of each cell for the ALE of strain free (Cd,Cr)Te samples. (not accurate - 12/2015)}
+	\label{RecipeSFD}
+	\end{figure}
+We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
+
+\bibliographystyle{unsrt}
+\bibliography{../Bibliography}
+
+\end{document}

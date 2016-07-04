@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{FirstMBE}
+A.Y. Cho and J.R. Arthur.
+\newblock Molecular beam epitaxy.
+\newblock {\em Progress in Solid State Chemistry}, 10:157 -- 191, 1975.
+
+\bibitem{HMarALE}
+J.~M. Hartmann, G.~Feuillet, M.~Charleux, and H.~Mariette.
+\newblock Atomic layer epitaxy of {CdTe} and {MnTe}.
+\newblock {\em Journal of Applied Physics}, 79(6):3035--3041, 1996.
+
+\bibitem{FirstRHEED}
+J.J. Harris, B~A. Joyce, and P.J. Dobson.
+\newblock Oscillations in the surface structure of {Sn}-doped {GaAs} during
+  growth by {MBE}.
+\newblock {\em Surface Science}, 103(1):L90 -- L96, 1981.
+
+\bibitem{WoodRHEED}
+Colin~E.C. Wood.
+\newblock \{RED\} intensity oscillations during \{MBE\} of {GaAs}.
+\newblock {\em Surface Science}, 108(2):L441 -- L443, 1981.
+
+\bibitem{TeEffect}
+R.~D. Feldman, R.~F. Austin, P.~M. Bridenbaugh, A.~M. Johnson, W.~M. Simpson,
+  B.~A. Wilson, and C.~E. Bonner.
+\newblock Effects of {Zn} to {Te} ratio on the molecular-beam epitaxial growth
+  of {ZnTe} on {GaAs}.
+\newblock {\em Journal of Applied Physics}, 64(3):1191--1195, 1988.
+
+\bibitem{ChangZnTe}
+J.~H. Chang, M.~W. Cho, H.~M. Wang, H.~Wenisch, T.~Hanada, T.~Yao, K.~Sato, and
+  O.~Oda.
+\newblock Structural and optical properties of high-quality {ZnTe}
+  homoepitaxial layers.
+\newblock {\em Applied Physics Letters}, 77(9):1256--1258, 2000.
+
+\bibitem{TinjodMBE}
+F.~Tinjod, B.~Gilles, S.~Moehl, K.~Kheng, and H.~Mariette.
+\newblock {II–VI} quantum dot formation induced by surface energy change of a
+  strained layer.
+\newblock {\em Applied Physics Letters}, 82(24):4340--4342, 2003.
+
+\bibitem{WojnarMBE}
+P.~Wojnar, C.~Bougerol, E.~Bellet-Amalric, L.~Besombes, H.~Mariette, and
+  H.~Boukari.
+\newblock Towards vertical coupling of {CdTe/ZnTe} quantum dots formed by a
+  high temperature tellurium induced process.
+\newblock {\em Journal of Crystal Growth}, 335(1):28 -- 30, 2011.
+
+\bibitem{StrainRelaxCdTeGaAs111}
+K.~Shigenaka, L.~Sugiura, F.~Nakata, and K.~Hirahara.
+\newblock Lattice relaxation in large mismatch systems of {(111)CdTe/(100)GaAs}
+  and {(133)CdTe/(211)GaAs} layers.
+\newblock {\em Journal of Crystal Growth}, 145(1):376 -- 381, 1994.
+
+\bibitem{StrainRelaxCdTeGaAs100}
+H.~Tatsuoka, H.~Kuwabara, Y.~Nakanishi, and H.~Fujiyasu.
+\newblock Strain relaxation of {CdTe}(100) layers grown by hot-wall epitaxy on
+  gaas(100) substrates.
+\newblock {\em Journal of Applied Physics}, 67(11):6860--6864, 1990.
+
+\bibitem{StrainRelaxZnTeGaAs001}
+V.~H. Etgens, M.~Sauvage-Simkin, R.~Pinchaux, J.~Massies, N.~Jedrecy,
+  A.~Waldhauer, S.~Tatarenko, and P.~H. Jouneau.
+\newblock Znte/gaas(001): Growth mode and strain evolution during the early
+  stages of molecular-beam-epitaxy heteroepitaxial growth.
+\newblock {\em Phys. Rev. B}, 47:10607--10612, Apr 1993.
+
+\bibitem{CritThickCdTeZnTe}
+J.~Cibert, Y.~Gobil, Le~Si Dang, S.~Tatarenko, G.~Feuillet, P.~H. Jouneau, and
+  K.~Saminadayar.
+\newblock Critical thickness in epitaxial cdte/znte.
+\newblock {\em Applied Physics Letters}, 56(3):292--294, 1990.
+
+\bibitem{LucienSFD}
+L.~Besombes and H.~Boukari.
+\newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
+\newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
+
+\end{thebibliography}
