@@ -57,25 +57,26 @@ K.~Shigenaka, L.~Sugiura, F.~Nakata, and K.~Hirahara.
 \bibitem{StrainRelaxCdTeGaAs100}
 H.~Tatsuoka, H.~Kuwabara, Y.~Nakanishi, and H.~Fujiyasu.
 \newblock Strain relaxation of {CdTe}(100) layers grown by hot-wall epitaxy on
-  gaas(100) substrates.
+  {GaAs}(100) substrates.
 \newblock {\em Journal of Applied Physics}, 67(11):6860--6864, 1990.
 
 \bibitem{StrainRelaxZnTeGaAs001}
 V.~H. Etgens, M.~Sauvage-Simkin, R.~Pinchaux, J.~Massies, N.~Jedrecy,
   A.~Waldhauer, S.~Tatarenko, and P.~H. Jouneau.
-\newblock Znte/gaas(001): Growth mode and strain evolution during the early
+\newblock {ZnTe}/{GaAs}(001): Growth mode and strain evolution during the early
   stages of molecular-beam-epitaxy heteroepitaxial growth.
 \newblock {\em Phys. Rev. B}, 47:10607--10612, Apr 1993.
 
 \bibitem{CritThickCdTeZnTe}
 J.~Cibert, Y.~Gobil, Le~Si Dang, S.~Tatarenko, G.~Feuillet, P.~H. Jouneau, and
   K.~Saminadayar.
-\newblock Critical thickness in epitaxial cdte/znte.
+\newblock Critical thickness in epitaxial {CdTe/ZnTe}.
 \newblock {\em Applied Physics Letters}, 56(3):292--294, 1990.
 
-\bibitem{LucienSFD}
-L.~Besombes and H.~Boukari.
-\newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
-\newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
+\bibitem{CritThickCdTeCdZnTe}
+J.~Cibert, R.~André, C.~Deshayes, G.~Feuillet, P.H. Jouneau, Le~Si Dang,
+  R.~Mallard, A.~Nahmani, K.~Saminadayar, and S.~Tatarenko.
+\newblock {CdTe/ZnTe}: Critical thickness and coherent heterostructures.
+\newblock {\em Superlattices and Microstructures}, 9(2):271 -- 274, 1991.
 
 \end{thebibliography}
