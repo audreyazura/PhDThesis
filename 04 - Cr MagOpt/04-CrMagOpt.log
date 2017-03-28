@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  28 MAR 2017 00:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  28 MAR 2017 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,16 +952,12 @@ Package epstopdf Info: Source file: <Picture/Fig12-SplitUnderEfiled.eps>
 (epstopdf)                    size: 3638366 bytes
 (epstopdf)             Output file: <Picture/Fig12-SplitUnderEfiled-eps-convert
 ed-to.pdf>
+(epstopdf)                    date: 2017-03-28 00:06:41
+(epstopdf)                    size: 523029 bytes
 (epstopdf)             Command: <repstopdf --outfile=Picture/Fig12-SplitUnderEf
 iled-eps-converted-to.pdf Picture/Fig12-SplitUnderEfiled.eps>
 (epstopdf)             \includegraphics on input line 208.
-runsystem(repstopdf --outfile=Picture/Fig12-SplitUnderEfiled-eps-converted-to.p
-df Picture/Fig12-SplitUnderEfiled.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <Picture/Fig12-SplitUnderEfiled-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2017-03-28 00:06:41
-(epstopdf)                    size: 523029 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <Picture/Fig12-SplitUnderEfiled-eps-converted-to.pdf, id=252, 1138.2525pt x 796
 .9775pt>
@@ -977,23 +973,27 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 208--209
  []
 
 [15 <./Picture/Fig12-SplitUnderEfiled-eps-converted-to.pdf>]
-<../FillingPicture.png, id=267, 650.43pt x 406.51875pt>
-File: ../FillingPicture.png Graphic file (type png)
+<Picture/Fig13-CrCloseDot.png, id=267, 938.75719pt x 542.025pt>
+File: Picture/Fig13-CrCloseDot.png Graphic file (type png)
 
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 218.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+<use Picture/Fig13-CrCloseDot.png>
+Package pdftex.def Info: Picture/Fig13-CrCloseDot.png used on input line 218.
+(pdftex.def)             Requested size: 426.79134pt x 246.42326pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 218--219
+ [] 
+ []
 
 
 LaTeX Warning: Citation `??' on page 16 undefined on input line 227.
 
-(./04-CrMagOpt.bbl [16 <../FillingPicture.png>]
+[16 <./Picture/Fig13-CrCloseDot.png>] (./04-CrMagOpt.bbl [17]
 Chapter II.
-[17
+[18
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
- [18]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (./04-CrMagOpt.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
@@ -1011,8 +1011,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
  7624 strings out of 494958
- 107550 string characters out of 6179214
- 217026 words of memory out of 5000000
+ 107584 string characters out of 6179214
+ 217631 words of memory out of 5000000
  10665 multiletter control sequences out of 15000+600000
  13908 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1030,10 +1030,10 @@ c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 04-CrMagOpt.pdf (18 pages, 3724063 bytes).
+Output written on 04-CrMagOpt.pdf (19 pages, 3827153 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
