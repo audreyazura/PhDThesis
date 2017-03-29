@@ -13,6 +13,8 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage{rotating}
+%\usepackage{wrapfig,booktabs}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -22,7 +24,7 @@
 
 \chapter{Magneto-optical study of Cr-doped CdTe quantum dots\label{MagOptStud}}
 
-	In this chapter, we will study the photoluminescence of a single Chromium atom in a II-VI quantum dot. We saw in the chap.~\ref{CrSemiCon} that the magnetic anisotropy of the spin lead to a zero magnetic field splitting of the $0$, $\pm 1$ and $\pm 2$ states. In a neutral Cr-doped quantum dot, such a magnetic anisotropy is induced by the bi-axial strains in the plane of the dots. Studying the magnetic-field dependence of the quantum dots photoluminescence, we will also show the influence of the QD symmetry on carrier-Cr spin coupling. The proximity of the dark excitons lead to a characteristic repartition of intensity on the three luminescence peaks of the QD. However, some dots are not explained by this model, and need to take the position of Cr atom in regard of the dot into account.
+	In this chapter, we will study the photoluminescence of a single Chromium atom in a II-VI quantum dot. We saw in the chap.~\ref{CrSemiCon} that the magnetic anisotropy of the spin lead to a zero magnetic field splitting of the $0$, $\pm 1$ and $\pm 2$ states. In a neutral Cr-doped quantum dot, such a magnetic anisotropy is induced by the bi-axial strains in the plane of the dots. Studying the magnetic-field dependence of the quantum dots photoluminescence, we will also show the influence of the symmetry on carrier-Cr spin coupling. However, some dots are not explained by this model, and need to take the position of Cr atom in regard of the dot into account.
 
 	\section{A system strongly coupled to strain state at the Cr position}
 	
@@ -32,9 +34,9 @@
 		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig01-PLE.eps}
+		\includegraphics[width=15cm]{Picture/PLE.eps}
 	\end{center}
-	\caption{(a) Map of QD1 X-Cr complex low temperature ($T=5K$) emission function of the laser excitation energy. A sharp quasi-resonant start can be observed for an excitation of 2100 meV. (b) QD1 X-Cr complex PL for an excitation of 2100 meV in $\sigma +$ detection. The X$^2$-Cr PL of this QD is presented in (c). (d) X-Cr PL of a dot with a higher symmetry (QD2).}
+	\caption{(a) PL map of QD1 X-Cr complex low temperature ($T=5K$) function of the laser excitation energy. A sharp quasi-resonant state can be observed for an excitation of 2100 meV. (b) QD1 X-Cr complex PL for an excitation of 2100 meV in $\sigma +$ detection. The X$^2$-Cr PL of this QD is presented in (c). (d) X-Cr PL of a dot with a higher symmetry (QD2).}
 	\label{SpectraXX2}
 	\end{figure}
 
@@ -44,27 +46,28 @@ The relative intensities of the lines and their splitting changes from dot to do
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig02-LinPol.eps}
+		\includegraphics[width=15cm]{Picture/LinPol.eps}
 	\end{center}
 	\caption{(a) PL of a dot doped with a single Cr atom on the neutral exciton (QD3) in two perpendicular $\pi$ detection configurations. (b) Linear polarization PL map for this QD. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the QD cleavage axis, either $110$ or $1\bar{1}0$.}
 	\label{CrLinPolar}
 	\end{figure}
 	
-	Cr-doped quantum dots exhibit a linear polarization dependence, as presented in Fig.~\ref{CrLinPolar}. The central line (S$_z$=0) is split and linearly polarized along two orthogonal directions. As in non-magnetic QDs, this results from a coupling of the two bright excitons $|\pm1\rangle$ by (i) the short range e-h exchange interaction in the presence of valence band mixing and/or (ii) the long-range e-h exchange interaction in a QD with an in-plane shape anisotropy~\cite{SplitInvTh}. This anisotropic e-h exchange energy mixes the bright exciton associated with the same Cr spin state, inducing an extra splitting between them. The mixing is maximum for the central pair of bright exciton (S$_z$=0) which are initially degenerated. The outer lines are also slightly linearly polarized but the influence of the e-h exchange interaction is attenuated by the initial splitting of the $|\pm1\rangle$ excitons induced by the exchange interaction with the Cr spin S$_z$=$\pm1$.	
+	Cr-doped quantum dots exhibit a linear polarization dependence, as presented in Fig.~\ref{CrLinPolar}. The central line (S$_z$=0) is split and linearly polarized along two orthogonal directions. As in non-magnetic QDs, this results from a coupling of the two bright excitons $|\pm1\rangle$ by (i) the short range e-h exchange interaction in the presence of valence band mixing and/or (ii) the long-range e-h exchange interaction in a QD with an in-plane shape anisotropy~\cite{SplitInvTh}. This anisotropic e-h exchange energy mixes the bright exciton associated with the same Cr spin state, inducing an extra splitting between them. The mixing is maximum for the central pair of bright excitons (S$_z$=0) which are initially degenerated. The outer lines are also slightly linearly polarized but the influence of the e-h exchange interaction is attenuated by the initial splitting of the $|\pm1\rangle$ excitons induced by the exchange interaction with the Cr spin S$_z$=$\pm1$.	
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{Picture/Fig03-Decay.eps}
+		\includegraphics[width=10cm]{Picture/Decay.eps}
 	\end{center}
 	\caption{Time resolved PL of QD3 taken on its high energy peak and the lower energy one, respectively noted (1) and (4) in Fig.~\ref{CrLinPolar} (a).}
 	\label{CrDecay}
 	\end{figure}
 
 	Looking at the time resolved photoluminescence, presented in Fig.~\ref{CrDecay}, we see that the line (4) present a decay time about twice as long as the high energy peak. A long recombination time is one of the characteristics of a dark exciton emission~\cite{DELongLifetime}. Under normal circumstances, the recombination of such a state is non-radiative. However, it is possible to observe a dark exciton recombination emitting a photon in low symmetry quantum dot~\cite{DELum}. This hypothesis will be confirmed by the magneto-optical study of the dot presented in Fig.~\ref{CrMagOptExp} and \ref{CrMagOptMod}.
+	\newline
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{Picture/Fig04-EnLvl.png}
+		\includegraphics[width=10cm]{Picture/EnLvl.png}
 	\end{center}
 	\caption{Illustration of the energy levels of the ground state (Cr), the bright exciton states ($|\pm1\rangle$) coupled to the spin of a Cr (X-Cr) and dominant PL transitions ($\sigma$+, $\sigma$-). The states $|\pm2\rangle$ can't be reached through themarlization, so no recombination line are linked to them.}
 	\label{CrEnergyStruct}
@@ -76,157 +79,231 @@ The relative intensities of the lines and their splitting changes from dot to do
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=7cm]{Picture/Fig05-Temp.eps}
+		\includegraphics[width=7cm]{Picture/Temp.eps}
 	\end{center}
 	\caption{Temperature evolution of QD3 PL. The red shift and peak broadening are clearly visible. However, even at 40K, $|\pm2\rangle$ states present no PL peak.}
 	\label{CrTemp}
 	\end{figure}
 	
-	For highly strained CdTe/ZnTe QDs with a weak hole confinement, the strain induced energy splitting of the Cr spin $D_0S^2_z$ is much larger than the exchange energy with the confined carriers ($D_0\gg |I_{hCr}|>|I_{eCr}|$). The exchange interaction with the exciton acts as an effective magnetic field which further splits the Cr spins states S$_z$=$\pm$1 and S$_z$=$\pm$2. The resulting X-Cr energy levels are presented in Fig.~\ref{CrEnergyStruct}. The exciton recombination does not affect the Cr atom and its spin is conserved during the optical transitions. Consequently, the large strained induced splitting of the Cr spin is not directly observed in the optical spectra. However, at low temperature, the Cr spin thermalize on the low energy states S$_z$=0 and S$_z$=$\pm$1. This leads to a PL dominated by three contributions: a central line corresponding to S$_z$=0 and the two outer lines associated with S$_z$=$\pm$1 split by the exchange interaction with the carriers.
+	For highly strained CdTe/ZnTe QDs with a weak hole confinement, the strain induced energy splitting of the Cr spin $D_0S^2_z$ is much larger than the exchange energy with the confined carriers ($D_0\gg |I_{hCr}|>|I_{eCr}|$). The exchange interaction with the exciton acts as an effective magnetic field which further splits the Cr spins states S$_z$=$\pm$1 and S$_z$=$\pm$2. The resulting X-Cr energy levels are presented in Fig.~\ref{CrEnergyStruct}. The exciton recombination does not affect the Cr atom and its spin is conserved during the optical transitions. Consequently, the large strain induced splitting of the Cr spin is not directly observed in the optical spectra. However, at low temperature, the Cr spin thermalize on the low energy states S$_z$=0 and S$_z$=$\pm$1. This leads to a PL dominated by three contributions: a central line corresponding to S$_z$=0 and the two outer lines associated with S$_z$=$\pm$1 split by the exchange interaction with the carriers.
 	
-	Since the thermal energy do not allow the $\pm$2 level to be populated, we tried to rise the sample temperature and see if we were able to have emission corresponding to them. The results of this experiment are presented in Fig.~\ref{CrTemp}. We were able to rise the temperature up to 40K before the peak broadening arising from the interaction with phonons completely blurred the quantum dot emission. However, even at those temperatures, no emission of the $\pm$2 level was observed.
+	The temperature dependence of the X-Cr emission in QD4 at zero magnetic field is presented in figure \ref{CrTemp}. With the increase of the temperature, we observe a significant line broadening induced by the interaction with acoustic phonons. In the investigated temperature range where we still obtain a significant PL intensity and resolved PL lines (below T=50K), no contribution of the S$_z$=$\pm$2 Cr spins states are observed in the emission of the exciton.
 	\newline
 		
-	\begin{figure}[h!]
+	\begin{sidewaysfigure}
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig06-FullPLE}
+		\includegraphics[width=20cm]{Picture/FullPLE}
 	\end{center}
-	\caption{(a) Map of QD3 PL under a scan in laser energy close to the dot emission in $\sigma -$ detection. Several interesting points are highlighted on zoom on each side of this whole map. (b) Map of the first few meV of the scan, showing the phonon replica. The emission integrated intensity in function of the laser energy is plotted in (c) (black curve) along with the PL spectra of QD3. (d) - (f) present a zoom in a larger band at higher excitation energy in $\pi$,  $\sigma +$ and $\sigma -$ respectively. (g) Zoom in a particular excited state presented a splitting inversion, presented here in $\pi$ detection.}
+	\caption{(a) Map of QD3 PL under a scan in laser energy close to the dot emission in $\sigma -$ detection. Several interesting points are highlighted on zoom on each side of this whole map. (b) Map of the first few meV of the scan, showing the phonon replica. The emission integrated intensity in function of the laser energy is plotted in (c) (black curve) along with the PL spectra of QD3 (red curve). (d) - (f) present a zoom in a larger band at higher excitation energy in $\pi$,  $\sigma +$ and $\sigma -$ respectively. (g) Zoom on a particular excited state presented a splitting inversion, presented here in $\pi$ detection.}
 	\label{CrPLE}
-	\end{figure}
+	\end{sidewaysfigure}
+	
+%	\begin{figure}[h!]
+%	\begin{center}
+%		\includegraphics[width=15cm]{Picture/FullPLE}
+%	\end{center}
+%	\caption{(a) Map of QD3 PL under a scan in laser energy close to the dot emission in $\sigma -$ detection. Several interesting points are highlighted on zoom on each side of this whole map. (b) Map of the first few meV of the scan, showing the phonon replica. The emission integrated intensity in function of the laser energy is plotted in (c) (black curve) along with the PL spectra of QD3. (d) - (f) present a zoom in a larger band at higher excitation energy in $\pi$,  $\sigma +$ and $\sigma -$ respectively. (g) Zoom in a particular excited state presented a splitting inversion, presented here in $\pi$ detection.}
+%	\label{CrPLE}
+%	\end{figure}
 
-	The scan map itself present some other point of interest, highlighted in Fig.~\ref{CrPLE}.
+	A laser scan close to QD PL energy reveals other excited states, highlighted in Fig.~\ref{CrPLE}.
 	
-	The first remarkable feature of this scan is the really long luminescence of the acoustic phonon replica. As shown on the zoom in Fig.~\ref{CrPLE}(b), the peaks still emit with an excitation several millielectronvolt above the line and the dot emission energy, remaining visible until 2004 meV. One can also see two sharp intensity diminutions in this emission. Mapping the intensity of this peak emission to the quantum dot spectrum (Fig.~\ref{CrPLE}(c)), it is evidenced that these diminutions occur when the laser is in resonance with a QD emission line. The absorption then preferentially occur in this resonantly excited state than in the acoustic phonon band.
+	The first remarkable feature of this scan is the really long luminescence of the acoustic phonon replica. As shown on the zoom in Fig.~\ref{CrPLE}(b), the peaks still emit with an excitation several millielectronvolt above the dot emission energy, remaining visible until 2004 meV. One can also see two sharp intensity diminutions in this emission. Mapping the intensity of this peak emission to the quantum dot spectrum (Fig.~\ref{CrPLE}(c)), it is evidenced that these diminutions occur when the laser is in resonance with a QD emission line. The absorption then preferentially occurs in this resonantly excited state than in the acoustic phonon band.
 	
-	At higher excitation energy, several excited state appear. The first one, the one at lower energy, is around 2018.5 meV, zoomed in on Fig.~\ref{CrPLE}(d). On this excited state, each peak presents a slightly different resonant energy. One can see that the order of appearance of the two central peaks seems to be reversed compared to the external ones. This phenomenon was first observed on QDs in GaAs quantum well~\cite{FineStructSplitGaAsdots}. This indicates an inversion of the splitting due to electron-hole exchange interaction~\cite{SplitInvTh}.
+	At higher excitation energy, several excited states appear. The lower energy one is around 2018.5 meV, zoomed in on Fig.~\ref{CrPLE}(g). On this excited state, each peak presents a slightly different resonant energy. One can see that the order of appearance of the two central peaks seems to be reversed compared to the external ones. This phenomenon was first observed on QDs in GaAs quantum well~\cite{FineStructSplitGaAsdots}. This indicates an inversion of the splitting due to electron-hole exchange interaction~\cite{SplitInvTh}.
 	
-	Another excited state can be saw at 2025 meV. This excited state occurs on a large energy band and can be linked back to an excitation to the optical phonon. Looking at the $\sigma$ polarized emission of this state (Fig.~\ref{CrPLE}(f) and (g)), we can see that this excitation present a really good spin conservation: the low and high energy peak are strongly $\sigma$ polarized, while the central peaks do not show dependency over circular polarization, like the emission of the dot when excited on an optical quasi-resonant state. 
+	Another excited state can be saw at 2025 meV. This excited state occurs on a large energy band and can be linked back to an excitation to the optical phonon. Looking at the $\sigma$ polarized emission of this state (Fig.~\ref{CrPLE}(e) and (f)), we can see that this excitation presents a really good spin conservation: the low and high energy peaks are strongly $\sigma$ polarized, while the central peaks do not show dependency over circular polarization, like the emission of the dot when excited on an optical quasi-resonant state. 
 	
 	Finally, another interesting excited state appear at 2030 meV. This state present an exchange-induced splitting  different from the splitting in the quasi-resonant state. This is due to a difference in the carriers and Cr atom wavefunction overlap. One can also noticed the this state present a stronger luminescence in $\sigma_{cross}$ than in $\sigma_{co}$, [TO REDISCUSS] hinting at a spin flip of the hole before the recombination.
 		
-		\subsection{Deduction of the quantum dot parameters\label{QDParam}}
+		\subsection{Modelization of a Cr-doped QD\label{QDParam}}
 		
 		The structure of the energy levels in Cr-doped QDs is confirmed by the evolution of the PL spectra in magnetic field, presented in Fig.~\ref{CrMagOptExp}. One can see that the Zeeman energy of the exciton under magnetic field can compensate the exciton splitting induced by the exchange interaction with the Cr~\cite{LegerQDGeomEffect}. For QD3, this results in an anti-crossing of $|+1\rangle$ and $|-1\rangle$ excitons due to the e-h exchange interaction around B$_z$=6 T observed both in $\sigma$+ and $\sigma$- polarizations (anti-crossing (2) and (3) in Fig.~\ref{CrMagOptExp}(a)).
 		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig07-MagOpt.eps}
+		\includegraphics[width=10cm]{Picture/MagOptv2.eps}
 	\end{center}
-	\caption{(a) Circularly polarized X-Cr PL evolution under magnetic field (B$_z$) in QD2. (b) Map of such an evolution for QD2. (c) PL intensity map of X-Cr in QD3 versus magnetic field (B$_z$) (d) PL intensity map of X$^2$-Cr in QD3 versus such magnetic field.}
+	\caption{(a) Circularly polarized X-Cr PL evolution under magnetic field (B$_z$) in QD2. Noticeable anti-crossing  are highlighted and numbered. (b) QD2 X-Cr PL spectra taken at different magnetic field values.}
 	\label{CrMagOptExp}
 	\end{figure}
 		
-		The low energy emission presented as a dark exciton in Fig.~\ref{CrDecay} show an anti-crossing with the bright excitons under B$_z$ in $\sigma$- polarization (anti-crossing (4) in Fig.~\ref{CrMagOptExp}). As illustrated in Fig.~\ref{CrMagOptMod}(c) this anti-crossing arises from a mixing of the bright and dark excitons interacting with the same Cr spin state. Observed in $\sigma$- polarization, it corresponds to the mixing of the exciton states $|-1\rangle$ and $|+2\rangle$ coupled to the Cr spin S$_z$=-1. This dark/bright exciton coupling $\delta_{12}$ is induced by the e-h exchange interaction in a confining potential of reduced symmetry (lower than C$_{2v}$)~\cite{DERecombTh}. In such symmetry, the dark excitons acquire an in-plane dipole moment which lead to possible optical recombination at zero magnetic field~\cite{DELum} as observed in these QDs. The oscillator strength of this "dark exciton" increases as the initial splitting between $|-1\rangle$ and $|+2\rangle$ excitons is reduced by the magnetic field (Fig.~\ref{CrMagOptMod}(c)).
+		The low energy emission presented as a dark exciton in Fig.~\ref{CrDecay} shows an anti-crossing with the bright excitons under B$_z$ in $\sigma$- polarization (anti-crossing (4) in Fig.~\ref{CrMagOptExp}). As illustrated in Fig.~\ref{CrMagOptMod}(b), this anti-crossing arises from a mixing of the bright and dark excitons interacting with the same Cr spin state. Observed in $\sigma$- polarization, it corresponds to the mixing of the exciton states $|-1\rangle$ and $|+2\rangle$ coupled to the Cr spin S$_z$=-1. This dark/bright exciton coupling $\delta_{12}$ is induced by the e-h exchange interaction in a confining potential of reduced symmetry (lower than C$_{2v}$)~\cite{DERecombTh}. In such symmetry, the dark excitons acquire an in-plane dipole moment which lead to possible optical recombination at zero magnetic field~\cite{DELum} as observed in these QDs. The oscillator strength of this "dark exciton" increases as the initial splitting between $|-1\rangle$ and $|+2\rangle$ excitons is reduced by the magnetic field (Fig.~\ref{CrMagOptMod}(b)).
 		
-		To illustrate the influence of the QD symmetry on the magneto-optical properties of X-Cr, we compare in Fig.~\ref{CrMagOptExp} the emission of two QDs with different strain state, QD1 in (a) and QD2 in (b). For QD1, the splitting of the central peak is not clear in the PL at 0T (Fig.~\ref{SpectraXX2}(a)) without the linear polarization map, while two linearly polarized peaks appears clearly in QD2 spectra. This difference in emission arise from a difference in the in-plane strain of each QD~\cite{SplitInvTh}. The dark exciton emission is also stronger in QD2, confirming a lower symmetry than QD1.
+		\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{Picture/MagOptLowSym.eps}
+	\end{center}
+	\caption{(a) PL intensity map of X-Cr in QD3 variations in linear polarization (up) and versus magnetic field (B$_z$, down). (b) PL intensity map of X$^2$-Cr variations in QD3 in linear polarization (up) and versus magnetic field (B$_z$, down).}
+	\label{CrMagOptLowSym}
+	\end{figure}
 		
-		Investigating both the biexciton and the exciton in the same Cr-doped QD, we can also analyze the impact of the carrier-Cr interaction on the fine structure of the Cr spin. The magnetic field dependence of X$^2$-Cr and X-Cr emissions in QD4 are presented as a contour plot in Fig.~\ref{CrMagOptExp}(b) and (c) respectively. The PL under magnetic field of X-Cr and X$^2$-Cr present a mirror symmetry. In particular, the dark/bright exciton mixing observed around B$_z$=2.5T on the low energy side of the PL in $\sigma-$ polarization for X-Cr is observed on the high energy side in $\sigma+$ polarization for X$^2$-Cr (circles in Fig.~\ref{CrMagOptExp}(b) and (c)).
+		To illustrate the influence of the QD symmetry on the magneto-optical properties of X-Cr, we show in Fig.~\ref{CrMagOptLowSym}(a) the emission of a QD with a different strain state (QD3). For QD2, the splitting of the central peak is not clear in the PL at 0T (Fig.~\ref{SpectraXX2}(a)) without the linear polarization map, while two linearly polarized peaks appears clearly in QD3 spectra. This difference in emission arise from a difference in the in-plane strain of each QD~\cite{SplitInvTh}. The dark exciton emission is also stronger in QD3, confirming a lower symmetry than QD2.
 		
-		If one consider the ground state of X$^2$ as a spin-singlet (total spin 0), it cannot be split by the magnetic field or the spin interaction part of the carriers-Cr Hamiltonian. The creation of two excitons in the QD cancels the exchange interaction with the Cr atom. Thus, the PL of  X$^2$-Cr is controlled by the final state of the optical transitions, i.e. the eigenstates of X-Cr, resulting in the observed mirror symmetry in the PL spectra. However, in some of the QDs, the X$^2$-Cr emission slightly deviates from this simple picture: a smaller energy splitting is observed for X$^2$-Cr compared to X-Cr (see X-Cr and X$^2$-Cr in Fig.~\ref{SpectraXX2} and Fig.~\ref{CrMagOptExp}). This shows that there is an interaction of X$^2$ with the Cr atom. It could result from a perturbation of the carriers' wave function by the interaction with the magnetic atom~\cite{CarInSpinSplit,BiexFinStruct} or a modification the local electric field which controls the Cr fine structure. [TO BE INVESTIGATED]
+		Investigating both the biexciton and the exciton in the same Cr-doped QD, we can also analyze the impact of the carrier-Cr interaction on the fine structure of the Cr spin. The magnetic field dependency of X$^2$-Cr emission in QD2 is presented along with the X-Cr emission as a contour plot in Fig.~\ref{CrMagOptLowSym}(a) and (b) respectively. The PL under magnetic field of X-Cr and X$^2$-Cr present a mirror symmetry. In particular, the dark/bright exciton mixing observed around B$_z$=2.5T on the low energy side of the PL in $\sigma-$ polarization for X-Cr is observed on the high energy side in $\sigma+$ polarization for X$^2$-Cr (circles in Fig.~\ref{CrMagOptLowSym}(a) and (b)).
+		
+		If one consider the ground state of X$^2$ as a spin-singlet (total spin 0), it cannot be split by the magnetic field or the spin interaction part of the carriers-Cr Hamiltonian. The creation of two excitons in the QD cancels the exchange interaction with the Cr atom. Thus, the PL of  X$^2$-Cr is controlled by the final state of the optical transitions, i.e. the eigenstates of X-Cr, resulting in the observed mirror symmetry in the PL spectra. However, in some of the QDs, the X$^2$-Cr emission slightly deviates from this simple picture: a smaller energy splitting is observed for X$^2$-Cr compared to X-Cr (see X-Cr and X$^2$-Cr in Fig.~\ref{SpectraXX2} and Fig.~\ref{CrMagOptLowSym}). This shows that there is an interaction of X$^2$ with the Cr atom. It could result from a perturbation of the carriers' wave function by the interaction with the magnetic atom~\cite{CarInSpinSplit,BiexFinStruct} or a modification the local electric field which controls the Cr fine structure. [TO BE INVESTIGATED]
 		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig08-SimulMagOpt.eps}
+		\includegraphics[width=10cm]{Picture/SimulMagOptv2.eps}
 	\end{center}
-	\caption{(a) X-Cr linear polarization intensity map in QD3 at zero field. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the QD cleavage axis, either $110$ or $1\bar{1}0$. (b) QD3 PL intensity map of X-Cr evolution under magnetic field. Noticeable anti-crossing  are highlighted and numbered. (c) Calculated linear polarization PL intensity map of X-Cr at zero field. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the $100$ axis. (d) Calculated QD3 X-Cr circularly polarized magnetic field dependence. Details of the model and parameters are listed in Tab.~\ref{CrModelParam}. Corresponding anti-crossing are highlighted in same fashion as on (c). (e) Scheme of the magnetic field dependence of the energy levels of the low energy Cr spin states S$_z$=0 and S$_z$=$\pm$1 and corresponding bright ($|+1\rangle$ blue, $|-1\rangle$ red) and dark ($|\pm2\rangle$ green) X-Cr energy levels.}
+	\caption{(a) Up: Calculated linear polarization PL intensity map of X-Cr at zero field. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the $100$ axis. Down: Calculated QD3 X-Cr circularly polarized magnetic field dependency. Details of the model and parameters are listed in Tab.~\ref{CrModelParam}. Corresponding anti-crossing are highlighted in same fashion as on Fig.~\ref{CrMagOptExp}. (b) Schema of the magnetic field dependency of the energy levels of the low energy Cr spin states S$_z$=0 and S$_z$=$\pm$1 and corresponding bright ($|+1\rangle$ blue, $|-1\rangle$ red) and dark ($|\pm2\rangle$ green) X-Cr energy levels.}
 	\label{CrMagOptMod}
 	\end{figure}
 	
-	We calculated the magneto-optic behaviour of Cr-doped QDs by diagonalizing the complete Hamiltonian of the e-h-Cr system presented in chap.~\ref{DMSQDTh}. We considered the general case of QDs with a symmetry lower than C$_{2v}$ (truncated ellipsoidal lens for instance~\cite{DERecombTh}), and took into account the influence of this reduced symmetry on the valence band and on the e-h exchange interaction. The population of the X-Cr spin states split by the large magnetic anisotropy and the carriers-Cr exchange interaction is described by a spin effective temperature T$_{eff}$. The results of the model obtained with T$_{eff}$=25K, D$_0$=2.5 meV and an electron-Cr (hole-Cr) exchange interaction I$_{eCr}$=-70$\mu$eV (I$_{hCr}$=-280 $\mu$eV) are reported in Fig.~\ref{CrMagOptMod}(parameters not specific to Cr-doped QDs are listed in Tab.~\ref{CrModelParam}). Such parameters do not aim to fit the data and are only reasonable order of magnitude. The PL of X-Cr at zero field and its evolution in magnetic field can be qualitatively reproduced. In particular, the description of the spin states occupation by T$_{eff}$ is sufficient to reproduce the observed emission from the three low energy X-Cr levels (Cr spin states S$_z$=0 and S$_z$=$\pm$1). The splitting of the central line at zero field (anti-crossing (1)) and the anti-crossings under magnetic field (anti-crossings (2) and (3) around B$_z$=6T for the Cr spin states S$_z$=+1 and anti-crossings (4) with the dark exciton around B$_z$=2T) are also well reproduced by the model.
+	We calculated the magneto-optic behaviour of Cr-doped QDs by diagonalizing the complete Hamiltonian of the e-h-Cr system presented in chap.~\ref{DMSQDTh}:
 	
-	\begin{table}[t]
+	\begin{eqnarray}
+\label{X-Cr} {\cal H}_{X-Cr}={\cal H}_{Cr,\varepsilon}+{\cal H}_{c-Cr}+{\cal H}_{mag}+{\cal H}_{e-h}+{\cal H}_{band}+{\cal H}_{scat}
+\end{eqnarray}
+where:
+
+${\cal H}_{Cr,\varepsilon}$ describes the fine structure of the Cr atom and its dependency on local strain. It is drived by D$_0$, the magnetic anisotropy,  and E, the in-plane strains.
+
+${\cal H}_{c-Cr}$ describes the coupling of the electron and hole with the Cr spin, depending on I$_eCr$, the exchange integral of the electron-Cr spins, and I$_hCr$, the exchange integral of the hole-Cr spins.
+
+${\cal H}_{mag}$ describes the effect of an exterior magnetic field, coupled to both the Cr and carrier spins by the Zeeman terms,  depending on the $g$-factor of each of them, and including the diamagnetic shift of the electron-hole  via the term $\gamma$.
+
+${\cal H}_{e-h}$ describes the short range and long range electron-hole interaction, through the bright and dark exciton splitting $\delta_0$, the bright exciton coupling $\delta_1$, the dark exciton coupling $\delta_2$ and the bright and dark exciton coupling $\delta_{11}$ and $\delta_{12}$.
+
+${\cal H}_{band}$, the band Hamiltonian, stands for the energy of the electrons (i.e. the band gap energy E$_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, $R=\delta_{xx,yy}-i\delta_{xy}$ the heavy-hole / light-hole mixing induced by an anisotropy in the quantum dot plane $xy$, and $Q=\delta_{xz}-i\delta_{yz}$ taking into account an asymmetry in the plane containing the quantum dot growth axis $z$.
+
+${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton in the initial state of the optical transition by the hole-Cr exchange interaction, controlled by the parameter $\eta$.
+
+	We considered the general case of QDs with a symmetry lower than C$_{2v}$ (truncated ellipsoidal lens for instance~\cite{DERecombTh}), and took into account the influence of this reduced symmetry on the valence band and on the e-h exchange interaction. The population of the X-Cr spin states split by the large magnetic anisotropy and the carriers-Cr exchange interaction is described by a spin effective temperature T$_{eff}$. The results of the model obtained with T$_{eff}$=25K, D$_0$=2.5 meV and an electron-Cr (hole-Cr) exchange interaction I$_{eCr}$=-70$\mu$eV (I$_{hCr}$=-280 $\mu$eV) are reported in Fig.~\ref{CrMagOptMod} (parameters not specific to Cr-doped QDs are listed in Tab.~\ref{CrModelParam}). Such parameters do not aim to fit the data and are only reasonable order of magnitude. The PL of X-Cr at zero field and its evolution in magnetic field can be qualitatively reproduced. In particular, the description of the spin states occupation by T$_{eff}$ is sufficient to reproduce the observed emission from the three low energy X-Cr levels (Cr spin states S$_z$=0 and S$_z$=$\pm$1). The splitting of the central line at zero field (anti-crossing (1)) and the anti-crossings under magnetic field (anti-crossings (2) and (3) around B$_z$=6T for the Cr spin states S$_z$=+1 and anti-crossings (4) with the dark exciton around B$_z$=2T) are also well reproduced by the model.
+	
+	
+%	\begin{table}[t] \centering
+%	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{SpectraXX2}(b). The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
+%	\renewcommand{\arraystretch}{1.0}
+%	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{1.3cm}
+%p{0.9cm}p{0.9cm}}
+%\hline\hline
+%I$_{eCr}$ & I$_{hCr}$ & $\delta_0$ & $\delta_1$ & $\delta_{12}$ & $\delta_{11}$ & $\frac{|Q|}{\Delta_{lh}}$ & $\frac{|R|}{\Delta_{lh}}$ & arg(R) & $D_0$ & $g_{Cr}$ & $g_{e}$ & $g_{h}$ & $\gamma$ & $\eta$ & $T_{eff}$ \\
+%$\mu eV$ & $\mu eV$ & $meV$ & $\mu eV$ & $\mu eV$ & $\mu eV$ &  & & & $meV$ & &  &  & $\mu eV/T^2$ & $\mu eV$ & K \\
+%\hline
+%-70 & -280 & -1 & 250 & 150 & 50 & 0.05 & 0.05& $-\frac{\pi}{2}$ & 2.5 & 2 & -0.7 & 0.4 & 1.5 & 25 & 25 \\
+%\hline\hline 
+%	\end{tabular}
+%	\label{CrModelParam}
+%	\end{table}
+
+%\begin{wraptable}{r}{5.5cm}
+%	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{SpectraXX2}(b). The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
+%	\renewcommand{\arraystretch}{1.0}
+%	\begin{tabular}{m{1.3cm}|m{1.3cm}||m{1.3cm}}
+%I$_{eCr}$ & $\mu eV$ & -70\newline \\
+%I$_{hCr}$ & $\mu eV$ & -280\newline \\
+%$\delta_0$ & $meV$ & -1\newline \\
+%$\delta_1$ & $\mu eV$ & 250\newline \\
+%$\delta_{12}$ & $\mu eV$ & 150\newline \\
+%$\delta_{11}$ & $\mu eV$ & 50\newline \\
+%$\frac{|Q|}{\Delta_{lh}}$ &  & 0.05\newline \\
+%$\frac{|R|}{\Delta_{lh}}$ &  & 0.05\newline \\
+%arg(R) &  & $-\frac{\pi}{2}$\newline \\
+%$D_0$ & $meV$ & 2.5\newline \\
+%$g_{Cr}$ &  & 2\newline \\
+%$g_{e}$ &  & -0.7\newline \\
+%$g_{h}$ &  & 0.4\newline \\
+%$\gamma$ & $\mu eV/T^2$ & 1.5\newline \\
+%$\eta$ & $\mu eV$ & 25\newline \\
+%$T_{eff}$ & K & 25\newline \\
+%	\end{tabular}
+%	\label{CrModelParam}
+%	\end{wraptable}
+
+\begin{table}[t] \centering
 	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{SpectraXX2}(b). The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
 	\renewcommand{\arraystretch}{1.0}
-	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.7cm}p{1.3cm}p{1.3cm}p{0.9cm}p{0.9cm}p{0.9cm}}
+	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}}
 \hline\hline
-I$_{eCr}$ & I$_{hCr}$ & $\delta_0$ & $\delta_1$ & $\delta_{12}$ & $\delta_{11}$ & $\frac{Module(Q)}{\Delta_{lh}}$ & $\frac{Module(R)}{\Delta_{lh}}$ & arg(R) & $D_0$ & $g_{Cr}$ \\
-$\mu eV$ & $\mu eV$ & $meV$ & $\mu eV$ & $\mu eV$ & $\mu eV$ &  & & & $meV$ &  \\
+I$_{eCr}$ & I$_{hCr}$ & $\delta_0$ & $\delta_1$ & $\delta_{12}$ & $\delta_{11}$ & $\frac{|Q|}{\Delta_{lh}}$ & $\frac{|R|}{\Delta_{lh}}$ \\
+$\mu eV$ & $\mu eV$ & $meV$ & $\mu eV$ & $\mu eV$ & $\mu eV$ &  & \\
 \hline
--70 & -280 & -1 & 250 & 150 & 50 & 0.05 & 0.05& $-\frac{\pi}{2}$ & 2.5 & 2 \\
-\hline\hline
+-70 & -280 & -1 & 250 & 150 & 50 & 0.05 & 0.05 \\
+\hline\hline 
 	\end{tabular}
-	\begin{tabular}{p{0.9cm}p{0.9cm}p{1.3cm}p{0.9cm}p{0.9cm}}
-\hline\hline
-$g_{e}$ & $g_{h}$ & $\gamma$ & $\eta$ & $T_{eff}$ \\
-  &  & $\mu eV/T^2$ & $\mu eV$ & K \\
+	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{1.3cm}p{0.9cm}p{0.9cm}}
+arg(R) & $D_0$ & $g_{Cr}$ & $g_{e}$ & $g_{h}$ & $\gamma$ & $\eta$ & $T_{eff}$ \\
+ & $meV$ & &  &  & $\mu eV/T^2$ & $\mu eV$ & K \\
 \hline
--0.7 & 0.4 & 1.5 & 25 & 25 \\
-\hline\hline	  
+$-\frac{\pi}{2}$ & 2.5 & 2 & -0.7 & 0.4 & 1.5 & 25 & 25 \\
+\hline\hline
 	\end{tabular}
 	\label{CrModelParam}
 	\end{table}
 	
-	The magnetic anisotropy D$_0$ cannot be precisely extracted from the PL spectra. However, a too large value would produce a smaller PL intensity of the sates S$_z$=$\pm$1 than observed experimentally. In addition, for D$_0$ $<$ 2.25 meV, an anti-crossing due to an electron-Cr flip-flop controlled by I$_{eCr}$, labelled (5) in Fig.~\ref{CrMagOptMod}(c), would appear below B$_z$=11T on the central line in $\sigma$+ polarization.
+	The magnetic anisotropy D$_0$ cannot be precisely extracted from the PL spectra. However, a higher value would produce a smaller PL intensity of the sates S$_z$=$|\pm1\rangle$ than observed experimentally. In addition, for D$_0$ $<$ 2.25 meV, an anti-crossing due to an electron-Cr flip-flop controlled by I$_{eCr}$, labelled (5) in Fig.~\ref{CrMagOptMod}(c), would appear below B$_z$=11T on the central line in $\sigma$+ polarization.
+	
+	One characteristic emerging from our model is the necessity to have a E value close to 0 $\mu$eV to reproduce the measures. Having shown that our model reproduce well the evolution of the emission under various type of excitation, we can run it to see the influence of E on the emission. Results of such a study are presented on Fig.~\ref{CrHighE}, (a) and (b) for the X-Cr system, and (c) and (d) for the X$^c$-Cr one. This simulation was done by applying a small magnetic anisotropy along the $x$ axis of the quantum dot, creating an effective E from this strain anisotropy in the QD plane.
+	
+	The first remarkable feature appear on the linear polarization dependency of the X-Cr system(Fig.~\ref{CrHighE}(a)). While, with a small value of E, only the $|0\rangle$ peaks presents linear polarization, at higher value, $|\pm 1\rangle$ peaks presents the same behaviour. X$^c$-Cr, as expected, even with this high E value, doesn't present any linear polarization dependency, as shown on Fig.~\ref{CrHighE}(c).
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{Picture/Fig09-HighE.eps}
+		\includegraphics[width=10cm]{Picture/HighE.eps}
 	\end{center}
-	\caption{For QD with a magnetic anisotropy along the $x$ axis (D$_x$ = 50 $\mu$eV, D$_y$ = 0 $\mu$eV, to be compared with D$_z$ = 2500 $\mu$eV): (a) calculated X-Cr linear polarization PL intensity; (b) calculated X-Cr circularly polarized magnetic field dependence; (c) calculated X$^c$-Cr linear polarization PL intensity; and (d) calculated X$^c$-Cr circularly polarized magnetic field dependence.}
+	\caption{For a QD with a small magnetic anisotropy along the $x$ axis (D$_x$ = 50 $\mu$eV, D$_y$ = 0 $\mu$eV,  D$_z$ = 2500 $\mu$eV): (a) calculated X-Cr linear polarization PL intensity; (b) calculated X-Cr circularly polarized magnetic field dependency; (c) calculated X$^c$-Cr linear polarization PL intensity; and (d) calculated X$^c$-Cr circularly polarized magnetic field dependency.}
 	\label{CrHighE}
 	\end{figure}
 	
-	One characteristic emerging from our model is the necessity to have a E value close to 0 $\mu$eV to reproduce the measures. Now that we show that our model reproduce well the evolution of the emission under various type of excitation, we can run it to see the influence of E on the emission. Results of such a study are presented on Fig.~\ref{CrHighE}, (a) and (b) for the X-Cr system, and (c) and (d) for the X$^c$-Cr one. This simulation was done by applying a small magnetic anisotropy along the $x$ axis of the quantum dot, creating an effective E from this strain anisotropy in the QD plane.
-	
-	The first remarkable feature appear on the linear polarization dependency of the X-Cr system(Fig.~\ref{CrHighE}(a)). While, with a small value of E, only the $|0\rangle$ states presents linear polarization, at higher value, $|\pm 1\rangle$ states also present some. The quantum dot should then appears to present six peaks when probed in circular polarization. As expected, even with this high E value, X$^c$-Cr doesn't present any linear polarization dependency, as shown on Fig.~\ref{CrHighE}(c), and would in this case still present the usual three peaks structure.
-	
-	The evolution of the emission under magnetic field also presents different characteristics than a QD with magnetic anisotropy purely along z. Fig.~\ref{CrHighE}(b) presents the evolution in B of the X-Cr emission. Firstly, one can see anti-crossings at $\pm$5T appearing on both $|+1\rangle$ and $|-1\rangle$, and not only one of them. Moreover, around 0T, several anti-crossing appear, not only on the $|0\rangle$ peak, but also on the $|\pm1\rangle$. X$^c$-Cr also presents a peculiar magnetic field evolution in a QD with a E value, presented in Fig.~\ref{CrHighE}(d). If, for high B, no anti-crossing is visible, one s around 0T. This anti-crossing appears when the Zeeman effect of the Cr atom compensates the electron-Chromium interaction and the hole-Chromium interaction. Such an anti-crossing is characteristic of this type of dots and will be useful in their identification: while the six peaks of the X-Cr might be undistinguishable at 0T, X$^c$-Cr would still present 3 peaks and show this particular evolution under magnetic field.
+	The evolution of the emission under magnetic field also presents different characteristics than a QD with magnetic anisotropy purely along z. Fig.~\ref{CrHighE}(b) presents the evolution in B of the X-Cr emission. Firstly, one can see anti-crossings at $\pm$5T appearing on both $|+1\rangle$ and $|-1\rangle$, and not only one of them. Moreover, around 0T, several anti-crossing appear, not only on the $|0\rangle$ peak, but also on the $|\pm1\rangle$. X$^c$-Cr also presents a peculiar magnetic field evolution in a QD with a E value, presented in Fig.~\ref{CrHighE}(d). If, for high B, no anti-crossing is visible, one occurs around 0T. This anti-crossing appears when the Zeeman effect of the Cr atom compensates the electron-Chromium interaction and the hole-Chromium interaction. Such an anti-crossing is characteristic of this type of dots and will be useful in their identification.
 
 				
 	
 	\section{The case of six peaks dots}
 	
-	We showed in the section \ref{QDParam} that each peaks can be doubled for a QD with a a non-null in-plane anisotropy, each of theses having dependency in linear polarization. Some dots present this structure, but their evolution in magnetic field didn't show any anti-crossing. Such a dot is presented in Fig.~\ref{CrSixPeaksMagOpt}.
+	Some dots were found presenting a linear polarization dependency both on their central peaks and on their exterior peaks. However, such dots didn't present any anti-crossing when probed under magnetic field. Results of these experiments are presented in Fig.~\ref{CrSixPeaksMagOpt}.
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig10-6peaks.eps}
+		\includegraphics[width=15cm]{Picture/6peaks.eps}
 	\end{center}
 	\caption{(a) QD4 circularly polarized PL intensity at zero magnetic field. (b) X-Cr linear polarization PL dependence at zero magnetic of this QD. Both central and exterior peaks present linear polarization dependencies in this dots. (c) X-Cr magnetic field PL dependence on this QD. No anti-crossing are identifiable.}
 	\label{CrSixPeaksMagOpt}
 	\end{figure}
 	
-	A common feature of all of these dot is the well defined X$^+$-Cr structures PL, shown on Fig.~\ref{CrSixPeaksMagOpt}(a) around 1949mev (X$^+$-Cr). Such QDs always present thin and well splitted X$^c$-Cr peaks. X-Cr and X$^2$-Cr appear in two different forms in $\sigma$ polarization detection. In Fig.~\ref{CrSixPeaksMagOpt}(a), we can see these two structures appearing with three well defined peaks, with a broad emission. A linear polarization map of the PL of such a dot shows that each peak presents such a dependency (Fig.~\ref{CrSixPeaksMagOpt} (b)).
+	A common feature of all of these dots is the thin and well split X$^+$-Cr PL structures, shown on Fig.~\ref{CrSixPeaksMagOpt}(a) around 1949mev. X-Cr and X$^2$-Cr also present three well defined peaks, with a broad emission. A linear polarization map of the PL of such a dot shows that each peak presents such a dependency (Fig.~\ref{CrSixPeaksMagOpt}(b)).
 	
-	This figure would be expected for a QD presenting a strong in-plane anisotropy. To analyse them further, magneto-optic experiments were performed on these dots. The result of such an experiment is presented in Fig.~\ref{CrSixPeaksMagOpt}(c). The shift induced by the diamagnetic shift and the Zeeman is clearly visible. However, no anti-crossing appears whatever the magnetic field applied. As shown in Fig.~\ref{CrHighE}, QD with a high in-plane anisotropy should present several anti-crossing, especially around 0T. The picture is then not coherent with these low symmetry quantum dots.
+	This figure would be expected for a QD presenting a strong in-plane anisotropy. To analyse them further, magneto-optic experiments were performed on these dots. The result of such an experiment is presented in Fig.~\ref{CrSixPeaksMagOpt}(c). The  diamagnetic shift is clearly visible. However, no anti-crossing appears whatever the magnetic field applied. As shown in Fig.~\ref{CrHighE}, QD with a high in-plane anisotropy should present several anti-crossing, especially around 0T. The picture is then not coherent with these low symmetry quantum dots.
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=5cm]{Picture/Fig11-EfieldXc.png}
+		\includegraphics[width=15cm]{Picture/EfieldX-Xc.eps}
 	\end{center}
-	\caption{X$^c$-Cr circular polarization PL intensity evolution under electric field. A strong stark shift is observed, as well as variation in the splitting.}
+	\caption{(a) QD4 whole PL evolution under application of a bias voltage. (b) Zoom on X$^c$-Cr circular polarization PL intensity evolution under electric field. A strong stark shift is observed, as well as variation in the splitting.}
 	\label{CrSixPeaksEFieldX+}
 	\end{figure}
 	
-	In order to have more informations on these dots, it was decided to study them applying a bias voltage. In order to apply an electric field, we realized a sample with a Schottky gate in the same fashion as the one in chap.~\ref{ChargeSelec}. The resulting map is presented in Fig.~\ref{CrSixPeaksEFieldX+}. The first visible feature is the strong electric field dependency of the emission energy, more marked for X-Cr than for the X$^c$-Cr systems. The emission energy variation of the X-Cr complex occur on a 2.9 meV scale.
+	In order to have more informations on these dots, it was decided to study them applying a bias voltage. The application of an electric field was realized via a sample with a Schottky gate in the same fashion than the one in chap.~\ref{ChargeSelec}. The resulting map is presented in Fig.~\ref{CrSixPeaksEFieldX+}. The first visible feature is the strong electric field dependency of the emission energy, more marked for X-Cr than for the X$^c$-Cr systems. The emission energy variation of the X-Cr complex occur on a 2.9 meV scale.
 	
 	There is another remarkable point on these maps, evidenced on the X$^+$-Cr complex on the Fig.~\ref{CrSixPeaksEFieldX+}(b): the splitting between each peak is changing with the applied electric field. The emission extension varies from 0 meV for an applied bias voltage of -12V (no splitting) to 0.76 meV for 13V applied. This disappearance of the splitting for a certain bias voltage indicates that the overlap between the electron and the hole wave functions is changed by the application of an exterior electric field, to the point where they don't overlap at all.
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig12-SplitUnderEfiled.eps}
+		\includegraphics[width=12cm]{Picture/SplitUnderEfiled.eps}
 	\end{center}
-	\caption{(a) Whole circular PL of QD5 under quasi-resonant excitation with applied electric field. (b) X$^+$-Cr, X$^-$-Cr and X$^2$-Cr circular PL intensity evolution in electric field. (c) X-Cr circular PL intensity evolution in electric field. A splitting began to appear around -2V of applied bias voltage. (d) X-Cr circular PL for an applied bias voltage of -2.5V. (e) X-Cr PL intensity dependency in linear polarization. In order to have the best contrast, the map was taken at -2.5V bias voltage. The same picture also appear at no bias voltage, with a narrower splitting and a lesser contrast.}
+	\caption{(a) Whole circular PL of QD6 under quasi-resonant excitation with applied electric field. (b) X$^+$-Cr, X$^-$-Cr and X$^2$-Cr circular PL intensity evolution in electric field. (c) X-Cr circular PL intensity evolution in electric field. A splitting began to appear around -2V of applied bias voltage. (d) X-Cr circular PL for an applied bias voltage of -2.5V. (e) X-Cr PL intensity dependency in linear polarization. In order to have the best contrast, the map was taken at -2.5V bias voltage. The same picture also appear with no bias voltage applied, although with a narrower splitting and a lesser contrast.}
 	\label{CrSixPeaksComplete}
 	\end{figure}
 	
-	Fig.~\ref{CrSixPeaksComplete}(a) shows that, using electric field, we can manipulate the splitting of any given state. For all positive bias voltage between 0V and 13V, X-Cr present a broad emission containing all six peaks in linear emission, as show on Fig.~\ref{CrSixPeaksComplete}(d). The splitting begins to clearly appears around an applied voltage of -1V. X$^+$-Cr presents a splitting at 0V, widening at lower applied electric field, and diminishing when going to positives, with null splitting at 2.5V. The same kind a phenomena are also visible on X$^-$-Cr and X$^2$-Cr.
+	Fig.~\ref{CrSixPeaksComplete}(a) shows that, using electric field, we can manipulate the splitting of any given charged state of the QD. For all positive bias voltage between 0V and 13V, X-Cr present a broad emission containing all six peaks in linear emission, as show on Fig.~\ref{CrSixPeaksComplete}(d). The splitting begins to clearly appear around an applied voltage of -1V. X$^+$-Cr presents a splitting at 0V, widening at lower applied electric field, and diminishing when going to positives, with null splitting at 2.5V. The same kind of phenomena is also visible on X$^-$-Cr and X$^2$-Cr.
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{Picture/Fig13-CrCloseDot.png}
+		\includegraphics[width=15cm]{Picture/CrCloseDot.png}
 	\end{center}
 	\caption{(a) Cr accessible charged states in ZnTe according to ref.~\cite{CrZnTe}. (b)-(d) Illustration of the effect of a punctual charge on the wavefunction of an electron (red) and a hole (yellow) in a quantum dots. These are not results of a calculation, and only serve to illustrate the text.}
 	\label{CrOutsideDot}
 	\end{figure}
 	
 	
-	This three peaks emission shows that we have a three levels system emitting at three different energies. However, the magnetic field evolution presented in Fig.~\ref{CrSixPeaksMagOpt}(e) does not reflect the presence of a magnetic atom in the quantum dot. Moreover, evolution under electric field shows huge changes in the wave function overlap. Finally, the bias voltage shows a strong shift under the application of an electric field.
+	This three peaks emission shows that we have a three levels system emitting at three different energies. However, the magnetic field evolution presented in Fig.~\ref{CrSixPeaksMagOpt}(c) does not reflect the presence of a magnetic atom in the quantum dot. Moreover, evolution under electric field shows huge changes in the wave function overlap. Finally, the bias voltage shows a strong shift under the application of an electric field.
 	
-	Quantum dots with multiple energy emission was already found, linked to a change of the QD electrical environment, like the proximity of a defect with two possible states (neutral or charged). This system can then emit at two different energies, depending on the defect charge state, changing over time~\cite{??}. A defect with three charged states could then create three emission peaks. 
+	Quantum dots with multiple energy emissions was already found, linked to a change of the QD electrical environment, like the proximity of a defect with two possible states (neutral or charged). This system can then emit at two different energies, depending on the defect charge state, changing over time~\cite{??}. A defect with three charged states could then create three emission peaks. 
 	
-	Cr in ZnTe is incorporated as Cr$^{2+}$, but, as shown on Fig.\ref{CrOutsideDot}(a), the Cr$^+$ and Cr$^3+$ are also accessible~\cite{CrZnTe}, meaning all three electric states are accessible, either by capting an electron (Cr$^+$) or a hole (Cr$^3+$). Considering such a charge close to the QD, it can be view as a punctual one, since the dot is far bigger than the atom. The effect on the wave functions, presented in Fig.\ref{CrOutsideDot}(b)-(d), differs depending on the electrical charge of the Cr atom, leading to three different possible emission energies.
+	Cr in ZnTe is incorporated as Cr$^{2+}$, but, as shown on Fig.\ref{CrOutsideDot}(a), the Cr$^+$ and Cr$^{3+}$ are also accessible~\cite{CrZnTe}, leading to three possible charged states for the Cr, either by capting an electron (Cr$^+$) or a hole (Cr$^{3+}$). Considering such a charge close to the QD, it can be viewed as a punctual one, since the dot is far bigger than the atom. The effect on the wave functions, presented in Fig.\ref{CrOutsideDot}(b)-(d), differs depending on the electrical charge of the Cr atom, leading to three different possible emission energies.
 	
 	This hypothesis is currently tested, along with the capacity for the Cr to diffuse outside the quantum dots layer.
 
