@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  28 MAR 2017 21:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  7 APR 2017 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,179 +641,293 @@ LaTeX Info: Redefining \nameref on input line 21.
 
 
 Chapter I.
-<../FillingPicture.png, id=60, 650.43pt x 406.51875pt>
+<../FillingPicture.png, id=52, 650.43pt x 406.51875pt>
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 31.
+Package pdftex.def Info: ../FillingPicture.png used on input line 32.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../FillingPicture.png>]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 43.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
+Package epstopdf Info: Source file: <Picture/AutocorPeaks.eps>
+(epstopdf)                    date: 2017-04-07 18:44:50
+(epstopdf)                    size: 691606 bytes
+(epstopdf)             Output file: <Picture/AutocorPeaks-eps-converted-to.pdf>
 
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 53.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+(epstopdf)                    date: 2017-04-07 18:48:02
+(epstopdf)                    size: 88118 bytes
+(epstopdf)             Command: <repstopdf --outfile=Picture/AutocorPeaks-eps-c
+onverted-to.pdf Picture/AutocorPeaks.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
 
+<Picture/AutocorPeaks-eps-converted-to.pdf, id=62, 739.76375pt x 725.71124pt>
+File: Picture/AutocorPeaks-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use Picture/AutocorPeaks-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/AutocorPeaks-eps-converted-to.pdf used on inpu
+t line 68.
+(pdftex.def)             Requested size: 284.52756pt x 279.11731pt.
+ [2 <./Picture/AutocorPeaks-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Picture/AutocorPw.eps>
+(epstopdf)                    date: 2017-04-07 19:00:04
+(epstopdf)                    size: 536623 bytes
+(epstopdf)             Output file: <Picture/AutocorPw-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-07 19:02:56
+(epstopdf)                    size: 123817 bytes
+(epstopdf)             Command: <repstopdf --outfile=Picture/AutocorPw-eps-conv
+erted-to.pdf Picture/AutocorPw.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
 
-[2]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 67.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+<Picture/AutocorPw-eps-converted-to.pdf, id=82, 255.95625pt x 449.68pt>
+File: Picture/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Picture/AutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/AutocorPw-eps-converted-to.pdf used on input l
+ine 80.
+(pdftex.def)             Requested size: 170.71652pt x 299.92545pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 79.
+Package epstopdf Info: Source file: <Picture/CrosscorFit+B.eps>
+(epstopdf)                    date: 2017-04-07 20:12:58
+(epstopdf)                    size: 312504 bytes
+(epstopdf)             Output file: <Picture/CrosscorFit+B-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-04-07 20:14:16
+(epstopdf)                    size: 49595 bytes
+(epstopdf)             Command: <repstopdf --outfile=Picture/CrosscorFit+B-eps-
+converted-to.pdf Picture/CrosscorFit+B.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+ <Picture/CrosscorFit+B-eps-converted-to.pdf, id=91, 654.445pt x 313.17pt>
+File: Picture/CrosscorFit+B-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Picture/CrosscorFit+B-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/CrosscorFit+B-eps-converted-to.pdf used on inp
+ut line 95.
+(pdftex.def)             Requested size: 426.79134pt x 204.23186pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Picture/FillingPicture.png, id=92, 650.43pt x 406.51875pt>
+File: Picture/FillingPicture.png Graphic file (type png)
+
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 105.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 94.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 104.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [5] [6]
-Package epstopdf Info: Source file: <Picture/Fig09-PwVar.eps>
+[4 <./Picture/AutocorPw-eps-converted-to.pdf>] [5 <./Picture/CrosscorFit+B-eps-
+converted-to.pdf> <./Picture/FillingPicture.png>]
+Package epstopdf Info: Source file: <Picture/PwVar.eps>
 (epstopdf)                    date: 2017-03-24 21:19:07
 (epstopdf)                    size: 2352949 bytes
-(epstopdf)             Output file: <Picture/Fig09-PwVar-eps-converted-to.pdf>
+(epstopdf)             Output file: <Picture/PwVar-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-03-24 21:19:29
 (epstopdf)                    size: 108129 bytes
-(epstopdf)             Command: <repstopdf --outfile=Picture/Fig09-PwVar-eps-co
-nverted-to.pdf Picture/Fig09-PwVar.eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             Command: <repstopdf --outfile=Picture/PwVar-eps-converte
+d-to.pdf Picture/PwVar.eps>
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<Picture/Fig09-PwVar-eps-converted-to.pdf, id=110, 612.2875pt x 612.2875pt>
-File: Picture/Fig09-PwVar-eps-converted-to.pdf Graphic file (type pdf)
+<Picture/PwVar-eps-converted-to.pdf, id=111, 612.2875pt x 612.2875pt>
+File: Picture/PwVar-eps-converted-to.pdf Graphic file (type pdf)
 
-<use Picture/Fig09-PwVar-eps-converted-to.pdf>
-Package pdftex.def Info: Picture/Fig09-PwVar-eps-converted-to.pdf used on input
- line 116.
+<use Picture/PwVar-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/PwVar-eps-converted-to.pdf used on input line 
+117.
 (pdftex.def)             Requested size: 284.52756pt x 284.5239pt.
 
 
-LaTeX Warning: Citation `??' on page 7 undefined on input line 122.
+LaTeX Warning: Citation `??' on page 6 undefined on input line 123.
 
-[7 <./Picture/Fig09-PwVar-eps-converted-to.pdf>]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 126.
+[6 <./Picture/PwVar-eps-converted-to.pdf>]
+File: Picture/FillingPicture.png Graphic file (type png)
+ <use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 127.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
+Package epstopdf Info: Source file: <Picture/SimulAutoCross.eps>
+(epstopdf)                    date: 2017-04-07 20:13:23
+(epstopdf)                    size: 539590 bytes
+(epstopdf)             Output file: <Picture/SimulAutoCross-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-04-07 20:14:19
+(epstopdf)                    size: 117975 bytes
+(epstopdf)             Command: <repstopdf --outfile=Picture/SimulAutoCross-eps
+-converted-to.pdf Picture/SimulAutoCross.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
 
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 138.
+<Picture/SimulAutoCross-eps-converted-to.pdf, id=125, 511.9125pt x 483.8075pt>
+File: Picture/SimulAutoCross-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Picture/SimulAutoCross-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/SimulAutoCross-eps-converted-to.pdf used on in
+put line 139.
+(pdftex.def)             Requested size: 284.52756pt x 268.90761pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `DotSpectra' on page 7 undefined on input line 145.
+
+[7]
+File: Picture/FillingPicture.png Graphic file (type png)
+ <use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 149.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 148.
+[8 <./Picture/SimulAutoCross-eps-converted-to.pdf>]
+File: Picture/FillingPicture.png Graphic file (type png)
+
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 159.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 158.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [10]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 168.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
+Package epstopdf Info: Source file: <Picture/SimulAutocorPw.eps>
+(epstopdf)                    date: 2017-04-07 20:28:16
+(epstopdf)                    size: 357586 bytes
+(epstopdf)             Output file: <Picture/SimulAutocorPw-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-04-07 20:29:13
+(epstopdf)                    size: 80877 bytes
+(epstopdf)             Command: <repstopdf --outfile=Picture/SimulAutocorPw-eps
+-converted-to.pdf Picture/SimulAutocorPw.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
 
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 180.
+<Picture/SimulAutocorPw-eps-converted-to.pdf, id=150, 250.9375pt x 446.66875pt>
+File: Picture/SimulAutocorPw-eps-converted-to.pdf Graphic file (type pdf)
+<use Picture/SimulAutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/SimulAutocorPw-eps-converted-to.pdf used on in
+put line 169.
+(pdftex.def)             Requested size: 170.71652pt x 303.88748pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Picture/Pump0+1.eps>
+(epstopdf)                    date: 2017-04-07 20:51:04
+(epstopdf)                    size: 587155 bytes
+(epstopdf)             Output file: <Picture/Pump0+1-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=Picture/Pump0+1-eps-conver
+ted-to.pdf Picture/Pump0+1.eps>
+(epstopdf)             \includegraphics on input line 181.
+runsystem(repstopdf --outfile=Picture/Pump0+1-eps-converted-to.pdf Picture/Pump
+0+1.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Picture/Pump0+1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-07 21:06:57
+(epstopdf)                    size: 79586 bytes.
+<Picture/Pump0+1-eps-converted-to.pdf, id=151, 497.86pt x 702.625pt>
+File: Picture/Pump0+1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Picture/Pump0+1-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/Pump0+1-eps-converted-to.pdf used on input lin
+e 181.
+(pdftex.def)             Requested size: 284.52756pt x 401.5618pt.
+ [9]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Picture/FillingPicture.png Graphic file (type png)
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 191.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 190.
+[10]
+File: Picture/FillingPicture.png Graphic file (type png)
+ <use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 201.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] [12]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 200.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 212.
+Package epstopdf Info: Source file: <Picture/RelaxDark.eps>
+(epstopdf)                    date: 2017-04-07 21:06:26
+(epstopdf)                    size: 328740 bytes
+(epstopdf)             Output file: <Picture/RelaxDark-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=Picture/RelaxDark-eps-conv
+erted-to.pdf Picture/RelaxDark.eps>
+(epstopdf)             \includegraphics on input line 213.
+runsystem(repstopdf --outfile=Picture/RelaxDark-eps-converted-to.pdf Picture/Re
+laxDark.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Picture/RelaxDark-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-07 21:06:59
+(epstopdf)                    size: 47208 bytes.
+<Picture/RelaxDark-eps-converted-to.pdf, id=162, 620.3175pt x 347.2975pt>
+File: Picture/RelaxDark-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Picture/RelaxDark-eps-converted-to.pdf>
+Package pdftex.def Info: Picture/RelaxDark-eps-converted-to.pdf used on input l
+ine 213.
+(pdftex.def)             Requested size: 284.52756pt x 159.29774pt.
+ [11 <./Picture/SimulAutocorPw-eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./Picture/Pump0+1-eps-converted-to.pdf>] [13]
+File: Picture/FillingPicture.png Graphic file (type png)
+
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 227.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 226.
+File: Picture/FillingPicture.png Graphic file (type png)
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 237.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 236.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [15]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 246.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+[14 <./Picture/RelaxDark-eps-converted-to.pdf>] [15]
+File: Picture/FillingPicture.png Graphic file (type png)
 
-(./05-CrDyn.bbl [16]
+<use Picture/FillingPicture.png>
+Package pdftex.def Info: Picture/FillingPicture.png used on input line 247.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ (./05-CrDyn.bbl [16]
 Chapter II.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
  [17
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (./05-CrDyn.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `05-CrDyn.out' has not changed.
-(rerunfilecheck)             Checksum: 8245EA8F2C8881D28EEA011207075A8C;1115.
+(rerunfilecheck)             Checksum: 304B1CCF67044155E520AEBA4C43CE28;971.
 
 
 LaTeX Warning: There were undefined references.
@@ -821,20 +935,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 7560 strings out of 494958
- 105424 string characters out of 6179214
- 207641 words of memory out of 5000000
- 10619 multiletter control sequences out of 15000+600000
+ 7592 strings out of 494958
+ 106783 string characters out of 6179214
+ 207481 words of memory out of 5000000
+ 10648 multiletter control sequences out of 15000+600000
  13908 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,6n,35p,1709b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,6n,35p,1709b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
 home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
-audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audre
-yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audreyazur
+audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audre
+yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audreyazur
 a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazura/.te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
@@ -842,10 +956,10 @@ ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb>
-Output written on 05-CrDyn.pdf (17 pages, 245770 bytes).
+Output written on 05-CrDyn.pdf (17 pages, 817334 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
