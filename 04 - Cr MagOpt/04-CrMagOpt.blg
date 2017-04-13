@@ -3,51 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 04-CrMagOpt.aux
 The style file: unsrt.bst
 Database file #1: ../Bibliography.bib
-I was expecting a `,' or a `}'---line 462 of file ../Bibliography.bib
- : 
- : T2  -
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "??"
-You've used 16 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            567 strings with 6955 characters,
-and the built_in function-call counts, 4279 in all, are:
-= -- 336
-> -- 274
+            561 strings with 6751 characters,
+and the built_in function-call counts, 4038 in all, are:
+= -- 317
+> -- 260
 < -- 0
-+ -- 97
-- -- 81
-* -- 388
-:= -- 736
-add.period$ -- 48
-call.type$ -- 16
-change.case$ -- 16
++ -- 92
+- -- 77
+* -- 367
+:= -- 695
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 144
-empty$ -- 367
-format.name$ -- 81
-if$ -- 886
+cite$ -- 15
+duplicate$ -- 135
+empty$ -- 345
+format.name$ -- 77
+if$ -- 835
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 16
-newline$ -- 83
-num.names$ -- 16
-pop$ -- 16
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 49
+skip$ -- 46
 stack$ -- 0
-substring$ -- 347
-swap$ -- 16
+substring$ -- 329
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 37
-width$ -- 18
-write$ -- 178
-(There was 1 error message)
+while$ -- 35
+width$ -- 17
+write$ -- 167
+(There was 1 warning)

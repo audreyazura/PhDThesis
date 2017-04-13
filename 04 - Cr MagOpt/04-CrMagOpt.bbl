@@ -5,6 +5,23 @@ L.~Besombes and H.~Boukari.
 \newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
 \newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
 
+\bibitem{EPRCr}
+J.~T. Vallin and G.~D. Watkins.
+\newblock Epr of ${\mathrm{cr}}^{2+}$ in {II-VI} lattices.
+\newblock {\em Phys. Rev. B}, 9:2051--2072, Mar 1974.
+
+\bibitem{DMSCrExchInt}
+W.~Mac, A.~Twardowski, and M.~Demianiuk.
+\newblock s,p-d exchange interaction in {Cr}-based diluted magnetic
+  semiconductors.
+\newblock {\em Phys. Rev. B}, 54:5528--5535, Aug 1996.
+
+\bibitem{CdCrSExchInt}
+M.~Herbich, W.~Mac, A.~Twardowski, K.~Ando, Y.~Shapira, and M.~Demianiuk.
+\newblock Magnetization and exciton spectroscopy of the diluted magnetic
+  semiconductor ${\mathrm{cd}}_{1\ensuremath{-}x}{\mathrm{cr}}_{x}\mathrm{S}$.
+\newblock {\em Phys. Rev. B}, 58:1912--1921, Jul 1998.
+
 \bibitem{SplitInvTh}
 T.~Takagahara.
 \newblock Theory of exciton doublet structures and polarization relaxation in
@@ -25,23 +42,6 @@ M.~Bayer, G.~Ortner, O.~Stern, A.~Kuther, A.~A. Gorbunov, A.~Forchel,
 \newblock Fine structure of neutral and charged excitons in self-assembled
   in(ga)as/(al)gaas quantum dots.
 \newblock {\em Phys. Rev. B}, 65:195315, May 2002.
-
-\bibitem{EPRCr}
-J.~T. Vallin and G.~D. Watkins.
-\newblock Epr of ${\mathrm{cr}}^{2+}$ in {II-VI} lattices.
-\newblock {\em Phys. Rev. B}, 9:2051--2072, Mar 1974.
-
-\bibitem{DMSCrExchInt}
-W.~Mac, A.~Twardowski, and M.~Demianiuk.
-\newblock s,p-d exchange interaction in {Cr}-based diluted magnetic
-  semiconductors.
-\newblock {\em Phys. Rev. B}, 54:5528--5535, Aug 1996.
-
-\bibitem{CdCrSExchInt}
-M.~Herbich, W.~Mac, A.~Twardowski, K.~Ando, Y.~Shapira, and M.~Demianiuk.
-\newblock Magnetization and exciton spectroscopy of the diluted magnetic
-  semiconductor ${\mathrm{cd}}_{1\ensuremath{-}x}{\mathrm{cr}}_{x}\mathrm{S}$.
-\newblock {\em Phys. Rev. B}, 58:1912--1921, Jul 1998.
 
 \bibitem{FineStructSplitGaAsdots}
 D.~Gammon, E.~S. Snow, B.~V. Shanabrook, D.~S. Katzer, and D.~Park.
@@ -85,12 +85,6 @@ Y.~L\'eger, L.~Besombes, L.~Maingault, and H.~Mariette.
 \newblock Valence-band mixing in neutral, charged, and {Mn}-doped
   self-assembled quantum dots.
 \newblock {\em Phys. Rev. B}, 76:045331, Jul 2007.
-
-\bibitem{PwSuperLinInc}
-Michael~A. Reshchikov, Anita~J. Olsen, Marilyn~F. Bishop, and Tom McMullen.
-\newblock Superlinear increase of photoluminescence with excitation intensity
-  in {Zn}-doped {GaN}.
-\newblock {\em Phys. Rev. B}, 88:075204, Aug 2013.
 
 \bibitem{CrZnTe}
 Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
