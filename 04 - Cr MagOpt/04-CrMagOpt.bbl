@@ -86,16 +86,16 @@ Y.~L\'eger, L.~Besombes, L.~Maingault, and H.~Mariette.
   self-assembled quantum dots.
 \newblock {\em Phys. Rev. B}, 76:045331, Jul 2007.
 
-\bibitem{CrZnTe}
-Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
-\newblock The chromium impurity in znte: Changes of the charge state detected
-  by optical and epr spectroscopy.
-\newblock {\em ZPCH}, 201:63, Jan 1997.
-
 \bibitem{ChargeSpectFluct}
 H.~Kamada and T.~Kutsuwa.
 \newblock Broadening of single quantum dot exciton luminescence spectra due to
   interaction with randomly fluctuating environmental charges.
 \newblock {\em Phys. Rev. B}, 78:155324, Oct 2008.
+
+\bibitem{CrZnTe}
+Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
+\newblock The chromium impurity in znte: Changes of the charge state detected
+  by optical and epr spectroscopy.
+\newblock {\em ZPCH}, 201:63, Jan 1997.
 
 \end{thebibliography}

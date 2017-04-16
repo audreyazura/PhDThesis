@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  15 APR 2017 00:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  16 APR 2017 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,7 +806,7 @@ ted-to.pdf Picture/PLE2030.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
-<Picture/PLE2030-eps-converted-to.pdf, id=137, 811.03pt x 910.40125pt>
+<Picture/PLE2030-eps-converted-to.pdf, id=138, 811.03pt x 910.40125pt>
 File: Picture/PLE2030-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Picture/PLE2030-eps-converted-to.pdf>
@@ -818,9 +818,9 @@ e 128.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./Picture/PLEDotPres-eps-converted-to.pdf>]
-Overfull \hbox (0.49684pt too wide) in paragraph at lines 138--139
+Overfull \hbox (5.13042pt too wide) in paragraph at lines 138--139
 []\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
-0 meV. This state present
+0 meV. This state presents
  []
 
 [8 <./Picture/PLEClose-eps-converted-to.pdf>]
@@ -886,10 +886,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Reference `Cralone' on page 12 undefined on input line 185.
 
 
-LaTeX Warning: Reference `IhCr' on page 12 undefined on input line 187.
-
-
-LaTeX Warning: Reference `IeCr' on page 12 undefined on input line 187.
+LaTeX Warning: Reference `HcCr' on page 12 undefined on input line 187.
 
 
 LaTeX Warning: Reference `Ieh' on page 12 undefined on input line 194.
@@ -968,7 +965,7 @@ Package epstopdf Info: Source file: <Picture/EfieldX-Xc.eps>
 verted-to.pdf Picture/EfieldX-Xc.eps>
 (epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
-<Picture/EfieldX-Xc-eps-converted-to.pdf, id=276, 668.4975pt x 534.99875pt>
+<Picture/EfieldX-Xc-eps-converted-to.pdf, id=277, 668.4975pt x 534.99875pt>
 File: Picture/EfieldX-Xc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Picture/EfieldX-Xc-eps-converted-to.pdf>
@@ -995,7 +992,7 @@ r-eps-converted-to.pdf Picture/SplitUnderEfiledXCr.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<Picture/SplitUnderEfiledXCr-eps-converted-to.pdf, id=284, 614.295pt x 555.0737
+<Picture/SplitUnderEfiledXCr-eps-converted-to.pdf, id=286, 614.295pt x 555.0737
 5pt>
 File: Picture/SplitUnderEfiledXCr-eps-converted-to.pdf Graphic file (type pdf)
  <use Picture/SplitUnderEfiledXCr-eps-converted-to.pdf>
@@ -1006,7 +1003,7 @@ on input line 321.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Picture/CrCloseDot.png, id=288, 938.75719pt x 542.025pt>
+<Picture/CrCloseDot.png, id=290, 938.75719pt x 542.025pt>
 File: Picture/CrCloseDot.png Graphic file (type png)
 
 <use Picture/CrCloseDot.png>
@@ -1042,10 +1039,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 7757 strings out of 494958
- 109371 string characters out of 6179214
- 218893 words of memory out of 5000000
- 10787 multiletter control sequences out of 15000+600000
+ 7756 strings out of 494958
+ 109365 string characters out of 6179214
+ 218821 words of memory out of 5000000
+ 10786 multiletter control sequences out of 15000+600000
  13908 words of font info for 35 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,18n,35p,1427b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1062,9 +1059,9 @@ c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 04-CrMagOpt.pdf (22 pages, 2927166 bytes).
+Output written on 04-CrMagOpt.pdf (22 pages, 2927065 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
+ 610 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
  68 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
