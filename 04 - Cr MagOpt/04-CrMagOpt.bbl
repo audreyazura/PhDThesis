@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{BesombesPumpMnSFD}
-L.~Besombes and H.~Boukari.
-\newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
-\newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
-
 \bibitem{EPRCr}
 J.~T. Vallin and G.~D. Watkins.
 \newblock Epr of ${\mathrm{cr}}^{2+}$ in {II-VI} lattices.
@@ -48,6 +43,11 @@ D.~Gammon, E.~S. Snow, B.~V. Shanabrook, D.~S. Katzer, and D.~Park.
 \newblock Fine structure splitting in the optical spectra of single {GaAs}
   quantum dots.
 \newblock {\em Phys. Rev. Lett.}, 76:3005--3008, Apr 1996.
+
+\bibitem{BesombesPumpMnSFD}
+L.~Besombes and H.~Boukari.
+\newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
+\newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
 
 \bibitem{LegerQDGeomEffect}
 Y.~L\'eger, L.~Besombes, L.~Maingault, D.~Ferrand, and H.~Mariette.
