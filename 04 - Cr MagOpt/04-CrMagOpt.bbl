@@ -98,4 +98,15 @@ Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
   by optical and epr spectroscopy.
 \newblock {\em ZPCH}, 201:63, Jan 1997.
 
+\bibitem{SpinMechaDriv}
+A.~Barfuss, J.~Teissier, E.~Neu, A.~Nunnenkamp, and P.~Maletinsky.
+\newblock Strong mechanical driving of a single electron spin.
+\newblock {\em Nat Phys}, 11:820, Oct 2015.
+
+\bibitem{LafuenteStrainMn}
+A.~Lafuente-Sampietro, H.~Boukari, and L.~Besombes.
+\newblock Strain-induced coherent dynamics of coupled carriers and {Mn} spins
+  in a quantum dot.
+\newblock {\em Phys. Rev. B}, 92:081305, Aug 2015.
+
 \end{thebibliography}
