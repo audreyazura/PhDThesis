@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: unsrt.bst
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "??"
+You've used 38 entries,
+            1791 wiz_defined-function locations,
+            725 strings with 11483 characters,
+and the built_in function-call counts, 10198 in all, are:
+= -- 796
+> -- 650
+< -- 0
++ -- 230
+- -- 192
+* -- 929
+:= -- 1735
+add.period$ -- 114
+call.type$ -- 38
+change.case$ -- 38
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 342
+empty$ -- 889
+format.name$ -- 192
+if$ -- 2143
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 38
+newline$ -- 193
+num.names$ -- 38
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 118
+stack$ -- 0
+substring$ -- 828
+swap$ -- 38
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 82
+width$ -- 40
+write$ -- 420
+(There was 1 warning)

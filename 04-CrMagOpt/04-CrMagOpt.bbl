@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{EPRCr}
+J.~T. Vallin and G.~D. Watkins.
+\newblock Epr of ${\mathrm{cr}}^{2+}$ in {II-VI} lattices.
+\newblock {\em Phys. Rev. B}, 9:2051--2072, Mar 1974.
+
+\bibitem{DMSCrExchInt}
+W.~Mac, A.~Twardowski, and M.~Demianiuk.
+\newblock s,p-d exchange interaction in {Cr}-based diluted magnetic
+  semiconductors.
+\newblock {\em Phys. Rev. B}, 54:5528--5535, Aug 1996.
+
+\bibitem{CdCrSExchInt}
+M.~Herbich, W.~Mac, A.~Twardowski, K.~Ando, Y.~Shapira, and M.~Demianiuk.
+\newblock Magnetization and exciton spectroscopy of the diluted magnetic
+  semiconductor ${\mathrm{cd}}_{1\ensuremath{-}x}{\mathrm{cr}}_{x}\mathrm{S}$.
+\newblock {\em Phys. Rev. B}, 58:1912--1921, Jul 1998.
+
+\bibitem{SplitInvTh}
+T.~Takagahara.
+\newblock Theory of exciton doublet structures and polarization relaxation in
+  single quantum dots.
+\newblock {\em Phys. Rev. B}, 62:16840--16855, Dec 2000.
+
+\bibitem{DELongLifetime}
+J.~McFarlane, P.~A. Dalgarno, B.~D. Gerardot, R.~H. Hadfield, R.~J. Warburton,
+  K.~Karrai, A.~Badolato, and P.~M. Petroff.
+\newblock Gigahertz bandwidth electrical control over a dark exciton-based
+  memory bit in a single quantum dot.
+\newblock {\em Applied Physics Letters}, 94(9):093113, 2009.
+
+\bibitem{DELum}
+M.~Bayer, G.~Ortner, O.~Stern, A.~Kuther, A.~A. Gorbunov, A.~Forchel,
+  P.~Hawrylak, S.~Fafard, K.~Hinzer, T.~L. Reinecke, S.~N. Walck, J.~P.
+  Reithmaier, F.~Klopf, and F.~Sch\"afer.
+\newblock Fine structure of neutral and charged excitons in self-assembled
+  in(ga)as/(al)gaas quantum dots.
+\newblock {\em Phys. Rev. B}, 65:195315, May 2002.
+
+\bibitem{FineStructSplitGaAsdots}
+D.~Gammon, E.~S. Snow, B.~V. Shanabrook, D.~S. Katzer, and D.~Park.
+\newblock Fine structure splitting in the optical spectra of single {GaAs}
+  quantum dots.
+\newblock {\em Phys. Rev. Lett.}, 76:3005--3008, Apr 1996.
+
+\bibitem{BesombesPumpMnSFD}
+L.~Besombes and H.~Boukari.
+\newblock Resonant optical pumping of a {Mn} spin in a strain-free quantum dot.
+\newblock {\em Phys. Rev. B}, 89:085315, Feb 2014.
+
+\bibitem{LegerQDGeomEffect}
+Y.~L\'eger, L.~Besombes, L.~Maingault, D.~Ferrand, and H.~Mariette.
+\newblock Geometrical effects on the optical properties of quantum dots doped
+  with a single magnetic atom.
+\newblock {\em Phys. Rev. Lett.}, 95:047403, Jul 2005.
+
+\bibitem{DERecombTh}
+M.~Zieli\ifmmode~\acute{n}\else \'{n}\fi{}ski, Y.~Don, and D.~Gershoni.
+\newblock Atomistic theory of dark excitons in self-assembled quantum dots of
+  reduced symmetry.
+\newblock {\em Phys. Rev. B}, 91:085403, Feb 2015.
+
+\bibitem{CarInSpinSplit}
+L.~Besombes, Y.~Leger, L.~Maingault, D.~Ferrand, H.~Mariette, and J.~Cibert.
+\newblock Carrier-induced spin splitting of an individual magnetic atom
+  embedded in a quantum dot.
+\newblock {\em Phys. Rev. B}, 71:161307, Apr 2005.
+
+\bibitem{BiexFinStruct}
+Anna~H. Trojnar, Marek Korkusinski, Udson~C. Mendes, Mateusz Goryca, Maciej
+  Koperski, Tomasz Smolenski, Piotr Kossacki, Piotr Wojnar, and Pawel Hawrylak.
+\newblock Fine structure of a biexciton in a single quantum dot with a magnetic
+  impurity.
+\newblock {\em Phys. Rev. B}, 87:205311, May 2013.
+
+\bibitem{DynhMn}
+B.~Varghese, H.~Boukari, and L.~Besombes.
+\newblock Dynamics of a {Mn} spin coupled to a single hole confined in a
+  quantum dot.
+\newblock {\em Phys. Rev. B}, 90:115307, Sep 2014.
+
+\bibitem{VBM}
+Y.~L\'eger, L.~Besombes, L.~Maingault, and H.~Mariette.
+\newblock Valence-band mixing in neutral, charged, and {Mn}-doped
+  self-assembled quantum dots.
+\newblock {\em Phys. Rev. B}, 76:045331, Jul 2007.
+
+\bibitem{ChargeSpectFluct}
+H.~Kamada and T.~Kutsuwa.
+\newblock Broadening of single quantum dot exciton luminescence spectra due to
+  interaction with randomly fluctuating environmental charges.
+\newblock {\em Phys. Rev. B}, 78:155324, Oct 2008.
+
+\bibitem{CrZnTe}
+Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
+\newblock The chromium impurity in znte: Changes of the charge state detected
+  by optical and epr spectroscopy.
+\newblock {\em ZPCH}, 201:63, Jan 1997.
+
+\bibitem{SpinMechaDriv}
+A.~Barfuss, J.~Teissier, E.~Neu, A.~Nunnenkamp, and P.~Maletinsky.
+\newblock Strong mechanical driving of a single electron spin.
+\newblock {\em Nat Phys}, 11:820, Oct 2015.
+
+\bibitem{LafuenteStrainMn}
+A.~Lafuente-Sampietro, H.~Boukari, and L.~Besombes.
+\newblock Strain-induced coherent dynamics of coupled carriers and {Mn} spins
+  in a quantum dot.
+\newblock {\em Phys. Rev. B}, 92:081305, Aug 2015.
+
+\end{thebibliography}
