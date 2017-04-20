@@ -18,7 +18,7 @@ J.J. Harris, B~A. Joyce, and P.J. Dobson.
 
 \bibitem{WoodRHEED}
 Colin~E.C. Wood.
-\newblock \{RED\} intensity oscillations during \{MBE\} of {GaAs}.
+\newblock {RED} intensity oscillations during {MBE} of {GaAs}.
 \newblock {\em Surface Science}, 108(2):L441 -- L443, 1981.
 
 \bibitem{TeEffect}
@@ -81,7 +81,7 @@ J.~Cibert, R.~André, C.~Deshayes, G.~Feuillet, P.H. Jouneau, Le~Si Dang,
 
 \bibitem{EPRCr}
 J.~T. Vallin and G.~D. Watkins.
-\newblock Epr of ${\mathrm{cr}}^{2+}$ in {II-VI} lattices.
+\newblock Epr of ${Cr}^{2+}$ in {II-VI} lattices.
 \newblock {\em Phys. Rev. B}, 9:2051--2072, Mar 1974.
 
 \bibitem{DMSCrExchInt}
@@ -93,7 +93,7 @@ W.~Mac, A.~Twardowski, and M.~Demianiuk.
 \bibitem{CdCrSExchInt}
 M.~Herbich, W.~Mac, A.~Twardowski, K.~Ando, Y.~Shapira, and M.~Demianiuk.
 \newblock Magnetization and exciton spectroscopy of the diluted magnetic
-  semiconductor ${\mathrm{cd}}_{1\ensuremath{-}x}{\mathrm{cr}}_{x}\mathrm{S}$.
+  semiconductor ${Cd}_{1-x}{Cr}_{x}{S}$.
 \newblock {\em Phys. Rev. B}, 58:1912--1921, Jul 1998.
 
 \bibitem{SplitInvTh}
@@ -114,7 +114,7 @@ M.~Bayer, G.~Ortner, O.~Stern, A.~Kuther, A.~A. Gorbunov, A.~Forchel,
   P.~Hawrylak, S.~Fafard, K.~Hinzer, T.~L. Reinecke, S.~N. Walck, J.~P.
   Reithmaier, F.~Klopf, and F.~Sch\"afer.
 \newblock Fine structure of neutral and charged excitons in self-assembled
-  in(ga)as/(al)gaas quantum dots.
+  {In(Ga)As/(Al)GaAs} quantum dots.
 \newblock {\em Phys. Rev. B}, 65:195315, May 2002.
 
 \bibitem{FineStructSplitGaAsdots}
@@ -174,7 +174,7 @@ H.~Kamada and T.~Kutsuwa.
 \bibitem{CrZnTe}
 Dziesiaty J., Peka P., Lehr~M. U., Klimakow A., Müller S., and Schulz H.-J.
 \newblock The chromium impurity in znte: Changes of the charge state detected
-  by optical and epr spectroscopy.
+  by optical and {EPR} spectroscopy.
 \newblock {\em ZPCH}, 201:63, Jan 1997.
 
 \bibitem{SpinMechaDriv}

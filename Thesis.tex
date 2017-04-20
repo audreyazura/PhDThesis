@@ -13,6 +13,7 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage{rotating}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -20,7 +21,7 @@
 
 \begin{document}
 
-\chapter{Diluted magnetic semiconductor quantum dots\ref{DMSQDTh}}
+\chapter{Diluted magnetic semiconductor quantum dots\label{DMSQDTh}}
 
 	\section{II-VI semiconductor quantum dots}
 	
@@ -206,7 +207,6 @@
 
 \chapter{Growth of the samples}
 
-%	The growth took place at Tsukuba University, in the team of Pr. Shinji Kuroda. The samples were grown with Molecular Beam Epitaxy (MBE) and Atomic Layer Epitaxy (ALE, for the QD layer), via individual Cd, Te, Zn, Mg and Cr cells. MBE and ALE are two complementary techniques for the growth of semiconductor device.
 	
 	The sample were grown using Molecular Beam Epitaxy (MBE). This technique consist of heating cells containing the pure elements which will formed the semiconductor in order to sublimate or evaporate them, such as presented on Fig \ref{MBEScheme}. Once the element is at the right temperature, the cell is opened and the gas can travel in the chamber with a ballistic trajectory. The mean free path of this gas is long compared to the size of the cells and the chamber, allowing the atoms to condensate on the substrate without interacting before. Once reaching the surface, the atoms diffuse on it before stopping, either having dissipated their kinetic through interaction with the surface, or (more commonly) being kept by island of previously deposited atoms. In the ideal case, the growth occur layer by layer, slowly (about 1 monolayer/s), giving a good control of the thickness of the grown material.	
 
@@ -262,7 +262,6 @@
 		To put a sample holder in the main chamber, it was fixed to a transfer cane via a screw hole on his back. As shown on Fig.\ref{MBE}, the cell were placed on the lower part of the MBE machine, so the sample holder as to be put upside down in the main chamber in order to face them. Once in the chamber, the sample temperature was measured through a thermocouple at a few centimetre from the sample holder. This distance induced an offset on the measured temperature. This was important in the ALE to be in the temperature interval where 0.5 ML are grown each cycle. The temperature was therefore calibrated in order to grow the right number of monolayer for each growth (see part \ref{SKGrowth} and \ref{SFDGrowth}). The system being really stable in time, we kept this calibration for all the growth.
 		
 		The flux of each cells was calculated using Beam Equivalent Pressure (BEP) in the main chamber. The pressure in the main chamber was measured with a nude ionization gauge, both before and after having opened a single cell. Subtracting these two numbers gave us the BEP of the cell. The pressure in the main chamber was typically between $1.0 \times 10^{-9}$ Torr and $1.0 \times 10^{-8}$ Torr.
-%		All the flux measurement were done with a pressure a gauge: we took the pressure in the main chamber, open a single cell for a given time, and measure the pressure in the main chamber just after having close the cell. The main chamber was then pump again in order to recreate the ultra-vacuum conditions.
 Since the growth speed depend on the flux of the cell, we used this method to control it: we first calibrate the growth speed in function of the pressure in the chamber, and then used these equivalence to control the growth process.
 		
 	\section{Strained dots: CdTe/ZnTE\label{SK}}
@@ -324,16 +323,6 @@ Since the growth speed depend on the flux of the cell, we used this method to co
 	\section{Strain-free dots: CdTe/CdMgTe\label{SFD}}
 		\subsection{Substrate preparation}
 		
-%		The strain-free dots are formed by the interface variation of a thin (about $4ML$) CdTe quantum well (QW) between CdMgTe layers. These thickness variations will create dots, in which we will want to include a single magnetic atom. The whole structure is ideally grown on a CdTe substrate, in order to have absolutely no strain in the dots layer.
-%		
-%		However, there was no CdTe substrate in Tsukuba. So, we had to grow a thick layer of CdTe in top of GaAs substrate, which a lattice parameter close to CdTe, on order to have a completely relaxed surface to do our growth.
-%		
-%		To achieve so, we start by cleaning the GaAs substrate. It was done in four step outside the MBE chamber, all of them using an ultrasonic cleaning. It was first immersed in acetone, during 5 minutes, with the ultrasonic frequency at $43MHz$. Staying at this frequency, it was then immersed in ethanol during 5 minutes again, and then in water for the same time. We finished with a last 5 minutes cleaning in water, at $23MHz$ this time.
-%		
-%		Putting the substrate in a chamber, we proceeded to the last step of the cleaning: hydrogen radical (H$^*$) cleaning, created by injecting nitrogen radical in a chamber of H gas, in order to remove Ga oxyde formed at the surface while transporting the sample. We check the final composition of the gas via the electron energy using optical probing. For a H$^*$ gas, this should be round 660nm. To achieve the H radical cleaning, we heat the GaAs substrate to $400^{\circ}$C and then open the valve between the main chamber and the one containing H$^*$ gas. We exposed it for 15 minutes, and then searched for line in the RHEED pattern, to check the quality of the cleaning. during this step, and also during the growth, the sample was rotating.
-%		
-%		Once the cleaning process is finished, we began the growth of the thick layer of CdTe. We began by a very thin layer of ZnTe in order to relaxed some of the strain. Staying at T$_{substrate} = 400^{\circ}$C, we first opened the Zn cell for 30s, then opened both Zn and Te cells for 50s, before closing again Te cell. We then go down to T$_{substrate} = 250^{\circ}$C under Zn flux and, once the temperature was stabilized, closed the Zn cell and proceeded to the CdTe layer growth, during 1h. Finally, once this layer was grown, we protected it from oxidation by adding a thin layer of Te while the substrate temperature was going down to $5^{\circ}$C.
-%		
 		The barrier for strain free samples are made of CdTe. The chosen substrate for the growth was GaAs, on which we grew a layer of about 3 $\mu$m of CdTe. Growing such a thick layer guaranty that the remaining strain are in the order of $0.1\%$ \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. Moreover, a small ZnTe layer was grown between GaAs and CdTe, which accelerated the relaxation of the strains \cite{StrainRelaxZnTeGaAs001}.
 		
 		For this sample, only a simple cleaning occur outside of the MBE machine. We did it in four steps, each of them lasting for 5 minutes in an ultrasonic cleaning device. We began with a cleaning acetone, at 43 kHz, followed by one in ethanol at the same frequency. We then put the substrate in water and clean it at 43 kHz. Finally, we changed the water and did the last step in water at 23 kHz, in order to clean the substrate from smaller dust particle.
@@ -378,7 +367,6 @@ Since the growth speed depend on the flux of the cell, we used this method to co
 	We began to heat the substrate temperature to 180$^{\circ}$, in order to remove the protective amorphous Te layer. We waited a few second at this temperature to remove all the deposited Te, and then resumed the heating to go to $250^{\circ}$C. Starting at $200^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $250^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m layer of CdTe, in order to reach the thickness of the relaxation of strains for CdTe/GaAs \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}.
 	
 	In order to be sure that there will be no relaxation in the quantum, we choose to stick to the maximum cumulated thickness of the CdTe on a CdZnTe lattice, which has been shown to be lower than the one of CdTe on a CdMgTe lattice. This correspond to a maximum cumulated thickness of 130 nm \cite{CritThickCdTeCdZnTe}. We chose to grow 40 nm below the QW, and 90 nm above it, in order to have a thicker protective layer.
-%Moreover, it was shown on Mn that a thick layer above was better for the hole trapping.
 
 	Once the 40 nm barrier layer was grown, we lowered the substrate temperature under Te flux. Growing the QW layer in a Te environment smooth the surface layer of the sample and help having a flat surface to grow the well. Once the substrate temperature reach respectively $180^{\circ}$C (unmarked) or $195^{\circ}$C (marked), we began the ALE of the QW.
 [insert explication on the Cr SFD ALE here]
@@ -688,13 +676,6 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	
 	Since the absence of PL on $|\pm2\rangle$ is linked to their impossibility to be thermally populated, one could expect to see their emission at higher temperature. Fig.~\ref{CrTemp} presents the dot PL at several temperatures. With the increase of the temperature, we observe a significant line broadening induced by the interaction with acoustic phonons. In order to keep a significant PL intensity and resolved PL lines, we limited our investigation to temperature below 50K. No contribution of the $|$S$_z$=$\pm2\rangle$ Cr spins states are observed in the emission of the exciton.
 		
-%	\begin{sidewaysfigure}
-%	\begin{center}
-%		\includegraphics[width=20cm]{04-CrMagOpt/Pictures/FullPLE}
-%	\end{center}
-%	\caption{(a) Map of QD2 PL under a scan in laser energy close to the dot emission in $\sigma -$ detection. Several interesting points are highlighted on zoom on each side of this whole map. (b) Map of the first few meV of the scan, showing the phonon replica. The emission integrated intensity in function of the laser energy is plotted in (c) (black curve) along with the PL spectra of QD2 (red curve). (d) - (f) present a zoom in a larger band at higher excitation energy in $\pi$,  $\sigma +$ and $\sigma -$ respectively. (g) Zoom on a particular excited state presented a splitting inversion, presented here in $\pi$ detection.}
-%	\label{CrPLE}
-%	\end{sidewaysfigure}
 
 
 		\subsection{Excited states of a Cr-doped QD}
@@ -802,42 +783,7 @@ ${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton
 	We considered the general case of QDs with a symmetry lower than C$_{2v}$ (truncated ellipsoidal lens for instance~\cite{DERecombTh}), and took into account the influence of this reduced symmetry on the valence band and on the e-h exchange interaction. The population of the X-Cr spin states split by the large magnetic anisotropy and the carriers-Cr exchange interaction is described by a spin effective temperature T$_{eff}$. The results of the model obtained with T$_{eff}$=25K, D$_0$=2.5 meV and an electron-Cr (hole-Cr) exchange interaction I$_{eCr}$=-70$\mu$eV (I$_{hCr}$=-280 $\mu$eV) are reported in Fig.~\ref{CrMagOptMod} (parameters not specific to Cr-doped QDs are listed in Tab.~\ref{CrModelParam}). Such parameters do not aim to fit the data and are only reasonable order of magnitude. The PL of X-Cr at zero field and its evolution in magnetic field can be qualitatively reproduced. In particular, the description of the spin states occupation by T$_{eff}$ is sufficient to reproduce the observed emission from the three low energy X-Cr levels (Cr spin states S$_z$=0 and S$_z$=$\pm$1). The splitting of the central line at zero field (anti-crossing (1)) and the anti-crossings under magnetic field (anti-crossings (2) and (3) around B$_z$=6T for the Cr spin states S$_z$=+1 and anti-crossings (4) with the dark exciton around B$_z$=2T) are also well reproduced by the model.
 	
 	
-%	\begin{table}[t] \centering
-%	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{SpectraX}(b). The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
-%	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{1.3cm}
-%p{0.9cm}p{0.9cm}}
-%\hline\hline
-%I$_{eCr}$ & I$_{hCr}$ & $\delta_0$ & $\delta_1$ & $\delta_{12}$ & $\delta_{11}$ & $\frac{|Q|}{\Delta_{lh}}$ & $\frac{|R|}{\Delta_{lh}}$ & arg(R) & $D_0$ & $g_{Cr}$ & $g_{e}$ & $g_{h}$ & $\gamma$ & $\eta$ & $T_{eff}$ \\
-%$\mu eV$ & $\mu eV$ & $meV$ & $\mu eV$ & $\mu eV$ & $\mu eV$ &  & & & $meV$ & &  &  & $\mu eV/T^2$ & $\mu eV$ & K \\
-%\hline
-%-70 & -280 & -1 & 250 & 150 & 50 & 0.05 & 0.05& $-\frac{\pi}{2}$ & 2.5 & 2 & -0.7 & 0.4 & 1.5 & 25 & 25 \\
-%\hline\hline 
-%	\end{tabular}
-%	\label{CrModelParam}
-%	\end{table}
 
-%\begin{wraptable}{r}{5.5cm}
-%	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{SpectraX}(b). The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
-%	\begin{tabular}{m{1.3cm}|m{1.3cm}||m{1.3cm}}
-%I$_{eCr}$ & $\mu eV$ & -70\newline \\
-%I$_{hCr}$ & $\mu eV$ & -280\newline \\
-%$\delta_0$ & $meV$ & -1\newline \\
-%$\delta_1$ & $\mu eV$ & 250\newline \\
-%$\delta_{12}$ & $\mu eV$ & 150\newline \\
-%$\delta_{11}$ & $\mu eV$ & 50\newline \\
-%$\frac{|Q|}{\Delta_{lh}}$ &  & 0.05\newline \\
-%$\frac{|R|}{\Delta_{lh}}$ &  & 0.05\newline \\
-%arg(R) &  & $-\frac{\pi}{2}$\newline \\
-%$D_0$ & $meV$ & 2.5\newline \\
-%$g_{Cr}$ &  & 2\newline \\
-%$g_{e}$ &  & -0.7\newline \\
-%$g_{h}$ &  & 0.4\newline \\
-%$\gamma$ & $\mu eV/T^2$ & 1.5\newline \\
-%$\eta$ & $\mu eV$ & 25\newline \\
-%$T_{eff}$ & K & 25\newline \\
-%	\end{tabular}
-%	\label{CrModelParam}
-%	\end{wraptable}
 
 \begin{table}[t] \centering
 	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{CrMagOptMod}. The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
@@ -873,7 +819,6 @@ $-\frac{\pi}{2}$ & 2.5 & 2 & -0.7 & 0.4 & 1.5 & 25 & 25 \\
 	
 	The X-Cr map in linear polarization presents a dependency on all the three peaks at 0T, when only the central  peaks exhibit this behaviour in dots with a small in-plane anisotropy at the Cr position. The effect of such an anisotropy is to coupled to spin levels separated by two spin units, such as $|S_z = -1\rangle$ and $|S_z = +1\rangle$. This induce a mixing between two bright exciton states, leading to a linearly polarized emission. For a low E value, the strain induced splitting of $|S_z = \pm 1\rangle$ is high enough to strongly reduce the mixing of the exciton states. A higher in-plane strain anisotropy is able to couple the spin level and induced the linearly polarized emission.
 
-%	The first remarkable feature appear on the linear polarization dependency of the X-Cr system(Fig.~\ref{CrHighE}(a)). While, with a small value of E, only the $|0\rangle$ peaks presents linear polarization, at higher value, $|\pm 1\rangle$ peaks presents the same behaviour.
 	
 	As can be expected, X$^c$-Cr doesn't present any linear polarization dependency, as shown on Fig.~\ref{CrHighE}(c).
 	
@@ -952,10 +897,8 @@ One can note anti-crossings at +5T appearing on both $|S_z = +1\rangle$ and $|S_
 
 \chapter{Dynamics of a single Cr spin in a ZnTe quantum dot}
 
-%	\section{Experiment configuration}
 	\section{Experimental setup}	
 	
-%		\subsection{Experimental setup}
 		
 	\begin{figure}[h!]
 	\begin{center}
@@ -967,27 +910,7 @@ One can note anti-crossings at +5T appearing on both $|S_z = +1\rangle$ and $|S_
 	
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 		
-%		\subsection{Studied dot}
 		
-%	\begin{figure}[h!]
-%	\begin{center}
-%		\includegraphics[width=10cm]{FillingPicture.png}
-%	\end{center}
-%	\caption{Studied dot spectra and linear polarization}
-%	\label{DotSpectra}
-%	\end{figure}
-%	
-%	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-%	
-%	\begin{figure}[h!]
-%	\begin{center}
-%		\includegraphics[width=10cm]{FillingPicture.png}
-%	\end{center}
-%	\caption{Spectra with different excitation and detection configurations}
-%	\label{ExpConfig}
-%	\end{figure}
-%	
-%	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 	
 	\section{Cr spin time fluctuations}
 	
