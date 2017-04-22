@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  20 APR 2017 17:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  22 APR 2017 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1761,7 +1761,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1109.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 524C1E5B61840A65C2A0F2E4443E8BC3;4283.
+(rerunfilecheck)             Checksum: 3CAB646EA0FBC40DE2046B24559C82F0;4314.
 
 
 LaTeX Warning: There were undefined references.
@@ -1794,7 +1794,7 @@ onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Thesis.pdf (80 pages, 5884272 bytes).
+Output written on Thesis.pdf (80 pages, 5884316 bytes).
 PDF statistics:
  1350 PDF objects out of 1440 (max. 8388607)
  883 compressed objects within 9 object streams
