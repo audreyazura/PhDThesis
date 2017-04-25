@@ -4,43 +4,67 @@ import re
 
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
+
 packages = []
 lastPack = 2
+
+nullChain = ''
+commentStr = re.compile(r'^%')
+pictureStr = re.compile(r"Pictures/")
+addrStr = re.compile(r"\.\./")
+newlineStr = re.compile(r"\n")
+usepackageStr = re.compile(r'\\usepackage(\[[\w=,]{1,50}\])?\{')
+biblioStr = re.compile(r'\\biblio')
+begindocStr = re.compile(r'\\begin{doc')
+enddocStr = re.compile(r'\end{doc')
+closebracStr = re.compile(r'\}')
+docclassStr = re.compile(r'\\documentclass')
+makeatStr = re.compile(r'\makeat')
+newcomStr = re.compile(r'\\renewcommand')
+
 for i in range(1,7):
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
-		cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', $(ls @(fold.group())))
+		folder = fold.group()
+		pictureFold = folder + '/Pictures/'
+		cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', $(ls @(folder)))
 		if cfile:
-			with open(fold.group() + '/' + cfile.group(), 'r') as inpFile:
+			searchedFile = folder + '/' + cfile.group()
+			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
-					if not(re.search(r'^%', line)):
-						treatedLine = re.sub(r"Pictures/", fold.group() + '/Pictures/', re.sub(r"\.\./", "", re.sub(r"\n", "", line)))
-						if i == 1 && not(re.search(r'\\biblio', treatedLine) || re.search(r'\end{doc', treatedLine)):
+					if not(commentStr.search(line)):
+						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
+						
+						if i == 1 && not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
 							echo @(treatedLine) >> Thesis.tex
-							if re.search(r'^\\usepackage', treatedLine):
-								packages.append(re.sub(r'\\usepackage(\[[\w=,]{1,50}\])?\{', '', re.sub(r'\}', '', treatedLine)))
+							if usepackageStr.search(treatedLine):
+								packages.append(usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine)))
 								lastPack+=1
-						elif i == 5 && not(re.search(r'\\documentclass', treatedLine) || re.search(r'\\usepackage', treatedLine) || re.search(r'\makeat', treatedLine) || re.search(r'\\renewcommand', treatedLine) || re.search(r'\\begin{doc', treatedLine)):
-							echo @(treatedLine) >> Thesis.tex
-						elif not(re.search(r'\\documentclass', treatedLine) || re.search(r'\\usepackage', treatedLine) || re.search(r'\makeat', treatedLine) || re.search(r'\\renewcommand', treatedLine) || re.search(r'\\begin{doc', treatedLine) || re.search(r'\\biblio', treatedLine) || re.search(r'\end{doc', treatedLine)):
-							echo @(treatedLine) >> Thesis.tex
-					
-						if i != 1 && re.search(r'^\\usepackage', treatedLine) && not(any(s in line for s in packages)):
-							packages.append(re.sub(r'\\usepackage(\[[\w=,]{1,50}\])?\{', '', re.sub(r'\}', '', treatedLine)))
-							countLine = 1
-							with open('Thesis.tex', 'r') as thesis:
-								for copLine in thesis:
-									copTreatedLine = re.sub(r"\n", "", copLine)
-									if countLine == lastPack:
-										adLine = copTreatedLine + '\n' + treatedLine
-										echo @(adLine) >> copThesis.tex
-									else:
-										echo @(copTreatedLine) >> copThesis.tex
-									countLine+=1
-							lastPack+=1
-							rm Thesis.tex
-							mv copThesis.tex Thesis.tex
+								
+						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine)):
+							if usepackageStr.search(treatedLine):
+								if not(any(s in line for s in packages)):
+									packages.append(usepackageStr.sub(nullChain, closebracStr.sub(nullChain, treatedLine)))
+									countLine = 1
+									with open('Thesis.tex', 'r') as thesis:
+										for copLine in thesis:
+											copTreatedLine = newlineStr.sub(nullChain, copLine)
+											if countLine == lastPack:
+												adLine = copTreatedLine + '\n' + treatedLine
+												echo @(adLine) >> copThesis.tex
+											else:
+												echo @(copTreatedLine) >> copThesis.tex
+											countLine+=1
+									lastPack+=1
+									rm Thesis.tex
+									mv copThesis.tex Thesis.tex
+								
+							elif i == 5:
+								echo @(treatedLine) >> Thesis.tex
+							
+							elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
+								echo @(treatedLine) >> Thesis.tex
 					
 			echo 'File ' @(cfile.group()) ' done'
 
