@@ -15,6 +15,9 @@
 \usepackage{xcolor}
 \usepackage{rotating}
 %\usepackage{wrapfig,booktabs}
+\usepackage[backend=biber,style=phys]{biblatex}
+
+\addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -350,7 +353,6 @@ One can note anti-crossings at +5T appearing on both $|S_z = +1\rangle$ and $|S_
 	
 	Some dots presents the same structure at 0T than dots containing a single Cr atom, but without presenting the signature of the presence of a magnetic atom under magnetic field. These dots are effected by the variation of charge of a single Cr atom in the barrier, close to the dot. Further study of the diffusion process of Cr in CdTe and ZnTe is required in order to avoid the creation of such dots.
 
-\bibliographystyle{unsrt}
-\bibliography{../Bibliography}
+\printbibliography
 
 \end{document}

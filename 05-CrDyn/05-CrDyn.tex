@@ -13,6 +13,9 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+
+\addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -249,8 +252,8 @@ The amplitude of the bunching reaches 5 for line (1) and is slightly weaker for 
 	\caption{Detuning on 1 and 2 while exciting on 4}
 	\label{DetuneDarkCrExp}
 	\end{figure}	
-
-\bibliographystyle{unsrt}
-\bibliography{../Bibliography}
+	
+	
+\printbibliography
 
 \end{document}

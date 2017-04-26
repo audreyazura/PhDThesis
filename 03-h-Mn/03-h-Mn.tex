@@ -13,6 +13,9 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+
+\addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -237,8 +240,6 @@
 	\end{figure}
 	
 	
-
-\bibliographystyle{unsrt}
-\bibliography{../Bibliography}
+\printbibliography
 
 \end{document}

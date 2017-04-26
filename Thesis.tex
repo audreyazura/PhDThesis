@@ -13,7 +13,10 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
 \usepackage{rotating}
+
+\addbibresource{Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -41,7 +44,7 @@
 	
 	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2N valence electron. 6N will be taken to fill the three higher energy bonding band, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the electron available are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band are formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
 
-	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone, two-fold degenerated, with an orbital momentum $S = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with an angular momentum $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with an angular momentum $J = 1/2$, two-fold degenerated.
+	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone, two-fold degenerated, with an orbital momentum $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with an angular momentum $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with an angular momentum $J = 1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of about 0.9eV in II-VI semiconductor.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -53,7 +56,7 @@
 		
 		\subsection{Lattice mismatch and the Bir-Pikus Hamiltonian}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		ZnTe crystal has a lattice parameter of 6.10\AA, while CdTe one is of 6.48\AA. This lattice mismatch will induce strain in a CdTe layer grown on a ZnTe substrate.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque. 
 		
@@ -199,11 +202,8 @@
 	\caption{Mn energy level in a QD}
 	\label{MnLevel}
 	\end{figure}
+		
 	
-	
-	
-	
-
 
 
 
@@ -383,6 +383,7 @@ The recipe is described in Fig.\ref{RecipeSFD}.
 	\label{RecipeSFD}
 	\end{figure}
 We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
+
 
 
 
@@ -688,7 +689,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\begin{center}
 		\includegraphics[width=10cm]{04-CrMagOpt/Pictures/PLEDotPres.eps}
 	\end{center}
-	\caption{(a) PL spectra of the exciton in QD2 (X-Cr) for co- and cross-circularly polarized excitation/detection [À VÉRFIER : taken on the 2175 meV quasi-resonant state]. (b) QD2 X-Cr PLE map in $\sigma$- polarization. Several excited states are identifiable and are discussed in Fig.~\ref{PLEClose} and \ref{PLE2030}.}
+	\caption{(a) PL spectra of the exciton in QD2 (X-Cr) for co- and cross-circularly polarized excitation/detection [À VÉRFIER : taken on the 2175 meV quasi-resonant state]. (b) QD2 X-Cr PLE map in $\sigma_{cross}$ polarization. Several excited states are identifiable and are discussed in Fig.~\ref{PLEClose} and \ref{PLE2030}.}
 	\label{PLEDotPres}
 	\end{figure}
 
@@ -700,7 +701,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\begin{center}
 		\includegraphics[width=10cm]{04-CrMagOpt/Pictures/PLEClose.eps}
 	\end{center}
-	\caption{(a) PLE scan of the lower energy peak, taken close to the QD emission energy, showing the phonon replica taken in $\pi$ detection. The emission integrated intensity in function of the laser energy is plotted in (b) (black curve) along with the PL spectra of QD2 taken in $\sigma$+ polarization.}
+	\caption{(a) PLE scan of the lower energy peak, taken close to the QD emission energy, showing the phonon replica taken in $\pi$ detection. The emission integrated intensity in function of the laser energy is plotted in (b) (black curve) along with the PL spectra of QD2 taken in $\sigma_{co}$ polarization.}
 	\label{PLEClose}
 	\end{figure}
 	
@@ -710,7 +711,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\begin{center}
 		\includegraphics[width=12cm]{04-CrMagOpt/Pictures/PLE2030.eps}
 	\end{center}
-	\caption{(a) - (c) PLE map between 2046 meV and 2013 meV presenting several excited, detecting in $\pi$ (a),  $\sigma +$ (b) and $\sigma -$ (c). (d) Zoom in a particular excited state presented a splitting inversion, taken in $\pi$ detection.}
+	\caption{(a) - (c) PLE map between 2046 meV and 2013 meV presenting several excited, detecting in $\pi$ (a),  $\sigma_{co}$ (b) and $\sigma_{cross}$ (c). (d) Zoom in a particular excited state presented a splitting inversion, taken in $\pi$ detection.}
 	\label{PLE2030}
 	\end{figure}
 	
@@ -728,7 +729,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\begin{center}
 		\includegraphics[width=10cm]{04-CrMagOpt/Pictures/MagOptv2.eps}
 	\end{center}
-	\caption{(a) Circularly polarized X-Cr PL evolution under magnetic field (B$_z$) in QD3. Noticeable anti-crossing  are highlighted and numbered. (b) QD3 X-Cr PL spectra taken at 0 and $\pm10$T.}
+	\caption{(a) Circularly polarized X-Cr PL evolution under magnetic field (B$_z$) in QD1. Noticeable anti-crossing  are highlighted and numbered. (b) QD1 X-Cr PL spectra taken at 0 and $\pm10$T.}
 	\label{CrMagOptExp}
 	\end{figure}
 		
@@ -893,6 +894,7 @@ One can note anti-crossings at +5T appearing on both $|S_z = +1\rangle$ and $|S_
 	For the first time, a single Cr atom in a semiconductor was probed optically. The fine structure of the Cr is dominated by a magnetic anisotropy induced by strain in the plane of the QDs. The large spin to strain coupling of Cr, two orders of magnitude larger than for magnetic elements without orbital momentum (NV centers in diamond \cite{SpinMechaDriv}, Mn atoms in II-VI semiconductors \cite{LafuenteStrainMn}) suggests some possible development of coherent mechanical spin-driving of an individual magnetic atom in a nano-mechanical oscillator. This new single spin system should allow, at low temperature, to enter some coupling regimes dominated by quantum coherent dynamics not reached until now in hybrid spin-mechanical devices.
 	
 	Some dots presents the same structure at 0T than dots containing a single Cr atom, but without presenting the signature of the presence of a magnetic atom under magnetic field. These dots are effected by the variation of charge of a single Cr atom in the barrier, close to the dot. Further study of the diffusion process of Cr in CdTe and ZnTe is required in order to avoid the creation of such dots.
+
 
 
 
@@ -1106,8 +1108,8 @@ The amplitude of the bunching reaches 5 for line (1) and is slightly weaker for 
 	\caption{Detuning on 1 and 2 while exciting on 4}
 	\label{DetuneDarkCrExp}
 	\end{figure}	
-
-\bibliographystyle{unsrt}
-\bibliography{Bibliography}
+	
+	
+\printbibliography
 
 \end{document}

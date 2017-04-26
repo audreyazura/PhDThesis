@@ -13,6 +13,9 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+
+\addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
@@ -198,12 +201,8 @@
 	\caption{Mn energy level in a QD}
 	\label{MnLevel}
 	\end{figure}
+		
 	
-	
-	
-	
-
-\bibliographystyle{unsrt}
-\bibliography{../Bibliography}
+\printbibliography
 
 \end{document}

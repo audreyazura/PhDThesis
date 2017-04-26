@@ -1,46 +1,14 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: 04-CrMagOpt.aux
-The style file: unsrt.bst
-Database file #1: ../Bibliography.bib
-You've used 18 entries,
-            1791 wiz_defined-function locations,
-            582 strings with 7320 characters,
-and the built_in function-call counts, 4708 in all, are:
-= -- 371
-> -- 296
-< -- 0
-+ -- 105
-- -- 87
-* -- 422
-:= -- 809
-add.period$ -- 54
-call.type$ -- 18
-change.case$ -- 18
-chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 162
-empty$ -- 408
-format.name$ -- 87
-if$ -- 978
-int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 18
-newline$ -- 93
-num.names$ -- 18
-pop$ -- 18
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 56
-stack$ -- 0
-substring$ -- 374
-swap$ -- 18
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 41
-width$ -- 20
-write$ -- 200
+[3] Config.pm:318> INFO - This is Biber 1.8
+[4] Config.pm:321> INFO - Logfile is '04-CrMagOpt.blg'
+[384] biber:275> INFO - === mer. avril 26, 2017, 21:40:09
+[385] Biber.pm:333> INFO - Reading '04-CrMagOpt.bcf'
+[748] Biber.pm:630> INFO - Found 18 citekeys in bib section 0
+[820] Biber.pm:3053> INFO - Processing section 0
+[891] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[915] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[943] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
+[1376] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1376] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1377] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1583] bbl.pm:482> INFO - Writing '04-CrMagOpt.bbl' with encoding 'UTF-8'
+[1599] bbl.pm:555> INFO - Output to 04-CrMagOpt.bbl

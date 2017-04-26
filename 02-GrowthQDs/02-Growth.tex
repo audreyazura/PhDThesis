@@ -13,7 +13,9 @@
 \usepackage{color}
 \usepackage{epstopdf}
 \usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
 
+\addbibresource{../Bibliography.bib}
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
 \makeatother
@@ -208,7 +210,6 @@ The recipe is described in Fig.\ref{RecipeSFD}.
 	\end{figure}
 We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
 
-\bibliographystyle{unsrt}
-\bibliography{../Bibliography}
+\printbibliography
 
 \end{document}
