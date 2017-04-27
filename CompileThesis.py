@@ -1,6 +1,7 @@
 #!/usr/local/bin/xonsh
 
 import re
+import antigravity
 
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
