@@ -19,6 +19,86 @@
 
 \refsection{0}
   \sortlist{entry}{none}
+    \entry{KaneBandkp}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=7f386556f8f5c80111c3cfd9c5309ef2}{Kane}{K\bibinitperiod}{Evan\bibnamedelima O.}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7f386556f8f5c80111c3cfd9c5309ef2}{Kane}{K\bibinitperiod}{Evan\bibnamedelima O.}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f386556f8f5c80111c3cfd9c5309ef2}
+      \strng{fullhash}{7f386556f8f5c80111c3cfd9c5309ef2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Band structure of indium antimonide}
+      \field{issn}{0022-3697}
+      \field{journaltitle}{Journal of Physics and Chemistry of Solids}
+      \field{number}{4}
+      \field{title}{Band structure of indium antimonide}
+      \field{volume}{1}
+      \field{year}{1957}
+      \field{pages}{249\bibrangedash 261}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0022-3697(57)90013-6
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0022369757900136
+      \endverb
+    \endentry
+    \entry{ClaireTh}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=0d8d9812dedafdddcd406f34fd2c145c}{Le\bibnamedelima Gall}{L\bibinitperiod\bibinitdelim G\bibinitperiod}{Claire}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0d8d9812dedafdddcd406f34fd2c145c}{Le\bibnamedelima Gall}{L\bibinitperiod\bibinitdelim G\bibinitperiod}{Claire}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université de Grenoble}%
+      }
+      \strng{namehash}{0d8d9812dedafdddcd406f34fd2c145c}
+      \strng{fullhash}{0d8d9812dedafdddcd406f34fd2c145c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Dynamics and Optical contrôl of a single spin in a Quantum Dot}}
+      \field{month}{11}
+      \field{number}{2011GRENY057}
+      \field{title}{{Dynamics and Optical contrôl of a single spin in a Quantum Dot}}
+      \field{type}{Theses}
+      \field{year}{2011}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-00670963/file/24086_LE_-_GALL_2011_archivage.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00670963
+      \endverb
+      \keyw{Optical pumping ; Single spin ; Quantum dot ; Diluted magnetic semiconductor ; Micro-spectroscopie ; Pompage optique ; Spin individuel ; Semiconducteur magnétique dilué ; Boîte quantique}
+    \endentry
+    \entry{LuttingerHam}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=63229d101061b1504bdae4c3320a67c5}{Luttinger}{L\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=63229d101061b1504bdae4c3320a67c5}{Luttinger}{L\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{63229d101061b1504bdae4c3320a67c5}
+      \strng{fullhash}{63229d101061b1504bdae4c3320a67c5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum Theory of Cyclotron Resonance in Semiconductors: General Theory}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{05}
+      \field{title}{Quantum Theory of Cyclotron Resonance in Semiconductors: General Theory}
+      \field{volume}{102}
+      \field{year}{1956}
+      \field{pages}{1030\bibrangedash 1041}
+      \verb{doi}
+      \verb 10.1103/PhysRev.102.1030
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.102.1030
+      \endverb
+    \endentry
     \entry{FirstMBE}{article}{}
       \name{labelname}{2}{}{%
         {{hash=45a42ff992ed57e68d2baaa4be77228d}{Cho}{C\bibinitperiod}{A.Y.}{A\bibinitperiod}{}{}{}{}}%

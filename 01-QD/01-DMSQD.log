@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  26 APR 2017 20:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  27 APR 2017 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,6 +634,8 @@ Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count159
@@ -721,6 +723,16 @@ File: biblatex.def
 \c@biburllcpenalty=\count230
 \c@smartand=\count231
 )
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2013/02/15 v0.9e biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -733,12 +745,20 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count232
 \c@bbx:relatedtotal=\count233
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2013/02/15 v0.9e biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+Normal \count register pool exhausted, switching to extended pool.
+\c@cbx@tempcnta=\count277
+\c@cbx@tempcntb=\count278
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -750,7 +770,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -767,9 +787,8 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-Normal \count register pool exhausted, switching to extended pool.
-\@quotelevel=\count277
-\@quotereset=\count278
+\@quotelevel=\count279
+\@quotereset=\count280
 (./01-DMSQD.aux
 
 LaTeX Warning: Label `BandStruct' multiply defined.
@@ -793,16 +812,16 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
+\scratchcounter=\count281
 \scratchdimen=\dimen129
 \scratchbox=\box28
-\nofMPsegments=\count280
-\nofMParguments=\count281
+\nofMPsegments=\count282
+\nofMParguments=\count283
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count282
+\MPscratchCnt=\count284
 \MPscratchDim=\dimen130
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
 \everyMPtoPDFconversion=\toks25
 )
 *geometry* driver: auto-detecting
@@ -847,7 +866,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count285
+\c@section@level=\count287
 )
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
@@ -863,11 +882,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `01-DMSQD.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '01-DMSQD.bbl' not found.
-
-No file 01-DMSQD.bbl.
+Package biblatex Info: ... file '01-DMSQD.bbl' found.
+ (./01-DMSQD.bbl)
 Package biblatex Info: Reference section=0 on input line 24.
 Package biblatex Info: Reference segment=0 on input line 24.
+
 Chapter I.
 <Pictures/ZincBlende-Wikipedia.png, id=65, 661.47125pt x 602.25pt>
 File: Pictures/ZincBlende-Wikipedia.png Graphic file (type png)
@@ -894,33 +913,51 @@ Package pdftex.def Info: ../FillingPicture.png used on input line 50.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./Pictures/ZincBlende-Wikipedia.png>] [3 <../FillingPicture.png>]
-File: ../FillingPicture.png Graphic file (type png)
+[2 <./Pictures/ZincBlende-Wikipedia.png>]
+Overfull \hbox (16.05568pt too wide) in alignment at lines 78--80
+ [][][] []
+ []
 
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 74.
+[3 <../FillingPicture.png>]
+
+LaTeX Warning: Reference `Param' on page 4 undefined on input line 105.
+
+[4]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 153.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [4]
-Overfull \hbox (5.97437pt too wide) in paragraph at lines 83--83
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6] [7] [8]
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 195--195
 []\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
  []
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 91.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 101.
+Package pdftex.def Info: ../FillingPicture.png used on input line 203.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5]
+[9]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 113.
+Package pdftex.def Info: ../FillingPicture.png used on input line 213.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [10]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 225.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: ../FillingPicture.png Graphic file (type png)
+
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 235.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -928,7 +965,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 123.
+Package pdftex.def Info: ../FillingPicture.png used on input line 243.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 253.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -936,50 +982,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 131.
+Package pdftex.def Info: ../FillingPicture.png used on input line 261.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 141.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [7]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 149.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8] [9] [10] [11]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 189.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 199.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Empty bibliography on input line 207.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 [12] [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 274.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 284.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+ [16
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (./01-DMSQD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `01-DMSQD.out' has not changed.
-(rerunfilecheck)             Checksum: B1ADC512FA22DB55DA972E40F5F3B00A;1280.
+(rerunfilecheck)             Checksum: AD3F295FBD29EA9BBFF995840E4913EB;1280.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -987,29 +1022,37 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to '01-DMSQD.run.xml'.
 \openout1 = `01-DMSQD.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
  ) 
 Here is how much of TeX's memory you used:
- 12581 strings out of 494958
- 193687 string characters out of 6179214
- 625778 words of memory out of 5000000
- 15609 multiletter control sequences out of 15000+600000
- 12448 words of font info for 33 fonts, out of 8000000 for 9000
+ 12796 strings out of 494958
+ 198009 string characters out of 6179214
+ 632373 words of memory out of 5000000
+ 15792 multiletter control sequences out of 15000+600000
+ 14916 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,35p,914b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </
-home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/
-audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audre
-yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb>
-Output written on 01-DMSQD.pdf (13 pages, 371170 bytes).
+ 40i,13n,36p,914b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </
+home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
+audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audre
+yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audreyazur
+a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazura/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 01-DMSQD.pdf (16 pages, 453083 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

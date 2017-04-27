@@ -1,0 +1,16 @@
+[2] Config.pm:318> INFO - This is Biber 1.8
+[2] Config.pm:321> INFO - Logfile is '01-DMSQD.blg'
+[385] biber:275> INFO - === jeu. avril 27, 2017, 21:03:30
+[386] Biber.pm:333> INFO - Reading '01-DMSQD.bcf'
+[746] Biber.pm:630> INFO - Found 3 citekeys in bib section 0
+[813] Biber.pm:3053> INFO - Processing section 0
+[883] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[904] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[933] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
+[1000] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
+[1113] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1113] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1114] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1155] bbl.pm:482> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
+[1158] bbl.pm:555> INFO - Output to 01-DMSQD.bbl
+[1159] Biber.pm:105> INFO - WARNINGS: 1
