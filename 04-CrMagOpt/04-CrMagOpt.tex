@@ -56,9 +56,9 @@
 	In a II-VI semiconductor, the orbital momentum of the Cr connects the spin of the atom to its local strain environment through the modification of the crystal field and the spin-orbit coupling. For biaxial strain in the (001) plane, the ground state of a Cr spin is split by a strain induced magnetic anisotropy term ${\cal H}_{Cr,\varepsilon_\parallel}=D_0S^2_z$ (see chap.~\ref{CrSemiCon}). It was deduced from electron paramagnetic resonance of bulk Cr-doped CdTe that $D_0$ is positive for compressive biaxial strain~\cite{EPRCr}. In a self-assembled CdTe/ZnTe QD with large in-plane strain, the Cr spin energy levels are split with S$_z$=0 at low energy (Fig.~\ref{CrEnergyStruct}). A value of $D_0$ in the 1 meV range can be expected for a CdTe layer strained on a ZnTe substrate, as shown in chap.~\ref{CrSemiCon}.
 	
 	When an electron-hole (e-h) pair is injected in a Cr-doped QD, the bright excitons are split by the exchange interaction between the spins of Cr and carriers. In flat self-assembled QDs, the heavy-holes and light-holes are separated in energy by the biaxial strain and the confinement. In a first approximation, the ground state in such QD is a pure heavy-hole (J$_z$=$\pm$3/2) exciton and the exchange interaction with the Cr spin S is described by the spin Hamiltonian 
-	\begin{eqnarray}
+	\begin{align}
 		{\cal H}_{c-Cr}=I_{eCr}\vec{S}\cdot\vec{\sigma}+I_{hCr}S_zJ_z
-	\end{eqnarray}		
+	\end{align}		
 with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}$ and I$_{hCr}$ are, respectively, the exchange integrals of the electron and the hole spins with the Cr spin. These exchange energies depend on the exchange constant of the $3d$ electrons of the Cr with the carriers in CdTe and on the overlap of the Cr atom with the confined carriers. The exchange interaction of the Cr spin is ferromagnetic for both electron and hole spins in common II-VI semiconductors and a typical exchange constant 4 to 5 times larger for the holes than for the electrons is also expected in CdTe~\cite{DMSCrExchInt,CdCrSExchInt}.
 	
 	For highly strained CdTe/ZnTe QDs with a weak hole confinement, the strain induced energy splitting of the Cr spin $D_0S^2_z$ is much larger than the exchange energy with the confined carriers ($D_0\gg |I_{hCr}|>|I_{eCr}|$). The exchange interaction with the exciton acts as an effective magnetic field which further splits the Cr spins states S$_z$=$\pm$1 and S$_z$=$\pm$2. The resulting X-Cr energy levels are presented in Fig.~\ref{CrEnergyStruct}. The exciton recombination does not affect the Cr atom and its spin is conserved during the optical transitions. Consequently, the large strain induced splitting of the Cr spin is not directly observed in the optical spectra. However, at low temperature, the Cr spin thermalize on the low energy states S$_z$=0 and S$_z$=$\pm$1. This leads to a PL dominated by three contributions: a central line corresponding to S$_z$=0 and the two outer lines associated with S$_z$=$\pm$1 split by the exchange interaction with the carriers.
@@ -180,9 +180,9 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	
 	We calculated the magneto-optic behaviour of Cr-doped QDs by diagonalizing the complete Hamiltonian of the e-h-Cr in self-assembled dots. This hamiltonian can be separated as follows:
 	
-	\begin{eqnarray}
+	\begin{align}
 \label{X-Cr} {\cal H}_{X-Cr}={\cal H}_{Cr,\varepsilon}+{\cal H}_{c-Cr}+{\cal H}_{mag}+{\cal H}_{e-h}+{\cal H}_{band}+{\cal H}_{scat}
-	\end{eqnarray}
+	\end{align}
 where:
 
 ${\cal H}_{Cr,\varepsilon}$ describes the fine structure of the Cr atom and its dependency on local strain, as presented in Eq.~\ref{Cralone}. It is mainly drived by D$_0$, the magnetic anisotropy. E, the in-plane strains, also appears in this Hamiltonian, but have to be kept small in order to model the found dots (see Fig.~\ref{CrHighE} for the emission of a dot with a higher E).
@@ -190,18 +190,18 @@ ${\cal H}_{Cr,\varepsilon}$ describes the fine structure of the Cr atom and its 
 ${\cal H}_{c-Cr}$ describes the coupling of the electron and hole with the Cr spin, depending on I$_{eCr}$, the exchange integral of the electron-Cr spins, and I$_{hCr}$, the exchange integral of the hole-Cr spins, as described in Eq.~\ref{HcCr}.
 
 ${\cal H}_{mag}$ describes the effect of an exterior magnetic field, coupled to both the Cr and carrier spins by the Zeeman terms, depending on the $g$-factor of each of them, and including the diamagnetic shift of the electron-hole  via the term $\gamma$.
-\begin{eqnarray}
+\begin{align}
 	{\cal H}_{mag} = g_{Cr}\mu_B\overrightarrow{B}.\overrightarrow{S}+g_{e}\mu_B\overrightarrow{B}.\overrightarrow{\sigma}+g_{h}\mu_B\overrightarrow{B}.\overrightarrow{J}+\gamma B^2
-\end{eqnarray}
+\end{align}
 
 ${\cal H}_{e-h}$ describes the short range and long range electron-hole interaction, through the bright and dark exciton splitting $\delta_0$, the bright exciton coupling $\delta_1$, the dark exciton coupling $\delta_2$ and the bright and dark exciton coupling $\delta_{11}$ and $\delta_{12}$. All of these term are described in Eq~\ref{Ieh}.
 
 ${\cal H}_{band}$, the band Hamiltonian, presented in Eq.~\ref{HBand}, stands for the energy of the electrons (i.e. the band gap energy E$_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, and the anisotropy of the QD.
 
 ${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton in the initial state of the optical transition by the hole-Cr exchange interaction, controlled by the parameter $\eta$. This perturbation depends on the value of the exchange energy between the Cr spin S$_z$  and the hole spin J$_z$ and can be represented, using second order perturbation theory, by an effective spin Hamiltonian \cite{CarInSpinSplit,BiexFinStruct,DynhMn}
-\begin{eqnarray}
+\begin{align}
 {\cal H}_{scat}=-\eta S_z^2
-\end{eqnarray}
+\end{align}
 \noindent with $\eta>0$.
 
 	We considered the general case of QDs with a symmetry lower than C$_{2v}$ (truncated ellipsoidal lens for instance~\cite{DERecombTh}), and took into account the influence of this reduced symmetry on the valence band and on the e-h exchange interaction. The population of the X-Cr spin states split by the large magnetic anisotropy and the carriers-Cr exchange interaction is described by a spin effective temperature T$_{eff}$. The results of the model obtained with T$_{eff}$=25K, D$_0$=2.5 meV and an electron-Cr (hole-Cr) exchange interaction I$_{eCr}$=-70$\mu$eV (I$_{hCr}$=-280 $\mu$eV) are reported in Fig.~\ref{CrMagOptMod} (parameters not specific to Cr-doped QDs are listed in Tab.~\ref{CrModelParam}). Such parameters do not aim to fit the data and are only reasonable order of magnitude. The PL of X-Cr at zero field and its evolution in magnetic field can be qualitatively reproduced. In particular, the description of the spin states occupation by T$_{eff}$ is sufficient to reproduce the observed emission from the three low energy X-Cr levels (Cr spin states S$_z$=0 and S$_z$=$\pm$1). The splitting of the central line at zero field (anti-crossing (1)) and the anti-crossings under magnetic field (anti-crossings (2) and (3) around B$_z$=6T for the Cr spin states S$_z$=+1 and anti-crossings (4) with the dark exciton around B$_z$=2T) are also well reproduced by the model.

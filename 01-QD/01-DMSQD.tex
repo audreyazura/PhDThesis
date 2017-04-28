@@ -56,56 +56,57 @@
 	The whole CdTe band structure is presented on Fig.~\ref{BandStruct}. One can note that CdTe is a direct gap semiconductor: the highest energy point of the valence band correspond to the lowest energy point of the conduction band, in $\Gamma$. As we move away from this point, the valence band into two branches: one with small curvature, meaning a high effective mass for the carriers on it, is called the heavy-hole (hh) band, while the one presenting the highest curvature and smallest effective mass is called the light-hole (lh) band.
 	
 	One way to understand this evolution is to apply the $\mathbf{k}.\mathbf{p}$ approximation, as proposed by Kane in 1957~\cite{KaneBandkp}. This model gives an estimation of the electronic band structure starting from the exact solution and energy of the Schrödinger equation at the center of the Brillouin. The hamiltonian to resolve is then :	
-	\begin{eqnarray}
+	\begin{align}
 		\left(\frac{p^2}{2m_0} + U(\mathbf{r})\right)\psi_{n,\mathbf{k}} = E_{n,\mathbf{k}} \psi_{n,\mathbf{k}}
-	\end{eqnarray}
+	\end{align}
 with $U(\mathbf{r})$ the potential of the crystal and $\psi_{n,\mathbf{k}}$ the Bloch wave, separated between a periodic part $u_{n,\mathbf{k}} (\mathbf{r})$ and plane-wave part $e^{i\mathbf{k}.\mathbf{r}}$ as follow :
-	\begin{eqnarray}
+	\begin{align}
 		\psi_{n,\mathbf{k}} = u_{n,\mathbf{k}} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}
-	\end{eqnarray}
+	\end{align}
 
 	Neglecting the $\Gamma_7$ band at lower energy, we solve this hamiltonian for carrier on the $\Gamma_6$ and $\Gamma_8$ bands~\cite{ClaireTh}. The $z$-axis is defined along the growth direction of the semiconductor and chosen as the quantization axis. We then find the energy:
-	\begin{eqnarray}
+	\begin{align}
 		\begin{array}{l}
 		E_c (k_z) = E_c + \frac{\hbar^2 k_z^2}{2m_c} \\
 		E_{v, \pm\frac{1}{2}} (k_z) = E_v - \frac{\hbar^2 k_z^2}{2m_{lh}} \\
 		E_{v, \pm\frac{3}{2}} (k_z) = E_v + \frac{\hbar^2 k^2_z}{2m_{0}}
 		\end{array}	
-	\end{eqnarray}
+	\end{align}
 with $E_c$ ($E_v$) the energy of the conduction band (respectively, the valence band), $m_c$ the effective mass of the carrier on the conduction and $m_{lh}$ the effective mass of the light hole. One can see that the splitting of the valence band separate the carrier with a spin $J_z = \pm \frac{3}{2}$ (hh) from the one with a spin $J_z = \pm \frac{1}{2}$ (lh). However, the neglecting of the bands other than $\Gamma_6$ and $\Gamma_8$ lead to a positive curvature for the hh. To correct this problem, we would have to take into account higher energy conduction band, which will repel the hh band and give it its negative curvature.
 
 	Another solution to have the matrix describing the $\Gamma_8$ band is to use symmetry consideration. Luttinger showed in 1956~\cite{LuttingerHam} that the only Hamiltonian fulfilling the cubic symmetry is:
-	\begin{eqnarray}
+	\begin{align}
 		{\cal H}_L = - \frac{h^2}{2m_0}\left(\gamma_1 k^2 I_4 - 2 \gamma_2 \sum_i k_i^2 \left(J_i^2 - \frac{1}{3} J^2\right) - 2 \gamma_3 (k_x k_y (J_x J_y + J_y J_x) + c.p.) \right)
-	\end{eqnarray}
+	\end{align}
 with $\gamma_1$, $\gamma_2$ and $\gamma_3$ the Luttinger parameters, $I_4$ the 4 $\times$ 4 identity matrix, $\mathbf{k}$ a vector of the Brillouin zone, $\mathbf{J}$ the orbital momentum operator with $J_x$, $J_y$ and $J_z$ being 4 $\times$ 4 matric satisfying $[J_x, J_y] = iJ_z$ and circular permutation, and $c.p$ standing for "circular permutation". 
 	This hamiltonian can be simplified using the parameters:
-	\begin{eqnarray}
+	\begin{align}
 		\begin{array}{l}
 			A = \gamma_1 + \frac{5}{2} \gamma_2 \\
 			B = 2 \gamma_2 \\
 			C = 2(\gamma_3 - \gamma_2)
 		\end{array}
-	\end{eqnarray}
+	\end{align}
 Using these, the Luttinger hamiltonian can be rewritten:
-	\begin{eqnarray}
+	\begin{align}
 		{\cal H}_L = - \frac{h^2}{2m_0}(Ak^2 I_4 - B(\mathbf{k}.\mathbf{J})^2 + C(k_x k_y (J_x J_y + J_y J_x) + c.p.))
-	\end{eqnarray}
+	\end{align}
 The $B$-term lift the degeneracy of the $\Gamma_8$ band into two sub-bands as shown above, and is invariant under arbitrary rotations. The $C$-term describes the warping of the valence band.
 
 	In the spherical approximation, the Luttinger hamiltonian has two eigenvalues:
-	\begin{eqnarray}
+	\begin{align}
 		\begin{array}{l}
 			E_{hh} = - \frac{\hbar^2 k^2}{2m_0 (A-2.25B)^{-1}} = - \frac{\hbar^2 k^2}{2m_0 (\gamma_1 - 2 \gamma_2 )^{-1}} = - \frac{\hbar^2 k^2}{2m_{hh}} \\
 			E_{lh} = - \frac{\hbar^2 k^2}{2m_0 (A-0.25B)^{-1}} = - \frac{\hbar^2 k^2}{2m_0 (\gamma_1 + 2 \gamma_2 )^{-1}} = - \frac{\hbar^2 k^2}{2m_{lh}}
 		\end{array}
-	\end{eqnarray}
+	\end{align}
 We find back the value of the effective mass for the lh, along with a value for the hh. The hh band also presents here a negative curvature, as expected.
 
 	The parameters and carriers effective masses are given in the Tab.~\ref{Param}.
 	
 	\begin{table} \centering
 		\setlength\extrarowheight{2pt}
+		\label{Param}
 		\begin{tabular}{m{3cm}|m{3cm}|m{3cm}}
 			\hline \hline
 			 & \multicolumn{1}{c|}{CdTe} & \multicolumn{1}{c}{ZnTe} \\
@@ -140,7 +141,15 @@ We find back the value of the effective mass for the lh, along with a value for 
 
 		\subsection{Lattice mismatch and the Bir-Pikus Hamiltonian}
 		
-		ZnTe crystal has a lattice parameter of 6.10\AA, while CdTe one is of 6.48\AA. This lattice mismatch will induce strain in a CdTe layer grown on a ZnTe substrate.
+	ZnTe crystal has a lattice parameter of $a_{ZnTe} = $6.10\AA, while CdTe one is of $a_{CdTe} = $6.48\AA. This lattice mismatch results in stress in a CdTe layer grown on a ZnTe substrate:
+		\begin{align}
+			\epsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} = -5.8\%
+		\end{align}
+		
+		In order to represent this strain and see their effect on the band, especially the $\Gamma_8$ band, we need to define a hamiltonian representing them. These strains deform the structure, so let's begin the representation with an volume $V = (x\mathbf{u_x} + y\mathbf{u_y} + z\mathbf{u_z}$, with $(\mathbf{u_x}, \mathbf{u_y}, \mathbf{u_z})$ an ortho-normalized basis. This volume will transform into another one $V' = (x\mathbf{u_x'} + y\mathbf{u_y'} + z\mathbf{u_z'})$, where:
+		\begin{align}
+			a
+		\end{align}
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque. 
 		
