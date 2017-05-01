@@ -154,6 +154,42 @@ We find back the value of the effective mass for the lh, along with a value for 
 				\mathbf{u_z'} = \epsilon_{zx}' \mathbf{u_x} + \epsilon_{zy}' \mathbf{u_y} + (1 + \epsilon_{zz}')\mathbf{u_z}
 			\end{array}
 		\end{align}
+		
+	$\epsilon_{ij}'$ represents an expansion of the vector $i$ in the direction $j$. They are small deformation of the lattice, so we choose $\epsilon_{ij}' << 1$. Such transformations can be decomposed in a symmetric part and an antisymetric one. We note $\overline{\overline{\epsilon}}$ the symmetric part, called the strain tensor, defined such as:
+	\begin{align}
+		\epsilon_{ ii} &= \epsilon_{ii}' \\
+		\epsilon_{ij} &= \frac{1}{2} \left(\epsilon_{ij}' + \epsilon_{ji}'\right)
+	\end{align}
+
+	In the linear regime, the strain tensor $\overline{\overline{\epsilon}}$ is proportional to the stress tensor $\overline{\overline{\sigma}}$, where $\sigma_{ij}$ describe a force parallel to $i$ applied on a surface perpendicular to $j$. Therefore, $\sigma_{ii}$ will describe an elongation or compression stress, while $\sigma_{ij}$ ($i\neq j$) represents a shear stress. Since these tensor are symmetric, we can reduce the number of coefficient from nine to six: $\sigma_{xx}$, $\sigma_{yy}$, $\sigma_{zz}$, $\sigma_{xy} = \sigma_{yx}$, $\sigma_{xz} = \sigma_{zx}$ and $\sigma_{yz} = \sigma_{zy}$. Therefore, in the linear regime and for a cubic crystal, we can write the Hooke's law:
+	\begin{align}
+		\begin{bmatrix}
+			\sigma_{xx} \\
+			\sigma_{yy} \\
+			\sigma_{zz} \\
+			\sigma_{xy} \\
+			\sigma_{xz} \\
+			\sigma_{yz}
+		\end{bmatrix}
+		=
+		\begin{bmatrix}
+			C_{11} & C_{12} & C_{12} & 0 & 0 & 0 \\
+			C_{12} & C_{11} & C_{12} & 0 & 0 & 0 \\
+			C_{12} & C_{12} & C_{11} & 0 & 0 & 0 \\
+			0 & 0 & 0 & 2C_{44} & 0 & 0 \\
+			0 & 0 & 0 & 0 & 2C_{44} & 0 \\
+			0 & 0 & 0 & 0 & 0 & 2C_{44}
+		\end{bmatrix}
+		\begin{bmatrix}
+			\epsilon_{xx} \\
+			\epsilon_{yy} \\
+			\epsilon_{zz} \\
+			\epsilon_{xy} \\
+			\epsilon_{xz} \\
+			\epsilon_{yz}
+		\end{bmatrix}
+	\end{align}
+Since $x$, $y$ and $z$ are physically equivalent, as well as $xy$, $xz$ and $yz$, only two diagonal coefficient are needed, $C_{11}$ and $C_{44}$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque. 
 		
