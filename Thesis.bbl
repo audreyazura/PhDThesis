@@ -99,6 +99,54 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.102.1030
       \endverb
     \endentry
+    \entry{BirPikus}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=cefacde949022243e04f62e3c9c31c9c}{Bir}{B\bibinitperiod}{G.L.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6ca66f0e7a9ca82bb44e5459d41300ef}{Pikus}{P\bibinitperiod}{G.E}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=cefacde949022243e04f62e3c9c31c9c}{Bir}{B\bibinitperiod}{G.L.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6ca66f0e7a9ca82bb44e5459d41300ef}{Pikus}{P\bibinitperiod}{G.E}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{012f330893feeef1206fd00a3c132814}
+      \strng{fullhash}{012f330893feeef1206fd00a3c132814}
+      \field{sortinit}{0}
+      \field{labeltitle}{Symmetry and strain-induced effects in semiconductors}
+      \field{edition}{Wiley}
+      \field{title}{Symmetry and strain-induced effects in semiconductors}
+      \field{year}{1974}
+    \endentry
+    \entry{CdTeDefPot}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=cb14acda081764e68228da3f793dc726}{Allègre}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2048986aa5a9e25f301386d1e668f83a}{Gil}{G\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d74a1eae319bc840b1496b35f6b7a7bd}{Calatayud}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4bad50ad6a63505f746137c3da1dca7f}{Mathieu}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=cb14acda081764e68228da3f793dc726}{Allègre}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2048986aa5a9e25f301386d1e668f83a}{Gil}{G\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d74a1eae319bc840b1496b35f6b7a7bd}{Calatayud}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4bad50ad6a63505f746137c3da1dca7f}{Mathieu}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{30888627d5b85f222e4be55c4d93736e}
+      \strng{fullhash}{d91c1a0444fde1539abbcbf5a651cf63}
+      \field{sortinit}{0}
+      \field{labeltitle}{Deformation potentials of CdTe epilayers from piezo and wavelength modulation reflectivity spectra analysis}
+      \field{issn}{0022-0248}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{number}{1}
+      \field{title}{Deformation potentials of CdTe epilayers from piezo and wavelength modulation reflectivity spectra analysis}
+      \field{volume}{101}
+      \field{year}{1990}
+      \field{pages}{603\bibrangedash 607}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0022-0248(90)91045-R
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/002202489091045R
+      \endverb
+    \endentry
     \entry{FirstMBE}{article}{}
       \name{labelname}{2}{}{%
         {{hash=45a42ff992ed57e68d2baaa4be77228d}{Cho}{C\bibinitperiod}{A.Y.}{A\bibinitperiod}{}{}{}{}}%
