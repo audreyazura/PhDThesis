@@ -147,6 +147,36 @@
       \verb http://www.sciencedirect.com/science/article/pii/002202489091045R
       \endverb
     \endentry
+    \entry{LuttElecMotion}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=63229d101061b1504bdae4c3320a67c5}{Luttinger}{L\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=a428f3cafd6e60e94ad9498f2a2456d7}{Kohn}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=63229d101061b1504bdae4c3320a67c5}{Luttinger}{L\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=a428f3cafd6e60e94ad9498f2a2456d7}{Kohn}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4d06831d7548b01a7574b7763876c1c5}
+      \strng{fullhash}{4d06831d7548b01a7574b7763876c1c5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Motion of Electrons and Holes in Perturbed Periodic Fields}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{02}
+      \field{title}{Motion of Electrons and Holes in Perturbed Periodic Fields}
+      \field{volume}{97}
+      \field{year}{1955}
+      \field{pages}{869\bibrangedash 883}
+      \verb{doi}
+      \verb 10.1103/PhysRev.97.869
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.97.869
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

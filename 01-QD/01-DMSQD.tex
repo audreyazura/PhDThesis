@@ -140,7 +140,7 @@ We find back the value of the effective mass for the lh, along with a value for 
 		\caption{Physical parameters for CdTe and ZnTe.}
 	\end{table}
 
-		\subsection{Lattice mismatch and the Bir-Pikus Hamiltonian}
+		\subsection{Lattice mismatch and the Bir-Pikus Hamiltonian \label{BPSec}}
 		
 	ZnTe crystal has a lattice parameter of $a_{ZnTe} = $6.10 \AA, while CdTe one is of $a_{CdTe} = $6.48 \AA. This lattice mismatch results in stress in a CdTe layer grown on a ZnTe substrate:
 		\begin{align}
@@ -232,7 +232,7 @@ Using equality \ref{epsperp}, we can then deduce:
 	
 	One can notice that $Tr(\overline{\overline{\epsilon_{hybd}}}) = Tr(\overline{\overline{\epsilon}}) = \epsilon$. Since in the case of a hydrostatic compression, such as what is the case with CdTe over ZnTe, $\epsilon_{hybd} < 0$, we then have $\epsilon < 0$ and, according to the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}), the gap of CdTe increase. For CdTe, Bir-Pikus parameter are $a_{\nu} = 0.91$ eV, $b_{\nu} = 0.99$ eV and $d_{\nu} = 2.76$ eV~\cite{CdTeDefPot}.
 	
-	Seeing that $\epsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\epsilon_{xx} = \epsilon{yy} = \epsilon_{\bot}$, we can simplify this hamiltonian to:
+	Seeing that $\epsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\epsilon_{xx} = \epsilon_{yy} = \epsilon_{\bot}$, we can simplify this hamiltonian to:
 	\begin{align}
 		{\cal H}_{BP, biax} = a_{\nu} \epsilon I_4 + \frac{b_{\nu}}{3}(\epsilon_{\bot} - \epsilon_{zz})(J_x^2 + J_y^2 - 2 J_z^2)
 	\end{align}
@@ -266,8 +266,45 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 	\begin{align}
 		\Psi (\mathbf{r}) = \sum_{n,k} c_{n,k} u _{n,k} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}
 	\end{align}
-Since we are in a confined environment, we can only consider the states around $\mathbf{k} = 0$.
+Since we are in a confined environment, we can only consider the states around $\mathbf{k} = 0$. Since we consider the band extrema, we neglect the inter-band wave function mixing in a first time and use the effective-mass approximation. We can then limit the expansion of Bloch state to an expansion on the $u _{n,0} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}$, with $n = \Gamma_6$ for the conduction band and $n = \Gamma_8$ for the valence. We can then write:
+	\begin{align}
+		\Psi_c (\mathbf{r}) & \simeq \sum_{k} c_{k} u _{\Gamma_6,0} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}} = F_e (\mathbf{r}) u _{\Gamma_6,0} \label{eEnvFunc} \\
+		\Psi_v (\mathbf{r}) & \simeq \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}, k} c_{J_z,k} u _{\Gamma_8,J_z} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}} = \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}} F_{J_z} (\mathbf{r}) u _{\Gamma_8,J_z} \label{hEnvFunc}
+	\end{align}
+with $F_e (\mathbf{r}) = \sum_{n,k} c_{k} e^{i\mathbf{k}.\mathbf{r}}$ the electron envelop function and $F_{J_z} (\mathbf{r}) = c_{J_z,k} e^{i\mathbf{k}.\mathbf{r}}$, $J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}$ the hole envelop functions.
+
+	The effective mass approximation allow us to replace the periodic crystal potential and the free-electron kinetic energy by the effective Hamiltonian representing the band extrema, using $m_e$ for the conduction band 
+and ${\cal H}_L + {\cal H}_{BP}$ for the top of the valence band. Considering the effective mass is the same in CdTe and ZnTe, we can now work with the simple picture of an effective mass carrier with the envelop function defined in Eqs.~\ref{eEnvFunc} and \ref{hEnvFunc}, trapped in a potential $V_e (\mathbf{r})$ for the conduction band or $V_h (\mathbf{r})$ for the valence band, creating by the band offset between the two semiconductors. We write the Schrödinger equations for these particle:
+	\begin{align}
+		\left(\frac{\hbar^2}{2m_e}\Delta \right)F_e (\mathbf{r}) + V_e (\mathbf{r}) F_e (\mathbf{r}) &= EF_e (\mathbf{r}) \label{eSchroding} \\
+		(\tilde{{\cal H}}_L + \tilde{{\cal H}}_{BP} + V_h (\mathbf{r})) 
+			\begin{pmatrix}
+				F_{+ \frac{3}{2}} (\mathbf{r}) \\
+				F_{+ \frac{1}{2}} (\mathbf{r}) \\
+				F_{- \frac{1}{2}} (\mathbf{r}) \\
+				F_{- \frac{3}{2}} (\mathbf{r})
+			\end{pmatrix}
+			&= E
+			\begin{pmatrix}
+				F_{+ \frac{3}{2}} (\mathbf{r}) \\
+				F_{+ \frac{1}{2}} (\mathbf{r}) \\
+				F_{- \frac{1}{2}} (\mathbf{r}) \\
+				F_{- \frac{3}{2}} (\mathbf{r})
+			\end{pmatrix}
+			\label{hSchroding}
+	\end{align}
+with $\tilde{{\cal H}}_L$ and $\tilde{{\cal H}}_{BP}$ the hole hamiltonians, opposite to the electron hamiltonians defined in Eq.~\ref{LuttHamil} and \ref{BPHamil}. In $\tilde{{\cal H}}_L$, the $k$-terms transform into a gradient of the envelop function with the form $i\nabla$. For simplicity, the $\tilde{}$ will be dropped in the next equations. The derivation of the effective mass approximation can be found in reference \cite{LuttElecMotion}.
+
+	In order to analytically solve these hamiltonian, another approximation is necessary. As discussed in section \ref{BandStruct}, ${\cal H}_{L}$ couple the hh and lh through its non-diagonal terms, while ${\cal H}_{BP}$ lift their degeneracy, as shown in section \ref{BPSec}. Considering the presence of biaxial strain, we can neglect the non-diagonal terms of ${\cal H}_{L}$ in regard to the action of ${\cal H}_{BP}$. This is the heavy hole approximation, un coupling the four differential equations defined in Eq.~\ref{hSchroding}. Only the ground states $|\pm \frac{3}{2}\rangle$ are considered, with the effective mass given by the diagonal term of ${\cal H}_{L}$, noted $m_{h, \parallel}$ in the plane and $m_{h, z}$ along the growth axis.
 	
+	In the general case, we still cannot solve this problem. However, it is however possible for some chosen potential. Let's consider a lens like quantum dot, with a radius in the $xy$ plane, noted $\rho$, much larger than it height $L_z$. We can therefore define two different harmonic oscillator of potential: a 2D oscillator $V_{c,v} (\rho)$ in the plane, and a 1D oscillator $V_{c,v} (z)$ along the growth axis:
+	\begin{align}
+		V_{c,v} (\rho) = 4 \Delta E_{c,v} \frac{\rho ^2}{L_z^2} \\
+		V_{c,v} (z) = 4 \Delta E_{c,v} \frac{z^2}{L_z^2}
+	\end{align}
+The potential of the whole quantum will the be $V_{c,v} (\mathbf{r}) = V_{c,v} (\rho) + V_{c,v} (z)$. Separating the potential in those two parts means we are searching for solution of the form $F(z, \rho, \theta) = \chi (z) \phi_{n,m} (\rho, \theta)$, with $\theta$ the angle between the position vector and the $x$ axis. 
+
+
 		\subsection{Valence band mixing}	
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
