@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  9 MAY 2017 17:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  9 MAY 2017 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,43 +1024,52 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 109--110
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <Pictures/FullPLEv2.eps>
-(epstopdf)                    date: 2017-05-09 15:12:04
-(epstopdf)                    size: 3044160 bytes
+(epstopdf)                    date: 2017-05-09 21:50:59
+(epstopdf)                    size: 3579285 bytes
 (epstopdf)             Output file: <Pictures/FullPLEv2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-09 15:12:14
-(epstopdf)                    size: 176154 bytes
+(epstopdf)                    date: 2017-05-09 21:51:26
+(epstopdf)                    size: 194112 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/FullPLEv2-eps-con
 verted-to.pdf Pictures/FullPLEv2.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/FullPLEv2-eps-converted-to.pdf, id=121, 910.40125pt x 953.5625pt>
+<Pictures/FullPLEv2-eps-converted-to.pdf, id=121, 910.40125pt x 981.6675pt>
 File: Pictures/FullPLEv2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/FullPLEv2-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/FullPLEv2-eps-converted-to.pdf used on input 
 line 121.
-(pdftex.def)             Requested size: 398.33858pt x 417.22623pt.
+(pdftex.def)             Requested size: 398.33858pt x 429.5234pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./Pictures/Temp-eps-converted-to.pdf>] [7 <./Pictures/PLEDotPres-eps-conver
-ted-to.pdf>] [8 <./Pictures/FullPLEv2-eps-converted-to.pdf>]
+ted-to.pdf>]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+[8 <./Pictures/FullPLEv2-eps-converted-to.pdf>]
 Overfull \hbox (5.13042pt too wide) in paragraph at lines 141--142
 []\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
 0 meV. This state presents
  []
 
 Package epstopdf Info: Source file: <Pictures/MagOptv2.eps>
-(epstopdf)                    date: 2017-03-31 21:14:49
-(epstopdf)                    size: 2602808 bytes
+(epstopdf)                    date: 2017-05-09 21:57:20
+(epstopdf)                    size: 2607418 bytes
 (epstopdf)             Output file: <Pictures/MagOptv2-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-03-31 21:15:00
 (epstopdf)                    size: 109853 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/MagOptv2-eps-conv
 erted-to.pdf Pictures/MagOptv2.eps>
 (epstopdf)             \includegraphics on input line 149.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Pictures/MagOptv2-eps-converted-to.pdf Pictures/M
+agOptv2.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Pictures/MagOptv2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-09 22:05:07
+(epstopdf)                    size: 112741 bytes.
 <Pictures/MagOptv2-eps-converted-to.pdf, id=163, 597.23125pt x 629.35126pt>
 File: Pictures/MagOptv2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1073,8 +1082,8 @@ ine 149.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <Pictures/MagOptLowSym.eps>
-(epstopdf)                    date: 2017-04-25 20:44:55
-(epstopdf)                    size: 2745596 bytes
+(epstopdf)                    date: 2017-05-09 21:59:03
+(epstopdf)                    size: 2745597 bytes
 (epstopdf)             Output file: <Pictures/MagOptLowSym-eps-converted-to.pdf
 >
 (epstopdf)                    date: 2017-04-25 20:45:51
@@ -1082,7 +1091,13 @@ Package epstopdf Info: Source file: <Pictures/MagOptLowSym.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/MagOptLowSym-eps-
 converted-to.pdf Pictures/MagOptLowSym.eps>
 (epstopdf)             \includegraphics on input line 159.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Pictures/MagOptLowSym-eps-converted-to.pdf Pictur
+es/MagOptLowSym.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Pictures/MagOptLowSym-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-05-09 22:05:12
+(epstopdf)                    size: 295732 bytes.
 <Pictures/MagOptLowSym-eps-converted-to.pdf, id=170, 341.275pt x 469.755pt>
 File: Pictures/MagOptLowSym-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1132,15 +1147,20 @@ Overfull \hbox (2.82564pt too wide) in paragraph at lines 262--262
  []
 
 Package epstopdf Info: Source file: <Pictures/HighE.eps>
-(epstopdf)                    date: 2017-05-09 15:14:03
-(epstopdf)                    size: 7449319 bytes
+(epstopdf)                    date: 2017-05-09 22:02:23
+(epstopdf)                    size: 7449574 bytes
 (epstopdf)             Output file: <Pictures/HighE-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-09 15:14:36
 (epstopdf)                    size: 580105 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/HighE-eps-convert
 ed-to.pdf Pictures/HighE.eps>
 (epstopdf)             \includegraphics on input line 276.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Pictures/HighE-eps-converted-to.pdf Pictures/High
+E.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Pictures/HighE-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-09 22:05:23
+(epstopdf)                    size: 580149 bytes.
 <Pictures/HighE-eps-converted-to.pdf, id=242, 896.34875pt x 882.29625pt>
 File: Pictures/HighE-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1154,15 +1174,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14] [15 <./Pictures/HighE-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/6peaks.eps>
-(epstopdf)                    date: 2017-04-25 20:43:39
-(epstopdf)                    size: 3001394 bytes
+(epstopdf)                    date: 2017-05-09 22:04:35
+(epstopdf)                    size: 3001608 bytes
 (epstopdf)             Output file: <Pictures/6peaks-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-04-25 20:46:10
 (epstopdf)                    size: 272126 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/6peaks-eps-conver
 ted-to.pdf Pictures/6peaks.eps>
 (epstopdf)             \includegraphics on input line 300.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Pictures/6peaks-eps-converted-to.pdf Pictures/6pe
+aks.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Pictures/6peaks-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-09 22:05:30
+(epstopdf)                    size: 272213 bytes.
 
 <Pictures/6peaks-eps-converted-to.pdf, id=263, 1180.41pt x 612.2875pt>
 File: Pictures/6peaks-eps-converted-to.pdf Graphic file (type pdf)
@@ -1273,7 +1298,7 @@ c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 04-CrMagOpt.pdf (22 pages, 2877059 bytes).
+Output written on 04-CrMagOpt.pdf (22 pages, 2899180 bytes).
 PDF statistics:
  632 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams

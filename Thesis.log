@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  9 MAY 2017 21:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  9 MAY 2017 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,44 +1464,47 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 922--923
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/FullPLEv2.eps>
-(epstopdf)                    date: 2017-05-09 15:12:04
-(epstopdf)                    size: 3044160 bytes
+(epstopdf)                    date: 2017-05-09 21:50:59
+(epstopdf)                    size: 3579285 bytes
 (epstopdf)             Output file: <04-CrMagOpt/Pictures/FullPLEv2-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-05-09 15:12:14
-(epstopdf)                    size: 176154 bytes
+(epstopdf)                    date: 2017-05-09 21:51:26
+(epstopdf)                    size: 194112 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/FullP
 LEv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/FullPLEv2.eps>
 (epstopdf)             \includegraphics on input line 934.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=679, 910.40125pt x 953
-.5625pt>
+<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=679, 910.40125pt x 981
+.6675pt>
 File: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf Graphic file (type pd
 f)
  <use 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf us
 ed on input line 934.
-(pdftex.def)             Requested size: 398.33858pt x 417.22623pt.
+(pdftex.def)             Requested size: 398.33858pt x 429.5234pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [51 <./04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>] [52 <./04-CrMagOpt/Pict
-ures/PLEDotPres-eps-converted-to.pdf>] [53 <./04-CrMagOpt/Pictures/FullPLEv2-ep
-s-converted-to.pdf>]
+ures/PLEDotPres-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 53 contains only floats.
+
+[53 <./04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>]
 Overfull \hbox (5.13042pt too wide) in paragraph at lines 947--948
 []\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
 0 meV. This state presents
  []
 
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/MagOptv2.eps>
-(epstopdf)                    date: 2017-03-31 21:14:49
-(epstopdf)                    size: 2602808 bytes
+(epstopdf)                    date: 2017-05-09 21:57:20
+(epstopdf)                    size: 2607418 bytes
 (epstopdf)             Output file: <04-CrMagOpt/Pictures/MagOptv2-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2017-03-31 21:15:00
-(epstopdf)                    size: 109853 bytes
+(epstopdf)                    date: 2017-05-09 22:05:07
+(epstopdf)                    size: 112741 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
 tv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptv2.eps>
 (epstopdf)             \includegraphics on input line 955.
@@ -1520,12 +1523,12 @@ d on input line 955.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/MagOptLowSym.eps>
-(epstopdf)                    date: 2017-04-25 20:44:55
-(epstopdf)                    size: 2745596 bytes
+(epstopdf)                    date: 2017-05-09 21:59:03
+(epstopdf)                    size: 2745597 bytes
 (epstopdf)             Output file: <04-CrMagOpt/Pictures/MagOptLowSym-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-04-25 20:45:51
-(epstopdf)                    size: 295786 bytes
+(epstopdf)                    date: 2017-05-09 22:05:12
+(epstopdf)                    size: 295732 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
 tLowSym-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptLowSym.eps>
 (epstopdf)             \includegraphics on input line 965.
@@ -1543,16 +1546,16 @@ Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55 <./04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>]
-<04-CrMagOpt/Pictures/SimulMagOptv2.png, id=753, 580.41844pt x 708.39656pt>
+[54] [55 <./04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>] [56 <./04-CrMa
+gOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>]
+<04-CrMagOpt/Pictures/SimulMagOptv2.png, id=765, 580.41844pt x 708.39656pt>
 File: 04-CrMagOpt/Pictures/SimulMagOptv2.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/SimulMagOptv2.png>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/SimulMagOptv2.png used on input l
 ine 981.
 (pdftex.def)             Requested size: 284.52756pt x 347.26868pt.
- [56 <./04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>] [57 <./04-CrMa
-gOpt/Pictures/SimulMagOptv2.png>]
+ [57 <./04-CrMagOpt/Pictures/SimulMagOptv2.png>]
 
 LaTeX Warning: Reference `Cralone' on page 58 undefined on input line 994.
 
@@ -1582,12 +1585,12 @@ Overfull \hbox (2.82564pt too wide) in paragraph at lines 1030--1030
  []
 
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/HighE.eps>
-(epstopdf)                    date: 2017-05-09 15:14:03
-(epstopdf)                    size: 7449319 bytes
+(epstopdf)                    date: 2017-05-09 22:02:23
+(epstopdf)                    size: 7449574 bytes
 (epstopdf)             Output file: <04-CrMagOpt/Pictures/HighE-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2017-05-09 15:14:36
-(epstopdf)                    size: 580105 bytes
+(epstopdf)                    date: 2017-05-09 22:05:23
+(epstopdf)                    size: 580149 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/HighE
 -eps-converted-to.pdf 04-CrMagOpt/Pictures/HighE.eps>
 (epstopdf)             \includegraphics on input line 1044.
@@ -1606,12 +1609,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [59] [60 <./04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/6peaks.eps>
-(epstopdf)                    date: 2017-04-25 20:43:39
-(epstopdf)                    size: 3001394 bytes
+(epstopdf)                    date: 2017-05-09 22:04:35
+(epstopdf)                    size: 3001608 bytes
 (epstopdf)             Output file: <04-CrMagOpt/Pictures/6peaks-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2017-04-25 20:46:10
-(epstopdf)                    size: 272126 bytes
+(epstopdf)                    date: 2017-05-09 22:05:30
+(epstopdf)                    size: 272213 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/6peak
 s-eps-converted-to.pdf 04-CrMagOpt/Pictures/6peaks.eps>
 (epstopdf)             \includegraphics on input line 1067.
@@ -1674,8 +1677,11 @@ e (type pdf)
 Package pdftex.def Info: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted
 -to.pdf used on input line 1091.
 (pdftex.def)             Requested size: 341.43306pt x 308.51846pt.
- [63 <./04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>]
-<04-CrMagOpt/Pictures/CrCloseDot.png, id=867, 938.75719pt x 542.025pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<04-CrMagOpt/Pictures/CrCloseDot.png, id=857, 938.75719pt x 542.025pt>
 File: 04-CrMagOpt/Pictures/CrCloseDot.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/CrCloseDot.png>
@@ -1687,7 +1693,11 @@ Overfull \hbox (8.53766pt too wide) in paragraph at lines 1101--1102
  [] 
  []
 
-[64 <./04-CrMagOpt/Pictures/CrCloseDot.png>] [65]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63] [64 <./04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>]
+[65 <./04-CrMagOpt/Pictures/CrCloseDot.png>]
 Chapter V.
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
@@ -2022,7 +2032,7 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Thesis.pdf (85 pages, 6147238 bytes).
+Output written on Thesis.pdf (85 pages, 6169418 bytes).
 PDF statistics:
  1513 PDF objects out of 1728 (max. 8388607)
  1031 compressed objects within 11 object streams
