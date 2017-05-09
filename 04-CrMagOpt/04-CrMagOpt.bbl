@@ -189,57 +189,37 @@
       \endverb
     \endentry
     \entry{DELum}{article}{}
-      \name{labelname}{14}{}{%
-        {{hash=d31da9a6a31b2e2f37e7b301a64dd435}{Bayer}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=bd3e850fa5659fb6cf138031eeebb58c}{Ortner}{O\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=266e10981ccc67cb77cd724694dc3e47}{Stern}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
-        {{hash=40d8bde677e335d29f109695423e68b2}{Kuther}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=16474ed717cff6b2e112c1457dd3e410}{Gorbunov}{G\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=e793222075e5a156b2917e98d2006b82}{Forchel}{F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=9da4f19e1f292fda3d2964bd0fb34300}{Hawrylak}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=bc26de8a72de1386c515be0b79cc95b4}{Fafard}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=a09d817505bb84d6d19ded94c634494c}{Hinzer}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9e2d115d32fe2b65333f72b813e71493}{Reinecke}{R\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=ef6fc1c1c356a3b823842d8ceec5be94}{Walck}{W\bibinitperiod}{S.\bibnamedelimi N.}{S\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=d7e5ea0331f388521355a27cc1ab6791}{Reithmaier}{R\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=cd5894e36a030fdad0afa672261aa0cc}{Klopf}{K\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=9c5ba434c8f06c99963fcb4951be42be}{Schäfer}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      \name{labelname}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{14}{}{%
-        {{hash=d31da9a6a31b2e2f37e7b301a64dd435}{Bayer}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=bd3e850fa5659fb6cf138031eeebb58c}{Ortner}{O\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=266e10981ccc67cb77cd724694dc3e47}{Stern}{S\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
-        {{hash=40d8bde677e335d29f109695423e68b2}{Kuther}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=16474ed717cff6b2e112c1457dd3e410}{Gorbunov}{G\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=e793222075e5a156b2917e98d2006b82}{Forchel}{F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=9da4f19e1f292fda3d2964bd0fb34300}{Hawrylak}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=bc26de8a72de1386c515be0b79cc95b4}{Fafard}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=a09d817505bb84d6d19ded94c634494c}{Hinzer}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9e2d115d32fe2b65333f72b813e71493}{Reinecke}{R\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=ef6fc1c1c356a3b823842d8ceec5be94}{Walck}{W\bibinitperiod}{S.\bibnamedelimi N.}{S\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=d7e5ea0331f388521355a27cc1ab6791}{Reithmaier}{R\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=cd5894e36a030fdad0afa672261aa0cc}{Klopf}{K\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=9c5ba434c8f06c99963fcb4951be42be}{Schäfer}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      \name{author}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{5a7856385db99d85bfb3b42ff4919d8d}
-      \strng{fullhash}{9b8b30d4d10a2a12d0e6ccf9644de923}
+      \strng{namehash}{9d01fba456a716f5a892a640e121b0ae}
+      \strng{fullhash}{1585b8d30fb8069af126e7616e3560c2}
       \field{sortinit}{0}
-      \field{labeltitle}{Fine structure of neutral and charged excitons in self-assembled {In(Ga)As/(Al)GaAs} quantum dots}
-      \field{issue}{19}
+      \field{labeltitle}{Valence-band mixing in neutral, charged, and Mn-doped self-assembled quantum dots}
+      \field{issue}{4}
       \field{journaltitle}{Phys. Rev. B}
-      \field{month}{05}
-      \field{title}{Fine structure of neutral and charged excitons in self-assembled {In(Ga)As/(Al)GaAs} quantum dots}
-      \field{volume}{65}
-      \field{year}{2002}
-      \field{pages}{195315}
+      \field{month}{07}
+      \field{title}{Valence-band mixing in neutral, charged, and Mn-doped self-assembled quantum dots}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{045331}
       \verb{doi}
-      \verb 10.1103/PhysRevB.65.195315
+      \verb 10.1103/PhysRevB.76.045331
       \endverb
       \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevB.65.195315
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.76.045331
       \endverb
     \endentry
     \entry{FineStructSplitGaAsdots}{article}{}
