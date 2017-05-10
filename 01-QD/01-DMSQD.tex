@@ -241,7 +241,7 @@ And, since we are in the valence band with $J = \frac{3}{2}$ and $J_x^2 + J_y^2 
 		{\cal H}_{BP, biax} = \left(a_{\nu} \epsilon + \frac{5}{4} b_{\nu} (\epsilon_{\nu} - \epsilon_{zz})\right)I_4 - b_{\nu} (\epsilon_{\nu} - \epsilon_{zz})J_z^2
 	\end{align}
 	
-	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\epsilon_{\bot} - \epsilon_{z}$. Since $Jz|n\rangle = n|n\rangle$, we find:
+	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\epsilon_{\bot} - \epsilon_{z}$. Since $J_z|n\rangle = n|n\rangle$, we find:
 	\begin{align}
 		\begin{array}{rl}
 			E_{\pm \frac{3}{2}} - E_{\pm \frac{1}{2}} &= - 2b_{\nu} \left(1 + \frac{2C_{12}}{C_{11}} \right) \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} \\
@@ -252,7 +252,7 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 		
 		\subsection{3D confinement: the quantum dot\label{e-hIntQD}}
 		
-		Embedding a semiconductor in another one of larger creates trap for carrier, confining them in one or multiple. CdTe conduction band (resp. valence band) is a lower (resp. higher) energy than ZnTe ones, creating such a trap. Using the procedure described in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electron in all three direction, acting like an 3D well for the free carriers. This confinement lead to a quantization of the carriers energy level and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Chap.~\ref{ExchIntQD}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron.
+		Embedding a semiconductor in another one of larger creates trap for carrier, confining them in one or multiple. CdTe conduction band (resp. valence band) is a lower (resp. higher) energy than ZnTe ones, creating such a trap. Using the procedure described in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electron in all three direction, acting like an 3D well for the free carriers. This confinement lead to a quantization of the carriers energy level and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Chap.~\ref{ExchIntQD}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron. The electron-hole system has a hydrogen-like behaviour and is called an exciton.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -302,8 +302,28 @@ with $\tilde{{\cal H}}_L$ and $\tilde{{\cal H}}_{BP}$ the hole hamiltonians, opp
 		V_{c,v} (\rho) = 4 \Delta E_{c,v} \frac{\rho ^2}{L_z^2} \\
 		V_{c,v} (z) = 4 \Delta E_{c,v} \frac{z^2}{L_z^2}
 	\end{align}
-The potential of the whole quantum will the be $V_{c,v} (\mathbf{r}) = V_{c,v} (\rho) + V_{c,v} (z)$. Separating the potential in those two parts means we are searching for solution of the form $F(z, \rho, \theta) = \chi (z) \phi_{n,m} (\rho, \theta)$, with $\theta$ the angle between the position vector and the $x$ axis. 
+with $\Delta E_{c,v}$ the difference of conduction (resp. valence) band energy between the semiconductor. The potential of the whole quantum will the be $V_{c,v} (\mathbf{r}) = V_{c,v} (\rho) + V_{c,v} (z)$. Separating the potential in those two parts means we are searching for solution of the form $F(z, \rho, \theta) = \chi (z) \phi_{n,m} (\rho, \theta)$, with $\theta$ the angle between the position vector and the $x$ axis.
 
+	We write the characteristic spatial width and characteristic frequency of the 2D harmonic oscillator felt by the hole:
+	\begin{align}
+		\Sigma_{\rho}^h &= \sqrt{\frac{\hbar}{m_{h, \parallel} \omega_{\rho}^{h}}} \\
+		\omega_{\rho}^{h} &= \sqrt{\frac{8\Delta E_{v}}{m_{h, \parallel} L_{\rho}^2}}
+	\end{align}
+We can write the same equality along $z$ replacing $\rho$ by $z$ and $m_{h, \parallel}$ by $m_{h,z}$. The same can be done for electron, replacing the  $m_{h, \parallel}$ or $m_{h,z}$ by $m_e$ and $E_v$ by $E_c$.
+
+	We can find in textbook such as ref.~\cite{MecQBasvant} the solution of a harmonic oscillator from which we can deduce the solution for the ground state (GS) and the first two degenerated excited states. The first excited state is found to have an angular momentum $l_z = \pm 1$, and is then noted $Exc, \pm 1$. The envelop functions and energy are then found to be:
+	\begin{align}
+			& F_{c,v}^{GS} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \\
+			& E_{e,h}^{GS} = \hbar \frac{\omega_z^{e,h} + \omega_{\rho}^{e,h}}{2} \\
+		\nonumber \\
+			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} e^{\pm i\theta} \\
+			& E_{e,h}^{Exc, \pm 1} = \hbar \frac{\omega_z^{e,h} + 3 \omega_{\rho}^{e,h}}{2}
+	\end{align}
+We see that this energy level are quantified in a way looking like an isolated atom, as pointed earlier. In reference to the atomic notation, the ground state, lower energy level, is noted $S$ and the two first degenerated level are noted $P$, even though atomic p-states usually are 3 fold degenerated.
+
+	One remarkable feature of the envelop functions is that both GS and the two first excited states present the same envelop along the $z$ axis. The cause is directly the symmetry of the QD: since $L_z \ll L_{\rho}$, $\omega_z^{e,h} \gg \omega_{\rho}^{e,h}$, and since $E_{osc.\ harmo.} = (n+\frac{1}{2})\hbar \omega$, the next possible envelop function along the $z$ axis is at higher energy than the next one in the plane. This geometry is also responsible for the 2 fold degeneracy of the $P$-states.
+	
+	Both the GS and the excited states are once again degenerated due to the spin of the electron and the hole. The electron is in the conduction band with the $\Gamma_6$ symmetry: it can then take the value $\sigma_z = \pm \frac{1}{2}$ (noted $|\uparrow\rangle$ for $+\frac{1}{2}$ and $|\downarrow\rangle$ for $-\frac{1}{2}$). Since we are in the hh approximation, considering the lh are high enough energy to be negligible, the hole spin can only take the values $J_z = \pm \frac{3}{2}$ (noted $|\Uparrow\rangle$ for $+\frac{3}{2}$ and $|\Downarrow\rangle$ for $-\frac{3}{2}$). As pointed ahead, the hole is defined with the opposed characteristic of the missing electron (which may not be the one trapped in the QD). For example, a hole $|\Downarrow\rangle$ corresponds to the absence of a valence electron $\Psi_v (\mathbf{r}) = u_{\Gamma_8, \frac{3}{2}} (\mathbf{r}) F_{\frac{3}{2}} (\mathbf{r})$.
 
 		\subsection{Valence band mixing}	
 		

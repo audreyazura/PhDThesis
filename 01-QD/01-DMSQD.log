@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  9 MAY 2017 21:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  10 MAY 2017 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -926,41 +926,19 @@ Package pdftex.def Info: ../FillingPicture.png used on input line 259.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9] [10] [11] [12]
-Overfull \hbox (5.97437pt too wide) in paragraph at lines 342--342
+[8] [9] [10] [11] [12] [13]
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 362--362
 []\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
  []
 
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 350.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13]
+[14]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 360.
+Package pdftex.def Info: ../FillingPicture.png used on input line 370.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [14]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 372.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
-
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 382.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 390.
+Package pdftex.def Info: ../FillingPicture.png used on input line 380.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -969,7 +947,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [15]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 400.
+Package pdftex.def Info: ../FillingPicture.png used on input line 392.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [16]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 402.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: ../FillingPicture.png Graphic file (type png)
+
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 410.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -977,34 +965,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 408.
+Package pdftex.def Info: ../FillingPicture.png used on input line 420.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17]
 File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 421.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 431.
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 428.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
- [20
+[17] [18]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 441.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [19]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 451.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+
+[21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
  (./01-DMSQD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 Package rerunfilecheck Info: File `01-DMSQD.out' has not changed.
 (rerunfilecheck)             Checksum: DC1A9F62B8A5DEA4AC6C8B13104A5510;1265.
 
@@ -1017,16 +1011,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to '01-DMSQD.run.xml'.
 \openout1 = `01-DMSQD.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 460.
  ) 
 Here is how much of TeX's memory you used:
- 12842 strings out of 494958
- 198620 string characters out of 6179214
- 635213 words of memory out of 5000000
- 15809 multiletter control sequences out of 15000+600000
+ 12852 strings out of 494958
+ 198774 string characters out of 6179214
+ 635225 words of memory out of 5000000
+ 15811 multiletter control sequences out of 15000+600000
  15600 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,15n,49p,1177b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,15n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
 home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/
 audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audre
@@ -1045,10 +1039,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 01-DMSQD.pdf (20 pages, 492651 bytes).
+Output written on 01-DMSQD.pdf (21 pages, 501582 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
