@@ -177,6 +177,27 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.97.869
       \endverb
     \endentry
+    \entry{MecQBasvant}{inbook}{}
+      \name{labelname}{2}{}{%
+        {{hash=21a13060e04cd7be57c2f32a77088b58}{Basdevant}{B\bibinitperiod}{J.-L.}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=23e875987028d96b9bf21dbcf5dab397}{Dalibart}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=21a13060e04cd7be57c2f32a77088b58}{Basdevant}{B\bibinitperiod}{J.-L.}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=23e875987028d96b9bf21dbcf5dab397}{Dalibart}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Les éditions de l'École Polytechnique}%
+      }
+      \strng{namehash}{8c490de6c4faf4ad4ae9738f9fa10f6b}
+      \strng{fullhash}{8c490de6c4faf4ad4ae9738f9fa10f6b}
+      \field{sortinit}{0}
+      \field{labeltitle}{Mécanique quantique}
+      \field{chapter}{2}
+      \field{title}{Mécanique quantique}
+      \field{year}{2002}
+      \field{pages}{80}
+    \endentry
     \entry{FirstMBE}{article}{}
       \name{labelname}{2}{}{%
         {{hash=45a42ff992ed57e68d2baaa4be77228d}{Cho}{C\bibinitperiod}{A.Y.}{A\bibinitperiod}{}{}{}{}}%
