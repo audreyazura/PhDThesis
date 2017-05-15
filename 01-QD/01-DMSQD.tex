@@ -139,6 +139,26 @@ We find back the value of the effective mass for the lh, along with a value for 
 		\end{tabular}
 		\caption{Physical parameters for CdTe and ZnTe.}
 	\end{table}
+	
+	The Luttinger hamiltonian is usually written in matrix form. In the ($u_{\Gamma_8, +\frac{3}{2}}$, $u_{\Gamma_8, -\frac{1}{2}}$, $u_{\Gamma_8, +\frac{1}{2}}$, $u_{\Gamma_8, -\frac{3}{2}}$) basis, we can rewrite it:
+	\begin{align}
+	\label{HLMat}
+		{\cal H}_L = - \frac{\hbar^2}{2m_0}
+		\begin{pmatrix}
+			a_{hh} & c & b & 0 \\
+			c^* & a_{lh} & 0 & -b \\
+			b^* & 0 & a_{lh} & c \\
+			0 & -b^* & c^* & a_{hh}
+		\end{pmatrix}
+	\end{align}
+with:
+	\begin{align*}
+		a_{hh} &= (\gamma_1 - 2 \gamma_2)k_z^2 + (\gamma_1 + \gamma_2)k_{\parallel}^2 \\
+		a_{lh} &= (\gamma_1 + 2 \gamma_2)k_z^2 + (\gamma_1 - \gamma_2)k_{\parallel}^2 \\
+		b &= -2\sqrt{3} \gamma_3 (k_x - ik_y)k_z \\
+		c &= - \sqrt{3}(\gamma_2 (k_x^2 - k_y^2) - 2i\gamma_3k_xk_y)
+	\end{align*}
+
 
 		\subsection{Lattice mismatch and the Bir-Pikus Hamiltonian \label{BPSec}}
 		
@@ -313,10 +333,10 @@ We can write the same equality along $z$ replacing $\rho$ by $z$ and $m_{h, \par
 
 	We can find in textbook such as ref.~\cite{MecQBasvant} the solution of a harmonic oscillator from which we can deduce the solution for the ground state (GS) and the first two degenerated excited states. The first excited state is found to have an angular momentum $l_z = \pm 1$, and is then noted $Exc, \pm 1$. The envelop functions and energy are then found to be:
 	\begin{align}
-			& F_{c,v}^{GS} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \\
+			& F_{c,v}^{GS} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \label{GSWF} \\
 			& E_{e,h}^{GS} = \hbar \frac{\omega_z^{e,h} + \omega_{\rho}^{e,h}}{2} \\
 		\nonumber \\
-			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} e^{\pm i\theta} \\
+			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} e^{\pm i\theta} \label{ExcWF} \\
 			& E_{e,h}^{Exc, \pm 1} = \hbar \frac{\omega_z^{e,h} + 3 \omega_{\rho}^{e,h}}{2}
 	\end{align}
 We see that this energy level are quantified in a way looking like an isolated atom, as pointed earlier. In reference to the atomic notation, the ground state, lower energy level, is noted $S$ and the two first degenerated level are noted $P$, even though atomic p-states usually are 3 fold degenerated.
@@ -374,6 +394,19 @@ Since we are working in the hh approximation, we neglect the contribution of the
 	This single picture, however, don't represent accurately most of the experiment. In a lot of found dots, both $X$ and $X^2$ presents two peaks with linear polarization dependency, as presented in Fig.~\ref{XAlLinPol}. This picture could be explained by the long-range exchange interaction, presented in Sec.~\ref{ExchDMS}. However, it predicts an angle between the two linearly polarized states of $90^\circ$, while the observed angle is far from this value. Moreover, in charged species, the electron (resp. hole) interact with two holes (resp. electrons) with opposite spins, leading to an absence of exchange interaction. Therefore, in the hh approximation, neither $X^+$ nor $X^-$ should present linear polarization dependency. However, such a dependency can be observed in actual dots.
 	
 	However, we saw in Sec.~\ref{e-hIntQD} that the hh approximation supposed neglecting lh contribution in the Luttinger hamiltonian, through the presence of biaxial strain lifting their degeneracy with hh. However, we can see in the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}) that introducing an anisotropic distribution of strain ($\epsilon_{xx} \neq \epsilon_{yy}$ or $\epsilon_{ij} \neq 0$ with $i \neq j$) can mix hh states $J_z = \pm \frac{3}{2}$ and lh states $J_z = \mp \frac{1}{2}$. Such a mixing, called Valence Band Mixing (VBM) can also occur through the Luttinger hamltonian in an anisotropic dot ($L_x \neq L_y$), but it would be weaker than the one occurring through Bir-Pikus hamiltonian.
+	
+	Looking at the matrix form of the Luttinger hamiltonian in Eq.~\ref{HLMat}, we see that $\pm \frac{3}{2}$ could also be coupled to $\pm \frac{1}{2}$ through the $b$ term. However, we supposed that the wave function can be separated into a pure $z$ component and a pure $x - y$ one, meaning $\langle \chi_i (z) | k_z | \chi_j (z) \rangle = 0$ with $\chi_{(i,j)} (z)$ define in Eqs.~\ref{GSWF} and \ref{ExcWF}. This means $b$ doesn't couple envelop functions. A similar coupling parameter appear in the Bir-Pikus hamiltonian due to the shear strains $\epsilon_{zx}$ and $\epsilon_{zy}$. However, in most of the found dots, $\epsilon_{zx}$ and $\epsilon_{zy}$ is found to be negligible~\cite{YoanTh}.
+	
+	The envelop function mainly test the overlap and the energy state of the exciton. It doesn't affect light polarization. Therefore, in order to understand the effects of the VBM on the polarization of the dot emission, we can neglect them, only looking at the spin component. We also neglect the envelop function difference between hh and lh. We can then describe the coupling by redefining up and down hole spins as a superposition of $\pm \frac{3}{2}$ and $\mp \frac{1}{2}$. This lh part will be written through a phenomenological parameter $\eta e^{2i \theta}$ with $\theta$ the direction of the strain:
+	\begin{align}
+		|\tilde{\Uparrow}\rangle \propto |+\frac{3}{2}\rangle - \eta e^{2i \theta}|-\frac{1}{2}\rangle \\
+		|\tilde{\Downarrow}\rangle \propto |-\frac{3}{2}\rangle - \eta e^{2i \theta}|+\frac{1}{2}\rangle
+	\end{align}
+with, in the hypothesis of a small strain-induced VBM:
+	\begin{align}
+		\eta e^{2i \theta} = \frac{1}{\Delta_{lh}} (id\epsilon_{xy - b(\epsilon_{xx} - \epsilon_{yy}})
+	\end{align}
+with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\epsilon_{xx} = \epsilon_{yy} + 2\epsilon_{zz})$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque. 
 	

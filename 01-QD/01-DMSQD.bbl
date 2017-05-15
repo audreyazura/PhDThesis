@@ -198,6 +198,32 @@
       \field{year}{2002}
       \field{pages}{80}
     \endentry
+    \entry{YoanTh}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=93976d5563d89a49fe1d34d839b39181}{Léger}{L\bibinitperiod}{Yoan}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=93976d5563d89a49fe1d34d839b39181}{Léger}{L\bibinitperiod}{Yoan}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Joseph-Fourier - Grenoble I}%
+      }
+      \strng{namehash}{93976d5563d89a49fe1d34d839b39181}
+      \strng{fullhash}{93976d5563d89a49fe1d34d839b39181}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Détection de spins individuels dans les boîtes quantiques magnétiques}}
+      \field{month}{09}
+      \field{title}{{Détection de spins individuels dans les boîtes quantiques magnétiques}}
+      \field{type}{Theses}
+      \field{year}{2007}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-00202472/file/thesis.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00202472
+      \endverb
+      \keyw{semiconducteur magnétique dilué ; spin individuel ; Boîte quantique ; micro-spectroscopie ; Quantum dot ; diluted magnetic semiconductor ; single spin ; micro-spectroscopy}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
