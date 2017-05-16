@@ -1,17 +1,18 @@
-[3] Config.pm:318> INFO - This is Biber 1.8
-[5] Config.pm:321> INFO - Logfile is '01-DMSQD.blg'
-[425] biber:275> INFO - === lun. mai 15, 2017, 16:14:59
-[426] Biber.pm:333> INFO - Reading '01-DMSQD.bcf'
-[813] Biber.pm:630> INFO - Found 8 citekeys in bib section 0
-[897] Biber.pm:3053> INFO - Processing section 0
-[977] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
-[1000] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[1035] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
-[1185] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
-[1188] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
-[1342] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1342] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[1343] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1442] bbl.pm:482> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
-[1448] bbl.pm:555> INFO - Output to 01-DMSQD.bbl
-[1449] Biber.pm:105> INFO - WARNINGS: 2
+[2] Config.pm:318> INFO - This is Biber 1.8
+[3] Config.pm:321> INFO - Logfile is '01-DMSQD.blg'
+[385] biber:275> INFO - === mar. mai 16, 2017, 23:09:41
+[386] Biber.pm:333> INFO - Reading '01-DMSQD.bcf'
+[746] Biber.pm:630> INFO - Found 10 citekeys in bib section 0
+[824] Biber.pm:3053> INFO - Processing section 0
+[898] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[925] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[959] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
+[1084] Utils.pm:169> WARN - I didn't find a database entry for 'VBM' (section 0)
+[1092] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
+[1093] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
+[1235] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1236] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1236] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1337] bbl.pm:482> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
+[1343] bbl.pm:555> INFO - Output to 01-DMSQD.bbl
+[1344] Biber.pm:105> INFO - WARNINGS: 3

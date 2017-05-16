@@ -381,7 +381,7 @@ Since we are working in the hh approximation, we neglect the contribution of the
 	
 	We discussed in this chapter about the neutral exciton ($X$), formed by a single electron-hole pair. However, several types of exciton can be observed in a quantum dot. First to consider are the charged excitons. In this case, a supplementary charge is injected in the QD in addition to the exciton, forming a hole-hole-electron ($X^+$) or hole-electron-electron ($X^-$) complex. It also happen that two exciton with opposed spins are trapped in a dot. This complex is called biexciton, noted $X^2$, and relax to leave a single neutral exciton in the QD. Charged biexciton and other multi-exciton complex also exist but are not discussed on the thesis. Even if the physics of each of this system is different, the selection rule devised in this chapter apply to all of them.
 
-		\subsection{Valence band mixing}	
+		\subsection{Valence band mixing\label{VBM}}	
 		
 	\begin{figure}[h!]
 	\begin{center}
@@ -406,16 +406,28 @@ with, in the hypothesis of a small strain-induced VBM:
 	\begin{align}
 		\eta e^{2i \theta} = \frac{1}{\Delta_{lh}} (id\epsilon_{xy - b(\epsilon_{xx} - \epsilon_{yy}})
 	\end{align}
-with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\epsilon_{xx} = \epsilon_{yy} + 2\epsilon_{zz})$.
+with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\epsilon_{xx} = \epsilon_{yy} + 2\epsilon_{zz})$. However, experimentally, we can only access $\eta = \frac{E}{\Delta_{lh}}$, with $E$ the anisotropy of strain.
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque. 
-	
+	To see the effect of the VBM on the polarization, we begin to consider the emission of an charged state, where the exchange interaction doesn't affect it. We write the polarization of the detection $\mathbf{e} = \cos (\alpha) \mathbf{e_x} + \sin (\alpha) \mathbf{e_y}$. We then can find the oscillator strength of the transition:
+	\begin{align}		
+		\begin{array}{rl}
+		\label{VBMPolar}
+			\Omega (\alpha) &\propto |\langle \uparrow | \cos(\alpha)p_X + \sin(\alpha)o_Y | \uparrow \downarrow \tilde{\Uparrow} \rangle |^2 \\
+							&= 1 + \frac{\eta^2}{3} + \frac{2}{\sqrt{3}} \eta \cos(2(\theta - \alpha))
+		\end{array}
+	\end{align}
+There is then a dependency in linear polarization of the emission, depending on the angle between the polariser and the direction on the strain. In the experiment, no correlation where observed between the polarisation axis of the different quantum dots~\cite{VBMArticle}, as can be expected from the random strain relaxation forming the dots as presented in Chap.~\ref{Growth}.
+
+	We saw that the presence of an anisotropy of strain lead to Valence Band Mixing, characterized a linear polarization dependency of the charged exciton emission. A similar effect is observed on neutral exciton. However, in order to understand the emission of this complex, the exchange also has to be taken into account. It should be noted that dark state are also coupled to each other by $\eta$, acquiring a weak oscillator with a dipole along $z$. More complete has been done by Yoan L\'eger in Ref.~\cite{YoanTh} and \cite{VBMArticle}, taking into account the effective mass carriers envelop functions, and doing calculation beyond the limit of small VBM.
+
 	
 	\section{Exchange interaction between carrier and magnetic atom}
 	
 		\subsection{Exchange interaction in Diluted Magnetic Semiconductors\label{ExchDMS}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		
+		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
@@ -439,6 +451,8 @@ with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial st
 
 
 	\section{Fine and hyperfine structure of a magnetic atom in II-VI semiconductor}
+	
+	FINDING A WAY TO SPEAK ABOUT THE EFFECT OF VBM AS EXPLAIN IN CLAIRE THESIS~\cite{ClaireTh} p.30.
 	
 		\subsection{Mn atom in II-VI semiconductor}
 

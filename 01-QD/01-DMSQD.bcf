@@ -1949,6 +1949,10 @@
     <bcf:citekey order="6">LuttElecMotion</bcf:citekey>
     <bcf:citekey order="7">MecQBasvant</bcf:citekey>
     <bcf:citekey order="8">YoanTh</bcf:citekey>
+    <bcf:citekey order="9">VBMArticle</bcf:citekey>
+    <bcf:citekey order="10">YoanTh</bcf:citekey>
+    <bcf:citekey order="11">VBMArticle</bcf:citekey>
+    <bcf:citekey order="12">ClaireTh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

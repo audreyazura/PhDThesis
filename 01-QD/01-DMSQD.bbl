@@ -224,7 +224,42 @@
       \endverb
       \keyw{semiconducteur magnétique dilué ; spin individuel ; Boîte quantique ; micro-spectroscopie ; Quantum dot ; diluted magnetic semiconductor ; single spin ; micro-spectroscopy}
     \endentry
+    \entry{VBMArticle}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9d01fba456a716f5a892a640e121b0ae}
+      \strng{fullhash}{1585b8d30fb8069af126e7616e3560c2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Valence-band mixing in neutral, charged, and {Mn}-doped self-assembled quantum dots}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{07}
+      \field{title}{Valence-band mixing in neutral, charged, and {Mn}-doped self-assembled quantum dots}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{045331}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.76.045331
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.76.045331
+      \endverb
+    \endentry
   \endsortlist
+  \missing{VBM}
 \endrefsection
 \endinput
 
