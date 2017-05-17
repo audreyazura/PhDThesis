@@ -425,9 +425,30 @@ There is then a dependency in linear polarization of the emission, depending on 
 	
 		\subsection{Exchange interaction in Diluted Magnetic Semiconductors\label{ExchDMS}}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-		
-		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
+		We were interested until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atom in the crystal, namely an impurity. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom comes with localized electron on its exterior shell. From the interaction between these electron and the one in the conduction band of the semi-conductor, new properties will arise. We can easily write this interaction as an interaction type "Heisenberg". With $|S\rangle$ as the electronic spin of the magnetic impurity and, as previously, $|\sigma\rangle$ as the spin of the conduction electron, we can write:
+		\begin{align}
+			{\cal H}_{Heisenberg} = I \mathbf{\sigma}.\mathbf{S}
+		\end{align}
+with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\mathbf{\sigma}$, these writes as:
+	\begin{align}
+		\sigma_x = \frac{\hbar}{2}
+					\begin{pmatrix}
+						0 & 1
+						1 & 0
+					\end{pmatrix} ;
+		\sigma_y = \frac{\hbar}{2}
+					\begin{pmatrix}
+						0 & -i
+						i & 0
+					\end{pmatrix} ;
+		\sigma_z = \frac{\hbar}{2}
+					\begin{pmatrix}
+						1 & 0
+						0 & -1
+					\end{pmatrix}
+	\end{align}
+	
+	This formally simple interaction represent the Pauli exclusion principle through the interaction between two spins. Almost the interaction in this chapter will be of this form, although presenting different physical process, with only the interaction constant $I$ varying from one another.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
@@ -440,6 +461,8 @@ There is then a dependency in linear polarization of the emission, depending on 
 		\subsection{Cr case\label{CrDMS}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		
+		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 		
