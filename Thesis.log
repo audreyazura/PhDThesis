@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  15 MAY 2017 20:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  18 MAY 2017 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,6 +898,13 @@ Package biblatex Info: ... file 'Thesis.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                VBM
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                ??
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -941,7 +948,18 @@ Package pdftex.def Info: FillingPicture.png used on input line 280.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9] [10] [11] [12]
+[8]
+Overfull \hbox (23.24365pt too wide) in paragraph at lines 294--296
+\T1/cmr/m/n/12 with $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT
+1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 )$ \T1/c
+mr/m/n/12 the elec-tron en-velop func-tion and $\OML/cmm/m/it/12 F[]\OT1/cmr/m/
+n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n
+/12 (\OML/cmm/m/it/12 i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\O
+T1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
+ []
+
+[9] [10] [11] [12]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 375.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -950,65 +968,51 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 375.
 File: FillingPicture.png Graphic file (type png)
+
 <use FillingPicture.png>
 Package pdftex.def Info: FillingPicture.png used on input line 389.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [13] [14] [15] [16] [17]
-Overfull \hbox (5.97437pt too wide) in paragraph at lines 442--442
+ [13] [14] [15] [16]
+Overfull \hbox (0.17494pt too wide) in paragraph at lines 470--471
+[]\T1/cmr/m/n/12 Before ex-plain-ing all the term, lets fo-cus on the two par-t
+i-cles ex-change $\OMS/cmsy/m/n/12 H[]$\T1/cmr/m/n/12 .
+ []
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 474.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--518
+
+ []
+
+
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 524--524
 []\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
  []
 
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 450.
+Package pdftex.def Info: FillingPicture.png used on input line 530.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [18]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 460.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: FillingPicture.png Graphic file (type png)
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 538--540
 
-<use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 472.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 482.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 490.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 500.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 508.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: FillingPicture.png Graphic file (type png)
-<use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 521.
+Package pdftex.def Info: FillingPicture.png used on input line 545.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1017,28 +1021,64 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [21]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 531.
+Package pdftex.def Info: FillingPicture.png used on input line 559.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [22] [23]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 567.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 577.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [23]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 585.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [24]
+File: FillingPicture.png Graphic file (type png)
+
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 598.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 608.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26]
 Chapter II.
-<02-GrowthQDs/Pictures/MBE.png, id=436, 635.37375pt x 555.07375pt>
+<02-GrowthQDs/Pictures/MBE.png, id=471, 635.37375pt x 555.07375pt>
 File: 02-GrowthQDs/Pictures/MBE.png Graphic file (type png)
 
 <use 02-GrowthQDs/Pictures/MBE.png>
-Package pdftex.def Info: 02-GrowthQDs/Pictures/MBE.png used on input line 550.
+Package pdftex.def Info: 02-GrowthQDs/Pictures/MBE.png used on input line 627.
 (pdftex.def)             Requested size: 284.52756pt x 248.57817pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--562
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
 
  []
 
-[24
+[27
 
-] [25 <./02-GrowthQDs/Pictures/MBE.png>]
+] [28 <./02-GrowthQDs/Pictures/MBE.png>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/SFDRheed.eps>
 (epstopdf)                    date: 2017-04-19 20:42:10
 (epstopdf)                    size: 487181 bytes
@@ -1048,16 +1088,16 @@ ed-to.pdf>
 (epstopdf)                    size: 119271 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/SFDR
 heed-eps-converted-to.pdf 02-GrowthQDs/Pictures/SFDRheed.eps>
-(epstopdf)             \includegraphics on input line 573.
+(epstopdf)             \includegraphics on input line 650.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf, id=458, 796.9775pt x 414.
+<02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf, id=491, 796.9775pt x 414.
 54875pt>
 File: 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf Graphic file (type pd
 f)
  <use 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf us
-ed on input line 573.
+ed on input line 650.
 (pdftex.def)             Requested size: 398.33858pt x 207.19795pt.
 
 
@@ -1072,22 +1112,22 @@ d-to.pdf>
 (epstopdf)                    size: 418860 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/MBEF
 ull-eps-converted-to.pdf 02-GrowthQDs/Pictures/MBEFull.eps>
-(epstopdf)             \includegraphics on input line 587.
+(epstopdf)             \includegraphics on input line 664.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf, id=459, 722.7pt x 483.8075
+<02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf, id=492, 722.7pt x 483.8075
 pt>
 File: 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf Graphic file (type pdf
 )
  <use 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf use
-d on input line 587.
+d on input line 664.
 (pdftex.def)             Requested size: 398.33858pt x 266.66338pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26] [27 <./02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf>] [28 <./02-Gro
+[29] [30 <./02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf>] [31 <./02-Gro
 wthQDs/Pictures/MBEFull-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RHEEDStep.eps>
 (epstopdf)                    date: 2017-04-19 20:42:10
@@ -1098,22 +1138,22 @@ ted-to.pdf>
 (epstopdf)                    size: 844206 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/RHEE
 DStep-eps-converted-to.pdf 02-GrowthQDs/Pictures/RHEEDStep.eps>
-(epstopdf)             \includegraphics on input line 636.
+(epstopdf)             \includegraphics on input line 713.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf, id=489, 680.5425pt x 416
+<02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf, id=523, 680.5425pt x 416
 .55624pt>
 File: 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf Graphic file (type p
 df)
  <use 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf u
-sed on input line 636.
+sed on input line 713.
 (pdftex.def)             Requested size: 398.33858pt x 243.82108pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]
+[32]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSK.eps>
 (epstopdf)                    date: 2017-04-19 20:42:10
 (epstopdf)                    size: 45290 bytes
@@ -1123,22 +1163,22 @@ ed-to.pdf>
 (epstopdf)                    size: 26801 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Reci
 peSK-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSK.eps>
-(epstopdf)             \includegraphics on input line 650.
+(epstopdf)             \includegraphics on input line 727.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf, id=500, 1052.93375pt x 59
+<02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf, id=534, 1052.93375pt x 59
 7.23125pt>
 File: 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf Graphic file (type pd
 f)
  <use 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf us
-ed on input line 650.
+ed on input line 727.
 (pdftex.def)             Requested size: 398.33858pt x 225.93867pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf>] [31 <./02-GrowthQ
+[33 <./02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf>] [34 <./02-GrowthQ
 Ds/Pictures/RecipeSK-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/HybridSubstrate.eps>
 
@@ -1150,19 +1190,19 @@ converted-to.pdf>
 (epstopdf)                    size: 644081 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Hybr
 idSubstrate-eps-converted-to.pdf 02-GrowthQDs/Pictures/HybridSubstrate.eps>
-(epstopdf)             \includegraphics on input line 671.
+(epstopdf)             \includegraphics on input line 748.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf, id=535, 899.36pt x
+<02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf, id=568, 899.36pt x
  416.55624pt>
 File: 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf Graphic file (
 type pdf)
  <use 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to
-.pdf used on input line 671.
+.pdf used on input line 748.
 (pdftex.def)             Requested size: 398.33858pt x 184.49933pt.
 
-[32 <./02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf>] [33]
+[35 <./02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf>] [36]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSFD.eps>
 (epstopdf)                    date: 2017-04-19 20:42:10
 (epstopdf)                    size: 44106 bytes
@@ -1172,80 +1212,37 @@ ted-to.pdf>
 (epstopdf)                    size: 26079 bytes
 (epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Reci
 peSFD-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSFD.eps>
-(epstopdf)             \includegraphics on input line 711.
+(epstopdf)             \includegraphics on input line 788.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=563, 1052.93375pt x 5
+<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=597, 1052.93375pt x 5
 97.23125pt>
 File: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf Graphic file (type p
 df)
  <use 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf u
-sed on input line 711.
+sed on input line 788.
 (pdftex.def)             Requested size: 398.33858pt x 225.93867pt.
- [34 <./02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>] [35]
+ [37 <./02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>] [38]
 Chapter III.
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 736.
+Package pdftex.def Info: FillingPicture.png used on input line 813.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36
+[39
 
 ]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 746.
+Package pdftex.def Info: FillingPicture.png used on input line 823.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 758.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 768.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: FillingPicture.png Graphic file (type png)
-<use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 778.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38] [39]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 788.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 794.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 794.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 794.
-
-File: FillingPicture.png Graphic file (type png)
-<use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 800.
+Package pdftex.def Info: FillingPicture.png used on input line 835.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1254,53 +1251,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [40]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 810.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 821.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 821.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 821.
-
-[41]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 827.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 837.
+Package pdftex.def Info: FillingPicture.png used on input line 845.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42]
 File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 847.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [43]
-File: FillingPicture.png Graphic file (type png)
- <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 861.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [44]
-File: FillingPicture.png Graphic file (type png)
-
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 871.
+Package pdftex.def Info: FillingPicture.png used on input line 855.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41] [42]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 865.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 871.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 871.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 871.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 877.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 887.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 898.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 898.
+
+[44]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 904.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 881.
+Package pdftex.def Info: FillingPicture.png used on input line 914.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1309,26 +1325,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [45]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 891.
+Package pdftex.def Info: FillingPicture.png used on input line 924.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
  [46]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 904.
+Package pdftex.def Info: FillingPicture.png used on input line 938.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [47]
 File: FillingPicture.png Graphic file (type png)
 
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 914.
+Package pdftex.def Info: FillingPicture.png used on input line 948.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[47]
 File: FillingPicture.png Graphic file (type png)
  <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 924.
+Package pdftex.def Info: FillingPicture.png used on input line 958.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 968.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [49]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 981.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 991.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1001.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1336,13 +1376,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 934.
+Package pdftex.def Info: FillingPicture.png used on input line 1011.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48] [49]
+[51] [52]
 Chapter IV.
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Spectras.eps>
 (epstopdf)                    date: 2017-04-25 20:47:40
@@ -1353,53 +1393,53 @@ d-to.pdf>
 (epstopdf)                    size: 91664 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Spect
 ras-eps-converted-to.pdf 04-CrMagOpt/Pictures/Spectras.eps>
-(epstopdf)             \includegraphics on input line 959.
+(epstopdf)             \includegraphics on input line 1036.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf, id=657, 995.72pt x 398.488
+<04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf, id=690, 995.72pt x 398.488
 75pt>
 File: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf Graphic file (type pdf
 )
  <use 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf use
-d on input line 959.
+d on input line 1036.
 (pdftex.def)             Requested size: 426.79134pt x 170.80566pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 959--960
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1036--1037
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50
+[53
 
-] <04-CrMagOpt/Pictures/EnLvl.png, id=665, 540.51938pt x 542.025pt>
+] <04-CrMagOpt/Pictures/EnLvl.png, id=698, 540.51938pt x 542.025pt>
 File: 04-CrMagOpt/Pictures/EnLvl.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/EnLvl.png>
-Package pdftex.def Info: 04-CrMagOpt/Pictures/EnLvl.png used on input line 969.
-
+Package pdftex.def Info: 04-CrMagOpt/Pictures/EnLvl.png used on input line 1046
+.
 (pdftex.def)             Requested size: 284.52756pt x 285.32828pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51 <./04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>] [52 <./04-CrMagOpt/
+[54 <./04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>] [55 <./04-CrMagOpt/
 Pictures/EnLvl.png>]
-<04-CrMagOpt/Pictures/LinPol.png, id=693, 1138.2525pt x 724.95844pt>
+<04-CrMagOpt/Pictures/LinPol.png, id=728, 1138.2525pt x 724.95844pt>
 File: 04-CrMagOpt/Pictures/LinPol.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/LinPol.png>
-Package pdftex.def Info: 04-CrMagOpt/Pictures/LinPol.png used on input line 987
-.
+Package pdftex.def Info: 04-CrMagOpt/Pictures/LinPol.png used on input line 106
+4.
 (pdftex.def)             Requested size: 426.79134pt x 271.82556pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 987--988
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1064--1065
  [] 
  []
 
-[53 <./04-CrMagOpt/Pictures/LinPol.png>]
+[56 <./04-CrMagOpt/Pictures/LinPol.png>]
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Decay.eps>
 (epstopdf)                    date: 2017-03-31 20:34:13
 (epstopdf)                    size: 125892 bytes
@@ -1409,15 +1449,15 @@ o.pdf>
 (epstopdf)                    size: 45422 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Decay
 -eps-converted-to.pdf 04-CrMagOpt/Pictures/Decay.eps>
-(epstopdf)             \includegraphics on input line 997.
+(epstopdf)             \includegraphics on input line 1074.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf, id=702, 711.65875pt x 381.425
+<04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf, id=737, 711.65875pt x 381.425
 pt>
 File: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf Graphic file (type pdf)
  <use 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf used o
-n input line 997.
+n input line 1074.
 (pdftex.def)             Requested size: 284.52756pt x 152.49162pt.
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Temp.eps>
 (epstopdf)                    date: 2017-03-29 12:44:59
@@ -1428,15 +1468,15 @@ Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Temp.eps>
 (epstopdf)                    size: 42788 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Temp-
 eps-converted-to.pdf 04-CrMagOpt/Pictures/Temp.eps>
-(epstopdf)             \includegraphics on input line 1007.
+(epstopdf)             \includegraphics on input line 1084.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf, id=711, 395.4775pt x 569.12625
+<04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf, id=746, 395.4775pt x 569.12625
 pt>
 File: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf Graphic file (type pdf)
  <use 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf used on
- input line 1007.
+ input line 1084.
 (pdftex.def)             Requested size: 199.16928pt x 286.62057pt.
 
 
@@ -1451,23 +1491,23 @@ ted-to.pdf>
 (epstopdf)                    size: 120929 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/PLEDo
 tPres-eps-converted-to.pdf 04-CrMagOpt/Pictures/PLEDotPres.eps>
-(epstopdf)             \includegraphics on input line 1021.
+(epstopdf)             \includegraphics on input line 1098.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf, id=713, 882.29625pt x 54
+<04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf, id=748, 882.29625pt x 54
 9.05125pt>
 File: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf Graphic file (type p
 df)
  <use 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf u
-sed on input line 1021.
+sed on input line 1098.
 (pdftex.def)             Requested size: 426.79134pt x 265.59418pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 1021--1022
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1098--1099
  [] 
  []
 
-[54 <./04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>]
+[57 <./04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1480,28 +1520,28 @@ ed-to.pdf>
 (epstopdf)                    size: 194112 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/FullP
 LEv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/FullPLEv2.eps>
-(epstopdf)             \includegraphics on input line 1033.
+(epstopdf)             \includegraphics on input line 1110.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=731, 910.40125pt x 981
+<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=765, 910.40125pt x 981
 .6675pt>
 File: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf Graphic file (type pd
 f)
  <use 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf us
-ed on input line 1033.
+ed on input line 1110.
 (pdftex.def)             Requested size: 398.33858pt x 429.5234pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55 <./04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>] [56 <./04-CrMagOpt/Pict
+[58 <./04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>] [59 <./04-CrMagOpt/Pict
 ures/PLEDotPres-eps-converted-to.pdf>]
 
-LaTeX Warning: Text page 57 contains only floats.
+LaTeX Warning: Text page 60 contains only floats.
 
-[57 <./04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>]
-Overfull \hbox (5.13042pt too wide) in paragraph at lines 1046--1047
+[60 <./04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>]
+Overfull \hbox (5.13042pt too wide) in paragraph at lines 1123--1124
 []\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
 0 meV. This state presents
  []
@@ -1515,16 +1555,16 @@ d-to.pdf>
 (epstopdf)                    size: 112741 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
 tv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptv2.eps>
-(epstopdf)             \includegraphics on input line 1054.
+(epstopdf)             \includegraphics on input line 1131.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf, id=773, 597.23125pt x 629.
+<04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf, id=806, 597.23125pt x 629.
 35126pt>
 File: 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf Graphic file (type pdf
 )
  <use 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf use
-d on input line 1054.
+d on input line 1131.
 (pdftex.def)             Requested size: 284.52756pt x 299.82843pt.
 
 
@@ -1539,56 +1579,56 @@ erted-to.pdf>
 (epstopdf)                    size: 295732 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
 tLowSym-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptLowSym.eps>
-(epstopdf)             \includegraphics on input line 1064.
+(epstopdf)             \includegraphics on input line 1141.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf, id=780, 341.275pt x 46
+<04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf, id=813, 341.275pt x 46
 9.755pt>
 File: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf Graphic file (type
  pdf)
  <use 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf
- used on input line 1064.
+ used on input line 1141.
 (pdftex.def)             Requested size: 284.52756pt x 391.66702pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58] [59 <./04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>] [60 <./04-CrMa
+[61] [62 <./04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>] [63 <./04-CrMa
 gOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>]
-<04-CrMagOpt/Pictures/SimulMagOptv2.png, id=816, 580.41844pt x 708.39656pt>
+<04-CrMagOpt/Pictures/SimulMagOptv2.png, id=850, 580.41844pt x 708.39656pt>
 File: 04-CrMagOpt/Pictures/SimulMagOptv2.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/SimulMagOptv2.png>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/SimulMagOptv2.png used on input l
-ine 1080.
+ine 1157.
 (pdftex.def)             Requested size: 284.52756pt x 347.26868pt.
- [61 <./04-CrMagOpt/Pictures/SimulMagOptv2.png>]
+ [64 <./04-CrMagOpt/Pictures/SimulMagOptv2.png>]
 
-LaTeX Warning: Reference `Cralone' on page 62 undefined on input line 1093.
-
-
-LaTeX Warning: Reference `HcCr' on page 62 undefined on input line 1095.
+LaTeX Warning: Reference `Cralone' on page 65 undefined on input line 1170.
 
 
-LaTeX Warning: Reference `Ieh' on page 62 undefined on input line 1102.
+LaTeX Warning: Reference `HcCr' on page 65 undefined on input line 1172.
 
 
-Overfull \hbox (1.17036pt too wide) in paragraph at lines 1102--1103
+LaTeX Warning: Reference `Ieh' on page 65 undefined on input line 1179.
+
+
+Overfull \hbox (1.17036pt too wide) in paragraph at lines 1179--1180
 []$\OMS/cmsy/m/n/12 H[]$ \T1/cmr/m/n/12 de-scribes the short range and long ran
 ge electron-hole in-ter-ac-tion, through
  []
 
 
-LaTeX Warning: Reference `HBand' on page 62 undefined on input line 1104.
+LaTeX Warning: Reference `HBand' on page 65 undefined on input line 1181.
 
-[62]
-Overfull \hbox (8.48991pt too wide) in paragraph at lines 1128--1128
+[65]
+Overfull \hbox (8.48991pt too wide) in paragraph at lines 1205--1205
 []|\T1/cmr/m/n/12 arg(R)| 
  []
 
 
-Overfull \hbox (2.82564pt too wide) in paragraph at lines 1129--1129
+Overfull \hbox (2.82564pt too wide) in paragraph at lines 1206--1206
 []|$\OML/cmm/m/it/12 ^^VeV=T[]$| 
  []
 
@@ -1601,21 +1641,21 @@ o.pdf>
 (epstopdf)                    size: 580149 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/HighE
 -eps-converted-to.pdf 04-CrMagOpt/Pictures/HighE.eps>
-(epstopdf)             \includegraphics on input line 1143.
+(epstopdf)             \includegraphics on input line 1220.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf, id=852, 896.34875pt x 882.296
+<04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf, id=884, 896.34875pt x 882.296
 25pt>
 File: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf Graphic file (type pdf)
  <use 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf used o
-n input line 1143.
+n input line 1220.
 (pdftex.def)             Requested size: 284.52756pt x 280.06537pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[63] [64 <./04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>]
+[66] [67 <./04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/6peaks.eps>
 (epstopdf)                    date: 2017-05-15 20:53:55
 (epstopdf)                    size: 2991174 bytes
@@ -1625,22 +1665,22 @@ to.pdf>
 (epstopdf)                    size: 272000 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/6peak
 s-eps-converted-to.pdf 04-CrMagOpt/Pictures/6peaks.eps>
-(epstopdf)             \includegraphics on input line 1166.
+(epstopdf)             \includegraphics on input line 1243.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf, id=873, 1180.41pt x 612.2875
+<04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf, id=904, 1180.41pt x 612.2875
 pt>
 File: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf Graphic file (type pdf)
  <use 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf used 
-on input line 1166.
+on input line 1243.
 (pdftex.def)             Requested size: 426.79134pt x 221.3763pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 1166--1167
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1243--1244
  [] 
  []
 
-[65 <./04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>]
+[68 <./04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/EfieldX-Xc.eps>
 (epstopdf)                    date: 2017-04-04 22:29:21
 (epstopdf)                    size: 1626793 bytes
@@ -1650,18 +1690,18 @@ ted-to.pdf>
 (epstopdf)                    size: 112904 bytes
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Efiel
 dX-Xc-eps-converted-to.pdf 04-CrMagOpt/Pictures/EfieldX-Xc.eps>
-(epstopdf)             \includegraphics on input line 1178.
+(epstopdf)             \includegraphics on input line 1255.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf, id=891, 668.4975pt x 534
+<04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf, id=922, 668.4975pt x 534
 .99875pt>
 File: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf Graphic file (type p
 df)
  <use 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf u
-sed on input line 1178.
+sed on input line 1255.
 (pdftex.def)             Requested size: 341.43306pt x 273.25392pt.
- [66 <./04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf>]
+ [69 <./04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/SplitUnderEfiledXCr.e
 ps>
 (epstopdf)                    date: 2017-04-13 21:59:32
@@ -1673,45 +1713,45 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Split
 UnderEfiledXCr-eps-converted-to.pdf 04-CrMagOpt/Pictures/SplitUnderEfiledXCr.ep
 s>
-(epstopdf)             \includegraphics on input line 1190.
+(epstopdf)             \includegraphics on input line 1267.
 Package epstopdf Info: Output file is already uptodate.
 
-<04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf, id=905, 614.295
+<04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf, id=936, 614.295
 pt x 555.07375pt>
 File: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted
--to.pdf used on input line 1190.
+-to.pdf used on input line 1267.
 (pdftex.def)             Requested size: 341.43306pt x 308.51846pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<04-CrMagOpt/Pictures/CrCloseDot.png, id=909, 938.75719pt x 542.025pt>
+<04-CrMagOpt/Pictures/CrCloseDot.png, id=940, 938.75719pt x 542.025pt>
 File: 04-CrMagOpt/Pictures/CrCloseDot.png Graphic file (type png)
 
 <use 04-CrMagOpt/Pictures/CrCloseDot.png>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/CrCloseDot.png used on input line
- 1200.
+ 1277.
 (pdftex.def)             Requested size: 426.79134pt x 246.42326pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 1200--1201
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1277--1278
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[67] [68 <./04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>]
-[69 <./04-CrMagOpt/Pictures/CrCloseDot.png>]
+[70] [71 <./04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>]
+[72 <./04-CrMagOpt/Pictures/CrCloseDot.png>]
 Chapter V.
 File: FillingPicture.png Graphic file (type png)
 <use FillingPicture.png>
-Package pdftex.def Info: FillingPicture.png used on input line 1235.
+Package pdftex.def Info: FillingPicture.png used on input line 1312.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [70
+ [73
 
 ]
 Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPeaks.eps>
@@ -1723,18 +1763,18 @@ ed-to.pdf>
 (epstopdf)                    size: 88118 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
 eaks-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPeaks.eps>
-(epstopdf)             \includegraphics on input line 1251.
+(epstopdf)             \includegraphics on input line 1328.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf, id=948, 739.76375pt x 725
+<05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf, id=979, 739.76375pt x 725
 .71124pt>
 File: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf Graphic file (type pd
 f)
  <use 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf us
-ed on input line 1251.
+ed on input line 1328.
 (pdftex.def)             Requested size: 284.52756pt x 279.11731pt.
- [71 <./05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>]
+ [74 <./05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPw.eps>
 (epstopdf)                    date: 2017-04-07 19:00:04
 (epstopdf)                    size: 536623 bytes
@@ -1744,21 +1784,21 @@ to.pdf>
 (epstopdf)                    size: 123817 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
 w-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPw.eps>
-(epstopdf)             \includegraphics on input line 1263.
+(epstopdf)             \includegraphics on input line 1340.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf, id=964, 255.95625pt x 449.68
+<05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf, id=995, 255.95625pt x 449.68
 pt>
 File: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
  <use 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf used 
-on input line 1263.
+on input line 1340.
 (pdftex.def)             Requested size: 170.71652pt x 299.92545pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[72]
+[75]
 Package epstopdf Info: Source file: <05-CrDyn/Pictures/CrosscorFit+B.eps>
 (epstopdf)                    date: 2017-04-07 20:12:58
 (epstopdf)                    size: 312504 bytes
@@ -1768,37 +1808,37 @@ ted-to.pdf>
 (epstopdf)                    size: 49595 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/Crosscor
 Fit+B-eps-converted-to.pdf 05-CrDyn/Pictures/CrosscorFit+B.eps>
-(epstopdf)             \includegraphics on input line 1278.
+(epstopdf)             \includegraphics on input line 1355.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf, id=972, 654.445pt x 313.
-17pt>
+<05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf, id=1004, 654.445pt x 313
+.17pt>
 File: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf Graphic file (type p
 df)
  <use 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf u
-sed on input line 1278.
+sed on input line 1355.
 (pdftex.def)             Requested size: 426.79134pt x 204.23186pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 1278--1279
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1355--1356
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<05-CrDyn/Pictures/FillingPicture.png, id=973, 650.43pt x 406.51875pt>
+<05-CrDyn/Pictures/FillingPicture.png, id=1005, 650.43pt x 406.51875pt>
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1288.
+e 1365.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73 <./05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>] [74 <./05-CrDyn/Pictu
+[76 <./05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>] [77 <./05-CrDyn/Pictu
 res/CrosscorFit+B-eps-converted-to.pdf> <./05-CrDyn/Pictures/FillingPicture.png
 >]
 Package epstopdf Info: Source file: <05-CrDyn/Pictures/PwVar.eps>
@@ -1810,20 +1850,21 @@ df>
 (epstopdf)                    size: 108129 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PwVar-ep
 s-converted-to.pdf 05-CrDyn/Pictures/PwVar.eps>
-(epstopdf)             \includegraphics on input line 1300.
+(epstopdf)             \includegraphics on input line 1377.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/PwVar-eps-converted-to.pdf, id=993, 612.2875pt x 612.2875pt>
+<05-CrDyn/Pictures/PwVar-eps-converted-to.pdf, id=1024, 612.2875pt x 612.2875pt
+>
 File: 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf Graphic file (type pdf)
-<use 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>
+ <use 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf used on i
-nput line 1300.
+nput line 1377.
 (pdftex.def)             Requested size: 284.52756pt x 284.5239pt.
- [75 <./05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>]
+ [78 <./05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
  <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1310.
+e 1387.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 Package epstopdf Info: Source file: <05-CrDyn/Pictures/SimulAutoCross.eps>
 (epstopdf)                    date: 2017-04-07 20:13:23
@@ -1834,40 +1875,40 @@ rted-to.pdf>
 (epstopdf)                    size: 117975 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/SimulAut
 oCross-eps-converted-to.pdf 05-CrDyn/Pictures/SimulAutoCross.eps>
-(epstopdf)             \includegraphics on input line 1322.
+(epstopdf)             \includegraphics on input line 1399.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf, id=1006, 511.9125pt x 4
+<05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf, id=1037, 511.9125pt x 4
 83.8075pt>
 File: 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf 
-used on input line 1322.
+used on input line 1399.
 (pdftex.def)             Requested size: 284.52756pt x 268.90761pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `DotSpectra' on page 76 undefined on input line 1328.
+LaTeX Warning: Reference `DotSpectra' on page 79 undefined on input line 1405.
 
-[76]
+[79]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
  <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1332.
+e 1409.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77 <./05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf>]
+[80 <./05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf>]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1342.
+e 1419.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1882,16 +1923,16 @@ rted-to.pdf>
 (epstopdf)                    size: 80877 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/SimulAut
 ocorPw-eps-converted-to.pdf 05-CrDyn/Pictures/SimulAutocorPw.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1429.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf, id=1030, 250.9375pt x 4
+<05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf, id=1061, 250.9375pt x 4
 46.66875pt>
 File: 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf 
-used on input line 1352.
+used on input line 1429.
 (pdftex.def)             Requested size: 170.71652pt x 303.88748pt.
 
 
@@ -1906,33 +1947,33 @@ Package epstopdf Info: Source file: <05-CrDyn/Pictures/Pump0+1.eps>
 (epstopdf)                    size: 79586 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/Pump0+1-
 eps-converted-to.pdf 05-CrDyn/Pictures/Pump0+1.eps>
-(epstopdf)             \includegraphics on input line 1364.
+(epstopdf)             \includegraphics on input line 1441.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf, id=1031, 497.86pt x 702.625pt>
+<05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf, id=1062, 497.86pt x 702.625pt>
 File: 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf Graphic file (type pdf)
 <use 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf used on
- input line 1364.
+ input line 1441.
 (pdftex.def)             Requested size: 284.52756pt x 401.5618pt.
- [78]
+ [81]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1374.
+e 1451.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79]
+[82]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
  <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1384.
+e 1461.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1947,26 +1988,26 @@ to.pdf>
 (epstopdf)                    size: 47208 bytes
 (epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/RelaxDar
 k-eps-converted-to.pdf 05-CrDyn/Pictures/RelaxDark.eps>
-(epstopdf)             \includegraphics on input line 1396.
+(epstopdf)             \includegraphics on input line 1473.
 Package epstopdf Info: Output file is already uptodate.
 
-<05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf, id=1043, 620.3175pt x 347.29
+<05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf, id=1073, 620.3175pt x 347.29
 75pt>
 File: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf Graphic file (type pdf)
  <use 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>
 Package pdftex.def Info: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf used 
-on input line 1396.
+on input line 1473.
 (pdftex.def)             Requested size: 284.52756pt x 159.29774pt.
- [80 <./05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf>]
+ [83 <./05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81 <./05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf>] [82]
+[84 <./05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf>] [85]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1410.
+e 1487.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1975,29 +2016,29 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1420.
+e 1497.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83 <./05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>] [84]
+[86 <./05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>] [87]
 File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
 
 <use 05-CrDyn/Pictures/FillingPicture.png>
 Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
-e 1430.
+e 1507.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [85] [86
+ [88] [89
 
-] [87] [88]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1439.
- [89]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1439.
+] [90] [91]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1516.
+ [92]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1516.
 
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1439.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1439.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1516.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6F37B71F7A35757C7CE4606C1A699D5F;4251.
@@ -2011,14 +2052,14 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1439.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1516.
  ) 
 Here is how much of TeX's memory you used:
- 13484 strings out of 494958
- 212318 string characters out of 6179214
- 649717 words of memory out of 5000000
- 16177 multiletter control sequences out of 15000+600000
- 17889 words of font info for 47 fonts, out of 8000000 for 9000
+ 13501 strings out of 494958
+ 212567 string characters out of 6179214
+ 649984 words of memory out of 5000000
+ 16182 multiletter control sequences out of 15000+600000
+ 18655 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  40i,20n,49p,1723b,1456s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </
@@ -2039,10 +2080,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Thesis.pdf (89 pages, 6191608 bytes).
+Output written on Thesis.pdf (92 pages, 6209899 bytes).
 PDF statistics:
- 1569 PDF objects out of 1728 (max. 8388607)
- 1082 compressed objects within 11 object streams
- 316 named destinations out of 1000 (max. 500000)
+ 1609 PDF objects out of 1728 (max. 8388607)
+ 1115 compressed objects within 12 object streams
+ 327 named destinations out of 1000 (max. 500000)
  574 words of extra memory for PDF output out of 10000 (max. 10000000)
 
