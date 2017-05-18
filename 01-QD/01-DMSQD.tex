@@ -57,11 +57,11 @@
 	
 	One way to understand this evolution is to apply the $\mathbf{k}.\mathbf{p}$ approximation, as proposed by Kane in 1957~\cite{KaneBandkp}. This model gives an estimation of the electronic band structure starting from the exact solution and energy of the Schrödinger equation at the center of the Brillouin. The hamiltonian to resolve is then :	
 	\begin{align}
-		\left(\frac{p^2}{2m_0} + U(\mathbf{r})\right)\psi_{n,\mathbf{k}} = E_{n,\mathbf{k}} \psi_{n,\mathbf{k}}
+		\left(\frac{p^2}{2m_0} + U(\mathbf{r})\right)|\psi_{n,\mathbf{k}}\rangle = E_{n,\mathbf{k}} |\psi_{n,\mathbf{k}}\rangle
 	\end{align}
-with $U(\mathbf{r})$ the potential of the crystal and $\psi_{n,\mathbf{k}}$ the Bloch wave, separated between a periodic part $u_{n,\mathbf{k}} (\mathbf{r})$ and plane-wave part $e^{i\mathbf{k}.\mathbf{r}}$ as follow :
+with $U(\mathbf{r})$ the potential of the crystal and $|\psi_{n,\mathbf{k}}\rangle$ the Bloch wave, separated between a periodic part $u_{n,\mathbf{k}} (\mathbf{r})$ and plane-wave part $\exp(i\mathbf{k}.\mathbf{r})$ as follow :
 	\begin{align}
-		\psi_{n,\mathbf{k}} = u_{n,\mathbf{k}} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}
+		|\psi_{n,\mathbf{k}}\rangle = u_{n,\mathbf{k}} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r})
 	\end{align}
 
 	Neglecting the $\Gamma_7$ band at lower energy, we solve this hamiltonian for carrier on the $\Gamma_6$ and $\Gamma_8$ bands~\cite{ClaireTh}. The $z$-axis is defined along the growth direction of the semiconductor and chosen as the quantization axis. We then find the energy:
@@ -282,16 +282,16 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 	\label{STM}
 	\end{figure}
 
-	Before going to the exchange part, we will see the optical properties of this system. In order to do so, we develop the carrier wave-function on the Bloch states:
+	Before going to the exchange part, we will see the optical properties of this system. In order to do so, we develop the carrier wave-function on all the Bloch states:
 	\begin{align}
-		\Psi (\mathbf{r}) = \sum_{n,k} c_{n,k} u _{n,k} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}
+		\Psi (\mathbf{r}) = \sum_{n,\mathbf{k}} c_{n,\mathbf{k}} \psi_{n,\mathbf{k}} = \sum_{n,\mathbf{k}} c_{n,\mathbf{k}} u _{n,\mathbf{k}} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r})
 	\end{align}
-Since we are in a confined environment, we can only consider the states around $\mathbf{k} = 0$. Since we consider the band extrema, we neglect the inter-band wave function mixing in a first time and use the effective-mass approximation. We can then limit the expansion of Bloch state to an expansion on the $u _{n,0} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}}$, with $n = \Gamma_6$ for the conduction band and $n = \Gamma_8$ for the valence. We can then write:
+Since we are in a confined environment, we can only consider the states around $\mathbf{k} = 0$. Since we consider the band extrema, we neglect the inter-band wave function mixing in a first time and use the effective-mass approximation. We can then limit the expansion of Bloch state to an expansion on the $u _{n,0} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r})$, with $n = \Gamma_6$ for the conduction band and $n = \Gamma_8$ for the valence. We can then write:
 	\begin{align}
-		\Psi_c (\mathbf{r}) & \simeq \sum_{k} c_{k} u _{\Gamma_6,0} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}} = F_e (\mathbf{r}) u _{\Gamma_6,0} \label{eEnvFunc} \\
-		\Psi_v (\mathbf{r}) & \simeq \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}, k} c_{J_z,k} u _{\Gamma_8,J_z} (\mathbf{r}) e^{i\mathbf{k}.\mathbf{r}} = \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}} F_{J_z} (\mathbf{r}) u _{\Gamma_8,J_z} \label{hEnvFunc}
+		\Psi_c (\mathbf{r}) & \simeq \sum_{\mathbf{k}} c_{\mathbf{k}} u _{\Gamma_6,0} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r}) = F_e (\mathbf{r}) u _{\Gamma_6,0} \label{eEnvFunc} \\		
+		\Psi_v (\mathbf{r}) & \simeq \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}, k} c_{J_z,\mathbf{k}} u _{\Gamma_8,J_z} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r})  = \sum_{J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}} F_{J_z} (\mathbf{r}) u _{\Gamma_8,J_z} \label{hEnvFunc}
 	\end{align}
-with $F_e (\mathbf{r}) = \sum_{n,k} c_{k} e^{i\mathbf{k}.\mathbf{r}}$ the electron envelop function and $F_{J_z} (\mathbf{r}) = c_{J_z,k} e^{i\mathbf{k}.\mathbf{r}}$, $J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}$ the hole envelop functions.
+with $F_e (\mathbf{r}) = \sum_{\mathbf{k}} c_{\mathbf{k}} \exp (i\mathbf{k}.\mathbf{r})$ the electron envelop function and $F_{J_z} (\mathbf{r}) = c_{J_z,\mathbf{k}} \exp (i\mathbf{k}.\mathbf{r})$, $J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}$ the hole envelop functions.
 
 	The effective mass approximation allow us to replace the periodic crystal potential and the free-electron kinetic energy by the effective Hamiltonian representing the band extrema, using $m_e$ for the conduction band 
 and ${\cal H}_L + {\cal H}_{BP}$ for the top of the valence band. Considering the effective mass is the same in CdTe and ZnTe, we can now work with the simple picture of an effective mass carrier with the envelop function defined in Eqs.~\ref{eEnvFunc} and \ref{hEnvFunc}, trapped in a potential $V_e (\mathbf{r})$ for the conduction band or $V_h (\mathbf{r})$ for the valence band, creating by the band offset between the two semiconductors. We write the Schrödinger equations for these particle:
@@ -336,7 +336,7 @@ We can write the same equality along $z$ replacing $\rho$ by $z$ and $m_{h, \par
 			& F_{c,v}^{GS} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \label{GSWF} \\
 			& E_{e,h}^{GS} = \hbar \frac{\omega_z^{e,h} + \omega_{\rho}^{e,h}}{2} \\
 		\nonumber \\
-			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} e^{\pm i\theta} \label{ExcWF} \\
+			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} \exp (\pm i\theta) \label{ExcWF} \\
 			& E_{e,h}^{Exc, \pm 1} = \hbar \frac{\omega_z^{e,h} + 3 \omega_{\rho}^{e,h}}{2}
 	\end{align}
 We see that this energy level are quantified in a way looking like an isolated atom, as pointed earlier. In reference to the atomic notation, the ground state, lower energy level, is noted $S$ and the two first degenerated level are noted $P$, even though atomic p-states usually are 3 fold degenerated.
@@ -397,14 +397,14 @@ Since we are working in the hh approximation, we neglect the contribution of the
 	
 	Looking at the matrix form of the Luttinger hamiltonian in Eq.~\ref{HLMat}, we see that $\pm \frac{3}{2}$ could also be coupled to $\pm \frac{1}{2}$ through the $b$ term. However, we supposed that the wave function can be separated into a pure $z$ component and a pure $x - y$ one, meaning $\langle \chi_i (z) | k_z | \chi_j (z) \rangle = 0$ with $\chi_{(i,j)} (z)$ define in Eqs.~\ref{GSWF} and \ref{ExcWF}. This means $b$ doesn't couple envelop functions. A similar coupling parameter appear in the Bir-Pikus hamiltonian due to the shear strains $\epsilon_{zx}$ and $\epsilon_{zy}$. However, in most of the found dots, $\epsilon_{zx}$ and $\epsilon_{zy}$ is found to be negligible~\cite{YoanTh}.
 	
-	The envelop function mainly test the overlap and the energy state of the exciton. It doesn't affect light polarization. Therefore, in order to understand the effects of the VBM on the polarization of the dot emission, we can neglect them, only looking at the spin component. We also neglect the envelop function difference between hh and lh. We can then describe the coupling by redefining up and down hole spins as a superposition of $\pm \frac{3}{2}$ and $\mp \frac{1}{2}$. This lh part will be written through a phenomenological parameter $\eta e^{2i \theta}$ with $\theta$ the direction of the strain:
+	The envelop function mainly test the overlap and the energy state of the exciton. It doesn't affect light polarization. Therefore, in order to understand the effects of the VBM on the polarization of the dot emission, we can neglect them, only looking at the spin component. We also neglect the envelop function difference between hh and lh. We can then describe the coupling by redefining up and down hole spins as a superposition of $\pm \frac{3}{2}$ and $\mp \frac{1}{2}$. This lh part will be written through a phenomenological parameter $\eta \exp(2i \theta)$ with $\theta$ the direction of the strain:
 	\begin{align}
-		|\tilde{\Uparrow}\rangle \propto |+\frac{3}{2}\rangle - \eta e^{2i \theta}|-\frac{1}{2}\rangle \\
-		|\tilde{\Downarrow}\rangle \propto |-\frac{3}{2}\rangle - \eta e^{2i \theta}|+\frac{1}{2}\rangle
+		|\tilde{\Uparrow}\rangle \propto |+\frac{3}{2}\rangle - \eta \exp(2i \theta)|-\frac{1}{2}\rangle \\
+		|\tilde{\Downarrow}\rangle \propto |-\frac{3}{2}\rangle - \eta \exp(2i \theta)|+\frac{1}{2}\rangle
 	\end{align}
 with, in the hypothesis of a small strain-induced VBM:
 	\begin{align}
-		\eta e^{2i \theta} = \frac{1}{\Delta_{lh}} (id\epsilon_{xy - b(\epsilon_{xx} - \epsilon_{yy}})
+		\eta \exp(2i \theta) = \frac{1}{\Delta_{lh}} (id\epsilon_{xy - b(\epsilon_{xx} - \epsilon_{yy}})
 	\end{align}
 with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\epsilon_{xx} = \epsilon_{yy} + 2\epsilon_{zz})$. However, experimentally, we can only access $\eta = \frac{E}{\Delta_{lh}}$, with $E$ the anisotropy of strain.
 
@@ -425,7 +425,7 @@ There is then a dependency in linear polarization of the emission, depending on 
 	
 		\subsection{Exchange interaction in Diluted Magnetic Semiconductors\label{ExchDMS}}
 		
-		We were interested until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atom in the crystal, namely an impurity. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom comes with localized electron on its exterior shell. From the interaction between these electron and the one in the conduction band of the semi-conductor, new properties will arise. We can easily write this interaction as an interaction type "Heisenberg". With $|S\rangle$ as the electronic spin of the magnetic impurity and, as previously, $|\sigma\rangle$ as the spin of the conduction electron, we can write:
+		We were interested until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atom in the crystal, namely an impurity. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom will interact with the semiconductor electrons via its localized electron on its exterior shell. For Mn and Cr, this orbital is the $d$ orbital, so it will be the one considered in the following document. From the interaction between these electron and the one in the conduction band of the semi-conductor, new properties will arise. We can easily write this interaction as an interaction type "Heisenberg". With $|S\rangle$ as the electronic spin of the magnetic impurity and, as previously, $|\sigma\rangle$ as the spin of the conduction electron, we can write:
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \mathbf{\sigma}.\mathbf{S}
 		\end{align}
@@ -433,27 +433,62 @@ with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ i
 	\begin{align}
 		\sigma_x = \frac{\hbar}{2}
 					\begin{pmatrix}
-						0 & 1
+						0 & 1 \\
 						1 & 0
 					\end{pmatrix} ;
 		\sigma_y = \frac{\hbar}{2}
 					\begin{pmatrix}
-						0 & -i
+						0 & -i \\
 						i & 0
 					\end{pmatrix} ;
 		\sigma_z = \frac{\hbar}{2}
 					\begin{pmatrix}
-						1 & 0
+						1 & 0 \\
 						0 & -1
 					\end{pmatrix}
 	\end{align}
 	
 	This formally simple interaction represent the Pauli exclusion principle through the interaction between two spins. Almost the interaction in this chapter will be of this form, although presenting different physical process, with only the interaction constant $I$ varying from one another.
 	
+	The inserted impurities didn't modify the crystal structure, meaning the semiconductor wave function will not be significantly altered by them. We can then as usual note the conduction electron wave function as $|\psi_{\mathbf{k}}\rangle|\sigma;\sigma_z\rangle \equiv |\psi_{\mathbf{k}};\sigma_z\rangle$, $|\psi_{\mathbf{k}}$ being the Bloch function of the semiconductor. On the other side, considering a magnetic atom at $\mathbf{r} = \mathbf{R_d}$, we write the spatial component of the wave function $\Phi_d (\mathbf{r} - \mathbf{R_d})$. Its total electronic spin, sum of the electron spins on its $d$ orbital, is noted $|S; S_z\rangle$. The whole wave function of the magnetic atom is then $|\Phi_d;S_Z\rangle$.
 	
+	Using Born-Oppenheimer approximation, we can write the hamiltonian for these electrons:
+	\begin{align}
+	\label{BOHamil}
+		{\cal H}_{BO} = \sum_i \left(\frac{p_i^2}{2m_c} + V_c (\mathbf{r}_i) \right) + \frac{1}{2} \sum_{i,j} \frac{e^2}{4\pi \epsilon_0 |\mathbf{r_i} - \mathbf{r_j}|}
+	\end{align}
+This first is a single particle hamiltonian, taking into account the kinetic energy of the electron and the crystal potential $V_c (\mathbf{r}_i)$ felt by the electron at the position $\mathbf{r}_i$. This potential include the impurities potential, meaning it will be different at the impurities positions than elsewhere in the semiconductor. The final term represents the Coulomb interaction between the electrons.
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	We can rewrite this hamiltonian using second quantification. We define the destruction (resp. creation) operator of a particle in the conduction band at the wave vector $\mathbf{k}$ and the spin $\sigma$ as $a_{\mathbf{k}, \sigma}$ (resp. $a_{\mathbf{k}, \sigma}^{\dagger}$). In the same fashion, we define the destruction (resp. creation) operator of the electronic level of an impurity as $a_{d, S}$ (resp. $a_{d, S}^{\dagger}$). The hamiltonian \ref{BOHamil} then become:
+	\begin{align}
+			{\cal H}_{SQ} &= \sum_{\mathbf{k}, \sigma} E_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}, \sigma} + \sum_{S} E_d a_{d, S}^{\dagger} a_{d, S} + \sum_{\mathbf{k}, \mathbf{k}'} U_{\mathbf{k}, \mathbf{k}'} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}', \sigma} \nonumber \\
+								&\qquad\qquad\quad+ \sum_{\mathbf{k}, \sigma, S} M_{\mathbf{k}} (a_{\mathbf{k}, \sigma}^{\dagger} a_{d, S} + a_{d, S}^{\dagger} a_{\mathbf{k}, \sigma}) + \frac{1}{2} \sum_{i,j,k,l} V_{i,j,m,n} a_i^{\dagger} a_j^{\dagger} a_n a_m \\
+						&= {\cal H}_0 + {\cal H}_d + V_d + {\cal H}_{hyb} + {\cal H}_{Coulomb} \nonumber
+	\end{align}
+
+	Before explaining all the term, lets focus on the two particles exchange ${\cal H}_{Coulomb}$. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either a electron of the semiconductor or of one of the impurities. We can then separate this hamiltonian in three different term depending on the value of $i$, $j$, $m$ and $n$ and illustrated in Fig.~\ref{ExchInterIllust}.
 	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{../FillingPicture.png}
+	\end{center}
+	\caption{Exchange interaction diagram (I.2 in Laurent thesis)}
+	\label{ExchInterIllust}
+	\end{figure}
+
+	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
+	
+	We then have the case of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
+	
+	The final possibility is the interaction between an electron from the magnetic atom and an electron from the semiconductor. It can be separated in two terms that will be developed in the next paragraphs: a direct Coulomb interaction between the two electrons, and an exchange interaction arising from the fermionic nature of electrons.
+	
+	The direct Coulomb interaction doesn't depends on electrons spins. It only act on the total energy of the system and is therefore only needed when searching the total energy of an exciton. We write it:
+	\begin{align}
+		K &= + \sum_{\mathbf{k}, \sigma, \sigma'} K_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{d, \sigma'}^{\dagger} a_{d, \sigma'} a_{\mathbf{k}, \sigma} \\
+		\text{with} \nonumber \\
+		K_k &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' |\psi_k (\mathbf{r})|^2 \frac{e^2}{4\pi \epsilon_0 |\mathbf{r}' - \mathbf{r}|} |\Phi_d (\mathbf{r}')|^2 \nonumber
+	\end{align}
+
 		\subsection{Mn case}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
@@ -463,14 +498,24 @@ with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ i
 		\subsection{Cr case\label{CrDMS}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-		
-		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 		
 		\subsection{Effect of the confinement\label{ExchIntQD}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		
+		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can the write the matrix elements:
+	\begin{align}
+		\langle e,h|{\cal H}_{exch, semicon}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + J_{eh'e'h}
+	\end{align}
+with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct exchange interaction and $J_{eh'e'h}$ the Coulomb exchange interaction.
+\newline
+
+	[TO BE CONTINUED]
+	\newline
+		
+		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.	
 
@@ -479,17 +524,18 @@ with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ i
 	
 	FINDING A WAY TO SPEAK ABOUT THE EFFECT OF VBM AS EXPLAIN IN CLAIRE THESIS~\cite{ClaireTh} p.30.
 	
-		\subsection{Mn atom in II-VI semiconductor}
-
-		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)
-
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=10cm]{../FillingPicture.png}
 	\end{center}
-	\caption{Mn in Zinc-Blend lattice}
-	\label{MnInclusion}
+	\caption{Magnetic atom in a Zinc-Blend lattice}
+	\label{MagAtInclusion}
 	\end{figure}
+	
+		\subsection{Mn atom in II-VI semiconductor}
+
+		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)
+\newline
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 
@@ -504,14 +550,6 @@ with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ i
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 		\subsection{Cr atom in II-VI semiconductor\label{CrSemiCon}}
-
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{Cr in Zinc-Blend lattice}
-	\label{CrInclusion}
-	\end{figure}
 	
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 

@@ -258,8 +258,34 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevB.76.045331
       \endverb
     \endentry
+    \entry{ExchSplitInteratomic}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0269f1ba83c631edc113eac7bb43fc08}{Wardzyński}{W\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=748f6d4ef4a6a63dbb388d544babff37}{Suffczyński}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0269f1ba83c631edc113eac7bb43fc08}{Wardzyński}{W\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=748f6d4ef4a6a63dbb388d544babff37}{Suffczyński}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{783c0089cf6a10987eddf4e893e0cf29}
+      \strng{fullhash}{783c0089cf6a10987eddf4e893e0cf29}
+      \field{sortinit}{0}
+      \field{labeltitle}{Dependence of the exchange splitting in excitons on the interatomic distance}
+      \field{issn}{0038-1098}
+      \field{journaltitle}{Solid State Communications}
+      \field{number}{5}
+      \field{title}{Dependence of the exchange splitting in excitons on the interatomic distance}
+      \field{volume}{10}
+      \field{year}{1972}
+      \field{pages}{417\bibrangedash 419}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0038-1098(72)90910-6
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0038109872909106
+      \endverb
+    \endentry
   \endsortlist
-  \missing{VBM}
 \endrefsection
 \endinput
 
