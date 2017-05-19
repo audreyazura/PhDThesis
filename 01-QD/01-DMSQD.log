@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  18 MAY 2017 23:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  19 MAY 2017 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -329,6 +329,14 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -777,6 +785,13 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -796,20 +811,20 @@ LaTeX Warning: Label `BandStruct' multiply defined.
 )
 \openout1 = `01-DMSQD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count281
@@ -859,7 +874,7 @@ LaTeX Font Info:    ... okay on input line 24.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 26.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -868,9 +883,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./01-DMSQD.out) (./01-DMSQD.out)
 \@outlinefile=\write4
@@ -884,8 +899,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '01-DMSQD.bbl' found.
  (./01-DMSQD.bbl)
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
 
 Chapter I.
 <Pictures/ZincBlende-Wikipedia.png, id=65, 661.47125pt x 602.25pt>
@@ -893,7 +908,7 @@ File: Pictures/ZincBlende-Wikipedia.png Graphic file (type png)
 
 <use Pictures/ZincBlende-Wikipedia.png>
 Package pdftex.def Info: Pictures/ZincBlende-Wikipedia.png used on input line 3
-6.
+8.
 (pdftex.def)             Requested size: 284.52756pt x 259.04515pt.
 
 
@@ -907,7 +922,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 50.
+Package pdftex.def Info: ../FillingPicture.png used on input line 52.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -916,18 +931,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [2 <./Pictures/ZincBlende-Wikipedia.png>] [3 <../FillingPicture.png>] [4]
 [5] [6] [7]
 
-LaTeX Warning: Reference `Growth' on page 8 undefined on input line 275.
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 279.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `Growth' on page 8 undefined on input line 277.
 
 [8]
-Overfull \hbox (23.24365pt too wide) in paragraph at lines 293--295
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 281.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [9]
+Overfull \hbox (23.24365pt too wide) in paragraph at lines 295--297
 \T1/cmr/m/n/12 with $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT
 1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 )$ \T1/c
@@ -937,73 +949,101 @@ n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n
 T1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
  []
 
-[9] [10] [11] [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 374.
+[10] [11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 376.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 374.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 376.
+
+[13]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 390.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [14]
+
+LaTeX Warning: Reference `Growth' on page 15 undefined on input line 421.
+
+[15] [16] [17]
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 488.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [18] [19]
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 388.
+Package pdftex.def Info: ../FillingPicture.png used on input line 546.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [13] [14]
-
-LaTeX Warning: Reference `Growth' on page 15 undefined on input line 419.
-
-[15] [16]
-Overfull \hbox (0.17494pt too wide) in paragraph at lines 469--470
-[]\T1/cmr/m/n/12 Before ex-plain-ing all the term, lets fo-cus on the two par-t
-i-cles ex-change $\OMS/cmsy/m/n/12 H[]$\T1/cmr/m/n/12 .
- []
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 473.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 511--514
+ [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--517
+Underfull \hbox (badness 10000) in paragraph at lines 571--573
 
  []
 
 
-Overfull \hbox (5.97437pt too wide) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 582--585
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--604
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
+
+ []
+
+
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 611--611
 []\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
  []
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 529.
+Package pdftex.def Info: ../FillingPicture.png used on input line 617.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
 
  []
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 544.
+Package pdftex.def Info: ../FillingPicture.png used on input line 632.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21]
+[24]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 558.
+Package pdftex.def Info: ../FillingPicture.png used on input line 646.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -1011,45 +1051,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 566.
+Package pdftex.def Info: ../FillingPicture.png used on input line 654.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22]
+[25]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 576.
+Package pdftex.def Info: ../FillingPicture.png used on input line 664.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [23]
+ [26]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 584.
+Package pdftex.def Info: ../FillingPicture.png used on input line 672.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [24]
+ [27]
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 597.
+Package pdftex.def Info: ../FillingPicture.png used on input line 685.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 607.
+Package pdftex.def Info: ../FillingPicture.png used on input line 695.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25] [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 616.
- [27
+[28] [29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 704.
+ [30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 616.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 704.
  (./01-DMSQD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 704.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 704.
 Package rerunfilecheck Info: File `01-DMSQD.out' has not changed.
 (rerunfilecheck)             Checksum: DC1A9F62B8A5DEA4AC6C8B13104A5510;1265.
 
@@ -1062,16 +1102,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to '01-DMSQD.run.xml'.
 \openout1 = `01-DMSQD.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 616.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 704.
  ) 
 Here is how much of TeX's memory you used:
- 12914 strings out of 494958
- 199835 string characters out of 6179214
- 636837 words of memory out of 5000000
- 15838 multiletter control sequences out of 15000+600000
- 16366 words of font info for 40 fonts, out of 8000000 for 9000
+ 13073 strings out of 494958
+ 201539 string characters out of 6179214
+ 638557 words of memory out of 5000000
+ 15967 multiletter control sequences out of 15000+600000
+ 19890 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,15n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,16n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
 home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/
 audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audre
@@ -1084,16 +1124,18 @@ pe1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 01-DMSQD.pdf (27 pages, 538808 bytes).
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/euler/eurb10.pfb>
+Output written on 01-DMSQD.pdf (30 pages, 553662 bytes).
 PDF statistics:
- 658 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 123 named destinations out of 1000 (max. 500000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 136 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

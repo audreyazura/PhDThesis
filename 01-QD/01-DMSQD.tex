@@ -5,6 +5,7 @@
 \usepackage{array}
 \usepackage{amsmath}
 \usepackage[english]{babel}
+\usepackage{bm}
 \usepackage{graphicx}
 \usepackage[a4paper]{geometry}
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
@@ -14,6 +15,7 @@
 \usepackage{epstopdf}
 \usepackage{xcolor}
 \usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{upgreek}
 
 \addbibresource{../Bibliography.bib}
 
@@ -67,9 +69,9 @@ with $U(\mathbf{r})$ the potential of the crystal and $|\psi_{n,\mathbf{k}}\rang
 	Neglecting the $\Gamma_7$ band at lower energy, we solve this hamiltonian for carrier on the $\Gamma_6$ and $\Gamma_8$ bands~\cite{ClaireTh}. The $z$-axis is defined along the growth direction of the semiconductor and chosen as the quantization axis. We then find the energy:
 	\begin{align}
 		\begin{array}{l}
-		E_c (k_z) = E_c + \frac{\hbar^2 k_z^2}{2m_c} \\
-		E_{v, \pm\frac{1}{2}} (k_z) = E_v - \frac{\hbar^2 k_z^2}{2m_{lh}} \\
-		E_{v, \pm\frac{3}{2}} (k_z) = E_v + \frac{\hbar^2 k^2_z}{2m_{0}}
+		E_c (k_z) = E_c + \dfrac{\hbar^2 k_z^2}{2m_c} \\
+		E_{v, \pm\frac{1}{2}} (k_z) = E_v - \dfrac{\hbar^2 k_z^2}{2m_{lh}} \\
+		E_{v, \pm\frac{3}{2}} (k_z) = E_v + \dfrac{\hbar^2 k^2_z}{2m_{0}}
 		\end{array}	
 	\end{align}
 with $E_c$ ($E_v$) the energy of the conduction band (respectively, the valence band), $m_c$ the effective mass of the carrier on the conduction and $m_{lh}$ the effective mass of the light hole. One can see that the splitting of the valence band separate the carrier with a spin $J_z = \pm \frac{3}{2}$ (hh) from the one with a spin $J_z = \pm \frac{1}{2}$ (lh). However, the neglecting of the bands other than $\Gamma_6$ and $\Gamma_8$ lead to a positive curvature for the hh. To correct this problem, we would have to take into account higher energy conduction band, which will repel the hh band and give it its negative curvature.
@@ -97,8 +99,8 @@ The $B$-term lift the degeneracy of the $\Gamma_8$ band into two sub-bands as sh
 	In the spherical approximation, the Luttinger hamiltonian has two eigenvalues:
 	\begin{align}
 		\begin{array}{l}
-			E_{hh} = - \frac{\hbar^2 k^2}{2m_0 (A-2.25B)^{-1}} = - \frac{\hbar^2 k^2}{2m_0 (\gamma_1 - 2 \gamma_2 )^{-1}} = - \frac{\hbar^2 k^2}{2m_{hh}} \\
-			E_{lh} = - \frac{\hbar^2 k^2}{2m_0 (A-0.25B)^{-1}} = - \frac{\hbar^2 k^2}{2m_0 (\gamma_1 + 2 \gamma_2 )^{-1}} = - \frac{\hbar^2 k^2}{2m_{lh}}
+			E_{hh} = - \dfrac{\hbar^2 k^2}{2m_0 (A-2.25B)^{-1}} = - \dfrac{\hbar^2 k^2}{2m_0 (\gamma_1 - 2 \gamma_2 )^{-1}} = - \dfrac{\hbar^2 k^2}{2m_{hh}} \\
+			E_{lh} = - \dfrac{\hbar^2 k^2}{2m_0 (A-0.25B)^{-1}} = - \dfrac{\hbar^2 k^2}{2m_0 (\gamma_1 + 2 \gamma_2 )^{-1}} = - \dfrac{\hbar^2 k^2}{2m_{lh}}
 		\end{array}
 	\end{align}
 We find back the value of the effective mass for the lh, along with a value for the hh. The hh band also presents here a negative curvature, as expected.
@@ -114,7 +116,7 @@ We find back the value of the effective mass for the lh, along with a value for 
 			\hline \hline
 			$E_g$ & 1606 meV & 2391 meV \\
 			\hline
-			$\epsilon_r$ & 10.6 & 9.7 \\
+			$\varepsilon_r$ & 10.6 & 9.7 \\
 			\hline
 			$a_0$ & 6.48 \AA & 6.10 \AA \\
 			\hline
@@ -164,25 +166,25 @@ with:
 		
 	ZnTe crystal has a lattice parameter of $a_{ZnTe} = $6.10 \AA, while CdTe one is of $a_{CdTe} = $6.48 \AA. This lattice mismatch results in stress in a CdTe layer grown on a ZnTe substrate:
 		\begin{align}
-			\epsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} = -5.8\%
+			\varepsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} = -5.8\%
 		\end{align}
 		
 		In order to represent this strain and see their effect on the band, especially the $\Gamma_8$ band, we need to define a hamiltonian representing them. These strains deform the structure, so let's begin the representation with an volume $V = (x\mathbf{u_x} + y\mathbf{u_y} + z\mathbf{u_z}$, with $(\mathbf{u_x}, \mathbf{u_y}, \mathbf{u_z})$ an ortho-normalized basis. This volume will transform into another one $V' = (x\mathbf{u_x'} + y\mathbf{u_y'} + z\mathbf{u_z'})$, where:
 		\begin{align}
 			\begin{array}{l}							
-				\mathbf{u_x'} = (1 + \epsilon_{xx}')\mathbf{u_x} + \epsilon_{xy}' \mathbf{u_y} + \epsilon_{xz}' \mathbf{u_z} \\
-				\mathbf{u_y'} = \epsilon_{yx}' \mathbf{u_x} + (1 + \epsilon_{yy}')\mathbf{u_y} + \epsilon_{yz}' \mathbf{u_z} \\
-				\mathbf{u_z'} = \epsilon_{zx}' \mathbf{u_x} + \epsilon_{zy}' \mathbf{u_y} + (1 + \epsilon_{zz}')\mathbf{u_z}
+				\mathbf{u_x'} = (1 + \varepsilon_{xx}')\mathbf{u_x} + \varepsilon_{xy}' \mathbf{u_y} + \varepsilon_{xz}' \mathbf{u_z} \\
+				\mathbf{u_y'} = \varepsilon_{yx}' \mathbf{u_x} + (1 + \varepsilon_{yy}')\mathbf{u_y} + \varepsilon_{yz}' \mathbf{u_z} \\
+				\mathbf{u_z'} = \varepsilon_{zx}' \mathbf{u_x} + \varepsilon_{zy}' \mathbf{u_y} + (1 + \varepsilon_{zz}')\mathbf{u_z}
 			\end{array}
 		\end{align}
 		
-	$\epsilon_{ij}'$ represents an expansion of the vector $i$ in the direction $j$. They are small deformation of the lattice, so we choose $|\epsilon_{ij}'| \ll 1$. Such transformations can be decomposed in a symmetric part and an antisymetric one. We note $\overline{\overline{\epsilon}}$ the symmetric part, called the strain tensor, defined such as:
+	$\varepsilon_{ij}'$ represents an expansion of the vector $i$ in the direction $j$. They are small deformation of the lattice, so we choose $|\varepsilon_{ij}'| \ll 1$. Such transformations can be decomposed in a symmetric part and an antisymetric one. We note $\overline{\overline{\varepsilon}}$ the symmetric part, called the strain tensor, defined such as:
 	\begin{align}
-		\epsilon_{ ii} &= \epsilon_{ii}' \\
-		\epsilon_{ij} &= \frac{1}{2} \left(\epsilon_{ij}' + \epsilon_{ji}'\right)
+		\varepsilon_{ ii} &= \varepsilon_{ii}' \\
+		\varepsilon_{ij} &= \frac{1}{2} \left(\varepsilon_{ij}' + \varepsilon_{ji}'\right)
 	\end{align}
 
-	In the linear regime, the strain tensor $\overline{\overline{\epsilon}}$ is proportional to the stress tensor $\overline{\overline{\sigma}}$, where $\sigma_{ij}$ describe a force parallel to $i$ applied on a surface perpendicular to $j$. Therefore, $\sigma_{ii}$ will describe an elongation or compression stress, while $\sigma_{ij}$ ($i\neq j$) represents a shear stress. Since these tensor are symmetric, we can reduce the number of coefficient from nine to six: $\sigma_{xx}$, $\sigma_{yy}$, $\sigma_{zz}$, $\sigma_{xy} = \sigma_{yx}$, $\sigma_{xz} = \sigma_{zx}$ and $\sigma_{yz} = \sigma_{zy}$. Therefore, in the linear regime and for a cubic crystal, we can write the Hooke's law:
+	In the linear regime, the strain tensor $\overline{\overline{\varepsilon}}$ is proportional to the stress tensor $\overline{\overline{\sigma}}$, where $\sigma_{ij}$ describe a force parallel to $i$ applied on a surface perpendicular to $j$. Therefore, $\sigma_{ii}$ will describe an elongation or compression stress, while $\sigma_{ij}$ ($i\neq j$) represents a shear stress. Since these tensor are symmetric, we can reduce the number of coefficient from nine to six: $\sigma_{xx}$, $\sigma_{yy}$, $\sigma_{zz}$, $\sigma_{xy} = \sigma_{yx}$, $\sigma_{xz} = \sigma_{zx}$ and $\sigma_{yz} = \sigma_{zy}$. Therefore, in the linear regime and for a cubic crystal, we can write the Hooke's law:
 	\begin{align}
 	\label{HookeLaw}
 		\begin{bmatrix}
@@ -203,69 +205,69 @@ with:
 			0 & 0 & 0 & 0 & 0 & 2C_{44}
 		\end{bmatrix}
 		\begin{bmatrix}
-			\epsilon_{xx} \\
-			\epsilon_{yy} \\
-			\epsilon_{zz} \\
-			\epsilon_{xy} \\
-			\epsilon_{xz} \\
-			\epsilon_{yz}
+			\varepsilon_{xx} \\
+			\varepsilon_{yy} \\
+			\varepsilon_{zz} \\
+			\varepsilon_{xy} \\
+			\varepsilon_{xz} \\
+			\varepsilon_{yz}
 		\end{bmatrix}
 	\end{align}
 Since $x$, $y$ and $z$ are physically equivalent, as well as $xy$, $xz$ and $yz$, only two diagonal coefficient are needed, $C_{11}$ and $C_{44}$. These coefficient coupling strains in a direction to a force in the same direction are obviously positives.
 
-	When the considered cube is compressed in one direction (e.g. $\epsilon_{zz} < 0$), it will expand in the other direction in order to minimize elastic energy ($\epsilon_{xx}$, $\epsilon_{yy} > 0$ in the example). If we don't allow strain in these other directions ($\epsilon_{xx} = \epsilon_{yy} = 0$), a stress in the x and y directions had to be applied to keep the cube from expanding in these directions ($\sigma_{xx}$, $\sigma_{yy} < 0$ in the example). We can therefore physically expect $C_{12} > 0$.
+	When the considered cube is compressed in one direction (e.g. $\varepsilon_{zz} < 0$), it will expand in the other direction in order to minimize elastic energy ($\varepsilon_{xx}$, $\varepsilon_{yy} > 0$ in the example). If we don't allow strain in these other directions ($\varepsilon_{xx} = \varepsilon_{yy} = 0$), a stress in the x and y directions had to be applied to keep the cube from expanding in these directions ($\sigma_{xx}$, $\sigma_{yy} < 0$ in the example). We can therefore physically expect $C_{12} > 0$.
 	
-	The strain hamiltonian can be constructed noticing that the strain tensor $\overline{\overline{\epsilon}}$ induces a shift in the bands energy, and that any $\epsilon_{ij}$ has the same symmetry as $k_i k_j$. The hamiltonian should then be formarly identical to the Luttinger hamiltonian. In the $\Gamma_8$ subspace, we can then use the Luttinger Hamiltonian, written in Eq.~\ref{LuttHamil}, replacing the $k_i k_j$ by $\epsilon_{ij}$. We obtain the Bir-Pikus Hamiltonian by replacing the $\gamma_j$ parameters by the Bir-Pikus parameters $a_{\nu}$, $b_{\nu}$ and $d_{\nu}$~\cite{BirPikus}:
+	The strain hamiltonian can be constructed noticing that the strain tensor $\overline{\overline{\varepsilon}}$ induces a shift in the bands energy, and that any $\varepsilon_{ij}$ has the same symmetry as $k_i k_j$. The hamiltonian should then be formarly identical to the Luttinger hamiltonian. In the $\Gamma_8$ subspace, we can then use the Luttinger Hamiltonian, written in Eq.~\ref{LuttHamil}, replacing the $k_i k_j$ by $\varepsilon_{ij}$. We obtain the Bir-Pikus Hamiltonian by replacing the $\gamma_j$ parameters by the Bir-Pikus parameters $a_{\nu}$, $b_{\nu}$ and $d_{\nu}$~\cite{BirPikus}:
 	\begin{align}
 	\label{BPHamil}
-		{\cal H}_{BP} = a_{\nu} \epsilon I_4 + b_{\nu} \sum_i \epsilon_{ii} \left(J_i^2 - \frac{1}{3}J^2\right) + \frac{d_{\nu}}{\sqrt{3}}(\epsilon_{xy} (J_x J_y + J_y J_x) + c.p)
+		{\cal H}_{BP} = a_{\nu} \varepsilon I_4 + b_{\nu} \sum_i \varepsilon_{ii} \left(J_i^2 - \frac{1}{3}J^2\right) + \frac{d_{\nu}}{\sqrt{3}}(\varepsilon_{xy} (J_x J_y + J_y J_x) + c.p)
 	\end{align}
-with $\epsilon = Tr(\overline{\overline{\epsilon}}) = \epsilon_{xx} + \epsilon_{yy}+ \epsilon_{zz}$.
+with $\varepsilon = Tr(\overline{\overline{\varepsilon}}) = \varepsilon_{xx} + \varepsilon_{yy}+ \varepsilon_{zz}$.
 
-	The $a_{\nu}$ term, called the hydrostatic term, is to shift the $\Gamma_8$ energy. The $b_{\nu}$ term represents the shear strain. In case of non-equal $\epsilon_{ii}$, its effect is to lift up the two $\Gamma_8$ sub-bands as did a $k\neq 0$ in the Luttinger hamiltonian. The $d_{\nu}$ term, the pure shear strain (i.e $\epsilon_{ij}$ with $i \neq j$), has the same effect on the $\Gamma_8$ band.
+	The $a_{\nu}$ term, called the hydrostatic term, is to shift the $\Gamma_8$ energy. The $b_{\nu}$ term represents the shear strain. In case of non-equal $\varepsilon_{ii}$, its effect is to lift up the two $\Gamma_8$ sub-bands as did a $k\neq 0$ in the Luttinger hamiltonian. The $d_{\nu}$ term, the pure shear strain (i.e $\varepsilon_{ij}$ with $i \neq j$), has the same effect on the $\Gamma_8$ band.
 	
 	One can notice that the Bir-Pikus hamiltonian is completely independant from $\mathbf{k}$, meaning that the band hamiltonian of a strain semiconductor is simply the sum of the sum of the Luttinger hamiltonian ${\cal H}_L$ (Eq.~\ref{LuttHamil}) and the Bir-Pikus hamiltonian ${\cal H}_{BP}$ (Eq.~\ref{BPHamil}).
 	
 	Let see how this apply to a CdTe layer deposited on a ZnTe layer. We define $z$ as the growth direction. As shown at the begin of this part, CdTe and ZnTe have a lattice mismatch of 5.8\%. Since both crystallize in a cubic lattice, the strain is the same in the $x$ and $y$ direction. We can then write the strain in the $xy$ plane:
 	\begin{align}
 	\label{epsperp}
-		\epsilon_{xx} = \epsilon_{yy} = \epsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
+		\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
 	\end{align}
 In the $z$ direction, however, no stress apply: the crystal is free to expand in this direction in order to reduce the elastic energy. Therefore, we can write $\sigma_{zz} = 0$ and, according to Hooke's law in Eq.~\ref{HookeLaw}:
 	\begin{align}
 		\begin{array}{rl}
-			\sigma_{zz} &= C_{12} \epsilon_{xx} + C_{12} \epsilon_{yy} + C_{11} \epsilon_{zz} \\
+			\sigma_{zz} &= C_{12} \varepsilon_{xx} + C_{12} \varepsilon_{yy} + C_{11} \varepsilon_{zz} \\
 						&= 0
 		\end{array}		
 	\end{align}
 Using equality \ref{epsperp}, we can then deduce:
 	\begin{align}
 	\label{epsz}
-		\epsilon_{zz} = - \frac{2C_{12}}{C_{11}} \epsilon_{\bot} = - \frac{2C_{12}}{C_{11}} \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
+		\varepsilon_{zz} = - \frac{2C_{12}}{C_{11}} \varepsilon_{\bot} = - \frac{2C_{12}}{C_{11}} \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
 	\end{align}
 	
-	Since we grow CdTe over a ZnTe substrate, the CdTe lattice is compressed in the plane, i.e. $\epsilon_{\bot} < 0$. Since $C_{11}$, $C_{12} > 0$ and $\epsilon_{\bot} < 0$ for CdTe over ZnTe (see Eq.~\ref{epsperp}, one can easily deduce that $\epsilon_{zz} > 0$. In the hypothesis of no defect created by the lattice mismatch, all the other strain terms are equal to zero. We can then decompose this strain into two component: a hydrostatic part describing the volume variation without breaking the cubic symmetry, and a shear part introducing an anisotropy, breaking this symmetry:
+	Since we grow CdTe over a ZnTe substrate, the CdTe lattice is compressed in the plane, i.e. $\varepsilon_{\bot} < 0$. Since $C_{11}$, $C_{12} > 0$ and $\varepsilon_{\bot} < 0$ for CdTe over ZnTe (see Eq.~\ref{epsperp}, one can easily deduce that $\varepsilon_{zz} > 0$. In the hypothesis of no defect created by the lattice mismatch, all the other strain terms are equal to zero. We can then decompose this strain into two component: a hydrostatic part describing the volume variation without breaking the cubic symmetry, and a shear part introducing an anisotropy, breaking this symmetry:
 	\begin{align}
-		\overline{\overline{\epsilon_{hyd}}} &= \frac{1}{3}(\epsilon_{xx} + \epsilon_{yy} + \epsilon_{zz})I_3 \\
-		\overline{\overline{\epsilon_{sh}}} &= \overline{\overline{\epsilon}} - \overline{\overline{\epsilon_{hyd}}}
+		\overline{\overline{\varepsilon_{hyd}}} &= \frac{1}{3}(\varepsilon_{xx} + \varepsilon_{yy} + \varepsilon_{zz})I_3 \\
+		\overline{\overline{\varepsilon_{sh}}} &= \overline{\overline{\varepsilon}} - \overline{\overline{\varepsilon_{hyd}}}
 	\end{align}
 	
-	One can notice that $Tr(\overline{\overline{\epsilon_{hybd}}}) = Tr(\overline{\overline{\epsilon}}) = \epsilon$. Since in the case of a hydrostatic compression, such as what is the case with CdTe over ZnTe, $\epsilon_{hybd} < 0$, we then have $\epsilon < 0$ and, according to the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}), the gap of CdTe increase. For CdTe, Bir-Pikus parameter are $a_{\nu} = 0.91$ eV, $b_{\nu} = 0.99$ eV and $d_{\nu} = 2.76$ eV~\cite{CdTeDefPot}.
+	One can notice that $Tr(\overline{\overline{\varepsilon_{hybd}}}) = Tr(\overline{\overline{\varepsilon}}) = \varepsilon$. Since in the case of a hydrostatic compression, such as what is the case with CdTe over ZnTe, $\varepsilon_{hybd} < 0$, we then have $\varepsilon < 0$ and, according to the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}), the gap of CdTe increase. For CdTe, Bir-Pikus parameter are $a_{\nu} = 0.91$ eV, $b_{\nu} = 0.99$ eV and $d_{\nu} = 2.76$ eV~\cite{CdTeDefPot}.
 	
-	Seeing that $\epsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\epsilon_{xx} = \epsilon_{yy} = \epsilon_{\bot}$, we can simplify this hamiltonian to:
+	Seeing that $\varepsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\bot}$, we can simplify this hamiltonian to:
 	\begin{align}
-		{\cal H}_{BP, biax} = a_{\nu} \epsilon I_4 + \frac{b_{\nu}}{3}(\epsilon_{\bot} - \epsilon_{zz})(J_x^2 + J_y^2 - 2 J_z^2)
+		{\cal H}_{BP, biax} = a_{\nu} \varepsilon I_4 + \frac{b_{\nu}}{3}(\varepsilon_{\bot} - \varepsilon_{zz})(J_x^2 + J_y^2 - 2 J_z^2)
 	\end{align}
 And, since we are in the valence band with $J = \frac{3}{2}$ and $J_x^2 + J_y^2 + J_z^2 = J(J+1)I_4$, we can simplify the Bir-Pikus hamiltonian to its final form in the case of biaxal strain:
 	\begin{align}
-		{\cal H}_{BP, biax} = \left(a_{\nu} \epsilon + \frac{5}{4} b_{\nu} (\epsilon_{\nu} - \epsilon_{zz})\right)I_4 - b_{\nu} (\epsilon_{\nu} - \epsilon_{zz})J_z^2
+		{\cal H}_{BP, biax} = \left(a_{\nu} \varepsilon + \frac{5}{4} b_{\nu} (\varepsilon_{\nu} - \varepsilon_{zz})\right)I_4 - b_{\nu} (\varepsilon_{\nu} - \varepsilon_{zz})J_z^2
 	\end{align}
 	
-	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\epsilon_{\bot} - \epsilon_{z}$. Since $J_z|n\rangle = n|n\rangle$, we find:
+	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\varepsilon_{\bot} - \varepsilon_{z}$. Since $J_z|n\rangle = n|n\rangle$, we find:
 	\begin{align}
 		\begin{array}{rl}
-			E_{\pm \frac{3}{2}} - E_{\pm \frac{1}{2}} &= - 2b_{\nu} \left(1 + \frac{2C_{12}}{C_{11}} \right) \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} \\
-													&= 2b_{\nu} \left(1 + \frac{2C_{12}}{C_{11}} \right) \frac{a_{CdTe} - a_{ZnTe}}{a_{CdTe}}
+			E_{\pm \frac{3}{2}} - E_{\pm \frac{1}{2}} &= - 2b_{\nu} \left(1 + \dfrac{2C_{12}}{C_{11}} \right) \dfrac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} \\
+													&= 2b_{\nu} \left(1 + \dfrac{2C_{12}}{C_{11}} \right) \dfrac{a_{CdTe} - a_{ZnTe}}{a_{CdTe}}
 		\end{array}
 	\end{align}
 We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band is 300 meV above the lh one. In first approximation, we can then neglect the lh contribution in these nanostructures.
@@ -393,9 +395,9 @@ Since we are working in the hh approximation, we neglect the contribution of the
 		
 	This single picture, however, don't represent accurately most of the experiment. In a lot of found dots, both $X$ and $X^2$ presents two peaks with linear polarization dependency, as presented in Fig.~\ref{XAlLinPol}. This picture could be explained by the long-range exchange interaction, presented in Sec.~\ref{ExchDMS}. However, it predicts an angle between the two linearly polarized states of $90^\circ$, while the observed angle is far from this value. Moreover, in charged species, the electron (resp. hole) interact with two holes (resp. electrons) with opposite spins, leading to an absence of exchange interaction. Therefore, in the hh approximation, neither $X^+$ nor $X^-$ should present linear polarization dependency. However, such a dependency can be observed in actual dots.
 	
-	However, we saw in Sec.~\ref{e-hIntQD} that the hh approximation supposed neglecting lh contribution in the Luttinger hamiltonian, through the presence of biaxial strain lifting their degeneracy with hh. However, we can see in the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}) that introducing an anisotropic distribution of strain ($\epsilon_{xx} \neq \epsilon_{yy}$ or $\epsilon_{ij} \neq 0$ with $i \neq j$) can mix hh states $J_z = \pm \frac{3}{2}$ and lh states $J_z = \mp \frac{1}{2}$. Such a mixing, called Valence Band Mixing (VBM) can also occur through the Luttinger hamltonian in an anisotropic dot ($L_x \neq L_y$), but it would be weaker than the one occurring through Bir-Pikus hamiltonian.
+	However, we saw in Sec.~\ref{e-hIntQD} that the hh approximation supposed neglecting lh contribution in the Luttinger hamiltonian, through the presence of biaxial strain lifting their degeneracy with hh. However, we can see in the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}) that introducing an anisotropic distribution of strain ($\varepsilon_{xx} \neq \varepsilon_{yy}$ or $\varepsilon_{ij} \neq 0$ with $i \neq j$) can mix hh states $J_z = \pm \frac{3}{2}$ and lh states $J_z = \mp \frac{1}{2}$. Such a mixing, called Valence Band Mixing (VBM) can also occur through the Luttinger hamltonian in an anisotropic dot ($L_x \neq L_y$), but it would be weaker than the one occurring through Bir-Pikus hamiltonian.
 	
-	Looking at the matrix form of the Luttinger hamiltonian in Eq.~\ref{HLMat}, we see that $\pm \frac{3}{2}$ could also be coupled to $\pm \frac{1}{2}$ through the $b$ term. However, we supposed that the wave function can be separated into a pure $z$ component and a pure $x - y$ one, meaning $\langle \chi_i (z) | k_z | \chi_j (z) \rangle = 0$ with $\chi_{(i,j)} (z)$ define in Eqs.~\ref{GSWF} and \ref{ExcWF}. This means $b$ doesn't couple envelop functions. A similar coupling parameter appear in the Bir-Pikus hamiltonian due to the shear strains $\epsilon_{zx}$ and $\epsilon_{zy}$. However, in most of the found dots, $\epsilon_{zx}$ and $\epsilon_{zy}$ is found to be negligible~\cite{YoanTh}.
+	Looking at the matrix form of the Luttinger hamiltonian in Eq.~\ref{HLMat}, we see that $\pm \frac{3}{2}$ could also be coupled to $\pm \frac{1}{2}$ through the $b$ term. However, we supposed that the wave function can be separated into a pure $z$ component and a pure $x - y$ one, meaning $\langle \chi_i (z) | k_z | \chi_j (z) \rangle = 0$ with $\chi_{(i,j)} (z)$ define in Eqs.~\ref{GSWF} and \ref{ExcWF}. This means $b$ doesn't couple envelop functions. A similar coupling parameter appear in the Bir-Pikus hamiltonian due to the shear strains $\varepsilon_{zx}$ and $\varepsilon_{zy}$. However, in most of the found dots, $\varepsilon_{zx}$ and $\varepsilon_{zy}$ is found to be negligible~\cite{YoanTh}.
 	
 	The envelop function mainly test the overlap and the energy state of the exciton. It doesn't affect light polarization. Therefore, in order to understand the effects of the VBM on the polarization of the dot emission, we can neglect them, only looking at the spin component. We also neglect the envelop function difference between hh and lh. We can then describe the coupling by redefining up and down hole spins as a superposition of $\pm \frac{3}{2}$ and $\mp \frac{1}{2}$. This lh part will be written through a phenomenological parameter $\eta \exp(2i \theta)$ with $\theta$ the direction of the strain:
 	\begin{align}
@@ -404,16 +406,16 @@ Since we are working in the hh approximation, we neglect the contribution of the
 	\end{align}
 with, in the hypothesis of a small strain-induced VBM:
 	\begin{align}
-		\eta \exp(2i \theta) = \frac{1}{\Delta_{lh}} (id\epsilon_{xy - b(\epsilon_{xx} - \epsilon_{yy}})
+		\eta \exp(2i \theta) = \frac{1}{\Delta_{lh}} (id\varepsilon_{xy} - b(\varepsilon_{xx} - \varepsilon_{yy}))
 	\end{align}
-with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\epsilon_{xx} = \epsilon_{yy} + 2\epsilon_{zz})$. However, experimentally, we can only access $\eta = \frac{E}{\Delta_{lh}}$, with $E$ the anisotropy of strain.
+with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial strain $b(\varepsilon_{xx} = \varepsilon_{yy} + 2\varepsilon_{zz})$. However, experimentally, we can only access $\eta = \frac{E}{\Delta_{lh}}$, with $E$ the anisotropy of strain.
 
 	To see the effect of the VBM on the polarization, we begin to consider the emission of an charged state, where the exchange interaction doesn't affect it. We write the polarization of the detection $\mathbf{e} = \cos (\alpha) \mathbf{e_x} + \sin (\alpha) \mathbf{e_y}$. We then can find the oscillator strength of the transition:
 	\begin{align}		
 		\begin{array}{rl}
 		\label{VBMPolar}
 			\Omega (\alpha) &\propto |\langle \uparrow | \cos(\alpha)p_X + \sin(\alpha)o_Y | \uparrow \downarrow \tilde{\Uparrow} \rangle |^2 \\
-							&= 1 + \frac{\eta^2}{3} + \frac{2}{\sqrt{3}} \eta \cos(2(\theta - \alpha))
+							&= 1 + \dfrac{\eta^2}{3} + \dfrac{2}{\sqrt{3}} \eta \cos(2(\theta - \alpha))
 		\end{array}
 	\end{align}
 There is then a dependency in linear polarization of the emission, depending on the angle between the polariser and the direction on the strain. In the experiment, no correlation where observed between the polarisation axis of the different quantum dots~\cite{VBMArticle}, as can be expected from the random strain relaxation forming the dots as presented in Chap.~\ref{Growth}.
@@ -427,9 +429,9 @@ There is then a dependency in linear polarization of the emission, depending on 
 		
 		We were interested until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atom in the crystal, namely an impurity. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom will interact with the semiconductor electrons via its localized electron on its exterior shell. For Mn and Cr, this orbital is the $d$ orbital, so it will be the one considered in the following document. From the interaction between these electron and the one in the conduction band of the semi-conductor, new properties will arise. We can easily write this interaction as an interaction type "Heisenberg". With $|S\rangle$ as the electronic spin of the magnetic impurity and, as previously, $|\sigma\rangle$ as the spin of the conduction electron, we can write:
 		\begin{align}
-			{\cal H}_{Heisenberg} = I \mathbf{\sigma}.\mathbf{S}
+			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
-with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\mathbf{\sigma}$, these writes as:
+with $I$ the interaction constant. We write $\bm{\sigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
 	\begin{align}
 		\sigma_x = \frac{\hbar}{2}
 					\begin{pmatrix}
@@ -455,18 +457,31 @@ with $I$ the interaction constant. We write $\mathbf{\sigma}$ and $\mathbf{S}$ i
 	Using Born-Oppenheimer approximation, we can write the hamiltonian for these electrons:
 	\begin{align}
 	\label{BOHamil}
-		{\cal H}_{BO} = \sum_i \left(\frac{p_i^2}{2m_c} + V_c (\mathbf{r}_i) \right) + \frac{1}{2} \sum_{i,j} \frac{e^2}{4\pi \epsilon_0 |\mathbf{r_i} - \mathbf{r_j}|}
+		{\cal H}_{BO} = \sum_i \left(\frac{p_i^2}{2m_c} + V_c (\mathbf{r}_i) \right) + \frac{1}{2} \sum_{i,j} \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r_i} - \mathbf{r_j}|}
 	\end{align}
 This first is a single particle hamiltonian, taking into account the kinetic energy of the electron and the crystal potential $V_c (\mathbf{r}_i)$ felt by the electron at the position $\mathbf{r}_i$. This potential include the impurities potential, meaning it will be different at the impurities positions than elsewhere in the semiconductor. The final term represents the Coulomb interaction between the electrons.
 
-	We can rewrite this hamiltonian using second quantification. We define the destruction (resp. creation) operator of a particle in the conduction band at the wave vector $\mathbf{k}$ and the spin $\sigma$ as $a_{\mathbf{k}, \sigma}$ (resp. $a_{\mathbf{k}, \sigma}^{\dagger}$). In the same fashion, we define the destruction (resp. creation) operator of the electronic level of an impurity as $a_{d, S}$ (resp. $a_{d, S}^{\dagger}$). The hamiltonian \ref{BOHamil} then become:
+	We can rewrite this hamiltonian using second quantification. We define the destruction (resp. creation) operator of a particle in the conduction band at the wave vector $\mathbf{k}$ and the spin $\sigma$ as $a_{\mathbf{k}, \sigma}$ (resp. $a_{\mathbf{k}, \sigma}^{\dagger}$). In the same fashion, we define the destruction (resp. creation) operator of the electronic level of an impurity as $a_{d, S}$ (resp. $a_{d, S}^{\dagger}$). Supposing the number of electron on the $d$ orbital of the magnetic atoms doesn't change, the hamiltonian \ref{BOHamil} then become:
 	\begin{align}
 			{\cal H}_{SQ} &= \sum_{\mathbf{k}, \sigma} E_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}, \sigma} + \sum_{S} E_d a_{d, S}^{\dagger} a_{d, S} + \sum_{\mathbf{k}, \mathbf{k}'} U_{\mathbf{k}, \mathbf{k}'} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}', \sigma} \nonumber \\
-								&\qquad\qquad\quad+ \sum_{\mathbf{k}, \sigma, S} M_{\mathbf{k}} (a_{\mathbf{k}, \sigma}^{\dagger} a_{d, S} + a_{d, S}^{\dagger} a_{\mathbf{k}, \sigma}) + \frac{1}{2} \sum_{i,j,k,l} V_{i,j,m,n} a_i^{\dagger} a_j^{\dagger} a_n a_m \\
+								&\qquad\qquad\quad+ \sum_{\mathbf{k}, \sigma, S} M_{\mathbf{k}} (a_{\mathbf{k}, \sigma}^{\dagger} a_{d, S} + a_{d, S}^{\dagger} a_{\mathbf{k}, \sigma}) + \frac{1}{2} \sum_{i,j,k,l} V_{i,j,m,n} a_i^{\dagger} a_j^{\dagger} a_n a_m \label{HamilSQ} \\
 						&= {\cal H}_0 + {\cal H}_d + V_d + {\cal H}_{hyb} + {\cal H}_{Coulomb} \nonumber
 	\end{align}
+The constant electron number supposition is good enough for the picture we want to draw since most of the spin-driven interaction do not induce a change of this number.
 
-	Before explaining all the term, lets focus on the two particles exchange ${\cal H}_{Coulomb}$. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either a electron of the semiconductor or of one of the impurities. We can then separate this hamiltonian in three different term depending on the value of $i$, $j$, $m$ and $n$ and illustrated in Fig.~\ref{ExchInterIllust}.
+	${\cal H}_0$ represents the energy of the unperturbed wave function of the semiconductor, with $E_k$ the energy of an electron with the wave vector $\mathbf{k}$.
+	
+	${\cal H}_d$ is the same as ${\cal H}_0$ but for an electron of the $d$ orbital of the considered magnetic impurity, with $E_d$ the energy of an electron on this orbital.
+	
+	$V_d$ represents the impurities potential, allowing the semiconductor electrons to scatter on it. However, Mn and Cr does not modify strongly the crystal potential. We can then consider that the states of the semiconductor $|\psi_k\rangle$ are also solution of the full crystal potential, including impurity, and neglect this term.
+	
+	${\cal H}_{hyb}$ mix the semiconductor states with the states of the impurities. It represents an exchange interaction between an electron of the semiconductor and one of the $d$ orbital of an impurity. It is also called the Anderson hamiltonian We can write the exchange constant as:
+	\begin{align}
+		V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_1 \Phi_d (\mathbf{r} - \mathbf{R_d})
+	\end{align}
+with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch state of both the semiconductor and the impurity, meaning it can be reduce to zero by the symmetry of such functions in some specific cases.
+
+	Let's now focus on last term, ${\cal H}_{Coulomb}$, representing the two particles exchange ${\cal H}_{Coulomb}$. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either a electron of the semiconductor or of one of the impurities. We can then separate this hamiltonian in three different term depending on the value of $i$, $j$, $m$ and $n$ and illustrated in Fig.~\ref{ExchInterIllust}.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -476,7 +491,7 @@ This first is a single particle hamiltonian, taking into account the kinetic ene
 	\label{ExchInterIllust}
 	\end{figure}
 
-	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
+	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$. The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
 	
 	We then have the case of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
 	
@@ -486,8 +501,55 @@ This first is a single particle hamiltonian, taking into account the kinetic ene
 	\begin{align}
 		K &= + \sum_{\mathbf{k}, \sigma, \sigma'} K_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{d, \sigma'}^{\dagger} a_{d, \sigma'} a_{\mathbf{k}, \sigma} \\
 		\text{with} \nonumber \\
-		K_k &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' |\psi_k (\mathbf{r})|^2 \frac{e^2}{4\pi \epsilon_0 |\mathbf{r}' - \mathbf{r}|} |\Phi_d (\mathbf{r}')|^2 \nonumber
+		K_k &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' |\psi_k (\mathbf{r})|^2 \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} |\Phi_d (\mathbf{r}')|^2 \nonumber
 	\end{align}
+It is clear that the spin $\sigma$ (resp. $\sigma'$) of the $k$ electron (resp. $d$ electron) is not changed by this interaction. Since it only induce a shift in the total energy, we can redefine the energy axis to ignore it.
+
+	In second quantification, we write the exchange interaction:
+		\begin{align}
+			J &= + \sum_{k, k', \sigma, \sigma'} I_{kk'}^{ex} a_{k', \sigma}^{\dagger} a_{d, \sigma'}^{\dagger} a_{k, \sigma'} a_{d, \sigma} = + \sum_{k, k', \sigma, \sigma'} J_{kk'} a_{k', \sigma}^{\dagger} a_{k, \sigma'} a_{d, \sigma'}^{\dagger} a_{d, \sigma} \label{sdSQ} \\
+			\text{with} \nonumber \\
+			I_{kk'}^{ex} &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' \psi_{k'}^* (\mathbf{r}) \psi_{k}^* (\mathbf{r}') \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} \Phi_{d}^* (\mathbf{r}) \Phi_{d}^* (\mathbf{r}') \label{sdConst}
+		\end{align}
+As can be sawn on Eq.~\ref{sdSQ}, this interaction exchange the spin $\sigma$ and $\sigma'$ of both electron, thus its name. However, \ref{sdConst} show that the spin interaction comes from a Coulomb interaction between two fermions.
+
+	We define:
+		\begin{align}
+			\begin{array}{rl}
+				\sigma_{kk'}^z &= a_{k, \sigma}^{\dagger} a_{k', \sigma} - a_{k, -\sigma}^{\dagger} a_{k', -\sigma} \\
+				\sigma_{kk'}^+ &= a_{k, \sigma}^{\dagger} a_{k', -\sigma} \\
+				\sigma_{kk'}^- &= a_{k, -\sigma}^{\dagger} a_{k', \sigma}
+			\end{array}
+		\end{align}
+Considering now that this interaction do not change the number of electron on the $d$ orbital of the considered magnetic atom, we can find the Kondo hamiltonian:
+	\begin{align}
+		{\cal H}_{sd} = - \sum_{k, k'} I_{kk'}^{ex} \bm{\upsigma}_{k,k'}.\mathbf{S}
+	\end{align}
+Since $J_{k,k'}$ is positive, the negative sign in front of the Kondo hamiltonian shows that the energy minimum is reached when the spins of both electron are aligned, and is therefore ferromagnetic.
+	
+	We can now write the hamiltonian \ref{HamilSQ}, detailing these new hamiltonians:
+		\begin{align}
+			{\cal H}_{SQ} &= {\cal H}_0 + {\cal H}_d + {\cal H}_{hyb} + {\cal H}_{U} + {\cal H}_{sd}
+		\end{align}
+with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d})$.
+
+	We now have two hamiltonians to model the exchange interaction between the impurities electrons and the one in the conduction band of the semiconductor: ${\cal H}_{hyb}$ and ${\cal H}_{sd}$. Schrieffer and Wolff rewrote Anderson hamiltonian in order to give a form closer to the Kondo hamiltonian:
+	\begin{align}
+			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
+			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
+			 				&= \sum_{k,k'} I_{k,k'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
+	\end{align}
+The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k,k'}^{hyb}$, presenting virtual transition to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
+
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{../FillingPicture.png}
+	\end{center}
+	\caption{Exchange interaction diagram (I.2 in Laurent thesis)}
+	\label{HybridEner}
+	\end{figure}
+
+	Doing this transformation is an important step, since we are now able to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave function, in addition to having the same formalism to write both type of exchange interactions, with just a difference in the exchange constants $I_{k,k'}^{ex}$ and $I_{k,k'}^{hyb}$.
 
 		\subsection{Mn case}
 		
@@ -504,18 +566,44 @@ This first is a single particle hamiltonian, taking into account the kinetic ene
 		\subsection{Effect of the confinement\label{ExchIntQD}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-		
-		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can the write the matrix elements:
-	\begin{align}
-		\langle e,h|{\cal H}_{exch, semicon}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + J_{eh'e'h}
-	\end{align}
-with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct exchange interaction and $J_{eh'e'h}$ the Coulomb exchange interaction.
-\newline
+	\newline
 
-	[TO BE CONTINUED]
+	[PLACEHOLDER]
 	\newline
 		
-		In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\phi_1$ and $\phi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
+		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
+	\begin{align}
+	\label{ehExchHamil}
+		{\cal H}_{SC}^{exch} = I_{eh} \mathbf{J}.\bm{\upsigma}
+	\end{align}
+The matrix elements being:
+	\begin{align}
+		\langle e,h|{\cal H}_{SC}^{exch}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + J_{eh'e'h}
+	\end{align}
+with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct exchange interaction and $J_{eh'e'h}$ the Coulomb exchange interaction.
+	\newline
+
+	[PLACEHOLDER]
+	\newline
+	
+	Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil}:
+	\begin{align}
+		\begin{array}{rll}
+			{\cal H}_{SC}^{exch} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
+										& &+ \dfrac{\delta_2}{2}\left(\exp (2i\varphi_1)j_+ \sigma_+ + \exp (-2i\varphi_1)j_- \sigma_- \right)
+		\end{array}
+	\end{align}
+with $\delta_0$ representing the splitting between dark and bright exciton, $\delta_1$ the splitting between the bright exciton states and $\delta_2$ the splitting between the dark exciton states.
+	\newline
+
+	[PLACEHOLDER]
+	\newline
+
+	In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\varphi_1$ and $\varphi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
+	\newline
+
+	[PLACEHOLDER]
+	\newline
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.	
 
