@@ -1,34 +1,34 @@
 [3] Config.pm:318> INFO - This is Biber 1.8
 [4] Config.pm:321> INFO - Logfile is 'Thesis.blg'
-[310] biber:275> INFO - === jeu. mai 18, 2017, 23:20:15
-[311] Biber.pm:333> INFO - Reading 'Thesis.bcf'
-[616] Biber.pm:630> INFO - Found 49 citekeys in bib section 0
-[702] Biber.pm:3053> INFO - Processing section 0
-[781] Biber.pm:3190> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
-[801] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[837] bibtex.pm:808> INFO - Found BibTeX data source 'Bibliography.bib'
-[846] Utils.pm:169> WARN - Duplicate entry key: 'DELum' in file 'Bibliography.bib', skipping ...
-[1380] Utils.pm:169> WARN - I didn't find a database entry for 'VBM' (section 0)
-[1381] Utils.pm:169> WARN - I didn't find a database entry for '??' (section 0)
-[1412] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
-[1414] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
-[1417] Utils.pm:169> WARN - The field 'note' in entry 'ExchSplitInteratomic' cannot be null, deleting it
-[1418] Utils.pm:169> WARN - The field 'note' in entry 'FirstMBE' cannot be null, deleting it
-[1419] Utils.pm:169> WARN - The field 'number' in entry 'FirstMBE' cannot be null, deleting it
-[1420] Utils.pm:169> WARN - The field 'eid' in entry 'HMarALE' cannot be null, deleting it
-[1421] Utils.pm:169> WARN - The field 'note' in entry 'FirstRHEED' cannot be null, deleting it
-[1422] Utils.pm:169> WARN - The field 'note' in entry 'WoodRHEED' cannot be null, deleting it
-[1423] Utils.pm:169> WARN - The field 'eid' in entry 'TeEffect' cannot be null, deleting it
-[1424] Utils.pm:169> WARN - The field 'eid' in entry 'ChangZnTe' cannot be null, deleting it
-[1425] Utils.pm:169> WARN - The field 'eid' in entry 'TinjodMBE' cannot be null, deleting it
-[1426] Utils.pm:169> WARN - The field 'note' in entry 'WojnarMBE' cannot be null, deleting it
-[1426] Utils.pm:169> WARN - The field 'note' in entry 'StrainRelaxCdTeGaAs111' cannot be null, deleting it
-[1427] Utils.pm:169> WARN - The field 'eid' in entry 'StrainRelaxCdTeGaAs100' cannot be null, deleting it
-[1428] Utils.pm:169> WARN - The field 'eid' in entry 'CritThickCdTeZnTe' cannot be null, deleting it
-[1429] Utils.pm:169> WARN - The field 'note' in entry 'CritThickCdTeCdZnTe' cannot be null, deleting it
-[1716] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1717] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[1717] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[2105] bbl.pm:482> INFO - Writing 'Thesis.bbl' with encoding 'UTF-8'
-[2136] bbl.pm:555> INFO - Output to Thesis.bbl
-[2137] Biber.pm:105> INFO - WARNINGS: 19
+[383] biber:275> INFO - === ven. mai 19, 2017, 23:57:31
+[384] Biber.pm:333> INFO - Reading 'Thesis.bcf'
+[758] Biber.pm:630> INFO - Found 49 citekeys in bib section 0
+[831] Biber.pm:3053> INFO - Processing section 0
+[907] Biber.pm:3190> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[931] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[965] bibtex.pm:808> INFO - Found BibTeX data source 'Bibliography.bib'
+[975] Utils.pm:169> WARN - Duplicate entry key: 'DELum' in file 'Bibliography.bib', skipping ...
+[1447] Utils.pm:169> WARN - I didn't find a database entry for 'VBM' (section 0)
+[1448] Utils.pm:169> WARN - I didn't find a database entry for '??' (section 0)
+[1481] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
+[1483] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
+[1485] Utils.pm:169> WARN - The field 'note' in entry 'ExchSplitInteratomic' cannot be null, deleting it
+[1486] Utils.pm:169> WARN - The field 'note' in entry 'FirstMBE' cannot be null, deleting it
+[1486] Utils.pm:169> WARN - The field 'number' in entry 'FirstMBE' cannot be null, deleting it
+[1487] Utils.pm:169> WARN - The field 'eid' in entry 'HMarALE' cannot be null, deleting it
+[1488] Utils.pm:169> WARN - The field 'note' in entry 'FirstRHEED' cannot be null, deleting it
+[1489] Utils.pm:169> WARN - The field 'note' in entry 'WoodRHEED' cannot be null, deleting it
+[1490] Utils.pm:169> WARN - The field 'eid' in entry 'TeEffect' cannot be null, deleting it
+[1491] Utils.pm:169> WARN - The field 'eid' in entry 'ChangZnTe' cannot be null, deleting it
+[1492] Utils.pm:169> WARN - The field 'eid' in entry 'TinjodMBE' cannot be null, deleting it
+[1493] Utils.pm:169> WARN - The field 'note' in entry 'WojnarMBE' cannot be null, deleting it
+[1493] Utils.pm:169> WARN - The field 'note' in entry 'StrainRelaxCdTeGaAs111' cannot be null, deleting it
+[1494] Utils.pm:169> WARN - The field 'eid' in entry 'StrainRelaxCdTeGaAs100' cannot be null, deleting it
+[1496] Utils.pm:169> WARN - The field 'eid' in entry 'CritThickCdTeZnTe' cannot be null, deleting it
+[1497] Utils.pm:169> WARN - The field 'note' in entry 'CritThickCdTeCdZnTe' cannot be null, deleting it
+[1849] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1850] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1851] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[2354] bbl.pm:482> INFO - Writing 'Thesis.bbl' with encoding 'UTF-8'
+[2393] bbl.pm:555> INFO - Output to Thesis.bbl
+[2394] Biber.pm:105> INFO - WARNINGS: 19
