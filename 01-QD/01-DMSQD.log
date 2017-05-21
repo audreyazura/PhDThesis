@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  19 MAY 2017 23:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  22 MAY 2017 05:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,120 +976,117 @@ Package pdftex.def Info: ../FillingPicture.png used on input line 488.
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 546.
+Package pdftex.def Info: ../FillingPicture.png used on input line 550.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--573
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 621--624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--585
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 586--588
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--598
+Underfull \hbox (badness 10000) in paragraph at lines 634--637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--604
+Underfull \hbox (badness 10000) in paragraph at lines 641--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--607
+Underfull \hbox (badness 10000) in paragraph at lines 644--646
 
  []
 
-
-Overfull \hbox (5.97437pt too wide) in paragraph at lines 611--611
+[24]
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 650--650
 []\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
  []
 
 File: ../FillingPicture.png Graphic file (type png)
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 617.
+Package pdftex.def Info: ../FillingPicture.png used on input line 656.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 625--627
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
 
  []
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 632.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24]
-File: ../FillingPicture.png Graphic file (type png)
- <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 646.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../FillingPicture.png Graphic file (type png)
-<use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 654.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 664.
+Package pdftex.def Info: ../FillingPicture.png used on input line 671.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
  [26]
 File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 672.
-(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- [27]
-File: ../FillingPicture.png Graphic file (type png)
-
-<use ../FillingPicture.png>
 Package pdftex.def Info: ../FillingPicture.png used on input line 685.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 File: ../FillingPicture.png Graphic file (type png)
+
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 693.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [27]
+File: ../FillingPicture.png Graphic file (type png)
  <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 695.
+Package pdftex.def Info: ../FillingPicture.png used on input line 703.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: ../FillingPicture.png Graphic file (type png)
+
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 711.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../FillingPicture.png Graphic file (type png)
+<use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 724.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28] [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 704.
- [30
+File: ../FillingPicture.png Graphic file (type png)
+ <use ../FillingPicture.png>
+Package pdftex.def Info: ../FillingPicture.png used on input line 734.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 743.
+ [31
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 704.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 743.
  (./01-DMSQD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 704.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 704.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 743.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 743.
 Package rerunfilecheck Info: File `01-DMSQD.out' has not changed.
 (rerunfilecheck)             Checksum: DC1A9F62B8A5DEA4AC6C8B13104A5510;1265.
 
@@ -1102,16 +1099,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to '01-DMSQD.run.xml'.
 \openout1 = `01-DMSQD.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 704.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 743.
  ) 
 Here is how much of TeX's memory you used:
- 13073 strings out of 494958
- 201539 string characters out of 6179214
- 638557 words of memory out of 5000000
- 15967 multiletter control sequences out of 15000+600000
+ 13083 strings out of 494958
+ 201671 string characters out of 6179214
+ 638645 words of memory out of 5000000
+ 15968 multiletter control sequences out of 15000+600000
  19890 words of font info for 52 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,16n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
 home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/
 audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audre
@@ -1124,18 +1121,17 @@ pe1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/euler/eurb10.pfb>
-Output written on 01-DMSQD.pdf (30 pages, 553662 bytes).
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/euler/eurb10.pfb>
+Output written on 01-DMSQD.pdf (31 pages, 551001 bytes).
 PDF statistics:
- 696 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 145 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

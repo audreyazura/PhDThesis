@@ -45,7 +45,7 @@
 	
 	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2N valence electron. 6N will be taken to fill the three higher energy bonding band, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the electron available are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band are formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
 
-	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone, two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
+	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -431,7 +431,7 @@ There is then a dependency in linear polarization of the emission, depending on 
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
-with $I$ the interaction constant. We write $\bm{\sigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
+with $I$ the interaction constant. We write $\bm{\upsigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
 	\begin{align}
 		\sigma_x = \frac{\hbar}{2}
 					\begin{pmatrix}
@@ -491,7 +491,11 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	\label{ExchInterIllust}
 	\end{figure}
 
-	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$. The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
+	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$:
+	\begin{align}
+	V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d}) \label{Vkd}
+	\end{align}
+The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
 	
 	We then have the case of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
 	
@@ -537,9 +541,9 @@ with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf
 	\begin{align}
 			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
-			 				&= \sum_{k,k'} I_{k,k'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
+			 				&= \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
 	\end{align}
-The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k,k'}^{hyb}$, presenting virtual transition to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
+The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{kk'}^{hyb}$, presenting virtual transition to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -549,7 +553,42 @@ The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k
 	\label{HybridEner}
 	\end{figure}
 
-	Doing this transformation is an important step, since we are now able to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave function, in addition to having the same formalism to write both type of exchange interactions, with just a difference in the exchange constants $I_{k,k'}^{ex}$ and $I_{k,k'}^{hyb}$.
+	Doing this transformation is an important step, since we are now able to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave function, in addition to having the same formalism to write both type of exchange interactions, with just a difference in the exchange constants $I_{kk'}^{ex}$ and $I_{kk'}^{hyb}$.
+
+	Supposing the coupling occur between two electrons with a close $k$ ($k \simeq k'$), we can rewrite $I_{kk'}^{hyb}$ as:
+	\begin{align}
+		\begin{array}{rl}
+			I_{kk'}^{hyb} &= 2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_k - (E_d + U)} \\
+						&= -2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_d + U - E_k}
+		\end{array}
+	\end{align}
+Looking ath the Fig.~\ref{HybridEner}, one can see that $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$. Thus, $I_{kk'}^{hyb}$ is negative, and we see that, while exchange lead to a ferromagnetic coupling, hybridization lead to an anti-ferromagnetic one. Their will be a competition in the semiconductor between these two for every type of carrier.
+
+	Reusing the hypothesis done on Sec.~\ref{BandStruct} of small $k$ value, and the value of $V_{kd}$ presented in Eq.~\ref{Vkd}, we can rewrite the exchange constant:
+	\begin{align}
+		I_{00, \{c,v\}}^{hyb} = -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) \int \mathrm{d}\mathbf{r} \Phi_r^* (\mathbf{r}) H_{HF} \psi_0^{\{c,v\}} \\
+		I_{00, \{c,v\}}^{ex} = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|\psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d} (\mathbf{r})
+	\end{align}
+In the valence band, the semiconductor have the $p$ symmetry, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
+	\begin{align}
+		I_{pd} =I_{00, v}^{hyb} +  I_{00, v}^{ex}
+	\end{align}
+In the conduction band, the orbital are $s$, and so we will write the interaction $I_{sd}$. However, since $s$ orbital have a spherical symmetry, there is no hybridization contribution. The expression is then pretty easy:
+	\begin{align}
+		I_{sd} = I_{00, c}^{ex}
+	\end{align}
+
+	Having define those, we can now rewrite the Hamiltonian of the interaction with one magnetic atom in the Heisenberg notation:
+	\begin{align}
+		{\cal H}_{SQ} = {\cal H}_0 + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
+	\end{align}
+Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing on their position. We finally get:
+	\begin{align}
+		\begin{array}{rlcccc}
+			{\cal H}_{DMS} &= {\cal H}_0 &+& \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i &+& \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i \\
+							&= {\cal H}_0 &+& {\cal H}_{sd} &+& {\cal H}_{pd}
+		\end{array}
+	\end{align}
 
 		\subsection{Mn case}
 		
