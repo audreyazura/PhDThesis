@@ -46,7 +46,7 @@
 	
 	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2N valence electron. 6N will be taken to fill the three higher energy bonding band, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the electron available are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band are formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
 
-	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone, two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
+	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -432,7 +432,7 @@ There is then a dependency in linear polarization of the emission, depending on 
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
-with $I$ the interaction constant. We write $\bm{\sigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
+with $I$ the interaction constant. We write $\bm{\upsigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
 	\begin{align}
 		\sigma_x = \frac{\hbar}{2}
 					\begin{pmatrix}
@@ -492,7 +492,11 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	\label{ExchInterIllust}
 	\end{figure}
 
-	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$. The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
+	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$:
+	\begin{align}
+	V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d}) \label{Vkd}
+	\end{align}
+The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
 	
 	We then have the case of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
 	
@@ -538,9 +542,9 @@ with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf
 	\begin{align}
 			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
-			 				&= \sum_{k,k'} I_{k,k'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
+			 				&= \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
 	\end{align}
-The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k,k'}^{hyb}$, presenting virtual transition to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
+The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{kk'}^{hyb}$, presenting virtual transition to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -550,15 +554,66 @@ The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k
 	\label{HybridEner}
 	\end{figure}
 
-	Doing this transformation is an important step, since we are now able to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave function, in addition to having the same formalism to write both type of exchange interactions, with just a difference in the exchange constants $I_{k,k'}^{ex}$ and $I_{k,k'}^{hyb}$.
+	Doing this transformation is an important step, since we are now able to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave function, in addition to having the same formalism to write both type of exchange interactions, with just a difference in the exchange constants $I_{kk'}^{ex}$ and $I_{kk'}^{hyb}$.
+
+	Supposing the coupling occur between two electrons with a close $k$ ($k \simeq k'$), we can rewrite $I_{kk'}^{hyb}$ as:
+	\begin{align}
+		\begin{array}{rl}
+			I_{kk'}^{hyb} &= 2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_k - (E_d + U)} \\
+						&= -2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_d + U - E_k}
+		\end{array}
+	\end{align}
+Looking ath the Fig.~\ref{HybridEner}, one can see that $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$. Thus, $I_{kk'}^{hyb}$ is negative, and we see that, while exchange lead to a ferromagnetic coupling, hybridization lead to an anti-ferromagnetic one. Their will be a competition in the semiconductor between these two for every type of carrier.
+
+	Reusing the hypothesis done on Sec.~\ref{BandStruct} of small $k$ value, and the value of $V_{kd}$ presented in Eq.~\ref{Vkd}, we can rewrite the exchange constant:
+	\begin{align}
+		I_{00, \{c,v\}}^{hyb} = -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) \int \mathrm{d}\mathbf{r} \Phi_r^* (\mathbf{r}) H_{HF} \psi_0^{\{c,v\}} \\
+		I_{00, \{c,v\}}^{ex} = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|\psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d} (\mathbf{r})
+	\end{align}
+In the valence band, the semiconductor have the $p$ symmetry, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
+	\begin{align}
+		I_{pd} =I_{00, v}^{hyb} +  I_{00, v}^{ex}
+	\end{align}
+In the conduction band, the orbital are $s$, and so we will write the interaction $I_{sd}$. However, since $s$ orbital have a spherical symmetry, there is no hybridization contribution. The expression is then pretty easy:
+	\begin{align}
+		I_{sd} = I_{00, c}^{ex}
+	\end{align}
+
+	Having define those, we can now rewrite the Hamiltonian of the interaction with one magnetic atom in the Heisenberg notation:
+	\begin{align}
+		{\cal H}_{SQ} = {\cal H}_0 + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
+	\end{align}
+Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing on their position. We finally get:
+	\begin{align}
+	\label{HDMS}
+		\begin{array}{rlcccc}
+			{\cal H}_{DMS} &= {\cal H}_0 &+& \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i &+& \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i \\
+							&= {\cal H}_0 &+& {\cal H}_{sd} &+& {\cal H}_{pd}
+		\end{array}
+	\end{align}
 
 		\subsection{Mn case}
 		
+		For the Mn, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hMn}$ and $I_{sd}$ in the conduction band as $I_{eMn}$, since we look at the interaction between an exciton and the Manganese atom. The hamiltonian \ref{HDMS} is the rewrited:
+		\begin{align}
+		\label{HMnDMS}
+			{\cal H}_{DMS, Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
+		\end{align}
+
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 		\subsection{Cr case\label{CrDMS}}
+		
+		For the Cr, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hCr}$ and $I_{sd}$ in the conduction band as $I_{eCr}$, since we look at the interaction between an exciton and the Chromium atom. The hamiltonian \ref{HDMS} is the rewrited:
+		\begin{align}
+		\label{HCrDMS}
+			\begin{array}{rlcc}
+				{\cal H}_{DMS, Cr} &= {\cal H}_0 &+& {\cal H}_{eCr} + {\cal H}_{hCr} \\
+								&= {\cal H}_0 &+& {\cal H}_{c-Cr}
+			\end{array}
+		\end{align}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 
@@ -589,8 +644,9 @@ with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ th
 	
 	Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil}:
 	\begin{align}
+	\label{Heh}
 		\begin{array}{rll}
-			{\cal H}_{SC}^{exch} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
+			{\cal H}_{e-h}^{exch} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
 										& &+ \dfrac{\delta_2}{2}\left(\exp (2i\varphi_1)j_+ \sigma_+ + \exp (-2i\varphi_1)j_- \sigma_- \right)
 		\end{array}
 	\end{align}
@@ -1234,7 +1290,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 		
 		To illustrate the influence of the QD symmetry on the magneto-optical properties of X-Cr, we show in Fig.~\ref{CrMagOptLowSym}(b) the emission of a QD with a different strain state (QD4). For QD3, the splitting of the central peak is not clear in the PL at 0T (Fig.~\ref{SpectraX}(a)) without the linear polarization map, while two linearly polarized peaks appears clearly in QD4 spectra. This difference in emission arise from a difference in the in-plane strain of each QD~\cite{SplitInvTh}. The dark exciton emission is also stronger in QD2, confirming a lower symmetry than QD3.
 		
-		Investigating both the biexciton and the exciton in the same Cr-doped QD, we can also analyze the impact of the carrier-Cr interaction on the fine structure of the Cr spin. The magnetic field dependency of X$^2$-Cr emission in QD2 is presented along with the X-Cr emission as a contour plot in Fig.~\ref{CrMagOptLowSym}(a) and (b) respectively. The PL under magnetic field of X-Cr and X$^2$-Cr present a mirror symmetry. In particular, the dark/bright exciton mixing observed around B$_z$=2.5T on the low energy side of the PL in $\sigma-$ polarization for X-Cr is observed on the high energy side in $\sigma+$ polarization for X$^2$-Cr (circles in Fig.~\ref{CrMagOptLowSym}(a) and (b)).
+		Investigating both the biexciton and the exciton in the same Cr-doped QD, we can also analyze the impact of the carrier-Cr interaction on the fine structure of the Cr spin. The magnetic field dependency of X$^2$-Cr emission in QD2 is presented along with the X-Cr emission as a contour plot in Fig.~\ref{CrMagOptLowSym}(a) and (b) respectively. The PL under magnetic field of X-Cr and X$^2$-Cr present a mirror symmetry. In particular, the dark/bright exciton mixing observed around $B_z$=2.5T on the low energy side of the PL in $\sigma-$ polarization for X-Cr is observed on the high energy side in $\sigma+$ polarization for X$^2$-Cr (circles in Fig.~\ref{CrMagOptLowSym}(a) and (b)).
 		
 		If one consider the ground state of X$^2$ as a spin-singlet (total spin 0), it cannot be split by the magnetic field or the spin interaction part of the carriers-Cr Hamiltonian. The creation of two excitons in the QD cancels the exchange interaction with the Cr atom. Thus, the PL of  X$^2$-Cr is controlled by the final state of the optical transitions, i.e. the eigenstates of X-Cr, resulting in the observed mirror symmetry in the PL spectra. However, in some of the QDs, the X$^2$-Cr emission slightly deviates from this simple picture: a smaller energy splitting is observed for X$^2$-Cr compared to X-Cr (see X-Cr and X$^2$-Cr in Fig.~\ref{CrMagOptLowSym}). This shows that there is an interaction of X$^2$ with the Cr atom. It could result from a perturbation of the carriers' wave function by the interaction with the magnetic atom~\cite{CarInSpinSplit,BiexFinStruct} or a modification the local electric field which controls the Cr fine structure. [TO BE INVESTIGATED]
 		
@@ -1244,7 +1300,7 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\begin{center}
 		\includegraphics[width=10cm]{04-CrMagOpt/Pictures/SimulMagOptv2.png}
 	\end{center}
-	\caption{(a) Up: Calculated linear polarization PL intensity map of X-Cr at zero field. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the $100$ axis. Down: Calculated X-Cr circularly polarized magnetic field dependency. Details of the model and parameters are listed in Tab.~\ref{CrModelParam}. Corresponding anti-crossing are highlighted in same fashion as on Fig.~\ref{CrMagOptExp}. (b) Schema of the magnetic field dependency of the energy levels of the low energy Cr spin states S$_z$=0 and S$_z$=$\pm$1, and corresponding bright ($|+1\rangle$ blue, $|-1\rangle$ red) and dark ($|\pm2\rangle$ green) X-Cr energy levels.}
+	\caption{(a) Up: Calculated linear polarization PL intensity map of X-Cr at zero field. The 0$^{\circ}$ polarization angle correspond to an emission polarized along the $100$ axis. Down: Calculated X-Cr circularly polarized magnetic field dependency. Details of the model and parameters are listed in Tab.~\ref{CrModelParam}. Corresponding anti-crossing are highlighted in same fashion as on Fig.~\ref{CrMagOptExp}. (b) Schema of the magnetic field dependency of the energy levels of the low energy Cr spin states $S_z$=0 and $S_z$=$\pm$1, and corresponding bright ($|+1\rangle$ blue, $|-1\rangle$ red) and dark ($|\pm2\rangle$ green) X-Cr energy levels.}
 	\label{CrMagOptMod}
 	\end{figure}
 	
@@ -1255,20 +1311,20 @@ with $\vec{\sigma}$ the electron spin and J$_z$ the hole spin operator. I$_{eCr}
 	\end{align}
 where:
 
-${\cal H}_{Cr,\varepsilon}$ describes the fine structure of the Cr atom and its dependency on local strain, as presented in Eq.~\ref{Cralone}. It is mainly drived by D$_0$, the magnetic anisotropy. E, the in-plane strains, also appears in this Hamiltonian, but have to be kept small in order to model the found dots (see Fig.~\ref{CrHighE} for the emission of a dot with a higher E).
+${\cal H}_{Cr,\varepsilon}$ describes the fine structure of the Cr atom and its dependency on local strain, as presented in Eq.~\ref{Cralone}. It is mainly drived by $D_0$, the magnetic anisotropy. E, the in-plane strains, also appears in this Hamiltonian, but have to be kept small in order to model the found dots (see Fig.~\ref{CrHighE} for the emission of a dot with a higher E).
 
-${\cal H}_{c-Cr}$ describes the coupling of the electron and hole with the Cr spin, depending on I$_{eCr}$, the exchange integral of the electron-Cr spins, and I$_{hCr}$, the exchange integral of the hole-Cr spins, as described in Eq.~\ref{HcCr}.
+${\cal H}_{c-Cr}$ describes the coupling of the electron and hole with the Cr spin, depending on $I_{eCr}$, the exchange integral of the electron-Cr spins, and $I_{hCr}$, the exchange integral of the hole-Cr spins, as described in Eq.~\ref{HCrDMS}.
 
-${\cal H}_{mag}$ describes the effect of an exterior magnetic field, coupled to both the Cr and carrier spins by the Zeeman terms, depending on the $g$-factor of each of them, and including the diamagnetic shift of the electron-hole  via the term $\gamma$.
+${\cal H}_{mag}$ describes the effect of an exterior magnetic field, coupled to both the Cr and carrier spins by the Zeeman terms, depending on the $g$-factor of each of them and the Bohr magneton $\mu_B$, and including the diamagnetic shift of the electron-hole via the term $\gamma$.
 \begin{align}
 	{\cal H}_{mag} = g_{Cr}\mu_B\overrightarrow{B}.\overrightarrow{S}+g_{e}\mu_B\overrightarrow{B}.\overrightarrow{\sigma}+g_{h}\mu_B\overrightarrow{B}.\overrightarrow{J}+\gamma B^2
 \end{align}
 
-${\cal H}_{e-h}$ describes the short range and long range electron-hole interaction, through the bright and dark exciton splitting $\delta_0$, the bright exciton coupling $\delta_1$, the dark exciton coupling $\delta_2$ and the bright and dark exciton coupling $\delta_{11}$ and $\delta_{12}$. All of these term are described in Eq~\ref{Ieh}.
+${\cal H}_{e-h}$ describes the short range and long range electron-hole interaction, through the bright and dark exciton splitting $\delta_0$, the bright exciton coupling $\delta_1$, the dark exciton coupling $\delta_2$ and the bright and dark exciton coupling $\delta_{11}$ and $\delta_{12}$. All of these term are described in Eq~\ref{Heh}.
 
-${\cal H}_{band}$, the band Hamiltonian, presented in Eq.~\ref{HBand}, stands for the energy of the electrons (i.e. the band gap energy E$_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, and the anisotropy of the QD.
+${\cal H}_{band}$, the band Hamiltonian, presented in Eq.~\ref{HBand}, stands for the energy of the electrons (i.e. the band gap energy $E_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, and the anisotropy of the QD.
 
-${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton in the initial state of the optical transition by the hole-Cr exchange interaction, controlled by the parameter $\eta$. This perturbation depends on the value of the exchange energy between the Cr spin S$_z$  and the hole spin J$_z$ and can be represented, using second order perturbation theory, by an effective spin Hamiltonian \cite{CarInSpinSplit,BiexFinStruct,DynhMn}
+${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton in the initial state of the optical transition by the hole-Cr exchange interaction, controlled by the parameter $\eta$. This perturbation depends on the value of the exchange energy between the Cr spin $S_z$  and the hole spin $J_z$ and can be represented, using second order perturbation theory, by an effective spin Hamiltonian \cite{CarInSpinSplit,BiexFinStruct,DynhMn}
 \begin{align}
 {\cal H}_{scat}=-\eta S_z^2
 \end{align}
