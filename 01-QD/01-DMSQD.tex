@@ -584,19 +584,40 @@ In the conduction band, the orbital are $s$, and so we will write the interactio
 	\end{align}
 Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing on their position. We finally get:
 	\begin{align}
+	\label{HDMS}
 		\begin{array}{rlcccc}
 			{\cal H}_{DMS} &= {\cal H}_0 &+& \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i &+& \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i \\
 							&= {\cal H}_0 &+& {\cal H}_{sd} &+& {\cal H}_{pd}
 		\end{array}
 	\end{align}
+Under magnetic field, we have to add the Zeeman term to the hamiltonian. It depends on the Land\'e factor of conduction electron $g_e$ and the Bohr magneton $\mu_B$. For a magnetic field along the $z$ axis, the hamiltonian then write:
+	\begin{align}
+	\label{HDMSB}
+		{\cal H}_{DMS} &= {\cal H}_0 + g_e \mu_B \sigma_z B_z + \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i + \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i
+	\end{align}
 
 		\subsection{Mn case}
 		
+		For the Mn, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hMn}$ and $I_{sd}$ in the conduction band as $I_{eMn}$, since we look at the interaction between an exciton and the Manganese atom. The hamiltonian \ref{HDMS} is the rewrited:
+		\begin{align}
+		\label{HMnDMS}
+			{\cal H}_{DMS, Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
+		\end{align}
+
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 		\subsection{Cr case\label{CrDMS}}
+		
+		For the Cr, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hCr}$ and $I_{sd}$ in the conduction band as $I_{eCr}$, since we look at the interaction between an exciton and the Chromium atom. The hamiltonian \ref{HDMS} is the rewrited:
+		\begin{align}
+		\label{HCrDMS}
+			\begin{array}{rlcc}
+				{\cal H}_{DMS, Cr} &= {\cal H}_0 &+& {\cal H}_{eCr} + {\cal H}_{hCr} \\
+								&= {\cal H}_0 &+& {\cal H}_{c-Cr}
+			\end{array}
+		\end{align}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 
