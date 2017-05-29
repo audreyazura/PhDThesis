@@ -1,0 +1,646 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{none}
+    \entry{EPRCr}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=6d697423e56cbe4e34e70b4897121025}{Vallin}{V\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=c10ea9881320fb3ca8fce8ef9176873b}{Watkins}{W\bibinitperiod}{G.\bibnamedelimi D.}{G\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6d697423e56cbe4e34e70b4897121025}{Vallin}{V\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=c10ea9881320fb3ca8fce8ef9176873b}{Watkins}{W\bibinitperiod}{G.\bibnamedelimi D.}{G\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{86301720154d4d23a0cbd5baed95171c}
+      \strng{fullhash}{86301720154d4d23a0cbd5baed95171c}
+      \field{sortinit}{0}
+      \field{labeltitle}{EPR of {${Cr}^{2+}$} in {II-VI} lattices}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{03}
+      \field{title}{EPR of {${Cr}^{2+}$} in {II-VI} lattices}
+      \field{volume}{9}
+      \field{year}{1974}
+      \field{pages}{2051\bibrangedash 2072}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.9.2051
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.9.2051
+      \endverb
+    \endentry
+    \entry{DMSCrExchInt}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=5dbe1ceb5b4cdde81fba9388dcf10785}{Mac}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5d3e6e4a8b3aeb9dbb5f5a5e21372912}{Twardowski}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fdc9a67ddef0fa1981515e90e7c40754}{Demianiuk}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=5dbe1ceb5b4cdde81fba9388dcf10785}{Mac}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5d3e6e4a8b3aeb9dbb5f5a5e21372912}{Twardowski}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fdc9a67ddef0fa1981515e90e7c40754}{Demianiuk}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d30f020f8a883eba0c4c6ac8904f239c}
+      \strng{fullhash}{12752cbf0f2367ac72758fc928b28dac}
+      \field{sortinit}{0}
+      \field{labeltitle}{s,p-d exchange interaction in {Cr}-based diluted magnetic semiconductors}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{08}
+      \field{title}{s,p-d exchange interaction in {Cr}-based diluted magnetic semiconductors}
+      \field{volume}{54}
+      \field{year}{1996}
+      \field{pages}{5528\bibrangedash 5535}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.54.5528
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.54.5528
+      \endverb
+    \endentry
+    \entry{CdCrSExchInt}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=91b7869dc5bda4ec1fc3ad97e760d83d}{Herbich}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5dbe1ceb5b4cdde81fba9388dcf10785}{Mac}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5d3e6e4a8b3aeb9dbb5f5a5e21372912}{Twardowski}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1026158de2cf131956ae22c8169ff1c5}{Ando}{A\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=0918390b40bc2b46a82d6642ae4a1e2e}{Shapira}{S\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=fdc9a67ddef0fa1981515e90e7c40754}{Demianiuk}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=91b7869dc5bda4ec1fc3ad97e760d83d}{Herbich}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5dbe1ceb5b4cdde81fba9388dcf10785}{Mac}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=5d3e6e4a8b3aeb9dbb5f5a5e21372912}{Twardowski}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1026158de2cf131956ae22c8169ff1c5}{Ando}{A\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=0918390b40bc2b46a82d6642ae4a1e2e}{Shapira}{S\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=fdc9a67ddef0fa1981515e90e7c40754}{Demianiuk}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dfc3b0a1206c00f81cda654d1c4df913}
+      \strng{fullhash}{2fb62e912eeaed851152ef082aeb6207}
+      \field{sortinit}{0}
+      \field{labeltitle}{Magnetization and exciton spectroscopy of the diluted magnetic semiconductor {${Cd}_{1-x}{Cr}_{x}{S}$}}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{07}
+      \field{title}{Magnetization and exciton spectroscopy of the diluted magnetic semiconductor {${Cd}_{1-x}{Cr}_{x}{S}$}}
+      \field{volume}{58}
+      \field{year}{1998}
+      \field{pages}{1912\bibrangedash 1921}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.58.1912
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.58.1912
+      \endverb
+    \endentry
+    \entry{SplitInvTh}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=114e887d344940cf2db833e7cade45c9}{Takagahara}{T\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=114e887d344940cf2db833e7cade45c9}{Takagahara}{T\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{114e887d344940cf2db833e7cade45c9}
+      \strng{fullhash}{114e887d344940cf2db833e7cade45c9}
+      \field{sortinit}{0}
+      \field{labeltitle}{Theory of exciton doublet structures and polarization relaxation in single quantum dots}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Theory of exciton doublet structures and polarization relaxation in single quantum dots}
+      \field{volume}{62}
+      \field{year}{2000}
+      \field{pages}{16840\bibrangedash 16855}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.62.16840
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.62.16840
+      \endverb
+    \endentry
+    \entry{DELongLifetime}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=89227d75dedccafd4a1c67d6f484ac6d}{McFarlane}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2db927546ff2c3b03ac563cb5921bf65}{Dalgarno}{D\bibinitperiod}{P.\bibnamedelimi A.}{P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=390bfbe921df72951e004152f3c27895}{Gerardot}{G\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e4d04326e9a7419199eeb55eea3dc29e}{Hadfield}{H\bibinitperiod}{R.\bibnamedelimi H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=925a1461612876a6e31eea8f50944a01}{Warburton}{W\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=ff2c41f8e0cd4bc25440032a250d3514}{Karrai}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=cea5e11b2e2bd73aed95da4d7ee0df8a}{Badolato}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd373af92b906d4c997fe26e9188be19}{Petroff}{P\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=89227d75dedccafd4a1c67d6f484ac6d}{McFarlane}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2db927546ff2c3b03ac563cb5921bf65}{Dalgarno}{D\bibinitperiod}{P.\bibnamedelimi A.}{P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=390bfbe921df72951e004152f3c27895}{Gerardot}{G\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e4d04326e9a7419199eeb55eea3dc29e}{Hadfield}{H\bibinitperiod}{R.\bibnamedelimi H.}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=925a1461612876a6e31eea8f50944a01}{Warburton}{W\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=ff2c41f8e0cd4bc25440032a250d3514}{Karrai}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=cea5e11b2e2bd73aed95da4d7ee0df8a}{Badolato}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd373af92b906d4c997fe26e9188be19}{Petroff}{P\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{89397f858aa4a312ba0a61ee29e38d91}
+      \strng{fullhash}{2820335972c404e8bd4405a30a941221}
+      \field{sortinit}{0}
+      \field{labeltitle}{Gigahertz bandwidth electrical control over a dark exciton-based memory bit in a single quantum dot}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{9}
+      \field{title}{Gigahertz bandwidth electrical control over a dark exciton-based memory bit in a single quantum dot}
+      \field{volume}{94}
+      \field{year}{2009}
+      \field{pages}{093113}
+      \verb{doi}
+      \verb 10.1063/1.3086461
+      \endverb
+      \verb{eprint}
+      \verb http://dx.doi.org/10.1063/1.3086461
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.3086461
+      \endverb
+    \endentry
+    \entry{DELum}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9d01fba456a716f5a892a640e121b0ae}
+      \strng{fullhash}{1585b8d30fb8069af126e7616e3560c2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Valence-band mixing in neutral, charged, and Mn-doped self-assembled quantum dots}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{07}
+      \field{title}{Valence-band mixing in neutral, charged, and Mn-doped self-assembled quantum dots}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{045331}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.76.045331
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.76.045331
+      \endverb
+    \endentry
+    \entry{FineStructSplitGaAsdots}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=39f4fac3e0c202d2667cae920459f812}{Gammon}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3a84bbde59adacc393beb7105c699c7f}{Snow}{S\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=f3caa558a7925e075a4a2c1785ec5c38}{Shanabrook}{S\bibinitperiod}{B.\bibnamedelimi V.}{B\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=39144f3c3903c9768c2e974372c1b808}{Katzer}{K\bibinitperiod}{D.\bibnamedelimi S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=0afea0cd86e9629794fef3eb2038ab21}{Park}{P\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=39f4fac3e0c202d2667cae920459f812}{Gammon}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=3a84bbde59adacc393beb7105c699c7f}{Snow}{S\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=f3caa558a7925e075a4a2c1785ec5c38}{Shanabrook}{S\bibinitperiod}{B.\bibnamedelimi V.}{B\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=39144f3c3903c9768c2e974372c1b808}{Katzer}{K\bibinitperiod}{D.\bibnamedelimi S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=0afea0cd86e9629794fef3eb2038ab21}{Park}{P\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{970404b3e9da43bb15f1c7c070cc1460}
+      \strng{fullhash}{705157e53609d4602d482098e1bef335}
+      \field{sortinit}{0}
+      \field{labeltitle}{Fine Structure Splitting in the Optical Spectra of Single {GaAs} Quantum Dots}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{04}
+      \field{title}{Fine Structure Splitting in the Optical Spectra of Single {GaAs} Quantum Dots}
+      \field{volume}{76}
+      \field{year}{1996}
+      \field{pages}{3005\bibrangedash 3008}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.76.3005
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.76.3005
+      \endverb
+    \endentry
+    \entry{BesombesPumpMnSFD}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{99d1e12947f342a6debddf847cc845e3}
+      \strng{fullhash}{99d1e12947f342a6debddf847cc845e3}
+      \field{sortinit}{0}
+      \field{labeltitle}{Resonant optical pumping of a {Mn} spin in a strain-free quantum dot}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{02}
+      \field{title}{Resonant optical pumping of a {Mn} spin in a strain-free quantum dot}
+      \field{volume}{89}
+      \field{year}{2014}
+      \field{pages}{085315}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.085315
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.89.085315
+      \endverb
+    \endentry
+    \entry{LegerQDGeomEffect}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8e3c2fb08e7ee68a3f2ec6989570bb59}{Ferrand}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8e3c2fb08e7ee68a3f2ec6989570bb59}{Ferrand}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9d01fba456a716f5a892a640e121b0ae}
+      \strng{fullhash}{5a5728e771067d45f928c4eb7602db86}
+      \field{sortinit}{0}
+      \field{labeltitle}{Geometrical Effects on the Optical Properties of Quantum Dots Doped with a Single Magnetic Atom}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{07}
+      \field{title}{Geometrical Effects on the Optical Properties of Quantum Dots Doped with a Single Magnetic Atom}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{047403}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.95.047403
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.95.047403
+      \endverb
+    \endentry
+    \entry{DERecombTh}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=1faf3f5064285ed09b97551ef2e541e3}{Zieli{\ifmmode\bibnamedelimb \acute{n}\else\bibnamedelimb ń\fi{}}ski}{Z\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e79da41c373bfcae3fabba0e8d065df7}{Don}{D\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8de0bd1b3330205983ee741a4ab9bb98}{Gershoni}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=1faf3f5064285ed09b97551ef2e541e3}{Zieli{\ifmmode\bibnamedelimb \acute{n}\else\bibnamedelimb ń\fi{}}ski}{Z\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e79da41c373bfcae3fabba0e8d065df7}{Don}{D\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8de0bd1b3330205983ee741a4ab9bb98}{Gershoni}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0196346216c55eb0b9953605cccd6806}
+      \strng{fullhash}{cfdfb581805204be4c3998539f21fa45}
+      \field{sortinit}{0}
+      \field{labeltitle}{Atomistic theory of dark excitons in self-assembled quantum dots of reduced symmetry}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{02}
+      \field{title}{Atomistic theory of dark excitons in self-assembled quantum dots of reduced symmetry}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{085403}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.91.085403
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.91.085403
+      \endverb
+    \endentry
+    \entry{CarInSpinSplit}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=c0acba57744f7981cecd0e5a30e02c54}{Leger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8e3c2fb08e7ee68a3f2ec6989570bb59}{Ferrand}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=5c1cebfd4f712f810d2ec6ab69da531c}{Cibert}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=c0acba57744f7981cecd0e5a30e02c54}{Leger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8e3c2fb08e7ee68a3f2ec6989570bb59}{Ferrand}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=5c1cebfd4f712f810d2ec6ab69da531c}{Cibert}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{67238b0dff07f6d2fd85b33a906caf01}
+      \strng{fullhash}{67e9d8a9d6f049c4367f69bba949f9a2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Carrier-induced spin splitting of an individual magnetic atom embedded in a quantum dot}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{04}
+      \field{title}{Carrier-induced spin splitting of an individual magnetic atom embedded in a quantum dot}
+      \field{volume}{71}
+      \field{year}{2005}
+      \field{pages}{161307}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.71.161307
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.71.161307
+      \endverb
+    \endentry
+    \entry{BiexFinStruct}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=2e2f8bc582344eae35584b40dd708228}{Trojnar}{T\bibinitperiod}{Anna\bibnamedelima H.}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=6a40138aa7d65dc65c92975ae1248422}{Korkusinski}{K\bibinitperiod}{Marek}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3161ebec5d2953ccce8de1ca52cd423c}{Mendes}{M\bibinitperiod}{Udson\bibnamedelima C.}{U\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=e259e895076345d99415191c4653ad0a}{Goryca}{G\bibinitperiod}{Mateusz}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b1d24c6122b37fb5c43dee937c0dd}{Koperski}{K\bibinitperiod}{Maciej}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=046456412740c7c85b300d3de3ef1fb2}{Smolenski}{S\bibinitperiod}{Tomasz}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=6c193dd2bd306316155a65470f866f32}{Kossacki}{K\bibinitperiod}{Piotr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=98760ef00f48cbd1d6df5832cc8d8b24}{Wojnar}{W\bibinitperiod}{Piotr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=e1a510358cdf0e8c76c2cb9c0e1bb94f}{Hawrylak}{H\bibinitperiod}{Pawel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=2e2f8bc582344eae35584b40dd708228}{Trojnar}{T\bibinitperiod}{Anna\bibnamedelima H.}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=6a40138aa7d65dc65c92975ae1248422}{Korkusinski}{K\bibinitperiod}{Marek}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3161ebec5d2953ccce8de1ca52cd423c}{Mendes}{M\bibinitperiod}{Udson\bibnamedelima C.}{U\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=e259e895076345d99415191c4653ad0a}{Goryca}{G\bibinitperiod}{Mateusz}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b1d24c6122b37fb5c43dee937c0dd}{Koperski}{K\bibinitperiod}{Maciej}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=046456412740c7c85b300d3de3ef1fb2}{Smolenski}{S\bibinitperiod}{Tomasz}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=6c193dd2bd306316155a65470f866f32}{Kossacki}{K\bibinitperiod}{Piotr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=98760ef00f48cbd1d6df5832cc8d8b24}{Wojnar}{W\bibinitperiod}{Piotr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=e1a510358cdf0e8c76c2cb9c0e1bb94f}{Hawrylak}{H\bibinitperiod}{Pawel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{1e277cb8b34821e05008a41a41fc598b}
+      \strng{fullhash}{d2ae17c90e8c7bf4f6299e229360941e}
+      \field{sortinit}{0}
+      \field{labeltitle}{Fine structure of a biexciton in a single quantum dot with a magnetic impurity}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{05}
+      \field{title}{Fine structure of a biexciton in a single quantum dot with a magnetic impurity}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{pages}{205311}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.87.205311
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.87.205311
+      \endverb
+    \endentry
+    \entry{DynhMn}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=fecd4fa1ad2680c1998d83ab1d511d24}{Varghese}{V\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=fecd4fa1ad2680c1998d83ab1d511d24}{Varghese}{V\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0032b490368d1d17052c4c0aa4bbcb4d}
+      \strng{fullhash}{be8879f552fabdc1ccab76be527d98b6}
+      \field{sortinit}{0}
+      \field{labeltitle}{Dynamics of a {Mn} spin coupled to a single hole confined in a quantum dot}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{09}
+      \field{title}{Dynamics of a {Mn} spin coupled to a single hole confined in a quantum dot}
+      \field{volume}{90}
+      \field{year}{2014}
+      \field{pages}{115307}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.90.115307
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.90.115307
+      \endverb
+    \endentry
+    \entry{VBM}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e2d58feb4e86d0e17a9eb967c2c4b25e}{Léger}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=03b777990af6611121f7bc6930eb567b}{Maingault}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=8968725436249286e5e41ff0d9945943}{Mariette}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9d01fba456a716f5a892a640e121b0ae}
+      \strng{fullhash}{1585b8d30fb8069af126e7616e3560c2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Valence-band mixing in neutral, charged, and {Mn}-doped self-assembled quantum dots}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{07}
+      \field{title}{Valence-band mixing in neutral, charged, and {Mn}-doped self-assembled quantum dots}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{045331}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.76.045331
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.76.045331
+      \endverb
+    \endentry
+    \entry{ChargeSpectFluct}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0c2d2b1311eb0c5881ec925934a373c0}{Kamada}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=34d3178d41d2420b93272433f51ed3d3}{Kutsuwa}{K\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0c2d2b1311eb0c5881ec925934a373c0}{Kamada}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=34d3178d41d2420b93272433f51ed3d3}{Kutsuwa}{K\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{13e946e32b316288efda409927908120}
+      \strng{fullhash}{13e946e32b316288efda409927908120}
+      \field{sortinit}{0}
+      \field{labeltitle}{Broadening of single quantum dot exciton luminescence spectra due to interaction with randomly fluctuating environmental charges}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Broadening of single quantum dot exciton luminescence spectra due to interaction with randomly fluctuating environmental charges}
+      \field{volume}{78}
+      \field{year}{2008}
+      \field{pages}{155324}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.78.155324
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.78.155324
+      \endverb
+    \endentry
+    \entry{CrZnTe}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=35464ebf5e7b6f660bf21abdeda21655}{Dziesiaty}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=274b5f9e368160e3454dfa2593dd7e3a}{Peka}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a71cbafe3c24f311edab64e66d069342}{Lehr}{L\bibinitperiod}{M.\bibnamedelimi U.}{M\bibinitperiod\bibinitdelim U\bibinitperiod}{}{}{}{}}%
+        {{hash=bcd2f85d74edf40ac37c591f2e0afa5d}{Klimakow}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=138cf7782356e91f255b87a48e1164fd}{Müller}{M\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=abc376a8e781525561d53d52901b3e67}{Schulz}{S\bibinitperiod}{H.-J.}{H\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=35464ebf5e7b6f660bf21abdeda21655}{Dziesiaty}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=274b5f9e368160e3454dfa2593dd7e3a}{Peka}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a71cbafe3c24f311edab64e66d069342}{Lehr}{L\bibinitperiod}{M.\bibnamedelimi U.}{M\bibinitperiod\bibinitdelim U\bibinitperiod}{}{}{}{}}%
+        {{hash=bcd2f85d74edf40ac37c591f2e0afa5d}{Klimakow}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=138cf7782356e91f255b87a48e1164fd}{Müller}{M\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=abc376a8e781525561d53d52901b3e67}{Schulz}{S\bibinitperiod}{H.-J.}{H\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Zeitschrift für Physikalische Chemie}%
+      }
+      \strng{namehash}{911723826ac2cff8459e61f1735a1706}
+      \strng{fullhash}{675cca3a918e99b82fc54d7e10683d0e}
+      \field{sortinit}{0}
+      \field{labeltitle}{The Chromium Impurity in ZnTe: Changes of the Charge State Detected by Optical and {EPR} Spectroscopy}
+      \field{issue}{1-2}
+      \field{journaltitle}{ZPCH}
+      \field{month}{01}
+      \field{title}{The Chromium Impurity in ZnTe: Changes of the Charge State Detected by Optical and {EPR} Spectroscopy}
+      \field{volume}{201}
+      \field{year}{1997}
+      \field{pages}{63}
+      \verb{doi}
+      \verb 10.1524/zpch.1997.201.Part_1_2.063
+      \endverb
+      \verb{url}
+      \verb http://www.degruyter.com/view/j/zpch.1997.201.issue-1-2/zpch.1997.201.part_1_2.063/zpch.1997.201.part_1_2.063.xml
+      \endverb
+    \endentry
+    \entry{SpinMechaDriv}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=b8d2f4b9932831e590d3aa9e4cfde05a}{Barfuss}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=010b79ba4ee6025e1e998f64e5d00a3b}{Teissier}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b03873e3eb3d6c8bfa3934fd14b53739}{Neu}{N\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=80fc8bf5fdff2a557765c5f5c04e4847}{Nunnenkamp}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2e975e8b241fc457b0891d3b42a17029}{Maletinsky}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=b8d2f4b9932831e590d3aa9e4cfde05a}{Barfuss}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=010b79ba4ee6025e1e998f64e5d00a3b}{Teissier}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b03873e3eb3d6c8bfa3934fd14b53739}{Neu}{N\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=80fc8bf5fdff2a557765c5f5c04e4847}{Nunnenkamp}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2e975e8b241fc457b0891d3b42a17029}{Maletinsky}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6dab0a733e70e74bc916e3a90edb0495}
+      \strng{fullhash}{a941af65c5df4915c14cb414365f7a64}
+      \field{sortinit}{0}
+      \field{labeltitle}{Strong mechanical driving of a single electron spin}
+      \field{issue}{10}
+      \field{journaltitle}{Nat Phys}
+      \field{month}{10}
+      \field{title}{Strong mechanical driving of a single electron spin}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{820}
+      \verb{doi}
+      \verb 10.1038/nphys3411
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphys3411
+      \endverb
+    \endentry
+    \entry{LafuenteStrainMn}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=931630e03fc0ca76e3101fc20e623b32}{Lafuente-Sampietro}{L\bibinithyphendelim S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=931630e03fc0ca76e3101fc20e623b32}{Lafuente-Sampietro}{L\bibinithyphendelim S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=75e6f2ab85786c65bf01c9a4e5ee8279}{Boukari}{B\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f48f00cc12c16400894a4b2c0cf4ead4}{Besombes}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{159bb594657f1973a6dddcc8a2172fda}
+      \strng{fullhash}{e2503b9e31eef1a5542ccbc1dccfccfe}
+      \field{sortinit}{0}
+      \field{labeltitle}{Strain-induced coherent dynamics of coupled carriers and {Mn} spins in a quantum dot}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{08}
+      \field{title}{Strain-induced coherent dynamics of coupled carriers and {Mn} spins in a quantum dot}
+      \field{volume}{92}
+      \field{year}{2015}
+      \field{pages}{081305}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.92.081305
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevB.92.081305
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
