@@ -1,0 +1,19 @@
+[3] Config.pm:318> INFO - This is Biber 1.8
+[4] Config.pm:321> INFO - Logfile is '01-DMSQD.blg'
+[292] biber:275> INFO - === jeu. mai 18, 2017, 22:23:58
+[292] Biber.pm:333> INFO - Reading '01-DMSQD.bcf'
+[564] Biber.pm:630> INFO - Found 10 citekeys in bib section 0
+[621] Biber.pm:3053> INFO - Processing section 0
+[682] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[704] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[730] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
+[738] Utils.pm:169> WARN - Duplicate entry key: 'DELum' in file '../Bibliography.bib', skipping ...
+[823] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
+[824] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
+[826] Utils.pm:169> WARN - The field 'note' in entry 'ExchSplitInteratomic' cannot be null, deleting it
+[939] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[940] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[940] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1020] bbl.pm:482> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
+[1025] bbl.pm:555> INFO - Output to 01-DMSQD.bbl
+[1025] Biber.pm:105> INFO - WARNINGS: 4
