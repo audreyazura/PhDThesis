@@ -25,55 +25,57 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 
-for i in range(1,7):
-	num = '0' + str(i)
-	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
-	if fold:
-		folder = fold.group()
-		pictureFold = folder + '/Pictures/'
-		cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', $(ls @(folder)))
-		if cfile:
-			searchedFile = folder + '/' + cfile.group()
-			with open(searchedFile, 'r') as inpFile:
-				for line in inpFile:
-					if not(commentStr.search(line)):
-						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
-						
-						if i == 1 && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
-							echo @(treatedLine) >> Thesis.tex
-							if usepackageStr.search(treatedLine):
-								package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
-								packages.append(package)
-								print("Package added: " + package)
-								lastPack+=1
-								
-						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine)):
-							if usepackageStr.search(treatedLine):
-								if not(any(s in line for s in packages)):
+with open('Thesis.tex', 'w') as Thesis:
+	for i in range(1,7):
+		num = '0' + str(i)
+		fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
+		if fold:
+			folder = fold.group()
+			pictureFold = folder + '/Pictures/'
+			cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', $(ls @(folder)))
+			if cfile:
+				searchedFile = folder + '/' + cfile.group()
+				with open(searchedFile, 'r') as inpFile:
+					for line in inpFile:
+						if not(commentStr.search(line)):
+							treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
+							
+							if i == 1 && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
+								print(treatedLine, file=Thesis)
+								if usepackageStr.search(treatedLine):
 									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
 									packages.append(package)
 									print("Package added: " + package)
-									countLine = 1
-									with open('Thesis.tex', 'r') as thesis:
-										for copLine in thesis:
-											copTreatedLine = newlineStr.sub(nullChain, copLine)
-											if countLine == lastPack:
-												adLine = copTreatedLine + '\n' + treatedLine
-												echo @(adLine) >> copThesis.tex
-											else:
-												echo @(copTreatedLine) >> copThesis.tex
-											countLine+=1
 									lastPack+=1
-									rm Thesis.tex
-									mv copThesis.tex Thesis.tex
+									
+							elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine)):
+								if usepackageStr.search(treatedLine):
+									if not(any(s in line for s in packages)):
+										package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
+										packages.append(package)
+										print("Package added: " + package)
+										countLine = 1
+										with open('Thesis.tex', 'r') as thesis:
+											with open('copThesis.tex', 'w') as copiedThesis:
+												for copLine in thesis:
+													copTreatedLine = newlineStr.sub(nullChain, copLine)
+													if countLine == lastPack:
+														adLine = copTreatedLine + '\n' + treatedLine
+														print(adLine, file=copiedThesis)
+													else:
+														print(copTreatedLine, file=copiedThesis)
+													countLine+=1
+										lastPack+=1
+										rm Thesis.tex
+										mv copThesis.tex Thesis.tex
 								
-							elif i == 5 && not(bibresStr.search(treatedLine)):
-								echo @(treatedLine) >> Thesis.tex
-							
-							elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
-								echo @(treatedLine) >> Thesis.tex
+								elif i == 5 && not(bibresStr.search(treatedLine)):
+									print(treatedLine, file=Thesis)
+								
+								elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
+									print(treatedLine, file=Thesis)
 					
-			echo 'File ' @(cfile.group()) ' done'
+				echo 'File ' @(cfile.group()) ' done'
 
 echo 'Starting latex compilation'
 pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
