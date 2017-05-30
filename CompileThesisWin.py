@@ -70,11 +70,13 @@ with open('Thesis.tex', 'w') as Thesis:
                                                                                                 		print(copTreatedLine, file=copiedThesis)
                                                                                                 	countLine+=1
                         							lastPack+=1
-                        							!(del Thesis.tex)
-                        							!(rename copThesis.tex Thesis.tex)
+                        							originThesis.close()
+                        							Thesis.close()
+                        							$(del Thesis.tex)
+                        							rename copThesis.tex Thesis.tex
                         							Thesis = open('Thesis.tex', 'a')
                         						
-                        					elif i == maxCount && not(bibresStr.search(treatedLine)):
+                        					elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
                         						print(treatedLine, file=Thesis)
                         					
                         					elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
@@ -82,8 +84,8 @@ with open('Thesis.tex', 'w') as Thesis:
                         			
                         	print('File ' + cfile.group() + ' done')
 
-print('Starting latex compilation')
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
-biber Thesis
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
+print('\nLaunch compilation manually writing:\n')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
+print('biber Thesis')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex\n')
