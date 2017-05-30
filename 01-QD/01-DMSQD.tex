@@ -491,15 +491,42 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	\label{ExchInterIllust}
 	\end{figure}
 
-	The first case is when all the states belong to the continuum, appearing as $J_1$ on the diagram. Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$:
+	We first consider two states belonging to the continuum, appearing as $J_1$ on the diagram.
+	As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
 	\begin{align}
-	V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d}) \label{Vkd}
+	\label{ehExchHamil}
+		{\cal H}_{SC}^{exch} = I_{eh} \bm{\upsigma}.\mathbf{J}
 	\end{align}
-The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
+The matrix elements being:
+	\begin{align}
+		\langle e,h|{\cal H}_{SC}^{exch}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + I_{eh'e'h}
+	\end{align}
+with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct Coulomb interaction and $I_{eh'e'h}$ the exchange Coulomb interaction. As classically expected from an electric interaction between two opposite charges, the direct Coulomb interaction is attractive and therefore lower the overall energy of the system.
+
+	$I_{eh'e'h}$ is written:
+	\begin{align}
+		I_{eh'e'h} = \frac{e^2}{4\pi \varepsilon} \int \mathrm{d}\mathbf{r}_1 \mathrm{d}\mathbf{r}_2 \frac{\psi_c^*(\mathbf{r}_1) \psi_{v'}^*(\mathbf{r}_2) \psi_{c'}(\mathbf{r}_2) \psi_v(\mathbf{r}_1)}{|\mathbf{r}_1 - \mathbf{r}_2|}
+	\end{align}
+with $\varepsilon$ the dielectric constant and $\psi_v$ the wave function of the missing exciton. One can see that it is different from zero only if the spin of the electron and the hole are opposite (meaning the spin of both electrons are the same). Since its value is positive in the other case, this term will increase the energy of the bright states while the dark one remain unaffected. It results in a ferromagnetic effective hamiltonian lifting the degeneracy between between bright and dark states.
+
+	Taking into account the symmetry of the crystal, Bir and Pikus demonstrated that the complete complete hamiltonian can be decomposed in two different component:\newline
+	For an electron and a hole in the same Brillouin-zone, the short-range exchange interaction is to be considered. It can be written:
+	\begin{align}
+		I_{eh}^{sr} = \delta_0^{sr} \bm{\upsigma}.\mathbf{J} + \delta_2 \sum_{i = x,y,z} \sigma_i J_i^3
+	\end{align}
+The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one was found through symmetry considerations and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $\delta_0$.\newline
+	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It lifts up the degeneracy between transverse exciton, with a dipole perpendicular to the center of mass $\mathbf{k}_ex$, and longitudinal exciton, with a dipole parallel to $\mathbf{k}_ex$. This splitting is independent of $\mathbf{k}_ex$ value for $\mathbf{k}_ex > \dfrac{2\pi}{\lambda}$. The case $\mathbf{k}_ex < \dfrac{2\pi}{\lambda}$ leads to light-matter strong-coupling regime and is beyond the scope of the thesis.
+	\newline
+
+%	Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$:
+%	\begin{align}
+%	V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d}) \label{Vkd}
+%	\end{align}
+%The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
 	
-	We then have the case of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
+	The next interaction we consider is the one of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
 	
-	The final possibility is the interaction between an electron from the magnetic atom and an electron from the semiconductor. It can be separated in two terms that will be developed in the next paragraphs: a direct Coulomb interaction between the two electrons, and an exchange interaction arising from the fermionic nature of electrons.
+	The third considered interaction is the one between an electron from the magnetic atom and an electron from the semiconductor. In the same fashion as with carrier of the bulk, it can be separated in two terms that will be developed in the next paragraphs: a direct Coulomb interaction between the two electrons, and an exchange interaction arising from the fermionic nature of electrons.
 	
 	The direct Coulomb interaction doesn't depends on electrons spins. It only act on the total energy of the system and is therefore only needed when searching the total energy of an exciton. We write it:
 	\begin{align}
@@ -626,20 +653,20 @@ Since a DMS contain a small percentage of magnetic atoms, we can write the hamil
 	[PLACEHOLDER]
 	\newline
 		
-		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
-	\begin{align}
-	\label{ehExchHamil}
-		{\cal H}_{SC}^{exch} = I_{eh} \mathbf{J}.\bm{\upsigma}
-	\end{align}
-The matrix elements being:
-	\begin{align}
-		\langle e,h|{\cal H}_{SC}^{exch}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + J_{eh'e'h}
-	\end{align}
-with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct exchange interaction and $J_{eh'e'h}$ the Coulomb exchange interaction.
-	\newline
-
-	[PLACEHOLDER]
-	\newline
+%		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
+%	\begin{align}
+%	\label{ehExchHamil}
+%		{\cal H}_{SC}^{exch} = I_{eh} \bm{\upsigma}.\mathbf{J}
+%	\end{align}
+%The matrix elements being:
+%	\begin{align}
+%		\langle e,h|{\cal H}_{SC}^{exch}| e', h' \rangle = \delta_{h,h'} \delta_{e, e'} (\epsilon_e - \epsilon_h) - K_{h'ee'h} + I_{eh'e'h}
+%	\end{align}
+%with $\epsilon_{e,h}$ the energy level of the electron and hole, $K_{h'ee'h}$ the direct Coulomb interaction and $I_{eh'e'h}$ the Coulomb exchange interaction.
+%	\newline
+%
+%	[PLACEHOLDER]
+%	\newline
 	
 	Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil}:
 	\begin{align}

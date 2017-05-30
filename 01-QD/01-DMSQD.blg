@@ -1,19 +1,20 @@
-[2] Config.pm:318> INFO - This is Biber 1.8
-[3] Config.pm:321> INFO - Logfile is '01-DMSQD.blg'
-[380] biber:275> INFO - === mar. mai 30, 2017, 17:57:05
-[381] Biber.pm:333> INFO - Reading '01-DMSQD.bcf'
-[740] Biber.pm:630> INFO - Found 10 citekeys in bib section 0
-[807] Biber.pm:3053> INFO - Processing section 0
-[876] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
-[899] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[930] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
-[940] Utils.pm:169> WARN - Duplicate entry key: 'DELum' in file '../Bibliography.bib', skipping ...
-[1049] Utils.pm:169> WARN - The field 'note' in entry 'KaneBandkp' cannot be null, deleting it
-[1051] Utils.pm:169> WARN - The field 'note' in entry 'CdTeDefPot' cannot be null, deleting it
-[1053] Utils.pm:169> WARN - The field 'note' in entry 'ExchSplitInteratomic' cannot be null, deleting it
-[1194] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1195] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[1195] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1307] bbl.pm:482> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
-[1314] bbl.pm:555> INFO - Output to 01-DMSQD.bbl
-[1314] Biber.pm:105> INFO - WARNINGS: 4
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is '01-DMSQD.blg'
+[178] biber-MSWIN64:303> INFO - === 
+[335] Biber.pm:359> INFO - Reading '01-DMSQD.bcf'
+[503] Biber.pm:835> INFO - Found 10 citekeys in bib section 0
+[538] Biber.pm:3670> INFO - Processing section 0
+[686] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[711] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[788] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography.bib'
+[817] Utils.pm:164> WARN - Duplicate entry key: 'DELum' in file '../Bibliography.bib', skipping ...
+[920] Utils.pm:164> WARN - month field 'May' in entry 'LuttingerHam' is not an integer - this will probably not sort properly.
+[957] Utils.pm:164> WARN - month field 'Feb' in entry 'LuttElecMotion' is not an integer - this will probably not sort properly.
+[984] Utils.pm:164> WARN - month field 'Jul' in entry 'VBMArticle' is not an integer - this will probably not sort properly.
+[1022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1023] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[1023] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1041] bbl.pm:608> INFO - Writing '01-DMSQD.bbl' with encoding 'UTF-8'
+[1044] bbl.pm:712> INFO - Output to 01-DMSQD.bbl
+[1044] Biber.pm:109> INFO - WARNINGS: 4
