@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.30)  30 MAY 2017 19:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.30)  31 MAY 2017 05:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,917 +815,1317 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count280
 \@quotereset=\count281
 (./Thesis.aux
-! Undefined control sequence.
-l.20 \abx@aux@refcontext
-                        {none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \abx@aux@refcontext{n
-                          one/global/}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.36 \abx@aux@segm
-                  {0}{0}{KaneBandkp}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.40 \abx@aux@segm
-                  {0}{0}{ClaireTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.42 \abx@aux@segm
-                  {0}{0}{LuttingerHam}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 LaTeX Warning: Label `BandStruct' multiply defined.
-
-! Undefined control sequence.
-l.52 \abx@aux@segm
-                  {0}{0}{BirPikus}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.55 \abx@aux@segm
-                  {0}{0}{CdTeDefPot}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.64 \abx@aux@segm
-                  {0}{0}{LuttElecMotion}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.70 \abx@aux@segm
-                  {0}{0}{MecQBasvant}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.78 \abx@aux@segm
-                  {0}{0}{YoanTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.80 \abx@aux@segm
-                  {0}{0}{VBMArticle}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.82 \abx@aux@segm
-                  {0}{0}{YoanTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.83 \abx@aux@segm
-                  {0}{0}{VBMArticle}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.105 \abx@aux@segm
-                   {0}{0}{ExchSplitInteratomic}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.108 \abx@aux@segm
-                   {0}{0}{ClaireTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.131 \abx@aux@segm
-                   {0}{0}{FirstMBE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.133 \abx@aux@segm
-                   {0}{0}{HMarALE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.141 \abx@aux@segm
-                   {0}{0}{FirstRHEED}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.143 \abx@aux@segm
-                   {0}{0}{WoodRHEED}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154 \abx@aux@segm
-                   {0}{0}{TeEffect}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.155 \abx@aux@segm
-                   {0}{0}{HMarALE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.157 \abx@aux@segm
-                   {0}{0}{ChangZnTe}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.163 \abx@aux@segm
-                   {0}{0}{TinjodMBE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.165 \abx@aux@segm
-                   {0}{0}{WojnarMBE}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.169 \abx@aux@segm
-                   {0}{0}{StrainRelaxCdTeGaAs111}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.171 \abx@aux@segm
-                   {0}{0}{StrainRelaxCdTeGaAs100}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.173 \abx@aux@segm
-                   {0}{0}{StrainRelaxZnTeGaAs001}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.179 \abx@aux@segm
-                   {0}{0}{StrainRelaxZnTeGaAs001}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.181 \abx@aux@segm
-                   {0}{0}{CritThickCdTeZnTe}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.184 \abx@aux@segm
-                   {0}{0}{StrainRelaxCdTeGaAs111}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.185 \abx@aux@segm
-                   {0}{0}{StrainRelaxCdTeGaAs100}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.191 \abx@aux@segm
-                   {0}{0}{CritThickCdTeCdZnTe}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.243 \abx@aux@segm
-                   {0}{0}{EPRCr}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.245 \abx@aux@segm
-                   {0}{0}{DMSCrExchInt}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.247 \abx@aux@segm
-                   {0}{0}{CdCrSExchInt}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.253 \abx@aux@segm
-                   {0}{0}{SplitInvTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.257 \abx@aux@segm
-                   {0}{0}{DELongLifetime}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.259 \abx@aux@segm
-                   {0}{0}{DELum}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.266 \abx@aux@segm
-                   {0}{0}{FineStructSplitGaAsdots}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.267 \abx@aux@segm
-                   {0}{0}{SplitInvTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.273 \abx@aux@segm
-                   {0}{0}{BesombesPumpMnSFD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.275 \abx@aux@segm
-                   {0}{0}{LegerQDGeomEffect}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.277 \abx@aux@segm
-                   {0}{0}{DERecombTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.278 \abx@aux@segm
-                   {0}{0}{DELum}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.279 \abx@aux@segm
-                   {0}{0}{SplitInvTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.282 \abx@aux@segm
-                   {0}{0}{CarInSpinSplit}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.284 \abx@aux@segm
-                   {0}{0}{BiexFinStruct}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.293 \abx@aux@segm
-                   {0}{0}{CarInSpinSplit}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.294 \abx@aux@segm
-                   {0}{0}{BiexFinStruct}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.296 \abx@aux@segm
-                   {0}{0}{DynhMn}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.297 \abx@aux@segm
-                   {0}{0}{DERecombTh}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.299 \abx@aux@segm
-                   {0}{0}{DynhMn}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.301 \abx@aux@segm
-                   {0}{0}{VBM}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.302 \abx@aux@segm
-                   {0}{0}{DynhMn}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.303 \abx@aux@segm
-                   {0}{0}{VBM}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.310 \abx@aux@segm
-                   {0}{0}{ChargeSpectFluct}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.314 \abx@aux@segm
-                   {0}{0}{CrZnTe}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.318 \abx@aux@segm
-                   {0}{0}{SpinMechaDriv}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.320 \abx@aux@segm
-                   {0}{0}{LafuenteStrainMn}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.333 \abx@aux@segm
-                   {0}{0}{QDAutocor}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.335 \abx@aux@segm
-                   {0}{0}{IndistPhoton}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.341 \abx@aux@segm
-                   {0}{0}{SubnanoSpectDiff}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.350 \abx@aux@segm
-                   {0}{0}{??}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.355 \abx@aux@segm
-                   {0}{0}{PwSuperLinInc}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.357 \abx@aux@segm
-                   {0}{0}{SpinQJumps}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.359 \abx@aux@segm
-                   {0}{0}{ephBroad}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.361 \abx@aux@segm
-                   {0}{0}{LafuenteCrQD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.362 \abx@aux@segm
-                   {0}{0}{LafuenteCrQD}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Label `AutocorPwMod' multiply defined.
 
-! Undefined control sequence.
-l.392 \abx@aux@refcontextdefaultsdone
-                                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+)
+\openout1 = `Thesis.aux'.
 
-! Undefined control sequence.
-l.393 \abx@aux@defaultrefcontext
-                                {0}{KaneBandkp}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen129
+\scratchbox=\box29
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen130
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks26
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Undefined control sequence.
-l.394 \abx@aux@defaultrefcontext
-                                {0}{ClaireTh}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring ON on input line 27.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-! Undefined control sequence.
-l.395 \abx@aux@defaultrefcontext
-                                {0}{LuttingerHam}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count288
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
-! Undefined control sequence.
-l.396 \abx@aux@defaultrefcontext
-                                {0}{BirPikus}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(./Thesis.out) (./Thesis.out)
+\@outlinefile=\write4
+\openout4 = `Thesis.out'.
 
-! Undefined control sequence.
-l.397 \abx@aux@defaultrefcontext
-                                {0}{CdTeDefPot}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Thesis.bcf'.
 
-! Undefined control sequence.
-l.398 \abx@aux@defaultrefcontext
-                                {0}{LuttElecMotion}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis.bbl' found.
+ (./Thesis.bbl
 
-! Undefined control sequence.
-l.399 \abx@aux@defaultrefcontext
-                                {0}{MecQBasvant}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                VBM
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
-! Undefined control sequence.
-l.400 \abx@aux@defaultrefcontext
-                                {0}{YoanTh}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.401 \abx@aux@defaultrefcontext
-                                {0}{VBMArticle}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ??
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
-! Undefined control sequence.
-l.402 \abx@aux@defaultrefcontext
-                                {0}{ExchSplitInteratomic}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+)
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 
-! Undefined control sequence.
-l.403 \abx@aux@defaultrefcontext
-                                {0}{FirstMBE}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Chapter I.
+<01-QD/Pictures/ZincBlende-Wikipedia.png, id=210, 661.47125pt x 602.25pt>
+File: 01-QD/Pictures/ZincBlende-Wikipedia.png Graphic file (type png)
 
-! Undefined control sequence.
-l.404 \abx@aux@defaultrefcontext
-                                {0}{HMarALE}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<use 01-QD/Pictures/ZincBlende-Wikipedia.png>
+Package pdftex.def Info: 01-QD/Pictures/ZincBlende-Wikipedia.png used on input 
+line 39.
+(pdftex.def)             Requested size: 284.52756pt x 259.04515pt.
 
-! Undefined control sequence.
-l.405 \abx@aux@defaultrefcontext
-                                {0}{FirstRHEED}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.406 \abx@aux@defaultrefcontext
-                                {0}{WoodRHEED}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-! Undefined control sequence.
-l.407 \abx@aux@defaultrefcontext
-                                {0}{TeEffect}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[1
 
-! Undefined control sequence.
-l.408 \abx@aux@defaultrefcontext
-                                {0}{ChangZnTe}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.409 \abx@aux@defaultrefcontext
-                                {0}{TinjodMBE}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<FillingPicture.png, id=226, 650.43pt x 406.51875pt>
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 53.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
-! Undefined control sequence.
-l.410 \abx@aux@defaultrefcontext
-                                {0}{WojnarMBE}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.411 \abx@aux@defaultrefcontext
-                                {0}{StrainRelaxCdTeGaAs111}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-! Undefined control sequence.
-l.412 \abx@aux@defaultrefcontext
-                                {0}{StrainRelaxCdTeGaAs100}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[2 <./01-QD/Pictures/ZincBlende-Wikipedia.png>] [3 <./FillingPicture.png>]
+[4] [5] [6] [7] [8]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 282.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [9]
+Overfull \hbox (23.24365pt too wide) in paragraph at lines 296--298
+\T1/cmr/m/n/12 with $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT
+1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 )$ \T1/c
+mr/m/n/12 the elec-tron en-velop func-tion and $\OML/cmm/m/it/12 F[]\OT1/cmr/m/
+n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n
+/12 (\OML/cmm/m/it/12 i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\O
+T1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
+ []
 
-! Undefined control sequence.
-l.413 \abx@aux@defaultrefcontext
-                                {0}{StrainRelaxZnTeGaAs001}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[10] [11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 377.
 
-! Undefined control sequence.
-l.414 \abx@aux@defaultrefcontext
-                                {0}{CritThickCdTeZnTe}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 377.
 
-! Undefined control sequence.
-l.415 \abx@aux@defaultrefcontext
-                                {0}{CritThickCdTeCdZnTe}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[13]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 391.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [14] [15] [16] [17]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 489.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
-! Undefined control sequence.
-l.416 \abx@aux@defaultrefcontext
-                                {0}{EPRCr}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 517--521
 
-! Undefined control sequence.
-l.417 \abx@aux@defaultrefcontext
-                                {0}{DMSCrExchInt}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
-! Undefined control sequence.
-l.418 \abx@aux@defaultrefcontext
-                                {0}{CdCrSExchInt}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[19] [20]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 573.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [21]
 
-! Undefined control sequence.
-l.419 \abx@aux@defaultrefcontext
-                                {0}{SplitInvTh}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `Vkd' on page 22 undefined on input line 590.
 
-! Undefined control sequence.
-l.420 \abx@aux@defaultrefcontext
-                                {0}{DELongLifetime}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 646--648
 
-! Undefined control sequence.
-l.421 \abx@aux@defaultrefcontext
-                                {0}{DELum}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
-! Undefined control sequence.
-l.422 \abx@aux@defaultrefcontext
-                                {0}{FineStructSplitGaAsdots}{none/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.423 \abx@aux@defaultrefcontext
-                                {0}{BesombesPumpMnSFD}{none/global/}
-(That makes 100 errors; please try again.) 
+Underfull \hbox (badness 10000) in paragraph at lines 649--651
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 660--663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
+
+ []
+
+
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 676--676
+[]\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
+ []
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 682.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 697.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 711.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 719.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 729.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [28]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 737.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [29]
+File: FillingPicture.png Graphic file (type png)
+
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 750.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 760.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30] [31]
+Chapter II.
+<02-GrowthQDs/Pictures/MBE.png, id=523, 635.37375pt x 555.07375pt>
+File: 02-GrowthQDs/Pictures/MBE.png Graphic file (type png)
+
+<use 02-GrowthQDs/Pictures/MBE.png>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/MBE.png used on input line 779.
+(pdftex.def)             Requested size: 284.52756pt x 248.57817pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--791
+
+ []
+
+[32
+
+] [33 <./02-GrowthQDs/Pictures/MBE.png>]
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/SFDRheed.eps>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 487181 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/SFDRheed-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 119271 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/SFDR
+heed-eps-converted-to.pdf 02-GrowthQDs/Pictures/SFDRheed.eps>
+(epstopdf)             \includegraphics on input line 802.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf, id=543, 796.9775pt x 414.
+54875pt>
+File: 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf us
+ed on input line 802.
+(pdftex.def)             Requested size: 398.33858pt x 207.19795pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/MBEFull.eps>
+(epstopdf)                    date: 2017-04-19 20:42:11
+(epstopdf)                    size: 5680176 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/MBEFull-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-04-20 00:37:27
+(epstopdf)                    size: 418860 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/MBEF
+ull-eps-converted-to.pdf 02-GrowthQDs/Pictures/MBEFull.eps>
+(epstopdf)             \includegraphics on input line 816.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf, id=544, 722.7pt x 483.8075
+pt>
+File: 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/MBEFull-eps-converted-to.pdf use
+d on input line 816.
+(pdftex.def)             Requested size: 398.33858pt x 266.66338pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34] [35 <./02-GrowthQDs/Pictures/SFDRheed-eps-converted-to.pdf>] [36 <./02-Gro
+wthQDs/Pictures/MBEFull-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RHEEDStep.eps>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 2726712 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/RHEEDStep-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 844206 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/RHEE
+DStep-eps-converted-to.pdf 02-GrowthQDs/Pictures/RHEEDStep.eps>
+(epstopdf)             \includegraphics on input line 865.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf, id=574, 680.5425pt x 416
+.55624pt>
+File: 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf u
+sed on input line 865.
+(pdftex.def)             Requested size: 398.33858pt x 243.82108pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37]
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSK.eps>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 45290 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/RecipeSK-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 26801 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Reci
+peSK-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSK.eps>
+(epstopdf)             \includegraphics on input line 879.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf, id=587, 1052.93375pt x 59
+7.23125pt>
+File: 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.pdf us
+ed on input line 879.
+(pdftex.def)             Requested size: 398.33858pt x 225.93867pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38 <./02-GrowthQDs/Pictures/RHEEDStep-eps-converted-to.pdf>] [39 <./02-GrowthQ
+Ds/Pictures/RecipeSK-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/HybridSubstrate.eps>
+
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 3178559 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/HybridSubstrate-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 644081 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Hybr
+idSubstrate-eps-converted-to.pdf 02-GrowthQDs/Pictures/HybridSubstrate.eps>
+(epstopdf)             \includegraphics on input line 900.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf, id=621, 899.36pt x
+ 416.55624pt>
+File: 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to
+.pdf used on input line 900.
+(pdftex.def)             Requested size: 398.33858pt x 184.49933pt.
+
+[40 <./02-GrowthQDs/Pictures/HybridSubstrate-eps-converted-to.pdf>] [41]
+Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSFD.eps>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 44106 bytes
+(epstopdf)             Output file: <02-GrowthQDs/Pictures/RecipeSFD-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-19 20:42:10
+(epstopdf)                    size: 26079 bytes
+(epstopdf)             Command: <repstopdf --outfile=02-GrowthQDs/Pictures/Reci
+peSFD-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSFD.eps>
+(epstopdf)             \includegraphics on input line 940.
+Package epstopdf Info: Output file is already uptodate.
+
+<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=649, 1052.93375pt x 5
+97.23125pt>
+File: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>
+Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf u
+sed on input line 940.
+(pdftex.def)             Requested size: 398.33858pt x 225.93867pt.
+ [42 <./02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>] [43]
+Chapter III.
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 965.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44
+
+]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 975.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 987.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 997.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1007.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46] [47]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1017.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1023.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 1023.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1023.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1029.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1039.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1050.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 1050.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1050.
+
+[49]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1056.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1066.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1076.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [51]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1090.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [52]
+File: FillingPicture.png Graphic file (type png)
+
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1100.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1110.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1120.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [54]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1133.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+File: FillingPicture.png Graphic file (type png)
+
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1143.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55]
+File: FillingPicture.png Graphic file (type png)
+ <use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1153.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1163.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56] [57]
+Chapter IV.
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Spectras.eps>
+(epstopdf)                    date: 2017-04-25 20:47:40
+(epstopdf)                    size: 760686 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Spectras-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-04-25 20:47:48
+(epstopdf)                    size: 91664 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Spect
+ras-eps-converted-to.pdf 04-CrMagOpt/Pictures/Spectras.eps>
+(epstopdf)             \includegraphics on input line 1188.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf, id=743, 995.72pt x 398.488
+75pt>
+File: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf use
+d on input line 1188.
+(pdftex.def)             Requested size: 426.79134pt x 170.80566pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1188--1189
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58
+
+] <04-CrMagOpt/Pictures/EnLvl.png, id=751, 540.51938pt x 542.025pt>
+File: 04-CrMagOpt/Pictures/EnLvl.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/EnLvl.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/EnLvl.png used on input line 1198
+.
+(pdftex.def)             Requested size: 284.52756pt x 285.32828pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[59 <./04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>] [60 <./04-CrMagOpt/
+Pictures/EnLvl.png>]
+<04-CrMagOpt/Pictures/LinPol.png, id=779, 1138.2525pt x 724.95844pt>
+File: 04-CrMagOpt/Pictures/LinPol.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/LinPol.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/LinPol.png used on input line 121
+6.
+(pdftex.def)             Requested size: 426.79134pt x 271.82556pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1216--1217
+ [] 
+ []
+
+[61 <./04-CrMagOpt/Pictures/LinPol.png>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Decay.eps>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 125892 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Decay-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 45422 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Decay
+-eps-converted-to.pdf 04-CrMagOpt/Pictures/Decay.eps>
+(epstopdf)             \includegraphics on input line 1226.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf, id=789, 711.65875pt x 381.425
+pt>
+File: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf used o
+n input line 1226.
+(pdftex.def)             Requested size: 284.52756pt x 152.49162pt.
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Temp.eps>
+(epstopdf)                    date: 2017-05-30 05:34:36
+(epstopdf)                    size: 288418 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Temp-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-30 05:34:36
+(epstopdf)                    size: 42788 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Temp-
+eps-converted-to.pdf 04-CrMagOpt/Pictures/Temp.eps>
+(epstopdf)             \includegraphics on input line 1236.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf, id=798, 395.4775pt x 569.12625
+pt>
+File: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf used on
+ input line 1236.
+(pdftex.def)             Requested size: 199.16928pt x 286.62057pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/PLEDotPres.eps>
+(epstopdf)                    date: 2017-05-09 17:31:34
+(epstopdf)                    size: 1872307 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/PLEDotPres-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-05-09 17:32:17
+(epstopdf)                    size: 120929 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/PLEDo
+tPres-eps-converted-to.pdf 04-CrMagOpt/Pictures/PLEDotPres.eps>
+(epstopdf)             \includegraphics on input line 1250.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf, id=800, 882.29625pt x 54
+9.05125pt>
+File: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf u
+sed on input line 1250.
+(pdftex.def)             Requested size: 426.79134pt x 265.59418pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1250--1251
+ [] 
+ []
+
+[62 <./04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/FullPLEv2.eps>
+(epstopdf)                    date: 2017-05-09 21:50:59
+(epstopdf)                    size: 3579285 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/FullPLEv2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-05-09 21:51:26
+(epstopdf)                    size: 194112 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/FullP
+LEv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/FullPLEv2.eps>
+(epstopdf)             \includegraphics on input line 1262.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=817, 910.40125pt x 981
+.6675pt>
+File: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf us
+ed on input line 1262.
+(pdftex.def)             Requested size: 398.33858pt x 429.5234pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63 <./04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>] [64 <./04-CrMagOpt/Pict
+ures/PLEDotPres-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+[65 <./04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>]
+Overfull \hbox (5.13042pt too wide) in paragraph at lines 1275--1276
+[]\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
+0 meV. This state presents
+ []
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/MagOptv2.eps>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 2607418 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/MagOptv2-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 112741 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
+tv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptv2.eps>
+(epstopdf)             \includegraphics on input line 1283.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf, id=859, 597.23125pt x 629.
+35126pt>
+File: 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf use
+d on input line 1283.
+(pdftex.def)             Requested size: 284.52756pt x 299.82843pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/MagOptLowSym.eps>
+(epstopdf)                    date: 2017-05-09 21:59:03
+(epstopdf)                    size: 2745597 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/MagOptLowSym-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-05-09 22:05:12
+(epstopdf)                    size: 295732 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
+tLowSym-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptLowSym.eps>
+(epstopdf)             \includegraphics on input line 1293.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf, id=866, 341.275pt x 46
+9.755pt>
+File: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf
+ used on input line 1293.
+(pdftex.def)             Requested size: 284.52756pt x 391.66702pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[66] [67 <./04-CrMagOpt/Pictures/MagOptv2-eps-converted-to.pdf>] [68 <./04-CrMa
+gOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>]
+<04-CrMagOpt/Pictures/SimulMagOptv2.png, id=903, 580.41844pt x 708.39656pt>
+File: 04-CrMagOpt/Pictures/SimulMagOptv2.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/SimulMagOptv2.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/SimulMagOptv2.png used on input l
+ine 1309.
+(pdftex.def)             Requested size: 284.52756pt x 347.26868pt.
+ [69 <./04-CrMagOpt/Pictures/SimulMagOptv2.png>]
+
+LaTeX Warning: Reference `Cralone' on page 70 undefined on input line 1322.
+
+
+Overfull \hbox (1.17036pt too wide) in paragraph at lines 1331--1332
+[]$\OMS/cmsy/m/n/12 H[]$ \T1/cmr/m/n/12 de-scribes the short range and long ran
+ge electron-hole in-ter-ac-tion, through
+ []
+
+
+LaTeX Warning: Reference `HBand' on page 70 undefined on input line 1333.
+
+[70]
+Overfull \hbox (8.48991pt too wide) in paragraph at lines 1357--1357
+[]|\T1/cmr/m/n/12 arg(R)| 
+ []
+
+
+Overfull \hbox (2.82564pt too wide) in paragraph at lines 1358--1358
+[]|$\OML/cmm/m/it/12 ^^VeV=T[]$| 
+ []
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/HighE.eps>
+(epstopdf)                    date: 2017-05-09 22:02:23
+(epstopdf)                    size: 7449574 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/HighE-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 229654 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/HighE
+-eps-converted-to.pdf 04-CrMagOpt/Pictures/HighE.eps>
+(epstopdf)             \includegraphics on input line 1372.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf, id=937, 896.34875pt x 882.296
+25pt>
+File: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf used o
+n input line 1372.
+(pdftex.def)             Requested size: 284.52756pt x 280.06537pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[71] [72 <./04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/6peaks.eps>
+(epstopdf)                    date: 2017-05-15 20:53:55
+(epstopdf)                    size: 2991174 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/6peaks-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-05-15 20:54:20
+(epstopdf)                    size: 272000 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/6peak
+s-eps-converted-to.pdf 04-CrMagOpt/Pictures/6peaks.eps>
+(epstopdf)             \includegraphics on input line 1395.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf, id=956, 1180.41pt x 612.2875
+pt>
+File: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf used 
+on input line 1395.
+(pdftex.def)             Requested size: 426.79134pt x 221.3763pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1395--1396
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/EfieldX-Xc.eps>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 1626793 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/EfieldX-Xc-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-05-30 05:34:35
+(epstopdf)                    size: 112904 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Efiel
+dX-Xc-eps-converted-to.pdf 04-CrMagOpt/Pictures/EfieldX-Xc.eps>
+(epstopdf)             \includegraphics on input line 1407.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf, id=962, 668.4975pt x 534
+.99875pt>
+File: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf u
+sed on input line 1407.
+(pdftex.def)             Requested size: 341.43306pt x 273.25392pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[73]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/SplitUnderEfiledXCr.e
+ps>
+(epstopdf)                    date: 2017-04-13 21:59:32
+(epstopdf)                    size: 1752186 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/SplitUnderEfiledXCr-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-13 22:00:00
+(epstopdf)                    size: 254064 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Split
+UnderEfiledXCr-eps-converted-to.pdf 04-CrMagOpt/Pictures/SplitUnderEfiledXCr.ep
+s>
+(epstopdf)             \includegraphics on input line 1419.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf, id=974, 614.295
+pt x 555.07375pt>
+File: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted
+-to.pdf used on input line 1419.
+(pdftex.def)             Requested size: 341.43306pt x 308.51846pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<04-CrMagOpt/Pictures/CrCloseDot.png, id=978, 938.75719pt x 542.025pt>
+File: 04-CrMagOpt/Pictures/CrCloseDot.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/CrCloseDot.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/CrCloseDot.png used on input line
+ 1429.
+(pdftex.def)             Requested size: 426.79134pt x 246.42326pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1429--1430
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[74 <./04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>] [75 <./04-CrMagOpt/Pi
+ctures/EfieldX-Xc-eps-converted-to.pdf>] [76 <./04-CrMagOpt/Pictures/SplitUnder
+EfiledXCr-eps-converted-to.pdf>] [77 <./04-CrMagOpt/Pictures/CrCloseDot.png>]
+Chapter V.
+File: FillingPicture.png Graphic file (type png)
+<use FillingPicture.png>
+Package pdftex.def Info: FillingPicture.png used on input line 1464.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [78
+
+]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)                    date: 2017-04-07 18:44:50
+(epstopdf)                    size: 691606 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPeaks-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-04-07 18:48:02
+(epstopdf)                    size: 88118 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+eaks-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)             \includegraphics on input line 1480.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf, id=1032, 739.76375pt x 72
+5.71124pt>
+File: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf us
+ed on input line 1480.
+(pdftex.def)             Requested size: 284.52756pt x 279.11731pt.
+ [79 <./05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)                    date: 2017-04-07 19:00:04
+(epstopdf)                    size: 536623 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPw-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-04-07 19:02:56
+(epstopdf)                    size: 123817 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+w-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)             \includegraphics on input line 1492.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf, id=1049, 255.95625pt x 449.6
+8pt>
+File: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf used 
+on input line 1492.
+(pdftex.def)             Requested size: 170.71652pt x 299.92545pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/CrosscorFit+B.eps>
+(epstopdf)                    date: 2017-04-07 20:12:58
+(epstopdf)                    size: 312504 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/CrosscorFit+B-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-04-07 20:14:16
+(epstopdf)                    size: 49595 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/Crosscor
+Fit+B-eps-converted-to.pdf 05-CrDyn/Pictures/CrosscorFit+B.eps>
+(epstopdf)             \includegraphics on input line 1507.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf, id=1057, 654.445pt x 313
+.17pt>
+File: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf u
+sed on input line 1507.
+(pdftex.def)             Requested size: 426.79134pt x 204.23186pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1507--1508
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<05-CrDyn/Pictures/FillingPicture.png, id=1058, 650.43pt x 406.51875pt>
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1517.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[81 <./05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>] [82 <./05-CrDyn/Pictu
+res/CrosscorFit+B-eps-converted-to.pdf> <./05-CrDyn/Pictures/FillingPicture.png
+>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/PwVar.eps>
+(epstopdf)                    date: 2017-03-24 21:19:07
+(epstopdf)                    size: 2352949 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/PwVar-eps-converted-to.p
+df>
+(epstopdf)                    date: 2017-03-24 21:19:29
+(epstopdf)                    size: 108129 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PwVar-ep
+s-converted-to.pdf 05-CrDyn/Pictures/PwVar.eps>
+(epstopdf)             \includegraphics on input line 1529.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/PwVar-eps-converted-to.pdf, id=1077, 612.2875pt x 612.2875pt
+>
+File: 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/PwVar-eps-converted-to.pdf used on i
+nput line 1529.
+(pdftex.def)             Requested size: 284.52756pt x 284.5239pt.
+ [83 <./05-CrDyn/Pictures/PwVar-eps-converted-to.pdf>]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+ <use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1539.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/SimulAutoCross.eps>
+(epstopdf)                    date: 2017-04-07 20:13:23
+(epstopdf)                    size: 539590 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/SimulAutoCross-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-04-07 20:14:19
+(epstopdf)                    size: 117975 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/SimulAut
+oCross-eps-converted-to.pdf 05-CrDyn/Pictures/SimulAutoCross.eps>
+(epstopdf)             \includegraphics on input line 1551.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf, id=1090, 511.9125pt x 4
+83.8075pt>
+File: 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf 
+used on input line 1551.
+(pdftex.def)             Requested size: 284.52756pt x 268.90761pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `DotSpectra' on page 84 undefined on input line 1557.
+
+[84]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+ <use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1561.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[85 <./05-CrDyn/Pictures/SimulAutoCross-eps-converted-to.pdf>]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1571.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/SimulAutocorPw.eps>
+(epstopdf)                    date: 2017-04-07 20:28:16
+(epstopdf)                    size: 357586 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/SimulAutocorPw-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-04-07 20:29:13
+(epstopdf)                    size: 80877 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/SimulAut
+ocorPw-eps-converted-to.pdf 05-CrDyn/Pictures/SimulAutocorPw.eps>
+(epstopdf)             \includegraphics on input line 1581.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf, id=1114, 250.9375pt x 4
+46.66875pt>
+File: 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf 
+used on input line 1581.
+(pdftex.def)             Requested size: 170.71652pt x 303.88748pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/Pump0+1.eps>
+(epstopdf)                    date: 2017-04-07 20:51:04
+(epstopdf)                    size: 587155 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/Pump0+1-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-04-07 21:06:57
+(epstopdf)                    size: 79586 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/Pump0+1-
+eps-converted-to.pdf 05-CrDyn/Pictures/Pump0+1.eps>
+(epstopdf)             \includegraphics on input line 1593.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf, id=1115, 497.86pt x 702.625pt>
+File: 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf Graphic file (type pdf)
+<use 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf used on
+ input line 1593.
+(pdftex.def)             Requested size: 284.52756pt x 401.5618pt.
+ [86]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1603.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[87]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+ <use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1613.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/RelaxDark.eps>
+(epstopdf)                    date: 2017-04-07 21:06:26
+(epstopdf)                    size: 328740 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/RelaxDark-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-04-07 21:06:59
+(epstopdf)                    size: 47208 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/RelaxDar
+k-eps-converted-to.pdf 05-CrDyn/Pictures/RelaxDark.eps>
+(epstopdf)             \includegraphics on input line 1625.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf, id=1126, 620.3175pt x 347.29
+75pt>
+File: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf used 
+on input line 1625.
+(pdftex.def)             Requested size: 284.52756pt x 159.29774pt.
+ [88 <./05-CrDyn/Pictures/SimulAutocorPw-eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[89 <./05-CrDyn/Pictures/Pump0+1-eps-converted-to.pdf>] [90]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1639.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1649.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[91 <./05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>] [92]
+File: 05-CrDyn/Pictures/FillingPicture.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/FillingPicture.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/FillingPicture.png used on input lin
+e 1659.
+(pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+ [93] [94
+
+] [95] [96]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1668.
+ [97]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1668.
+
+(./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1668.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1668.
+
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6F37B71F7A35757C7CE4606C1A699D5F;4251.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'Thesis.run.xml'.
+\openout1 = `Thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1668.
+ ) 
 Here is how much of TeX's memory you used:
- 12358 strings out of 495028
- 190690 string characters out of 6181497
- 479282 words of memory out of 5000000
- 15433 multiletter control sequences out of 15000+600000
- 4702 words of font info for 16 fonts, out of 8000000 for 9000
+ 13689 strings out of 495028
+ 214632 string characters out of 6181497
+ 651685 words of memory out of 5000000
+ 16309 multiletter control sequences out of 15000+600000
+ 24864 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,1n,35p,932b,1445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,20n,49p,1723b,1456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </
+home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/
+audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audre
+yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audreyazur
+a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audreyazura/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazura/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/euler/eurb10.pfb>
+Output written on Thesis.pdf (97 pages, 5875104 bytes).
+PDF statistics:
+ 1669 PDF objects out of 1728 (max. 8388607)
+ 1169 compressed objects within 12 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
