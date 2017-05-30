@@ -1,46 +1,11 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[2] Config.pm:357> INFO - Logfile is 'Thesis.blg'
-[262] biber-MSWIN64:303> INFO - === 
-[396] Biber.pm:359> INFO - Reading 'Thesis.bcf'
-[585] Biber.pm:835> INFO - Found 49 citekeys in bib section 0
-[656] Biber.pm:3670> INFO - Processing section 0
-[744] Biber.pm:3840> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
-[770] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[798] bibtex.pm:1292> INFO - Found BibTeX data source 'Bibliography.bib'
-[804] Utils.pm:164> WARN - Duplicate entry key: 'DELum' in file 'Bibliography.bib', skipping ...
-[901] Utils.pm:164> WARN - month field 'May' in entry 'LuttingerHam' is not an integer - this will probably not sort properly.
-[948] Utils.pm:164> WARN - month field 'Feb' in entry 'LuttElecMotion' is not an integer - this will probably not sort properly.
-[976] Utils.pm:164> WARN - month field 'Jul' in entry 'VBMArticle' is not an integer - this will probably not sort properly.
-[1024] Utils.pm:164> WARN - month field 'Apr' in entry 'StrainRelaxZnTeGaAs001' is not an integer - this will probably not sort properly.
-[1037] Utils.pm:164> WARN - month field 'Mar' in entry 'EPRCr' is not an integer - this will probably not sort properly.
-[1041] Utils.pm:164> WARN - month field 'Aug' in entry 'DMSCrExchInt' is not an integer - this will probably not sort properly.
-[1045] Utils.pm:164> WARN - month field 'Jul' in entry 'CdCrSExchInt' is not an integer - this will probably not sort properly.
-[1048] Utils.pm:164> WARN - month field 'Dec' in entry 'SplitInvTh' is not an integer - this will probably not sort properly.
-[1061] Utils.pm:164> WARN - month field 'May' in entry 'DELum' is not an integer - this will probably not sort properly.
-[1066] Utils.pm:164> WARN - month field 'Apr' in entry 'FineStructSplitGaAsdots' is not an integer - this will probably not sort properly.
-[1071] Utils.pm:164> WARN - month field 'Feb' in entry 'BesombesPumpMnSFD' is not an integer - this will probably not sort properly.
-[1076] Utils.pm:164> WARN - month field 'Jul' in entry 'LegerQDGeomEffect' is not an integer - this will probably not sort properly.
-[1079] Utils.pm:164> WARN - month field 'Feb' in entry 'DERecombTh' is not an integer - this will probably not sort properly.
-[1084] Utils.pm:164> WARN - month field 'Apr' in entry 'CarInSpinSplit' is not an integer - this will probably not sort properly.
-[1091] Utils.pm:164> WARN - month field 'May' in entry 'BiexFinStruct' is not an integer - this will probably not sort properly.
-[1095] Utils.pm:164> WARN - month field 'Sep' in entry 'DynhMn' is not an integer - this will probably not sort properly.
-[1097] Utils.pm:164> WARN - month field 'Oct' in entry 'ChargeSpectFluct' is not an integer - this will probably not sort properly.
-[1104] Utils.pm:164> WARN - month field 'Jan' in entry 'CrZnTe' is not an integer - this will probably not sort properly.
-[1116] Utils.pm:164> WARN - month field 'Oct' in entry 'SpinMechaDriv' is not an integer - this will probably not sort properly.
-[1122] Utils.pm:164> WARN - month field 'Aug' in entry 'LafuenteStrainMn' is not an integer - this will probably not sort properly.
-[1127] Utils.pm:164> WARN - month field 'Aug' in entry 'QDAutocor' is not an integer - this will probably not sort properly.
-[1130] Utils.pm:164> WARN - month field 'Oct' in entry 'IndistPhoton' is not an integer - this will probably not sort properly.
-[1138] Utils.pm:164> WARN - month field 'Oct' in entry 'SubnanoSpectDiff' is not an integer - this will probably not sort properly.
-[1142] Utils.pm:164> WARN - month field 'Aug' in entry 'PwSuperLinInc' is not an integer - this will probably not sort properly.
-[1146] Utils.pm:164> WARN - month field 'Aug' in entry 'SpinQJumps' is not an integer - this will probably not sort properly.
-[1150] Utils.pm:164> WARN - month field 'Nov' in entry 'ephBroad' is not an integer - this will probably not sort properly.
-[1156] Utils.pm:164> WARN - month field 'Apr' in entry 'LafuenteCrQD' is not an integer - this will probably not sort properly.
-[1160] Utils.pm:164> WARN - I didn't find a database entry for 'VBM' (section 0)
-[1161] Utils.pm:164> WARN - I didn't find a database entry for '??' (section 0)
-[1220] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1222] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[1222] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1275] bbl.pm:608> INFO - Writing 'Thesis.bbl' with encoding 'UTF-8'
-[1290] bbl.pm:712> INFO - Output to Thesis.bbl
-[1292] Biber.pm:109> INFO - WARNINGS: 30
+[3] Config.pm:318> INFO - This is Biber 1.8
+[4] Config.pm:321> INFO - Logfile is 'Thesis.blg'
+[293] biber:275> INFO - === mar. mai 30, 2017, 19:41:45
+[294] Biber.pm:333> INFO - Reading 'Thesis.bcf'
+[594] Utils.pm:169> WARN - Warning: Found biblatex control file version 3.3, expected version 2.5
+[599] Biber.pm:630> INFO - Found 49 citekeys in bib section 0
+[668] Biber.pm:3053> INFO - Processing section 0
+[738] Biber.pm:3190> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[759] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[790] bibtex.pm:808> INFO - Found BibTeX data source 'Bibliography.bib'
+[798] Utils.pm:169> WARN - Duplicate entry key: 'DELum' in file 'Bibliography.bib', skipping ...
