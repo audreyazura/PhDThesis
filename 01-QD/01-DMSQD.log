@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  22 MAY 2017 21:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.30)  30 MAY 2017 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **01-DMSQD.tex
 (./01-DMSQD.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 6 languages loaded.
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -325,6 +325,8 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen114
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1109,13 +1111,13 @@ Package logreq Info: Writing requests to '01-DMSQD.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 760.
  ) 
 Here is how much of TeX's memory you used:
- 13090 strings out of 494958
- 201735 string characters out of 6179214
- 638901 words of memory out of 5000000
- 15973 multiletter control sequences out of 15000+600000
+ 13091 strings out of 495028
+ 201748 string characters out of 6181497
+ 638625 words of memory out of 5000000
+ 15958 multiletter control sequences out of 15000+600000
  19890 words of font info for 52 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 40i,18n,49p,1258b,1459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 40i,18n,49p,1258b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
 home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/
 audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audre

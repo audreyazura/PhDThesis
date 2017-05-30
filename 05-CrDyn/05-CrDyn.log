@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.4)  20 APR 2017 00:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.30)  30 MAY 2017 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **05-CrDyn.tex
 (./05-CrDyn.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 6 languages loaded.
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -325,6 +325,8 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count100
 \U@D=\dimen114
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -552,6 +554,243 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
+AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count115
+)
+\etb@tempcnta=\count116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count118
+\c@listtotal=\count119
+\c@listcount=\count120
+\c@liststart=\count121
+\c@liststop=\count122
+\c@citecount=\count123
+\c@citetotal=\count124
+\c@multicitecount=\count125
+\c@multicitetotal=\count126
+\c@instcount=\count127
+\c@maxnames=\count128
+\c@minnames=\count129
+\c@maxitems=\count130
+\c@minitems=\count131
+\c@citecounter=\count132
+\c@savedcitecounter=\count133
+\c@uniquelist=\count134
+\c@uniquename=\count135
+\c@refsection=\count136
+\c@refsegment=\count137
+\c@maxextratitle=\count138
+\c@maxextratitleyear=\count139
+\c@maxextrayear=\count140
+\c@maxextraalpha=\count141
+\c@abbrvpenalty=\count142
+\c@highnamepenalty=\count143
+\c@lownamepenalty=\count144
+\c@maxparens=\count145
+\c@parenlevel=\count146
+\blx@tempcnta=\count147
+\blx@tempcntb=\count148
+\blx@tempcntc=\count149
+\blx@maxsection=\count150
+\blx@maxsegment@0=\count151
+\blx@notetype=\count152
+\blx@parenlevel@text=\count153
+\blx@parenlevel@foot=\count154
+\blx@sectionciteorder@0=\count155
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\shorthandwidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count156
+\c@maxcomprange=\count157
+\c@mincompwidth=\count158
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count159
+\c@savedafterword=\count160
+\c@annotator=\count161
+\c@savedannotator=\count162
+\c@author=\count163
+\c@savedauthor=\count164
+\c@bookauthor=\count165
+\c@savedbookauthor=\count166
+\c@commentator=\count167
+\c@savedcommentator=\count168
+\c@editor=\count169
+\c@savededitor=\count170
+\c@editora=\count171
+\c@savededitora=\count172
+\c@editorb=\count173
+\c@savededitorb=\count174
+\c@editorc=\count175
+\c@savededitorc=\count176
+\c@foreword=\count177
+\c@savedforeword=\count178
+\c@holder=\count179
+\c@savedholder=\count180
+\c@introduction=\count181
+\c@savedintroduction=\count182
+\c@namea=\count183
+\c@savednamea=\count184
+\c@nameb=\count185
+\c@savednameb=\count186
+\c@namec=\count187
+\c@savednamec=\count188
+\c@shortauthor=\count189
+\c@savedshortauthor=\count190
+\c@shorteditor=\count191
+\c@savedshorteditor=\count192
+\c@translator=\count193
+\c@savedtranslator=\count194
+\c@labelname=\count195
+\c@savedlabelname=\count196
+\c@institution=\count197
+\c@savedinstitution=\count198
+\c@lista=\count199
+\c@savedlista=\count200
+\c@listb=\count201
+\c@savedlistb=\count202
+\c@listc=\count203
+\c@savedlistc=\count204
+\c@listd=\count205
+\c@savedlistd=\count206
+\c@liste=\count207
+\c@savedliste=\count208
+\c@listf=\count209
+\c@savedlistf=\count210
+\c@location=\count211
+\c@savedlocation=\count212
+\c@organization=\count213
+\c@savedorganization=\count214
+\c@origlocation=\count215
+\c@savedoriglocation=\count216
+\c@origpublisher=\count217
+\c@savedorigpublisher=\count218
+\c@publisher=\count219
+\c@savedpublisher=\count220
+\c@language=\count221
+\c@savedlanguage=\count222
+\c@pageref=\count223
+\c@savedpageref=\count224
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count225
+\c@textcitetotal=\count226
+\c@textcitemaxnames=\count227
+\c@biburlnumpenalty=\count228
+\c@biburlucpenalty=\count229
+\c@biburllcpenalty=\count230
+\c@smartand=\count231
+)
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2013/02/15 v0.9e biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count232
+\c@bbx:relatedtotal=\count233
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2013/02/15 v0.9e biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+Normal \count register pool exhausted, switching to extended pool.
+\c@cbx@tempcnta=\count277
+\c@cbx@tempcntb=\count278
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count279
+\@quotereset=\count280
 (./05-CrDyn.aux
 
 LaTeX Warning: Label `AutocorPwMod' multiply defined.
@@ -559,32 +798,32 @@ LaTeX Warning: Label `AutocorPwMod' multiply defined.
 )
 \openout1 = `05-CrDyn.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
+\scratchcounter=\count281
 \scratchdimen=\dimen129
 \scratchbox=\box28
-\nofMPsegments=\count116
-\nofMParguments=\count117
+\nofMPsegments=\count282
+\nofMParguments=\count283
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count118
+\MPscratchCnt=\count284
 \MPscratchDim=\dimen130
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
 \everyMPtoPDFconversion=\toks25
 )
 *geometry* driver: auto-detecting
@@ -622,30 +861,40 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 24.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count121
+\c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./05-CrDyn.out) (./05-CrDyn.out)
-\@outlinefile=\write3
-\openout3 = `05-CrDyn.out'.
+\@outlinefile=\write4
+\openout4 = `05-CrDyn.out'.
 
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `05-CrDyn.bcf'.
 
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '05-CrDyn.bbl' not found.
+
+No file 05-CrDyn.bbl.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 Chapter I.
-<../FillingPicture.png, id=52, 650.43pt x 406.51875pt>
+<../FillingPicture.png, id=48, 650.43pt x 406.51875pt>
 File: ../FillingPicture.png Graphic file (type png)
 
 <use ../FillingPicture.png>
-Package pdftex.def Info: ../FillingPicture.png used on input line 32.
+Package pdftex.def Info: ../FillingPicture.png used on input line 35.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
  [1
 
@@ -660,17 +909,28 @@ Package epstopdf Info: Source file: <Pictures/AutocorPeaks.eps>
 (epstopdf)                    size: 88118 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/AutocorPeaks-eps-
 converted-to.pdf Pictures/AutocorPeaks.eps>
-(epstopdf)             \includegraphics on input line 68.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/AutocorPeaks-eps-converted-to.pdf, id=62, 739.76375pt x 725.71124pt>
+<Pictures/AutocorPeaks-eps-converted-to.pdf, id=58, 739.76375pt x 725.71124pt>
 File: Pictures/AutocorPeaks-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/AutocorPeaks-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/AutocorPeaks-eps-converted-to.pdf used on inp
-ut line 68.
+ut line 71.
 (pdftex.def)             Requested size: 284.52756pt x 279.11731pt.
- [2 <./Pictures/AutocorPeaks-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Citation 'QDAutocor' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'IndistPhoton' on page 2 undefined on input line 77.
+
+[2 <./Pictures/AutocorPeaks-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'SubnanoSpectDiff' on page 3 undefined on input line 79
+.
+
 Package epstopdf Info: Source file: <Pictures/AutocorPw.eps>
 (epstopdf)                    date: 2017-04-07 19:00:04
 (epstopdf)                    size: 536623 bytes
@@ -679,15 +939,14 @@ Package epstopdf Info: Source file: <Pictures/AutocorPw.eps>
 (epstopdf)                    size: 123817 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/AutocorPw-eps-con
 verted-to.pdf Pictures/AutocorPw.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-
-<Pictures/AutocorPw-eps-converted-to.pdf, id=82, 255.95625pt x 449.68pt>
+<Pictures/AutocorPw-eps-converted-to.pdf, id=75, 255.95625pt x 449.68pt>
 File: Pictures/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/AutocorPw-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/AutocorPw-eps-converted-to.pdf used on input 
-line 80.
+line 83.
 (pdftex.def)             Requested size: 170.71652pt x 299.92545pt.
 
 
@@ -703,28 +962,28 @@ f>
 (epstopdf)                    size: 49595 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/CrosscorFit+B-eps
 -converted-to.pdf Pictures/CrosscorFit+B.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
- <Pictures/CrosscorFit+B-eps-converted-to.pdf, id=91, 654.445pt x 313.17pt>
+ <Pictures/CrosscorFit+B-eps-converted-to.pdf, id=82, 654.445pt x 313.17pt>
 File: Pictures/CrosscorFit+B-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/CrosscorFit+B-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/CrosscorFit+B-eps-converted-to.pdf used on in
-put line 95.
+put line 98.
 (pdftex.def)             Requested size: 426.79134pt x 204.23186pt.
 
-Overfull \hbox (8.53766pt too wide) in paragraph at lines 95--96
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 98--99
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures/FillingPicture.png, id=92, 650.43pt x 406.51875pt>
+<Pictures/FillingPicture.png, id=83, 650.43pt x 406.51875pt>
 File: Pictures/FillingPicture.png Graphic file (type png)
 
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 105.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 108.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -740,25 +999,29 @@ Package epstopdf Info: Source file: <Pictures/PwVar.eps>
 (epstopdf)                    size: 108129 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/PwVar-eps-convert
 ed-to.pdf Pictures/PwVar.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/PwVar-eps-converted-to.pdf, id=111, 612.2875pt x 612.2875pt>
+<Pictures/PwVar-eps-converted-to.pdf, id=102, 612.2875pt x 612.2875pt>
 File: Pictures/PwVar-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/PwVar-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/PwVar-eps-converted-to.pdf used on input line
- 117.
+ 120.
 (pdftex.def)             Requested size: 284.52756pt x 284.5239pt.
 
 
-LaTeX Warning: Citation `??' on page 6 undefined on input line 123.
+LaTeX Warning: Citation '??' on page 6 undefined on input line 126.
 
 [6 <./Pictures/PwVar-eps-converted-to.pdf>]
 File: Pictures/FillingPicture.png Graphic file (type png)
  <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 127.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 130.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
+
+
+LaTeX Warning: Citation 'PwSuperLinInc' on page 7 undefined on input line 136.
+
 Package epstopdf Info: Source file: <Pictures/SimulAutoCross.eps>
 (epstopdf)                    date: 2017-04-07 20:13:23
 (epstopdf)                    size: 539590 bytes
@@ -768,26 +1031,38 @@ df>
 (epstopdf)                    size: 117975 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SimulAutoCross-ep
 s-converted-to.pdf Pictures/SimulAutoCross.eps>
-(epstopdf)             \includegraphics on input line 139.
+(epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/SimulAutoCross-eps-converted-to.pdf, id=125, 511.9125pt x 483.8075pt>
+<Pictures/SimulAutoCross-eps-converted-to.pdf, id=115, 511.9125pt x 483.8075pt>
 File: Pictures/SimulAutoCross-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SimulAutoCross-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/SimulAutoCross-eps-converted-to.pdf used on i
-nput line 139.
+nput line 142.
 (pdftex.def)             Requested size: 284.52756pt x 268.90761pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `DotSpectra' on page 7 undefined on input line 145.
+LaTeX Warning: Citation 'SpinQJumps' on page 7 undefined on input line 148.
+
+
+LaTeX Warning: Citation 'ephBroad' on page 7 undefined on input line 148.
+
+
+LaTeX Warning: Citation 'LafuenteCrQD' on page 7 undefined on input line 148.
+
+
+LaTeX Warning: Reference `DotSpectra' on page 7 undefined on input line 148.
+
+
+LaTeX Warning: Citation 'LafuenteCrQD' on page 7 undefined on input line 148.
 
 [7]
 File: Pictures/FillingPicture.png Graphic file (type png)
  <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 149.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 152.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -797,7 +1072,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Pictures/FillingPicture.png Graphic file (type png)
 
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 159.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -812,15 +1087,15 @@ df>
 (epstopdf)                    size: 80877 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SimulAutocorPw-ep
 s-converted-to.pdf Pictures/SimulAutocorPw.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/SimulAutocorPw-eps-converted-to.pdf, id=150, 250.9375pt x 446.66875pt
+<Pictures/SimulAutocorPw-eps-converted-to.pdf, id=131, 250.9375pt x 446.66875pt
 >
 File: Pictures/SimulAutocorPw-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/SimulAutocorPw-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/SimulAutocorPw-eps-converted-to.pdf used on i
-nput line 169.
+nput line 172.
 (pdftex.def)             Requested size: 170.71652pt x 303.88748pt.
 
 
@@ -834,14 +1109,14 @@ Package epstopdf Info: Source file: <Pictures/Pump0+1.eps>
 (epstopdf)                    size: 79586 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Pump0+1-eps-conve
 rted-to.pdf Pictures/Pump0+1.eps>
-(epstopdf)             \includegraphics on input line 181.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Pump0+1-eps-converted-to.pdf, id=151, 497.86pt x 702.625pt>
+<Pictures/Pump0+1-eps-converted-to.pdf, id=132, 497.86pt x 702.625pt>
 File: Pictures/Pump0+1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/Pump0+1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Pump0+1-eps-converted-to.pdf used on input li
-ne 181.
+ne 184.
 (pdftex.def)             Requested size: 284.52756pt x 401.5618pt.
  [9]
 
@@ -849,7 +1124,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: Pictures/FillingPicture.png Graphic file (type png)
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 191.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 194.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -858,7 +1133,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [10]
 File: Pictures/FillingPicture.png Graphic file (type png)
  <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 201.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 204.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -872,14 +1147,14 @@ Package epstopdf Info: Source file: <Pictures/RelaxDark.eps>
 (epstopdf)                    size: 47208 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/RelaxDark-eps-con
 verted-to.pdf Pictures/RelaxDark.eps>
-(epstopdf)             \includegraphics on input line 213.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/RelaxDark-eps-converted-to.pdf, id=162, 620.3175pt x 347.2975pt>
+<Pictures/RelaxDark-eps-converted-to.pdf, id=143, 620.3175pt x 347.2975pt>
 File: Pictures/RelaxDark-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Pictures/RelaxDark-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/RelaxDark-eps-converted-to.pdf used on input 
-line 213.
+line 216.
 (pdftex.def)             Requested size: 284.52756pt x 159.29774pt.
  [11 <./Pictures/SimulAutocorPw-eps-converted-to.pdf>]
 
@@ -889,7 +1164,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Pictures/FillingPicture.png Graphic file (type png)
 
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 227.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 230.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -897,7 +1172,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: Pictures/FillingPicture.png Graphic file (type png)
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 237.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 240.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
 
 
@@ -907,21 +1182,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Pictures/FillingPicture.png Graphic file (type png)
 
 <use Pictures/FillingPicture.png>
-Package pdftex.def Info: Pictures/FillingPicture.png used on input line 247.
+Package pdftex.def Info: Pictures/FillingPicture.png used on input line 250.
 (pdftex.def)             Requested size: 284.52756pt x 177.8329pt.
- (./05-CrDyn.bbl [16]
-Chapter II.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
- [17
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+
+LaTeX Warning: Empty bibliography on input line 257.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./05-CrDyn.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `05-CrDyn.out' has not changed.
-(rerunfilecheck)             Checksum: 304B1CCF67044155E520AEBA4C43CE28;971.
+(rerunfilecheck)             Checksum: 93A63892BFBE9A0D1D08B169427B2E47;923.
 
 
 LaTeX Warning: There were undefined references.
@@ -929,31 +1203,38 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                05-CrDyn
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '05-CrDyn.run.xml'.
+\openout1 = `05-CrDyn.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  ) 
 Here is how much of TeX's memory you used:
- 7592 strings out of 494958
- 106820 string characters out of 6179214
- 207487 words of memory out of 5000000
- 10648 multiletter control sequences out of 15000+600000
- 13908 words of font info for 35 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 30i,6n,35p,1709b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </
-home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/
-audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audre
-yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audreyazur
-a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazura/.te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb>
-Output written on 05-CrDyn.pdf (17 pages, 817334 bytes).
+ 12802 strings out of 495028
+ 198840 string characters out of 6181497
+ 626807 words of memory out of 5000000
+ 15790 multiletter control sequences out of 15000+600000
+ 13224 words of font info for 34 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,6n,35p,1725b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
+home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/
+audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audre
+yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazur
+a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on 05-CrDyn.pdf (16 pages, 814361 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

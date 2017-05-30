@@ -1,10 +1,13 @@
 #!/usr/local/bin/xonsh
 
 import re
-import antigravity
+#import antigravity
 
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
+
+first = 1
+maxCount = 6
 
 packages = []
 lastPack = 2
@@ -26,7 +29,7 @@ makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 
 with open('Thesis.tex', 'w') as Thesis:
-	for i in range(1,7):
+	for i in range(first,maxCount):
 		num = '0' + str(i)
 		fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 		if fold:
@@ -40,7 +43,7 @@ with open('Thesis.tex', 'w') as Thesis:
 						if not(commentStr.search(line)):
 							treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
 							
-							if i == 1 && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
+							if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
 								print(treatedLine, file=Thesis)
 								if usepackageStr.search(treatedLine):
 									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
@@ -55,9 +58,9 @@ with open('Thesis.tex', 'w') as Thesis:
 										packages.append(package)
 										print("Package added: " + package)
 										countLine = 1
-										with open('Thesis.tex', 'r') as thesis:
+										with open('Thesis.tex', 'r') as refThesis:
 											with open('copThesis.tex', 'w') as copiedThesis:
-												for copLine in thesis:
+												for copLine in refThesis:
 													copTreatedLine = newlineStr.sub(nullChain, copLine)
 													if countLine == lastPack:
 														adLine = copTreatedLine + '\n' + treatedLine
@@ -68,8 +71,9 @@ with open('Thesis.tex', 'w') as Thesis:
 										lastPack+=1
 										rm Thesis.tex
 										mv copThesis.tex Thesis.tex
+										Thesis = open('Thesis.tex', 'a')
 								
-								elif i == 5 && not(bibresStr.search(treatedLine)):
+								elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
 									print(treatedLine, file=Thesis)
 								
 								elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
@@ -77,9 +81,9 @@ with open('Thesis.tex', 'w') as Thesis:
 					
 				echo 'File ' @(cfile.group()) ' done'
 
-echo 'Starting latex compilation'
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
-biber Thesis
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
-pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex
-evince Thesis.pdf
+print('\nLaunch compilation manually writing:\n')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
+print('biber Thesis')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
+print('evince Thesis.pdf\n')

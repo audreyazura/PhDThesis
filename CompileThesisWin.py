@@ -3,6 +3,9 @@
 import re
 #import antigravity
 
+first = 1
+maxCount = 6
+
 !(del Thesis.tex)
 print('Old Thesis.tex deleted')
 
@@ -27,7 +30,7 @@ newcomStr = re.compile(r'\\renewcommand')
 quoteStr = re.compile(r'\"')
 
 with open('Thesis.tex', 'w') as Thesis:
-        for i in range(1,7):
+        for i in range(first,maxCount):
         	num = '0' + str(i)
         	fold = re.search(num + '-[a-zA-z-]{1,10}', str(!(dir)))
         	if fold:
@@ -41,7 +44,7 @@ with open('Thesis.tex', 'w') as Thesis:
         					if not(commentStr.search(line)):
         						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
                         				
-                        				if i == 1 && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
+                        				if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
                         					print(treatedLine, file=Thesis)
                         					if usepackageStr.search(treatedLine):
                         						package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
@@ -69,8 +72,9 @@ with open('Thesis.tex', 'w') as Thesis:
                         							lastPack+=1
                         							!(del Thesis.tex)
                         							!(rename copThesis.tex Thesis.tex)
+                        							Thesis = open('Thesis.tex', 'a')
                         						
-                        					elif i == 5 && not(bibresStr.search(treatedLine)):
+                        					elif i == maxCount && not(bibresStr.search(treatedLine)):
                         						print(treatedLine, file=Thesis)
                         					
                         					elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
