@@ -647,12 +647,8 @@ Since a DMS contain a small percentage of magnetic atoms, we can write the hamil
 		
 		\subsection{Effect of the confinement\label{ExchIntQD}}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-	\newline
+		Now that we established the basics of the interactions between carriers and magnetic atoms, we will do as we did in Sec.~\ref{e-hIntQD} and reduce the size of the studied semiconductor until reaching the quantum dot size and see how these interaction evolve with this reduction. Since both carriers and magnetic atom are now confine inside a small volume, the wave-functions have a bigger overlap and we can expect an increase of the exchange energies.
 
-	[PLACEHOLDER]
-	\newline
-		
 %		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
 %	\begin{align}
 %	\label{ehExchHamil}
@@ -668,7 +664,7 @@ Since a DMS contain a small percentage of magnetic atoms, we can write the hamil
 %	[PLACEHOLDER]
 %	\newline
 	
-	Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil}:
+	We will first consider the electron-hole exchange interaction in a QD without magnetic atom. Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil} in a QD symmetry:
 	\begin{align}
 	\label{Heh}
 		\begin{array}{rll}
@@ -676,11 +672,13 @@ Since a DMS contain a small percentage of magnetic atoms, we can write the hamil
 										& &+ \dfrac{\delta_2}{2}\left(\exp (2i\varphi_1)j_+ \sigma_+ + \exp (-2i\varphi_1)j_- \sigma_- \right)
 		\end{array}
 	\end{align}
-with $\delta_0$ representing the splitting between dark and bright exciton, $\delta_1$ the splitting between the bright exciton states and $\delta_2$ the splitting between the dark exciton states.
-	\newline
-
-	[PLACEHOLDER]
-	\newline
+with $\delta_0$ representing the splitting between dark and bright exciton, $\delta_1$ the splitting between the bright exciton states and $\delta_2$ the splitting between the dark exciton states. $\delta_0$ value is controlled both by long-range and short-range interaction, and is typically of about 1 meV in CdTe/ZnTe. $\delta_1$ only appear in anisotropic quantum dot, with $\varphi_1$ the direction of the anisotropy, and is induced by the long-range interaction, warying between a few tens and a few hundreds of $\mu$eV. Finally, $\delta_2$ primarily arise from the short-range interaction.
+	
+	Calculating the eigenstate of the hamiltonian \ref{Heh}, we find the optically active states are linearly polarized along $\varphi_1$ and $\varphi_1 + 90^{\circ}$ as followed:
+	\begin{align}
+		|\pi_{\varphi_1}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle + \exp(i\varphi_1)|-1\rangle\right) \\
+		|\pi_{\varphi_1 + 90^{\circ}}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle - \exp(i\varphi_1)|-1\rangle\right)
+	\end{align}
 
 	In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\varphi_1$ and $\varphi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 	\newline
