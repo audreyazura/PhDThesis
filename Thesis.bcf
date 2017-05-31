@@ -2154,42 +2154,6 @@
     <bcf:citekey order="26">StrainRelaxCdTeGaAs111</bcf:citekey>
     <bcf:citekey order="26">StrainRelaxCdTeGaAs100</bcf:citekey>
     <bcf:citekey order="27">CritThickCdTeCdZnTe</bcf:citekey>
-    <bcf:citekey order="28">EPRCr</bcf:citekey>
-    <bcf:citekey order="29">DMSCrExchInt</bcf:citekey>
-    <bcf:citekey order="29">CdCrSExchInt</bcf:citekey>
-    <bcf:citekey order="30">SplitInvTh</bcf:citekey>
-    <bcf:citekey order="31">DELongLifetime</bcf:citekey>
-    <bcf:citekey order="32">DELum</bcf:citekey>
-    <bcf:citekey order="33">FineStructSplitGaAsdots</bcf:citekey>
-    <bcf:citekey order="34">SplitInvTh</bcf:citekey>
-    <bcf:citekey order="35">BesombesPumpMnSFD</bcf:citekey>
-    <bcf:citekey order="36">LegerQDGeomEffect</bcf:citekey>
-    <bcf:citekey order="37">DERecombTh</bcf:citekey>
-    <bcf:citekey order="38">DELum</bcf:citekey>
-    <bcf:citekey order="39">SplitInvTh</bcf:citekey>
-    <bcf:citekey order="40">CarInSpinSplit</bcf:citekey>
-    <bcf:citekey order="40">BiexFinStruct</bcf:citekey>
-    <bcf:citekey order="41">CarInSpinSplit</bcf:citekey>
-    <bcf:citekey order="41">BiexFinStruct</bcf:citekey>
-    <bcf:citekey order="41">DynhMn</bcf:citekey>
-    <bcf:citekey order="42">DERecombTh</bcf:citekey>
-    <bcf:citekey order="43">DynhMn</bcf:citekey>
-    <bcf:citekey order="43">VBM</bcf:citekey>
-    <bcf:citekey order="44">DynhMn</bcf:citekey>
-    <bcf:citekey order="44">VBM</bcf:citekey>
-    <bcf:citekey order="45">ChargeSpectFluct</bcf:citekey>
-    <bcf:citekey order="46">CrZnTe</bcf:citekey>
-    <bcf:citekey order="47">SpinMechaDriv</bcf:citekey>
-    <bcf:citekey order="48">LafuenteStrainMn</bcf:citekey>
-    <bcf:citekey order="49">QDAutocor</bcf:citekey>
-    <bcf:citekey order="49">IndistPhoton</bcf:citekey>
-    <bcf:citekey order="50">SubnanoSpectDiff</bcf:citekey>
-    <bcf:citekey order="51">??</bcf:citekey>
-    <bcf:citekey order="52">PwSuperLinInc</bcf:citekey>
-    <bcf:citekey order="53">SpinQJumps</bcf:citekey>
-    <bcf:citekey order="53">ephBroad</bcf:citekey>
-    <bcf:citekey order="54">LafuenteCrQD</bcf:citekey>
-    <bcf:citekey order="55">LafuenteCrQD</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

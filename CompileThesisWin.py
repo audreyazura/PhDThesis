@@ -4,7 +4,7 @@ import re
 #import antigravity
 
 first = 1
-maxCount = 6
+maxCount = 5
 
 !(del Thesis.tex)
 print('Old Thesis.tex deleted')
@@ -40,7 +40,7 @@ with open('Thesis.tex', 'w') as Thesis:
         		if cfile:
         			searchedFile = folder + '/' + cfile.group()
         			with open(searchedFile, 'r') as inpFile:
-        				for line in inpFile:
+                                        for line in inpFile:
         					if not(commentStr.search(line)):
         						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
                         				
@@ -58,23 +58,24 @@ with open('Thesis.tex', 'w') as Thesis:
                         							package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
                         							packages.append(package)
                         							print("Package added: " + package)
+                        							lastPack+=1
                         							countLine = 1
                         							with open('Thesis.tex', 'r') as originThesis:
                                                                                         with open('copThesis.tex', 'w') as copiedThesis:
                                                                                                 for copLine in originThesis:
+                                                                                                        print(copLine)
                                                                                                 	copTreatedLine = newlineStr.sub(nullChain, copLine)
                                                                                                 	if countLine == lastPack:
                                                                                                 		adLine = copTreatedLine + '\n' + treatedLine
                                                                                                 		print(adLine, file=copiedThesis) 
-                                                                                                	else:
+                                                                                                	if countLine != lastPack:
                                                                                                 		print(copTreatedLine, file=copiedThesis)
                                                                                                 	countLine+=1
-                        							lastPack+=1
-                        							originThesis.close()
-                        							Thesis.close()
-                        							$(del Thesis.tex)
-                        							rename copThesis.tex Thesis.tex
-                        							Thesis = open('Thesis.tex', 'a')
+                        							#originThesis.close()
+                        							#Thesis.close()
+                        							#$(del Thesis.tex)
+                        							#rename copThesis.tex Thesis.tex
+                        							#Thesis = open('Thesis.tex', 'a')
                         						
                         					elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
                         						print(treatedLine, file=Thesis)
