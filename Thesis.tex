@@ -167,7 +167,7 @@ with:
 		
 	ZnTe crystal has a lattice parameter of $a_{ZnTe} = $6.10 \AA, while CdTe one is of $a_{CdTe} = $6.48 \AA. This lattice mismatch results in stress in a CdTe layer grown on a ZnTe substrate:
 		\begin{align}
-			\varepsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} = -5.8\%
+			\varepsilon_{\parallel} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} = -5.8\%
 		\end{align}
 		
 		In order to represent this strain and see their effect on the band, especially the $\Gamma_8$ band, we need to define a hamiltonian representing them. These strains deform the structure, so let's begin the representation with an volume $V = (x\mathbf{u_x} + y\mathbf{u_y} + z\mathbf{u_z}$, with $(\mathbf{u_x}, \mathbf{u_y}, \mathbf{u_z})$ an ortho-normalized basis. This volume will transform into another one $V' = (x\mathbf{u_x'} + y\mathbf{u_y'} + z\mathbf{u_z'})$, where:
@@ -232,7 +232,7 @@ with $\varepsilon = Tr(\overline{\overline{\varepsilon}}) = \varepsilon_{xx} + \
 	Let see how this apply to a CdTe layer deposited on a ZnTe layer. We define $z$ as the growth direction. As shown at the begin of this part, CdTe and ZnTe have a lattice mismatch of 5.8\%. Since both crystallize in a cubic lattice, the strain is the same in the $x$ and $y$ direction. We can then write the strain in the $xy$ plane:
 	\begin{align}
 	\label{epsperp}
-		\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\bot} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
+		\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\parallel} = \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
 	\end{align}
 In the $z$ direction, however, no stress apply: the crystal is free to expand in this direction in order to reduce the elastic energy. Therefore, we can write $\sigma_{zz} = 0$ and, according to Hooke's law in Eq.~\ref{HookeLaw}:
 	\begin{align}
@@ -244,10 +244,10 @@ In the $z$ direction, however, no stress apply: the crystal is free to expand in
 Using equality \ref{epsperp}, we can then deduce:
 	\begin{align}
 	\label{epsz}
-		\varepsilon_{zz} = - \frac{2C_{12}}{C_{11}} \varepsilon_{\bot} = - \frac{2C_{12}}{C_{11}} \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
+		\varepsilon_{zz} = - \frac{2C_{12}}{C_{11}} \varepsilon_{\parallel} = - \frac{2C_{12}}{C_{11}} \frac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}}
 	\end{align}
 	
-	Since we grow CdTe over a ZnTe substrate, the CdTe lattice is compressed in the plane, i.e. $\varepsilon_{\bot} < 0$. Since $C_{11}$, $C_{12} > 0$ and $\varepsilon_{\bot} < 0$ for CdTe over ZnTe (see Eq.~\ref{epsperp}, one can easily deduce that $\varepsilon_{zz} > 0$. In the hypothesis of no defect created by the lattice mismatch, all the other strain terms are equal to zero. We can then decompose this strain into two component: a hydrostatic part describing the volume variation without breaking the cubic symmetry, and a shear part introducing an anisotropy, breaking this symmetry:
+	Since we grow CdTe over a ZnTe substrate, the CdTe lattice is compressed in the plane, i.e. $\varepsilon_{\parallel} < 0$. Since $C_{11}$, $C_{12} > 0$ and $\varepsilon_{\parallel} < 0$ for CdTe over ZnTe (see Eq.~\ref{epsperp}, one can easily deduce that $\varepsilon_{zz} > 0$. In the hypothesis of no defect created by the lattice mismatch, all the other strain terms are equal to zero. We can then decompose this strain into two component: a hydrostatic part describing the volume variation without breaking the cubic symmetry, and a shear part introducing an anisotropy, breaking this symmetry:
 	\begin{align}
 		\overline{\overline{\varepsilon_{hyd}}} &= \frac{1}{3}(\varepsilon_{xx} + \varepsilon_{yy} + \varepsilon_{zz})I_3 \\
 		\overline{\overline{\varepsilon_{sh}}} &= \overline{\overline{\varepsilon}} - \overline{\overline{\varepsilon_{hyd}}}
@@ -255,16 +255,16 @@ Using equality \ref{epsperp}, we can then deduce:
 	
 	One can notice that $Tr(\overline{\overline{\varepsilon_{hybd}}}) = Tr(\overline{\overline{\varepsilon}}) = \varepsilon$. Since in the case of a hydrostatic compression, such as what is the case with CdTe over ZnTe, $\varepsilon_{hybd} < 0$, we then have $\varepsilon < 0$ and, according to the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}), the gap of CdTe increase. For CdTe, Bir-Pikus parameter are $a_{\nu} = 0.91$ eV, $b_{\nu} = 0.99$ eV and $d_{\nu} = 2.76$ eV~\cite{CdTeDefPot}.
 	
-	Seeing that $\varepsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\bot}$, we can simplify this hamiltonian to:
+	Seeing that $\varepsilon_{ij} = 0$ for $i\neq j$, we can rewrite the Bir-Pikus hamiltonian without the shear strain term. Moreover, since $J^2 = J_x^2 + J_y^2 + J_z^2$ and that $\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\parallel}$, we can simplify this hamiltonian to:
 	\begin{align}
-		{\cal H}_{BP, biax} = a_{\nu} \varepsilon I_4 + \frac{b_{\nu}}{3}(\varepsilon_{\bot} - \varepsilon_{zz})(J_x^2 + J_y^2 - 2 J_z^2)
+		{\cal H}_{BP, biax} = a_{\nu} \varepsilon I_4 + \frac{b_{\nu}}{3}(\varepsilon_{\parallel} - \varepsilon_{zz})(J_x^2 + J_y^2 - 2 J_z^2)
 	\end{align}
 And, since we are in the valence band with $J = \frac{3}{2}$ and $J_x^2 + J_y^2 + J_z^2 = J(J+1)I_4$, we can simplify the Bir-Pikus hamiltonian to its final form in the case of biaxal strain:
 	\begin{align}
 		{\cal H}_{BP, biax} = \left(a_{\nu} \varepsilon + \frac{5}{4} b_{\nu} (\varepsilon_{\nu} - \varepsilon_{zz})\right)I_4 - b_{\nu} (\varepsilon_{\nu} - \varepsilon_{zz})J_z^2
 	\end{align}
 	
-	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\varepsilon_{\bot} - \varepsilon_{z}$. Since $J_z|n\rangle = n|n\rangle$, we find:
+	Using Eq.~\ref{epsperp} and \ref{epsz}, we can easily calculate $\varepsilon_{\parallel} - \varepsilon_{z}$. Since $J_z|n\rangle = n|n\rangle$, we find:
 	\begin{align}
 		\begin{array}{rl}
 			E_{\pm \frac{3}{2}} - E_{\pm \frac{1}{2}} &= - 2b_{\nu} \left(1 + \dfrac{2C_{12}}{C_{11}} \right) \dfrac{a_{ZnTe} - a_{CdTe}}{a_{CdTe}} \\
@@ -478,6 +478,7 @@ The constant electron number supposition is good enough for the picture we want 
 	
 	${\cal H}_{hyb}$ mix the semiconductor states with the states of the impurities. It represents an exchange interaction between an electron of the semiconductor and one of the $d$ orbital of an impurity. It is also called the Anderson hamiltonian We can write the exchange constant as:
 	\begin{align}
+	\label{Vkd}
 		V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_1 \Phi_d (\mathbf{r} - \mathbf{R_d})
 	\end{align}
 with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch state of both the semiconductor and the impurity, meaning it can be reduce to zero by the symmetry of such functions in some specific cases.
@@ -486,9 +487,9 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
+		\includegraphics[width=12cm]{01-QD/Pictures/CrystalHamiltonians.png}
 	\end{center}
-	\caption{Exchange interaction diagram (I.2 in Laurent thesis)}
+	\caption{Different interactions derived from one particle hamiltonian. The wave-functions of the electron from the continuum and from the magnetic impurity are schematically drawn to show the hybridization arising from $H_{hyb}$. Impurity and lattice wave-functions are also drawn.}
 	\label{ExchInterIllust}
 	\end{figure}
 
@@ -496,7 +497,7 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
 	\begin{align}
 	\label{ehExchHamil}
-		{\cal H}_{SC}^{exch} = I_{eh} \bm{\upsigma}.\mathbf{J}
+		{\cal H}_{eh} = I_{eh} \bm{\upsigma}.\mathbf{J}
 	\end{align}
 The matrix elements being:
 	\begin{align}
@@ -520,7 +521,11 @@ The first term lift the degeneracy between exciton of total angular moment $X=2$
 	\newline
 
 	
-	The next interaction we consider is the one of two electrons from a localized atom. It represents internal transitions of the atom and will be treated separately when needed and represents the Hund rule. It will be noted ${\cal H}_U$.
+	The next interaction we consider is the one of two electrons from a localized atom. It represents internal transitions of the atom, representing the Hund rule. It is written:
+	\begin{align}
+		{\cal H}_U = \sum_{d, S, S'} U a_{d, S}^{\dagger} a_{d, S'}^{\dagger} a_{d, S'} a_{d, S'}
+	\end{align}
+with $U = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r'} \dfrac{e^2}{4\pi\varepsilon_0 |\mathbf{r} - \mathbf{r'}|} |\Phi_d (\mathbf{r})|^2 |\Phi_d (\mathbf{r'})|^2$ the Coulomb interaction between two electrons on the same orbital with different spins. Thus, it costs more energy to add an electron on the same orbital than on another, and we find back the Hund rule, with electron first filing all orbitals with parallel spin before adding an electron to an orbital with another one, with opposed spin.
 	
 	The third considered interaction is the one between an electron from the magnetic atom and an electron from the semiconductor. In the same fashion as with carrier of the bulk, it can be separated in two terms that will be developed in the next paragraphs: a direct Coulomb interaction between the two electrons, and an exchange interaction arising from the fermionic nature of electrons.
 	
@@ -542,10 +547,10 @@ As can be sawn on Eq.~\ref{sdSQ}, this interaction exchange the spin $\sigma$ an
 
 	We define:
 		\begin{align}
-			\begin{array}{rl}
-				\sigma_{kk'}^z &= a_{k, \sigma}^{\dagger} a_{k', \sigma} - a_{k, -\sigma}^{\dagger} a_{k', -\sigma} \\
-				\sigma_{kk'}^+ &= a_{k, \sigma}^{\dagger} a_{k', -\sigma} \\
-				\sigma_{kk'}^- &= a_{k, -\sigma}^{\dagger} a_{k', \sigma}
+			\begin{array}{l}
+				\sigma_{kk'}^z = a_{k, \sigma}^{\dagger} a_{k', \sigma} - a_{k, -\sigma}^{\dagger} a_{k', -\sigma} \\
+				\sigma_{kk'}^+ = a_{k, \sigma}^{\dagger} a_{k', -\sigma} \\
+				\sigma_{kk'}^- = a_{k, -\sigma}^{\dagger} a_{k', \sigma}
 			\end{array}
 		\end{align}
 Considering now that this interaction do not change the number of electron on the $d$ orbital of the considered magnetic atom, we can find the Kondo hamiltonian:
@@ -556,11 +561,11 @@ Since $J_{k,k'}$ is positive, the negative sign in front of the Kondo hamiltonia
 	
 	We can now write the hamiltonian \ref{HamilSQ}, detailing these new hamiltonians:
 		\begin{align}
-			{\cal H}_{SQ} &= {\cal H}_0 + {\cal H}_d + {\cal H}_{hyb} + {\cal H}_{U} + {\cal H}_{sd}
+			{\cal H}_{SQ} &= {\cal H}_0 + {\cal H}_d + {\cal H}_{hyb} + {\cal H}_{eh} + {\cal H}_{U} + {\cal H}_{sd}
 		\end{align}
-with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_{HF} \Phi_d (\mathbf{r} - \mathbf{R_d})$.
+with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_1 \Phi_d (\mathbf{r} - \mathbf{R_d})$.
 
-	We now have two hamiltonians to model the exchange interaction between the impurities electrons and the one in the conduction band of the semiconductor: ${\cal H}_{hyb}$ and ${\cal H}_{sd}$. Schrieffer and Wolff rewrote Anderson hamiltonian in order to give a form closer to the Kondo hamiltonian:
+	We now have two hamiltonians to model the exchange interaction between the impurities electrons and the one in the conduction band of the semiconductor: ${\cal H}_{hyb}$ and ${\cal H}_{sd}$. Schrieffer and Wolff rewrote Anderson hamiltonian in order to give a form closer to the Kondo hamiltonian~\cite{RelationAnderKondo}:
 	\begin{align}
 			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
@@ -570,9 +575,9 @@ The Fig.~\ref{HybridEner} illustrates the different energies introduced in $I_{k
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
+		\includegraphics[width=6cm]{01-QD/Pictures/ExchInt.png}
 	\end{center}
-	\caption{Exchange interaction diagram (I.2 in Laurent thesis)}
+	\caption{Carrier interaction with no change of the number of electron on the impurity, derived from the hamiltonian ${\cal H}_{Coulomb}$.}
 	\label{HybridEner}
 	\end{figure}
 
@@ -589,8 +594,8 @@ Looking ath the Fig.~\ref{HybridEner}, one can see that $U$ and $E_k - E_d$ are 
 
 	Reusing the hypothesis done on Sec.~\ref{BandStruct} of small $k$ value, and the value of $V_{kd}$ presented in Eq.~\ref{Vkd}, we can rewrite the exchange constant:
 	\begin{align}
-		I_{00, \{c,v\}}^{hyb} = -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) \int \mathrm{d}\mathbf{r} \Phi_r^* (\mathbf{r}) H_{HF} \psi_0^{\{c,v\}} \\
-		I_{00, \{c,v\}}^{ex} = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|\psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d} (\mathbf{r})
+		I_{00, \{c,v\}}^{hyb} &= -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) \int \mathrm{d}\mathbf{r} \Phi_r^* (\mathbf{r}) {\cal H}_1 \psi_0^{\{c,v\}} \\
+		I_{00, \{c,v\}}^{ex} &= \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|\psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d} (\mathbf{r})
 	\end{align}
 In the valence band, the semiconductor have the $p$ symmetry, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
 	\begin{align}
@@ -603,16 +608,31 @@ In the conduction band, the orbital are $s$, and so we will write the interactio
 
 	Having define those, we can now rewrite the Hamiltonian of the interaction with one magnetic atom in the Heisenberg notation:
 	\begin{align}
-		{\cal H}_{SQ} = {\cal H}_0 + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
+		{\cal H}_{SQ} = {\cal H}_0 + {\cal H}_{eh} + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
 	\end{align}
 Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing on their position. We finally get:
 	\begin{align}
 	\label{HDMS}
-		\begin{array}{rlcccc}
-			{\cal H}_{DMS} &= {\cal H}_0 &+& \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i &+& \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i \\
-							&= {\cal H}_0 &+& {\cal H}_{sd} &+& {\cal H}_{pd}
+		\begin{array}{rlcccccc}
+			{\cal H}_{DMS} &= {\cal H}_0 &+& {\cal H}_{eh} &+& \underbrace{\sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i} &+& \underbrace{\sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i} \\
+							&= {\cal H}_0 &+& {\cal H}_{eh} &+& {\cal H}_{sd} &+& {\cal H}_{pd}
 		\end{array}
 	\end{align}
+
+	This can be further simplified with two approximations. First, since conduction electron see a lot of different atomic site, we can we can work with the mean value of the magnetic atoms spins, $\langle\mathbf{S} \rangle$, instead of their individual value $\mathbf{S}_i$. This is the mean field approximation, the magnetic atoms being seen as a magnetic field. And for the same reason, we can consider the interaction with each site of the crystal multiplied by the probability $x$ of being occupied by a magnetic atom, instead of summing only on the magnetic atoms positions. This is the virtual crystal approximation. We can then rewrite:
+	\begin{align}
+		{\cal H}_{sd} = \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i = x \sum_{\mathbf{R}} I_{sd} (\mathbf{R}) \bm{\upsigma}.\langle\mathbf{S} \rangle
+	\end{align}
+Projecting along the quantization axis, we just replace $\bm{\upsigma}.\langle\mathbf{S} \rangle$ by $\sigma_z \langle S_z \rangle$. Since the atoms are seen as a magnetic field, they induce a degeneracy lift $\Delta E_c$ between the two spin values of conduction electron, $|\sigma_z = \pm \dfrac{1}{2} \rangle$:
+	\begin{align}
+		\Delta E_c = N_0 x \alpha \sigma_z \langle S_z \rangle
+	\end{align}
+with $\alpha \propto I_{sd}^{00}$ the interaction constant between impurity and conduction band Bloch function at $\mathbf{k} = 0$, and $N_0$ the number of cell per volume.
+	The same consideration can be done for valence band. Hh and lh are separated via their spin values: $|J_z = \pm \dfrac{3}{2} \rangle$ for hh, $|J_z = \pm \dfrac{1}{2} \rangle$ for lh. We then get:
+	\begin{align}
+		\Delta E_v = N_0 x \frac{\beta}{3} J_z \langle S_z \rangle
+	\end{align}
+with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity and conduction band Bloch function at $\mathbf{k} = 0$.
 
 		\subsection{Mn case}
 		
@@ -702,41 +722,119 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 	
 		\subsection{Cr atom in II-VI semiconductor\label{CrSemiCon}}
 	
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-
+		As presented in Sec.~\ref{CrDMS}, the Chromium is included in CdTe as Cr$^2+$. This isotope has an electronic spin $S = 2$, an orbital momentum $L = 2$ and \emph{no nuclear spin}. Therefore, Cr presents in our sample no hyperfine structure. However, the non-nul orbital momentum shows that it presents a strong coupling to strain. The fine structure will the be of importance in the study of this atom.
+		
 	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
-	\end{center}
-	\caption{Atomic configuration in Jahn-Teller effect + three minima}
-	\label{Jahn-Teller}
+		\label{Jahn-Teller}
+		\begin{center}
+			\includegraphics[width=10cm]{FillingPicture.png}
+		\end{center}
+		\caption{Atomic configuration in Jahn-Teller effect + three minima}
 	\end{figure}
 
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
-	\end{center}
-	\caption{Degeneracy breaking under Jahn-Teller effect}
-	\label{DegenBreakJT}
-	\end{figure}
+		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. This isotope presents \emph{no nuclear spin}, meaning we don't have to consider the hyperfine structure of a Cr atom in a II-VI semiconductor. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number L=2 and a spin S=2 yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{CrinIIVI}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The Jahn-Teller distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet.
+		\newline
+		
+		[DEVELOP ON JAHN-TELLER]
+		\newline
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+		The ground state orbital singlet $^{5}$B$_{2}$ is further split by the spin-orbit interaction. In a strain free crystal, it was found that the ground state splitting can be described by the spin effective Hamiltonian ~\cite{VallinEPR}:
+		\begin{align}
+			\label{exchange}
+			{\cal H}_{Cr,CF}=D_0S_z^2+\frac{1}{180}F[35S_z^2-30S(S+1)S_z^2+25S_z^2]+\frac{1}{6}a[S_1^4+S_2^4+S_3^4]
+		\end{align}
+with the Cr spin S=2 and $|D_0|\gg|a|$, $|F|$. In the model presented here, we use $a=0$ and $F=0$. The x, y, z principal axes were found to coincide with the cubic axes (1,2,3) giving rise to three identical sites, each given by \ref{exchange} but with the z axis of each along a different cubic axis (1,2,3). A value of D$_0\approx+30 \mu eV$ was estimated from Electron Paramagnetic Resonance (EPR) measurements in highly diluted bulk (Cd,Cr)Te~\cite{VallinEPR}.
 
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
-	\end{center}
-	\caption{Strain effect on ground state + degeneracy breaking by this symetry reduction}
-	\label{StrainGS}
-	\end{figure}
+		\begin{figure}[hbt]
+			\label{CrinIIVI}
+			\begin{center}
+				\includegraphics[width=7cm]{01-QD/Pictures/CrinIIVI.png}
+			\end{center}
+			\caption{Scheme of the energy level splitting of Cr$^{2+}$ at a cation site in II-VI compounds having zinc blende structure (T$_d$) with a crystal field parameter $\Delta$, a Jahn-Teller energy E$_{J-T}$ and a spin-orbit level spacing D$_0$.}
+		\end{figure}
 
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{FillingPicture.png}
-	\end{center}
-	\caption{Overall energy structure (with +/- 2 which doesn't luminesce)}
-	\label{EnerStruct}
-	\end{figure}
+		Static biaxial compressive strain in the (001) plane, as observed in self-assembled quantum dots, reduces the symmetry to D$_{2d}$ and destabilize the Cr $3d$ orbitals $d_{xz}$ and $d_{yz}$ having an electron density pointing along the $[$001$]$ axis ($z$ axis). The Cr ground state is then a 5-fold degenerated orbital singlet formed from the $d_{xy}$ orbital. It corresponds to the Jahn-Teller ground state with a tetragonal distortion along the $[$001$]$ axis~\cite{DefPonctSemiCon}.
+
+		An applied stress will also  influence the Cr spin fine structure splitting through the modification of the crystal field and the spin-orbit interaction~\cite{VallinEPR}. For an arbitrary strain tensor, the general form of the Cr ground state spin effective Hamiltonian is
+		\begin{align}
+		\label{FullCrHamil}
+			{\cal H}_{Cr,\varepsilon} = c_1 e_A S_{\theta} + c_2 e_{\theta} S_{\theta} + c_3 e_{\epsilon} S_{\epsilon} + c_4e_{\zeta} S_{\zeta} + c_5(e_{\xi} S_{\xi} + e_{\eta} S_{\eta})
+		\end{align}
+with $S_i$ defined as:
+		\begin{align}
+			\begin{array}{rl}
+			\label{Svalues}
+				S_{\theta} &= S_{z}^2  -\dfrac{1}{2} [S_{x}^2 + S_{y}^2] \\
+				S_{\epsilon} &= \dfrac{1}{2} \sqrt{3} [S_{x}^2 - S_{y}^2] \\
+				S_{\xi} &= S_{y} S_{z} + S_{z} S_{y} \\
+				S_{\eta} & = S_{x} S_{z} + S_{z} S_{x} \\
+				S_{\zeta} &=S_{x} S_{y} + S_{y} S_{x}
+			\end{array}
+		\end{align}
+and $e_i$ defined similarly as:
+		\begin{align}
+			\begin{array}{rl}
+			\label{evalues}
+				e_{\theta} &= \varepsilon_{zz} - \dfrac{1}{2} [\varepsilon_{xx} + \varepsilon_{yy}] \\
+				e_{\epsilon} &= \dfrac{1}{2} \sqrt{3}[\varepsilon_{xx} - \varepsilon_{yy}] \\
+				e_{\xi} &= \varepsilon_{yz} + \varepsilon_{zy} \\
+				e_{\eta} &= \varepsilon_{xz} + \varepsilon_{zx} \\
+				e_{\zeta} &= \varepsilon_{xy} + \varepsilon_{yx} \\
+				e_A &= \varepsilon_{xx} + \varepsilon_{yy} + \varepsilon_{zz}			
+			\end{array}
+		\end{align}
+
+		As shown in Sec.~\ref{BPSec}, we can write for a flat self-assembled quantum dots with dominant large biaxial strain:
+		\begin{align*}
+			\varepsilon_{xx} = \varepsilon_{yy} = \varepsilon_{\parallel} \\
+			\varepsilon_{zz}=-2\frac{C_{11}}{C_{12}}\varepsilon_{\parallel}
+		\end{align*}
+where C$_{11}\approx$ 5.4 10$^{10}Pa$ and C$_{12}\approx$ 3.7 10$^{10}Pa$ are the elastic constants of CdTe~\cite{CdTeElConst}. For this strain configuration, the Cr fine structure is controlled by the spin-lattice coupling coefficients $c_1$ (symmetric coefficient) and $c_2$ (tetragonal coefficients). Strain-coupling coefficients estimated from EPR measurements in bulk Cr doped CdTe are listed in table \ref{StrCouplCoef}.
+
+		\begin{table}[htb] \centering
+			\caption{Values for spin to strain coupling coefficients of Cr in bulk CdTe (in $meV$) extracted from ref.~\cite{VallinEPR}.\label{StrCouplCoef}}
+			\renewcommand{\arraystretch}{1.0}
+			\begin{tabular}{ccccc}
+				\hline\hline
+				$c_{1}$ & $c_{2}$ & $c_{3}$  & $c_{4}$  & $c_{5}$ \\
+				-0.25$\pm$2 & +4.9 $\pm$2& -1.25$\pm$0.5 & +4.9$\pm$2 & +3.7$\pm$1.25 \\
+				\hline\hline
+			\end{tabular}
+		\end{table}
+
+		We can now simplify the hamiltonian \ref{FullCrHamil}, first reducing it to the active term in our case:
+		\begin{align*}
+			{\cal H}_{Cr,\varepsilon} &= c_1 e_A S_{\theta} + c_2 e_{\theta} + S_{\theta}
+		\end{align*}
+Replacing now $e_A$, $e_{\theta}$ and $S_{\theta}$ by their value given in \ref{Svalues} and \ref{evalues}, and using the equalities given in Sec.~\ref{BPSec}, we can rewrite the strain controlled part of the spin Hamiltonian as ${\cal H}_{Cr,\varepsilon}$, depending only on $\varepsilon_{\parallel}$:
+		\begin{align}
+			\begin{array}{rlcc}
+			\label{HamilD0}
+				{\cal H}_{Cr,\varepsilon_{\parallel}} &=& \underbrace{\dfrac{3}{2}\varepsilon_{\parallel}[2c_1(1-\dfrac{C_{12}}{C_{11}})-c_2(1+2\dfrac{C_{12}}{C_{11}})]} & S_z^2 \\
+													&=& D_0 & S_z^2
+			\end{array}
+		\end{align}
+where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-strain coupling coefficients in CdTe (table \ref{StrCouplCoef}). However one should note the quantum dots could be partially relaxed and may contain a significant amount of Zn. We were not able to find spin to strain coupling coefficients for Cr in ZnTe and (Cd,Zn)Te alloy in literature. A value of D$_0\approx$+280$\mu$eV, much larger than for CdTe, was however estimated in strain-free Cr-doped bulk ZnTe~\cite{VallinEPR}. Larger spin-strain coupling coefficients could then expected for Cr in ZnTe and (Cd,Zn)Te alloys.
+
+		Finally, an anisotropy of the strain in the quantum dot plane (001) with principal axis along $[$010$]$ or $[$100$]$ axes ($\varepsilon_{xx}\neq\varepsilon_{yy}$ and $\varepsilon_{xy}$=$\varepsilon_{yx}$=0) would affect the Cr fine structure through the tetragonal coefficient c$_3$. This coupling can be described by an additional term in the spin-strain Hamiltonian
+		\begin{align}
+			\begin{array}{rlcc}
+			\label{HamilE}
+				{\cal H}_{Cr,\varepsilon_{\perp}} &=& \underbrace{\dfrac{3}{4} c_3 (\varepsilon_{xx}-\varepsilon_{yy})} & (S_x^2 - S_y^2) \\
+												&=& E & (S_x^2 - S_y^2)
+			\end{array}
+		\end{align}
+
+		This anisotropy term E couples Cr spin states separated by two units and in particular S$_z$=+1 to S$_z$=-1 which are initially degenerated. It could be exploited to induce a large strain mediated coherent coupling between a mechanical oscillator and the Cr spin~\cite{SpinOsciCoupl}.
+		
+		We can now group \ref{HamilD0} and \ref{HamilE} in order to write the complete hamiltonian of anisolated Cr in a strained, anisotropic CdTe/ZnTe quantum dot:
+		\begin{align}
+			\begin{array}{lrccc}
+				\label{Cralone}
+				{\cal H}_{Cr,\varepsilon} &=& {\cal H}_{Cr,\varepsilon_{\parallel}} &+& {\cal H}_{Cr,\varepsilon_{\perp}} \\
+										&=& D_0 S_z^2 &+& E(S_x^2 - S_y^2)
+			\end{array}
+		\end{align}
 	
 	
 	\section{A simple example: the X-Mn system}
@@ -1328,7 +1426,7 @@ ${\cal H}_{mag}$ describes the effect of an exterior magnetic field, coupled to 
 
 ${\cal H}_{e-h}$ describes the short range and long range electron-hole interaction, through the bright and dark exciton splitting $\delta_0$, the bright exciton coupling $\delta_1$, the dark exciton coupling $\delta_2$ and the bright and dark exciton coupling $\delta_{11}$ and $\delta_{12}$. All of these term are described in Eq~\ref{Heh}.
 
-${\cal H}_{band}$, the band Hamiltonian, presented in Eq.~\ref{HBand}, stands for the energy of the electrons (i.e. the band gap energy $E_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, and the anisotropy of the QD.
+${\cal H}_{band}$, the band Hamiltonian, presented in Eq.~\ref{LuttHamil} and \ref{HLMat}, stands for the energy of the electrons (i.e. the band gap energy $E_g$), and the heavy-holes (hh) and light-holes (lh) energies, depending on the splitting between lh and hh $\Delta_{lh}$, and the anisotropy of the QD.
 
 ${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton in the initial state of the optical transition by the hole-Cr exchange interaction, controlled by the parameter $\eta$. This perturbation depends on the value of the exchange energy between the Cr spin $S_z$  and the hole spin $J_z$ and can be represented, using second order perturbation theory, by an effective spin Hamiltonian \cite{CarInSpinSplit,BiexFinStruct,DynhMn}
 \begin{align}
@@ -1342,7 +1440,7 @@ ${\cal H}_{scat}$ describes the perturbation of the wave function of the exciton
 
 
 \begin{table}[t] \centering
-	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{CrMagOptMod}. The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,VBM}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
+	\caption{Values of the parameters used in the model of Cr-doped CdTe/ZnTe quantum dot presented in Fig.~\ref{CrMagOptMod}. The value of the parameters not listed in the table is 0. The chosen values are typical for CdTe/ZnTe quantum dots and can be compared with parameters extracted from Mn-doped quantum dots \cite{DynhMn,DELum}. These values are reasonable to reproduce the emission of the QDs presented in this thesis.}
 	\begin{tabular}{p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}p{0.9cm}}
 \hline\hline
 I$_{eCr}$ & I$_{hCr}$ & $\delta_0$ & $\delta_1$ & $\delta_{12}$ & $\delta_{11}$ & $\frac{|Q|}{\Delta_{lh}}$ & $\frac{|R|}{\Delta_{lh}}$ \\
