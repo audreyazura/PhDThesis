@@ -3,6 +3,7 @@
 import re
 #import antigravity
 
+ignoreLorem = False
 first = 1
 maxCount = 6
 
@@ -28,9 +29,12 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 quoteStr = re.compile(r'\"')
+loremStr = re.compile(r'Lorem')
+curabiturStre = re.compile(r'Curabitur')
 
 Thesis = open('Thesis.tex', 'w')
 for i in range(first,maxCount):
+#for i in [first, maxCount-1]:
         num = '0' + str(i)
        	fold = re.search(num + '-[a-zA-z-]{1,10}', str(!(dir)))
        	if fold:
@@ -41,7 +45,7 @@ for i in range(first,maxCount):
        			searchedFile = folder + '/' + cfile.group()
        			with open(searchedFile, 'r') as inpFile:
                                 for line in inpFile:
-       					if not(commentStr.search(line)):
+       					if not(commentStr.search(line)  || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
        						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
                        				
                        				if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
@@ -87,6 +91,6 @@ for i in range(first,maxCount):
 Thesis.close()
 print('\nLaunch compilation manually writing:\n')
 print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
-print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
 print('biber Thesis')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
 print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex\n')
