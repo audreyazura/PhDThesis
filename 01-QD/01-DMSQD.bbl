@@ -372,6 +372,187 @@
       \verb http://www.sciencedirect.com/science/article/pii/0038109872909106
       \endverb
     \endentry
+    \entry{RelationAnderKondo}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d2e2b0c717f8437fede2fdd4e9a23fef}{%
+           family={Schrieffer},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=17ead8ea11d5f2aa3040ba8f4161984e}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e5da390eb1621f553595cb258168590b}
+      \strng{fullhash}{e5da390eb1621f553595cb258168590b}
+      \strng{authornamehash}{e5da390eb1621f553595cb258168590b}
+      \strng{authorfullhash}{e5da390eb1621f553595cb258168590b}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{9}
+      \field{title}{Relation between the Anderson and Kondo Hamiltonians}
+      \field{volume}{149}
+      \field{year}{1966}
+      \field{pages}{491\bibrangedash 492}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1103/PhysRev.149.491
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.149.491
+      \endverb
+    \endentry
+    \entry{VallinEPR}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6d697423e56cbe4e34e70b4897121025}{%
+           family={Vallin},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c10ea9881320fb3ca8fce8ef9176873b}{%
+           family={Watkins},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{86301720154d4d23a0cbd5baed95171c}
+      \strng{fullhash}{86301720154d4d23a0cbd5baed95171c}
+      \strng{authornamehash}{86301720154d4d23a0cbd5baed95171c}
+      \strng{authorfullhash}{86301720154d4d23a0cbd5baed95171c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{3}
+      \field{title}{EPR of Cr{$^{2+}$} in II-VI lattices}
+      \field{volume}{9}
+      \field{year}{1974}
+      \field{pages}{2051\bibrangedash 2072}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.9.2051
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.9.2051
+      \endverb
+    \endentry
+    \entry{DefPonctSemiCon}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4a3421efb71f2c4be9ff1dc362f8f58c}{%
+           family={Brousseau},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Les Editions de Physiques}%
+      }
+      \strng{namehash}{4a3421efb71f2c4be9ff1dc362f8f58c}
+      \strng{fullhash}{4a3421efb71f2c4be9ff1dc362f8f58c}
+      \strng{authornamehash}{4a3421efb71f2c4be9ff1dc362f8f58c}
+      \strng{authorfullhash}{4a3421efb71f2c4be9ff1dc362f8f58c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Les defauts ponctuels dans les semiconducteurs}
+      \field{year}{1988}
+    \endentry
+    \entry{CdTeElConst}{article}{}
+      \name{author}{2}{}{%
+        {{hash=49b9ebb0af87c1d5f0eee7b0c30fae77}{%
+           family={Greenough},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b6d8298dbb5da9f31df127c28e76fca1}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{66c306ce4f5bc5a3b5b47277dfaef13e}
+      \strng{fullhash}{66c306ce4f5bc5a3b5b47277dfaef13e}
+      \strng{authornamehash}{66c306ce4f5bc5a3b5b47277dfaef13e}
+      \strng{authorfullhash}{66c306ce4f5bc5a3b5b47277dfaef13e}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{number}{5}
+      \field{title}{The elastic constants and thermal expansion of single-crystal CdTe}
+      \field{volume}{6}
+      \field{year}{1973}
+      \field{pages}{587}
+      \range{pages}{1}
+      \verb{url}
+      \verb http://stacks.iop.org/0022-3727/6/i=5/a=315
+      \endverb
+    \endentry
+    \entry{SpinOsciCoupl}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bc07479d8fe3898466748f28baaf37db}{%
+           family={Ovartchaiyapong},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=51206a1d171ef27f0dad5618aa4210d7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={K.\bibnamedelimi W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a51f891fb99fa579c4b7d4a0c0df67a6}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ef0b81bf09342a49d82045b4ea0186ac}{%
+           family={Jayich},
+           familyi={J\bibinitperiod},
+           given={A.\bibnamedelimi C.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Author(s)}%
+      }
+      \strng{namehash}{cd588e4a689ddb62b0249124d63edd67}
+      \strng{fullhash}{6ea2f161a9b142f5e20955d3f09af42a}
+      \strng{authornamehash}{cd588e4a689ddb62b0249124d63edd67}
+      \strng{authorfullhash}{6ea2f161a9b142f5e20955d3f09af42a}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{7}
+      \field{title}{Dynamic strain-mediated coupling of a single diamond spin to a mechanical resonator}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{4429}
+      \range{pages}{1}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1038/ncomms5429
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ncomms5429
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

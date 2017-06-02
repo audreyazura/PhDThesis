@@ -2138,6 +2138,15 @@
     <bcf:citekey order="12">ExchSplitInteratomic</bcf:citekey>
     <bcf:citekey order="13">RelationAnderKondo</bcf:citekey>
     <bcf:citekey order="14">ClaireTh</bcf:citekey>
+    <bcf:citekey order="15">VallinEPR</bcf:citekey>
+    <bcf:citekey order="16">VallinEPR</bcf:citekey>
+    <bcf:citekey order="17">DefPonctSemiCon</bcf:citekey>
+    <bcf:citekey order="18">VallinEPR</bcf:citekey>
+    <bcf:citekey order="19">CdTeElConst</bcf:citekey>
+    <bcf:citekey order="20">VallinEPR</bcf:citekey>
+    <bcf:citekey order="21">VallinEPR</bcf:citekey>
+    <bcf:citekey order="22">VallinEPR</bcf:citekey>
+    <bcf:citekey order="23">SpinOsciCoupl</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
