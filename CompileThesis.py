@@ -1,10 +1,14 @@
 #!/usr/local/bin/xonsh
 
 import re
-import antigravity
+#import antigravity
 
+ignoreLorem = False
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
+
+first = 1
+maxCount = 6
 
 packages = []
 lastPack = 2
@@ -25,7 +29,12 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 
-for i in range(1,7):
+if ignoreLorem:
+	loremStr = re.compile(r'Lorem')
+	curabiturStre = re.compile(r'Curabitur')
+
+Thesis = open('Thesis.tex', 'w')
+for i in range(first,maxCount):
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
@@ -36,11 +45,11 @@ for i in range(1,7):
 			searchedFile = folder + '/' + cfile.group()
 			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
-					if not(commentStr.search(line)):
+					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
 						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
 						
-						if i == 1 && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
-							echo @(treatedLine) >> Thesis.tex
+						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
+							print(treatedLine, file=Thesis)
 							if usepackageStr.search(treatedLine):
 								package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
 								packages.append(package)
@@ -53,31 +62,35 @@ for i in range(1,7):
 									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
 									packages.append(package)
 									print("Package added: " + package)
-									countLine = 1
-									with open('Thesis.tex', 'r') as thesis:
-										for copLine in thesis:
-											copTreatedLine = newlineStr.sub(nullChain, copLine)
-											if countLine == lastPack:
-												adLine = copTreatedLine + '\n' + treatedLine
-												echo @(adLine) >> copThesis.tex
-											else:
-												echo @(copTreatedLine) >> copThesis.tex
-											countLine+=1
 									lastPack+=1
+									countLine = 1
+									Thesis.close()
+									with open('Thesis.tex', 'r') as refThesis:
+										with open('copThesis.tex', 'w') as copiedThesis:
+											for copLine in refThesis:
+												copTreatedLine = newlineStr.sub(nullChain, copLine)
+												if countLine == lastPack:
+													adLine = copTreatedLine + '\n' + treatedLine
+													print(adLine, file=copiedThesis)
+												else:
+													print(copTreatedLine, file=copiedThesis)
+												countLine+=1
 									rm Thesis.tex
 									mv copThesis.tex Thesis.tex
-								
-							elif i == 5 && not(bibresStr.search(treatedLine)):
-								echo @(treatedLine) >> Thesis.tex
+									Thesis = open('Thesis.tex', 'a')
+							
+							elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
+								print(treatedLine, file=Thesis)
 							
 							elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
-								echo @(treatedLine) >> Thesis.tex
-					
-			echo 'File ' @(cfile.group()) ' done'
+								print(treatedLine, file=Thesis)
+				
+			print('File ' + cfile.group() + ' done')
 
+Thesis.close()
 print('\nLaunch compilation manually writing:\n')
 print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
-print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
 print('biber Thesis')
+print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
 print('pdflatex -synctex=1 -interaction=nonstopmode Thesis.tex')
 print('evince Thesis.pdf\n')

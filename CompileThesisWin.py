@@ -29,8 +29,10 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 quoteStr = re.compile(r'\"')
-loremStr = re.compile(r'Lorem')
-curabiturStre = re.compile(r'Curabitur')
+
+if ignoreLorem:
+	loremStr = re.compile(r'Lorem')
+	curabiturStre = re.compile(r'Curabitur')
 
 Thesis = open('Thesis.tex', 'w')
 for i in range(first,maxCount):
@@ -45,7 +47,7 @@ for i in range(first,maxCount):
        			searchedFile = folder + '/' + cfile.group()
        			with open(searchedFile, 'r') as inpFile:
                                 for line in inpFile:
-       					if not(commentStr.search(line)  || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
+       					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
        						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
                        				
                        				if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
