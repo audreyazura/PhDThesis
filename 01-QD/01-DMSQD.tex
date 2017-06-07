@@ -611,21 +611,33 @@ In the conduction band, the orbital are $s$, and so we will write the interactio
 	\end{align}
 
 	Having define those, we can now rewrite the Hamiltonian of the interaction with one magnetic atom in the Heisenberg notation:
+%	\begin{align}
+%	\label{HSingleAt}
+%		{\cal H}_{SQ} = {\cal H}_0 + {\cal H}_{eh} + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
+%	\end{align}	
 	\begin{align}
-		{\cal H}_{SQ} = {\cal H}_0 + {\cal H}_{eh} + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
+	\label{HSingleAt}
+		\begin{array}{rlcccccc}
+			{\cal H}_{SQ} &= {\cal H}_0 &+& {\cal H}_{eh} &+& \underbrace{I_{sd} \bm{\upsigma}.\mathbf{S}} &+& \underbrace{I_{pd} \mathbf{J}.\mathbf{S}} \\
+						&= {\cal H}_0 &+& {\cal H}_{eh} &+& {\cal H}_{sd} &+& {\cal H}_{pd}
+		\end{array}
 	\end{align}
 Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing on their position. We finally get:
+%	\begin{align}
+%	\label{HDMS}
+%		\begin{array}{rlcccccc}
+%			{\cal H}_{DMS} &= {\cal H}_0 &+& {\cal H}_{eh} &+& \underbrace{\sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i} &+& \underbrace{\sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i} \\
+%							&= {\cal H}_0 &+& {\cal H}_{eh} &+& {\cal H}_{sd} &+& {\cal H}_{pd}
+%		\end{array}
+%	\end{align}
 	\begin{align}
 	\label{HDMS}
-		\begin{array}{rlcccccc}
-			{\cal H}_{DMS} &= {\cal H}_0 &+& {\cal H}_{eh} &+& \underbrace{\sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i} &+& \underbrace{\sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i} \\
-							&= {\cal H}_0 &+& {\cal H}_{eh} &+& {\cal H}_{sd} &+& {\cal H}_{pd}
-		\end{array}
+		{\cal H}_{DMS} &= {\cal H}_0 &+& {\cal H}_{eh} &+& \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i &+& \sum_i I_{pd} (\mathbf{R}_i) \mathbf{J}.\mathbf{S}_i
 	\end{align}
 
 	This can be further simplified with two approximations. First, since conduction electron see a lot of different atomic site, we can we can work with the mean value of the magnetic atoms spins, $\langle\mathbf{S} \rangle$, instead of their individual value $\mathbf{S}_i$. This is the mean field approximation, the magnetic atoms being seen as a magnetic field. And for the same reason, we can consider the interaction with each site of the crystal multiplied by the probability $x$ of being occupied by a magnetic atom, instead of summing only on the magnetic atoms positions. This is the virtual crystal approximation. We can then rewrite:
 	\begin{align}
-		{\cal H}_{sd} = \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i = x \sum_{\mathbf{R}} I_{sd} (\mathbf{R}) \bm{\upsigma}.\langle\mathbf{S} \rangle
+		{\cal H}_{sd} = \sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i = x \sum_{\mathbf{R}} I_{sd} (\mathbf{R}) \bm{\upsigma}.\langle \mathbf{S} \rangle
 	\end{align}
 Projecting along the quantization axis, we just replace $\bm{\upsigma}.\langle\mathbf{S} \rangle$ by $\sigma_z \langle S_z \rangle$. Since the atoms are seen as a magnetic field, they induce a degeneracy lift $\Delta E_c$ between the two spin values of conduction electron, $|\sigma_z = \pm \dfrac{1}{2} \rangle$:
 	\begin{align}
@@ -640,13 +652,21 @@ with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity and c
 
 		\subsection{Mn case}
 		
-		For the Mn, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hMn}$ and $I_{sd}$ in the conduction band as $I_{eMn}$, since we look at the interaction between an exciton and the Manganese atom. The hamiltonian \ref{HDMS} is the rewrited:
+		For the Mn, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hMn}$ and $I_{sd}$ in the conduction band as $I_{eMn}$, since we look at the interaction between an exciton and the Manganese atom. The hamiltonian \ref{HSingleAt} is then rewrited:
 		\begin{align}
-		\label{HMnDMS}
-			{\cal H}_{DMS, Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
+		\label{HSingleMn}
+			{\cal H}_{Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
 		\end{align}
 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		Both in conduction and valence band, Coulomd interaction induce a ferromagnetic coupling between the Mn and the electron. However, the $s$ orbital of the conduction band are orthogonal to the $d$ orbital of the electron localized on the Mn. Therefore, no hybridation could occur between those. In the valence band, the hybridization occur, creating a strong anti-ferromagnetic coupling between the Mn electrons and the band ones, compensating the ferromagnetic interaction coming from the Coulomb interaction.
+		
+		The coupling value were extracting from magneto-optical experiment for Cd$_{1-x}$ Mn$_x$ Te and were found to be $N_0 \alpha = 0.2$ eV and $N_0 \beta = -0.88$ eV. This confirm the deduction we did on the previous paragraph, and show that the valence band interaction, represented by $N_0 \beta$, is stronger than the coupling with conduction electrons. It will be the main driver of the spin interactions in the system.
+		
+		We now can rewrite the hamiltonian \ref{HSingleMn} to make the sign of these interactions appears explicitly:
+	\begin{align}
+		{\cal H}_{Mn} &= - I_{eMn} \bm{\upsigma}.\mathbf{S} + I_{hMn} J_z.S_z - \frac{2}{3} I_{eh} J_s.\sigma_z
+	\end{align}
+The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the interaction is homogeneous, unlike interaction between Mn and hole spins.
 
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
@@ -740,7 +760,7 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 	
 		\subsection{Cr atom in II-VI semiconductor\label{CrSemiCon}}
 	
-		As presented in Sec.~\ref{CrDMS}, the Chromium is included in CdTe as Cr$^2+$. This isotope has an electronic spin $S = 2$, an orbital momentum $L = 2$ and \emph{no nuclear spin}. Therefore, Cr presents in our sample no hyperfine structure. However, the non-nul orbital momentum shows that it presents a strong coupling to strain. The fine structure will the be of importance in the study of this atom.
+%		As presented in Sec.~\ref{CrDMS}, the Chromium is included in CdTe as Cr$^{2+}$. This isotope has an electronic spin $S = 2$, an orbital momentum $L = 2$ and \emph{no nuclear spin}. Therefore, Cr presents in our sample no hyperfine structure. However, the non-nul orbital momentum shows that it presents a strong coupling to strain. The fine structure will the be of importance in the study of this atom.
 		
 	\begin{figure}[h!]
 		\label{Jahn-Teller}
