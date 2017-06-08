@@ -658,36 +658,40 @@ with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity and c
 			{\cal H}_{Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
 		\end{align}
 
-		Both in conduction and valence band, Coulomd interaction induce a ferromagnetic coupling between the Mn and the electron. However, the $s$ orbital of the conduction band are orthogonal to the $d$ orbital of the electron localized on the Mn. Therefore, no hybridation could occur between those. In the valence band, the hybridization occur, creating a strong anti-ferromagnetic coupling between the Mn electrons and the band ones, compensating the ferromagnetic interaction coming from the Coulomb interaction.
+		In the conduction band, the electrons $s$ orbital are orthogonal to the $d$ orbital of the Mn atom. No hybridization can then occur between these. Only the Coulomd interaction remain, leading to an overall ferromagnetic interaction between conduction band electrons and Mn electronic spin. Confirming this, $N_0 \alpha = 0.22 \pm 0.01$ eV was measured~\cite{GajMnD0alphabeta}.
 		
-		The coupling value were extracting from magneto-optical experiment for Cd$_{1-x}$ Mn$_x$ Te and were found to be $N_0 \alpha = 0.2$ eV and $N_0 \beta = -0.88$ eV. This confirm the deduction we did on the previous paragraph, and show that the valence band interaction, represented by $N_0 \beta$, is stronger than the coupling with conduction electrons. It will be the main driver of the spin interactions in the system.
-		
-		We now can rewrite the hamiltonian \ref{HSingleMn} to make the sign of these interactions appears explicitly:
-	\begin{align}
-		{\cal H}_{Mn} &= - I_{eMn} \bm{\upsigma}.\mathbf{S} + I_{hMn} J_z.S_z - \frac{2}{3} I_{eh} J_s.\sigma_z
-	\end{align}
-The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the interaction is homogeneous, unlike interaction between Mn and hole spins.
+		The deduction is a bit harder to work out in the valence band. Valence electrons $p$ orbital are not orthogonal to Mn electrons $d$ orbital, meaning there is a competition between the ferromagnetic Coulomb interaction and the anti-ferromagnetic hybridization. However, the hybridization is usually stronger than Coulomb interaction for Mn in II-VI semiconductor, leading to an overall anti-ferromagnetic interaction between holes and Mn electronic spin~\cite{KacmanD0alphabetaIIVI}. For Cd$_x$Mn$_{1-x}$Te, $N_0 \beta = -0.88 \pm 0.01$ eV was measured, confirming this tendency~\cite{GajMnD0alphabeta}.
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+%		Both in conduction and valence band, Coulomd interaction induce a ferromagnetic coupling between the Mn and the electron. However, the $s$ orbital of the conduction band are orthogonal to the $d$ orbital of the electron localized on the Mn. Therefore, no hybridation could occur between those. In the valence band, the hybridization occur, creating a strong anti-ferromagnetic coupling between the Mn electrons and the band ones, compensating the ferromagnetic interaction coming from the Coulomb interaction.
+%		
+%		The coupling value were extracting from magneto-optical experiment for Cd$_{1-x}$ Mn$_x$ Te and were found to be $N_0 \alpha = 0.2$ eV and $N_0 \beta = -0.88$ eV. This confirm the deduction we did on the previous paragraph, and show that the valence band interaction, represented by $N_0 \beta$, is stronger than the coupling with conduction electrons. It will be the main driver of the spin interactions in the system.
+%		
+%		We now can rewrite the hamiltonian \ref{HSingleMn} to make the sign of these interactions appears explicitly:
+%	\begin{align}
+%		{\cal H}_{Mn} &= - I_{eMn} \bm{\upsigma}.\mathbf{S} + I_{hMn} J_z.S_z - \frac{2}{3} I_{eh} J_s.\sigma_z
+%	\end{align}
+%The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the interaction is homogeneous, unlike interaction between Mn and hole spins.
+%
+%	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 		\subsection{Cr case\label{CrDMS}}
 		
 		For the Cr, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hCr}$ and $I_{sd}$ in the conduction band as $I_{eCr}$, since we look at the interaction between an exciton and the Chromium atom. The hamiltonian \ref{HDMS} is the rewrited:
 		\begin{align}
 		\label{HCrDMS}
-			\begin{array}{rlcc}
-				{\cal H}_{DMS, Cr} &= {\cal H}_0 &+& {\cal H}_{eCr} + {\cal H}_{hCr} \\
-								&= {\cal H}_0 &+& {\cal H}_{c-Cr}
-			\end{array}
+			{\cal H}_{DMS, Cr} &= {\cal H}_0 + {\cal H}_{eCr} + {\cal H}_{hCr}
 		\end{align}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		For conduction band electrons, the situation is the same as with the Mn: the $s$ orbital are orthogonal to the Chromium $d$ orbital, and the hybridization is then null. Hence, only Coulomb interaction remain and induce a ferromagnetic coupling between the electrons of the band and the Cr electronic spin. $N_0 \alpha$ was never measured in Cd$_x$Cr$_{1-x}$Te, but most most magnetic atoms in II-VI semiconductor presents a value between $0.2$ eV and $0.25$ eV. It is then generally assume that, in II-VI semiconductor, $N_0 \alpha \approx 0.2$ eV~\cite{MacspdexchCr}.
+		
+		Once again, valence band is a bit more complicated: Coulomb interaction, leading a ferromagnetic coupling, compete with hybridization between valence band $p$ electrons and Cr $d$ electrons.  Direct measure of $N_0 \beta$ was neither done in Cd$_x$Cr$_{1-x}$Te, so the competition between these two interactions is difficult to evaluate. Moreover, it has been showed that it was difficult to decide theoretically if the interaction between Cr and holes was ferromagnetic or anti-ferromagnetic both in CdTe and in ZnTe~\cite{BlinowskiFerroCrDMS}. However, it was found that $N_0 \beta$ was positive in Cd$_x$Cr$_{1-x}$S~\cite{MacCdCrSD0beta} and in most Zn based II-VI semiconductor, assuming $N_0 \alpha = 0.2$ eV~\cite{KacmanD0alphabetaIIVI}. Especially, in ZnTe, still using this assumption, $N_0 \beta = +3.6 \pm 1.2$ eV was found~\cite{MacspdexchCr}. Since there is almost no valence band offset between ZnTe and CdTe, it seems safe to assume that $N_0 \beta$ in CdTe is positive and thus the interaction between Cr and holes is ferromagnetic.
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+%	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+%		
+%		\subsection{Effect of the confinement\label{ExchIntQD}}
+		\subsection{Electron-hole exchange ?}
 		
-		\subsection{Effect of the confinement\label{ExchIntQD}}
-		
-		Now that we established the basics of the interactions between carriers and magnetic atoms, we will do as we did in Sec.~\ref{e-hIntQD} and reduce the size of the studied semiconductor until reaching the quantum dot size and see how these interaction evolve with this reduction. Since both carriers and magnetic atom are now confine inside a small volume, the wave-functions have a bigger overlap and we can expect an increase of the exchange energies.
+%		Now that we established the basics of the interactions between carriers and magnetic atoms, we will do as we did in Sec.~\ref{e-hIntQD} and reduce the size of the studied semiconductor until reaching the quantum dot size and see how these interaction evolve with this reduction. Since both carriers and magnetic atom are now confine inside a small volume, the wave-functions have a bigger overlap and we can expect an increase of the exchange energies.
 
 %		The simple picture of the interaction between the electron of the semiconductor we get in Sec.~\ref{ExchDMS} using the Hartree-Fock approximation is not enough to understand the emission spectrum we get from our quantum dots. We need to go more into details. For a few paragraphs, we go back considering a semiconductor without magnetic atoms. As shown in \cite{ExchSplitInteratomic}, we can treat the interaction between one electron in the conduction band and the $N-1$ electron of the valence band as an interaction between this electron and the corresponding hole, with an adding exchange interaction. We can then write the exchange hamiltonian in a Heisenberg form as:
 %	\begin{align}
@@ -706,7 +710,7 @@ The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the 
 	
 	We will first consider the electron-hole exchange interaction in a QD without magnetic atom. Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil} in a QD symmetry:
 	\begin{align}
-	\label{Heh}
+	\label{HehC2v}
 		\begin{array}{rll}
 			{\cal H}_{e-h}^{exch} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
 										& &+ \dfrac{\delta_2}{2}\left(\exp (2i\varphi_1)j_+ \sigma_+ + \exp (-2i\varphi_1)j_- \sigma_- \right)
@@ -721,6 +725,19 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 	\end{align}
 
 	In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\varphi_1$ and $\varphi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
+	
+	This model works well for quantum dots with an elongated lens shape, in the $C_{2v}$ symmetry.  More realistic self-assembled quantum dots have symmetries which can deviate quite substantially from the idealized shapes of circular or ellipsoidal lenses. For a $C_{s}$ symmetry (truncated ellipsoidal lens), additional terms coupling the dark and the bright excitons have to be included in the electron-hole exchange Hamiltonian. Following Ref. \cite{ZielinskiDarExc}, the general form of the electron-hole exchange Hamiltonian in the heavy-hole exciton basis $|+1\rangle$, $|-1\rangle$, $|+2\rangle$, $|-2\rangle$ for a low symmetry quantum dot (C$_s$) is
+	\begin{align}
+		\label{Heh}
+		\mathcal{H}_{e-h} =\frac{1}{2} \left(
+			\begin{array}{cccc}
+			-\delta_0                               &e^{-i\pi/2}\delta_1              &e^{i\pi/4}\delta_{11}        &-e^{i\pi/4}\delta_{12}\\
+			e^{i\pi/2}\delta_1                      &-\delta_0                       &e^{-i\pi/4}\delta_{12}       &-e^{-i\pi/4}\delta_{11}\\
+			e^{-i\pi/4}\delta_{11}                  &e^{i\pi/4}\delta_{12}           &\delta_0                     &\delta_2\\
+			-e^{-i\pi/4}\delta_{12}                 &-e^{i\pi/4}\delta_{11}          &\delta_2                     &\delta_0\\
+			\end{array}
+		\right)
+\end{align}
 	\newline
 
 	[PLACEHOLDER]
