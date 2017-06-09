@@ -3,9 +3,9 @@
 import re
 #import antigravity
 
-ignoreLorem = False
+ignoreLorem = True
 first = 1
-maxCount = 6
+maxCount = 5
 
 !(del Thesis.tex)
 print('Old Thesis.tex deleted')
@@ -35,8 +35,8 @@ if ignoreLorem:
 	curabiturStre = re.compile(r'Curabitur')
 
 Thesis = open('Thesis.tex', 'w')
-for i in range(first,maxCount):
-#for i in [first, maxCount-1]:
+#for i in range(first,maxCount):
+for i in [first, maxCount-1]:
         num = '0' + str(i)
        	fold = re.search(num + '-[a-zA-z-]{1,10}', str(!(dir)))
        	if fold:
