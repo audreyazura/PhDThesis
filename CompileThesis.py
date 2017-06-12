@@ -3,12 +3,12 @@
 import re
 #import antigravity
 
-ignoreLorem = False
+ignoreLorem = True
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
 
 first = 1
-maxCount = 6
+maxCount = 5
 
 packages = []
 lastPack = 2
@@ -34,7 +34,8 @@ if ignoreLorem:
 	curabiturStre = re.compile(r'Curabitur')
 
 Thesis = open('Thesis.tex', 'w')
-for i in range(first,maxCount):
+#for i in range(first,maxCount):
+for i in [first, maxCount-1]:
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
