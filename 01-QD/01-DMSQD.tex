@@ -371,8 +371,8 @@ The valence band, formed by $p$ atomic states, three times degenerated, can be w
 We can now write the states of the conduction band by composing these electronic states to the spin states:
 	\begin{align}
 		|u_{\Gamma_8, +\frac{3}{2}}\rangle &= |+1\rangle|\uparrow\rangle \\
-		|u_{\Gamma_8, +\frac{1}{2}}\rangle &= \sqrt{\frac{2}{3}}|0\rangle|\uparrow\rangle + \sqrt{\frac{2}{3}}|+1\rangle|\downarrow\rangle \\
-		|u_{\Gamma_8, -\frac{1}{2}}\rangle &= \sqrt{\frac{2}{3}}|0\rangle|\downarrow\rangle + \sqrt{\frac{2}{3}}|-1\rangle|\uparrow\rangle \\
+		|u_{\Gamma_8, +\frac{1}{2}}\rangle &= \sqrt{\frac{2}{3}}|0\rangle|\uparrow\rangle + \sqrt{\frac{1}{3}}|+1\rangle|\downarrow\rangle \\
+		|u_{\Gamma_8, -\frac{1}{2}}\rangle &= \sqrt{\frac{2}{3}}|0\rangle|\downarrow\rangle + \sqrt{\frac{1}{3}}|-1\rangle|\uparrow\rangle \\
 		|u_{\Gamma_8, -\frac{3}{2}}\rangle &= |-1\rangle|\downarrow\rangle
 	\end{align}
 Since we are working in the hh approximation, we neglect the contribution of the states $|u_{\Gamma_8, \pm \frac{1}{2}}\rangle$, calculating the interband matrix element only for $|u_{\Gamma_8, \pm \frac{3}{2}}\rangle$. Since $|+\rangle$ and $|-\rangle$ are orthogonal states, it is then clear that there is only two optically active transitions:
@@ -423,25 +423,26 @@ with $\varepsilon$ the dielectric constant and $\psi_v$ the wave function of the
 	Taking into account the symmetry of the crystal, Bir and Pikus demonstrated that the complete hamiltonian can be decomposed in two different components:\newline
 	For an electron and a hole in the same Brillouin zone, the short-range exchange interaction is to be considered. It can be written:
 	\begin{align}
-		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{J} + \sum_{i = x,y,z} b_i \sigma_i J_i^3
+		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{J} + \sum_{i = x,y,z} b_i^{exch} \sigma_i J_i^3
 	\end{align}
-	\newline
-	
-	REWRITE FROM HERE WITH CLAIRE THESIS AND LUCIEN HDR (revoir la notation $b_i$ ci-dessus).
-	\newline
-	
-The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one was found through symmetry considerations and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $\delta_0$.\newline
-	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It lifts up the degeneracy between transverse exciton, with a dipole perpendicular to the center of mass $\mathbf{k}_ex$, and longitudinal exciton, with a dipole parallel to $\mathbf{k}_ex$. This splitting is independent of $\mathbf{k}_ex$ value for $\mathbf{k}_ex > \dfrac{2\pi}{\lambda}$. The case $\mathbf{k}_ex < \dfrac{2\pi}{\lambda}$ leads to light-matter strong-coupling regime and is beyond the scope of the thesis.
-\newline	
-	
-	FAIRE UN LIEN CORRECT ENTRE CES DEUX PARAGRAPHES
-	\newline
-	
-	As presented in Sec.~\ref{ExchDMS}, electron and hole interact through exchange. Since the recombination of hole and electron in the quantum dot plays an important role in its optical properties, we have to take this new interaction into account to get the full picture. Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the hamiltonian \ref{ehExchHamil} in a QD symmetry:
+The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one take into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $I_{eh}^{sr}$.\newline
+	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It mixes the bright exciton states in an anisotropic potential, such one of a partially relaxed self assembled quantum dot. In the heavy hole exciton subspace ($J_z = |+1\rangle$, $|-1\rangle$, $|+2\rangle$, $|-2\rangle$), it can be written as:
+	\begin{align}
+		{\cal H}_{eh}^{lr} &=
+		\begin{pmatrix}
+			0 & \frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 & 0 \\
+			\frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 & 0 & 0 \\
+			0 & 0 & 0 & 0 \\
+			0 & 0 & 0 & 0
+		\end{pmatrix}
+	\end{align}
+with $\delta_2$ the splitting of the bright exciton induced by the exchange interaction.
+
+	In a quantum dot, the confinement of the carrier lead to a better overlap of the wave function and thus greater exchange energies. The exchange interaction has to be taken into account in order to fully understand the optical properties of such dots. Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the exchange hamiltonian in a QD symmetry:
 	\begin{align}
 	\label{HehC2v}
 		\begin{array}{rll}
-			{\cal H}_{e-h}^{exch} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
+			{\cal H}_{e-h}^{exch, QD} &= 2\delta_0 J_z \sigma_z &+ \dfrac{\delta_1}{2}\left(\exp (2i\varphi_1)j_+ \sigma_- - \exp (-2i\varphi_1)j_- \sigma_+ \right) \\
 										& &+ \dfrac{\delta_2}{2}\left(\exp (2i\varphi_1)j_+ \sigma_+ + \exp (-2i\varphi_1)j_- \sigma_- \right)
 		\end{array}
 	\end{align}
@@ -452,10 +453,8 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 		|\pi_{\varphi_1}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle + \exp(i\varphi_1)|-1\rangle\right) \\
 		|\pi_{\varphi_1 + 90^{\circ}}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle - \exp(i\varphi_1)|-1\rangle\right)
 	\end{align}
-
-	In order to get the full image of the polarization, the VBM mixing presented in Sec.~\ref{VBM} should also be taken into account. Exchange interaction favours a linear emission along $\varphi_1$ and $\varphi_1 + 90^{\circ}$, while VBM orient the linear emission along $\theta$ and $\theta + 90^{\circ}$, as presented in Eq.~\ref{VBMPolar}. The competition between these two elements leads to an angle between the two different linearly polarized X lines different from $90^{\circ}$.
 	
-	This model works well for quantum dots with an elongated lens shape, in the $C_{2v}$ symmetry.  However, more realistic self-assembled quantum dots have symmetries which can deviate quite substantially from the idealized shapes of circular or ellipsoidal lenses. For a $C_{s}$ symmetry (truncated ellipsoidal lens), additional terms coupling the dark and the bright excitons have to be included in the electron-hole exchange Hamiltonian. Following Ref. \cite{ZielinskiDarExc}, the general form of the electron-hole exchange Hamiltonian in the heavy-hole exciton basis $|+1\rangle$, $|-1\rangle$, $|+2\rangle$, $|-2\rangle$ for a low symmetry quantum dot (C$_s$) is
+	This model works well for quantum dots with an elongated lens shape, in the $C_{2v}$ symmetry.  However, more realistic self-assembled quantum dots have symmetries which can deviate quite substantially from the idealized shapes of circular or ellipsoidal lenses. For a $C_{s}$ symmetry (truncated ellipsoidal lens), additional terms coupling the dark and the bright excitons have to be included in the electron-hole exchange Hamiltonian. Following Ref. \cite{ZielinskiDarExc}, the general form of the electron-hole exchange Hamiltonian in the heavy-hole exciton basis for a low symmetry quantum dot (C$_s$) is
 	\begin{align}
 		\label{Heh}
 		\mathcal{H}_{eh} =\frac{1}{2} \left(
@@ -473,11 +472,13 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{Pictures/LinPolar.png}
+		\includegraphics[width=12cm]{Pictures/LinPolar.png}
 	\end{center}
 	\caption{Linear polarization of empty dot}
 	\label{XAlLinPol}
 	\end{figure}
+	
+	À REFAIRE : LUTTINGER HAMILTONIAN AND BP HAMILTONIAN ONT LA MÊME SYMMETRIE ET UNE ÉCRITURE SEMBLABLE -> TOUT DEUX AMÈNE DE LA VBM -> REPRENDRE HDR. PUIS, ON PREND LE CAS DE CONTRAINTES DANS LE PLAN UNIQUEMENT -> CE QUI A ÉTÉ FAIT AVEC LA DÉFINITION DES PSEUDO-SPINS DU TROU. VOIR L'HDR DE LUCIEN POUR ÉGALEMENT INTRODUIRE LES OPÉRATEURS $\tilde{J}$ 
 		
 	This simple picture, however, don't represent accurately most of the experiment. In a lot of found dots, both $X$ and $X^2$ present two peaks with linear polarization dependency, as presented in Fig.~\ref{XAlLinPol}. This picture could be explained by the long-range exchange interaction, presented in Sec.~\ref{ExchDMS}. However, it predicts an angle between the two linearly polarized states of $90^\circ$, while the observed angle is far from this value. Moreover, in charged species, the electron (resp. hole) interact with two holes (resp. electrons) with opposite spins, leading to an absence of exchange interaction. Therefore, in the hh approximation, neither $X^+$ nor $X^-$ should present linear polarization dependency. However, such a dependency can be observed in actual dots.
 	
@@ -505,6 +506,8 @@ with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial st
 		\end{array}
 	\end{align}
 There is then a dependency in linear polarization of the emission, depending on the angle between the polariser and the direction on the strain. In the experiment, no correlation where observed between the polarisation axis of the different quantum dots~\cite{VBMArticle}, as can be expected from the random strain relaxation forming the dots as presented in Chap.~\ref{Growth}.
+
+DISCUSSION DES ANGLES ENTRE POLAR LINÉAIRE DIFFÉRENT DE 90$^{\ circ}$ À FAIRE ICI
 
 	We saw that the presence of an anisotropy of strain lead to Valence Band Mixing, characterized a linear polarization dependency of the charged exciton emission. A similar effect is observed on neutral exciton. However, in order to understand the emission of this complex, the exchange also has to be taken into account. It will be discussed and conclude in Sec.~\ref{ehExch}. It should be noted that dark state are also coupled to each other by $\eta$, acquiring a weak oscillator with a dipole along $z$. More complete has been done by Yoan L\'eger in Ref.~\cite{YoanTh} and \cite{VBMArticle}, taking into account the effective mass carriers envelop functions, and doing calculation beyond the limit of small VBM.
 
@@ -822,7 +825,7 @@ with the Cr spin S=2 and $|D_0|\gg|a|$, $|F|$. In the model presented here, we u
 		\begin{figure}[hbt]
 			\label{CrinIIVI}
 			\begin{center}
-				\includegraphics[width=12.5cm]{Pictures/CrinIIVI.eps}
+				\includegraphics[width=10cm]{Pictures/CrinIIVI.eps}
 			\end{center}
 			\caption{Scheme of the energy level splitting of Cr$^{2+}$ at a cation site in II-VI compounds having zinc blende structure (T$_d$) with a crystal field parameter $\Delta$, a Jahn-Teller energy E$_{J-T}$ and a spin-orbit level spacing D$_0$.}
 		\end{figure}
