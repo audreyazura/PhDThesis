@@ -151,10 +151,10 @@ We find then the value of the effective mass for the lh and for the hh. The hh b
 	\label{HLMat}
 		{\cal H}_L = - \frac{\hbar^2}{2m_0}
 		\begin{pmatrix}
-			a_{hh} & c & b & 0 \\
-			c^* & a_{lh} & 0 & -b \\
-			b^* & 0 & a_{lh} & c \\
-			0 & -b^* & c^* & a_{hh}
+			a_{hh} & c_{Lutt} & b_{Lutt} & 0 \\
+			c_{Lutt}^* & a_{lh} & 0 & -b_{Lutt} \\
+			b_{Lutt}^* & 0 & a_{lh} & c_{Lutt} \\
+			0 & -b_{Lutt}^* & c_{Lutt}^* & a_{hh}
 		\end{pmatrix}
 	\end{align}
 with:
@@ -426,13 +426,13 @@ with $\varepsilon$ the dielectric constant and $\psi_v$ the wave function of the
 		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{J} + \sum_{i = x,y,z} b_i^{exch} \sigma_i J_i^3
 	\end{align}
 The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one take into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $I_{eh}^{sr}$.\newline
-	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It mixes the bright exciton states in an anisotropic potential, such one of a partially relaxed self assembled quantum dot. In the heavy hole exciton subspace ($J_z = |+1\rangle$, $|-1\rangle$, $|+2\rangle$, $|-2\rangle$), it can be written as:
+	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It mixes the bright exciton states in an anisotropic potential, such one of a partially relaxed self assembled quantum dot. In the heavy hole exciton subspace ($J_z = |+2\rangle$, $|+1\rangle$, $|-1\rangle$, $|-2\rangle$), it can be written as:
 	\begin{align}
 		{\cal H}_{eh}^{lr} &=
 		\begin{pmatrix}
-			0 & \frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 & 0 \\
-			\frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 & 0 & 0 \\
 			0 & 0 & 0 & 0 \\
+			0 & 0 & \frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 \\
+			0 & \frac{1}{2} \delta_2 \exp(-2i \phi_2) & 0 & 0 \\
 			0 & 0 & 0 & 0
 		\end{pmatrix}
 	\end{align}
@@ -459,10 +459,10 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 		\label{Heh}
 		\mathcal{H}_{eh} =\frac{1}{2} \left(
 			\begin{array}{cccc}
-			-\delta_0                               &e^{-i\pi/2}\delta_1              &e^{i\pi/4}\delta_{11}        &-e^{i\pi/4}\delta_{12}\\
-			e^{i\pi/2}\delta_1                      &-\delta_0                       &e^{-i\pi/4}\delta_{12}       &-e^{-i\pi/4}\delta_{11}\\
-			e^{-i\pi/4}\delta_{11}                  &e^{i\pi/4}\delta_{12}           &\delta_0                     &\delta_2\\
-			-e^{-i\pi/4}\delta_{12}                 &-e^{i\pi/4}\delta_{11}          &\delta_2                     &\delta_0\\
+			\delta_0                               &e^{-i\pi/4}\delta_{11}              &e^{i\pi/4}\delta_{12}        &\delta_2\\
+			e^{i\pi/4}\delta_{11}                      &-\delta_0                       &e^{-i\pi/2}\delta_{1}       &-e^{i\pi/4}\delta_{12}\\
+			e^{-i\pi/4}\delta_{12}                  &e^{i\pi/2}\delta_{1}           &-\delta_0                     &-e^{-i\pi/4}\delta_{11}\\
+			\delta_2                 &-e^{-i\pi/4}\delta_{12}          &-e^{i\pi/4}\delta_{11}                     &\delta_0\\
 			\end{array}
 		\right)
 \end{align}
@@ -479,10 +479,27 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 	\end{figure}
 	
 	À REFAIRE : LUTTINGER HAMILTONIAN AND BP HAMILTONIAN ONT LA MÊME SYMMETRIE ET UNE ÉCRITURE SEMBLABLE -> TOUT DEUX AMÈNE DE LA VBM -> REPRENDRE HDR. PUIS, ON PREND LE CAS DE CONTRAINTES DANS LE PLAN UNIQUEMENT -> CE QUI A ÉTÉ FAIT AVEC LA DÉFINITION DES PSEUDO-SPINS DU TROU. VOIR L'HDR DE LUCIEN POUR ÉGALEMENT INTRODUIRE LES OPÉRATEURS $\tilde{J}$ 
-		
-	This simple picture, however, don't represent accurately most of the experiment. In a lot of found dots, both $X$ and $X^2$ present two peaks with linear polarization dependency, as presented in Fig.~\ref{XAlLinPol}. This picture could be explained by the long-range exchange interaction, presented in Sec.~\ref{ExchDMS}. However, it predicts an angle between the two linearly polarized states of $90^\circ$, while the observed angle is far from this value. Moreover, in charged species, the electron (resp. hole) interact with two holes (resp. electrons) with opposite spins, leading to an absence of exchange interaction. Therefore, in the hh approximation, neither $X^+$ nor $X^-$ should present linear polarization dependency. However, such a dependency can be observed in actual dots.
+
+	The long range exchange interaction split the neutral exciton bright states in two linearly polarized states, with a $90^{\circ}$ angle between them. However, this simple picture doesn't fit well with the data, such as presented in Fig.~\ref{XAlLinPol}. For once, it is clear for the neutral species ($X$, $X^2$) that the angle between the polarization of the two line is different from $90^{\circ}$. Moreover, the charged species ($X^+$, $X^-$) are found to present linear polarization dependency, when the presence of the second hole ($X^+$) or electron ($X^-$) with an opposite spin should compensate the exciton exchange interaction, and thus these system should not present any dependency in linear polarization.
 	
-	However, we saw in Sec.~\ref{e-hIntQD} that the hh approximation supposed neglecting lh contribution in the Luttinger hamiltonian, through the presence of biaxial strain lifting their degeneracy with hh. However, we can see in the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}) that introducing an anisotropic distribution of strain ($\varepsilon_{xx} \neq \varepsilon_{yy}$ or $\varepsilon_{ij} \neq 0$ with $i \neq j$) can mix hh states $J_z = \pm \frac{3}{2}$ and lh states $J_z = \mp \frac{1}{2}$. Such a mixing, called Valence Band Mixing (VBM) can also occur through the Luttinger hamltonian in an anisotropic dot ($L_x \neq L_y$), but it would be weaker than the one occurring through Bir-Pikus hamiltonian.
+	In order to fully understand this dependency, we have to stop neglecting the light hole contribution. Looking at the general form of the Luttinger hamiltonian \ref{HLMat}, we see that it mixes heavy hole and light hole through its non-diagonal term $b_{Lutt}$ and $c_{Lutt}$. The Bir-Pikus hamiltonian \ref{BPHamil} presents the same symmetry and the same form as the Luttinger hamiltonian. Therefore, it also induces a coupling between the lh states and the hh states. In general, we can write the hamiltonian describing the influence of shape and strain on the valence structure in the ($|\frac{3}{2}, +\frac{3}{2}\rangle$, $|\frac{3}{2}, +\frac{1}{2}\rangle$, $|\frac{3}{2}, -\frac{1}{2}\rangle$, $|\frac{3}{2}, -\frac{3}{2}\rangle$) basis:
+
+VERIFIER LES NOTATION, NOTAMMENT POUR LE NOM DE L'HAMILTONIEN	
+	
+	\begin{align}
+		{\cal H}_{vbm} =
+		\begin{pmatrix}
+			0 & -S & R & 0 \\
+			-S^* & \Delta_{lh} & 0 & R \\
+			R^* & 0 & \Delta_{lh} & S \\
+			0 & R^* & S^* & 0
+		\end{pmatrix}				
+	\end{align}
+with $R = \delta_{xx,yy} - i \delta_{xy}$ describes the mixing induced by an anisotropy in the QD $xy$ plane, $S = \delta_{xz} - i \delta_{yz}$ stands for an asymmetry in the plane containing the QD growth axis $z$, and $\Delta_{lh}$ is the splitting between lh and hh induced by the in-plane bi-axial strain and the confinement. The asymmetry described by $S$ may come from the QD shape or the strain distribution.
+
+%	This simple picture, however, don't represent accurately most of the experiment. In a lot of found dots, both $X$ and $X^2$ present two peaks with linear polarization dependency, as presented in Fig.~\ref{XAlLinPol}. This picture could be explained by the long-range exchange interaction, presented in Sec.~\ref{ExchDMS}. However, it predicts an angle between the two linearly polarized states of $90^\circ$, while the observed angle is far from this value. Moreover, in charged species, the electron (resp. hole) interact with two holes (resp. electrons) with opposite spins, leading to an absence of exchange interaction. Therefore, in the hh approximation, neither $X^+$ nor $X^-$ should present linear polarization dependency. However, such a dependency can be observed in actual dots.
+%	
+%	However, we saw in Sec.~\ref{e-hIntQD} that the hh approximation supposed neglecting lh contribution in the Luttinger hamiltonian, through the presence of biaxial strain lifting their degeneracy with hh. However, we can see in the Bir-Pikus hamiltonian (Eq.~\ref{BPHamil}) that introducing an anisotropic distribution of strain ($\varepsilon_{xx} \neq \varepsilon_{yy}$ or $\varepsilon_{ij} \neq 0$ with $i \neq j$) can mix hh states $J_z = \pm \frac{3}{2}$ and lh states $J_z = \mp \frac{1}{2}$. Such a mixing, called Valence Band Mixing (VBM) can also occur through the Luttinger hamltonian in an anisotropic dot ($L_x \neq L_y$), but it would be weaker than the one occurring through Bir-Pikus hamiltonian.
 	
 	Looking at the matrix form of the Luttinger hamiltonian in Eq.~\ref{HLMat}, we see that $\pm \frac{3}{2}$ could also be coupled to $\pm \frac{1}{2}$ through the $b$ term. However, we supposed that the wave function can be separated into a pure $z$ component and a pure $x - y$ one, meaning $\langle \chi_i (z) | k_z | \chi_j (z) \rangle = 0$ with $\chi_{(i,j)} (z)$ define in Eqs.~\ref{GSWF} and \ref{ExcWF}. This means $b$ doesn't couple envelop functions. A similar coupling parameter appear in the Bir-Pikus hamiltonian due to the shear strains $\varepsilon_{zx}$ and $\varepsilon_{zy}$. However, in most of the found dots, $\varepsilon_{zx}$ and $\varepsilon_{zy}$ is found to be negligible~\cite{YoanTh}.
 	
@@ -507,7 +524,7 @@ with $\Delta_{lh}$ the lh-hh splitting given by the average in-plane bi-axial st
 	\end{align}
 There is then a dependency in linear polarization of the emission, depending on the angle between the polariser and the direction on the strain. In the experiment, no correlation where observed between the polarisation axis of the different quantum dots~\cite{VBMArticle}, as can be expected from the random strain relaxation forming the dots as presented in Chap.~\ref{Growth}.
 
-DISCUSSION DES ANGLES ENTRE POLAR LINÉAIRE DIFFÉRENT DE 90$^{\ circ}$ À FAIRE ICI
+DISCUSSION DES ANGLES ENTRE POLAR LINÉAIRE DIFFÉRENT DE 90$^{\circ}$ À FAIRE ICI
 
 	We saw that the presence of an anisotropy of strain lead to Valence Band Mixing, characterized a linear polarization dependency of the charged exciton emission. A similar effect is observed on neutral exciton. However, in order to understand the emission of this complex, the exchange also has to be taken into account. It will be discussed and conclude in Sec.~\ref{ehExch}. It should be noted that dark state are also coupled to each other by $\eta$, acquiring a weak oscillator with a dipole along $z$. More complete has been done by Yoan L\'eger in Ref.~\cite{YoanTh} and \cite{VBMArticle}, taking into account the effective mass carriers envelop functions, and doing calculation beyond the limit of small VBM.
 
