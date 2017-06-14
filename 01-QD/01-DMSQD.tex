@@ -792,20 +792,30 @@ with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity and c
 
 	To be completely thorough with the analysis, we should also take into account the confinement due to the quantum dot. This means the wave vector $\mathbf{k}$ of the carriers can be different from 0, leading to small perturbative effect on ${\cal H}_{sd}$ and ${\cal H}_{pd}$. This was done thoroughly by Laurent Maingault in the Chap.~I.3 of his PhD thesis~\cite{LaurentTh}. It is shown that the hamiltonian changed as follow:
 	\begin{align}
-			{\cal H}_{sd} (\mathbf{R}) &= -\alpha \bm{\upsigma}.\mathbf{S} \left| F(\mathbf{R}) - A_2\left( \frac{\partial^2 F}{\partial z^2} (\mathbf{R}) + \frac{\partial^2 F}{\partial \rho^2}(\mathbf{R})\right) \right|^2 \nonumber \\
-										&  \qquad \qquad \qquad - \beta \bm{\upsigma}.\mathbf{S} \left( (C_2 - B_2) \left| \frac{\partial^2 F}{\partial z^2} (\mathbf{R}) \right|^2 + C_2 \left| \frac{\partial^2 F}{\partial \rho^2} (\mathbf{R}) \right|^2 \right) \\
-			{\cal H}_{pd} (\mathbf{R}) &= -\beta \mathbf{J}.\mathbf{S} |F(\mathbf{R}) - V_{kd} F''(\mathbf{R})|^2
+			{\cal H}_{sd} (\mathbf{R}) &= -\alpha \bm{\upsigma}.\mathbf{S} \left| F_c(\mathbf{R}) - A_2\left( \frac{\partial^2 F_c}{\partial z^2} (\mathbf{R}) + \frac{\partial^2 F_c}{\partial \rho^2}(\mathbf{R})\right) \right|^2 \nonumber \\
+										&  \qquad \qquad \qquad - \beta \bm{\upsigma}.\mathbf{S} \left( (C_2 - B_2) \left| \frac{\partial^2 F_c}{\partial z^2} (\mathbf{R}) \right|^2 + C_2 \left| \frac{\partial^2 F_c}{\partial \rho^2} (\mathbf{R}) \right|^2 \right) \\
+			{\cal H}_{pd} (\mathbf{R}) &= -\beta \mathbf{J}.\mathbf{S} |F_v(\mathbf{R}) - V_{kd} F_v''(\mathbf{R})|^2
 	\end{align}
-with $F (\mathbf{R})$ the carrier envelop function defined in \ref{eEnvFunc} and \ref{hEnvFunc}, $F'' (\mathbf{R})$ the second derivative of this wave function, and $A_2$, $B_2$, $C_2$ constant depending on the semiconductor lattice. For CdTe, $A_2 = 10.3$ \AA$^{-2}$, $B_2 = 0.781$ \AA$^{-2}$ and $C_2 = 19.8$ \AA$^{-2}$.
+with $F_c(\mathbf{R})$ (resp. $F_v(\mathbf{R})$) the electron (resp. hole) envelop function, $F_v'' (\mathbf{R})$ the second derivative of this wave function, and $A_2$, $B_2$, $C_2$ constant depending on the semiconductor lattice. For CdTe, $A_2 = 10.3$ \AA$^{-2}$, $B_2 = 0.781$ \AA$^{-2}$ and $C_2 = 19.8$ \AA$^{-2}$.
 
 		\subsection{Studied magnetic atoms: Mn and Cr}
 		
+		We will consider in the section the interaction between single magnetic atoms trapped in quantum dots and the carrier. Specifically, we will be interested in the interaction with a Manganese atom and with a Chromium atom. This doesn't change dramatically the picture we draw in the previous section. However, for the interaction between the semiconductor electrons and the magnetic atom $d$ electrons, we will have to also take into account the overlap between the magnetic atom and the carriers. For a magnetic atom A, we then defined the exchange constant:
+		\begin{align}
+			I_{eA} &= \alpha |F_c (\mathbf{R}|^2 \\
+			I_{hA} &= \alpha |F_v (\mathbf{R}|^2
+		\end{align}
+			
 			\subsubsection*{Mn in CdTe}
-		For the Mn, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hMn}$ and $I_{sd}$ in the conduction band as $I_{eMn}$, since we look at the interaction between an exciton and the Manganese atom. The hamiltonian \ref{HSingleAt} is then rewrited:
+		Using the exchange constant defined above, we can rewrite the hamiltonian \ref{HSingleAt}:
 		\begin{align}
 		\label{HSingleMn}
-			{\cal H}_{Mn} &= {\cal H}_0 + {\cal H}_{eMn} + {\cal H}_{hMn}
+			\begin{array}{rlccc}
+				{\cal H}_{cMn} &=& {\cal H}_{eMn} &+& {\cal H}_{hMn} \\
+								&=& I_{eMn} \bm{\upsigma}.\mathbf{S} &+& I_{hMn} \mathbf{J}.\mathbf{S}
+			\end{array}
 		\end{align}
+We ignore ${\cal H}_0$ here since it only shift the energy of the system without affecting the spins exchange interactions.
 
 		In the conduction band, the electrons $s$ orbital are orthogonal to the $d$ orbital of the Mn atom. No hybridization can then occur between these. Only the Coulomd interaction remain, leading to an overall ferromagnetic interaction between conduction band electrons and Mn electronic spin. Confirming this, $N_0 \alpha = 0.22 \pm 0.01$ eV was measured~\cite{GajMnD0alphabeta}.
 		
@@ -822,14 +832,15 @@ with $F (\mathbf{R})$ the carrier envelop function defined in \ref{eEnvFunc} and
 %The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the interaction is homogeneous, unlike interaction between Mn and hole spins.
 	
 			\subsubsection*{Cr in CdTe}
-		For the Cr, we will rewrite the hamiltonian the exchange interaction in the valence band $I_{pd}$ as $I_{hCr}$ and $I_{sd}$ in the conduction band as $I_{eCr}$, since we look at the interaction between an exciton and the Chromium atom. The hamiltonian \ref{HDMS} is the rewrited:
+		As for the Mn, we can rewrite the hamiltonian \ref{HSingleAt} using the exchange interaction defined in the introduction of this section:
 		\begin{align}
 		\label{HCrDMS}
-			\begin{array}{rlcccc}
-				{\cal H}_{DMS, Cr} &= {\cal H}_0 &+& {\cal H}_{eCr} &+& {\cal H}_{hCr} \\
-									&= {\cal H}_0 &+& I_{eCr} \bm{\upsigma}.\mathbf{S} &+& I_{hCr} \mathbf{J}.\mathbf{S}
+			\begin{array}{rlccc}
+				{\cal H}_{cCr} &=& {\cal H}_{eCr} &+& {\cal H}_{hCr} \\
+									&=& I_{eCr} \bm{\upsigma}.\mathbf{S} &+& I_{hCr} \mathbf{J}.\mathbf{S}
 			\end{array}						
 		\end{align}
+Once again, we ignore ${\cal H}_0$ since it didn't affect the spins exchange interaction.
 		
 		For conduction band electrons, the situation is the same as with the Mn: the $s$ orbital are orthogonal to the Chromium $d$ orbital, and the hybridization is then null. Hence, only Coulomb interaction remain and induce a ferromagnetic coupling between the electrons of the band and the Cr electronic spin. $N_0 \alpha$ was never measured in Cd$_x$Cr$_{1-x}$Te, but most most magnetic atoms in II-VI semiconductor presents a value between $0.2$ eV and $0.3$ eV. It is then generally assume that, in II-VI semiconductor, $N_0 \alpha \approx 0.2$ eV~\cite{MacspdexchCr}.
 		
@@ -837,8 +848,6 @@ with $F (\mathbf{R})$ the carrier envelop function defined in \ref{eEnvFunc} and
 
 
 	\section{Fine and hyperfine structure of a magnetic atom in II-VI semiconductor}
-	
-	FINDING A WAY TO SPEAK ABOUT THE EFFECT OF VBM AS EXPLAIN IN CLAIRE THESIS~\cite{ClaireTh} p.30.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -850,20 +859,22 @@ with $F (\mathbf{R})$ the carrier envelop function defined in \ref{eEnvFunc} and
 	
 		\subsection{Mn atom in II-VI semiconductor}
 
-		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)
+		REPRENDRE L'ARTICLE DE FURDYNA, III-C -> Mn$^{2+}$ peu affecté par la lattice, en $^6$A$_1$, electron parallèle -> lattice split higher energy level -> lower energy (most probable) transition at 2.2 eV, way higher than CdTe gap -> ok!
+	
+		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. Hyperfine interaction. Cf thèse Claire p.55 + articles on desk.
 \newline
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		Mn is incorporated in II-VI semiconductors as Mn$^{2+}$, with the electronic structure [Ar]$3d^5$. Since the $d$ orbital is five time degenerated (doubled when taking spin into account), it is half-full in the case of the Mn in II-VI. Following Hund's rule, the spin of those electron are all aligned, leading to an electron spin $S = \frac{5}{2}$ and, following Pauli exclusion principle ranging the electrons angular momenta from $-2$ to $-2$, an angular momentum $L = 0$. Thus, this ion is really weakly coupled to the strain state at its position. In first approximation, we can then consider it as an isolated ion occupying a cation site in the lattice.
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
+		\includegraphics[width=12cm]{Pictures/MnFineStruct.png}
 	\end{center}
-	\caption{Mn fine and hyperfine structure}
+	\caption{Top: picture of an idealized strained QD containing a magnetic atom. Bottom: scheme of the nerguy level of a Mn atom in a strained II-VI QD. All the stable Mn isotopes $^55$Mn carries a nuclear spin $I = \frac{5}{2}$ which couples through the hyperfine interaction (${\cal A}\mathbf{I}.\mathbf{S}$ to the electronic spin $S = \frac{5}{2}$.The $d$ orbital of the Mn is also sensitive to the electric field produced by the neighbouring crystal atoms (crystal field) in the zinc-blende lattice. A distortion of the lattice and consequently a change in the crystal field will also affect the $d$ orbital. The dynamic of the Mn spin at zero magnetic field is mainly controlled by a magnetic anisotropy $D_0$ produced by the presence of a large bi-axial strain at the Mn location. This field split the spin states of the Mn according to $D_0 S_z^2$; anisotropy of the strain in the quantum dot plane ($E(s_x^2 - S_y^2)$) also mix the different $S_z$ component (green arrow).}
 	\label{MnFineHyperfines}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	Though Mn$^{2+}$ is only weakly coupled to strain, those still induce a fine structure and thus has to be taken into account. Moreover, the non-zero nuclear spin of the Manganese ($I = \frac{5}{2}$) lead to a hyperfine structure...
 	
 		\subsection{Cr atom in II-VI semiconductor\label{CrSemiCon}}
 	
@@ -879,12 +890,12 @@ with $F (\mathbf{R})$ the carrier envelop function defined in \ref{eEnvFunc} and
 
 		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. This isotope presents \emph{no nuclear spin}, meaning we don't have to consider the hyperfine structure of a Cr atom in a II-VI semiconductor. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number L=2 and a spin S=2 yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{CrinIIVI}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The substitution of the Cd atom by a Cr atom lead to a Jahn-Teller distortion of the tetragonal matrix~\cite{EPRCr}. This distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet.
 
-		The ground state orbital singlet $^{5}$B$_{2}$ is further split by the spin-orbit interaction. In a strain free crystal, it was found that the ground state splitting can be described by the spin effective Hamiltonian ~\cite{VallinEPR}:
+		The ground state orbital singlet $^{5}$B$_{2}$ is further split by the spin-orbit interaction. In a strain free crystal, it was found that the ground state splitting can be described by the spin effective Hamiltonian~\cite{EPRCr}:
 		\begin{align}
 			\label{exchange}
 			{\cal H}_{Cr,CF}=D_0S_z^2+\frac{1}{180}F[35S_z^2-30S(S+1)S_z^2+25S_z^2]+\frac{1}{6}a[S_1^4+S_2^4+S_3^4]
 		\end{align}
-with the Cr spin S=2 and $|D_0|\gg|a|$, $|F|$. In the model presented here, we use $a=0$ and $F=0$. The x, y, z principal axes were found to coincide with the cubic axes (1,2,3) giving rise to three identical sites, each given by \ref{exchange} but with the z axis of each along a different cubic axis (1,2,3). A value of D$_0\approx+30 \mu eV$ was estimated from Electron Paramagnetic Resonance (EPR) measurements in highly diluted bulk (Cd,Cr)Te~\cite{VallinEPR}.
+with the Cr spin S=2 and $|D_0|\gg|a|$, $|F|$. In the model presented here, we use $a=0$ and $F=0$. The x, y, z principal axes were found to coincide with the cubic axes (1,2,3) giving rise to three identical sites, each given by \ref{exchange} but with the z axis of each along a different cubic axis (1,2,3). A value of D$_0\approx+30 \mu eV$ was estimated from Electron Paramagnetic Resonance (EPR) measurements in highly diluted bulk (Cd,Cr)Te~\cite{EPRCr}.
 
 		\begin{figure}[hbt]
 			\label{CrinIIVI}
@@ -896,7 +907,7 @@ with the Cr spin S=2 and $|D_0|\gg|a|$, $|F|$. In the model presented here, we u
 
 		Static biaxial compressive strain in the (001) plane, as observed in self-assembled quantum dots, reduces the symmetry to D$_{2d}$ and destabilize the Cr $3d$ orbitals $d_{xz}$ and $d_{yz}$ having an electron density pointing along the $[$001$]$ axis ($z$ axis). The Cr ground state is then a 5-fold degenerated orbital singlet formed from the $d_{xy}$ orbital. It corresponds to the Jahn-Teller ground state with a tetragonal distortion along the $[$001$]$ axis~\cite{DefPonctSemiCon}.
 
-		An applied stress will also  influence the Cr spin fine structure splitting through the modification of the crystal field and the spin-orbit interaction~\cite{VallinEPR}. For an arbitrary strain tensor, the general form of the Cr ground state spin effective Hamiltonian is
+		An applied stress will also  influence the Cr spin fine structure splitting through the modification of the crystal field and the spin-orbit interaction~\cite{EPRCr}. For an arbitrary strain tensor, the general form of the Cr ground state spin effective Hamiltonian is
 		\begin{align}
 		\label{FullCrHamil}
 			{\cal H}_{Cr,\varepsilon} = c_1 e_A S_{\theta} + c_2 e_{\theta} S_{\theta} + c_3 e_{\epsilon} S_{\epsilon} + c_4e_{\zeta} S_{\zeta} + c_5(e_{\xi} S_{\xi} + e_{\eta} S_{\eta})
@@ -933,7 +944,7 @@ and $e_i$ defined similarly as:
 where C$_{11}\approx$ 5.4 10$^{10}Pa$ and C$_{12}\approx$ 3.7 10$^{10}Pa$ are the elastic constants of CdTe~\cite{CdTeElConst}. For this strain configuration, the Cr fine structure is controlled by the spin-lattice coupling coefficients $c_1$ (symmetric coefficient) and $c_2$ (tetragonal coefficients). Strain-coupling coefficients estimated from EPR measurements in bulk Cr doped CdTe are listed in table \ref{StrCouplCoef}.
 
 		\begin{table}[htb] \centering
-			\caption{Values for spin to strain coupling coefficients of Cr in bulk CdTe (in $meV$) extracted from ref.~\cite{VallinEPR}.\label{StrCouplCoef}}
+			\caption{Values for spin to strain coupling coefficients of Cr in bulk CdTe (in $meV$) extracted from ref.~\cite{EPRCr}.\label{StrCouplCoef}}
 			\renewcommand{\arraystretch}{1.0}
 			\begin{tabular}{ccccc}
 				\hline\hline
@@ -945,7 +956,7 @@ where C$_{11}\approx$ 5.4 10$^{10}Pa$ and C$_{12}\approx$ 3.7 10$^{10}Pa$ are th
 
 		We can now simplify the hamiltonian \ref{FullCrHamil}, first reducing it to the active term in our case:
 		\begin{align*}
-			{\cal H}_{Cr,\varepsilon} &= c_1 e_A S_{\theta} + c_2 e_{\theta} + S_{\theta}
+			{\cal H}_{Cr,\varepsilon} &= c_1 e_A S_{\theta} + c_2 e_{\theta} S_{\theta}
 		\end{align*}
 Replacing now $e_A$, $e_{\theta}$ and $S_{\theta}$ by their value given in \ref{Svalues} and \ref{evalues}, and using the equalities given in Sec.~\ref{BPSec}, we can rewrite the strain controlled part of the spin Hamiltonian as ${\cal H}_{Cr,\varepsilon}$, depending only on $\varepsilon_{\parallel}$:
 		\begin{align}
@@ -955,7 +966,7 @@ Replacing now $e_A$, $e_{\theta}$ and $S_{\theta}$ by their value given in \ref{
 													&=& D_0 & S_z^2
 			\end{array}
 		\end{align}
-where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-strain coupling coefficients in CdTe (table \ref{StrCouplCoef}). However one should note the quantum dots could be partially relaxed and may contain a significant amount of Zn. We were not able to find spin to strain coupling coefficients for Cr in ZnTe and (Cd,Zn)Te alloy in literature. A value of D$_0\approx$+280$\mu$eV, much larger than for CdTe, was however estimated in strain-free Cr-doped bulk ZnTe~\cite{VallinEPR}. Larger spin-strain coupling coefficients could then expected for Cr in ZnTe and (Cd,Zn)Te alloys.
+where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-strain coupling coefficients in CdTe (table \ref{StrCouplCoef}). However one should note the quantum dots could be partially relaxed and may contain a significant amount of Zn. We were not able to find spin to strain coupling coefficients for Cr in ZnTe and (Cd,Zn)Te alloy in literature. A value of D$_0\approx$+280$\mu$eV, much larger than for CdTe, was however estimated in strain-free Cr-doped bulk ZnTe~\cite{EPRCr}. Larger spin-strain coupling coefficients could then expected for Cr in ZnTe and (Cd,Zn)Te alloys.
 
 		Finally, an anisotropy of the strain in the quantum dot plane (001) with principal axis along $[$010$]$ or $[$100$]$ axes ($\varepsilon_{xx}\neq\varepsilon_{yy}$ and $\varepsilon_{xy}$=$\varepsilon_{yx}$=0) would affect the Cr fine structure through the tetragonal coefficient c$_3$. This coupling can be described by an additional term in the spin-strain Hamiltonian
 		\begin{align}
