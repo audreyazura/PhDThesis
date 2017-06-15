@@ -31,7 +31,7 @@
 
 	\section{II-VI semiconductor quantum dots}
 	
-		\subsection{Band structure of CdTe/ZnTe\label{BandStruct}}
+ 		\subsection{Band structure of CdTe/ZnTe\label{BandStruct}}
 		
 		ZnTe and CdTe are two II-VI semiconductor, meaning they are composed of an anion from the column VI of periodic table (Te), and a cation from the column II (Cd and Zn). They both crystallize as zinc blend when grown in Molecular Beam Epitaxy. As shown in Fig.~\ref{Zinc-Blende}, in this structure, each species is organized in a face centred lattice, one them being shift from the other by a quarter of the [111] diagonal. Each ion is then in a tetragonal environment, meaning the zinc-blende structure is of the $T_d$ space-group.
 
@@ -47,7 +47,7 @@
 	
 	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2N valence electron. 6N will be taken to fill the three higher energy bonding band, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the electron available are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band are formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
 
-	The energy needed to promote an electron from the valence band to the conduction band is called the gap. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.26$ eV and  $E_{g, CdTe} = 1.45$ eV. It is possible to promote an electron from the valence band to the conduction band by injecting in the semiconductor more energy than the size of the gap. The absence of an electron in the valence can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. 
+	The energy needed to promote an electron from the valence band to the conduction band is called the gap. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.40$ eV and  $E_{g, CdTe} = 1.60$ eV at 5K~\cite{FurdynaDMS}. It is possible to promote an electron from the valence band to the conduction band by injecting in the semiconductor more energy than the size of the gap. The absence of an electron in the valence can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. 
 
 	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
 
@@ -848,34 +848,52 @@ Once again, we ignore ${\cal H}_0$ since it didn't affect the spins exchange int
 
 
 	\section{Fine and hyperfine structure of a magnetic atom in II-VI semiconductor}
-	
+
+		\subsection{Mn atom in II-VI semiconductor}
+		
+		Mn is incorporated in II-VI semiconductors as Mn$^{2+}$. This ion is really weakly coupled to the strain state at its position. In first approximation, we can then consider it as an isolated ion occupying a cation site in the lattice. We will first study the free ion and then see the effect of the lattice on the different states.
+		
+		The Mn$^{2+}$ electronic structure [Ar]$3d^5$. Since the $d$ orbital is five time degenerated (doubled when taking spin into account), it is half-full in the case of the Mn in II-VI. Following Hund's rule, the spin of those electron are all aligned, leading to an electron spin $S = \frac{5}{2}$ and, following Pauli exclusion principle ranging the electrons angular momenta from $-2$ to $-2$, an angular momentum $L = 0$.
+		
+		We get from Hund's rule that adding an electron to an half-full orbital has a high energy cost. The lowest energy states are therefore the flipping of an electron. For a free atom, it leads to a first excited state with an angular moment $L = 4$. Following the spectroscopic notation of these states $^{(2S+1)}L$, the ground state is the noted $^6S$ ($L=0$, $S = \frac{5}{2}$) and the first excited state is $^4G$ ($L = 4$, $S = \frac{3}{2}$). The flipping of one electron leads also to higher energy excited states, written in spectroscopic notation $^4P$, $^4D$ and $^4F$ in Fig.~\ref{MnCrystal}.
+		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
+		\includegraphics[width=6cm]{Pictures/MnCrystal.eps}
 	\end{center}
-	\caption{Magnetic atom in a Zinc-Blend lattice}
-	\label{MagAtInclusion}
+	\caption{A schematic diagram of the splitting of the lowest excited state of the $3d^5$ level ($^4G$) relative to the ground state ($^6S$) for a Mn$^{2+}$ ion in the presence of a tetrahedral crystal field.}
+	\label{MnCrystal}
 	\end{figure}
 	
-		\subsection{Mn atom in II-VI semiconductor}
-
-		REPRENDRE L'ARTICLE DE FURDYNA, III-C -> Mn$^{2+}$ peu affecté par la lattice, en $^6$A$_1$, electron parallèle -> lattice split higher energy level -> lower energy (most probable) transition at 2.2 eV, way higher than CdTe gap -> ok!
-	
-		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. Hyperfine interaction. Cf thèse Claire p.55 + articles on desk.
-\newline
 		
-		Mn is incorporated in II-VI semiconductors as Mn$^{2+}$, with the electronic structure [Ar]$3d^5$. Since the $d$ orbital is five time degenerated (doubled when taking spin into account), it is half-full in the case of the Mn in II-VI. Following Hund's rule, the spin of those electron are all aligned, leading to an electron spin $S = \frac{5}{2}$ and, following Pauli exclusion principle ranging the electrons angular momenta from $-2$ to $-2$, an angular momentum $L = 0$. Thus, this ion is really weakly coupled to the strain state at its position. In first approximation, we can then consider it as an isolated ion occupying a cation site in the lattice.
+		Mn atom in inserted in the CdTe lattice replacing a Cd atom. The interaction with the crystal field willift degeneracies of the free atom level. Those new level are written with the appropriate group theoritical transformation properties. The $^6S$ ground state is symmetrical and non-degenrated. Thus, in first order, it is not affected by the crystal field and is noted $^6A_1$. On the other hand, $^4G$, the first excited state, is degenerated and therefore is affected by the crystal. It split into four different states: $^4T_1$, three-fold degenerated ; $^4T_2$, three-fold degenerated ; $^4E$, two-fold degenerated ; and $^4A_1$, not degenerated. It has been shown by calculations that the effect of the crystal field is to pull the two $^4T$ levels closer to the ground state, while $^4E$ and $^4A_1$ are almost coincident and almost not affected by the crystal field~\cite{TanabeGroupThMn,SolidStatesPhysics,ThTransMetalIon}. Higher energy excited states would also be affected, but they are at high enough energy for their contribution to be significant.
 
+	For a free atom, the transition between the ground state with $S=\frac{5}{2}$ and any of the excited state, with $S = \frac{3}{2}$ is forbidden by the $\Delta S = 0$ rule and the parity selection ones. However, in a II-VI lattice, the spin-orbit interaction and the absence of inversion symmetry relaxed those, and thus allow the transitions between $^6A_1$ and the different states coming from the $^4G$ splitting.$^6A_1 \rightarrow ^4T_1$ is the lowest energy of those transitions ad therefore the most significant. It correspond to approximately 2.2 eV. We saw in Sec.~\ref{BandStruct} that CdTe band gap was 1.6 eV at 5K, far from the Mn internal transition energy. The confinement, however, will increase the energy of the carriers in the quantum dot, getting them closer to the internal transition. To keep luminescence, we then have to be wary of the size of our studied dots in order to stay far enough from these Mn transitions.
+
+	$^6A$ state of the Mn$^{2+}$ is symmetric and thus almost not affected by the crystal field. However weakly, Mn$^{2+}$ is still sensible to  and lead to the Mn$^{2+}$ strain induced fine structure. We can, in the equation, also take into account the hyperfine structure induced by the nuclear spin $I = \frac{5}{2}$ of the Mn atom. The Hamiltonian of the coupled electronic an nuclear spins of a Mn atom in a strained layer grow along [001] axis is known from electron paramagnetic resonance in CdTe/ZnTe superlattices~\cite{StrainedMn} and reads:
+	\begin{align}
+	\label{Mnalone}
+		\begin{array}{rll}
+			{\cal H}_{Mn} &=& {\cal A}\mathbf{I}.\mathbf{S} \\
+							& & +\dfrac{1}{6}a (S_x^4 + S_y^4 + S_z^4 - \dfrac{1}{5}S(S+1)(3S^2+3S-1)) \\
+							& & + D_0 (S_z^2 - \dfrac{1}{3}S(S+1)) + E(S_x^2 - S_y^2)
+		\end{array}
+	\end{align}
+	
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=12cm]{Pictures/MnFineStruct.png}
 	\end{center}
-	\caption{Top: picture of an idealized strained QD containing a magnetic atom. Bottom: scheme of the nerguy level of a Mn atom in a strained II-VI QD. All the stable Mn isotopes $^55$Mn carries a nuclear spin $I = \frac{5}{2}$ which couples through the hyperfine interaction (${\cal A}\mathbf{I}.\mathbf{S}$ to the electronic spin $S = \frac{5}{2}$.The $d$ orbital of the Mn is also sensitive to the electric field produced by the neighbouring crystal atoms (crystal field) in the zinc-blende lattice. A distortion of the lattice and consequently a change in the crystal field will also affect the $d$ orbital. The dynamic of the Mn spin at zero magnetic field is mainly controlled by a magnetic anisotropy $D_0$ produced by the presence of a large bi-axial strain at the Mn location. This field split the spin states of the Mn according to $D_0 S_z^2$; anisotropy of the strain in the quantum dot plane ($E(s_x^2 - S_y^2)$) also mix the different $S_z$ component (green arrow).}
+	\caption{Top: picture of an idealized strained QD containing a magnetic atom. Bottom: scheme of the energy level of a Mn atom in a strained II-VI QD. All the stable Mn isotopes $^55$Mn carries a nuclear spin $I = \frac{5}{2}$ which couples through the hyperfine interaction (${\cal A}\mathbf{I}.\mathbf{S}$ to the electronic spin $S = \frac{5}{2}$.The $d$ orbital of the Mn is also sensitive to the electric field produced by the neighbouring crystal atoms (crystal field) in the zinc-blend lattice. A distortion of the lattice and consequently a change in the crystal field will also affect the $d$ orbital. The dynamic of the Mn spin at zero magnetic field is mainly controlled by a magnetic anisotropy $D_0$ produced by the presence of a large bi-axial strain at the Mn location. This field split the spin states of the Mn according to $D_0 S_z^2$; anisotropy of the strain in the quantum dot plane ($E(s_x^2 - S_y^2)$) also mix the different $S_z$ component (green arrow).}
 	\label{MnFineHyperfines}
 	\end{figure}
-
-	Though Mn$^{2+}$ is only weakly coupled to strain, those still induce a fine structure and thus has to be taken into account. Moreover, the non-zero nuclear spin of the Manganese ($I = \frac{5}{2}$) lead to a hyperfine structure...
 	
+	The first term is the hyperfine interaction between the Mn nuclear spin $\mathbf{•}$ and its $5d$ electrons spin $\mathbf{S}$, coupling two consecutive Mn spin states through an electron-nuclei flip flop. The hyperfine constant of the Mn was found to be ${\cal A} \approx 0.71$ $\mu$eV~\cite{MnSpinLatticeCoeff}. The second term results from the crystal cubic symmetry and mixes different $S_z$ of the Mn spin. According to ref.~\cite{MnSpinLatticeCoeff}, we have $a = 0.32$ $\mu$eV.
+	
+	The third line contain terms linked to the strain state at the Mn position: the magnetic isotropy caused by bi-axial strain $D_0$ and the anisotropy of strain in the $xy$ plane $E$. $D_0$ is the dominant term for a Mn atom in a highly strained QD. Because of the partial relaxation of strain in the self-assembled QD we used, the value of $D_0$ may vary between 0 $\mu$eV for a strain-free QD, to 12 $\mu$eV for a fully strain CdTe layer matched on ZnTe. It splits the Mn spin states according to $S_z^2$ and is responsible for the Mn spin memory at zero magnetic field~\cite{ClaireOptSpinOr}.
+	
+	The anisotropy in the QD plane induces a mixing between different $S_z$ through the anisotropic crystal field component. It coupled two value of $S_z$ separated by two units. In the absence of magnetic anisotropy ($D_0 \simeq 0$), both the anisotropy of strain and the hyperfine structure prevent the optical pumping of the Mn spin at 0 magnetic field.
+
 		\subsection{Cr atom in II-VI semiconductor\label{CrSemiCon}}
 	
 %		As presented in Sec.~\ref{CrDMS}, the Chromium is included in CdTe as Cr$^{2+}$. This isotope has an electronic spin $S = 2$, an orbital momentum $L = 2$ and \emph{no nuclear spin}. Therefore, Cr presents in our sample no hyperfine structure. However, the non-nul orbital momentum shows that it presents a strong coupling to strain. The fine structure will the be of importance in the study of this atom.
@@ -979,7 +997,7 @@ where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-str
 
 		This anisotropy term E couples Cr spin states separated by two units and in particular S$_z$=+1 to S$_z$=-1 which are initially degenerated. It could be exploited to induce a large strain mediated coherent coupling between a mechanical oscillator and the Cr spin~\cite{SpinOsciCoupl}.
 		
-		We can now group \ref{HamilD0} and \ref{HamilE} in order to write the complete hamiltonian of anisolated Cr in a strained, anisotropic CdTe/ZnTe quantum dot:
+		We can now group \ref{HamilD0} and \ref{HamilE} in order to write the complete hamiltonian of an isolated Cr in a strained, anisotropic CdTe/ZnTe quantum dot:
 		\begin{align}
 			\begin{array}{lrccc}
 				\label{Cralone}
