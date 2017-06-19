@@ -28,7 +28,11 @@
 
 \chapter{Diluted magnetic semiconductor quantum dots\label{DMSQDTh}}
 
-	ECRIRE INTRO
+	This chapter aim to present the system that will be studied as well as the main theoretical tools one need to understand it fully. We begin presenting the semiconductor and their electronic structure, and how the strain affect it. We then reduce the dimensions of the system we look at to get to one of the core of this thesis: the quantum dots (QD). We first see how the confinement affect their energy, and we then study their optical properties and how their interaction inside the dot change them. We finish by studying the effect of a strain anisotropy in the on said optical properties.
+	
+	In the second section, we explore the second main aspect of the system studied in this document: the Diluted Magnetic Semiconductor. We see how a low density of magnetic impurity in a semiconductor can dramatically change the behaviour of the carrier and thus the properties of said semiconductor. We then give more detail on the two atoms we focus on in this thesis: the Manganese and the Chromium. The second section details their interaction with the carriers, while we study in the third their interaction with the semiconductor crystal field.
+	
+	Finally, we give a simple example of application for these theory, studying a simple system: an exciton and a single Manganese atom in a quantum dot.
 
 	\section{II-VI semiconductor quantum dots}
 	
@@ -50,7 +54,55 @@
 
 	The energy needed to promote an electron from the valence band to the conduction band is called the gap. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.40$ eV and  $E_{g, CdTe} = 1.60$ eV at 5K~\cite{FurdynaDMS}. It is possible to promote an electron from the valence band to the conduction band by injecting in the semiconductor more energy than the size of the gap. The absence of an electron in the valence can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. 
 
-	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor.
+	Introducing the spin-orbit interaction, the conduction band, formed by the hybridazation of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = 1/2$. In a similar fashion, the valence band will be split into to band: a first one of $\Gamma_8$ symmetry, with a spin $J = 3/2$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $1/2$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor. This gap is wide enough to ignore the effect of the $\Gamma_7$ band for the rest of this document and focusing on the effect between the top of the valence band and the bottom of the conduction band.
+	
+		Since the conduction band has a spin $\frac{1}{2}$, we can write it using Pauli matrix. We can then define the following operator:
+	\begin{align}
+			\sigma_x = \dfrac{1}{2}
+						\begin{pmatrix}
+							0 & 1 \\
+							1 & 0
+						\end{pmatrix} \qquad ; \qquad
+			\sigma_y = \dfrac{1}{2}
+						\begin{pmatrix}
+							0 & -i \\
+							i & 0
+						\end{pmatrix} \qquad ; \qquad
+			\sigma_z = \dfrac{1}{2}
+						\begin{pmatrix}
+							1 & 0 \\
+							0 & -1
+						\end{pmatrix}
+	\end{align}
+In the same fashion, we can define the hole spin operators. For spin $\frac{3}{2}$, we have:
+	\begin{align}
+		\begin{array}{ccl}
+			J_x = \begin{pmatrix}
+						0 & \frac{\sqrt{3}}{2} & 0 & 0 \\
+						\frac{\sqrt{3}}{2} & 0 & 1 & 0 \\
+						0 & 1 & 0 & \frac{\sqrt{3}}{2} \\
+						0 & 0 & \frac{\sqrt{3}}{2} & 0
+					\end{pmatrix} & ; &
+			J_y = \begin{pmatrix}
+						0 & -\frac{i\sqrt{3}}{2} & 0 & 0 \\
+						\frac{i\sqrt{3}}{2} & 0 & -i & 0 \\
+						0 & i & 0 & -\frac{i\sqrt{3}}{2} \\
+						0 & 0 & \frac{i\sqrt{3}}{2} & 0
+					\end{pmatrix} \\
+			& J_z = \begin{pmatrix}
+						\frac{3}{2} & 0 & 0 & 0 \\
+						0 & \frac{1}{2} & 0 & 0 \\
+						0 & 0 & -\frac{1}{2} & 0 \\
+						0 & 0 & 0 & -\frac{3}{2}
+					\end{pmatrix} &
+		\end{array}
+	\end{align}
+
+Finally, for any spin operator $O$ ($O = \bm{\upsigma}$, $\mathbf{J}$ or any other spin operator of this document), we can define the ladder operator such as $O_+|O\rangle \propto |O+1\rangle$ and $O_-|O\rangle \propto |O-1\rangle$. They write in the general case as:
+	\begin{align}
+		O_+ = O_x + iO_y \\
+		O_- = O_x - iO_y
+	\end{align}
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -61,7 +113,7 @@
 	\end{figure}
 	
 	The whole CdTe band structure is presented on Fig.~\ref{BandStruct}. One can note that CdTe is a direct gap semiconductor: the highest energy point of the valence band correspond to the lowest energy point of the conduction band, in $\Gamma$. As we move away from this point, the valence band into split two branches: the one with small curvature, meaning a high effective mass for the carriers on it, is called the heavy-hole (hh) band, while the one presenting the highest curvature and smallest effective mass is called the light-hole (lh) band.
-	
+
 	One way to understand this evolution is to apply the $\mathbf{k}.\mathbf{p}$ approximation, as proposed by Kane in 1957~\cite{KaneBandkp}. This model gives an estimation of the electronic band structure starting from the exact solution and energy of the Schrödinger equation at the center of the Brillouin. The hamiltonian to resolve is then :	
 	\begin{align}
 		\left(\frac{p^2}{2m_0} + U(\mathbf{r})\right)|\psi_{n,\mathbf{k}}\rangle = E_{n,\mathbf{k}} |\psi_{n,\mathbf{k}}\rangle
@@ -71,7 +123,7 @@ with $U(\mathbf{r})$ the potential of the crystal and $|\psi_{n,\mathbf{k}}\rang
 		|\psi_{n,\mathbf{k}}\rangle = u_{n,\mathbf{k}} (\mathbf{r}) \exp (i\mathbf{k}.\mathbf{r})
 	\end{align}
 
-	Neglecting the $\Gamma_7$ band at lower energy, we solve this hamiltonian for carrier on the $\Gamma_6$ and $\Gamma_8$ bands. The $z$-axis is defined along the growth direction of the semiconductor and chosen as the quantization axis. The resolution was done in detail in Claire Le Gall PhD thesis~\cite{ClaireTh}. We then find the energy:
+	We solve this hamiltonian for carrier on the $\Gamma_6$ and $\Gamma_8$ bands. The $z$-axis is defined along the growth direction of the semiconductor and chosen as the quantization axis. The resolution was done in detail in Claire Le Gall PhD thesis~\cite{ClaireTh}. We then find the energy:
 	\begin{align}
 		\begin{array}{l}
 		E_c (k_z) = E_c + \dfrac{\hbar^2 k_z^2}{2m_c} \\
@@ -281,6 +333,13 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 		
 		Embedding a semiconductor in another one of larger gap creates trap for carrier, confining them in one or multiple. CdTe conduction band (resp. valence band) is a lower (resp. higher) energy than ZnTe ones, creating such a trap. Using the procedure described in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electron in all three directions, acting like a 3D trap for the free carriers. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron. The electron-hole system has a hydrogen-like behaviour and is called an exciton.
 
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=8cm]{01-QD/Pictures/AFMDots.png}
+	\end{center}
+	\caption{AFM image (1 $\mu$m$^2$ of CdTe/ZnTe quantum dots before capping. Dot density is estimated to be in the magnitude of $10^{10}$ cm$^{-2}$.}
+	\label{AFM}
+	\end{figure}
 
 	Before studying in more detail the exchange interaction between the hole and the electron, we will see the optical properties of this system. In order to do so, we develop the carrier wave-function on all the Bloch states:
 	\begin{align}
@@ -315,7 +374,7 @@ and ${\cal H}_L + {\cal H}_{BP}$ for the top of the valence band. Considering th
 	\end{align}
 with $\tilde{{\cal H}}_L$ and $\tilde{{\cal H}}_{BP}$ the hole hamiltonians, opposite to the electron hamiltonians defined in Eq.~\ref{LuttHamil} and \ref{BPHamil}. In $\tilde{{\cal H}}_L$, the $k$-terms transform into a gradient of the envelop function with the form $i\nabla$. For simplicity, the $\tilde{}$ will be dropped in the next equations. The derivation of the effective mass approximation can be found in reference \cite{LuttElecMotion}.
 
-	As pointed out in Sec.~\ref{BPSec}, the gap between lh and hh is wide enough to neglect lh contribution in first approximation. This is called the heavy hole approximation, uncoupling the four differential equations defined in Eq.~\ref{hSchroding}. Only the ground states $|\pm \frac{3}{2}\rangle$ are considered, with the effective mass given by the diagonal term of ${\cal H}_{L}$, noted $m_{h, \parallel}$ in the plane and $m_{h, z}$ along the growth axis.
+	As pointed out in Sec.~\ref{BPSec}, the gap between lh and hh is wide enough to neglect lh contribution in first approximation. This is called the heavy hole approximation, uncoupling the four differential equations defined in Eq.~\ref{hSchroding}. Only the ground states $|\pm \frac{3}{2}\rangle$ are considered, with the effective mass given by the diagonal term of ${\cal H}_{L}$, noted $m_{h, \parallel}$ in the plane and $m_{h, z}$ along the growth axis. The spin operator $J_x$, $J_y$ and $J_z$ can then be redefine in the heavy-hole space as $j_x$, $j_y$, $j_z$, written with the Pauli matrix such as $\sigma_x$, $\sigma_y$ and $\sigma_z$.
 	
 	Even with those two approximations, this problem is still unsolvable analytically. However, it is possible for some chosen potential. Let's consider a lens like quantum dot, with a radius in the $xy$ plane, noted $\rho$, much larger than it height $L_z$. We can therefore define two different harmonic oscillator of potential: a 2D oscillator $V_{c,v} (\rho)$ in the plane, and a 1D oscillator $V_{c,v} (z)$ along the growth axis:
 	\begin{align}
@@ -375,7 +434,7 @@ Since we are working in the hh approximation, we neglect the contribution of the
 		\item between $|u_{\Gamma_6, \downarrow}\rangle$ and $|u_{\Gamma_8, -\frac{3}{2}}\rangle$ (hole $|\Uparrow\rangle$), coupled by $p_+ = p_x + i p_y$, corresponding to $\sigma_+$ photon absorption or emission.
 	\end{itemize}
 	
-	We see thus that, for an exciton in the $S$ state of the QD, four configurations are possible. First, we have the bright states $|\uparrow \Downarrow \rangle$, with an angular momentum $X_z = \sigma_z + J_z = \frac{1}{2} - \frac{3}{2} = -1$, and $|\downarrow \Uparrow \rangle$, with an angular momentum $X_z = -\frac{1}{2} + \frac{3}{2} = +1$. Both of these states are optically active, meaning their transitions are permitted and they can recombine radiatively. Two other states can exists, called dark states: $| \uparrow \Uparrow \rangle$, with an angular momentum $X_z = +2$, and $| \downarrow \Downarrow \rangle$, with an angular momentum $X_z = -2$.
+	We see thus that, for an exciton in the $S$ state of the QD, four configurations are possible. First, we have the bright states $|\uparrow \Downarrow \rangle$, with an angular momentum $X_z = \sigma_z + j_z = \frac{1}{2} - \frac{3}{2} = -1$, and $|\downarrow \Uparrow \rangle$, with an angular momentum $X_z = -\frac{1}{2} + \frac{3}{2} = +1$. Both of these states are optically active, meaning their transitions are permitted and they can recombine radiatively. Two other states can exists, called dark states: $| \uparrow \Uparrow \rangle$, with an angular momentum $X_z = +2$, and $| \downarrow \Downarrow \rangle$, with an angular momentum $X_z = -2$.
 	
 	Approximating the QD potential as harmonic usually overestimate the confinement, and thus the single-particle energy. But the wave-functions found in this chapter can still be used as trial wave-functions for variational calculations in other potential, in order to estimate the correct energy level.
 	
@@ -396,10 +455,10 @@ with $\varepsilon$ the dielectric constant and $\psi_v$ the wave function of the
 	Taking into account the symmetry of the crystal, Bir and Pikus demonstrated that the complete hamiltonian can be decomposed in two different components:\newline
 	For an electron and a hole in the same Brillouin zone, the short-range exchange interaction is to be considered. It can be written:
 	\begin{align}
-		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{J} + \sum_{i = x,y,z} b_i^{exch} \sigma_i J_i^3
+		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{j} + \sum_{i = x,y,z} b_i^{exch} \sigma_i j_i^3
 	\end{align}
 The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one take into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $I_{eh}^{sr}$.\newline
-	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It mixes the bright exciton states in an anisotropic potential, such one of a partially relaxed self assembled quantum dot. In the heavy hole exciton subspace ($J_z = |+2\rangle$, $|+1\rangle$, $|-1\rangle$, $|-2\rangle$), it can be written as:
+	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. It mixes the bright exciton states in an anisotropic potential, such one of a partially relaxed self assembled quantum dot. In the heavy hole exciton subspace ($X_z = |+2\rangle$, $|+1\rangle$, $|-1\rangle$, $|-2\rangle$), it can be written as:
 	\begin{align}
 		{\cal H}_{eh}^{lr} &=
 		\begin{pmatrix}
@@ -411,7 +470,7 @@ The first term lift the degeneracy between exciton of total angular moment $X=2$
 	\end{align}
 with $\delta_2$ the splitting of the bright exciton induced by the exchange interaction.
 
-	In a quantum dot, the confinement of the carrier lead to a better overlap of the wave function and thus greater exchange energies. The exchange interaction has to be taken into account in order to fully understand the optical properties of such dots. Writing $\mathbf{J} = (J_z, J_+, J_-)$ with $J_+ = J_x + iJ_y$ and $J_- = J_x - iJ_y$, and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$ with $\sigma_+ = \sigma_x + i\sigma_y$ and $\sigma_- = \sigma_x - i \sigma_y$, we can develop the exchange hamiltonian in a QD symmetry for a quantization axis along $z$:
+	In a quantum dot, the confinement of the carrier lead to a better overlap of the wave function and thus greater exchange energies. The exchange interaction has to be taken into account in order to fully understand the optical properties of such dots. Writing $\mathbf{j} = (j_z, j_+, j_-)$ and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$, we can develop the exchange hamiltonian in a QD symmetry for a quantization axis along $z$:
 	\begin{align}
 	\label{HehC2v}
 		\begin{array}{rll}
@@ -447,7 +506,7 @@ with $\delta_0$ representing the splitting between dark and bright exciton, $\de
 	\begin{center}
 		\includegraphics[width=12cm]{01-QD/Pictures/LinPolar.png}
 	\end{center}
-	\caption{Linear polarization of empty dot}
+	\caption{PL intensities of the lines of the bi-exciton, the charged excitons and the neurtral exciton of CdTe/ZnTe quantum dot as the function of the angle of the linearly polarized detection. To simplify the reading, the intensities were also plotted on polar graph (bottom). Picture taken from Yoan L\'eger PhD thesis~\cite{YoanTh}.}
 	\label{XAlLinPol}
 	\end{figure}
 	
@@ -542,26 +601,7 @@ where $\frac{3}{2}I_{eh}$ corresponds to the energy splitting between bright and
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
-with $I$ the interaction constant. We write $\bm{\upsigma}$ and $\mathbf{S}$ in the form of Pauli matrix. Namely, for a spin $\frac{1}{2}$ such as $\bm{\upsigma}$, these writes as:
-	\begin{align}
-		\begin{array}{rll}
-			\sigma_x &=& \dfrac{\hbar}{2}
-						\begin{pmatrix}
-							0 & 1 \\
-							1 & 0
-						\end{pmatrix} \\
-			\sigma_y &=& \dfrac{\hbar}{2}
-						\begin{pmatrix}
-							0 & -i \\
-							i & 0
-						\end{pmatrix} \\
-			\sigma_z &=& \dfrac{\hbar}{2}
-						\begin{pmatrix}
-							1 & 0 \\
-							0 & -1
-						\end{pmatrix}
-		\end{array}
-	\end{align}
+with $I$ the interaction constant, $\bm{\upsigma}$ the electron spin and $\mathbf{S}$ the spin of the magnetic atom.
 	
 	This formally simple interaction represents the Pauli exclusion principle through the interaction between two spins. Almost all the interaction in this chapter will be of this form, although presenting different physical process, with only the interaction constant $I$ varying from one another.
 	
@@ -602,7 +642,7 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depend on the Bloch st
 	\begin{center}
 		\includegraphics[width=6cm]{01-QD/Pictures/ExchInt.png}
 	\end{center}
-	\caption{Carrier interaction with no change of the number of electron on the impurity, derived from the hamiltonian ${\cal H}_{Coulomb}$.}
+	\caption{Carrier interaction with no change of the number of electron on the impurity, derived from the hamiltonian ${\cal H}_{Coulomb}$. Picture from Laurent Maingault PhD thesis~\cite{LaurentTh}.}
 	\label{HybridEner}
 	\end{figure}
 
@@ -666,7 +706,7 @@ The Fig.~\ref{EnerTransit} illustrates the different energies introduced in \ref
 	\begin{center}
 		\includegraphics[width=10cm]{01-QD/Pictures/EnergyLevels.png}
 	\end{center}
-	\caption{Schema of the band structure and virtal transitions between valence band and conduction band.}
+	\caption{Schema of the band structure and virtual transitions between valence band and conduction band. Picture from Laurent Maingault PhD thesis~\cite{LaurentTh}.}
 	\label{EnerTransit}
 	\end{figure}
 
@@ -750,7 +790,37 @@ with $F_c(\mathbf{R})$ (resp. $F_v(\mathbf{R})$) the electron (resp. hole) envel
 								&=& I_{eMn} \bm{\upsigma}.\mathbf{S} &+& I_{hMn} \mathbf{J}.\mathbf{S}
 			\end{array}
 		\end{align}
-We ignore ${\cal H}_0$ here since it only shift the energy of the system without affecting the spins exchange interactions.
+We ignore ${\cal H}_0$ here since it only shift the energy of the system without affecting the spins exchange interactions. $S$ is here the spin of the Manganese. In II-VI semiconductor, Mn is inserted as Mn$^{2+}$, with an electronic spin $S=\frac{5}{2}$. We can then write its spin operator as we did for the carrier in Sec.~\ref{BandStruct}:
+	\begin{align}
+		\begin{array}{rl}
+			S_x &= \begin{pmatrix}
+						0 & \frac{\sqrt{5}}{2} & 0 & 0 & 0 & 0 \\
+						\frac{\sqrt{5}}{2} & 0 & \sqrt{2} & 0 & 0 & 0 \\
+						0 & \sqrt{2} & 0 & \frac{3}{2} & 0 & 0 \\
+						0 & 0 & \frac{3}{2} & 0 & \sqrt{2} & 0 \\
+						0 & 0 & 0 & \sqrt{2} & 0 & \frac{\sqrt{5}}{2} \\
+						0 & 0 & 0 & 0 & \frac{\sqrt{5}}{2} & 0
+			  		\end{pmatrix} \\
+			\\
+			S_y &= \begin{pmatrix}
+						0 & -\frac{i\sqrt{5}}{2} & 0 & 0 & 0 & 0 \\
+						\frac{\sqrt{5}}{2} & 0 & -i\sqrt{2} & 0 & 0 & 0 \\
+						0 & \sqrt{2} & 0 & -\frac{3i}{2} & 0 & 0 \\
+						0 & 0 & \frac{3}{2} & 0 & -i\sqrt{2} & 0 \\
+						0 & 0 & 0 & \sqrt{2} & 0 & -\frac{i\sqrt{5}}{2} \\
+						0 & 0 & 0 & 0 & \frac{\sqrt{5}}{2} & 0
+			  		\end{pmatrix} \\
+			\\
+			S_z &= \begin{pmatrix}
+						\frac{5}{2} & 0 & 0 & 0 & 0 & 0 \\
+						0 & \frac{3}{2} & 0 & 0 & 0 & 0 \\
+						0 & 0 & \frac{1}{2} & 0 & 0 & 0 \\
+						0 & 0 & 0 & -\frac{1}{2} & 0 & 0 \\
+						0 & 0 & 0 & 0 & -\frac{3}{2} & 0 \\
+						0 & 0 & 0 & 0 & 0 & -\frac{5}{2}
+				   \end{pmatrix}
+		\end{array}
+	\end{align}
 
 		In the conduction band, the electrons $s$ orbital are orthogonal to the $d$ orbital of the Mn atom. No hybridization can then occur between these. Only the Coulomd interaction remain, leading to an overall ferromagnetic interaction between conduction band electrons and Mn electronic spin. Confirming this, $N_0 \alpha = 0.22 \pm 0.01$ eV was measured~\cite{GajMnD0alphabeta}.
 		
@@ -766,7 +836,35 @@ We ignore ${\cal H}_0$ here since it only shift the energy of the system without
 									&=& I_{eCr} \bm{\upsigma}.\mathbf{S} &+& I_{hCr} \mathbf{J}.\mathbf{S}
 			\end{array}						
 		\end{align}
-Once again, we ignore ${\cal H}_0$ since it didn't affect the spins exchange interaction.
+Once again, we ignore ${\cal H}_0$ since it didn't affect the spins exchange interaction. We can also write the Cr spin operators as follow:
+	\begin{align}
+		\begin{array}{rl}
+			S_x &= \begin{pmatrix}
+					0 & 1 & 0 & 0 & 0 \\
+					1 & 0 & \sqrt{\frac{3}{2}} & 0 & 0 \\
+					0 & \sqrt{\frac{3}{2}} & 0 & \sqrt{\frac{3}{2}} & 0 \\
+					0 & 0 & \sqrt{\frac{3}{2}} & 0 & 1 \\
+					0 & 0 & 0 & 1 & 0
+				   \end{pmatrix} \\
+			\\
+			S_y &= i
+				   \begin{pmatrix}
+					0 & -1 & 0 & 0 & 0 \\
+					1 & 0 & -\sqrt{\frac{3}{2}} & 0 & 0 \\
+					0 & \sqrt{\frac{3}{2}} & 0 & -\sqrt{\frac{3}{2}} & 0 \\
+					0 & 0 & \sqrt{\frac{3}{2}} & 0 & -1 \\
+					0 & 0 & 0 & 1 & 0
+				   \end{pmatrix} \\
+			\\
+			S_z &= \begin{pmatrix}
+					2 & 0 & 0 & 0 & 0 \\
+					0 & 1 & 0 & 0 & 0 \\
+					0 & 0 & 0 & 0 & 0 \\
+					0 & 0 & 0 & -1 & 0 \\
+					0 & 0 & 0 & 0 & -2
+				   \end{pmatrix}
+		\end{array}
+	\end{align}
 		
 		For conduction band electrons, the situation is the same as with the Mn: the $s$ orbital are orthogonal to the Chromium $d$ orbital, and the hybridization is then null. Hence, only Coulomb interaction remain and induce a ferromagnetic coupling between the electrons of the band and the Cr electronic spin. $N_0 \alpha$ was never measured in Cd$_x$Cr$_{1-x}$Te, but most most magnetic atoms in II-VI semiconductor presents a value between $0.2$ eV and $0.3$ eV. It is then generally assume that, in II-VI semiconductor, $N_0 \alpha \approx 0.2$ eV~\cite{MacspdexchCr}.
 		
@@ -790,7 +888,6 @@ Once again, we ignore ${\cal H}_0$ since it didn't affect the spins exchange int
 	\caption{A schematic diagram of the splitting of the lowest excited state of the $3d^5$ level ($^4G$) relative to the ground state ($^6S$) for a Mn$^{2+}$ ion in the presence of a tetrahedral crystal field.}
 	\label{MnCrystal}
 	\end{figure}
-	
 		
 		Mn atom in inserted in the CdTe lattice replacing a Cd atom. The interaction with the crystal field willift degeneracies of the free atom level. Those new level are written with the appropriate group theoritical transformation properties. The $^6S$ ground state is symmetrical and non-degenrated. Thus, in first order, it is not affected by the crystal field and is noted $^6A_1$. On the other hand, $^4G$, the first excited state, is degenerated and therefore is affected by the crystal. It split into four different states: $^4T_1$, three-fold degenerated ; $^4T_2$, three-fold degenerated ; $^4E$, two-fold degenerated ; and $^4A_1$, not degenerated. It has been shown by calculations that the effect of the crystal field is to pull the two $^4T$ levels closer to the ground state, while $^4E$ and $^4A_1$ are almost coincident and almost not affected by the crystal field~\cite{TanabeGroupThMn,SolidStatesPhysics,ThTransMetalIon}. Higher energy excited states would also be affected, but they are at high enough energy for their contribution to be significant.
 
@@ -955,6 +1052,8 @@ where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-str
 \chapter{Magneto-optical study of Cr-doped CdTe quantum dots\label{MagOptStud}}
 
 	In this chapter, we will study the photoluminescence of a II-VI quantum dot containing a single Chromium atom. We saw in the chap.~\ref{CrSemiCon} that the magnetic anisotropy of the spin lead to a zero magnetic field splitting of the $0$, $\pm 1$ and $\pm 2$ states. In a neutral Cr-doped quantum dot, such an anisotropy is induced by the bi-axial strains in the plane of the dots. Probing optically the dot, it results that exchange interaction is enough to see the effect of the presence of a single Cr spin in the QD. Studying the magnetic-field dependence of the quantum dots photoluminescence, we will also show the influence of the symmetry on carrier-Cr spin coupling.
+	
+	The chapter is organized as follow. First, we present the photoluminescence of several dots, extracting the energy structure of the system and highlighting different points. The study of the dot emission under magnetic field confirm the chosen energy structure. In the second section, we explain the model in more details, extracting parameters from the magneto-optics experiment, and examining what he predict for QD in a slightly different environment. Finally, we will present and give a possible explanation to dot not explained by the model presented in this chapter.
 
 	\section{Strained quantum dots containing an individual Cr atom}
 	
