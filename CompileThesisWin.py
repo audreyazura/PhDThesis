@@ -46,7 +46,7 @@ for i in [first, maxCount-1]:
        		if cfile:
        			searchedFile = folder + '/' + cfile.group()
        			with open(searchedFile, 'r') as inpFile:
-                                for line in inpFile:
+					for line in inpFile:
        					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
        						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
                        				
