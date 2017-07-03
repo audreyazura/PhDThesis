@@ -18,12 +18,15 @@
 %\usepackage{wrapfig,booktabs}
 \usepackage[backend=biber,style=phys]{biblatex}
 \usepackage{upgreek}
+\usepackage[capbesideposition={right,center}]{floatrow}
 
 \addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
 \makeatother
+
+\floatsetup[table]{style=plaintop}
 
 \begin{document}
 
