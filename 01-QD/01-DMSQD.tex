@@ -40,7 +40,9 @@
 	
  		\subsection{Band structure of CdTe/ZnTe\label{BandStruct}}
 		
-		CdTe and ZnTe are two II-VI semiconductors, meaning they are composed of an anion from the column VI of periodic table (Te), and a cation from the column II (Cd or Zn). They both crystallize in a zinc blend structure when grown in Molecular Beam Epitaxy (MBE, see Chap.~\ref{Growth} for more informations on this technique). As shown in Fig.~\ref{Zinc-Blende}, in this structure, each species is organized in a face centred lattice, one them being shift from the other by a quarter of the [111] diagonal. Each ion is then in a tetragonal environment, meaning the zinc-blende structure is of the $T_d$ space-group.
+		CdTe and ZnTe are two II-VI semiconductors, meaning they are composed of an anion from the column VI of periodic table (Te), and a cation from the column II (Cd or Zn). They both crystallize in a zinc blend structure when grown in Molecular Beam Epitaxy (MBE, see 
+		%Chap.~\ref{Growth}
+		Chap.~II for more informations on this technique). As shown in Fig.~\ref{Zinc-Blende}, in this structure, each species is organized in a face centred lattice, one them being shift from the other by a quarter of the [111] diagonal. Each ion is then in a tetragonal environment, meaning the zinc-blende structure is of the $T_d$ space-group.
 
 	\begin{figure}[h!]
 	\caption{Zinc-blende crystal elementary cell. Both CdTe and ZnTe crystallize in this structure.\label{Zinc-Blende}}
@@ -336,7 +338,9 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 		
 		\subsection{3D confinement: the quantum dot\label{e-hIntQD}}
 		
-		Embedding a semiconductor in another one of larger gap creates trap for carriers, confining them in one or multiple directions. CdTe conduction band is at a lower energy than ZnTe ones, creating such a trap. Using the procedure described in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions, acting like a 3D trap for the free carriers. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding to this potential the Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron. The electron-hole system has a hydrogen-like behaviour and is called an exciton.
+		Embedding a semiconductor in another one of larger gap creates trap for carriers, confining them in one or multiple directions. CdTe conduction band is at a lower energy than ZnTe ones, creating such a trap. Using the procedure described in 
+		%Chap.~\ref{Growth}
+		Chap.~II, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions, acting like a 3D trap for the free carriers. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding to this potential the Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron. The electron-hole system has a hydrogen-like behaviour and is called an exciton.
 
 	\begin{figure}[h!]
 	\fcapside{\caption{AFM image (AFM image (250 nm $\times$ 250 nm) of CdTe/ZnTe quantum dots before caping. The dot density is estimated to be in the $10^{10}$ dots.cm$^{-2}$ range.}\label{AFM}}
@@ -838,7 +842,7 @@ with $F_c(\mathbf{R})$ (resp. $F_v(\mathbf{R})$) the electron (resp. hole) envel
 			I_{hA} &= \beta |F_v (\mathbf{R})|^2
 		\end{align}
 			
-			\subsubsection*{Mn in CdTe}
+			\subsubsection*{Mn in CdTe\label{MnCdTe}}
 		Using the exchange constant defined above, we can rewrite the hamiltonian \ref{HSingleAt}:
 		\begin{align}
 		\label{HSingleMn}
@@ -893,7 +897,7 @@ We ignore ${\cal H}_0$ here since it only shift the energy of the system without
 %	\end{align}
 %The vector product between $\bm{\upsigma}$ and $\mathbf{S}$ is kept because the interaction is homogeneous, unlike interaction between Mn and hole spins.
 	
-			\subsubsection*{Cr in CdTe~\label{CrCdTe}}
+			\subsubsection*{Cr in CdTe\label{CrCdTe}}
 		As for the Mn, we can rewrite the hamiltonian \ref{HSingleAt} using the exchange interaction defined in the introduction of this section:
 		\begin{align}
 		\label{HCrDMS}
@@ -1098,29 +1102,40 @@ where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-str
 	
 	\section{A simple example: the X-Mn system}
 	
-	In order to illustrate the concept explained in this chapter, we will do a quick study of a well known system: the exciton coupled to a single Manganese atom. In order to simplify the study, let's consider a QD containing a single Mn atom with no shape or strain anisotropy. When an exciton is injected in, it will interact with the magnetic atom on top of the hole-electron interaction already taking place for an exciton. We can then write the hamiltonian of these system:
+	In order to illustrate the concepts explained in this chapter, we will do a quick study of a well known system: the exciton coupled to a single Manganese atom. In order to simplify the study, let's consider a QD containing a single Mn atom with no shape or strain anisotropy. When an exciton is injected in, it will interact with the magnetic atom on top of the hole-electron interaction already taking place for an exciton. We can then write the hamiltonian of these system:
 	\begin{align}
+		\label{HXMn}
 		{\cal H}_{XMn} = {\cal H}_{eh} + {\cal H}_{eMn} + {\cal H}_{hMn}
 	\end{align}
+We use in this part the heavy-hole approximation, ignoring the effect of the non-diagonal term of the band hamiltonian. In order to simplify the notation, we write $|S_{z, Mn}\rangle = |S_z\rangle$.
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14.9cm]{Pictures/XMn-Exp.eps}
+		\includegraphics[width=11cm]{Pictures/XMn-Exp.eps}
 	\end{center}
-	\caption{Photoluminescence of the X, X$^+$, X$^-$ and $^2$ complex for (a) a undoped QD and (b) a QD containing a single Mn atom.}
+	\caption{Photoluminescence of the X, X$^-$ and X$^2$ complex for (a) a undoped QD and (b) a QD containing a single Mn atom.}
 	\label{MnSpectra}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	In the heavy hole subspace, in the $\sigma_z$, $j_z$, $S_z$ basis, all the hamiltonians describing an interaction with the hole are diagonal. Therefore, the only non-diagonal element in the hamiltonian~\ref{HXMn} describe electron-Mn spin-flips. The hole having no part in this interaction, those spin-flips couple a bright state to a dark state, separated by $\delta_0$, as defined in Sec.~\ref{ehExch}. The strength of this interaction is of the same magnitude of $I_{eMn}$, found to in the 100 $\mu$eV range in our quantum dots~\cite{DynhMn}. The distance between the bright and dark states is then about one order of magnitude higher than the strength of the interaction. We thus chose to ignore it.
+	
+	We can then consider the hamiltonian~\ref{HXMn} to be diagonal. The interaction of the Mn spin with electron is ferromagnetic with $I_{eMn} \simeq -100$ $\mu$eV, while its interaction with the hole is anti-ferromagnetic with $I_{hMn} \simeq 250$ $\mu$eV.  The carriers act as an effective magnetic field along the growth axis. This lift the degeneracy of the Mn spins in a sextuplet. For the bright exciton, with anti-parallel spins, the lift is the strongest. Each Mn spin state is separated from the closest one by $\frac{1}{2}(3I_{hMn} - I_{eMn})$, for a total energy span of $\frac{5}{2}(3I_{hMn} - I_{eMn})$. For the dark exciton states, each of them are separated from the closest one by $\frac{1}{2}(3I_{hMn} + I_{eMn})$, for total energy span of $\frac{5}{2}(3I_{hMn} + I_{eMn})$.
+	
+	One can note that the system is symmetric under inversion of the quantification axis $z$. Excitons with opposed spins coupled to opposed Mn spins will then be degenerated. Example given, $|S_z = \frac{5}{2}, X_z = -1\rangle$ share the same energy level as $|S_z = -\frac{5}{2}, X_z = +1\rangle$. The whole energy level structure is summarize in Fig.~\ref{MnLevel}.
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
+		\includegraphics[width=12cm]{Pictures/MnEnLvl.png}
 	\end{center}
-	\caption{Mn energy level in a QD}
+	\caption{Energy level of the ground state and the exciton in a Mn-doped QD. The levels are sketched as a function of the Mn spin $S_z$. Dark states are represented in grey. Optical transitions from the bright states of the Mn complex results in six-line PL spectra, such as in Fig.~\ref{MnSpectra}.}
 	\label{MnLevel}
 	\end{figure}
-		
+	
+	The fundamental state of the QD is an isolated Mn atom in the dot. We found in our QDs a maximum $D_0$ of 12 $\mu$eV, negligible compared to the exciton-Mn interactions. Since the other fine structure parameters of the Mn are less intense than $D_0$, we choose to neglect their contribution to the spectra. Therefore, the fundamental state of the QD is six time degenerated. The recombination does not affect the Mn spin. Each emission line is thus the superposition of two optical transitions with opposed circular polarization (recombination of an excition $X_z = \pm1$). In a given polarization, each line corresponds then to a single Mn spin: the spectra is a photography of the statistic state of the Mn spin during the exciton recombination.
+
+%	To go more in details in the understanding of the system, we should also include the effect of the short range interaction and the VBM. We saw that the short range e-h exchange couple bright exciton states together. In Mn-doped QD, this translates to a coupling between bright states associated with the same Mn spin projection. However, one can see on Fig.~\ref{MnLevel}, for most X-Mn levels, two opposite-spin excitons coupled to the same Mn spin are far from each other in energy. Therefore, this coupling mainly  apply to the level coupled to $|S_z = \pm\frac{1}{2}\rangle$, only slightly splitted by  the exciton-Mn exchange interaction.
+	
+	This simple model is however incomplete: one can see on Fig.~\ref{MnSpectra} that each peak as a different intensity, which is not explained by the model described here. More thorough investigation of the system were done in \cite{YoanTh}. The effect of the VBM on the system was studied in \cite{DELum}. A complete study of the dynamic of the system was done by Claire Le Gall in her PhD thesis~\cite{ClaireTh}.
 	
 \printbibliography
 
