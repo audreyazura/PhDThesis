@@ -1,0 +1,75 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{upgreek}
+\usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage{lipsum}
+
+\addbibresource{../Bibliography.bib}
+
+\makeatletter
+	\renewcommand{\thechapter}{\Roman{chapter}}
+\makeatother
+
+\floatsetup[table]{style=plaintop}
+
+\begin{document}
+	\chapter*{Summary}
+	
+	General consideration on DMS and state of the art on QD doped with a single magnetic atom\newline	
+	
+	\lipsum[1]
+	
+	\subsubsection*{Chapter 1: Diluted magnetic semiconductor quantum dots}
+	
+	\lipsum[2]
+	
+	We begin the study with the quantum dot, putting aside the magnetic atom part. We analyse the CdTe crystal in order to calculate its band structure, with the $\mathbf{k}.\mathbf{p}$ theory. However, with the approximation done in order to be able to resolve the system analytically, we found a positive curvature for the heavy hole band. This is corrected considering the Luttinger hamiltonian for the hole bands.
+	
+	\lipsum[3-6]
+	
+	\subsubsection*{Chapter 2: Growth of CdTe/ZnTe quantum dots doped with a single magnetic atom}
+	
+	All the Cr-doped samples grown in this thesis were done in Pr. Shinji Kuroda's MBE, while the Mn-doped one were done in Grenoble by Herv\'e Boukari. The strained dot are CdTe/ZnTe Stansky-Krastanov quantum dots. However, this dots do not form naturally: we have to deposit amorphous Te on the surface after the deposition of CdTe layers in order to induce the 1D-3D transition. The magnetic atom (Cr or Mn) is deposited during the CdTe ALE. In order to get only quantum dots with a single magnetic atom in, their flux are carefully tuned in order to get a density of magnetic atom roughly equal to the density of quantum dots. The random relaxation of the sample will then statistically incorporate a single magnetic atom in a few percent of the dots.
+	
+	The growth of II-VI quantum dots doped with a single Mn atom has been studied since a long time. However, Cr was never successfully incorporated in II-VI dots. At usual DMS concentration, the Chromium atom kill the luminescence of the sample, making it impossible to study optically. However, the concentration use to incorporate single magnetic atoms inside quantum dots is lower than the usual one in DMS. Therefore, adjusting the Cr flux to be low enough, we were able to incorporate Cr atoms while keeping enough luminescence from the sample to study it.
+	
+	Once the sample were successfully grown, two other kind of sample were grown. First, we wanted to be able to control the charge state of the studied dots. Such a control can be achieved with the application of an electric field through a Schottky gate. In order to form the gate, the sample was grown on p-doped ZnTe substrate. Once grown, a semi-transparent gold layer of about 4 nm was grown on top. The structure gives enough luminescence to study the dot while allowing us to apply an electric field on the sample, placing an electrode on the gold layer and one in contact with the sample base.
+	
+	Since it was saw that the Chromium spin is strongly coupled to strain, it was also decided to try to grow samples of strain-free or slightly strain dot. Willingly introducing a small amount of strain will help the Chromium spin to quantize along the growth axis and not along an equivalent axis. Since the stansky-Krastanov relaxation is only partial and always leave remaining strains in the dots, the strain free dots could not be grown by this process. Thos dots are formed by the thickness variations of a CdTe quantum well in Cd$_{0.7}$Mg$_{0.3}$Te barriers. Cr atoms were still incorporated with a low flux in order to get their density low and only have one dot in some of the quantum dots formed this way.
+	
+	\subsubsection*{Chapter 3: Coherent dynamics of Mn-doped positively charged quantum dots}
+	
+	Introduction on the history of X-Mn and introducing X$^c$-Cr\newline
+	
+	\lipsum[7]
+	
+	However, the structure of a positively charged exciton coupled to a Mn atom change considerably the picture compared to the neutral exciton. The hole in the ground state interact through exchange interaction with the Mn spin, leading to a splitting of the Mn spin levels in the ground state. In the excited state, however, the spins of the two hole cancel each other and their interaction with the Mn spin remain only perturbative. The main interaction is with the electron. This interaction being isotrope, the Mn spin is then splitted in two multi-level system, M = 2, five time degenerated, and M = 3, seven time degenerated. The perturbative interaction with the hole lift the degeneracy of those levels via a parabolic splitting.
+	
+	Each of the excited state of the X$^+$-Mn system is a superposition of the two electrons spin states, each coupled with a different Mn spin state, separated by a unit of spin. The presence of the two electron spin states link the excited state to two ground states, define by the value of the Mn spin. This effectively create several $\lambda$-level structure. This structure can be used to control the state of the system optically, performing coherent population trapping.
+	
+	\lipsum[8-9]
+	
+	\subsubsection*{Chapter 4: Magneto-optical study of Cr-doped CdTe quantum dots}
+	
+	\lipsum[10-12]
+	
+	\subsubsection*{Chapter 5: Dynamics of a single Cr spin in a ZnTe quantum dot}
+	
+	\lipsum[13-16]
+
+\end{document}
