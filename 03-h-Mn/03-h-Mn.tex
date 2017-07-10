@@ -14,12 +14,16 @@
 \usepackage{epstopdf}
 \usepackage{xcolor}
 \usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{lipsum}
+\usepackage[capbesideposition={right,center}]{floatrow}
 
 \addbibresource{../Bibliography.bib}
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
 \makeatother
+
+\floatsetup[table]{style=plaintop}
 
 \begin{document}
 
@@ -28,42 +32,35 @@
 	\section{Mn in a II-VI positively charged quantum dot}
 
 	Cf Optical control of the spin of a magnetic atom in a semiconductor QD, L. Besombes et. al., Sept 2014
-	
-		\subsection{Quantum dot charged state selection\label{ChargeSelec}}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
-		
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{Sample with Schottky gate and micro-lens}
-	\label{Schottky}
-	\end{figure}
-
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
-
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{Example of charge variation and selection of the charged state}
-	\label{StateSelection}
-	\end{figure}
-		
-		\subsection{Energy structure}
+		\subsection{Spin structure of a positively charged Mn doped quantum dot}
 		
 		Cf XplusMnRes.pptx to detail the e-Mn levels
+	
+	\lipsum[1]
 		
 	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{X+-Mn spectra and linear polarization}
-	\label{Spectra&LinPolar}
+	\fcapside{\caption{(a) Color scale plot of the PL intensity of the studied Mn doped QD inserted in Schottky structure showing the emission of the neutral (X-Mn) and positively charged (X$^+$-Mn) exciton as a function of energy and bias voltage. (b) PL of the Mn-doped QD under a positive bias voltage of V=5.5V. Inset: Scheme of the energy levels of the ground (h-Mn) and excited states (X$^+$-Mn) in a positively charged Mn-doped QD as a function of their angular momentum ($M_z$). (c) Experimental (left) and calculated (right) color-scale plot of the linear polarization dependence of the PL of X$^+$-Mn at B = 0 T (top) and B$_\perp$ = 0.42 T (bottom). The parameters used in the calculation are listed in table \ref{paraQD}.}\label{hMnspectra}}
+	{\begin{center}
+		\includegraphics[width=7.4cm]{Pictures/DotPres.eps}
+	\end{center}}
 	\end{figure}
-		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+	
+	\begin{table}[t] \centering
+		\caption{Values of the parameters used in the model of the positively charged Mn-doped QD presented in figure 1. I$_{eMn}$, I$_{hMn}$, $\frac{\rho_s}{\Delta_{lh}}$, $\theta$, $\eta$ and $T_{eff}$ are used to model the linear polarization intensity map of Fig.~\ref{Fig1}. The other parameters cannot be extracted from the PL measurements and values for typical Mn-doped QDs are chosen for the calculation of the spin dynamics presented in section VI.}
+		\renewcommand{\arraystretch}{1.0}
+		\begin{tabular}{cccccc|ccccc}
+			\hline\hline
+			I$_{eMn}$ & I$_{hMn}$ & $\frac{\rho_s}{\Delta_{lh}}$ & $\theta$    & $\eta$   & $T_{eff}$  & $g_{e}$ & $g_{h}$   	& $g_{Mn}$ & $D_0$    &  $E$      \\
+			$\mu eV$  & $\mu eV$  &                              & $^{\circ}$  & $\mu eV$ &    K       &         &           &          & $\mu eV$ &  $\mu eV$ \\
+			\hline
+			-175    &     345   &        0.09                  &    0        &     30   &   20       &  -0,4   &  0.6      &     2    &    7     &   1.5     \\
+			\hline\hline
+		\end{tabular}
+		\label{paraQD}
+	\end{table}	
+	
+	\lipsum[2]
 		
 	\begin{figure}[h!]
 	\begin{center}
@@ -73,7 +70,7 @@
 	\label{SimpleEnerStruct}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[3]
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -83,7 +80,7 @@
 	\label{CompleteEnerStruct}
 	\end{figure}
 	
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[4]
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -95,7 +92,7 @@
 		
 		\subsection{Optical $\lambda$-level identification}	
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		\lipsum[5]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -105,15 +102,17 @@
 	\label{ResPLE}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[6]
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
+		\includegraphics[width=10cm]{Pictures/Lambdasyst.png}
 	\end{center}
-	\caption{Identification of $\lambda$-systems with each $\lambda$-system drawn}
+	\caption{((a) Non resonant (Non Res.) and resonant (Res.) PL of X$^+$-Mn. Co and cross circularly polarized PL spectra are collected for three different energies of the CW resonant laser (green). (b) Energy levels of X$^+$-Mn and identification of the three resonances observed in (a) corresponding to the optical $\Lambda$ systems associated with the e-Mn states $|3,+1\rangle$, $|3,+2\rangle$ and $|2,+2\rangle$.}
 	\label{LambdaLevem}
 	\end{figure}
+	
+	\lipsum[7]
 			
 	
 	\section{Spin dynamics under resonant excitation}
@@ -122,7 +121,9 @@
 	
 		\subsection{Cycling and escaping the $\lambda$-level system}
 
-		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)
+		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)\newline
+		
+	\lipsum[8]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -132,7 +133,7 @@
 	\label{LambdLoop}
 	\end{figure}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+	\lipsum[9]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -142,7 +143,7 @@
 	\label{AllPumpB0}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[10]
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -152,11 +153,11 @@
 	\label{AllAutocorB0}
 	\end{figure}
 	
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[11]
 	
 		\subsection{Relaxation mechanism}
 	
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+	\lipsum[12]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -166,7 +167,7 @@
 	\label{AutocorExpBPw}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[13]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -176,7 +177,7 @@
 	\label{PumpExpBPw}
 	\end{figure}
 	
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+	\lipsum[14]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -186,7 +187,7 @@
 	\label{AutocorModBPw}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[15]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -196,10 +197,12 @@
 	\label{PumpModBPw}
 	\end{figure}
 	
+	\lipsum[16]
+	
 
 	\section{Influence of the strain anisotropy}
-		
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+	
+	\lipsum[17]
 		
 	\begin{figure}[h!]
 	\begin{center}
@@ -209,7 +212,7 @@
 	\label{LambdaMixed}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[18]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -219,7 +222,7 @@
 	\label{hMnPolarRate}
 	\end{figure}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		\lipsum[19]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -229,7 +232,7 @@
 	\label{QDMagField}
 	\end{figure}
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	\lipsum[20]
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -238,6 +241,8 @@
 	\caption{Polarization rate evolution in B(x and z) and simulation}
 	\label{hMnPolarRateB}
 	\end{figure}
+	
+	\lipsum[21]
 	
 	
 \printbibliography
