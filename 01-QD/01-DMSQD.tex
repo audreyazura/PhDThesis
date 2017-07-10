@@ -30,6 +30,28 @@
 
 \chapter{Diluted magnetic semiconductor quantum dots\label{DMSQDTh}}
 
+%Plan général :
+%	I - Les QD
+%		- On commence avec la decription général des semi-conducteurs
+%		- On étudie leur structure de bande à k = 0
+%		- On veut voir comment ça évolue autour de k = 0 -> k.p method (problème pour les trous lourd) puis Luttinger hamiltonian
+%		- On a du CdTe sur ZnTe -> lattice parameters different -> strain -> BP hamiltonian
+%		- On réduit la symmétrie -> QD et confinement des porteurs
+%		- Interaction entre porteurs -> Coulomb et l'interation d'échange
+%		- Effet de l'anisotropie des contraintes ou de la boîte -> la VBM
+%	II - Les DMS
+%		- Cas général : insertion d'une faible densité d'atome magnétique dans les semi-conducteurs, interaction d'échange entre porteurs du SC et ceux de l'atome magnétique. Mise en place du hamiltonien pour cet interaction sous forme d'un hamiltonien d'Heisenberg H = I \sigma.S.
+%		- Cas particulier : Mn, GS loin dans la bande de valence.
+%		- Cas particulier : Cr, GS proche du sommet de la bande de valence.
+%	III - Mag at dans lattice
+%		- Mn : effet du réseau sur ses niveaux
+%		- Cr : effet du réseau sur ses niveaux
+%	IV - Illustration : le X-Mn
+%		- Simple modèle : ne prend pas en compte les effets de VBM oudu SO sur les niveaux de spins de l'atome de Mn.
+% 		- Carrier as effective magnetic -> split des niveaux du Mn
+%		- Systèe symmétrique pour une inversion de l'axe z -> niveau de spin du Mn dégénéré deux à deux avec spins Mn opposés et spin electron opposé
+%		- Spectre obtenu en micro-photoluminescence = photographie de l'état statistique du Mn
+
 	This chapter aim to present the system we will study as well as the main theoretical tools one needs to understand it fully. We begin presenting the semiconductors and their electronic structure, and how the strains affect it. We then reduce the dimensions of the system we look at to get to one of the core of this thesis: the quantum dot (QD). We first see how the confinement affect the carriers energies, and we then study the QD optical properties, detailing the effects of the carrier exchange interaction and the anisotropy of the shape and strains in the QD on its emission.
 	
 %	In the next sections, we open the discussion on the magnetic atoms, starting with the Diluted Magnetic Semiconductors, semiconductors with a low density of magnetic impurity inserted in the lattice. We see how these impurities can dramatically change the behaviour of the carriers and thus the properties of said semiconductor. We then give more details on the two atoms we focus on in this thesis: the Manganese and the Chromium. The second section details their interactions with the carriers, while we study in the third their interaction with the semiconductor crystal field.
@@ -74,7 +96,7 @@
 
 	For CdTe, both the maximum of the valence band and the minimum of the conduction band are reached at the center of the Brillouin zone, at $k = 0$. It means CdTe is a direct band gap semi-conductor, and its optical properties are controlled by the symmetry at $k = 0$. At this point, the conduction has the $T_d$ group $\Gamma_6$ symmetry. As discussed, this band comes from the overlap of atomic $s$ orbitals, meaning the conduction electron will have no orbital momentum, and a total angular momentum $J = \dfrac{1}{2}$.
 	
-	The valence band is formed from $p$ orbital, presenting a orbital momentum $L = 1$. It couples at $k = 0$ with the electron spin $S = \dfrac{1}{2}$ through the spin-orbit coupling, giving two sub-bands of total angular momentum $J = \dfrac{1}{2}$ and $J = \dfrac{3}{2}$. In the $T_d$ group, the quadruplet $J = \dfrac{3}{2}$ is of $\Gamma_8$ symmetry, and the doublet $J = \dfrac{1}{2}$ is of $\Gamma_7$ symmetry. Those bands are split by the spin-orbit energy $\Delta_{SO}$.
+	The valence band is formed from $p$ orbital, presenting a orbital momentum $L = 1$. It couples at $k = 0$ with the electron spin $S = \dfrac{1}{2}$ through the spin-orbit coupling, giving two sub-bands of total angular momentum $J = \dfrac{1}{2}$ and $J = \dfrac{3}{2}$. In the $T_d$ group, the quadruplet $J = \dfrac{3}{2}$ is of $\Gamma_8$ symmetry, and the doublet $J = \dfrac{1}{2}$ is of $\Gamma_7$ symmetry. Those bands are split by the spin-orbit interaction, with an energy $\Delta_{SO}$.
 	
 	When the spin-orbit coupling is introduced, $\mathbf{L}$ and $\mathbf{S}$ are not good quantum number anymore. $\mathbf{J} = \mathbf{L}+ \mathbf{S}$, however, commute with the system hamiltonian. Therefore, we chose the eigenstates $J^2$, $J_z$ as a basis for the system at $k = 0$. They can be deduced from the composition of the two uncoupled basis:
 	\begin{align}	
@@ -668,7 +690,7 @@ In order to get a polarization of the emission along the 110 axis, we choose $\v
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=12cm]{Pictures/LinPol.eps}
+		\includegraphics[width=12cm]{Pictures/LinPol.png}
 	\end{center}
 	\caption{PL intensities of the lines of the bi-exciton, the charged excitons and the neurtral exciton of CdTe/ZnTe quantum dot as the function of the angle of the linearly polarized detection. To simplify the reading, the intensities were also plotted on polar graph (bottom). Picture taken from Yoan L\'eger PhD thesis~\cite{YoanTh}.}
 	\label{XAlLinPol}
@@ -973,7 +995,7 @@ with $\alpha \propto I_{sd}^{00}$ the interaction constant between the impurity'
 	\begin{align}
 		\Delta E_v = -N_0 x \frac{\beta}{3} J_z \langle S_z \rangle
 	\end{align}
-with $\beta \propto I_{pd}^{00}$ the impurity's and the valence band's Bloch function at $\mathbf{k} = 0$.
+with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity's and the valence band's Bloch function at $\mathbf{k} = 0$.
 
 	To be completely thorough with the analysis, we should also take into account the confinement due to the quantum dot. This means the wave vector $\mathbf{k}$ of the carriers can be different from 0, leading to small perturbative effect on ${\cal H}_{sd}$ and ${\cal H}_{pd}$. This was done thoroughly by Laurent Maingault in the Chap.~I.3 of his PhD thesis~\cite{LaurentTh}. It is shown that the hamiltonian changed as follow:
 	\begin{align}
@@ -1156,7 +1178,7 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 %		\caption{Atomic configuration in Jahn-Teller effect + three minima}
 %	\end{figure}
 
-		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. This isotope presents \emph{no nuclear spin}, meaning we don't have to consider the hyperfine structure of a Cr atom in a II-VI semiconductor. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number $L=2$ and a spin $S=2$ yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{CrinIIVI}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The substitution of a Cd atom by a Cr atom lead to a Jahn-Teller distortion of the tetragonal matrix~\cite{EPRCr}. This distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet.
+		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number L=2 and a spin S=2 yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{FigS1}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The Jahn-Teller distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet .
 
 		The ground state orbital singlet $^{5}$B$_{2}$ is further split by the spin-orbit interaction. In a strain free crystal, it was found that the ground state splitting can be described by the spin effective Hamiltonian~\cite{EPRCr}:
 		\begin{align}
@@ -1234,7 +1256,7 @@ Replacing now $e_A$, $e_{\theta}$ and $S_{\theta}$ by their value given in \ref{
 													&=& D_0 & S_z^2
 			\end{array}
 		\end{align}
-where we can estimate D$_0\approx$ 1$\pm$0.6 meV from the values of the spin-strain coupling coefficients in CdTe (table \ref{StrCouplCoef}). However one should note the quantum dots could be partially relaxed and may contain a significant amount of Zn. We were not able to find spin to strain coupling coefficients for Cr in ZnTe and (Cd,Zn)Te alloy in literature. A value of D$_0\approx$+280 $\mu$eV, much larger than for CdTe, was however estimated in strain-free Cr-doped bulk ZnTe~\cite{EPRCr}. Larger spin-strain coupling coefficients could than expected for Cr in ZnTe and (Cd,Zn)Te alloys.
+where we can estimate $D_0\approx 1\pm0.6$ meV from the values of the spin-strain coupling coefficients in CdTe (table \ref{StrCouplCoef}). However one should note the quantum dots could be partially relaxed and may contain a significant amount of Zn. We were not able to find spin to strain coupling coefficients for Cr in ZnTe and (Cd,Zn)Te alloy in literature. A value of D$_0\approx$+280 $\mu$eV, much larger than for CdTe, was however estimated in strain-free Cr-doped bulk ZnTe~\cite{EPRCr}. Larger spin-strain coupling coefficients could than expected for Cr in ZnTe and (Cd,Zn)Te alloys.
 
 		Finally, an anisotropy of the strain in the quantum dot plane (001) with principal axis along $[$010$]$ or $[$100$]$ axes ($\varepsilon_{xx}\neq\varepsilon_{yy}$ and $\varepsilon_{xy} = \varepsilon_{yx}=0$) would affect the Cr fine structure through the tetragonal coefficient $c_3$. This coupling can be described by an additional term in the spin-strain Hamiltonian
 		\begin{align}
