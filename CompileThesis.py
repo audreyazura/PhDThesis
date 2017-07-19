@@ -54,7 +54,7 @@ for i in [first, maxCount-1]:
 							if usepackageStr.search(treatedLine):
 								package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
 								packages.append(package)
-								print("Package added: " + package)
+#								print("Package added: " + package)
 								lastPack+=1
 								
 						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine)):
@@ -62,7 +62,7 @@ for i in [first, maxCount-1]:
 								if not(any(s in line for s in packages)):
 									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
 									packages.append(package)
-									print("Package added: " + package)
+#									print("Package added: " + package)
 									lastPack+=1
 									countLine = 1
 									Thesis.close()
