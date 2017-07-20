@@ -52,11 +52,11 @@
 %		- Systèe symmétrique pour une inversion de l'axe z -> niveau de spin du Mn dégénéré deux à deux avec spins Mn opposés et spin electron opposé
 %		- Spectre obtenu en micro-photoluminescence = photographie de l'état statistique du Mn
 
-	This chapter aim to present the system we will study as well as the main theoretical tools one needs to understand it fully. We begin presenting the semiconductors, their electronic structure, and their interaction with light. We then see how the strain affect the picture we draw. We then reduce the dimensions of the system we look at to get to one of the core of this thesis: the quantum dot (QD). We describe the effect of the confinement on the carrier, before seeing how they interact with each other inside the QD. We finish the section with the effect of the QD shape on the carrier and their emission.
+	This chapter aims to present the system we will study as well as the main theoretical tools one needs to understand it fully. We begin presenting the semiconductors, their electronic structure, and their interaction with light. We then see how the strains affect the picture we draw. We continue reducing the dimensions of the system we look at to get to one of the core of this thesis: the quantum dot (QD). We describe the effect of the confinement on the carrier, before seeing how they interact with each other inside the QD. We finish the section with the effect of the shape and strains anisotropy on the carriers and their emission.
 	
-	In the second section, we introduce the magnetic atom and see how they interact with the semiconductor carriers. We begin describing generally the interaction between localized electrons on the outer shell of a magnetic atom, and the one in the semiconductor. We then apply this description to the two magnetic atom we will study in this thesis: the Manganese (Mn) and the Chromium (Cr).
+	In the second section, we introduce the magnetic atom and see how they interact with the semiconductor carriers. We begin describing generally the interaction between localized electrons on the outer shell of a magnetic atom, and the one in the semiconductor. We then apply this description to the two magnetic atoms we will study in this thesis: the Manganese (Mn) and the Chromium (Cr).
 	
-	In the third section, we see how the insertion of the magnetic atom inside a lattice affect its electronic properties. We begin by describing the case of the Mn, not strongly coupled to the strain state at its position or the crystal field. We continue with the Cr, presenting an orbital momentum $L = 2$, making it strongly affected by the strains and the crystal field.
+	In the third section, we see how the insertion of the magnetic atom inside a lattice affects its electronic properties. We begin by describing the case of the Mn, not strongly coupled to the strain state at its position or the crystal field. We continue with the Cr, presenting an orbital momentum $L = 2$, making it strongly affected by the strains and the crystal field.
 	
 	We finish this chapter by an illustration, applying the different concept we saw to a simple system: an exciton coupled to a Mn atom in a neutral quantum.
 	
@@ -141,7 +141,7 @@ where $|X\rangle$, $|Y\rangle$ and $|X\rangle$ are the wave function of the vale
 
 %	Introducing the spin-orbit interaction, the conduction band, formed by the hybridization of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = \dfrac{1}{2}$. In a similar fashion, the valence band will be split into two bands: a first one of $\Gamma_8$ symmetry, with a spin $J = \dfrac{3}{2}$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $\dfrac{1}{2}$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor. This gap is wide enough to ignore the effect of the $\Gamma_7$ band for the rest of this document and focusing on the effect between the top of the valence band and the bottom of the conduction band.
 	
-		Since $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductors, the $\Gamma_7$ band is far enough in the valence band to ignore its contribution to the system, and concentrate to the interaction between the $\Gamma_6$ and $\Gamma_8$ bands. The conduction band has a spin $\sigma = \frac{1}{2}$. The spin operator can therefore be written using the Pauli matrices. For a quantization along the growth axis of the semiconductor, noted $z$:
+		Since $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductors, the $\Gamma_7$ band is far enough in the valence band to neglect its contribution to the system, and concentrate to the interaction between the $\Gamma_6$ and $\Gamma_8$ bands. The conduction band has a spin $\sigma = \frac{1}{2}$. The spin operator can therefore be written using the Pauli matrices. For a quantization along the growth axis of the semiconductor, noted $z$:
 	\begin{align}
 			\sigma_x = \dfrac{1}{2}
 						\begin{pmatrix}
@@ -197,7 +197,7 @@ Finally, for any spin operator $O$ ($O = \bm{\upsigma}$, $\mathbf{J}$ or any oth
 	\label{SelectionRules}
 	\end{figure}
 	
-	In a semiconductor, light matter interaction occur mainly through two process:  absorption of a photon of energy equal to or higher than the gap energy by an electron of the valence band to reach the conduction band, creating an exciton; or emission of photon by the recombination of an exciton. However, angular momentum conservation rules forbid some transitions to occur. In order to find them, we consider the coupling between a conduction band electron $|\Psi_c\rangle$ and a valence band hole $|\Psi_v\rangle$ through the hamiltonian ${\cal H}_{AF} = -\frac{e}{m}\mathbf{p}.\mathbf{A}$, in the dipolar approximation. We get:
+	In a semiconductor, light matter interaction occurs mainly through two processes:  absorption of a photon of energy equal to or higher than the gap energy by an electron of the valence band to reach the conduction band, creating an exciton; or emission of photon by the recombination of an exciton. However, angular momentum conservation rules forbid some transitions. In order to find them, we consider the coupling between a conduction band electron $|\Psi_c\rangle$ and a valence band hole $|\Psi_v\rangle$ through the hamiltonian ${\cal H}_{AF} = -\frac{e}{m}\mathbf{p}.\mathbf{A}$, in the dipolar approximation. We get:
 	\begin{align}
 		\langle \Psi_v | {\cal H}_{AF} | \Psi_c \rangle \propto \langle u_{\Gamma_8, J_z} | \mathbf{p} | u_{\Gamma_6, \sigma_z} \rangle
 	\end{align}
@@ -211,7 +211,15 @@ Considering that $|\uparrow\rangle$ and $|\downarrow\rangle$ are orthogonal stat
 	\end{itemize}
 Those transitions are summarize on Fig.~\ref{SelectionRules}, with their respective relative probability calculated from the oscillator strength of each of these transitions.
 
-	Exciton of total angular momentum $J_z = \pm2$ also exists. They are formed by an electron of spin $\pm \dfrac{1}{2}$ coupled to a hole of spin $\pm \dfrac{3}{2}$. However, since this transition is forbidden by the conversation of angular momentum, they cannot recombine radiatively.
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14.8cm]{Pictures/SelectionRules.eps}
+	\end{center}
+	\caption{Selection rules for optical transitions between valence band and conduction band. Circularly polarized transition are noted $\sigma\pm$ and $\pi_z$ stands for a linear polarization along $z$ axis.}
+	\label{SelectionRules}
+	\end{figure}
+
+	Exciton of total angular momentum $J_z = \pm2$ also exists. They are formed by an electron of spin $\pm \dfrac{1}{2}$ coupled to a hole of spin $\pm \dfrac{3}{2}$. However, since this transition is forbidden by the conversation of angular momentum, they usually cannot recombine radiatively.
 
 		\subsubsection*{$k \neq 0$: the $\mathbf{k}.\mathbf{p}$ approach}	
 	
@@ -412,7 +420,7 @@ Since $x$, $y$ and $z$ are physically equivalent, as well as $xy$, $xz$ and $yz$
 	\end{align}
 with $\varepsilon = Tr(\overline{\overline{\varepsilon}}) = \varepsilon_{xx} + \varepsilon_{yy}+ \varepsilon_{zz}$ and $\{J_i J_j\} = \frac{1}{2}(J_iJ_j + J_jJ_i)$
 
-	The $a_{\nu}$ term, called the hydrostatic term, shifts the $\Gamma_8$ energy. In case of non-equal $\varepsilon_{ii}$ (shear strains), the $b$ term will lift the two $\Gamma_8$ sub-bands as did a $k\neq 0$ in the Luttinger hamiltonian. The $d$ term, the pure shear strain (i.e $\varepsilon_{ij}$ with $i \neq j$), has the same effect on the $\Gamma_8$ band.
+	The $a_{\nu}$ term, called the hydrostatic term, shifts the $\Gamma_8$ energy. In case of non-equal $\varepsilon_{ii}$ (shear strains), the $b$ term will split the two $\Gamma_8$ sub-bands as did a $k\neq 0$ in the Luttinger hamiltonian. The $d$ term, the pure shear strain (i.e $\varepsilon_{ij}$ with $i \neq j$), has the same effect on the $\Gamma_8$ band.
 	
 	One can notice that the Bir-Pikus hamiltonian is completely independant from $\mathbf{k}$, meaning that the valence band hamiltonian of a strain semiconductor is simply the sum of the Luttinger hamiltonian ${\cal H}_L$ (Eq.~\ref{LuttHamil}) and the Bir-Pikus hamiltonian ${\cal H}_{BP}$ (Eq.~\ref{BPHamil}).
 	
@@ -642,7 +650,7 @@ The first term is the overlap of the envelop function, making sure the hole and 
 The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one take into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $I_{eh}^{sr}$.\newline
 	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. In bulk semiconductors, the long range term doesn't affect the bright exciton at $k = 0$. Since the radiative recombination we study occurs at $k=0$, the long range interaction does not affect it.
 	
-	In a quantum dot, the confinement of the carrier leads to a better overlap of the wave function and thus greater short range exchange energies. Moreover, in an anisotropic potential, such as the one of Stansky-Krastanov dots (see Chap.~II.1), the long-range interaction mixes the bright exciton, splitting them in two levels. 
+	In a quantum dot, the confinement of the carrier leads to a better overlap of the wave function and thus greater short range exchange energies. Moreover, in an anisotropic potential, such as the one of Stransky-Krastanov dots (see Chap.~II.1), the long-range interaction mixes the bright exciton, splitting them in two levels. 
 	%The splitting between the dark and bright excitons is thus also affected.
 Taking into account all these effect, we can the write the total hamiltonian in the heavy hole exciton subspace ($X_z = |+2\rangle$, $|+1\rangle$, $|-1\rangle$, $|-2\rangle$):
 	\begin{align}
@@ -696,7 +704,7 @@ In order to get a polarization of the emission along the 110 axis, we choose $\v
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=12cm]{Pictures/LinPol.png}
+		\includegraphics[width=13cm]{Pictures/LinPol.png}
 	\end{center}
 	\caption{PL intensities of the lines of the bi-exciton, the charged excitons and the neurtral exciton of CdTe/ZnTe quantum dot as the function of the angle of the linearly polarized detection. To simplify the reading, the intensities were also plotted on polar graph (bottom). Picture taken from Yoan L\'eger PhD thesis~\cite{YoanTh}.}
 	\label{XAlLinPol}
@@ -811,7 +819,7 @@ where $\frac{3}{2}I_{eh}$ corresponds to the energy splitting between bright and
 	
 		\subsection{Exchange interaction in Diluted Magnetic Semiconductors\label{ExchDMS}}
 		
-		We looked until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atoms in the crystal, namely, impurities. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom will interact with the semiconductor electrons via its localized electrons on its exterior shell. For Mn and Cr, this orbital is the $d$ orbital, so it will be the one considered in the following document. From the interactions between these electrons and the one in the conduction band of the semiconductor, new properties will arise. We will try in this chapter to write this interaction as a "Heisenberg" interaction:
+		We looked until now at the structure of a so-called perfect semiconductor, without defect or impurity. However, we are interested in thesis to introduce a low density of either Manganese or Chromium atoms in the crystal, namely, impurities. A semiconductor doped in this fashion is called Diluted Magnetic Semiconductor (DMS). This magnetic atom will interact with the semiconductor electrons via its localized electrons on its exterior shell. For Mn and Cr in CdTe, this orbital is the $d$ orbital, so it will be the one considered in the following document. From the interactions between these electrons and the one in the conduction band of the semiconductor, new properties will arise. We will try in this chapter to write this interaction as a "Heisenberg" interaction:
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
@@ -921,9 +929,9 @@ with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf
 	We now have two hamiltonians to model the exchange interaction between the impurities electrons and the one in the conduction band of the semiconductor: ${\cal H}_{hyb}$ and ${\cal H}_{sd}$. Schrieffer and Wolff rewrote the Anderson hamiltonian in order to give a form closer to the Kondo hamiltonian~\cite{RelationAnderKondo}:
 	\begin{align}
 	\label{Ikk'}
-			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
+			{\cal H}_{hyb} &= ( \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
-			 				&= \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
+			 				&= -  \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
 	\end{align}
 The Fig.~\ref{EnerTransit} illustrates the different energies introduced in \ref{Ikk'}, presenting virtual transitions to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
 
@@ -1118,7 +1126,7 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 		%Once again, valence band is a bit 
 		In the valence band, the picture for Cr in CdTe is a lot more complicated and still open to discussion: Cr 3$d$ level is almost at the same energy as the top of CdTe valence band, making it hard to decide whether it is in the gap or not. The position of this level is critical and can make the kinetic exchange interaction change sign (see Fig.~\ref{EnerTransit} and Eq.~\ref{Ikk'} for a $d$ level energy $E_d$ in the gap). It is therefore challenging to find theoretically the sign of $N_0\beta$~\cite{BlinowskiFerroCrDMS}. It was however predicted that the sign of the interaction would change between hh and lh.
 		
-		$N_0\beta$ was never directly measured in Cd$_x$Cr$_{1-x}$Te. Wojtowicz et al. measured the Zeeman spin splitting of 1$S$ excitons and found one coherent with an interaction of opposite signs for lh and hh~\cite{WojtowiczXNewDMS}. The evolution suggest a ferromagnetic interaction for hh and antiferromagnetic for lh. $N_0 \beta$ was found positive in Cd$_x$Cr$_{1-x}$S~\cite{MacCdCrSD0beta} and in most Zn based II-VI semiconductors, assuming $N_0 \alpha = 0.2$ eV~\cite{KacmanD0alphabetaIIVI}. Especially, in ZnTe, still using this assumption, $N_0 \beta = +3.6 \pm 1.2$ eV was found~\cite{MacspdexchCr}. Since there is almost no valence band offset between ZnTe and CdTe, it seems safe to assume that $N_0 \beta$ in CdTe is positive and thus the interaction between Cr and holes is ferromagnetic.
+		$N_0\beta$ was never directly measured in Cd$_x$Cr$_{1-x}$Te. Wojtowicz et al. measured the Zeeman spin splitting of 1$S$ excitons and found one coherent with an interaction of opposite signs for lh and hh~\cite{WojtowiczXNewDMS}. The evolution suggest a ferromagnetic interaction for hh and antiferromagnetic for lh. $N_0 \beta$ was found positive in Cd$_x$Cr$_{1-x}$S~\cite{MacCdCrSD0beta} and in most Zn based II-VI semiconductors, assuming $N_0 \alpha = 0.2$ eV~\cite{KacmanD0alphabetaIIVI}. Especially, in ZnTe, still using this assumption, $N_0 \beta = +3.6 \pm 1.2$ eV was found~\cite{MacspdexchCr}. Since there is almost no valence band offset between ZnTe and CdTe, it seems safe to assume that $N_0 \beta$ in bulk CdTe is positive and thus the interaction between Cr and hole spins is ferromagnetic.
 
 
 	\section{Fine and hyperfine structure of a magnetic atom in II-VI semiconductor}
@@ -1151,12 +1159,12 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 		
 		The interaction with the crystal field will lift the degeneracies of the free atom level. Those new levels are written with the appropriate group theoritical transformation properties. The $^6$S ground state is symmetrical and non-degenrated. Thus, in first order, it is not affected by the crystal field and is noted $^6$A$_1$. On the other hand, $^4$G, the first excited state, is degenerated and therefore is affected by the crystal. It split into four different states: $^4$T$_1$, three-fold degenerated ; $^4$T$_2$, three-fold degenerated ; $^4$E, two-fold degenerated ; and $^4$A$_1$, not degenerated. It has been shown by calculations that the effect of the crystal field is to pull the two $^4$T levels closer to the ground state, while $^4$E and $^4$A$_1$ are almost coincident and almost not affected by the crystal field~\cite{TanabeGroupThMn,SolidStatesPhysics,ThTransMetalIon}. Higher energy excited states would also be affected, but they are at high enough energy for their contribution not to be significant.
 
-	For a free atom, the transition between the ground state with $S=\frac{5}{2}$ and any of the excited state, with $S = \frac{3}{2}$ is forbidden by the $\Delta S = 0$ rule and the parity selection ones. However, in a II-VI lattice, the spin-orbit interaction and the absence of inversion symmetry relax those rules, and thus allow the transitions between $^6$A$_1$ and the different states coming from the $^4$G splitting. $^6$A$_1 \rightarrow ^4$T$_1$ is the lowest energy of those transitions and therefore the most significant. It corresponds to approximately 2.2 eV. This transition can kill the luminescence of a semiconductor: the electron-hole recombination excite the Mn transition, flipping an electron instead of emitting a photon. However, this transition is unlikely to happen. To have a significant effect on the luminescence, we need a semiconductor with a gap wider than the energy needed for the transition and a high concentration of Mn atom. CdTe have a bandgap of 1.6 eV at 5K~\cite{FurdynaDMS}, although it can be widened by the confinement of the QD, and we work at a really low concentration of Mn atoms in order to have QD with only one of them. This phenomena shouldn't then have a noticeable effect on our samples.
+	For a free atom, the transition between the ground state with $S=\frac{5}{2}$ and any of the excited state, with $S = \frac{3}{2}$ is forbidden by the $\Delta S = 0$ rule and the parity selection ones. However, in a II-VI lattice, the spin-orbit interaction and the absence of inversion symmetry relax those rules, and thus allow the transitions between $^6$A$_1$ and the different states coming from the $^4$G splitting. $^6$A$_1 \rightarrow ^4$T$_1$ is the lowest energy of those transitions and therefore the most significant. It corresponds to approximately 2.2 eV. This transition can kill the luminescence of a semiconductor: the electron-hole recombination excite the Mn transition, flipping a d electron instead of emitting a photon. However, this transition is unlikely to happen. To have a significant effect on the luminescence, we need a semiconductor with a gap wider than the energy needed for the transition and a high concentration of Mn atom. CdTe have a bandgap of 1.6 eV at 5K~\cite{FurdynaDMS}, although it can be widened by the confinement of the QD, and we work at a really low concentration of Mn atoms in order to have QD with only one of them. This phenomena shouldn't then have a noticeable effect on our samples.
 	
 %	We saw in Sec.~\ref{BandStruct} that CdTe band gap was 1.6 eV at 5K, far from the Mn internal transition energy. The confinement, however, will increase the energy of the carriers in the quantum dot, getting them closer to the internal transition. To keep a strong enough luminescence, we then have to be wary of the size of our studied dots in order to stay far enough from these Mn transitions.
 
 	$^6$A state of the Mn$^{2+}$ is symmetric and thus not affected by the crystal field nor the biaxial strain. 
-However, inserting the Mn in a lattice affect its exterior orbital through the spin-orbit coupling. This interaction is mainly driven by the anisotropy of strain, splitting the spin level according to $D_0S_z^2$, with $D_0$ the magnetic anisotropy and $S_z$ the Mn spin quantified along the $z$ axis. The Mn nuclear spin $i = \frac{5}{2}$ also couple to its electronic spin, giving to the atom an hyperfine structure. The whole hamiltonian of the coupled electronic an nuclear spins of a Mn atom in a strained layer grow along [001] axis is known from electron paramagnetic resonance in CdTe/ZnTe superlattices~\cite{StrainedMn} and reads:
+However, inserting the Mn in a lattice affect its exterior orbital through the spin-orbit coupling. This interaction is mainly driven by the anisotropy of strain, splitting the spin level according to $D_0S_z^2$, with $D_0$ the magnetic anisotropy and $S_z$ the Mn spin quantified along the $z$ axis. The Mn nuclear spin $I = \frac{5}{2}$ also couple to its electronic spin, giving to the atom an hyperfine structure. The whole hamiltonian of an electronic spin coupled to the nuclear spin of a Mn atom in a strained layer grow along [001] axis is known from electron paramagnetic resonance in CdTe/ZnTe superlattices~\cite{StrainedMn} and reads:
 	\begin{align}
 	\label{Mnalone}
 		\begin{array}{rll}
@@ -1192,7 +1200,7 @@ However, inserting the Mn in a lattice affect its exterior orbital through the s
 %		\caption{Atomic configuration in Jahn-Teller effect + three minima}
 %	\end{figure}
 
-		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. 90\% of Cr isotopes presents \emph{no nuclear spin}, meaning we do not have to consider their hyperfine structure in II-VI semiconductors. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number L=2 and a spin S=2 yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{FigS1}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The Jahn-Teller distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet .
+		Cr atoms are incorporated into II-VI semiconductors as Cr$^{2+}$ ions on cation sites forming a deep impurity level. 90\% of Cr isotopes presents \emph{no nuclear spin}, meaning we do not have to consider their hyperfine structure in II-VI semiconductors. The ground state of a free Cr$^{2+}$ is $^{5}$D with the orbital quantum number L=2 and a spin S=2 yielding a 25-fold degeneracy. In the crystal field of T$_{d}$ symmetry of the tetrahedral cation site in zinc-blende crystal, the degeneracy is partially lifted (see Fig.~\ref{CrinIIVI}): the $^{5}$D term splits into 15-fold degenerate orbital triplet $^{5}$T$_{2}$ and 10-fold degenerate orbital doublet $^{5}$E. The Jahn-Teller distortion reduces the symmetry to D$_{2d}$ and leads to a splitting of the $^{5}$T$_{2}$ ground state into a 5-fold degenerate $^{5}$B$_{2}$ orbital singlet and a $^{5}$E orbital doublet .
 
 		The ground state orbital singlet $^{5}$B$_{2}$ is further split by the spin-orbit interaction. In a strain free crystal, it was found that the ground state splitting can be described by the spin effective Hamiltonian~\cite{EPRCr}:
 		\begin{align}
