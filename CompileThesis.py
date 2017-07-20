@@ -3,12 +3,12 @@
 import re
 #import antigravity
 
-ignoreLorem = True
+ignoreLorem = False
 rm Thesis.tex
 echo 'Old Thesis.tex deleted'
 
 first = 1
-maxCount = 5
+maxCount = 6
 
 packages = []
 lastPack = 2
@@ -32,10 +32,11 @@ newcomStr = re.compile(r'\\renewcommand')
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
 	curabiturStre = re.compile(r'Curabitur')
+	lipsumStr = re.compile(r'ipsum')
 
 Thesis = open('Thesis.tex', 'w')
-#for i in range(first,maxCount):
-for i in [first, maxCount-1]:
+for i in range(first,maxCount):
+#for i in [first, maxCount-1]:
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
@@ -46,7 +47,7 @@ for i in [first, maxCount-1]:
 			searchedFile = folder + '/' + cfile.group()
 			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
-					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line)))):
+					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line) || lipsumStr.search(line)))):
 						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
 						
 						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
