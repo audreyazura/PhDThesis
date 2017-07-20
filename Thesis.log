@@ -1,0 +1,3399 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.5.30)  20 JUL 2017 04:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Thesis.tex
+(./Thesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks18
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen114
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen125
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count107
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count108
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen126
+\Fld@menulength=\count109
+\Field@Width=\dimen127
+\Fld@charsize=\dimen128
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
+AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count115
+)
+\etb@tempcnta=\count116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count118
+\c@listtotal=\count119
+\c@listcount=\count120
+\c@liststart=\count121
+\c@liststop=\count122
+\c@citecount=\count123
+\c@citetotal=\count124
+\c@multicitecount=\count125
+\c@multicitetotal=\count126
+\c@instcount=\count127
+\c@maxnames=\count128
+\c@minnames=\count129
+\c@maxitems=\count130
+\c@minitems=\count131
+\c@citecounter=\count132
+\c@savedcitecounter=\count133
+\c@uniquelist=\count134
+\c@uniquename=\count135
+\c@refsection=\count136
+\c@refsegment=\count137
+\c@maxextratitle=\count138
+\c@maxextratitleyear=\count139
+\c@maxextrayear=\count140
+\c@maxextraalpha=\count141
+\c@abbrvpenalty=\count142
+\c@highnamepenalty=\count143
+\c@lownamepenalty=\count144
+\c@maxparens=\count145
+\c@parenlevel=\count146
+\blx@tempcnta=\count147
+\blx@tempcntb=\count148
+\blx@tempcntc=\count149
+\blx@maxsection=\count150
+\blx@maxsegment@0=\count151
+\blx@notetype=\count152
+\blx@parenlevel@text=\count153
+\blx@parenlevel@foot=\count154
+\blx@sectionciteorder@0=\count155
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\shorthandwidth=\skip51
+\biblabelsep=\skip52
+\bibitemsep=\skip53
+\bibnamesep=\skip54
+\bibinitsep=\skip55
+\bibparsep=\skip56
+\bibhang=\skip57
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count156
+\c@maxcomprange=\count157
+\c@mincompwidth=\count158
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count159
+\c@savedafterword=\count160
+\c@annotator=\count161
+\c@savedannotator=\count162
+\c@author=\count163
+\c@savedauthor=\count164
+\c@bookauthor=\count165
+\c@savedbookauthor=\count166
+\c@commentator=\count167
+\c@savedcommentator=\count168
+\c@editor=\count169
+\c@savededitor=\count170
+\c@editora=\count171
+\c@savededitora=\count172
+\c@editorb=\count173
+\c@savededitorb=\count174
+\c@editorc=\count175
+\c@savededitorc=\count176
+\c@foreword=\count177
+\c@savedforeword=\count178
+\c@holder=\count179
+\c@savedholder=\count180
+\c@introduction=\count181
+\c@savedintroduction=\count182
+\c@namea=\count183
+\c@savednamea=\count184
+\c@nameb=\count185
+\c@savednameb=\count186
+\c@namec=\count187
+\c@savednamec=\count188
+\c@shortauthor=\count189
+\c@savedshortauthor=\count190
+\c@shorteditor=\count191
+\c@savedshorteditor=\count192
+\c@translator=\count193
+\c@savedtranslator=\count194
+\c@labelname=\count195
+\c@savedlabelname=\count196
+\c@institution=\count197
+\c@savedinstitution=\count198
+\c@lista=\count199
+\c@savedlista=\count200
+\c@listb=\count201
+\c@savedlistb=\count202
+\c@listc=\count203
+\c@savedlistc=\count204
+\c@listd=\count205
+\c@savedlistd=\count206
+\c@liste=\count207
+\c@savedliste=\count208
+\c@listf=\count209
+\c@savedlistf=\count210
+\c@location=\count211
+\c@savedlocation=\count212
+\c@organization=\count213
+\c@savedorganization=\count214
+\c@origlocation=\count215
+\c@savedoriglocation=\count216
+\c@origpublisher=\count217
+\c@savedorigpublisher=\count218
+\c@publisher=\count219
+\c@savedpublisher=\count220
+\c@language=\count221
+\c@savedlanguage=\count222
+\c@pageref=\count223
+\c@savedpageref=\count224
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count225
+\c@textcitetotal=\count226
+\c@textcitemaxnames=\count227
+\c@biburlnumpenalty=\count228
+\c@biburlucpenalty=\count229
+\c@biburllcpenalty=\count230
+\c@smartand=\count231
+)
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2013/02/15 v0.9e biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count232
+\c@bbx:relatedtotal=\count233
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2013/02/15 v0.9e biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+Normal \count register pool exhausted, switching to extended pool.
+\c@cbx@tempcnta=\count277
+\c@cbx@tempcntb=\count278
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+)
+\c@float@type=\count279
+\float@exts=\toks24
+\float@box=\box28
+\@floatcapt=\box29
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks25
+
+! No room for a new \count .
+\ch@ck ...\else \errmessage {No room for a new #3}
+                                                  \fi 
+l.485 ...finable\flrow@foot{\newinsert\flrow@foot}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+\FB@wd=\dimen136
+\FBo@wd=\dimen137
+\FBc@wd=\dimen138
+\FBo@ht=\skip58
+\FBc@ht=\skip59
+\FBf@ht=\skip60
+\FBo@max=\skip61
+\FBc@max=\skip62
+\FBf@max=\skip63
+\c@FBl@b=\count280
+\floatbox@depth=\count281
+\c@FRobj=\count282
+\c@FRsobj=\count283
+\Xhsize=\skip64
+\sXhsize=\skip65
+\Zhsize=\skip66
+\sZhsize=\skip67
+\flrow@rowbox=\box30
+\FR@Zunitlength=\dimen139
+\c@FBcnt=\count284
+\FPOScnt=\count285
+\LTleft=\skip68
+\LTright=\skip69
+\LTleft=\skip70
+\LTright=\skip71
+\flrow@types=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count287
+\rotFPtop=\skip72
+\rotFPbot=\skip73
+\rot@float@box=\box31
+\rot@mess@toks=\toks27
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count288
+\@quotereset=\count289
+(./Thesis.aux
+
+LaTeX Warning: Label `SelectionRules' multiply defined.
+
+
+LaTeX Warning: Label `BandStruct' multiply defined.
+
+
+LaTeX Warning: Label `hMnPolarRateB' multiply defined.
+
+)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count290
+\scratchdimen=\dimen140
+\scratchbox=\box32
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen141
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks29
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 31.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count296
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+
+(./Thesis.out) (./Thesis.out)
+\@outlinefile=\write4
+\openout4 = `Thesis.out'.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `Thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis.bbl' found.
+ (./Thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Chapter I.
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<01-QD/Pictures/ZincBlende-Wikipedia.png, id=190, 661.47125pt x 602.25pt>
+File: 01-QD/Pictures/ZincBlende-Wikipedia.png Graphic file (type png)
+
+<use 01-QD/Pictures/ZincBlende-Wikipedia.png>
+Package pdftex.def Info: 01-QD/Pictures/ZincBlende-Wikipedia.png used on input 
+line 58.
+(pdftex.def)             Requested size: 227.62204pt x 207.23428pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.60 	\end{figure}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[2 <./01-QD/Pictures/ZincBlende-Wikipedia.png>] [3]
+Overfull \hbox (32.0882pt too wide) in paragraph at lines 152--152
+[] 
+ []
+
+[4]
+Package epstopdf Info: Source file: <01-QD/Pictures/SelectionRules.eps>
+(epstopdf)                    date: 2017-07-09 15:55:48
+(epstopdf)                    size: 15776836 bytes
+(epstopdf)             Output file: <01-QD/Pictures/SelectionRules-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-07-09 15:55:48
+(epstopdf)                    size: 78404 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/SelectionRu
+les-eps-converted-to.pdf 01-QD/Pictures/SelectionRules.eps>
+(epstopdf)             \includegraphics on input line 162.
+Package epstopdf Info: Output file is already uptodate.
+
+<01-QD/Pictures/SelectionRules-eps-converted-to.pdf, id=224, 1195.46625pt x 511
+.9125pt>
+File: 01-QD/Pictures/SelectionRules-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 01-QD/Pictures/SelectionRules-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/SelectionRules-eps-converted-to.pdf use
+d on input line 162.
+(pdftex.def)             Requested size: 421.10086pt x 180.3203pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 162--163
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.166 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[5 <./01-QD/Pictures/SelectionRules-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 174.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
+Package epstopdf Info: Source file: <01-QD/Pictures/SelectionRules.eps>
+(epstopdf)                    date: 2017-07-09 15:55:48
+(epstopdf)                    size: 15776836 bytes
+(epstopdf)             Output file: <01-QD/Pictures/SelectionRules-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-07-09 15:55:48
+(epstopdf)                    size: 78404 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/SelectionRu
+les-eps-converted-to.pdf 01-QD/Pictures/SelectionRules.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+File: 01-QD/Pictures/SelectionRules-eps-converted-to.pdf Graphic file (type pdf
+)
+
+<use 01-QD/Pictures/SelectionRules-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/SelectionRules-eps-converted-to.pdf use
+d on input line 184.
+(pdftex.def)             Requested size: 421.10086pt x 180.3203pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 184--185
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.188 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+Package epstopdf Info: Source file: <01-QD/Pictures/CdTeband.eps>
+(epstopdf)                    date: 2017-06-09 18:10:38
+(epstopdf)                    size: 4288109 bytes
+(epstopdf)             Output file: <01-QD/Pictures/CdTeband-eps-converted-to.p
+df>
+(epstopdf)                    date: 2017-06-09 18:11:56
+(epstopdf)                    size: 53255 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/CdTeband-ep
+s-converted-to.pdf 01-QD/Pictures/CdTeband.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<01-QD/Pictures/CdTeband-eps-converted-to.pdf, id=250, 711.65875pt x 569.12625p
+t>
+File: 01-QD/Pictures/CdTeband-eps-converted-to.pdf Graphic file (type pdf)
+ <use 01-QD/Pictures/CdTeband-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/CdTeband-eps-converted-to.pdf used on i
+nput line 202.
+(pdftex.def)             Requested size: 284.52756pt x 227.53357pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.206 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./01-QD/Pictures/CdTeband-eps-converted-to.pdf>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.305 	\end{table}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[9] [10] [11] [12] [13]
+Package epstopdf Info: Source file: <01-QD/Pictures/AFMQD.eps>
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 1218508 bytes
+(epstopdf)             Output file: <01-QD/Pictures/AFMQD-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 24413 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/AFMQD-eps-c
+onverted-to.pdf 01-QD/Pictures/AFMQD.eps>
+(epstopdf)             \includegraphics on input line 447.
+Package epstopdf Info: Output file is already uptodate.
+
+<01-QD/Pictures/AFMQD-eps-converted-to.pdf, id=336, 483.8075pt x 241.90375pt>
+File: 01-QD/Pictures/AFMQD-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 01-QD/Pictures/AFMQD-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/AFMQD-eps-converted-to.pdf used on inpu
+t line 447.
+(pdftex.def)             Requested size: 227.62204pt x 113.81288pt.
+
+Overfull \hbox (23.49521pt too wide) in paragraph at lines 447--447
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.447 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.447 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <01-QD/Pictures/AFMQD.eps>
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 1218508 bytes
+(epstopdf)             Output file: <01-QD/Pictures/AFMQD-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 24413 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/AFMQD-eps-c
+onverted-to.pdf 01-QD/Pictures/AFMQD.eps>
+(epstopdf)             \includegraphics on input line 447.
+Package epstopdf Info: Output file is already uptodate.
+File: 01-QD/Pictures/AFMQD-eps-converted-to.pdf Graphic file (type pdf)
+<use 01-QD/Pictures/AFMQD-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/AFMQD-eps-converted-to.pdf used on inpu
+t line 447.
+(pdftex.def)             Requested size: 227.62204pt x 113.81288pt.
+
+Overfull \hbox (23.49521pt too wide) in paragraph at lines 447--447
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.447 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[14 <./01-QD/Pictures/AFMQD-eps-converted-to.pdf>]
+Overfull \hbox (23.24365pt too wide) in paragraph at lines 458--460
+\T1/cmr/m/n/12 with $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 r\OT
+1/cmr/m/n/12 ) = [][] \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 )$ \T1/c
+mr/m/n/12 the elec-tron en-velop func-tion and $\OML/cmm/m/it/12 F[]\OT1/cmr/m/
+n/12 (\OT1/cmr/bx/n/12 r\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n
+/12 (\OML/cmm/m/it/12 i\OT1/cmr/bx/n/12 k\OML/cmm/m/it/12 :\OT1/cmr/bx/n/12 r\O
+T1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
+ []
+
+[15] [16] [17]
+Overfull \hbox (8.10184pt too wide) in paragraph at lines 545--547
+[]\T1/cmr/m/n/12 Taking into ac-count the sym-me-try of the crys-tal, Bir and P
+ikus demon-strated [[][]11[][]]
+ []
+
+[18] <01-QD/Pictures/LinPol.png, id=396, 1086.0575pt x 863.225pt>
+File: 01-QD/Pictures/LinPol.png Graphic file (type png)
+
+<use 01-QD/Pictures/LinPol.png>
+Package pdftex.def Info: 01-QD/Pictures/LinPol.png used on input line 596.
+(pdftex.def)             Requested size: 369.88582pt x 293.99315pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.600 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] [20 <./01-QD/Pictures/LinPol.png (PNG copy)>] [21] [22] [23]
+Overfull \hbox (1.87135pt too wide) in paragraph at lines 701--702
+[]\T1/cmr/m/n/12 This for-mally sim-ple in-ter-ac-tion rep-re-sents the Pauli e
+x-clu-sion prin-ci-ple through
+ []
+
+[24] <01-QD/Pictures/ExchInt.png, id=472, 307.1475pt x 232.87pt>
+File: 01-QD/Pictures/ExchInt.png Graphic file (type png)
+
+<use 01-QD/Pictures/ExchInt.png>
+Package pdftex.def Info: 01-QD/Pictures/ExchInt.png used on input line 740.
+(pdftex.def)             Requested size: 170.71652pt x 129.4327pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.740 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.740 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: 01-QD/Pictures/ExchInt.png Graphic file (type png)
+<use 01-QD/Pictures/ExchInt.png>
+Package pdftex.def Info: 01-QD/Pictures/ExchInt.png used on input line 740.
+(pdftex.def)             Requested size: 170.71652pt x 129.4327pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.740 	\end{center}}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./01-QD/Pictures/ExchInt.png>]
+<01-QD/Pictures/EnergyLevels.png, id=498, 517.935pt x 429.605pt>
+File: 01-QD/Pictures/EnergyLevels.png Graphic file (type png)
+
+<use 01-QD/Pictures/EnergyLevels.png>
+Package pdftex.def Info: 01-QD/Pictures/EnergyLevels.png used on input line 801
+.
+(pdftex.def)             Requested size: 284.52756pt x 236.01471pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.805 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[27] [28 <./01-QD/Pictures/EnergyLevels.png>] [29] [30] [31] [32] [33]
+Overfull \hbox (5.97437pt too wide) in paragraph at lines 973--973
+[]\T1/cmr/bx/n/17.28 Fine and hy-per-fine struc-ture of a mag-netic atom
+ []
+
+<01-QD/Pictures/MnCrystal.png, id=583, 326.72063pt x 377.91188pt>
+File: 01-QD/Pictures/MnCrystal.png Graphic file (type png)
+
+<use 01-QD/Pictures/MnCrystal.png>
+Package pdftex.def Info: 01-QD/Pictures/MnCrystal.png used on input line 985.
+(pdftex.def)             Requested size: 284.52756pt x 329.10359pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.989 	\end{figure}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34] [35 <./01-QD/Pictures/MnCrystal.png>]
+<01-QD/Pictures/MnFineStruct.png, id=604, 645.91313pt x 460.72125pt>
+File: 01-QD/Pictures/MnFineStruct.png Graphic file (type png)
+
+<use 01-QD/Pictures/MnFineStruct.png>
+Package pdftex.def Info: 01-QD/Pictures/MnFineStruct.png used on input line 100
+9.
+(pdftex.def)             Requested size: 341.43306pt x 243.54137pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1013 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37 <./01-QD/Pictures/MnFineStruct.png>]
+<01-QD/Pictures/CrinIIVI.png, id=634, 355.3275pt x 326.72063pt>
+File: 01-QD/Pictures/CrinIIVI.png Graphic file (type png)
+
+<use 01-QD/Pictures/CrinIIVI.png>
+Package pdftex.def Info: 01-QD/Pictures/CrinIIVI.png used on input line 1037.
+(pdftex.def)             Requested size: 284.52756pt x 261.62611pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1040 		\end{figure}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (3.14607pt too wide) in paragraph at lines 1042--1043
+[]\T1/cmr/m/n/12 Static bi-ax-ial com-pres-sive strain in the (001) plane, as o
+b-served in self-assembled
+ []
+
+[38 <./01-QD/Pictures/CrinIIVI.png>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1089 		\end{table}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[39] [40]
+Package epstopdf Info: Source file: <01-QD/Pictures/XMn-Exp.eps>
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 10669199 bytes
+(epstopdf)             Output file: <01-QD/Pictures/XMn-Exp-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-07-05 00:28:04
+(epstopdf)                    size: 60696 bytes
+(epstopdf)             Command: <repstopdf --outfile=01-QD/Pictures/XMn-Exp-eps
+-converted-to.pdf 01-QD/Pictures/XMn-Exp.eps>
+(epstopdf)             \includegraphics on input line 1140.
+Package epstopdf Info: Output file is already uptodate.
+
+<01-QD/Pictures/XMn-Exp-eps-converted-to.pdf, id=676, 426.59375pt x 364.36125pt
+>
+File: 01-QD/Pictures/XMn-Exp-eps-converted-to.pdf Graphic file (type pdf)
+ <use 01-QD/Pictures/XMn-Exp-eps-converted-to.pdf>
+Package pdftex.def Info: 01-QD/Pictures/XMn-Exp-eps-converted-to.pdf used on in
+put line 1140.
+(pdftex.def)             Requested size: 312.9803pt x 267.33806pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1144 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41] <01-QD/Pictures/MnEnLvl.png, id=688, 576.7146pt x 390.7398pt>
+File: 01-QD/Pictures/MnEnLvl.png Graphic file (type png)
+
+<use 01-QD/Pictures/MnEnLvl.png>
+Package pdftex.def Info: 01-QD/Pictures/MnEnLvl.png used on input line 1154.
+(pdftex.def)             Requested size: 341.43306pt x 231.33937pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1158 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42 <./01-QD/Pictures/XMn-Exp-eps-converted-to.pdf>] [43 <./01-QD/Pictures/MnEn
+Lvl.png>]
+Chapter II.
+[44
+
+]
+Chapter III.
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/DotPres.eps>
+(epstopdf)                    date: 2017-07-17 01:27:16
+(epstopdf)                    size: 16956324 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/DotPres-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-07-17 01:27:16
+(epstopdf)                    size: 162518 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/DotPres-e
+ps-converted-to.pdf 03-h-Mn/Pictures/DotPres.eps>
+(epstopdf)             \includegraphics on input line 1198.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/DotPres-eps-converted-to.pdf, id=718, 463.7325pt x 503.8825pt
+>
+File: 03-h-Mn/Pictures/DotPres-eps-converted-to.pdf Graphic file (type pdf)
+ <use 03-h-Mn/Pictures/DotPres-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/DotPres-eps-converted-to.pdf used on 
+input line 1198.
+(pdftex.def)             Requested size: 341.43306pt x 370.99887pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1200 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45
+
+] [46 <./03-h-Mn/Pictures/DotPres-eps-converted-to.pdf>]
+<03-h-Mn/Pictures/Recomb.png, id=732, 853.68938pt x 511.9125pt>
+File: 03-h-Mn/Pictures/Recomb.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/Recomb.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/Recomb.png used on input line 1206.
+(pdftex.def)             Requested size: 421.10086pt x 252.51872pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 1206--1207
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1210 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[47 <./03-h-Mn/Pictures/Recomb.png>]
+<03-h-Mn/Pictures/Spinstructv2.png, id=739, 483.30562pt x 569.12625pt>
+File: 03-h-Mn/Pictures/Spinstructv2.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/Spinstructv2.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/Spinstructv2.png used on input line 1
+216.
+(pdftex.def)             Requested size: 341.43306pt x 402.07643pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1220 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[48 <./03-h-Mn/Pictures/Spinstructv2.png>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1235 	\end{table}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 1238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1238.
+
+<03-h-Mn/Pictures/Lambdasyst.png, id=757, 542.025pt x 569.12625pt>
+File: 03-h-Mn/Pictures/Lambdasyst.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/Lambdasyst.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/Lambdasyst.png used on input line 124
+4.
+(pdftex.def)             Requested size: 341.43306pt x 358.5167pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1248 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1257.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 1257.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1257.
+
+[49]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/ResAutocor.eps>
+(epstopdf)                    date: 2017-07-17 01:27:20
+(epstopdf)                    size: 11017754 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/ResAutocor-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-07-20 03:46:39
+(epstopdf)                    size: 61475 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/ResAutoco
+r-eps-converted-to.pdf 03-h-Mn/Pictures/ResAutocor.eps>
+(epstopdf)             \includegraphics on input line 1264.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/ResAutocor-eps-converted-to.pdf, id=763, 620.3175pt x 313.17p
+t>
+File: 03-h-Mn/Pictures/ResAutocor-eps-converted-to.pdf Graphic file (type pdf)
+ <use 03-h-Mn/Pictures/ResAutocor-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/ResAutocor-eps-converted-to.pdf used 
+on input line 1264.
+(pdftex.def)             Requested size: 421.10086pt x 212.59438pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 1264--1265
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1268 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[50 <./03-h-Mn/Pictures/Lambdasyst.png>]
+<03-h-Mn/Pictures/ResPumpv2.png, id=770, 542.025pt x 492.33937pt>
+File: 03-h-Mn/Pictures/ResPumpv2.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/ResPumpv2.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/ResPumpv2.png used on input line 1273
+.
+(pdftex.def)             Requested size: 418.25542pt x 379.92885pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1277 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1285--1285
+\T1/cmr/m/n/12 tracted from the full level struc-ture
+ []
+
+<03-h-Mn/Pictures/RelaxMecanism.png, id=773, 233.37187pt x 255.95625pt>
+File: 03-h-Mn/Pictures/RelaxMecanism.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/RelaxMecanism.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/RelaxMecanism.png used on input line 
+1285.
+(pdftex.def)             Requested size: 170.71652pt x 187.24486pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1285 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1285 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1285--1285
+\T1/cmr/m/n/12 tracted from the full level struc-ture
+ []
+
+File: 03-h-Mn/Pictures/RelaxMecanism.png Graphic file (type png)
+<use 03-h-Mn/Pictures/RelaxMecanism.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/RelaxMecanism.png used on input line 
+1285.
+(pdftex.def)             Requested size: 170.71652pt x 187.24486pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1285 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51 <./03-h-Mn/Pictures/ResAutocor-eps-converted-to.pdf>] [52 <./03-h-Mn/Pictur
+es/ResPumpv2.png>]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/AutocorBPw.eps>
+(epstopdf)                    date: 2017-07-17 01:27:16
+(epstopdf)                    size: 18618889 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/AutocorBPw-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-07-20 03:46:56
+(epstopdf)                    size: 226722 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/AutocorBP
+w-eps-converted-to.pdf 03-h-Mn/Pictures/AutocorBPw.eps>
+(epstopdf)             \includegraphics on input line 1296.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/AutocorBPw-eps-converted-to.pdf, id=792, 520.94624pt x 508.90
+125pt>
+File: 03-h-Mn/Pictures/AutocorBPw-eps-converted-to.pdf Graphic file (type pdf)
+ <use 03-h-Mn/Pictures/AutocorBPw-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/AutocorBPw-eps-converted-to.pdf used 
+on input line 1296.
+(pdftex.def)             Requested size: 341.43306pt x 333.53854pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1300 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/PumpBPw.eps>
+(epstopdf)                    date: 2017-07-17 01:27:19
+(epstopdf)                    size: 17493623 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/PumpBPw-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-07-20 03:47:14
+(epstopdf)                    size: 235802 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/PumpBPw-e
+ps-converted-to.pdf 03-h-Mn/Pictures/PumpBPw.eps>
+(epstopdf)             \includegraphics on input line 1306.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/PumpBPw-eps-converted-to.pdf, id=793, 511.9125pt x 497.86pt>
+File: 03-h-Mn/Pictures/PumpBPw-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 03-h-Mn/Pictures/PumpBPw-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/PumpBPw-eps-converted-to.pdf used on 
+input line 1306.
+(pdftex.def)             Requested size: 341.43306pt x 332.06032pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1310 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./03-h-Mn/Pictures/RelaxMecanism.png>]
+<03-h-Mn/Pictures/DarkRelax.png, id=800, 483.30562pt x 406.51875pt>
+File: 03-h-Mn/Pictures/DarkRelax.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/DarkRelax.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/DarkRelax.png used on input line 1316
+.
+(pdftex.def)             Requested size: 369.88582pt x 311.1285pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1320 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54 <./03-h-Mn/Pictures/AutocorBPw-eps-converted-to.pdf>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1354 	\end{table}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[55 <./03-h-Mn/Pictures/PumpBPw-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/TauffRelax.eps>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 8415154 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/TauffRelax-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 36790 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/TauffRela
+x-eps-converted-to.pdf 03-h-Mn/Pictures/TauffRelax.eps>
+(epstopdf)             \includegraphics on input line 1362.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf, id=826, 378.41376pt x 463.73
+25pt>
+File: 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf Graphic file (type pdf)
+ <use 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf used 
+on input line 1362.
+(pdftex.def)             Requested size: 199.16928pt x 244.07881pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1362 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1362 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/TauffRelax.eps>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 8415154 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/TauffRelax-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 36790 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/TauffRela
+x-eps-converted-to.pdf 03-h-Mn/Pictures/TauffRelax.eps>
+(epstopdf)             \includegraphics on input line 1362.
+Package epstopdf Info: Output file is already uptodate.
+File: 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf Graphic file (type pdf)
+<use 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf used 
+on input line 1362.
+(pdftex.def)             Requested size: 199.16928pt x 244.07881pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1362 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56 <./03-h-Mn/Pictures/DarkRelax.png>]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/AutocorSimu.eps>
+(epstopdf)                    date: 2017-07-17 01:27:16
+(epstopdf)                    size: 12282869 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/AutocorSimu-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:16
+(epstopdf)                    size: 69876 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/AutocorSi
+mu-eps-converted-to.pdf 03-h-Mn/Pictures/AutocorSimu.eps>
+(epstopdf)             \includegraphics on input line 1369.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/AutocorSimu-eps-converted-to.pdf, id=837, 435.6275pt x 597.23
+125pt>
+File: 03-h-Mn/Pictures/AutocorSimu-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use 03-h-Mn/Pictures/AutocorSimu-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/AutocorSimu-eps-converted-to.pdf used
+ on input line 1369.
+(pdftex.def)             Requested size: 284.52756pt x 390.07298pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1373 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/PumpSimu.eps>
+(epstopdf)                    date: 2017-07-17 01:27:19
+(epstopdf)                    size: 17276733 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/PumpSimu-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:19
+(epstopdf)                    size: 60474 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/PumpSimu-
+eps-converted-to.pdf 03-h-Mn/Pictures/PumpSimu.eps>
+(epstopdf)             \includegraphics on input line 1379.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/PumpSimu-eps-converted-to.pdf, id=840, 577.15625pt x 654.445p
+t>
+File: 03-h-Mn/Pictures/PumpSimu-eps-converted-to.pdf Graphic file (type pdf)
+ <use 03-h-Mn/Pictures/PumpSimu-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/PumpSimu-eps-converted-to.pdf used on
+ input line 1379.
+(pdftex.def)             Requested size: 341.43306pt x 387.16774pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1383 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/RelaxDarkSimu.eps>
+(epstopdf)                    date: 2017-07-17 01:27:19
+(epstopdf)                    size: 10139699 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/RelaxDarkSimu-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:19
+(epstopdf)                    size: 36298 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/RelaxDark
+Simu-eps-converted-to.pdf 03-h-Mn/Pictures/RelaxDarkSimu.eps>
+(epstopdf)             \includegraphics on input line 1389.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/RelaxDarkSimu-eps-converted-to.pdf, id=848, 541.02126pt x 403
+.5075pt>
+File: 03-h-Mn/Pictures/RelaxDarkSimu-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 03-h-Mn/Pictures/RelaxDarkSimu-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/RelaxDarkSimu-eps-converted-to.pdf us
+ed on input line 1389.
+(pdftex.def)             Requested size: 369.88582pt x 275.87762pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1393 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./03-h-Mn/Pictures/TauffRelax-eps-converted-to.pdf>] [59 <./03-h-Mn/Pictures/
+AutocorSimu-eps-converted-to.pdf>] [60 <./03-h-Mn/Pictures/PumpSimu-eps-convert
+ed-to.pdf>]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/StrainAutocorPump.eps>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 11267017 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/StrainAutocorPump-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:22
+(epstopdf)                    size: 42701 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/StrainAut
+ocorPump-eps-converted-to.pdf 03-h-Mn/Pictures/StrainAutocorPump.eps>
+(epstopdf)             \includegraphics on input line 1399.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/StrainAutocorPump-eps-converted-to.pdf, id=875, 575.14874pt x
+ 421.575pt>
+File: 03-h-Mn/Pictures/StrainAutocorPump-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use 03-h-Mn/Pictures/StrainAutocorPump-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/StrainAutocorPump-eps-converted-to.pd
+f used on input line 1399.
+(pdftex.def)             Requested size: 341.43306pt x 250.27094pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1403 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61 <./03-h-Mn/Pictures/RelaxDarkSimu-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
+
+ []
+
+<03-h-Mn/Pictures/SpinStructE.png, id=888, 312.41719pt x 326.72063pt>
+File: 03-h-Mn/Pictures/SpinStructE.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/SpinStructE.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/SpinStructE.png used on input line 14
+11.
+(pdftex.def)             Requested size: 284.52756pt x 297.5605pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1413 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[62 <./03-h-Mn/Pictures/StrainAutocorPump-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+
+ []
+
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/PolarRateTotal.eps>
+(epstopdf)                    date: 2017-07-17 01:27:18
+(epstopdf)                    size: 22016621 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/PolarRateTotal-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-07-17 01:27:18
+(epstopdf)                    size: 127405 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/PolarRate
+Total-eps-converted-to.pdf 03-h-Mn/Pictures/PolarRateTotal.eps>
+(epstopdf)             \includegraphics on input line 1422.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf, id=897, 525.965pt x 609.
+27625pt>
+File: 03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf u
+sed on input line 1422.
+(pdftex.def)             Requested size: 364.19536pt x 421.89784pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1426 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<03-h-Mn/Pictures/PolarRateB.png, id=902, 542.025pt x 625.58719pt>
+File: 03-h-Mn/Pictures/PolarRateB.png Graphic file (type png)
+
+<use 03-h-Mn/Pictures/PolarRateB.png>
+Package pdftex.def Info: 03-h-Mn/Pictures/PolarRateB.png used on input line 143
+2.
+(pdftex.def)             Requested size: 398.33858pt x 459.76765pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1436 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63 <./03-h-Mn/Pictures/SpinStructE.png>]
+
+LaTeX Warning: Text page 64 contains only floats.
+
+
+Overfull \vbox (6.36545pt too high) has occurred while \output is active []
+
+
+[64 <./03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+
+Overfull \vbox (3.06802pt too high) has occurred while \output is active []
+
+
+[65 <./03-h-Mn/Pictures/PolarRateB.png>]
+Package epstopdf Info: Source file: <03-h-Mn/Pictures/LevelSplitB.eps>
+(epstopdf)                    date: 2017-07-17 01:27:17
+(epstopdf)                    size: 17142170 bytes
+(epstopdf)             Output file: <03-h-Mn/Pictures/LevelSplitB-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-07-20 03:47:35
+(epstopdf)                    size: 85125 bytes
+(epstopdf)             Command: <repstopdf --outfile=03-h-Mn/Pictures/LevelSpli
+tB-eps-converted-to.pdf 03-h-Mn/Pictures/LevelSplitB.eps>
+(epstopdf)             \includegraphics on input line 1442.
+Package epstopdf Info: Output file is already uptodate.
+
+<03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf, id=931, 542.025pt x 634.37p
+t>
+File: 03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use 03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf>
+Package pdftex.def Info: 03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf used
+ on input line 1442.
+(pdftex.def)             Requested size: 318.67078pt x 372.97797pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1446 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[66 <./03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf>] [67]
+Chapter IV.
+[68
+
+]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Spectras.eps>
+(epstopdf)                    date: 2017-04-25 13:47:40
+(epstopdf)                    size: 760686 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Spectras-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-04-25 13:47:48
+(epstopdf)                    size: 91664 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Spect
+ras-eps-converted-to.pdf 04-CrMagOpt/Pictures/Spectras.eps>
+(epstopdf)             \includegraphics on input line 1469.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf, id=953, 995.72pt x 398.488
+75pt>
+File: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf use
+d on input line 1469.
+(pdftex.def)             Requested size: 426.79134pt x 170.80566pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1469--1470
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1473 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<04-CrMagOpt/Pictures/EnLvlantiferro.png, id=956, 426.84468pt x 475.02469pt>
+File: 04-CrMagOpt/Pictures/EnLvlantiferro.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/EnLvlantiferro.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/EnLvlantiferro.png used on input 
+line 1479.
+(pdftex.def)             Requested size: 284.52756pt x 316.66301pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1483 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69 <./04-CrMagOpt/Pictures/Spectras-eps-converted-to.pdf>]
+<04-CrMagOpt/Pictures/LinPol.png, id=972, 1138.2525pt x 724.95844pt>
+File: 04-CrMagOpt/Pictures/LinPol.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/LinPol.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/LinPol.png used on input line 148
+9.
+(pdftex.def)             Requested size: 426.79134pt x 271.82556pt.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 1489--1490
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1493 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70 <./04-CrMagOpt/Pictures/EnLvlantiferro.png>] [71 <./04-CrMagOpt/Pictures/Li
+nPol.png>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Decay.eps>
+(epstopdf)                    date: 2017-05-29 22:34:35
+(epstopdf)                    size: 125892 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Decay-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-05-29 22:34:35
+(epstopdf)                    size: 45422 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Decay
+-eps-converted-to.pdf 04-CrMagOpt/Pictures/Decay.eps>
+(epstopdf)             \includegraphics on input line 1503.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf, id=992, 711.65875pt x 381.425
+pt>
+File: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf used o
+n input line 1503.
+(pdftex.def)             Requested size: 341.43306pt x 182.99461pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1507 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[72 <./04-CrMagOpt/Pictures/Decay-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Temp.eps>
+(epstopdf)                    date: 2017-07-19 23:52:10
+(epstopdf)                    size: 18705117 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Temp-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-07-20 02:32:06
+(epstopdf)                    size: 86539 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Temp-
+eps-converted-to.pdf 04-CrMagOpt/Pictures/Temp.eps>
+(epstopdf)             \includegraphics on input line 1517.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf, id=1014, 734.745pt x 555.07375
+pt>
+File: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf used on
+ input line 1517.
+(pdftex.def)             Requested size: 423.94588pt x 320.28291pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1517--1518
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1521 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[73 <./04-CrMagOpt/Pictures/Temp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/FullPLEv2.eps>
+(epstopdf)                    date: 2017-07-02 01:25:24
+(epstopdf)                    size: 32672620 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/FullPLEv2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-07-02 01:27:49
+(epstopdf)                    size: 208673 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/FullP
+LEv2-eps-converted-to.pdf 04-CrMagOpt/Pictures/FullPLEv2.eps>
+(epstopdf)             \includegraphics on input line 1533.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf, id=1030, 910.40125pt x 97
+3.6375pt>
+File: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf us
+ed on input line 1533.
+(pdftex.def)             Requested size: 392.64812pt x 419.91876pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1537 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/PLEDotPres.eps>
+(epstopdf)                    date: 2017-07-20 02:52:43
+(epstopdf)                    size: 1711599 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/PLEDotPres-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-07-20 02:53:08
+(epstopdf)                    size: 118833 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/PLEDo
+tPres-eps-converted-to.pdf 04-CrMagOpt/Pictures/PLEDotPres.eps>
+(epstopdf)             \includegraphics on input line 1547.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf, id=1036, 882.29625pt x 5
+49.05125pt>
+File: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf u
+sed on input line 1547.
+(pdftex.def)             Requested size: 423.94588pt x 263.81807pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1547--1548
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1551 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[74]
+
+LaTeX Warning: Text page 75 contains only floats.
+
+
+Overfull \vbox (6.18636pt too high) has occurred while \output is active []
+
+
+[75 <./04-CrMagOpt/Pictures/FullPLEv2-eps-converted-to.pdf>]
+Overfull \hbox (5.13042pt too wide) in paragraph at lines 1555--1556
+[]\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
+0 meV. This state presents
+ []
+
+[76 <./04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>]
+<04-CrMagOpt/Pictures/MagOptv2.png, id=1073, 554.82281pt x 629.35126pt>
+File: 04-CrMagOpt/Pictures/MagOptv2.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/MagOptv2.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptv2.png used on input line 1
+563.
+(pdftex.def)             Requested size: 284.52756pt x 322.75107pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1567 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[77 <./04-CrMagOpt/Pictures/MagOptv2.png>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/MagOptLowSym.eps>
+(epstopdf)                    date: 2017-06-30 09:38:18
+(epstopdf)                    size: 10874291 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/MagOptLowSym-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-07-02 01:28:04
+(epstopdf)                    size: 296569 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/MagOp
+tLowSym-eps-converted-to.pdf 04-CrMagOpt/Pictures/MagOptLowSym.eps>
+(epstopdf)             \includegraphics on input line 1573.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf, id=1084, 341.275pt x 4
+69.755pt>
+File: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf
+ used on input line 1573.
+(pdftex.def)             Requested size: 284.52756pt x 391.66702pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1577 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[78 <./04-CrMagOpt/Pictures/MagOptLowSym-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Antiferro-Cr.eps>
+(epstopdf)                    date: 2017-07-20 03:23:31
+(epstopdf)                    size: 3089507 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Antiferro-Cr-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-07-20 03:23:44
+(epstopdf)                    size: 242421 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Antif
+erro-Cr-eps-converted-to.pdf 04-CrMagOpt/Pictures/Antiferro-Cr.eps>
+(epstopdf)             \includegraphics on input line 1585.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Antiferro-Cr-eps-converted-to.pdf, id=1102, 446.66875pt x
+ 549.05125pt>
+File: 04-CrMagOpt/Pictures/Antiferro-Cr-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use 04-CrMagOpt/Pictures/Antiferro-Cr-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Antiferro-Cr-eps-converted-to.pdf
+ used on input line 1585.
+(pdftex.def)             Requested size: 284.52756pt x 349.74954pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1589 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[79 <./04-CrMagOpt/Pictures/Antiferro-Cr-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/Antiferro-Mn.eps>
+(epstopdf)                    date: 2017-06-30 09:38:17
+(epstopdf)                    size: 12669289 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/Antiferro-Mn-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:17
+(epstopdf)                    size: 111059 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Antif
+erro-Mn-eps-converted-to.pdf 04-CrMagOpt/Pictures/Antiferro-Mn.eps>
+(epstopdf)             \includegraphics on input line 1595.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/Antiferro-Mn-eps-converted-to.pdf, id=1115, 460.72125pt x
+ 549.05125pt>
+File: 04-CrMagOpt/Pictures/Antiferro-Mn-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use 04-CrMagOpt/Pictures/Antiferro-Mn-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/Antiferro-Mn-eps-converted-to.pdf
+ used on input line 1595.
+(pdftex.def)             Requested size: 284.52756pt x 339.07619pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1599 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[80 <./04-CrMagOpt/Pictures/Antiferro-Mn-eps-converted-to.pdf>]
+<04-CrMagOpt/Pictures/SimuAntiferro.png, id=1137, 833.36343pt x 748.29562pt>
+File: 04-CrMagOpt/Pictures/SimuAntiferro.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/SimuAntiferro.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/SimuAntiferro.png used on input l
+ine 1622.
+(pdftex.def)             Requested size: 423.94588pt x 380.67802pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1622--1623
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1626 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[81] [82 <./04-CrMagOpt/Pictures/SimuAntiferro.png>] [83]
+Overfull \hbox (4.41315pt too wide) in paragraph at lines 1663--1663
+[]|\T1/cmr/m/n/12 arg(r)| 
+ []
+
+
+Overfull \hbox (2.82564pt too wide) in paragraph at lines 1664--1664
+[]|$\OML/cmm/m/it/12 ^^VeV=T[]$| 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1670 	\end{table}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/HighE.eps>
+(epstopdf)                    date: 2017-07-19 23:52:09
+(epstopdf)                    size: 34579724 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/HighE-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-07-20 02:32:44
+(epstopdf)                    size: 613232 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/HighE
+-eps-converted-to.pdf 04-CrMagOpt/Pictures/HighE.eps>
+(epstopdf)             \includegraphics on input line 1678.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf, id=1181, 896.34875pt x 882.29
+625pt>
+File: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf used o
+n input line 1678.
+(pdftex.def)             Requested size: 369.88582pt x 364.08632pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1682 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[84] [85 <./04-CrMagOpt/Pictures/HighE-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/6peaks.eps>
+(epstopdf)                    date: 2017-07-19 23:52:08
+(epstopdf)                    size: 29516766 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/6peaks-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-07-19 23:52:08
+(epstopdf)                    size: 229494 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/6peak
+s-eps-converted-to.pdf 04-CrMagOpt/Pictures/6peaks.eps>
+(epstopdf)             \includegraphics on input line 1699.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf, id=1202, 1180.41pt x 612.287
+5pt>
+File: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf Graphic file (type pdf)
+ <use 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf used 
+on input line 1699.
+(pdftex.def)             Requested size: 423.94588pt x 219.90013pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1699--1700
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1703 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/EfieldX-Xc.eps>
+(epstopdf)                    date: 2017-05-29 22:34:35
+(epstopdf)                    size: 1626793 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/EfieldX-Xc-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-05-29 22:34:35
+(epstopdf)                    size: 112904 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Efiel
+dX-Xc-eps-converted-to.pdf 04-CrMagOpt/Pictures/EfieldX-Xc.eps>
+(epstopdf)             \includegraphics on input line 1709.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf, id=1203, 668.4975pt x 53
+4.99875pt>
+File: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/EfieldX-Xc-eps-converted-to.pdf u
+sed on input line 1709.
+(pdftex.def)             Requested size: 341.43306pt x 273.25392pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1713 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[86]
+Package epstopdf Info: Source file: <04-CrMagOpt/Pictures/SplitUnderEfiledXCr.e
+ps>
+(epstopdf)                    date: 2017-04-13 14:59:32
+(epstopdf)                    size: 1752186 bytes
+(epstopdf)             Output file: <04-CrMagOpt/Pictures/SplitUnderEfiledXCr-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-13 15:00:00
+(epstopdf)                    size: 254064 bytes
+(epstopdf)             Command: <repstopdf --outfile=04-CrMagOpt/Pictures/Split
+UnderEfiledXCr-eps-converted-to.pdf 04-CrMagOpt/Pictures/SplitUnderEfiledXCr.ep
+s>
+(epstopdf)             \includegraphics on input line 1721.
+Package epstopdf Info: Output file is already uptodate.
+
+<04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf, id=1213, 614.29
+5pt x 555.07375pt>
+File: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted-to.pdf>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/SplitUnderEfiledXCr-eps-converted
+-to.pdf used on input line 1721.
+(pdftex.def)             Requested size: 341.43306pt x 308.51846pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1725 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<04-CrMagOpt/Pictures/CrCloseDot.png, id=1217, 938.75719pt x 542.025pt>
+File: 04-CrMagOpt/Pictures/CrCloseDot.png Graphic file (type png)
+
+<use 04-CrMagOpt/Pictures/CrCloseDot.png>
+Package pdftex.def Info: 04-CrMagOpt/Pictures/CrCloseDot.png used on input line
+ 1731.
+(pdftex.def)             Requested size: 423.94588pt x 244.7774pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1731--1732
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1735 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[87 <./04-CrMagOpt/Pictures/6peaks-eps-converted-to.pdf>] [88 <./04-CrMagOpt/Pi
+ctures/EfieldX-Xc-eps-converted-to.pdf>] [89 <./04-CrMagOpt/Pictures/SplitUnder
+EfiledXCr-eps-converted-to.pdf>] [90 <./04-CrMagOpt/Pictures/CrCloseDot.png>]
+[91]
+Chapter V.
+<05-CrDyn/Pictures/PumpPres.png, id=1263, 890.5772pt x 432.11438pt>
+File: 05-CrDyn/Pictures/PumpPres.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/PumpPres.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/PumpPres.png used on input line 1763
+.
+(pdftex.def)             Requested size: 418.25542pt x 202.94212pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1767 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[92
+
+]
+<05-CrDyn/Pictures/ExperimentSchema.png, id=1268, 1012.5328pt x 861.9703pt>
+File: 05-CrDyn/Pictures/ExperimentSchema.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/ExperimentSchema.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/ExperimentSchema.png used on input l
+ine 1773.
+(pdftex.def)             Requested size: 418.25542pt x 356.06694pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1777 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[93 <./05-CrDyn/Pictures/PumpPres.png>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/PumpResults.eps>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 26744524 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/PumpResults-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 126553 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PumpResu
+lts-eps-converted-to.pdf 05-CrDyn/Pictures/PumpResults.eps>
+(epstopdf)             \includegraphics on input line 1783.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/PumpResults-eps-converted-to.pdf, id=1275, 811.03pt x 702.62
+5pt>
+File: 05-CrDyn/Pictures/PumpResults-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use 05-CrDyn/Pictures/PumpResults-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/PumpResults-eps-converted-to.pdf use
+d on input line 1783.
+(pdftex.def)             Requested size: 418.25542pt x 362.35445pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1787 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[94 <./05-CrDyn/Pictures/ExperimentSchema.png>] [95 <./05-CrDyn/Pictures/PumpRe
+sults-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/ContProbe.eps>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 15692318 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/ContProbe-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 62608 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/ContProb
+e-eps-converted-to.pdf 05-CrDyn/Pictures/ContProbe.eps>
+(epstopdf)             \includegraphics on input line 1795.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/ContProbe-eps-converted-to.pdf, id=1292, 753.81625pt x 440.6
+4626pt>
+File: 05-CrDyn/Pictures/ContProbe-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/ContProbe-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/ContProbe-eps-converted-to.pdf used 
+on input line 1795.
+(pdftex.def)             Requested size: 284.52756pt x 166.31772pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1797 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/PWProbe.eps>
+(epstopdf)                    date: 2017-07-03 00:49:09
+(epstopdf)                    size: 567141 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/PWProbe-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-07-03 00:49:27
+(epstopdf)                    size: 77459 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PWProbe-
+eps-converted-to.pdf 05-CrDyn/Pictures/PWProbe.eps>
+(epstopdf)             \includegraphics on input line 1803.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/PWProbe-eps-converted-to.pdf, id=1293, 839.135pt x 440.64626
+pt>
+File: 05-CrDyn/Pictures/PWProbe-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/PWProbe-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/PWProbe-eps-converted-to.pdf used on
+ input line 1803.
+(pdftex.def)             Requested size: 421.10086pt x 221.12943pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 1803--1804
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1807 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 1813--1813
+\T1/cmr/m/n/12 mea-sured dur-ing the res-o-nant pump
+ []
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/PWPump.eps>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 4064651 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/PWPump-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 43524 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PWPump-e
+ps-converted-to.pdf 05-CrDyn/Pictures/PWPump.eps>
+(epstopdf)             \includegraphics on input line 1813.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/PWPump-eps-converted-to.pdf, id=1294, 307.1475pt x 412.54124
+pt>
+File: 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf used on 
+input line 1813.
+(pdftex.def)             Requested size: 199.16928pt x 267.51285pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1813 ...idth=7cm]{05-CrDyn/Pictures/PWPump.eps}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1813 ...idth=7cm]{05-CrDyn/Pictures/PWPump.eps}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 1813--1813
+\T1/cmr/m/n/12 mea-sured dur-ing the res-o-nant pump
+ []
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/PWPump.eps>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 4064651 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/PWPump-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 43524 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/PWPump-e
+ps-converted-to.pdf 05-CrDyn/Pictures/PWPump.eps>
+(epstopdf)             \includegraphics on input line 1813.
+Package epstopdf Info: Output file is already uptodate.
+File: 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf Graphic file (type pdf)
+<use 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/PWPump-eps-converted-to.pdf used on 
+input line 1813.
+(pdftex.def)             Requested size: 199.16928pt x 267.51285pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1813 ...idth=7cm]{05-CrDyn/Pictures/PWPump.eps}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[96 <./05-CrDyn/Pictures/ContProbe-eps-converted-to.pdf>]
+<05-CrDyn/Pictures/DistantGap.png, id=1304, 753.5653pt x 759.58781pt>
+File: 05-CrDyn/Pictures/DistantGap.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/DistantGap.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/DistantGap.png used on input line 18
+20.
+(pdftex.def)             Requested size: 415.4104pt x 418.72499pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1824 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[97 <./05-CrDyn/Pictures/PWProbe-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 8056825 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPeaks-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 45618 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+eaks-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)             \includegraphics on input line 1838.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf, id=1316, 304.13625pt x 55
+5.07375pt>
+File: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf us
+ed on input line 1838.
+(pdftex.def)             Requested size: 199.16928pt x 363.51244pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1838 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1838 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 8056825 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPeaks-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 45618 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+eaks-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPeaks.eps>
+(epstopdf)             \includegraphics on input line 1838.
+Package epstopdf Info: Output file is already uptodate.
+File: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf Graphic file (type pd
+f)
+<use 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf us
+ed on input line 1838.
+(pdftex.def)             Requested size: 199.16928pt x 363.51244pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1838 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `AutocorExpCr' on page 98 undefined on input line 1841
+.
+
+
+LaTeX Warning: Reference `AutocorExpCr' on page 98 undefined on input line 1841
+.
+
+[98
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./05-CrDyn/Pictures/PWPump-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 99 contains only floats.
+
+
+Overfull \vbox (5.52536pt too high) has occurred while \output is active []
+
+
+[99 <./05-CrDyn/Pictures/DistantGap.png>]
+
+LaTeX Warning: Reference `AutocorBandPW' on page 100 undefined on input line 18
+43.
+
+[100
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./05-CrDyn/Pictures/AutocorPeaks-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 7584397 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPw-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 123845 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+w-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)             \includegraphics on input line 1849.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf, id=1348, 255.95625pt x 449.6
+8pt>
+File: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf used 
+on input line 1849.
+(pdftex.def)             Requested size: 199.16928pt x 349.91187pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1849 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1849 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 7584397 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/AutocorPw-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:19
+(epstopdf)                    size: 123845 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/AutocorP
+w-eps-converted-to.pdf 05-CrDyn/Pictures/AutocorPw.eps>
+(epstopdf)             \includegraphics on input line 1849.
+Package epstopdf Info: Output file is already uptodate.
+File: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf Graphic file (type pdf)
+<use 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf used 
+on input line 1849.
+(pdftex.def)             Requested size: 199.16928pt x 349.91187pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1849 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[101
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./05-CrDyn/Pictures/AutocorPw-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/CrosscorFit+B.eps>
+(epstopdf)                    date: 2017-06-30 09:38:20
+(epstopdf)                    size: 12893576 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/CrosscorFit+B-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-06-30 09:50:28
+(epstopdf)                    size: 208042 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/Crosscor
+Fit+B-eps-converted-to.pdf 05-CrDyn/Pictures/CrosscorFit+B.eps>
+(epstopdf)             \includegraphics on input line 1856.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf, id=1358, 538.01pt x 500.
+87125pt>
+File: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf Graphic file (type p
+df)
+ <use 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf u
+sed on input line 1856.
+(pdftex.def)             Requested size: 341.43306pt x 317.86627pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1860 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[102 <./05-CrDyn/Pictures/CrosscorFit+B-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/RelaxDark.eps>
+(epstopdf)                    date: 2017-06-30 09:38:21
+(epstopdf)                    size: 9038491 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/RelaxDark-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:50:41
+(epstopdf)                    size: 129562 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/RelaxDar
+k-eps-converted-to.pdf 05-CrDyn/Pictures/RelaxDark.eps>
+(epstopdf)             \includegraphics on input line 1871.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf, id=1368, 483.8075pt x 284.06
+125pt>
+File: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf used 
+on input line 1871.
+(pdftex.def)             Requested size: 341.43306pt x 200.47557pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1875 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<05-CrDyn/Pictures/RelaxHeat.png, id=1369, 1066.7353pt x 526.21594pt>
+File: 05-CrDyn/Pictures/RelaxHeat.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/RelaxHeat.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/RelaxHeat.png used on input line 188
+1.
+(pdftex.def)             Requested size: 421.10086pt x 207.72856pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 1881--1882
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1885 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[103] <05-CrDyn/Pictures/AutlerTownes.png, id=1375, 511.9125pt x 369.63094pt>
+File: 05-CrDyn/Pictures/AutlerTownes.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/AutlerTownes.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/AutlerTownes.png used on input line 
+1895.
+(pdftex.def)             Requested size: 421.10086pt x 304.05814pt.
+
+Overfull \hbox (2.84718pt too wide) in paragraph at lines 1895--1896
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1899 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<05-CrDyn/Pictures/StarkSplitDet.png, id=1376, 596.98032pt x 341.02406pt>
+File: 05-CrDyn/Pictures/StarkSplitDet.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/StarkSplitDet.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/StarkSplitDet.png used on input line
+ 1905.
+(pdftex.def)             Requested size: 423.94588pt x 242.1808pt.
+
+Overfull \hbox (5.6922pt too wide) in paragraph at lines 1905--1906
+ [] 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1909 	\end{figure}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[104 <./05-CrDyn/Pictures/RelaxDark-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/StarkDark.eps>
+(epstopdf)                    date: 2017-06-30 09:38:21
+(epstopdf)                    size: 5695640 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/StarkDark-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:21
+(epstopdf)                    size: 56620 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/StarkDar
+k-eps-converted-to.pdf 05-CrDyn/Pictures/StarkDark.eps>
+(epstopdf)             \includegraphics on input line 1917.
+Package epstopdf Info: Output file is already uptodate.
+
+<05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf, id=1386, 235.88126pt x 276.0
+3125pt>
+File: 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf Graphic file (type pdf)
+ <use 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf used 
+on input line 1917.
+(pdftex.def)             Requested size: 199.16928pt x 233.07347pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1917 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1917 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Package epstopdf Info: Source file: <05-CrDyn/Pictures/StarkDark.eps>
+(epstopdf)                    date: 2017-06-30 09:38:21
+(epstopdf)                    size: 5695640 bytes
+(epstopdf)             Output file: <05-CrDyn/Pictures/StarkDark-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-06-30 09:38:21
+(epstopdf)                    size: 56620 bytes
+(epstopdf)             Command: <repstopdf --outfile=05-CrDyn/Pictures/StarkDar
+k-eps-converted-to.pdf 05-CrDyn/Pictures/StarkDark.eps>
+(epstopdf)             \includegraphics on input line 1917.
+Package epstopdf Info: Output file is already uptodate.
+File: 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf Graphic file (type pdf)
+<use 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf>
+Package pdftex.def Info: 05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf used 
+on input line 1917.
+(pdftex.def)             Requested size: 199.16928pt x 233.07347pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1917 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[105 <./05-CrDyn/Pictures/RelaxHeat.png>]
+<05-CrDyn/Pictures/StarkFit.png, id=1393, 321.45094pt x 483.30562pt>
+File: 05-CrDyn/Pictures/StarkFit.png Graphic file (type png)
+
+<use 05-CrDyn/Pictures/StarkFit.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/StarkFit.png used on input line 1926
+.
+(pdftex.def)             Requested size: 199.16928pt x 299.46202pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1926 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1926 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+File: 05-CrDyn/Pictures/StarkFit.png Graphic file (type png)
+<use 05-CrDyn/Pictures/StarkFit.png>
+Package pdftex.def Info: 05-CrDyn/Pictures/StarkFit.png used on input line 1926
+.
+(pdftex.def)             Requested size: 199.16928pt x 299.46202pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \flrow@foot 
+l.1926 	\end{center}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[106 <./05-CrDyn/Pictures/AutlerTownes.png>] [107 <./05-CrDyn/Pictures/StarkSpl
+itDet.png>] [108
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./05-CrDyn/Pictures/StarkDark-eps-converted-to.pdf>] [109
+
+pdfTeX warning: /usr/bin/pdflatex: pop empty color page stack 0
+ <./05-CrDyn/Pictures/StarkFit.png>] [110
+
+]
+Overfull \hbox (3.29875pt too wide) in paragraph at lines 1933--1933
+\T1/cmr/m/n/12 Balzarotti, ``Trac-ing the two- to three-dimensional tran-si-tio
+n in the inas/gaas(001)
+ []
+
+[111] [112] [113]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1934.
+ [114]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1934.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1934.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1934.
+
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: ED24A1ECA353C1B3DBA5818595FFF5BC;3833.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'Thesis.run.xml'.
+\openout1 = `Thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1934.
+ ) 
+Here is how much of TeX's memory you used:
+ 15193 strings out of 495028
+ 241987 string characters out of 6181497
+ 779534 words of memory out of 5000000
+ 17724 multiletter control sequences out of 15000+600000
+ 24864 words of font info for 69 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,25n,52p,1376b,1456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </
+home/audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/
+audreyazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/audre
+yazura/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/audreyazur
+a/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/audreyazura/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/audreyazura/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/audreyazura/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/euler/eurb10.pfb>
+Output written on Thesis.pdf (114 pages, 7652460 bytes).
+PDF statistics:
+ 1985 PDF objects out of 2073 (max. 8388607)
+ 1307 compressed objects within 14 object streams
+ 399 named destinations out of 1000 (max. 500000)
+ 673 words of extra memory for PDF output out of 10000 (max. 10000000)
+
