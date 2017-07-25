@@ -37,9 +37,15 @@
 		
 		Cf XplusMnRes.pptx to detail the e-Mn levels
 		
-		E included in model for generality (cite Claire paper "Resonant pumping..." \cite{OptControlSpin}). The effects will be discussed in depth later.
+		E included in model for generality (cite Claire paper "Resonant pumping..." \cite{OptControlSpin}). The effects will be discussed in depth later.\newline
 	
-	\lipsum[1-2]
+	As presented in Sec.~\ref{MnSemiCon}, a Mn atom in a strained self-assembled CdTe QD exhibits a fine structure dominated by a weak magnetic anisotropy with an easy axis along the QD axis. Neglecting the tetrahedral crystal field of the CdTe matrix, this fine structure is described by the effective spin Hamiltonian
+
+\begin{align}
+\label{MnCF}
+{\cal H}_{Mn,CF}=D_0S^2_z+E(S_y^2-S_x^2)
+\end{align}
+with $D_0$ depicting the effect of the biaxial strain and $E$ describing the anisotropy of the strain in the plane of the QD. It was shown that the anisotropy of strain was essential to understand the absence of pumping for Mn in strain-free quantum dots~\cite{OptControlSpin} and was thus include here to keep generality. We will study more in details its effect on Sec.~\ref{SpinDyn}.
 		
 	\begin{figure}[h!]
 	{\caption{(a) Color scale plot of the PL intensity of the studied Mn doped QD inserted in Schottky structure showing the emission of the neutral (X-Mn) and positively charged (X$^+$-Mn) exciton as a function of energy and bias voltage. (b) PL of the Mn-doped QD under a positive bias voltage of V=5.5V.}\label{hMnspectra}}
@@ -109,7 +115,9 @@
 
 %		Mn in a lattice -> modification of orbital -> spin-orbit interaction. Magnetic anisotropy + anisotropy of strain. (Mn has nuclear spin 5/2 -> hyperfine interaction?)\newline
 
-	\lipsum[11]
+	Under resonant excitation of one high energy level of X$^+$-Mn, only one cross-circularly polarized emission line is observed. It corresponds to the optically allowed recombination on the second branch of the $\Lambda$ system. This recombination occurs with a flip-flop of the electron and Mn spins \cite{DynhMn}. The energy splitting between the resonant absorption and the emission corresponds to the splitting between the two ground states of the $\Lambda$ system. It is given by 4$\times$3/2$I_{hMn}$($\approx$2.1 meV for the studied QD) for an excitation of $|3,+2\rangle$ or $|2,+2\rangle$ and 2$\times$3/2$I_{hMn}$($\approx$1.05 meV for the studied QD) for an excitation of $|3,+1\rangle$. For an excitation of $|3,+2\rangle$ or $|2,+2\rangle$, the weak co-polarized PL signal, which depends on the excitation intensity, comes from a possible direct excitation of the low energy branch of the $\Lambda$ system through the acoustic phonon side-band \cite{BesombesAccPhon}.
+	
+	For an isolated $\Lambda$ system, under resonant excitation of one of the branch, a fast optical pumping controlled by the generation rate and the radiative lifetime of the excited state is expected: The population is expected to be stored in the level which is not excited and the resonant PL should vanish. In the case of X$^+$-Mn, the PL intensity observed under resonant excitation of the high energy branch of the $\Lambda$ systems is similar to the PL intensity obtained under non-resonant excitation. This suggests a very inefficient optical pumping of the Mn-hole spin and an efficient spin-flip mechanism which links the two ground states of the $\Lambda$ systems.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -118,8 +126,12 @@
 	\caption{Auto-correlation of the resonant PL for cross-circularly polarized excitation and detection of the electron-Mn states (a) $|3, +1\rangle$, (b) $|3, +2\rangle$ and (c) $|2, +2\rangle$.}
 	\label{AllAutocorB0}
 	\end{figure}
-		
-%	\lipsum[14]
+	
+	The dynamics of the Mn spin coupled to carriers was first analyzed, under resonant optical excitation, through the statistics of the time arrival of the photons given by the second order correlation function of the resonant PL intensity, $g^{(2)}(\tau)$. For the three resonant excitation conditions reported in Fig.\ref{AllAutocorB0}, $g^{(2)}(\tau)$ is mainly characterized by a large photon bunching with a full width at half maximum (FWHM) in the 20 ns range. The amplitude of the bunching reaches 9 for line (2) and is slightly weaker for the two other lines. This large bunching, reflecting an intermittency in the emission of the QD, is not sensitive to a longitudinal magnetic field B$_z$ except for an excitation on (1).
+
+The presence of a photon bunching is at first sight surprising: under resonant excitation of an isolated $\Lambda$ system, an anti-bunching of the resonant PL controlled by the transfer time between the two ground states is indeed expected. For X$^+$-Mn, the observed short anti-bunching (dip near zero delay, better evidenced in Fig.~\ref{AllAutocorB0} (b)) suggests a fast transfer time in the nanosecond range between the two ground states of the $\Lambda$ systems.
+
+In the presence of a transfer process connecting the two Mn-hole ground states in a nanosecond time-scale, the photon bunching can be explained by leaks outside the resonantly excited $\Lambda$ system. Under $cw$ excitation, the population is cycled inside the $\Lambda$ system until a spin flip occurs and drives the carrier-Mn spin out of the $\Lambda$ levels under investigation. The resonant PL is then switched off until multiple spin-flips drives back the carriers and Mn spin inside the $\Lambda$ system under excitation. The selected QD line can be either in a ON or OFF state depending on the fluctuations of the carrier and Mn spins. The amplitude of the bunching is then given by $\Gamma_{Out}/\Gamma_{In}$ the ratio of the transition rates from OFF to ON ($\Gamma_{In}$) and from ON to OFF ($\Gamma_{Out}$). An amplitude of bunching larger than 1 is expected for the multilevel system considered here where, after a spin relaxation, multiple spin flips are in average required to come back to the initial state ($\Gamma_{In}<\Gamma_{Out}$). Within this picture, the width of the bunching is a measurement of the escape time out of the considered $\Lambda$ level system.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -137,21 +149,17 @@
 		\includegraphics[width=6cm]{Pictures/RelaxMecanism.png}
 	\end{center}}
 	\end{figure}
-		
-	\lipsum[18-19]
 	
-		\subsection{Relaxation mechanism}
+		\lipsum[18-19]
 	
-	\lipsum[20]
-
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=12cm]{Pictures/AutocorBPw.eps}
-	\end{center}
-	\caption{Excitation power dependence (a) and transverse magnetic field dependence (b) of the auto-correlation of the resonant PL obtained for an excitation on the high energy branch of the $\Lambda$ level system associated to the e-Mn state $|2,+2\rangle$.}
-	\label{AutocorExpBPw}
-	\end{figure}
-
+		\begin{figure}[h!]
+			\begin{center}
+				\includegraphics[width=12cm]{Pictures/AutocorBPw.eps}
+			\end{center}
+			\caption{Excitation power dependence (a) and transverse magnetic field dependence (b) of the auto-correlation of the resonant PL obtained for an excitation on the high energy branch of the $\Lambda$ level system associated to the e-Mn state $|2,+2\rangle$.}
+			\label{AutocorExpBPw}
+		\end{figure}
+	
 	\lipsum[22-23]
 
 	\begin{figure}[h!]
@@ -172,39 +180,43 @@
 	\label{PumpExpDark}
 	\end{figure}
 	
-	\lipsum[26-27]
+		\subsection{Relaxation mechanism}
 	
-	\begin{table}[hbt] \centering
-		\caption{Material (CdTe or ZnTe) \cite{CdTeBPCoef} and QD parameters used in the calculation of the coupled hole and Mn spin relaxation time.}
-		\begin{tabular}{lcr}
-			\hline\hline
-			CdTe& &\\
-			\hline
-			Deformation potential constants & b &  -1.0 eV  \\
-											& d &  -4.4 eV  \\
-			Longitudinal sound speed & c$_l$ &  3300 m/s  \\
-			Transverse sound speed & c$_t$ &  1800 m/s  \\
-			Density & $\rho$ &  5860 kg/m$^3$  \\
-			\hline
-			ZnTe& &\\
-			\hline
-			Deformation potential constants & b &  -1.4 eV  \\
-											& d &  -4.4 eV  \\
-			Longitudinal sound speed & c$_l$ &  3800 m/s  \\
-			Transverse sound speed & c$_t$ &  2300 m/s  \\
-			Density & $\rho$ &  5908 kg/m$^3$  \\
-			\hline
-			Quantum dot& &\\
-			\hline
-			Hole Mn exchange energy & I$_{hMn}$ &  0.35 meV  \\
-			hh-lh exciton splitting&  $\Delta_{lh}$&  15 meV  \\
-			Hole wave function widths: & &   \\
-			- in plane & l$_{\bot}$ &3.0 nm   \\
-			- z direction  & l$_z$ &1.25 nm   \\
-			\hline\hline
-		\end{tabular}
-		\label{paraph}
-	\end{table}
+			\subsubsection*{Relaxation through a hole:}		
+		
+		\lipsum[26]
+	
+		\begin{table}[hbt] \centering
+			\caption{Material (CdTe or ZnTe) \cite{CdTeBPCoef} and QD parameters used in the calculation of the coupled hole and Mn spin relaxation time.}
+			\begin{tabular}{lcr}
+				\hline\hline
+				CdTe& &\\
+				\hline
+				Deformation potential constants & b &  -1.0 eV  \\
+												& d &  -4.4 eV  \\
+				Longitudinal sound speed & c$_l$ &  3300 m/s  \\
+				Transverse sound speed & c$_t$ &  1800 m/s  \\
+				Density & $\rho$ &  5860 kg/m$^3$  \\
+				\hline
+				ZnTe& &\\
+				\hline
+				Deformation potential constants & b &  -1.4 eV  \\
+												& d &  -4.4 eV  \\
+				Longitudinal sound speed & c$_l$ &  3800 m/s  \\
+				Transverse sound speed & c$_t$ &  2300 m/s  \\
+				Density & $\rho$ &  5908 kg/m$^3$  \\
+				\hline
+				Quantum dot& &\\
+				\hline
+				Hole Mn exchange energy & I$_{hMn}$ &  0.35 meV  \\
+				hh-lh exciton splitting&  $\Delta_{lh}$&  15 meV  \\
+				Hole wave function widths: & &   \\
+				- in plane & l$_{\bot}$ &3.0 nm   \\
+				- z direction  & l$_z$ &1.25 nm   \\
+				\hline\hline
+			\end{tabular}
+			\label{paraph}
+		\end{table}
 
 	\lipsum[28]
 	
@@ -214,6 +226,8 @@
 		\includegraphics[width=7cm]{Pictures/TauffRelax.eps}
 	\end{center}}
 	\end{figure}
+	
+		\subsubsection*{Modelization of the relaxation of Mn spin in a positively charged quantum dot:"edx}
 	
 	\lipsum[30]	
 
