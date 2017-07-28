@@ -92,7 +92,7 @@ with $D_0$ depicting the effect of the biaxial strain and $E$ describing the ani
 	
 %	\lipsum[11]
 
-		\subsection{Optical $\Lambda$-level identification}	
+		\subsection{Optical $\Lambda$-level identification\label{LambdaId}}	
 		
 		\lipsum[11]
 	
@@ -190,11 +190,11 @@ with $D_0$ depicting the effect of the biaxial strain and $E$ describing the ani
 
 	Another source of spin pumping can be the leak outside the resonantly excited $\Lambda$ system. In this case, the speed of the pumping is controlled by the leakage time and, as observed experimentally, the pumping time is similar to the width of the photon bunching signal. This mechanism of pumping for the Mn-hole spin is confirmed by the transverse magnetic field dependence. The acceleration of the optical pumping in transverse magnetic field (Fig.~\ref{PumpExpBPw} (b)) has the same origin as the decrease of the width of the bunching signal. By mixing the different electron-Mn states, the transverse field enhances the leakage probability out of the resonantly driven $\Lambda$ system and decreases the corresponding optical pumping time.
 	
-		\subsection{Relaxation mechanism}
+		\subsection{Relaxation mechanism\label{RelaxMech}}
 	
 			\subsubsection*{Hole-Mn flip-flops mediated by a lattice deformation}		
 		
-		The observed large resonant PL amplitude of X$^+$-Mn and its dynamics can be qualitatively explained if a fast (nanosecond) and efficient spin transfer mechanism connects the two Mn-hole ground states of each $\Lambda$ system. Let us note that efficient Mn-hole flip-flops are also required to explain the resonant luminescence observed on neutral Mn-doped QDs (see Appendix A).
+		The observed large resonant PL amplitude of X$^+$-Mn and its dynamics can be qualitatively explained if a fast (nanosecond) and efficient spin transfer mechanism connects the two Mn-hole ground states of each $\Lambda$ system. This fast transfer is noted $\tau_{ff}$ on Fig.~\ref{LambdLoop}.
 
 	We propose a mechanism for the Mn-hole flip-flop at low temperature resulting from a deformation induced exchange interaction~\cite{ExcSpinRelaxQD,ExcSpinDecay}. We show here that Mn-hole states are efficiently coupled via the interplay of their exchange interaction and the lattice deformation induced heavy-hole/light-hole mixing. We will focus in the following on the two Mn-hole states $|+\frac{3}{2};\Uparrow_h\rangle$ and $|+\frac{5}{2};\Downarrow_h\rangle$ in the ground states of the $\Lambda$ system associated with the electron-Mn levels $|3,+2\rangle$ and $|2,+2\rangle$. Similar results could be obtained with the Mn-hole ground states of the other $\Lambda$ systems.
 
@@ -258,7 +258,7 @@ a deformation dependent non-diagonal term of ${\cal H}_{BP}$~\cite{ExcSpinRelaxQ
 	The spin decay rates from $|+\frac{3}{2};\Uparrow_h\rangle$ to $|+\frac{5}{2};\Downarrow_h\rangle$ accompanied by the emission of an acoustic phonon is then given by Fermi's golden rule
 	\begin{align}
 		\label{fermi}
-		\tau^{-1}&=\frac{2\pi}{\hbar}\sum_{k}\left|\langle+\frac{5}{2};\Downarrow_h;\psi;n_k+1|H_{int}|+\frac{3}{2};\Uparrow_h;\psi;n_k\rangle\right|^2\nonumber \times \delta(\hbar\omega_0-\hbar\omega_{k})
+		\tau^{-1}&=\frac{2\pi}{\hbar}\sum_{k}\left|\langle+\frac{5}{2};\Downarrow_h;\psi;n_k+1|H_{int}|+\frac{3}{2};\Uparrow_h;\psi;n_k\rangle\right|^2 \times \delta(\hbar\omega_0-\hbar\omega_{k})
 	\end{align}
 where $\hbar\omega_0$ is the energy splitting between $|+\frac{5}{2};\Downarrow_h\rangle$ and $|+\frac{3}{2};\Uparrow_h\rangle$, $n_k$ the number of phonons in mode $k$ and $\psi$ the orbital part of the hole wave function.
 
@@ -297,7 +297,7 @@ with
 and $n_B(\omega_{k,\lambda})=
 1/(e^{\hbar\omega_{k,\lambda}/K_BT}-1)$, the thermal phonon distribution function.
 
-	For a Gaussian hole wave function with in-plane and z-direction parameters l$_{\bot}$ and l$_z$ respectively (full width at half maximum $2\sqrt{2\ln2}l_i$)
+	For a Gaussian hole wave function with in-plane and z-direction parameters $l_{\bot}$ and $l_z$ respectively (full width at half maximum $2\sqrt{2\ln2}l_i$)
 	\begin{align}
 		\psi(\overrightarrow{r})=\frac{1}{\pi^{3/4}l_{\bot}\sqrt{l_z}}e^{-\frac{1}{2}\left(\left(\frac{r_{\bot}}{l_{\bot}}\right)^2+\left(\frac{z}{l_z}\right)^2\right)}
 	\end{align}
@@ -313,7 +313,7 @@ the form factor $\mathcal{F}_{\lambda}(\overrightarrow{k})$, which is the Fourie
  					& \times \left(n_B(\omega_0)+1)\right)\int_0^{\pi}d\theta\sin\theta|\mathcal{F}_{\lambda}(\omega_0,\theta)|^2G_{\lambda}(\theta)
 		\end{array}
 	\end{align}
-where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with $V=N\nu_0$ the crystal volume) and integrated over $k$ and $\varphi$. The summation is taken over the acoustic phonon branches $\lambda$ of corresponding sound velocity c$_{\lambda}$. The geometrical form factors for each phonon branch, $G_{\lambda}(\theta)$, are given by
+where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with $V=N\nu_0$ the crystal volume) and integrated over $k$ and $\varphi$. The summation is taken over the acoustic phonon branches $\lambda$ of corresponding sound velocity $c_{\lambda}$. The geometrical form factors for each phonon branch, $G_{\lambda}(\theta)$, are given by
 	\begin{align}
 		\begin{array}{rl}
 			G_{l}(\theta)=& \sin^4\theta \\
@@ -329,11 +329,56 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\end{center}}
 	\end{figure}
 	
-	In the numerical calculation of the spin flip time $\tau_{ff}$ presented in Fig.\ref{TauRelax} we use the material parameters of CdTe or ZnTe and the typical parameters for self-assembled CdTe/ZnTe QDs listed in Table \ref{paraph}. The calculated relaxation time strongly depend on the energy separation between the Mn-hole levels $\hbar\omega_0$. This energy dependence is controlled by the size of the hole wave-function given by l$_{\bot}$ and l$_z$. The estimated flip-flop time is also strongly sensitive on the exchange induced mixing of the ground heavy-hole states with the higher energy light-hole levels. In our model, this mixing is controlled by $\Delta_{lh}$, an effective energy splitting between heavy-holes and light-holes. This simple parameter can indeed describe more complex effects such as a coupling of the confined heavy-hole with ground state light-holes in the barriers \cite{Couplinghhlhbarrier} or effective reduction of heavy-hole/light-hole splitting due to a presence of a dense manifold of heavy-hole like QD states lying between the confined heavy-hole and light-hole levels \cite{Supercouplinghhlh}. From this modelling we deduce that for a hole confined in small Cd$_x$Zn$_{1-x}$Te alloy QDs, the Mn-hole flip-flop time $\tau_{ff}$ can be easily bellow 2 ns for an effective heavy-hole/light-hole splitting $\Delta_{lh}$=15 meV and an energy separation in the meV range, typical for the Mn-hole spin splitting in magnetic QDs. We will use in the following calculations $\tau_{ff}$=1.5 ns for the ground states of each $\Lambda$ system.
+	In the numerical calculation of the spin flip time $\tau_{ff}$ presented in Fig.\ref{TauRelax} we use the material parameters of CdTe or ZnTe and the typical parameters for self-assembled CdTe/ZnTe QDs listed in Table \ref{paraph}. The calculated relaxation time strongly depend on the energy separation between the Mn-hole levels $\hbar\omega_0$. This energy dependence is controlled by the size of the hole wave-function given by l$_{\bot}$ and l$_z$. The estimated flip-flop time is also strongly sensitive on the exchange induced mixing of the ground heavy-hole states with the higher energy light-hole levels. In our model, this mixing is controlled by $\Delta_{lh}$, an effective energy splitting between heavy-holes and light-holes. This simple parameter can indeed describe more complex effects such as a coupling of the confined heavy-hole with ground state light-holes in the barriers \cite{Couplinghhlhbarrier} or effective reduction of heavy-hole/light-hole splitting due to a presence of a dense manifold of heavy-hole like QD states lying between the confined heavy-hole and light-hole levels \cite{Supercouplinghhlh}. From this modelling we deduce that for a hole confined in small Cd$_x$Zn$_{1-x}$Te alloy QDs, the Mn-hole flip-flop time $\tau_{ff}$ can be easily bellow 2 ns for an effective heavy-hole/light-hole splitting $\Delta_{lh}=15$ meV and an energy separation in the meV range, typical for the Mn-hole spin splitting in magnetic QDs. We will use in the following calculations $\tau_{ff}=1.5$ ns for the ground states of each $\Lambda$ system.
 	
 		\subsubsection*{Model of the carrier-Mn spin dynamics under resonant excitation}
 	
-	\lipsum[30]	
+	Using the level scheme presented in Fig.~\ref{CompleteEnerStruct} (a) for a positively charged Mn-doped QD and the estimated Mn-hole flip-flop rates, we can calculate the time evolution of the 24x24 density matrix $\varrho$ describing the population and the coherence of the 12 electron-Mn states on the excited state and the 12 Mn-hole states on the ground state of a positively charged QD. In the Markovian approximation, the master equation which governs the evolution of $\varrho$ can be written in a general form (Lindblad form) as:	
+	\begin{align}
+		\label{Lindblad}
+		\frac{\partial\varrho}{\partial t}=\frac{-i}{\hbar}[{\cal H},\varrho]+L\varrho
+	\end{align}
+where ${\cal H}$ is the Hamiltonian of the complete system (X$^+$-Mn, ${\cal H}_{X^+Mn}$, and Mn-hole, ${\cal H}_{hMn}$):
+	\begin{align}
+		\begin{array}{rll}
+			{\cal H}_{X^+Mn}=&I_{eMn}\vec{S}\cdot\vec{\sigma}-2\eta S_z^2 &+ D_0S^2_z+E(S_y^2-S_x^2) \\
+																	  & &+ g_{Mn} \mu_B \mathbf{S} \cdot \mathbf{B} + g_{e} \mu_B \bm{\upsigma}\cdot\mathbf{B}
+		\end{array}
+	\end{align}
+and
+	\begin{align}
+		\begin{array}{rll}
+			{\cal H}_{hMn}=&I_{hMn}\vec{S}\cdot\vec{J}-\eta S_z^2 &+ D_0S^2_z+E(S_y^2-S_x^2) \\
+																& &+ g_{Mn} \mu_B \mathbf{S}\cdot\mathbf{B} + g_{h} \mu_B \mathbf{J}\cdot\mathbf{B}
+		\end{array}
+	\end{align}
+
+	In Eq.~\ref{Lindblad}, $L\varrho$ describes the coupling or decay channels resulting from an
+interaction with the environment~\cite{SpinQJumps, ephBroad, MnResSpinDyn}. The population transfers from level $j$ to level $i$ in an irreversible process associated with a coupling to a reservoir is described by a Lindblad term of the form
+	\begin{align}
+		\label{inc}
+		L_{inc,j\rightarrow i}\varrho=\frac{\Gamma_{j\rightarrow i}}{2}(2|i\rangle\langle j|\varrho|j\rangle\langle i| -\varrho|j\rangle\langle j|-|j\rangle\langle j|\varrho)
+	\end{align}
+where $\Gamma_{j\rightarrow i}$ is the incoherent relaxation rate from level $j$ to level $i$. Such term can describe the radiative decay of the exciton (irreversible coupling to the photon modes) or the relaxation of the carriers or Mn spin (irreversible coupling to the phonon modes). It can also be used to describe the optical generation of an exciton in the low excitation regime where the energy shift induced by the coupling with the laser field is neglected.
+
+	A pure dephasing (i.e. not related to an exchange of energy with a reservoir) can also be introduced for the different spins and described by $L_{deph,jj}\varrho$:
+	\begin{align}
+		\label{deph}
+		L_{deph,jj}\varrho=\frac{\gamma_{jj}}{2}(2|j\rangle\langle j|\varrho|j\rangle\langle j| -\varrho|j\rangle\langle j|-|j\rangle\langle j|\varrho)
+	\end{align}
+where $\gamma_{jj}$ is the pure dephasing rate of level $j$.
+
+	To identify the main spin relaxation channels responsible for the observed spin fluctuations, we first modelled the auto-correlation of the resonant PL using the full spin level structure of a p-doped magnetic QD. For a qualitative description of the observed spin dynamics, we use as an example the Mn-doped QD parameters extracted from the linear polarization intensity map listed in Tab.~\ref{paraQD} and reasonable order of magnitude for the spin relaxation times.
+
+	As already observed in charged Mn-doped QDs under pulsed resonant excitation~\cite{VybornyMagAnisQDs}, we consider that the spin dynamics in the excited state is controlled by the time evolution of ${\cal H}_{X^+Mn}$, the generation rate of excitons $\gamma_g=1/\tau_g$ and their radiative lifetime $\tau_r=0.3$ ns. The coherence of the coupled electron-Mn spins is limited by a pure dephasing term $T_2^{eMn}=0.5$ ns, extracted from the time resolved PL (see Sec.~\ref{StrainInfl}).
+
+	For the Mn-hole system in the ground state, we take into account a spin relaxation time of the Mn in the exchange field of the hole, $\tau_{Mn}$, describing relaxation channels involving a change of the Mn spin by one unit. This spin relaxation channel is introduced for a general description, however its characteristic time (in the $\mu$s range) is long compared to the time-scale of the dynamics considered in the resonant PL experiments and does not qualitatively affect the calculated time evolution.
+
+	Because of the presence of valence band mixing in the QDs, spin flip of the hole independently of the Mn are expected to be more efficient. A spin flip time in the 10 ns range has indeed been calculated for a hole in the exchange field of a Mn~\cite{CaoSpinPhonCoupl,OptOrientMn}. Relaxation time of the hole spin around 5 ns has also been measured at zero magnetic field in negatively charged CdTe/ZnTe QDs~\cite{LeGallElecNuclDyn}. We then include in the model possible spin flips of the hole by one unit with a characteristic time $\tau_{h}$=10ns. The phonon induced Mn-hole flip-flops, occurring at $\tau_{ff}$, are also introduced between the two Mn-hole ground states of each $\Lambda$ system.
+
+	For a general qualitative description, an additional pure dephasing time $T_2^{hMn}$ is also included in the dynamics of the Mn-hole system with a Lindblad term of the form (Eq.~\ref{deph}). We cannot extract this parameter from the experiments. We take $T_2^{hMn}= 5 ns$, slightly longer than what was measured for electron-Mn, as the Mn-hole system is highly split and less sensitive to effective fluctuating magnetic field such as the one produced by nuclear spins for instance~\cite{LeGallElecNuclDyn,SingleHolePopTrap}.
+	
+	The transition rates $\Gamma_{\gamma\rightarrow\gamma'}$ between the different Mn-hole states depend on their energy separation $E_{\gamma\gamma'}=E_{\gamma'}-E_{\gamma}$. Here we use $\Gamma_{\gamma\rightarrow\gamma'}=1/\tau_{i}$ if $E_{\gamma\gamma'}<0$ and $\Gamma_{\gamma\rightarrow\gamma'}=1/\tau_{i}e^{-E_{\gamma\gamma'}/k_BT}$ if $E_{\gamma\gamma'}>0$~\cite{PhotoSpinOrient,CaoSpinPhonCoupl}. This accounts for a thermalization among the 12 Mn-hole levels with an effective spin temperature $T$. The optical excitation ($\tau_g$), the exciton recombination ($\tau_r$), the Mn spin relaxation ($\tau_{Mn}$), the hole spin relaxation ($\tau_{h}$) and the phonon induced transfer time ($\tau_{ff}$) produce a irreversible population transfer between level $\gamma$ and $\gamma'$ and are described by Lindblad terms (\ref{inc}).
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -342,8 +387,16 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\caption{(a) Calculated time evolution of $\rho_{|+\frac{3}{2},\uparrow_e\rangle}(t)$ with the QD parameters listed in Table~\ref{paraQD} and (unless specified) $\tau_r$=0.3ns, $\tau_{Mn}$=5 $\mu$s, $\tau_h$=10ns, $\tau_g$=0.25 ns, $\tau_{ff}$=1.5 ns, $T_2^{hMn}$= 5 ns, $T_2^{eMn}$= 0.5 ns, T=10K and B$_{\perp}$=0. (b) (c) and (d) illustrate the influence  of, respectively, $\tau_{ff}$, $\tau_g$ and $B_{\perp}$ on $\rho_{|+\frac{3}{2},\uparrow_e\rangle}(t)$. Note the different vertical scale in (b).}
 	\label{AutocorModBPw}
 	\end{figure}
+	
+	To model the auto-correlation of the $\sigma-$ PL intensity of the electron-Mn state $|3;+2\rangle$ under $cw$ $\sigma+$ resonant excitation we calculate the time evolution of $\rho_{|+\frac{3}{2};\uparrow_e\rangle}(t)$ with the initial condition $\rho_{|+\frac{3}{2};\Uparrow_h\rangle}(0)=1$ corresponding to the Mn-hole spin in the state $|+\frac{3}{2};\Uparrow_h\rangle$ just after the emission of a $\sigma-$ photon on the low energy branch of the $\Lambda$ system. This initial state is a slight approximation: in the presence of valence band mixing, the two ground states of a given $\Lambda$ system are not completely pure Mn-hole spin states but are slightly coupled by a Mn-hole flip-flop induced by the exchange interaction ${\cal H}_{hMn}^{ex}$. However, as the splitting between the states $|+\frac{3}{2};\Uparrow_h\rangle$ and $|+\frac{5}{2};\Downarrow_h\rangle$ ($\Delta=4\times3/2I_{hMn}$) is large compared with the coupling term ($W=\sqrt{15}\frac{\rho_c}{\Delta_{lh}}I_{hMn}$), their coherent coupling is weak. With a large valence band mixing $\frac{\rho_c}{\Delta_{lh}}=0.1$ as observed in the dot discussed in this paper, this leads for the Mn-hole system initialized in the state $|+\frac{3}{2};\Uparrow_h\rangle$ to a fast oscillation of the population between the two corresponding Mn-hole ground states of the $\Lambda$ system with a maximum amplitude of about 1.6\% and an average population transfer efficiency of 0.8\%~\cite{CohenTannoudji}. Under resonant excitation on the high energy branch of the the $\Lambda$ system, the QD remains OFF more than 99$\%$ of the time. As we will see in the following, the contribution of this weak coherent population transfer to the calculated auto-correlation signal is not significant.
 
-	\lipsum[32]
+	$\rho_{|+\frac{3}{2};\uparrow_e\rangle}(t)$ obtained with the QD parameters listed in Tab.~\ref{paraQD} is presented in Fig.~\ref{AutocorModBPw} (a). This quantity has to be normalized by $\rho_{|+\frac{3}{2};\uparrow_e\rangle}(\infty)$) to directly account for the autocorrelation signal. After a fast increase, the calculated population presents a maximum at short delay. This model is based on a large number of parameters, whose values cannot all be extracted precisely from the measurements however, with reasonable spin relaxation parameters (see details in the caption of Fig.~\ref{AutocorModBPw}), the width and the amplitude of the maximum are in good agreement with the photon bunching signals observed experimentally.
+
+	The width of the calculated bunching is controlled by all the spin-flip terms that can induce an escape out of the resonantly excited $\Lambda$ system. At zero transverse magnetic field, it is dominated by spin flips in the Mn-hole system. As illustrated in Fig.~\ref{AutocorModBPw} (a), suppressing $\tau_h$ gives a width of bunching only controlled by the Hamiltonian evolution and the decoherence which is slightly larger than what is observed experimentally (Fig.~\ref{AutocorExpBPw}).
+
+	The dependence on the excitation intensity, $\tau_g$, and transverse magnetic field, $B_{\perp}$, are also qualitatively well reproduced by the model (Fig.~\ref{AutocorModBPw} (c) and (d) respectively). At zero magnetic field, the leaks outside the excited $\Lambda$ systems are dominated by $\tau_h$. $\mathcal{H}_{X^+Mn}$ induces fluctuations in a slightly longer time scale. The situation is different under a weak transverse magnetic field where the electron-Mn states are mixed introducing new channel of escape and significantly reducing the width of the photon bunching (See Fig.~\ref{AutocorExpBPw} for the corresponding experiments).
+
+	Let us note that suppressing the fast flip-flop process connecting the two Mn-hole ground states ($\tau_{ff}=\infty$ in Fig.~\ref{AutocorModBPw} (b)) still produces a bunching as with the approximated initial condition used in the calculation ($\rho_{|+\frac{3}{2};\Uparrow_h\rangle}(0)=1$) a weak coherent transfer between the two ground states of the $\Lambda$ system still exist. However, with this process only, the calculated PL intensity is always more than 50 times smaller than with $\tau_{ff}$ and its contribution to the calculated auto-correlation signal (Fig.~\ref{AutocorModBPw} (a)) can be safely neglected.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -353,7 +406,11 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\label{PumpModBPw}
 	\end{figure}
 	
-	\lipsum[34-35]
+	With this model, we can also calculate the population of the electron-Mn states under resonant excitation with alternated circular polarization and estimate the efficiency and dynamics of the optical pumping. Fig.~\ref{PumpModBPw} presents the calculated time evolution of the population of the electron-Mn state $|+\frac{3}{2},\uparrow_e\rangle$ under alternated resonant excitation of $|3,+2\rangle$ in $\sigma+$ polarization or $|3,-2\rangle$ in $\sigma-$ polarization. This corresponds to the experimental configuration where the QD is resonantly excited with modulated circular polarization at the energy of $|3,+2\rangle$ and $|3,-2\rangle$ (absorption (2) in Fig.~\ref{LambdaLevel} (b)) and the low energy resonant PL is detected in $\sigma-$ polarisation. The main features of the time-resolved optical pumping experiments (see Fig.~\ref{AllPumpB0} and Fig.~\ref{PumpExpBPw}) are well reproduced by the model. The timescale of the pumping transient, in the few tens of nanosecond range, and its excitation intensity dependence are also in good agrement with the experiments (see figure~\ref{PumpModBPw} (a)).
+
+	The influence of a transverse magnetic field, B$_{\perp}$, on the optical pumping transient can also be described by this model. First, a significant reduction of the pumping time is observed for a weak magnetic field (B$_{\perp}=0.2$ T in Fig.~\ref{PumpModBPw}(b)). As for the autocorrelation, this acceleration comes from the increase of the leakage out of the $\Lambda$ system induced by the mixing of the electron-Mn states. Secondly, the transients obtained when switching the polarization from $\sigma_{co}$ to $\sigma_{cross}$ and from $\sigma_{cross}$ to $\sigma_{co}$ become identical for B$_{\perp}\approx0.4$T, as observed in the experiments (Fig.~\ref{PumpExpBPw} (b)).
+
+	To understand this behaviour under B$_{\perp}$, let us remember that we resonantly excite $|3,+2\rangle$ from $|+\frac{5}{2},\Downarrow_h\rangle$ with $\sigma+$ light and excite $|3,-2\rangle$ from $|-\frac{5}{2},\Uparrow_h\rangle$ with $\sigma-$ photons. In both cases we detect the population of $|+\frac{3}{2},\uparrow_e\rangle$ in $\sigma-$ polarization (see the excitation/detection configuration illustrated in the inset of Fig.~\ref{AllPumpB0} (b)). If the states $|3,+2\rangle$ and $|3,-2\rangle$ are uncoupled, as it is the case at zero field, we do not detect any light during the $\sigma-$ excitation. With a sufficiently large mixing of $|3,+2\rangle$ and $|3,-2\rangle$ induced by the transverse magnetic field, for a $\sigma-$ excitation of $|3,-2\rangle$, the population can be coherently transferred to $|3,+2\rangle$ during the charged exciton lifetime and $\sigma-$ light is detected after a recombination towards $|+\frac{3}{2},\Uparrow_h\rangle$ (see Sec.~\ref{StrainInfl}). In the optical pumping sequence, we can then observe, in $\sigma-$ polarization, a transient when the $\sigma+$ excitation empties the state $|+\frac{5}{2},\Downarrow_h\rangle$ but also a similar transient when the $\sigma-$ excitation empties the state $|-\frac{5}{2},\Uparrow_h\rangle$. The transverse magnetic field dependence of the difference of steady state intensity observed in $\sigma_{co}$ and $\sigma_{cross}$ polarization (inset of Fig.~\ref{PumpExpBPw} (b)) is also well reproduced by the model (inset of Fig.~\ref{PumpModBPw} (b)). This depolarization curve is controlled by the anisotropy of the electron-Mn spin which is induced by $\eta$ and $D_0$~\cite{DynhMn}. Let us note finally that, as expected, suppressing $\tau_{ff}$ from the model, a very weak average resonant PL and a fast optical pumping are obtained (Fig.~\ref{PumpModBPw} (a), top curve).
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -363,7 +420,7 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\label{PumpModDark}
 	\end{figure}
 	
-	\lipsum[36-38]
+	Including a dark time in the pumping sequence, we can also numerically evaluate the time required for the Mn-hole spin to return to the ground state of the excited $\Lambda$ system. The time evolution of the population of the Mn-hole state $|+5/2,\Downarrow_h\rangle$ initially prepared by a sequence of $\sigma-$/$\sigma+$ excitation resonant with $|3;+2\rangle$ (and $|3;-2\rangle$) is presented in Fig.~\ref{PumpModDark}. When the optical excitation is switched off, after an abrupt jump due to the optical recombination of the charge exciton, the ground Mn-hole state $|+5/2,\Downarrow_h\rangle$ is repopulated in a timescale of about 100 ns, much shorter than the Mn spin relaxation time used in the model ($\tau_{Mn}=5ns$). This relaxation is induced by the presence of valence band mixing. In the presence of valence-band mixing, $\mathcal{H}_{hMn}^{ex}$ couples two by two the different Mn-hole levels. This coupling induces a transfer of population between the different Mn-hole levels. The transfer of population becomes irreversible in the presence of dephasing and controls the observed Mn-hole spin relaxation~\cite{DynhMn}.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -373,13 +430,17 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\label{StrainAutocorPump}
 	\end{figure}
 	
-	\lipsum[48-50]
-	a\newline
+	The particular behaviour observed for a resonant excitation of the electron-Mn states $|3,+1\rangle$ or $|3,-1\rangle$ (weak photon bunching and no optical pumping at zero field, Fig.~\ref{AllAutocorB0} (a) and Fig.~\ref{AllPumpB0} (a) respectively) is also qualitatively explained by the model (see Fig.~\ref{StrainAutocorPump}). The $|3,+1\rangle$ and $|3,-1\rangle$ states are degenerated and differ by a change of angular momentum of two. Consequently, they are efficiently mixed by the anisotropic strain term $E(S_y^2-S_x^2)$ which induces a spin-flip of two of the Mn with a conservation of the electron spin. This coupling has no significant influence on the other e-Mn states which are initially split by $D_0 S_z^2$ and $-2\eta S_z^2$.
+	
+	The splitting between the two new eigenstates, formed by the mixing of $|3,+1\rangle$ and $|3,-1\rangle$, in the $\mu eV$ range, is much weaker than width of the resonant laser used in our experiments (around 10 $\mu eV$) and the width of the optical transitions (around 50 $\mu eV$). Under circularly polarized resonant excitation we either excite $|3,+1\rangle$ with $\sigma+$ photons or $|3,-1\rangle$ with $\sigma-$ photons. At zero magnetic field, the population is transferred between the two states in a time scale of a few hundreds picoseconds (see Sec.~\ref{StrainInfl}). Under circularly polarized resonant excitation, the two $\Lambda$ systems associated with $|3,\pm1\rangle$ are simultaneously excited. For alternated circular polarization, a steady state is reached and no pumping transient induced by a leak outside the $\Lambda$ systems is expected. Under a weak longitudinal magnetic field the Mn Zeeman energy dominates the strain anisotropy term and the coherent transfer is blocked. The states $|3,+1\rangle$ and $|3,-1\rangle$ are decoupled and a large amplitude of bunching and an efficient optical pumping are restored. This behaviour observed in the experiments is qualitatively reproduced by the model.
+
+	Let us finally note that in the modelling of optical pumping at zero magnetic field presented in Fig.~\ref{StrainAutocorPump} (b), fast oscillations are obtained in the first nanoseconds after the polarization switching. These are due to the population transfer between $|3,+1\rangle$ and $|3,-1\rangle$ in the excited state (directly coupled by E) during the coherence time. These oscillations are too fast to be observed in the experiments. The calculated resonant PL intensity in $\sigma-$ polarization (proportional to $\rho_{|+\frac{1}{2},\uparrow_e\rangle}$) is also slightly larger for a $\sigma+$ excitation than for a $\sigma-$ excitation. The $\sigma-$ resonant PL probes the population of $|3,+1\rangle$ which is directly excited by a resonant $\sigma+$ laser (see the excitation/detection configuration in the inset of Fig.~\ref{AllPumpB0} (a)). On the other hand, under a $\sigma-$ laser, one excites $|3,-1\rangle$ and the charged exciton has a probability to recombine before being transferred to $|3,+1\rangle$ and detected in $\sigma-$ PL. This transfer time results in a slight difference in the steady state resonant PL intensity obtained in a $\sigma_{Co}$ or $\sigma_{Cross}$ configuration (see Fig.~\ref{AllPumpB0} (a)).
+	\newline
 
 	\begin{figure}[h!]
 	\caption{Energy levels of the ground (h-Mn) and excited ($X^+$-Mn) states as a function of their angular momentum (M$_z$). The e-Mn states $|3,+1\rangle$ and $|3,-1\rangle$, as well as $|2,+1\rangle$ and $|2,-1\rangle$, are coupled by the strain anisotropy $E(S_x^2-S_y^2)$. Optical $\Lambda$ systems associated with $|3,+1\rangle$ and $|3,-1\rangle$ are presented.}\label{LambdaMixed}
 	{\begin{center}
-		\includegraphics[width=10cm]{Pictures/SpinStructE.png}
+		\includegraphics[width=9cm]{Pictures/SpinStructE.png}
 	\end{center}}
 	\end{figure}
 	
@@ -387,15 +448,27 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 
 	\section{Influence of the strain anisotropy\label{StrainInfl}}
 	
-%	\lipsum[38]
+	We exploited the $\Lambda$ level structure evidenced in Sec.~\ref{LambdaId} to analyze the coherent dynamics of the e-Mn spin through the time evolution of the circular polarization rate, $\kappa=(\sigma_{Cross}-\sigma_{Co})/(\sigma_{Cross}+\sigma_{Co})$, of the resonant PL. The configuration of the experiment is summarized in Fig.~\ref{PolarRateTotal} (a). Circularly polarized and spectrally filtered 10 ps laser pulses are successively tuned on resonance with the three absorption lines identified in the continuous wave experiment. This corresponds to independent optical excitation of the e-Mn states $|3,+1\rangle$, $|3,+2\rangle$ and $|2,+2\rangle$. The QD is excited with sequences of $\sigma+$/$\sigma-$ pulses (Fig.~\ref{PolarRateTotal} (b)), to avoid any possible optical spin pumping of h-Mn~\cite{DynhMn} that could influence the observed dynamics.
 	
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=12.8cm]{Pictures/PolarRateTotal.eps}
 	\end{center}
-	\caption{(a) Configuration of the time resolved PL experiment for an excitation of $|3,+1\rangle$ (pulsed laser in green). (b) Top panel: Time resolved resonant PL of $|3,+1\rangle$ with a $\sigma+$/$\sigma-$ sequence of laser pulses and a detection in $\sigma+$ and $\sigma-$ polarization. Bottom panel: corresponding time dependence of the circular polarization rate $\kappa=(\sigma_{-}-\sigma_{+})/(\sigma_{-}+\sigma_{+})$. (c) Time dependence of the circular polarization rate of the resonant PL of the states $|3,+1\rangle$ (red), $|3,+2\rangle$ (black) and $|2,+2\rangle$ (blue). (d) Corresponding polarisation rates calculated with $D_0=7 \mu eV$~\cite{DynhMn}, $T_2^{eMn}=0.6ns$, $E=1.8\mu eV$, a radiative lifetime $T_r=0.3ns$ and the parameters listed on Table~\ref{paraQD}.}
+	\caption{(a) Configuration of the time resolved PL experiment for an excitation of $|3,+1\rangle$ (pulsed laser in green). (b) Top panel: Time resolved resonant PL of $|3,+1\rangle$ with a $\sigma+$/$\sigma-$ sequence of laser pulses and a detection in $\sigma+$ and $\sigma-$ polarization. Bottom panel: corresponding time dependence of the circular polarization rate $\kappa=(\sigma_{-}-\sigma_{+})/(\sigma_{-}+\sigma_{+})$. (c) Time dependence of the circular polarization rate of the resonant PL of the states $|3,+1\rangle$ (red), $|3,+2\rangle$ (black) and $|2,+2\rangle$ (blue). (d) Corresponding polarisation rates calculated with $D_0=7 \mu eV$~\cite{DynhMn}, $T_2^{eMn}=0.6ns$, $E=1.8\mu eV$, a radiative lifetime $T_r=0.3ns$ and the parameters listed on Tab.~\ref{paraQD}.}
 	\label{PolarRateTotal}
 	\end{figure}
+	
+	The main result is the observation of an oscillatory behavior of the polarization rate of the PL when probing the dynamics of the $|3,+1\rangle$ state. The period of the beats is 270 ps with a characteristic damping time of 0.6 ns. When probing the dynamics of the $|3,+2\rangle$ and $|2,+2\rangle$ states, we measured cross circularly polarized PL with a slow decrease of the polarization rate during the lifetime of X$^+$-Mn.
+	
+	The origin of this dynamics lies in the mixing of the $|3,+1\rangle$ and $|3,-1\rangle$ states by the anisotropy of strain presented in Sec.~\ref{RelaxMech}. When a pulsed laser is tuned to the high energy transition of the $\Lambda$ system associated to $|3,+1\rangle$ ($\sigma+$ absorption from the h-Mn state $|+3/2\rangle|\Downarrow\rangle$), the PL of the low energy transition of the $\Lambda$ system is first cross-circularly polarized ($\sigma-$ recombination to the h-Mn state $|+1/2\rangle|\Uparrow\rangle$). Then, after a coherent transfer of population to the e-Mn state $|3,-1\rangle=\frac{1}{\sqrt{6}}(\sqrt{2}|-3/2\rangle|\uparrow\rangle+\sqrt{4}|-1/2\rangle|\downarrow\rangle)$, induced by $E$ (Fig.\ref{PolarRateTotal} (c)), co-circularly polarized PL is emitted at the same energy from the $|3,-1\rangle$ state ($\sigma+$ recombination to $|-1/2\rangle|\Downarrow\rangle$). This coherent transfer of population is fully controlled by the in-plane anisotropy of the strain at the Mn location and is responsible for the observed oscillations of the circular polarization rate.
+	
+	To understand the details of this dynamics, we calculated the time evolution of the populations and coherence of the twelve X$^+$-Mn states and the twelve hole-Mn states. We neglected here the hyperfine coupling between the electronic and nuclear spins of the Mn and solved the master equation for the 24 x 24 density matrix numerically, including relaxation and pure dephasing processes in the Lindblad form, as presented in Sec.~\ref{RelaxMech}.
+	
+	For the initial condition in the calculation of the time evolution, we consider that a $\sigma+$ pulse on resonance with the absorption line (1) (see Fig.~\ref{PolarRateTotal}) projects the system on the $M=3$ electron-Mn subspace on all the levels that contain a component $|+3/2\rangle |\downarrow\rangle$. In the absence of transverse magnetic field and strain anisotropy term E, this excitation simply corresponds to an optical transition from the hole-Mn state $|+3/2\rangle |\Downarrow\rangle$ towards the electron-Mn state $|3, +1\rangle$. With a weak transverse magnetic field (typically lower than 0.5 T), a linear combination of the $M=3$ states is created. At large transverse magnetic field, one should consider possible mixing with the $M=2$ states. Similarly, a $\sigma+$ pulse on (2) projects the system on the $M=3$ electron-Mn subspace on the levels that contain a component $|+5/2\rangle |\downarrow\rangle$ and a $\sigma+$ pulse resonant on (3) projects the system on the $M=2$ electron-Mn subspace on the levels that contain a component $|+5/2\rangle |\downarrow\rangle$.
+	
+	After this excitation, the circular polarization of the resonant photoluminescence is governed by the evolution of the spin of the electron. For instance, to compute the circular polarization rate of the emission after a resonant σ+ excitation on (1) (optical excitation from the hole-Mn state $|+3/2\rangle |\Downarrow\rangle$ to $|3, +1\rangle$ : high energy branch of the $\Lambda$-system) we calculate the difference between the density matrix elements $\rho_{|+1/2\rangle |\uparrow\rangle}$ ($\sigma-$ recombination towards the hole-Mn state $|+1/2\rangle |\Uparrow\rangle$ : low energy branch of the $\Lambda$-system) and $\rho_{|-1/2\rangle |\downarrow\rangle}$ ($\sigma+$ recombination towards the hole-Mn state $|-1/2\rangle |\Downarrow\rangle$ : low energy branch of the Λ-system associated with $|3, -1\rangle$  ).
+	
+	In the absence of magnetic field, the period of the quantum beats observed for an excitation of $|3,+1\rangle$ depends only on the anisotropy term $E$. The experimental data can be well reproduced by the model with $E=1.8\mu eV$ (Fig.\ref{PolarRateTotal} (d)). A coherence time, $T_2^{eMn}\approx0.6ns$, of the spin of e-Mn is extracted from the damping of the oscillations. For an excitation of $|3,+2\rangle$ and $|2,+2\rangle$ one can observe a slow decrease of the polarization rate which is also qualitatively reproduced by the model.
 
 %	\begin{figure}[h!]
 %	\begin{center}
@@ -425,17 +498,23 @@ where we used the continuum limit ($\sum_k\rightarrow V/(2\pi)^3\int d^3k$ with 
 	\label{hMnPolarRateB}
 	\end{figure}
 	
-	\lipsum[46]
+	The coherent transfer of population depends both on the initial splitting of the e-Mn spin states (controlled at zero field by $D_0$ and $\eta$) and on the strength of the coupling $E$. The splitting between the e-Mn states can be tuned by a magnetic field, $B_z$, applied along the growth axis. In addition, a coupling between the e-Mn spin states $M_z$ can be induced by a magnetic field, $B_x$, applied in the QD plane. The experimental and calculated evolution of the polarization rate of the e-Mn states, $|3,+1\rangle$, $|3,+2\rangle$ and $|2,+2\rangle$, versus magnetic field are presented in Fig.~\ref{hMnPolarRateB}.
+
+	Under a longitudinal magnetic field B$_z$, the e-Mn states M$_z=\pm1$ are split and the influence of $E$ is progressively reduced. For an excitation on the $|3,+1\rangle$ state, the amplitude and period of the oscillations in the polarization rate reduce as $B_z$ increases: The resonant PL becomes cross-circularly polarized with a polarization rate constant during the lifetime of $X^+$. A weak longitudinal magnetic field stabilizes the spin of the e-Mn states $|3,+2\rangle$ and $|2,+2\rangle$ and their polarization rate remains constant during the lifetime of X$^+$-Mn.
+
+	In a transverse magnetic field B$_x$, the quantum beats observed for an excitation of $|3,+1\rangle$ are accelerated and the measured circular polarization rate drops to zero as the period of the oscillations becomes smaller than the time resolution of the experimental setup ($\approx 60$ ps). A given transverse magnetic field induces a slower oscillation of the polarization rate for the states $|3,+2\rangle$ and $|2,+2\rangle$.
+
+	The observed magnetic field dependence of the coherent dynamics of $|3,+1\rangle$, $|3,+2\rangle$ and $|2,+2\rangle$ can be qualitatively reproduced by the model with the exchange parameters deduced from the PL and the strain anisotropy term and coherence time deduced from the oscillations observed on $|3,+1\rangle$ at zero magnetic field (Fig.\ref{PolarRateTotal}). D$_0$ cannot be extracted from these measurements and we use a typical value D$_0$=7 $\mu eV$ corresponding to a partial relaxation of the biaxial strain~\cite{DynhMn}. The different precession periods observed for the three states in a given transverse magnetic field are particularly well described.
 	
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=11.2cm]{Pictures/LevelSplitB.eps}
 	\end{center}
 	\caption{(Color line) (a) Calculated energy of the electron-M, states in a longitudinal magnetic field (B$_z$) and in a transverse magnetic field (B$_{\bot}$). (b) Energy of the electron-Mn states for two orientations of the transverse magnetic field: $\phi = 0$ (B$_{\bot} = $ B$_x$) $\phi = \dfrac{\pi}{2}$ (B$_{\bot} = $ B$_y$). The parameters used in the calculations are listed in Table~\ref{paraph}, with the exception of $E$, for which the more precise value of 1.8 $\mu$eV was chosen.}
-	\label{hMnPolarRateB}
+	\label{hMnPolarRateBMod}
 	\end{figure}
 	
-	\lipsum[47]
+	The calculated time dependence of the circular polarization rate in transverse magnetic field are presented in Fig.~\ref{hMnPolarRateBMod} for the three $\Lambda$-systems identified in Fig.~\ref{LambdaLevel}. In agreement with the calculated electron-Mn energy levels (Fig.~\ref{PolarRateTotal}), this modelling reveals a significant influence of the orientation of the transverse magnetic field on the electron-Mn coherent dynamics. This behaviour could not be observed with our experimental set-up which did not permit to change the direction of the transverse field while staying on the same Mn-doped QD. A systematic experimental study of the transverse magnetic field effect has still to be realized.
 		
 	
 \printbibliography
