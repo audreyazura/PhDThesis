@@ -102,7 +102,7 @@
 
 	For CdTe, both the maximum of the valence band and the minimum of the conduction band are reached at the center of the Brillouin zone, at $k = 0$. It means CdTe is a direct band gap semi-conductor, and its optical properties are controlled by the symmetry at $k = 0$. At this point, the conduction has the $T_d$ group $\Gamma_6$ symmetry. As discussed, this band comes from the overlap of atomic $s$ orbitals, meaning the conduction electron will have no orbital momentum, and a total angular momentum $J = \dfrac{1}{2}$.
 	
-	The valence band is formed from $p$ orbital, presenting a orbital momentum $L = 1$. It couples at $k = 0$ with the electron spin $S = \dfrac{1}{2}$ through the spin-orbit coupling, giving two sub-bands of total angular momentum $J = \dfrac{1}{2}$ and $J = \dfrac{3}{2}$. In the $T_d$ group, the quadruplet $J = \dfrac{3}{2}$ is of $\Gamma_8$ symmetry, and the doublet $J = \dfrac{1}{2}$ is of $\Gamma_7$ symmetry. Those bands are split by the spin-orbit interaction, with an energy $\Delta_{SO}$.
+	The valence band is formed from $p$ orbitals, presenting a orbital momentum $L = 1$. It couples at $k = 0$ with the electron spin $S = \dfrac{1}{2}$ through the spin-orbit coupling, giving two sub-bands of total angular momentum $J = \dfrac{1}{2}$ and $J = \dfrac{3}{2}$. In the $T_d$ group, the quadruplet $J = \dfrac{3}{2}$ is of $\Gamma_8$ symmetry, and the doublet $J = \dfrac{1}{2}$ is of $\Gamma_7$ symmetry. Those bands are split by the spin-orbit interaction, with an energy $\Delta_{SO}$.
 	
 	When the spin-orbit coupling is introduced, $\mathbf{L}$ and $\mathbf{S}$ are not good quantum number anymore. $\mathbf{J} = \mathbf{L}+ \mathbf{S}$, however, commute with the system hamiltonian. Therefore, we chose the eigenstates $J^2$, $J_z$ as a basis for the system at $k = 0$. They can be deduced from the composition of the two uncoupled basis:
 	\begin{align}	
@@ -188,15 +188,7 @@ Finally, for any spin operator $O$ ($O = \bm{\upsigma}$, $\mathbf{J}$ or any oth
 		O_+ = O_x + iO_y \\
 		O_- = O_x - iO_y
 	\end{align}
-	
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=14.8cm]{Pictures/SelectionRules.eps}
-	\end{center}
-	\caption{Selection rules for optical transitions between valence band and conduction band. Circularly polarized transition are noted $\sigma\pm$ and $\pi_z$ stands for a linear polarization along $z$ axis.}
-	\label{SelectionRules}
-	\end{figure}
-	
+
 	In a semiconductor, light matter interaction occurs mainly through two processes:  absorption of a photon of energy equal to or higher than the gap energy by an electron of the valence band to reach the conduction band, creating an exciton; or emission of photon by the recombination of an exciton. However, angular momentum conservation rules forbid some transitions. In order to find them, we consider the coupling between a conduction band electron $|\Psi_c\rangle$ and a valence band hole $|\Psi_v\rangle$ through the hamiltonian ${\cal H}_{AF} = -\frac{e}{m}\mathbf{p}.\mathbf{A}$, in the dipolar approximation. We get:
 	\begin{align}
 		\langle \Psi_v | {\cal H}_{AF} | \Psi_c \rangle \propto \langle u_{\Gamma_8, J_z} | \mathbf{p} | u_{\Gamma_6, \sigma_z} \rangle
