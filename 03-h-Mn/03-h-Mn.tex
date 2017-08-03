@@ -16,6 +16,7 @@
 \usepackage[backend=biber,style=phys]{biblatex}
 \usepackage{lipsum}
 \usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage{bm}
 
 \addbibresource{../Bibliography.bib}
 
@@ -35,17 +36,7 @@
 		
 		\subsection{Spin structure of a positively charged Mn doped quantum dot}
 		
-		Cf XplusMnRes.pptx to detail the e-Mn levels
-		
-		E included in model for generality (cite Claire paper "Resonant pumping..." \cite{OptControlSpin}). The effects will be discussed in depth later.\newline
-	
-	As presented in Sec.~\ref{MnSemiCon}, a Mn atom in a strained self-assembled CdTe QD exhibits a fine structure dominated by a weak magnetic anisotropy with an easy axis along the QD axis. Neglecting the tetrahedral crystal field of the CdTe matrix, this fine structure is described by the effective spin Hamiltonian
-
-\begin{align}
-\label{MnCF}
-{\cal H}_{Mn,CF}=D_0S^2_z+E(S_y^2-S_x^2)
-\end{align}
-with $D_0$ depicting the effect of the biaxial strain and $E$ describing the anisotropy of the strain in the plane of the QD. It was shown that the anisotropy of strain was essential to understand the absence of pumping for Mn in strain-free quantum dots~\cite{OptControlSpin} and was thus include here to keep generality. We will study more in details its effect on Sec.~\ref{SpinDyn}.
+		We saw in Sec.~\ref{MnSemiCon} that the exchange interaction between the carriers and the Mn spin lift the degeneracy of the Mn spin states. The recombination lines of the excitonic structures are then  each split into six, each line in a given polarization corresponding to a give Mn spin state. Applying a positive bias voltage on the sample via a Schottky gate (see Sec.~\ref{ChargedSample}), a single hole is trapped in the magnetic QDs and only the emission of the positively charged exciton is observed (Fig.~\ref{hMnspectra} (a)).
 		
 	\begin{figure}[h!]
 	{\caption{(a) Color scale plot of the PL intensity of the studied Mn doped QD inserted in Schottky structure showing the emission of the neutral (X-Mn) and positively charged (X$^+$-Mn) exciton as a function of energy and bias voltage. (b) PL of the Mn-doped QD under a positive bias voltage of V=5.5V.}\label{hMnspectra}}
@@ -54,7 +45,20 @@ with $D_0$ depicting the effect of the biaxial strain and $E$ describing the ani
 	\end{center}}
 	\end{figure}
 	
-	\lipsum[3-4]
+	A Mn atom in a strained self-assembled CdTe QD exhibits a fine structure dominated by a weak magnetic anisotropy with an easy axis along the QD axis. Neglecting the tetrahedral crystal field of the CdTe matrix, this fine structure is described by the effective spin Hamiltonian:
+\begin{align}
+\label{MnCF}
+{\cal H}_{Mn,CF}=D_0S^2_z+E(S_y^2-S_x^2)
+\end{align}
+with $D_0$ depicting the effect of the biaxial strain and $E$ describing the anisotropy of the strain in the plane of the QD. It was shown that the anisotropy of strain was essential to understand the absence of pumping for Mn in strain-free quantum dots~\cite{OptControlSpin} and was thus include here to keep generality. We will study more in details its effect on Sec.~\ref{SpinDyn}.
+
+	When a hole is trapped in a QD containing a single Mn, the spin structure is controlled by the Mn-hole exchange interaction that reads:
+	\begin{align}
+		{\cal H}_{hMn}^{ex}=I_{hMn}\mathbf{S}\cdot\mathbf{J}
+	\end{align}
+with $I_{hMn}$ the exchange energy between the hole and the Mn ($S=5/2$) and $\mathbf{J}$ the hole spin operator. In the presence of heavy-hole/light-hole mixing, $\mathbf{J}$, represented in the basis of the two low energy heavy-hole states, is related to the Pauli matrices by $J_z=3/2\tau_z$ and $J_{\pm}= \xi \tau_{\pm}$ with $\xi=-2\sqrt{3}e^{-2i\theta}\rho_c/\Delta_{lh}$. $\rho_c$ is the coupling energy between heavy holes and light holes separated by an effective energy splitting $\Delta_{lh}$. $\theta$ is the angle relative to the [110] axis of the principal axis of the anisotropy (shape and/or strain) responsible for the heavy-hole/light-hole mixing \cite{SingleExcSpectro,VBMArticle}. For a weak valence band mixing, the Mn-hole energy levels are mainly controlled by $I_{hMn}S_zJ_z$ and form a spin ladder with a quantization axis along the QDs growth direction. These states are labelled $|S_z,J_z\rangle$.
+
+The PL of a positively charged Mn-doped QD is presented in Fig.~\ref{hMnspectra}(b).
 		
 	\begin{figure}[h!]
 	\begin{center}
