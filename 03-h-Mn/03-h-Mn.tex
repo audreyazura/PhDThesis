@@ -36,7 +36,7 @@
 		
 		\subsection{Spin structure of a positively charged Mn doped quantum dot}
 		
-		We saw in Sec.~\ref{MnSemiCon} that the exchange interaction between the carriers and the Mn spin lift the degeneracy of the Mn spin states. The recombination lines of the excitonic structures are then  each split into six, each line in a given polarization corresponding to a give Mn spin state. Applying a positive bias voltage on the sample via a Schottky gate (see Sec.~\ref{ChargedSample}), a single hole is trapped in the magnetic QDs and only the emission of the positively charged exciton is observed (Fig.~\ref{hMnspectra} (a)).
+		We saw in Sec.~\ref{MnSemiCon} that the exchange interaction between the carriers and the Mn spin lift the degeneracy of the Mn spin states. The recombination lines of the excitonic structures are then  each split into six, each line in a given polarization corresponding to a give Mn spin state. Applying a positive bias voltage on the sample via a Schottky gate (see Sec.~\ref{ChargedSample}), a single hole is trapped in the magnetic QDs and only the emission of the positively charged exciton is observed (Fig.~\ref{hMnspectra} (a)). The PL of such a QD is presented on Fig.~\ref{hMnspectra} (b).
 		
 	\begin{figure}[h!]
 	{\caption{(a) Color scale plot of the PL intensity of the studied Mn doped QD inserted in Schottky structure showing the emission of the neutral (X-Mn) and positively charged (X$^+$-Mn) exciton as a function of energy and bias voltage. (b) PL of the Mn-doped QD under a positive bias voltage of V=5.5V.}\label{hMnspectra}}
@@ -48,7 +48,7 @@
 	A Mn atom in a strained self-assembled CdTe QD exhibits a fine structure dominated by a weak magnetic anisotropy with an easy axis along the QD axis. Neglecting the tetrahedral crystal field of the CdTe matrix, this fine structure is described by the effective spin Hamiltonian:
 \begin{align}
 \label{MnCF}
-{\cal H}_{Mn,CF}=D_0S^2_z+E(S_y^2-S_x^2)
+{\cal H}_{Mn,CF}=D_0S^2_z+E(S_x^2-S_y^2)
 \end{align}
 with $D_0$ depicting the effect of the biaxial strain and $E$ describing the anisotropy of the strain in the plane of the QD. It was shown that the anisotropy of strain was essential to understand the absence of pumping for Mn in strain-free quantum dots~\cite{OptControlSpin} and was thus include here to keep generality. We will study more in details its effect on Sec.~\ref{SpinDyn}.
 
@@ -58,18 +58,24 @@ with $D_0$ depicting the effect of the biaxial strain and $E$ describing the ani
 	\end{align}
 with $I_{hMn}$ the exchange energy between the hole and the Mn ($S=5/2$) and $\mathbf{J}$ the hole spin operator. In the presence of heavy-hole/light-hole mixing, $\mathbf{J}$, represented in the basis of the two low energy heavy-hole states, is related to the Pauli matrices by $J_z=3/2\tau_z$ and $J_{\pm}= \xi \tau_{\pm}$ with $\xi=-2\sqrt{3}e^{-2i\theta}\rho_c/\Delta_{lh}$. $\rho_c$ is the coupling energy between heavy holes and light holes separated by an effective energy splitting $\Delta_{lh}$. $\theta$ is the angle relative to the [110] axis of the principal axis of the anisotropy (shape and/or strain) responsible for the heavy-hole/light-hole mixing \cite{SingleExcSpectro,VBMArticle}. For a weak valence band mixing, the Mn-hole energy levels are mainly controlled by $I_{hMn}S_zJ_z$ and form a spin ladder with a quantization axis along the QDs growth direction. These states are labelled $|S_z,J_z\rangle$.
 
-The PL of a positively charged Mn-doped QD is presented in Fig.~\ref{hMnspectra}(b).
-		
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=14.8cm]{Pictures/Recomb.png}
-	\end{center}
-	\caption{Electron-Mn spin states for each $|M,M_z\rangle$. For each $M$, the $\sigma-$ (red) and $\sigma+$ (blue) probability is highlighted. This probability is directly linked to the intensity of each peak. In the center, the different possible recombination path for $M=3$ and $M=2$ are presented. A schema of the resulting spectra is drawn below.}
-	\label{Recomb}
-	\end{figure}
+	The valence-band mixing also affect the system. However, as well as the interaction with the carrier introduced big enough energy gap between the energy to keep most of them to be affected in the X-Mn system presented in Sec.~\ref{XMn}, the interaction with a the hole injected in the QD keep most of the h-Mn states to be affected by the VBM. Once again, only the hole states coupled the Mn spin states $S_z = \pm 1/2$ are mixed, resulting in linear polarization of the central peaks.
 
-	\lipsum[5]
+	\begin{figure}[h!]
+		\begin{center}
+			\includegraphics[width=14.8cm]{Pictures/Recomb.png}
+		\end{center}
+		\caption{Electron-Mn spin states for each $|M,M_z\rangle$. For each $M$, the $\sigma-$ (red) and $\sigma+$ (blue) probability is highlighted. This probability is directly linked to the intensity of each peak. In the center, the different possible recombination path for $M=3$ and $M=2$ are presented. A schema of the resulting spectra is drawn below.}
+		\label{Recomb}
+	\end{figure}
 	
+	In the QD excited state, an exciton is injected in it. Since a single hole is already inside, the X$^+$-Mn is formed. The two holes paired up with anti-parallel spins, and thus the system is dominated by the electron-Mn exchange interaction:
+	\begin{align}
+		{\cal H}_{eMn}^{ex} = I_{eMn} \mathbf{S}.\bm{\upsigma}
+	\end{align}
+with, as usual, $\bm{\upsigma}$ as the electron and $I_{eMn}$ as the e-Mn exchange energy. This interaction is isotrope, and results in a ground state septuplet of total spin $M = 3$ and a fivefold degenerated manifold of total spin $M = 2$, for a total of twelve electron-Mn states. In the absence of perturbations, the energy levels of each of those manifold are degenerated. Each of those states are labelled $|M,M_z\rangle$ These states are presented in Fig.~\ref{Recomb}, as well as the result of recombination from each of the manifold. One can see that each state emit at a given energy, resulting in a twelve peaks spectra. Each electron-Mn state correspond to a given peak energy and polarization.
+
+	Since the two holes have opposed spins, their exchange interaction with the Mn atom only introduce a perturbation to the electron-Mn wavefunction~\cite{CarInSpinSplit,BiexFinStruct,LucienSFD}. This can be represented for one hole by an effective spin Hamiltonian ${\cal H}_{scat}=-\eta S_z^2$ with $\eta>0$. This perturbation has to be taken into account twice for X$^+$-Mn where two holes interact with the Mn. This perturbation affects the energy of the optical recombination of X$^+$-Mn to the Mn-hole ground state and can be observed in the emission spectra \cite{LucienSFD}.
+
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=12cm]{Pictures/Spinstructv2.png}
@@ -78,8 +84,22 @@ The PL of a positively charged Mn-doped QD is presented in Fig.~\ref{hMnspectra}
 	\label{CompleteEnerStruct}
 	\end{figure}
 	
-	\lipsum[7]
-	
+	We then have the ground state hamiltonian:
+	\begin{align}
+		\begin{array}{rl}
+			{\cal H}_{hMn} =& {\cal H}_{hMn}^{ex} + {\cal H}_{CF, Mn} \\
+							=& I_{hMn} \mathbf{S}.\mathbf{J} + D_0 S_z^2 + E (S_x^2 - S_y^2)
+		\end{array}
+	\end{align}
+and, in the excited state, X$^+$-Mn:
+	\begin{align}
+		\begin{array}{rl}
+			{\cal H}_{X^+-Mn} =& {\cal H}_{eMn}^{ex} + 2 {\cal H}_{scat} + {\cal H}_{CF, Mn} \\
+							=& I_{eMn} \mathbf{S}.\bm{\upsigma} - 2\eta S_z^2 + D_0 S_z^2 + E (S_x^2 - S_y^2)
+		\end{array}
+	\end{align}
+The energy structure given by those hamiltonian is presented in Fig.~\ref{CompleteEnerStruct}, along with the experimental and calculated linear polarization map. Values of $I_{hMn}$, $I_{eMn}$, $\rho_c/\Delta_{lh}$ and $\eta$ for a given QD can be obtained by comparing the linear polarization dependence of the experimental PL data to the optical transition probabilities calculated with the discussed effective spin model (Fig.~\ref{CompleteEnerStruct} (c)) \cite{DynhMn}. A Boltzmann distribution function $P^i_{eMn}=e^{-E^i_{eMn}/k_BT_{eff}}/\sum_{i}e^{-E^i_{eMn}/k_BT_{eff}}$ with an effective spin temperature $T_{eff}$ is used to describe the population of the emitting states (electron-Mn energy levels $E^i_{eMn}$). The obtained parameters are listed in Tab.~\ref{paraQD} for the QD presented in Fig.~\ref{hMnspectra} and \ref{CompleteEnerStruct}.
+
 	\begin{table}[t] \centering
 		\caption{Values of the parameters used in the model of the positively charged Mn-doped QD presented in Fig.~\ref{hMnspectra}. I$_{eMn}$, I$_{hMn}$, $\frac{\rho_s}{\Delta_{lh}}$, $\theta$, $\eta$ and $T_{eff}$ are used to model the linear polarization intensity map of Fig.~\ref{CompleteEnerStruct}. The other parameters cannot be extracted from the PL measurements and values for typical Mn-doped QDs are chosen for the calculation of the spin dynamics presented in Sec.~\ref{SpinDyn} and \ref{StrainInfl}.}
 		\renewcommand{\arraystretch}{1.0}
@@ -108,7 +128,7 @@ The PL of a positively charged Mn-doped QD is presented in Fig.~\ref{hMnspectra}
 	\label{LambdaLevel}
 	\end{figure}
 	
-	\lipsum[12]
+	Using Fig.~\ref{Recomb}, we can assign each peak to a transition and therefore, for a given polarization, to an electron-Mn state.
 			
 	
 	\section{Spin dynamics under resonant excitation\label{SpinDyn}}

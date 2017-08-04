@@ -1,0 +1,14 @@
+[2] Config.pm:318> INFO - This is Biber 1.8
+[3] Config.pm:321> INFO - Logfile is '03-h-Mn.blg'
+[388] biber:275> INFO - === sam. aoÃ»t  5, 2017, 04:33:46
+[389] Biber.pm:333> INFO - Reading '03-h-Mn.bcf'
+[766] Biber.pm:630> INFO - Found 25 citekeys in bib section 0
+[848] Biber.pm:3053> INFO - Processing section 0
+[926] Biber.pm:3190> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[966] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[1019] bibtex.pm:808> INFO - Found BibTeX data source '../Bibliography.bib'
+[1529] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1530] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1530] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1800] bbl.pm:482> INFO - Writing '03-h-Mn.bbl' with encoding 'UTF-8'
+[1819] bbl.pm:555> INFO - Output to 03-h-Mn.bbl
