@@ -68,14 +68,6 @@ with $I_{hMn}$ the exchange energy between the hole and the Mn ($S=5/2$) and $\m
 		\label{Recomb}
 	\end{figure}
 	
-	In the QD excited state, an exciton is injected in it. Since a single hole is already inside, the X$^+$-Mn is formed. The two holes paired up with anti-parallel spins, and thus the system is dominated by the electron-Mn exchange interaction:
-	\begin{align}
-		{\cal H}_{eMn}^{ex} = I_{eMn} \mathbf{S}.\bm{\upsigma}
-	\end{align}
-with, as usual, $\bm{\upsigma}$ as the electron and $I_{eMn}$ as the e-Mn exchange energy. This interaction is isotrope, and results in a ground state septuplet of total spin $M = 3$ and a fivefold degenerated manifold of total spin $M = 2$, for a total of twelve electron-Mn states. In the absence of perturbations, the energy levels of each of those manifold are degenerated. Each of those states are labelled $|M,M_z\rangle$ These states are presented in Fig.~\ref{Recomb}, as well as the result of recombination from each of the manifold. One can see that each state emit at a given energy, resulting in a twelve peaks spectra. Each electron-Mn state correspond to a given peak energy and polarization.
-
-	Since the two holes have opposed spins, their exchange interaction with the Mn atom only introduce a perturbation to the electron-Mn wavefunction~\cite{CarInSpinSplit,BiexFinStruct,LucienSFD}. This can be represented for one hole by an effective spin Hamiltonian ${\cal H}_{scat}=-\eta S_z^2$ with $\eta>0$. This perturbation has to be taken into account twice for X$^+$-Mn where two holes interact with the Mn. This perturbation affects the energy of the optical recombination of X$^+$-Mn to the Mn-hole ground state and can be observed in the emission spectra \cite{LucienSFD}.
-
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=12cm]{Pictures/Spinstructv2.png}
@@ -83,6 +75,28 @@ with, as usual, $\bm{\upsigma}$ as the electron and $I_{eMn}$ as the e-Mn exchan
 	\caption{(a) Energy levels of the ground (h-Mn) and excited ($X^+$-Mn) states as a function of their angular momentum (M$_z$). The levels in dotted lines corresponds to the h-Mn states $|-1/2\rangle|\Uparrow\rangle$ and $|+1/2\rangle|\Downarrow\rangle$ coupled by the valence band mixing. Optical recombination towards these levels leads to the linearly polarized lines observed in (b). (b) Experimental (left) and calculated (right) color-scale plot of the linear polarization dependence of the PL of X$^+$-Mn at B = 0 T (top) and B$_\perp$ = 0.42 T (bottom). The parameters used in the calculation are listed in Table~\ref{paraQD}.}
 	\label{CompleteEnerStruct}
 	\end{figure}
+	
+	In the QD excited state, an exciton is injected in it. Since a single hole is already inside, the X$^+$-Mn is formed. The two holes paired up with anti-parallel spins, and thus the system is dominated by the electron-Mn exchange interaction:
+	\begin{align}
+		{\cal H}_{eMn}^{ex} = I_{eMn} \mathbf{S}.\bm{\upsigma}
+	\end{align}
+with, as usual, $\bm{\upsigma}$ as the electron and $I_{eMn}$ as the e-Mn exchange energy. This interaction is isotrope, and results in a ground state septuplet of total spin $M = 3$ and a fivefold degenerated manifold of total spin $M = 2$, for a total of twelve electron-Mn states. In the absence of perturbations, the energy levels of each of those manifold are degenerated. Each of those states are labelled $|M,M_z\rangle$ These states are presented in Fig.~\ref{Recomb}, as well as the result of recombination from each of the manifold. One can see that each state emit at a given energy, resulting in a twelve peaks spectra. Each electron-Mn state correspond to a given peak energy and polarization.
+
+	\begin{table}[t] \centering
+		\caption{Values of the parameters used in the model of the positively charged Mn-doped QD presented in Fig.~\ref{hMnspectra}. I$_{eMn}$, I$_{hMn}$, $\frac{\rho_s}{\Delta_{lh}}$, $\theta$, $\eta$ and $T_{eff}$ are used to model the linear polarization intensity map of Fig.~\ref{CompleteEnerStruct}. The other parameters cannot be extracted from the PL measurements and values for typical Mn-doped QDs are chosen for the calculation of the spin dynamics presented in Sec.~\ref{SpinDyn} and \ref{StrainInfl}.}
+		\renewcommand{\arraystretch}{1.0}
+		\begin{tabular}{cccccc|ccccc}
+			\hline\hline
+			I$_{eMn}$ & I$_{hMn}$ & $\frac{\rho_s}{\Delta_{lh}}$ & $\theta$    & $\eta$   & $T_{eff}$  & $g_{e}$ & $g_{h}$   	& $g_{Mn}$ & $D_0$    &  $E$      \\
+			$\mu eV$  & $\mu eV$  &                              & $^{\circ}$  & $\mu eV$ &    K       &         &           &          & $\mu eV$ &  $\mu eV$ \\
+			\hline
+			-175    &     345   &        0.09                  &    0        &     30   &   20       &  -0,4   &  0.6      &     2    &    7     &   1.5     \\
+			\hline\hline
+		\end{tabular}
+		\label{paraQD}
+	\end{table}
+
+	Since the two holes have opposed spins, their exchange interaction with the Mn atom only introduce a perturbation to the electron-Mn wavefunction~\cite{CarInSpinSplit,BiexFinStruct,LucienSFD}. This can be represented for one hole by an effective spin Hamiltonian ${\cal H}_{scat}=-\eta S_z^2$ with $\eta>0$. This perturbation has to be taken into account twice for X$^+$-Mn where two holes interact with the Mn. This perturbation affects the energy of the optical recombination of X$^+$-Mn to the Mn-hole ground state and can be observed in the emission spectra \cite{LucienSFD}.
 	
 	We then have the ground state hamiltonian:
 	\begin{align}
@@ -99,26 +113,14 @@ and, in the excited state, X$^+$-Mn:
 		\end{array}
 	\end{align}
 The energy structure given by those hamiltonian is presented in Fig.~\ref{CompleteEnerStruct}, along with the experimental and calculated linear polarization map. Values of $I_{hMn}$, $I_{eMn}$, $\rho_c/\Delta_{lh}$ and $\eta$ for a given QD can be obtained by comparing the linear polarization dependence of the experimental PL data to the optical transition probabilities calculated with the discussed effective spin model (Fig.~\ref{CompleteEnerStruct} (c)) \cite{DynhMn}. A Boltzmann distribution function $P^i_{eMn}=e^{-E^i_{eMn}/k_BT_{eff}}/\sum_{i}e^{-E^i_{eMn}/k_BT_{eff}}$ with an effective spin temperature $T_{eff}$ is used to describe the population of the emitting states (electron-Mn energy levels $E^i_{eMn}$). The obtained parameters are listed in Tab.~\ref{paraQD} for the QD presented in Fig.~\ref{hMnspectra} and \ref{CompleteEnerStruct}.
-
-	\begin{table}[t] \centering
-		\caption{Values of the parameters used in the model of the positively charged Mn-doped QD presented in Fig.~\ref{hMnspectra}. I$_{eMn}$, I$_{hMn}$, $\frac{\rho_s}{\Delta_{lh}}$, $\theta$, $\eta$ and $T_{eff}$ are used to model the linear polarization intensity map of Fig.~\ref{CompleteEnerStruct}. The other parameters cannot be extracted from the PL measurements and values for typical Mn-doped QDs are chosen for the calculation of the spin dynamics presented in Sec.~\ref{SpinDyn} and \ref{StrainInfl}.}
-		\renewcommand{\arraystretch}{1.0}
-		\begin{tabular}{cccccc|ccccc}
-			\hline\hline
-			I$_{eMn}$ & I$_{hMn}$ & $\frac{\rho_s}{\Delta_{lh}}$ & $\theta$    & $\eta$   & $T_{eff}$  & $g_{e}$ & $g_{h}$   	& $g_{Mn}$ & $D_0$    &  $E$      \\
-			$\mu eV$  & $\mu eV$  &                              & $^{\circ}$  & $\mu eV$ &    K       &         &           &          & $\mu eV$ &  $\mu eV$ \\
-			\hline
-			-175    &     345   &        0.09                  &    0        &     30   &   20       &  -0,4   &  0.6      &     2    &    7     &   1.5     \\
-			\hline\hline
-		\end{tabular}
-		\label{paraQD}
-	\end{table}
 	
 %	\lipsum[11]
 
 		\subsection{Optical $\Lambda$-level identification\label{LambdaId}}	
 		
-		\lipsum[11]
+	Scanning in energy the high energy side of the PL in $\sigma+$ polarization, three sharp emissions can be seen on the low energy side. Those are presented in the inset of Fig.~\ref{LambdaLevel} (a), labelled (1), (2) and (3). These emissions are strongly $\sigma-$ polarized, cross-polarized with the excitation, with the exception of (1), which PL is unpolarized. Comparing laser energy to spectra, we see that those peaks appears when the laser is in resonance with specific QD peaks. To each of those peak, we can associate one emission, occurring at the energy of one of the low energy peak.
+	
+	This type of emission hint at the existence of $\Lambda$-level systems linking one excited state to two ground states. These systems arise for the structure of the e-Mn states. For a given excited state, we have $|M, M_z\rangle = \alpha |S_z\rangle |\uparrow\rangle + \beta |S_z - 1/2\rangle |\downarrow\rangle$. The first state recombine with the hole-Mn state $|S_z\rangle |\Downarrow\rangle$, emitting in $\sigma-$ polarization, while the $|S_z - 1/2\rangle |\downarrow\rangle$ recombine with $|S_z - 1/2\rangle |\Uparrow\rangle$, emitting in $\sigma+$ polarization. In the excited state, the system is able to go freely from one state to another via an electron-Mn flip-flop. This leads to the $\Lambda$-level structures we observed.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -128,7 +130,13 @@ The energy structure given by those hamiltonian is presented in Fig.~\ref{Comple
 	\label{LambdaLevel}
 	\end{figure}
 	
-	Using Fig.~\ref{Recomb}, we can assign each peak to a transition and therefore, for a given polarization, to an electron-Mn state.
+	Using Fig.~\ref{Recomb}, we can assign each peak to a transition and therefore, for a given polarization, to an electron-Mn state. They correspond, for a $\sigma+$ laser, to the successive resonant excitation of the electron-Mn levels $|3,+1\rangle$, $|3,+2\rangle$ and $|2,+2\rangle$. These states can be expressed as linear combinations of the Mn and electron spins $|S_z,\sigma_z\rangle$ coupled by a flip-flop:
+	\begin{align}
+		|3,+1\rangle=& \frac{1}{\sqrt{6}}(\sqrt{4}|+1/2,\uparrow_e\rangle+\sqrt{2}|+3/2,\downarrow_e\rangle)\\
+		|3,+2\rangle=& \frac{1}{\sqrt{6}}(\sqrt{5}|+3/2,\uparrow_e\rangle+\sqrt{1}|+5/2,\downarrow_e\rangle)\\
+		|2,+2\rangle=& \frac{1}{\sqrt{6}}(\sqrt{1}|+3/2,\uparrow_e\rangle-\sqrt{5}|+5/2,\downarrow_e\rangle)
+	\end{align}
+Those are illustrated on Fig.~\ref{LambdaLevel} (b).
 			
 	
 	\section{Spin dynamics under resonant excitation\label{SpinDyn}}
