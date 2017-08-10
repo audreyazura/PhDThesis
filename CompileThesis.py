@@ -18,7 +18,7 @@ commentStr = re.compile(r'^%')
 pictureStr = re.compile(r"Pictures/")
 addrStr = re.compile(r"\.\./")
 newlineStr = re.compile(r"\n")
-usepackageStr = re.compile(r'\\usepackage(\[[\w=,]{1,50}\])?\{')
+usepackageStr = re.compile(r'\\usepackage(\[[\w=,\{\}]{1,50}\])?\{')
 biblioStr = re.compile(r'[b,B]iblio')
 printbibStr = re.compile(r'\\printbiblio')
 bibresStr = re.compile(r'\\addbibres')
@@ -28,6 +28,7 @@ closebracStr = re.compile(r'\}')
 docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
+floatsetStr = re.compile(r'\\floatsetup')
 
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
@@ -50,6 +51,7 @@ for i in range(first,maxCount):
 					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line) || lipsumStr.search(line)))):
 						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
 						
+						#first file: we print all the package and add it to the package library
 						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
 							print(treatedLine, file=Thesis)
 							if usepackageStr.search(treatedLine):
@@ -58,7 +60,10 @@ for i in range(first,maxCount):
 #								print("Package added: " + package)
 								lastPack+=1
 								
-						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine)):
+						#for all other file, we ignore the header, but will have to test if a new package is introduced
+						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine) || floatsetStr.search(treatedLine)):
+							
+							#if we find a new package, we have to add it to the header and to the list of used package
 							if usepackageStr.search(treatedLine):
 								if not(any(s in line for s in packages)):
 									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
@@ -81,9 +86,11 @@ for i in range(first,maxCount):
 									mv copThesis.tex Thesis.tex
 									Thesis = open('Thesis.tex', 'a')
 							
+							#for the last file, we print all the line with the exception above, and have to not ignore the printbiblio and end{document}
 							elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
 								print(treatedLine, file=Thesis)
 							
+							#for all the other line in any file, we just ignore the printbiblio and end{document}, and print otherwise
 							elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
 								print(treatedLine, file=Thesis)
 				
