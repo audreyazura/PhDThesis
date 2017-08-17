@@ -14,6 +14,7 @@
 \usepackage{epstopdf}
 \usepackage{xcolor}
 \usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{lipsum}
 
 \addbibresource{../Bibliography.bib}
 \makeatletter
@@ -26,7 +27,13 @@
 
 %	The growth took place at Tsukuba University, in the team of Pr. Shinji Kuroda. The samples were grown with Molecular Beam Epitaxy (MBE) and Atomic Layer Epitaxy (ALE, for the QD layer), via individual Cd, Te, Zn, Mg and Cr cells. MBE and ALE are two complementary techniques for the growth of semiconductor device.
 	
-	The sample were grown using Molecular Beam Epitaxy (MBE). This technique consist of heating cells containing the pure elements which will formed the semiconductor in order to sublimate or evaporate them, such as presented on Fig \ref{MBEScheme}. Once the element is at the right temperature, the cell is opened and the gas can travel in the chamber with a ballistic trajectory. The mean free path of this gas is long compared to the size of the cells and the chamber, allowing the atoms to condensate on the substrate without interacting before. Once reaching the surface, the atoms diffuse on it before stopping, either having dissipated their kinetic through interaction with the surface, or (more commonly) being kept by island of previously deposited atoms. In the ideal case, the growth occur layer by layer, slowly (about 1 monolayer/s), giving a good control of the thickness of the grown material.	
+	\section{Generality on Molecular Beam Expitaxy}	
+	
+	The sample were grown using Molecular Beam Epitaxy (MBE). Cells of pure elements are heated to control their evaporation or until they reach sublimation. Those elements will formed the desired crystal on the substrate. They are kept in Knudsen cell, which consist of a crucibles of high-melting-point material with a low contaminating power (typically Pyrolytic Boron Nitride) wrapped in tungsten filament which will act as heater. Each are closed by a shutter controlled by a computer.
+	
+	Upon reaching the right temperature, said shutter is opened to let the element travel to the substrate. The the camber containing the substrate is kept in Ultra High Vacuum (about $10^{-8}$ Pa), in order to avoid contamination of the sample and get a mean free path of the gas long compared to distance to the sample. This process is illustrated on Fig.~\ref{MBEScheme}. Reaching the surface, the atoms diffuse before stopping, either having dissipated their kinetic through interaction with the surface, or (more commonly) being kept by island of previously deposited atoms. In the ideal case, the growth occur layer by layer, slowly (about 1 monolayer/s), giving a good control of the thickness of the grown material.
+		
+%	 This technique consist of heating cells containing the pure elements which will formed the semiconductor in order to sublimate or evaporate them, such as presented on Fig \ref{MBEScheme}. Once the element is at the right temperature, the cell is opened and the gas can travel in the chamber with a ballistic trajectory. The mean free path of this gas is long compared to the size of the cells and the chamber, allowing the atoms to condensate on the substrate without interacting before. Once reaching the surface, the atoms diffuse on it before stopping, either having dissipated their kinetic through interaction with the surface, or (more commonly) being kept by island of previously deposited atoms. In the ideal case, the growth occur layer by layer, slowly (about 1 monolayer/s), giving a good control of the thickness of the grown material.	
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -36,20 +43,22 @@
 	\label{MBEScheme}
 	\end{figure}
 	
-	Since MBE is a slow growth process, it ask for ultra-vacuum condition, in the order of $10^{-8}$ Pa, to avoid any contamination of the sample. Each raw material is contained in a Knudsen cell, which consist of a crucibles of high-melting-point material with a low contaminating power (typically Pyrolytic Boron Nitride) wrapped in tungsten filament which will act as heater. A small shutter close the container, and is controlled by computer along each recipe sequences.
+%	Since MBE is a slow growth process, it ask for ultra-vacuum condition, in the order of $10^{-8}$ Pa, to avoid any contamination of the sample. Each raw material is contained in a Knudsen cell, which consist of a crucibles of high-melting-point material with a low contaminating power (typically Pyrolytic Boron Nitride) wrapped in tungsten filament which will act as heater. A small shutter close the container, and is controlled by computer along each recipe sequences.
 	
-	This necessity of Ultra High Vacuum kept the MBE to be developed before the end of the 1960s \cite{FirstMBE}, although the the idea was formalized at the end of the 19th century. The good control on the growth this method offer make it really useful for the development of nanostructure and nanoscience. The deposition layer by layer give the possibility to grow really thin structure, and the transition between two materials can be really abrupt, on a few monolayer (ML). Growing nano-structure is still the main use of MBE. However, this method is mainly on research purpose, its slow growth speed and hard to fulfil growth conditions being an obstacle for the industrialization of the process.
+	This necessity of Ultra High Vacuum kept the MBE to be developed before the end of the 1960s \cite{FirstMBE}, although the the idea was formalized at the end of the 19th century. This method offers a good control on the growth, which make it useful for the development of nanostructure and nanoscience. The deposition layer by layer give the possibility to grow really thin structure, and the transition between two materials can be really abrupt, on a few monolayer (ML). Growing nano-structure is still the main use of MBE. However, this method is mainly on research purpose, its slow growth speed and hard to fulfil growth conditions being an obstacle for the industrialization of the process.
 	
-	Another mode of MBE were used during the growth of the samples: Atomic Layer Epitaxy (ALE) or Migration-Enhanced Epitaxy (MEE). In this mode, the opening and closing of the cells are controlled during the growth in order to deposit one element at a time, with some time between each opening for the surface to relax. For CdTe, which was used to grow our QDs layer, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle, which is a complete sequence of opening and closing of the cells \cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
+	Another mode of MBE is used during the growth of the samples: Atomic Layer Epitaxy (ALE) or Migration-Enhanced Epitaxy (MEE). In this mode, only one element is opened at a time, growing the sample really layer by layer. Between each opening, the sample is left under vacuum in order to relax the surface. For CdTe, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle~\cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
 	\newline
 	
-	In order to monitor each step of the growth, RHEED patterns of the sample surface were taken at different key moments. This technique require a high vacuum, a given since MBE ask for ultra-high vacuum condition, and the use of an electron gun able to produce high energy electron. The beam of the gun is sent at low angle, between 1$^{\circ}$ and 3$^{\circ}$, to the surface sample. This way, the electron will only probe the surface of the sample, entering the material only on a 3 or 4 ML. Therefore the detected pattern directly gives information on the flatness and the crystallinity of the surface. The detector, a CCD camera,  is set in order to collect only elastically scattered electrons.
+%	In order to monitor each step of the growth, RHEED patterns of the sample surface were taken at different key moments. 
+	The growth was monitored with RHEED (Reflexion High-Energy Electron Diffraction). This technique require a high vacuum, a given since MBE ask for ultra-high vacuum condition, and the use of an electron gun able to produce high energy electron. The beam of the gun is sent at low angle, between 1$^{\circ}$ and 3$^{\circ}$, to the surface sample. This way, the electron will only probe the surface of the sample, entering the material only on a 3 or 4 ML. Therefore the detected pattern directly gives information on the flatness and the crystallinity of the surface.
+%	The detector, a CCD camera,  is set in order to collect only elastically scattered electrons.
 	
-	Incident electron have a wave vector $\mathbf{k_i} = 2 \pi / \lambda_e$, with $\lambda_e$ is the electron wavelength, typically 6 or 7 pm for an electron gun energy between 30 and 40 kV. Since only scattered diffraction is considered, the diffracted wave vector $\mathbf{k_f}$ as the same norm as the incident one $\mathbf{k_i}$. So the Ewald's Sphere has a radius equal to the norm of $\mathbf{k_i}$. In the reciprocal space, the plane of diffraction are infinite line. So, in the case of a perfect crystal, with a a perfect detector, the intersection with Ewald's sphere should be points. However, since the crystal can have some defect and neither the gun or the detector are perfect, the diffracted pattern present line, such as visible on Fig.\ref{RHEEDStep}(b).
+	Incident electron have a wave vector $\mathbf{k_i} = 2 \pi / \lambda_e$, with $\lambda_e$ the electron wavelength, typically 6 or 7 pm for an electron gun energy between 30 and 40 kV. Since only scattered diffraction is considered, the diffracted wave vector $\mathbf{k_f}$ as the same norm as the incident one $\mathbf{k_i}$. So the Ewald's Sphere has a radius equal to the norm of $\mathbf{k_i}$. In the reciprocal space, the plane of diffraction are infinite line. So, in the case of a perfect crystal, with a a perfect detector, the intersection with Ewald's sphere should be points. However, since the crystal can have some defect and neither the gun or the detector are perfect, the diffracted pattern present line, such as visible on Fig.\ref{RHEEDStep}(b).
 	
-	Once dots are grown, though, the surface become rough at the scale of the length of coherence of the beam. Therefore, the reciprocal space of the crystal is not line anymore. The electron can interact with several more layer while passing through the dots. This can be seen on the diffraction pattern, where lines become points, such as shown on Fig.\ref{RHEEDStep}(e).
+	Once dots are grown, though, the surface become rough at the scale of the length of coherence of the beam. Therefore, the reciprocal space of the crystal is not line anymore. The electrons can interact with several more layer while passing through the dots. This can be seen on the diffraction pattern, where lines become points, such as shown on Fig.\ref{RHEEDStep}(e).
 	
-	Another use of the RHEED diffraction is the monitoring of the number of layer grown through ALE. Focusing on the lowest angle reflected spot, called the specular spot, one can see small variation in the reflected intensity during the growth, showing oscillation through, such as presented on Fig.\ref{RHEEDOsc}. This intensity is minimal when there is half a ML grown, and maximal when the ML is fully grown. This is due to the variation of reflectivity of the surface: maximal for a flat surface, minimal for a rough one. Therefore, a period of these oscillation is exactly the growth of a single monolayer \cite{FirstRHEED,WoodRHEED}. We can also see the relaxation of a layer, if the variation of intensity disappear at a point.
+	Another use of the RHEED diffraction is the monitoring of the number of layer grown through ALE. Focusing on the lowest angle reflected spot, called the specular spot, one can see small variation in the reflected intensity during the growth, showing oscillation through, such as presented on Fig.\ref{RHEEDOsc}. This intensity is minimal when there is half a ML grown, and maximal when the ML is fully grown. This is due to the variation of reflectivity of the surface: maximal for a flat surface, minimal for a rough one. Therefore, a period of these oscillation is exactly the growth of a single monolayer~\cite{FirstRHEED,WoodRHEED}. We can also see the relaxation of a layer, if the variation of intensity disappear at a point.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -70,6 +79,8 @@
 		The sample was grown on ZnTe(100) substrates. We prepared the substrate by deosoxidizing them through an etching process. It was done in four steps. All of them, except the etching in Bromure-ethanol, occur in an ultrasonic cleaning device vibrating the sample at 43kHz and last 3 minutes. We began with  cleaning in acetone, followed by one in ethanol. The third step was the actual etching: the substrate was put in a solution of Bromure-ethanol, with 3\% of Bromure, during 1 minute. We finally rinsed it in methanol. Once rinsed, we keep the sample in ethanol until fixing them to the sample holder. The growth usually occur the day after the cleaning.
 	
 	\subsection{Strained dots growth\label{SKGrowth}}
+	
+%/!\WRITE THAT 1 CYCLE = Cd open / close / Te open / close / Cd open / close / Te open / close /!\	
 	
 	Before beginning the actual growth, after we entered the sample in the main chamber, we had to heat the cells and the sample, and to do the flux calibration for each cell. The targeted flux and heating speed are presented in Tab.\ref{FluxTempSK} for each cell used during the growth of strained QDs. 
 	
@@ -106,7 +117,6 @@
 	
 	One of the main difficulty of this work was to calibrate the Cr flux in order to trap only a single Cr atom in most of the QDs of the sample. To achieve so, the Cr density must be of the same order as the QDs density at the surface of the sample. This means a really small flux, with a BEP of some $10^{-10}$ Torr, which is about one order lower than the main chamber pressure and therefore not measurable with our technique. The optimisation was done starting with the know how acquired in Grenoble on the Mn and trying to optimise it for the Tsukuba machine, through a feedback loop with the micro-PL characterization in Grenoble.
 
-	
 	This really small flux was achieve by heating the Cr cell around 1000K, low compared to its sublimation temperature, and opening the cell only once during the ALE, for only 5s. In order to have big enough QDs, emitting at right wavelengths, we needed 6.5 ML of CdTe. Going above this number will create dislocation and defects in the layer, preventing it to relax correctly to form the QDs. To do so, we had to do 13 cycles of Cd and Te cells opening, since each cycle grew half a layer. However, these 6.5 ML of CdTe don't relax naturally: we had to deposit Te above and evaporate before seeing the formation of the dots \cite{TinjodMBE}. The Cr cells was opened during the 7th cycle, halfway through the growth of the QD layer, in order to allow the Cr atoms to diffuse without going out the QD layers. The whole ALE recipe to grow the QDs layer is given in the Fig.\ref{RecipeSK}.
 	
 	\begin{figure}[h!]
@@ -117,20 +127,24 @@
 	\label{RecipeSK}
 	\end{figure}
 
-	Once the ALE was finished, we lowered the substrate temperature to $90^{\circ}$C to deposit the Te layer which formed the dots. It was deposited during 5 minutes. We then heated up the substrate again until $200^{\circ}$C, were we stayed for 20s in order to evaporate all the deposited Te \cite{WojnarMBE}. If the dots were formed, we saw a spotty pattern like the one presented on Fig.\ref{RHEEDStep} (f). The Zn and Te cells were then opened, while the substrate temperature was raised to $240^{\circ}$C in order to grow a protective layer about $350$ nm thick above the QDs.
+	Once the ALE was finished, we lowered the substrate temperature to $90^{\circ}$C to deposit the Te layer which formed the dots. It was deposited during 5 minutes. We then heated up the substrate again until $200^{\circ}$C, were we stayed for 20s in order to evaporate all the deposited Te~\cite{WojnarMBE}. If the dots were formed, we saw a spotty pattern like the one presented on Fig.~\ref{RHEEDStep} (f). The Zn and Te cells were then opened, while the substrate temperature was raised to $240^{\circ}$C in order to grow a protective layer about $350$ nm thick above the QDs.
 	
 	\section{Other kind of samples}
 		\subsection{Charge control samples\label{ChargedSample}}	
 		
-	\lipsum[1]	
+	Charge control samples are pretty straightforward. Instead of growing the sample on a non-doped ZnTe substrate, we do the growth on p-doped ZnTe substrate. Same steps are followed, but with thinner buffer and cap layers, in order to have a stronger electric on the dot layer. We chose to do both about 150 nm thick, calibrating with the ZnTe growth speed calculated via the RHEED oscillations.
 		
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=10cm]{../FillingPicture.png}
 	\end{center}
-	\caption{Sample with Schottky gate & micro-lens}
+	\caption{Sample with Schottky gate and table of resistance versus gold thickness}
 	\label{Schottky}
 	\end{figure}
+	
+	Once the growth were finished, a thin, semi-transparent gold layer is deposited by sputtering. The samples are kept in nitrogen atmosphere during the transport. The exposition time of the sample in the sputtering machine was calibrated using gold deposited on GaAs substrate. Resistance of the gold layer was measured, and we chose the thinner thickness were we had a good conduction in the layer. Results are presented in Fig.~\ref{Schottky}. We chose an exposition time of 35 s.
+	
+	\subsubsection*{Results}
 	
 	\lipsum[2]
 	
@@ -142,7 +156,7 @@
 	\label{ChargeVar}
 	\end{figure}
 	
-	\lipsum[3]
+	The production of charged control samples was a success, and we could control the charge state of the dots found in. However, no Cr doped quantum were found. Some dots with Cr close to them were found. These are discussed in more in Sec.~\ref{ChargeFluc}.
 	
 		\subsection{Strain-free quantum dots\label{SFD}}
 		
@@ -211,6 +225,18 @@ The recipe is described in Fig.\ref{RecipeSFD}.
 	\label{RecipeSFD}
 	\end{figure}
 We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
+
+	\subsubsection*{Results}
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{../FillingPicture.png}
+	\end{center}
+	\caption{Example of dot fin in SFD}
+	\label{ChargeVar}
+	\end{figure}
+	
+	The sample presented thin and intense peaks. It hints at a better confinement of the carrier in the quantum than what have been expected from dots formed by the thickness variation of a quantum well. We tried to incorporate Cr in next samples, but no Cr-doped quantum dot were found in micro-spectroscopy. This is one kind of sample we should try to grow again in the future.
 
 \printbibliography
 
