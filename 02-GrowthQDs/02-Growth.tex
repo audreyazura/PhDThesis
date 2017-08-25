@@ -15,6 +15,7 @@
 \usepackage{xcolor}
 \usepackage[backend=biber,style=phys]{biblatex}
 \usepackage{lipsum}
+\usepackage[capbesideposition={right,center}]{floatrow}
 
 \addbibresource{../Bibliography.bib}
 \makeatletter
@@ -23,9 +24,11 @@
 
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
+\floatsetup[table]{style=plaintop}
+
 \begin{document}
 
-\chapter{Growth of the samples\label{Growth}}
+\chapter{Growth of Cr-doped CdTe quantum dots\label{Growth}}
 
 %	The growth took place at Tsukuba University, in the team of Pr. Shinji Kuroda. The samples were grown with Molecular Beam Epitaxy (MBE) and Atomic Layer Epitaxy (ALE, for the QD layer), via individual Cd, Te, Zn, Mg and Cr cells. MBE and ALE are two complementary techniques for the growth of semiconductor device.
 
@@ -94,7 +97,6 @@
 			\hline
 			Elements & Targeted BEP (Torr) \\ \hline
 			Cd & $4.5\times10^{-7}$ \\
-			Cr & N/A \\
 			Te & $4.5\times10^{-7}$ \\
 			Zn & $6.8\times10^{-7}$ \\
 			\hline
@@ -133,11 +135,9 @@
 	
 	\subsection{Results}
 	
-%	\lipsum[1]
-	
 	\begin{table}
 		\begin{center}
-			\caption{List of samples where Cr was found.}
+			\caption{List of samples where Cr was found.\label{Sksamples}}
 			\begin{tabular}{M{2cm}|M{3cm}|M{3cm}|M{2cm}|M{3.5cm}}
 				Sample & Type & Cleaning process & # CdTe MLs & Cr aimed concentration (\%) \\
 				\hline
@@ -145,30 +145,39 @@
 				dot359 & Br etching & Strained dots & 6.5 & 0.11 \\
 				dot363 & Br etching & Strained dots & 6.5 & 0.21 \\
 				dot383 & Br etching & Strained dots & 5.5 & 0.19 \\
-				dot385 & Br etching & Strained dots & 5.5 & 0.17 \\
-				dot390 & H$^*$ plasma & Charge control & 5.5 & 0.16
+				dot385 & Br etching & Strained dots & 5.5 & 0.17
 			\end{tabular}
 		\end{center}
 	\end{table}
+	
+	\lipsum[1-2]
 	
 	\section{Other kind of samples}
 		\subsection{Charge control samples\label{ChargedSample}}	
 		
 	Charge control samples are pretty straightforward. Instead of growing the sample on a non-doped ZnTe substrate, we do the growth on p-doped ZnTe substrate. Same steps are followed, but with thinner buffer and cap layers, in order to have a stronger electric on the dot layer. We chose to do both about 150 nm thick, calibrating with the ZnTe growth speed calculated via the RHEED oscillations.
-		
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{Sample with Schottky gate and table of resistance versus gold thickness}
-	\label{Schottky}
-	\end{figure}
 	
-	Once the growth were finished, a thin, semi-transparent gold layer is deposited by sputtering. The samples are kept in nitrogen atmosphere during the transport. The exposition time of the sample in the sputtering machine was calibrated using gold deposited on GaAs substrate. Resistance of the gold layer was measured, and we chose the thinner thickness were we had a good conduction in the layer. Results are presented in Fig.~\ref{Schottky}. We chose an exposition time of 35 s.
+	Once the growth were finished, a thin, semi-transparent gold layer is deposited by sputtering. The samples are kept in nitrogen atmosphere during the transport. The exposition time of the sample in the sputtering machine was calibrated using gold deposited on GaAs substrate. Resistance of the gold layer was measured. Results are presented in Fig.~\ref{AuDep}. In order to keep a collection of the light emitted by the quantum, a thin layer was necessary. However, we also needed a gold layer thick enough to cover the entire surface of the sample. These considerations lead us to chose a deposition time of 35 s.
+	
+	\begin{table}
+%		\begin{center}
+			\fcapside{\caption{Measured conductivity of the Au layer on GaAs for different deposition time.}\label{AuDep}}
+			{\begin{tabular}{M{3cm}|M{2cm}}
+				Gold deposition time (s) & Resistance ($\Omega$) \\
+				\hline
+				15 & 300 \\
+				20 & 80 \\
+				25 & 25 \\
+				30 & 20 \\
+				35 & 0 \\
+				60 & 0
+			\end{tabular}}
+%		\end{center}
+	\end{table}
 	
 	\subsubsection*{Results}
 	
-	\lipsum[2]
+	\lipsum[1]
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -178,7 +187,7 @@
 	\label{ChargeVar}
 	\end{figure}
 	
-	The production of charged control samples was a success, and we could control the charge state of the dots found in. However, no Cr doped quantum were found. Some dots with Cr close to them were found. These are discussed in more in Sec.~\ref{ChargeFluc}.
+	Only one charged sample containing Cr atoms was grown: dot390. It was cleaned by H$^*$ plasma. The QD layer was 5.5 ML thick and the Cr concentration was aimed to be 0.16\%. However, no Cr doped quantum dots were found. Some dots presenting a emission close to the one expected for Cr atoms were found, but they were revealed to not have any magnetic atom inside. These are discussed in more in Sec.~\ref{ChargeFluc}.
 	
 		\subsection{Strain-free quantum dots\label{SFD}}
 		
@@ -192,36 +201,22 @@
 %		
 %		Once the cleaning process is finished, we began the growth of the thick layer of CdTe. We began by a very thin layer of ZnTe in order to relaxed some of the strain. Staying at T$_{substrate} = 400^{\circ}$C, we first opened the Zn cell for 30s, then opened both Zn and Te cells for 50s, before closing again Te cell. We then go down to T$_{substrate} = 250^{\circ}$C under Zn flux and, once the temperature was stabilized, closed the Zn cell and proceeded to the CdTe layer growth, during 1h. Finally, once this layer was grown, we protected it from oxidation by adding a thin layer of Te while the substrate temperature was going down to $5^{\circ}$C.
 %		
-		The barrier for strain free samples are made of CdTe. The chosen substrate for the growth was GaAs, on which we grew a layer of about 3 $\mu$m of CdTe. Growing such a thick layer guaranty that the remaining strain are in the order of $0.1\%$ \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. Moreover, a small ZnTe layer was grown between GaAs and CdTe, which accelerated the relaxation of the strains \cite{StrainRelaxZnTeGaAs001}.
-		
-		For this sample, only a simple cleaning occur outside of the MBE machine. We did it in four steps, each of them lasting for 5 minutes in an ultrasonic cleaning device. We began with a cleaning acetone, at 43 kHz, followed by one in ethanol at the same frequency. We then put the substrate in water and clean it at 43 kHz. Finally, we changed the water and did the last step in water at 23 kHz, in order to clean the substrate from smaller dust particle.
-		
-		Since the surface of the GaAs is oxidized, no RHEED pattern was visible, as shown on Fig \ref{Hybrid}(a). The desoxidation was done in the MBE main chamber, in vacuum condition, using hydrogen radical (H$^*$). In order to form the radical gas, a hydrogen gas was ionized in a chamber by a RF power source of 300 W and with a frequency of 13.6 MHz. This gas composition is optically checked by probing the emission of the Balmer serie: for a pure hydrogen gas, peaks at 656 nm and 486 nm appear clearly. During the formation of this gas, the substrate temperature is raised to $400^{\circ}$C. Once the hydrogen chamber is full of H$^*$ gas, we initiate the rotation of the sample. Since the chamber was situated just under the main and linked to her, we just had to open the shutter between the two to send the radical gas onto the substrate. We exposed the substrate to this gas for 15 minutes, under a pressure of about $6\times10^{-7}$ Torr. We then checked the sample surface with RHEED, which should present a streak pattern with some dots as presented in Fig \ref{Hybrid}(b). 
-		
-		Once the cleaning of the sample was finished, we closed the H$^*$ gas chamber shutter, waited for the ultra-high vacuum to re-established in the main chamber and began the growth of the CdTe layer. We grew it in two times: one hour of growth just after the cleaning (described here) and about four hours just before the actual growth of  the quantum dots structure.
-		
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=14cm]{Pictures/HybridSubstrate.eps}
-	\end{center}
-	\caption{Left: Layer structure of the hybrid substrate with its protective Te cap.
-		Right: RHEED pattern taken at different key moment of the growth: (a) before H$^*$ cleaning of GaAs, (b) after H$^*$ cleaning of GaAs, (c) after the growth of the ZnTe layer, (d) after the growth of the CdTe layer.}
-	\label{Hybrid}
-	\end{figure}
-		
-		This first part of the growth took place on a rotating sample. It only take about 15 ML of ZnTe on GaAs for the II-VI compound go back to its original lattice parameter \cite{StrainRelaxZnTeGaAs001}. Moreover, CdTe over ZnTe has a critical thickness of 5 ML \cite{CritThickCdTeZnTe}. So, to accelerate the relaxation of strain, we decided to grow a thing layer of ZnTe above the GaAs, before growing the CdTe thick layer. We lowered the substrate temperature to $320^{\circ}$C and opened the Zn cells for 30s with a BEP of $7.05\times10^{-7}$ Torr in order to flatten the surface. We then opened the Te cells, with a BEP of $5.21\times10^{-7}$ Torr, along with the Zn cell during 50s to grow the ZnTe layer in excess of Zn, making a layer about 7.2 nm thick.
-		
-		We then went to the growth of the first CdTe layer. We lowered again the substrate temperature to $250^{\circ}$C, under Zn flux. Once stabilized at the temperature, we closed Zn cells and open the Cd and Te cells for 1h. The Te cell had the same flux as previously, while the Cd cells had a flux of $4.72\times10^{-7}$ Torr. This layer was 633 nm thick, grown at 0.54 ML.s$^{-1}$. In order to protect the surface, we deposit an amorphous protective layer of Te above it, while decreasing the substrate temperature.
-		
-	As said in the introduction, the strain free dots are formed by thickness variation of a CdTe QW surrounded by CdMgTe barrier. In order to have to good confinement while keeping a close enough lattice constant, we chose to use Cd$_{0.7}$Mg$_{0.3}$Te. Therefore, the first step of the growth was to chose the flux for the growth. We went through a process of trial and error, growing several samples and testing their composition with Electron Probe Mico-Analysis and X-Ray diffraction, as well as the thickness grown with a step gauge, in order to estimate the growth speed. Since we wanted to grow Cd$_{0.7}$Mg$_{0.3}$Te, we began the test with a ration Te:Cd of 1:0.7 and a ratio Te:Mg of 1:0.3. After five round of adjustment, we achieve the growth of Cd$_{0.7}$Mg$_{0.3}$Te, settling with the targeted flux presented in Tab.\ref{FluxTempSFD}.
-	For the settled Mg flux, the step gauge indicated a grown thickness of $520 \pm 5$ nm. Since we grew the test layer during 1h, we found a growing speed of about 0.15 nm.s$^{-1}$.
+%		For this sample, only a simple cleaning occur outside of the MBE machine. We did it in four steps, each of them lasting for 5 minutes in an ultrasonic cleaning device. We began with a cleaning acetone, at 43 kHz, followed by one in ethanol at the same frequency. We then put the substrate in water and clean it at 43 kHz. Finally, we changed the water and did the last step in water at 23 kHz, in order to clean the substrate from smaller dust particle.
+%		
+%		Since the surface of the GaAs is oxidized, no RHEED pattern was visible, as shown on Fig \ref{Hybrid}(a). The desoxidation was done in the MBE main chamber, in vacuum condition, using hydrogen radical (H$^*$). In order to form the radical gas, a hydrogen gas was ionized in a chamber by a RF power source of 300 W and with a frequency of 13.6 MHz. This gas composition is optically checked by probing the emission of the Balmer serie: for a pure hydrogen gas, peaks at 656 nm and 486 nm appear clearly. During the formation of this gas, the substrate temperature is raised to $400^{\circ}$C. Once the hydrogen chamber is full of H$^*$ gas, we initiate the rotation of the sample. Since the chamber was situated just under the main and linked to her, we just had to open the shutter between the two to send the radical gas onto the substrate. We exposed the substrate to this gas for 15 minutes, under a pressure of about $6\times10^{-7}$ Torr. We then checked the sample surface with RHEED, which should present a streak pattern with some dots as presented in Fig \ref{Hybrid}(b). 
+%		
+%		Once the cleaning of the sample was finished, we closed the H$^*$ gas chamber shutter, waited for the ultra-high vacuum to re-established in the main chamber and began the growth of the CdTe layer. We grew it in two times: one hour of growth just after the cleaning (described here) and about four hours just before the actual growth of  the quantum dots structure.
+
+%	The barrier for strain free samples are made of CdTe. The chosen substrate for the growth was GaAs, on which we grew a layer of about 3 $\mu$m of CdTe. Growing such a thick layer guaranty that the remaining strain are in the order of $0.1\%$ \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. Moreover, a small ZnTe layer was grown between GaAs and CdTe, which accelerated the relaxation of the strains \cite{StrainRelaxZnTeGaAs001}.
+	
+	Strain-free quantum dots are formed by the thickness fluctuations of a CdTe quantum well in Cd$_x$Mg$_{1-x}$Te barriers. These fluctuations form steps localizing the carrier, acting as QDs. The higher the Cd concentration will be, the closer the lattice parameter will be, but it will also reduce the gap energy difference, reducing the confinement. The best strain to confinement ratio was found for CdTe QW in Cd$_{0.7}$Mg$_{0.3}$Te. The needed flux for this growth are shown in Tab.~\ref{FluxTempSFD}.
+	
 	\begin{table}[h!]
 	\begin{center}		
 		\begin{tabular}{| c | c |}
 			\hline
 			Elements & Targeted BEP (Torr) \\ \hline
 			Cd & $4.5\times10^{-7}$ \\
-			Cr & N/A \\
 			Mg & $1.6\times10^{-8}$ \\
 			Te & $5.26\times10^{-7}$ \\
 			\hline
@@ -231,28 +226,48 @@
 	\end{center}
 	\end{table}
 	
-	We began to heat the substrate temperature to 180$^{\circ}$, in order to remove the protective amorphous Te layer. We waited a few second at this temperature to remove all the deposited Te, and then resumed the heating to go to $250^{\circ}$C. Starting at $200^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $250^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m layer of CdTe, in order to reach the thickness of the relaxation of strains for CdTe/GaAs \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}.
-	
-	In order to be sure that there will be no relaxation in the quantum, we choose to stick to the maximum cumulated thickness of the CdTe on a CdZnTe lattice, which has been shown to be lower than the one of CdTe on a CdMgTe lattice. This correspond to a maximum cumulated thickness of 130 nm \cite{CritThickCdTeCdZnTe}. We chose to grow 40 nm below the QW, and 90 nm above it, in order to have a thicker protective layer.
-%Moreover, it was shown on Mn that a thick layer above was better for the hole trapping.
+	The strain-free sample were grown on an hybrid substrate. The substrate was made from a GaAs substrate, cleaned using H$^*$ plasma. We grew on it a CdTe layer of about 3 $\mu$m, in order to recover the lattice parameter and not have defect close to the surface. With this thickness, the remaining strain in the layer should be of about $0.1\%$~\cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. A thin layer (about 7 nm) of ZnTe was grown between the GaAs and the CdTe in order to help the relaxation of strains~\cite{StrainRelaxZnTeGaAs001}. The RHEED taken after the growth of the CdTe layer (Fig.~\ref{Hybrid} (d)) shows sharp straight line, hinting at the recovery of a flat surface. A protective layer of amorphous Te was grown on the surface to keep it from being damaged outside the MBE chamber. It was removed at the beginning of the growth by evaporation.
 
-	Once the 40 nm barrier layer was grown, we lowered the substrate temperature under Te flux. Growing the QW layer in a Te environment smooth the surface layer of the sample and help having a flat surface to grow the well. Once the substrate temperature reach respectively $180^{\circ}$C (unmarked) or $195^{\circ}$C (marked), we began the ALE of the QW.
-[insert explication on the Cr SFD ALE here]
-The recipe is described in Fig.\ref{RecipeSFD}.
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14cm]{Pictures/RecipeSFD.eps}
+		\includegraphics[width=14cm]{Pictures/HybridSubstrate.eps}
 	\end{center}
-	\caption{Opening and closing cycles of each cell for the ALE of strain free (Cd,Cr)Te samples. (not accurate - 12/2015)}
+	\caption{Left: Layer structure of the hybrid substrate with its protective Te cap.
+		Right: RHEED pattern taken at different key moment of the growth: (a) before H$^*$ cleaning of GaAs, (b) after H$^*$ cleaning of GaAs, (c) after the growth of the ZnTe layer, (d) after the growth of the CdTe layer.}
+	\label{Hybrid}
+	\end{figure}
+		
+%		This first part of the growth took place on a rotating sample. It only take about 15 ML of ZnTe on GaAs for the II-VI compound go back to its original lattice parameter \cite{StrainRelaxZnTeGaAs001}. Moreover, CdTe over ZnTe has a critical thickness of 5 ML \cite{CritThickCdTeZnTe}. So, to accelerate the relaxation of strain, we decided to grow a thing layer of ZnTe above the GaAs, before growing the CdTe thick layer. We lowered the substrate temperature to $320^{\circ}$C and opened the Zn cells for 30s with a BEP of $7.05\times10^{-7}$ Torr in order to flatten the surface. We then opened the Te cells, with a BEP of $5.21\times10^{-7}$ Torr, along with the Zn cell during 50s to grow the ZnTe layer in excess of Zn, making a layer about 7.2 nm thick.
+%		
+%		We then went to the growth of the first CdTe layer. We lowered again the substrate temperature to $250^{\circ}$C, under Zn flux. Once stabilized at the temperature, we closed Zn cells and open the Cd and Te cells for 1h. The Te cell had the same flux as previously, while the Cd cells had a flux of $4.72\times10^{-7}$ Torr. This layer was 633 nm thick, grown at 0.54 ML.s$^{-1}$. In order to protect the surface, we deposit an amorphous protective layer of Te above it, while decreasing the substrate temperature.
+		
+%	As said in the introduction, the strain free dots are formed by thickness variation of a CdTe QW surrounded by CdMgTe barrier. In order to have to good confinement while keeping a close enough lattice constant, we chose to use Cd$_{0.7}$Mg$_{0.3}$Te. Therefore, the first step of the growth was to chose the flux for the growth. We went through a process of trial and error, growing several samples and testing their composition with Electron Probe Mico-Analysis and X-Ray diffraction, as well as the thickness grown with a step gauge, in order to estimate the growth speed. Since we wanted to grow Cd$_{0.7}$Mg$_{0.3}$Te, we began the test with a ration Te:Cd of 1:0.7 and a ratio Te:Mg of 1:0.3. After five round of adjustment, we achieve the growth of Cd$_{0.7}$Mg$_{0.3}$Te, settling with the targeted flux presented in Tab.\ref{FluxTempSFD}.
+%	For the settled Mg flux, the step gauge indicated a grown thickness of $520 \pm 5$ nm. Since we grew the test layer during 1h, we found a growing speed of about 0.15 nm.s$^{-1}$.
+	
+	We began to heat the substrate temperature to 180$^{\circ}$, in order to remove the protective amorphous Te layer. We waited a few second at this temperature to remove all the deposited Te, and then resumed the heating to go to $250^{\circ}$C. Starting at $200^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $250^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m layer of CdTe, in order to be as close as possible of a total lattice parameter recovery ~\cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}.
+	
+	We grew the first Cd$_{0.7}$Mg$_{0.3}$Te barrier on this buffer layer. In order to be sure that there will be no relaxation in the quantum well, we choose to stick to the maximum cumulated thickness of the CdTe on a CdZnTe lattice, which has been shown to be lower than the one of CdTe on a CdMgTe lattice. This correspond to a maximum cumulated thickness of 130 nm \cite{CritThickCdTeCdZnTe}. We chose to grow 40 nm below the QW, and 90 nm above it, in order to have a thicker protective layer.
+%Moreover, it was shown on Mn that a thick layer above was better for the hole trapping.
+
+	Once the 40 nm barrier layer was grown, we lowered the substrate temperature under Te flux. Growing the QW layer in a Te environment smooth the surface layer of the sample and help having a flat surface to grow the well. Once the substrate temperature reach respectively $170^{\circ}$C, we began the ALE of the QW. Two QW thickness was tested: either 4 ML or 2 ML. In both case, the growth was done growing CdTe layer as done for the strained sample, opening the Cr cell for 3 s for one cycle every two cycle. The whole recipe is described in Fig.\ref{RecipeSFD}.
+
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{Pictures/RecipeSFD.eps}
+	\end{center}
+	\caption{Opening and closing cycles of each cell for the ALE of strain free (Cd,Cr)Te samples.}
 	\label{RecipeSFD}
 	\end{figure}
-We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
+	
+	We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
 
 	\subsubsection*{Results}
 	
+	Four sample of strain-free dots doped with Cr were produced, listed in Tab.~\ref{SFDsamples}.
+	
 	\begin{table}
 		\begin{center}
-			\caption{List of sample grown trying to incorporate Cr in SFD dots.}
+			\caption{List of sample grown trying to incorporate Cr in SFD dots.\label{SFDsamples}}
 			\begin{tabular}{M{2cm}|M{2cm}|M{3.5cm}|M{3cm}}
 				Sample & # CdTe MLs & Cr aimed concentration (\%) & Probability of Cr-doped QD \\
 				\hline
@@ -265,15 +280,19 @@ We then raised the substrate temperature up to $250^{\circ}$C, under a Te flux, 
 		\end{center}
 	\end{table}
 	
-	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
-	\end{center}
-	\caption{Example of dot fin in SFD}
-	\label{ChargeVar}
-	\end{figure}
+%	\begin{figure}[h!]
+%	\begin{center}
+%		\includegraphics[width=10cm]{../FillingPicture.png}
+%	\end{center}
+%	\caption{Example of dot fin in SFD}
+%	\label{ChargeVar}
+%	\end{figure}
 	
-	The sample presented thin and intense peaks. It hints at a better confinement of the carrier in the quantum than what have been expected from dots formed by the thickness variation of a quantum well. We tried to incorporate Cr in next samples, but no Cr-doped quantum dot were found in micro-spectroscopy. This is one kind of sample we should try to grow again in the future.
+	The sample presented thin and intense peaks. It hints at a better confinement of the carriers in the QDs than what have been expected from dots formed by the thickness variation of a quantum well. This may be caused by higher steps than expected at the CdTe/Cd$_{0.7}$Mg$_{0.3}$Te interface.
+	
+	As discussed in Sec.~\ref{XMn}, the presence of a magnetic atom split the emission of the exciton into several peaks, the number depending on the spin of the magnetic atom. However, such complex wasn't found in the strain-free samples. It may be caused by the the absence of static Jahn-Teller effect. In strain dots, this effect increase the probability of the Chromium to have a quantization axis the growth axis, $z$, making the splitting visible in our experimental setup. Without strain, the Jahn-Teller effect doesn't discriminate anymore between the three different axis, and thus the Chromium spin might have a quantization axis along the $x$ or $y$. In this case, no splitting are visible for the quantum dot in our experimental setup, and the magnetic atom goes undetected.
+	
+	In order to counter that, it was proposed to slightly strain the quantum well. This might be done by incorporating a low density of Zn in the Cd$_{0.7}$Mg$_{0.3}$Te barrier. The strains created this way should be enough to increase the probability of quantization along the $z$ axis, while staying negligible in regard of the Cr spin energy structure and dynamics. Such samples should be grown in the near future.
 
 \printbibliography
 
