@@ -53,8 +53,9 @@
 %	Since MBE is a slow growth process, it ask for ultra-vacuum condition, in the order of $10^{-8}$ Pa, to avoid any contamination of the sample. Each raw material is contained in a Knudsen cell, which consist of a crucibles of high-melting-point material with a low contaminating power (typically Pyrolytic Boron Nitride) wrapped in tungsten filament which will act as heater. A small shutter close the container, and is controlled by computer along each recipe sequences.
 	
 	This necessity of Ultra High Vacuum kept the MBE to be developed before the end of the 1960s \cite{FirstMBE}, although the the idea was formalized at the end of the 19th century. This method offers a good control on the growth, which make it useful for the development of nanostructure and nanoscience. The deposition layer by layer give the possibility to grow really thin structure, and the transition between two materials can be really abrupt, on a few monolayer (ML). Growing nano-structure is still the main use of MBE. However, this method is mainly on research purpose, its slow growth speed and hard to fulfil growth conditions being an obstacle for the industrialization of the process.
-	
-	Another mode of MBE is used during the growth of the samples: Atomic Layer Epitaxy (ALE) or Migration-Enhanced Epitaxy (MEE). In this mode, only one element is opened at a time, growing the sample really layer by layer. Between each opening, the sample is left under vacuum in order to relax the surface. A full cycle correspond to opening each cell once. For CdTe, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle~\cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
+
+	CdTe growth in MBE is \emph{auto-regulated}: if only one element is open, only a given quantity of material will be deposited and then the growth will stop until the other element is also deposited. The deposited quantity of material before the growth stop depends only on the substrate temperature. This allows us to achieve a really fine control of the growth using the MBE mode called Atomic Layer Epitaxy (ALE) or 	Migration-Enhanced Epitaxy (MEE). In this mode, only one element is opened at a time, growing the sample really layer by layer. Between each opening, the sample is left under vacuum in order to relax the surface. A full cycle correspond to opening each cell once. For CdTe, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle~\cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
+%	Another mode of MBE is used during the growth of the samples: Atomic Layer Epitaxy (ALE) or Migration-Enhanced Epitaxy (MEE). In this mode, only one element is opened at a time, growing the sample really layer by layer. Between each opening, the sample is left under vacuum in order to relax the surface. A full cycle correspond to opening each cell once. For CdTe, a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C guaranty a growth of only 0.5 ML for each cycle~\cite{HMarALE}. This allow a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
 	\newline
 	
 %	In order to monitor each step of the growth, RHEED patterns of the sample surface were taken at different key moments. 
@@ -106,7 +107,7 @@
 	\end{center}
 	\end{table}
 	
-	The CdTe quantum dots was grown using ALE. When the sample is exposed to either Cd or Te, only one atomic layer will be deposited under each flux: we call this \emph{auto-regulated} growth. The flux for both of the compound are therefore chosen to be the same~\cite{HMarALE}. 
+	As previously stated, the CdTe quantum dots was grown using ALE. In this mode, the flux of the elements does not affect the quantity of element deposited at each cycle, as long as their flux is high enough to complete the maximal thickness for the chosen substrate temperature. Therefore, the flux for both of the compounds are therefore chosen to be the same~\cite{HMarALE}. 
 	
 	Beginning the growth, the substrate temperature was initially raised to $320^{\circ}$C. The Zn cell shutter was open starting at $250^{\circ}$C, in order to flatten the surface for the growth. While it took several minutes to raise the substrate temperature, only one Zn layer was deposited due to the auto-regulation of the growth. When the substrate temperature reach $320^{\circ}$C, the Te shutter was also open, in order to grow the ZnTe buffer layer. This thick ZnTe layer guaranteed us to the best possible surface for the growth of the QD layer~\cite{ChangZnTe}. Once done, we set up the RHEED, growing a few more ZnTe level while searching the specular spot. The substrate temperature was then lowered to $170^{\circ}$C, the Zn cell being open until the temperature reach $250^{\circ}$C.
 	
@@ -181,7 +182,7 @@
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10cm]{../FillingPicture.png}
+		\includegraphics[width=13.8cm]{Pictures/MapEfield.eps}
 	\end{center}
 	\caption{Example of charge variation}
 	\label{ChargeVar}
