@@ -8,7 +8,7 @@ rm Thesis.tex
 echo 'Old Thesis.tex deleted'
 
 first = 1
-maxCount = 6
+maxCount = 5
 
 packages = []
 lastPack = 2
