@@ -32,7 +32,7 @@
 	
 	\section{Resonant optical pumping and spin dynamics in a Cr doped QD}
 	
-		\subsection{Resonant optical pumping of the Cr spin}
+		\subsection{Resonant optical pumping of the Cr spin\label{ResOptPump}}
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 		
@@ -44,7 +44,7 @@
 	\label{PumpPres}
 	\end{figure}
 	
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	To initialize and read-out the Cr spin, we developed a two wavelengths pump-probe experiment. A circularly polarized single mode laser (\emph{resonant pump}) tuned on a X-Cr level is used to pump the Cr spin (i.e., empty the spin state under resonant excitation). Then, a second laser, tuned on an excited state of the QD (\emph{quasi-resonant probe}), injects excitons independently of the Cr spin $S_z$ and drives the Cr to an effective spin temperature where the three ground states $S_z=0$,$\pm1$ are populated \cite{LafuenteCrQD}. By recording the PL of a X-Cr lines in circular polarization under this periodic sequence of excitation, we can monitor the time evolution of the population of a given Cr spin state.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -58,13 +58,21 @@
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14.7cm]{Pictures/PumpResults.eps}
+		\includegraphics[width=10cm]{Pictures/PumpResults.png}
 	\end{center}
 	\caption{(a) PL transients recorded in circular polarization on line (3) and on line (4) (as defined in the inset) under the resonant (pump on (1)) and quasi-resonant (probe at $E_{exc.}\approx 2068$ meV) optical excitation sequences displayed at the bottom. Inset: PL of X-Cr and configuration of the resonant excitation and detection. (b) and (c): Energy detuning dependence of resonant PL intensity ($I_1$, at the beginning and $I_2$, at the end of the pump pulse) and of the corresponding normalized amplitude of pumping transient $\Delta I/I_2 = (I_1-I_2)/I_2$.}
 	\label{PumpingExp}
 	\end{figure}		
 		
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	The main features of the optical pumping experiment are presented in Fig.~\ref{PumpingExp}(a). The QD is excited on the high energy state of X-Cr with $\sigma-$ photons (X-Cr state $|S_z=-1,-1\rangle$). This excitation can only create an exciton in the dot if the Cr spin is $S_z=-1$. An absorption followed by possible spin-flips of the Cr in the exchange field of the exciton progressively decreases the population of $S_z=-1$. After this pumping sequence, the resonant pump is switched off and followed by the non-resonant probe.
+
+	A clear signature of the optical pumping appears on the time evolution of the PL intensity of the low energy bright exciton line (4). The PL of this line during the probe pulse, recorded in opposite circular polarization with the resonant pump, depends on the population of $S_z=-1$. It strongly differs between the two pump-probe sequences where the resonant pump is on or off. The difference of intensity at the beginning of the probe pulse is a measurement of the efficiency of the pumping. The PL transient during the probe pulse corresponds to a destruction of the non-equilibrium population distribution prepared by the pump. As expected for an increase of the Cr spin temperature, the population of the ground spin state $S_z=0$ also decreases during the probe pulse. This decrease directly appears in the time evolution of the amplitude of the central X-Cr lines during the probe pulse (Det. (3) in Fig.~\ref{PumpingExp}(a)). The increase of the population of $S_z=0$ during the probe pulse shows that the population of $S_z=-1$ has been partially transferred to $S_z=0$ during the resonant pumping sequence.
+	
+	A more direct way to probe the optical pumping speed and efficiency is to monitor the time evolution of the PL during the resonant excitation by the pump pulse. Under resonant excitation on the high energy X-Cr line, an exciton spin-flip with conservation of the Cr spin can produce a PL on the low energy line \cite{ClaireOptInit}. In this process, the exciton flips its spin by emitting (or absorbing) an acoustic phonon. Such spin-flip is enhanced by the large acoustic phonon density of states at the energy of the inter-level splitting induced by the exchange interaction with the Cr spin which act as an effective magnetic field \cite{ExcSpinRelaxQD,ExcSpinDecay}. The resulting weak resonant PL signal depends on the occupation of the Cr state $S_z=-1$ and is used to monitor the time dependence of the spin selective absorption of the QD.
+	
+	The time evolution of the PL of the low energy line of X-Cr under an excitation on the high energy line is presented in Fig.~\ref{PumpingExp}(a) for two different pump-probe sequences: probe on and probe off. When the probe laser is on, a large effective Cr spin temperature is established before each pumping pulse. The amplitude of the resonant PL is maximum at the beginning of the pump pulse ($I_1$) and progressively decreases. A decrease of about 80\% is observed with a characteristic decay time in the tens of $ns$ range. When the probe laser is off, the initial amplitude of the PL transient during the pump pulse is significantly weaker. This decrease is a consequence of the conservation of the out of equilibrium Cr spin distribution during the dark time between two consecutive pumping pulses.
+	
+	The steady state resonant PL intensity reached at the end of the pump pulse ($I_2$) depends on the optical pumping efficiency which is controlled by the ratio of the spin-flip rate for the Cr spin in the exchange field of the exciton and the relaxation of the Cr spin in the empty dot. However, even with cross-circularly polarized excitation/detection, this steady state PL can also contain a weak contribution from an absorption in the acoustic phonon sideband of the low energy line~\cite{BesombesAccPhon}. Fig.~\ref{PumpingExp}(b) presents the amplitude of the resonant PL detected on the low energy line for a detuning of the pump around the high energy line. A resonance is observed in the initial amplitude $I_1$ of the PL. It reflects the energy and excitation power dependence of the absorption of the QD. A small decrease of the steady state PL $I_2$ is also observed at the resonance. As displayed in Fig.~\ref{PumpingExp}(c), the corresponding normalized amplitude of the pumping transient, $(I_1-I_2)/I_2$, presents a clear resonant behaviour demonstrating the excitation energy dependence of the optical pumping process. The width of the resonance ($\sim 100\mu eV$) is the width of the QD's absorption broadened by the fluctuating environment~\cite{SubnanoSpectralDiff}.
 
 	\begin{figure}[h!]
 	\caption{Optical pumping under a CW probe at $E = 2004$ meV. (a) Pumping on line (1) and detecting on line (4). (b) Pumping on line (4) and detecting on line (1).}
@@ -83,13 +91,17 @@
 	\caption{PL transients measured on line (4) while pumping on line (4) at $P_{pump} = 250$ $\mu$W (red) or without pumping (dark). (a) $P_{probe} = 125 $ $\mu$W. (b) $P_{probe} = 250 $ $\mu$W. (c) $P_{probe} = 500 $ $\mu$W.}
 	\label{PWProbe}
 	\end{figure}	
-		
+	
+	The speed of this spin heating process depends on the intensity of the probe laser.
+	
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 	\begin{figure}
 	\fcapside{\caption{Detail of the PL transient measured during the resonant pump pulse for a power $P_{probe} = 250$ $\mu$W. The exponential fit (green) gives a characteristic time of $\tau_{pump} = 60$ ns. The inset presents the evolution of $\tau_{pump}$ as a function of the pumping laser power.}\label{PWPump}}
 	{\includegraphics[width=7cm]{Pictures/PWPump.eps}}
-	\end{figure}	
+	\end{figure}
+	
+	As expected for a spin optical pumping process, the characteristic time of the PL transient decreases with the increase of the pump laser intensity (inset of Fig.~\ref{PWPump}) \cite{ClaireOptInit}.
 		
 	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.	
 	
@@ -117,9 +129,9 @@
 	\end{center}}
 	\end{figure}	
 	
-			To observe the time fluctuations of the Cr spin under CW optical excitation, we used the statistics of time arrivals of the photons emitted by a Cr-doped QD given by the second order correlation function g$^{(2)}(\tau)$ of the PL intensity. Fig.~\ref{AutocorExpCr} shows g$^{(2)}(\tau)$ for the lines (1), (3) and (4) recorded in circular polarization. These signals are compared with the auto-correlation obtained for the PL of a non-magnetic QD which is characteristic of a single-photon emitter with a dip (anti-bunching) at short delays. The width of the anti-bunching is given by the lifetime of the emitter and the generation rate of excitons and its depth is limited by the time resolution of the HBT setup. As illustrated in Fig.~\ref{AutocorExpCr}, typical non-magnetic CdTe/ZnTe QDs do not present any significant bunching induced by charge fluctuations \cite{QDAutocor,IndistPhoton}. A similar auto-correlation on a X-Cr PL line still presents a reduced coincidence rate near zero delay, but it is mainly characterized by a large photon bunching with a full width at half maximum (FWHM) in the 20 ns range. This large bunching reflects an intermittency in the emission of a given line of the QD coming from fluctuations of the Cr spin in a 10 ns timescale as it will be confirmed by cross-correlation measurements.
+			To observe the time fluctuations of the Cr spin under CW optical excitation, we used the statistics of time arrivals of the photons emitted by a Cr-doped QD given by the second order correlation function g$^{(2)}(\tau)$ of the PL intensity. Fig.~\ref{AutocorExpCr} shows g$^{(2)}(\tau)$ for the lines (1), (4) and (5) recorded in circular polarization. These signals are compared with the auto-correlation obtained for the PL of a non-magnetic QD which is characteristic of a single-photon emitter with a dip (anti-bunching) at short delays. The width of the anti-bunching is given by the lifetime of the emitter and the generation rate of excitons and its depth is limited by the time resolution of the HBT setup. As illustrated in Fig.~\ref{AutocorExpCr}, typical non-magnetic CdTe/ZnTe QDs do not present any significant bunching induced by charge fluctuations \cite{QDAutocor,IndistPhoton}. A similar auto-correlation on a X-Cr PL line still presents a reduced coincidence rate near zero delay, but it is mainly characterized by a large photon bunching with a full width at half maximum (FWHM) in the 20 ns range. This large bunching reflects an intermittency in the emission of a given line of the QD coming from fluctuations of the Cr spin in a 10 ns timescale as it will be confirmed by cross-correlation measurements.
 
-		The amplitude of the bunching reaches 5 for line (1) and is slightly weaker for the lower energy lines. In a simple picture of blinking where the selected QD line can be either in a state ON or OFF, the amplitude of the bunching is given by $\Gamma_{OFF}/\Gamma_{ON}$, ratio of the transition rates from OFF to ON, $\Gamma_{ON}$, and from ON to OFF, $\Gamma_{OFF}$ \cite{SubnanoSpectDiff}. An amplitude of bunching larger than 1 is then expected in a multilevel spin system where, after a spin relaxation, multiple spin-flips are usually required to come back to the initial state ($\Gamma_{ON}<\Gamma_{OFF}$). Let us finally note that the bunching signal is not affected by a weak transverse magnetic field ($B_x=0.42$T in Fig.~\ref{AutocorExpCr}). This confirms the presence of a large strain induced magnetic anisotropy $D_0$ which splits the Cr and X-Cr states and blocks their precession in a magnetic field.
+		The amplitude of the bunching reaches 5 for line (1) and is slightly weaker for the lower energy lines. In a simple picture of blinking where the selected QD line can be either in a state ON or OFF, the amplitude of the bunching is given by $\Gamma_{OFF}/\Gamma_{ON}$, ratio of the transition rates from OFF to ON, $\Gamma_{ON}$, and from ON to OFF, $\Gamma_{OFF}$ \cite{SubnanoSpectDiff}. An amplitude of bunching larger than 1 is then expected in a multilevel spin system where, after a spin relaxation, multiple spin-flips are usually required to come back to the initial state ($\Gamma_{ON}<\Gamma_{OFF}$). Let us finally note that the bunching signal is not affected by a weak transverse magnetic field ($B_x=0.42$ T in Fig.~\ref{AutocorExpCr}). This confirms the presence of a large strain induced magnetic anisotropy $D_0$ which splits the Cr and X-Cr states and blocks their precession in a magnetic field.
 		
 	\begin{figure}[h!]
 	\fcapside{\caption{Auto-correlation of the PL intensity recorded in circular polarization on the high energy X-Cr line (1) for different excitation powers. The inset shows the corresponding FWHM of the bunching signal versus excitation power.}\label{AutocorPW}}	
@@ -180,7 +192,7 @@
 	
 		\subsection{Cr spin relaxation in the dark}
 
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
+		Using resonant optical pumping technique presented in Sec.~\ref{ResOptPump} to prepare and read-out the Cr spin, we performed pump-probe experiments to observe its relaxation time in the absence of carriers (Fig.~\ref{RelaxDark}). A non-equilibrium distribution of the Cr spin population is prepared with a circularly polarized resonant pump pulse on the high energy X-Cr line. The pump laser is then switched off, and switched on again after a dark time $\tau_{dark}$. The amplitude of the pumping transient observed on the resonant PL of the low energy line depends on the Cr spin relaxation during $\tau_{dark}$. As presented in Fig.~\ref{RelaxDark}(b), the amplitude of the transient is fully restored after a dark time of about 10 $\mu$s showing that after this delay the Cr spin is in equilibrium with the lattice temperature (T=5 K). Let us note, however, that the initial amplitude of the pumping transient in this case is weaker than the one observed after a non-resonant probe pulse (Fig.~\ref{PumpingExp}(a)). This means that the non-resonant optical excitation drives the Cr spin to an effective temperature much larger than the lattice temperature.
 		
 	\begin{figure}[h!]
 	\begin{center}
@@ -190,7 +202,7 @@
 	\label{RelaxDark}
 	\end{figure}		
 		
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	From the time delay dependence of the amplitude of the transient, we deduce a Cr relaxation time $\tau_{Cr}\approx1.7$ $\mu$s at B$=0$ T and T$=5$ K. For such neutral QD and in the absence of optical injection of carriers, this spin relaxation is likely to be controlled by the spin-lattice interaction. Despite the large spin-phonon coupling expected for this magnetic atom with an orbital momentum and a strain induced spin splitting in the meV range~\cite{LafuenteCrQD}, the Cr spin relaxation time remains in the $\mu s$ range. This spin memory is long enough for a practical use of Cr in an hybrid spin nano-mechanical system and could even be improved in different QDs structures with weaker biaxial strain~\cite{LucienSFD}, lower magnetic anisotropy splitting and consequently less coupling with acoustic phonons \cite{CaoSpinPhonCoupl}.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -200,11 +212,13 @@
 	\label{RelaxHeat}
 	\end{figure}
 
+	These measurements reveal a significantly different Cr spin-flip times under optical excitation (tens of nanosecond range) and in the dark (microseconds range).	
+	
 	The $\Delta I/I$ evolution over dark time is used as a measure of the relaxation of the Cr spin: after a long enough time, both lines should stabilize at the same value.	
 
 	\section{Optical Stark effect on an individual Cr spin}
 		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.	
+		The resonant optical excitation on a X-Cr line can also be used to tune the energy of any Cr spin state through the optical Stark effect~\cite{ClairStarkEffect,CohOptSpectr,EmissionDressedExcBiexc}.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -212,33 +226,37 @@
 	\end{center}
 	\caption{Energy level of a Cr-doped quantum dot and formation of the dressed-states. We excite resonantly a given transition of the quantum dot with a continuous monochromatic laser (here the $|S_z = +1\rangle \rightarrow |S_z = +1, X_z = +1\rangle$ transition). Considering a mode of $n$, the levels (Cr, $n$) and (X-Cr, $n-1$) are coherently coupled through absorption and stimulated emission of photon. The Rabi splitting $\Omega_r$ between these two levels can be probed in the cross-polarized PL using a second non-resonant probe (as shown on the right part of the diagram). The splitting observed using a third level is the so-called Autler-Townes splitting.}
 	\label{StarkPres}
-	\end{figure}	
+	\end{figure}
+	
+	At high excitation intensity, a strong coupling with the resonant laser field mixes the states with a Cr spin component $S_z=+1$ in the presence (X-Cr) or absence (Cr alone) of the exciton. In the ground state of the QD (Cr alone) two hybrid matter-field states are created (inset of Fig.~\ref{StarkPres}). Their splitting, $\hbar\Omega_r^{\prime}=\hbar\sqrt{\Omega_r^2+\delta^2}$, depends on the energy detuning of the laser $\hbar\delta$ and on its intensity through the Rabi energy $\hbar\Omega_r$~\cite{ExcDressStatesBeat}. It can be observed in the PL of all the X-Cr states associated with $S_z=+1$: the low energy bright exciton state $|S_z=+1,-1\rangle$ (line (4)) and the dark exciton $|S_z=+1,+2\rangle$ (line (5)), close in energy to the bright exciton and which acquires some oscillator strength through the exciton mixing induced by the electron-hole exchange interaction in a low symmetry QD~\cite{LafuenteCrQD}.
 	
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tortor quam, imperdiet quis facilisis sed, fringilla a quam. Cras ante odio, hendrerit ac ante nec, cursus imperdiet urna. Mauris convallis ultricies purus, nec condimentum erat bibendum vel. Aliquam erat volutpat. Pellentesque condimentum, eros a consequat accumsan, turpis sem euismod nisi, sed fringilla quam turpis sit amet erat. Mauris dictum odio sed nisi dapibus, et molestie mauris rutrum. Praesent convallis dolor in nibh blandit bibendum. Quisque sit amet arcu consectetur lorem luctus venenatis nec quis dui. Aliquam erat volutpat. Aenean auctor elit nec tristique dignissim. Nulla massa mi, efficitur semper ex id, pretium eleifend massa. Vivamus sit amet orci scelerisque, gravida est ut, vulputate odio.
 		
+	Such energy shift could be exploited to control the coherent dynamics of the magnetic atom~\cite{OptSignSpinSwitch,MnResSpinDyn}. This optical control technique is presented in Fig.~\ref{StarkSplitandDet}. When a high intensity single mode laser is tuned to the high energy line of X-Cr in $\sigma+$ polarization (X-Cr state $|S_z=+1,+1\rangle$), a splitting is observed in $\sigma-$ polarization in the PL of the two low energy lines produced by a second non-resonant laser.
+		
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14.9cm]{Pictures/StarkSplitDet.png}
+		\includegraphics[width=12cm]{Pictures/StarkSplitDet.png}
 	\end{center}
 	\caption{(a) PL of X-Cr and configuration of excitation in the resonant optical control experiments. The inset illustrate the laser induced splittings in the ground and excited states for a $\sigma+$ excitation on $|S_z=+1\rangle$. (b) PL intensity maps of lines (5) and (4) for an excitation on (1) as a function of the detuning (top) and of the excitation intensity (bottom). The PL is produced by a second non-resonant laser.}
 	\label{StarkSplitandDet}
 	\end{figure}		
 
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
+	The splitting measured on line (5) for a resonant excitation on line (1) is plotted as a function of the square root of the resonant laser intensity in Fig.~\ref{FitSplitDet} showing that, as expected for a two level system, it linearly depends on the laser field strength. The Rabi splitting can reach 150 $\mu eV$ at high excitation power. As the pump laser is detuned, the optically active transitions asymptotically approaches the original excitonic transitions where the remaining offset is the optical Stark shift.
+	
+	\begin{figure}[h!]
+	\fcapside{\caption{PL spectra of line (5) for an excitation on line (1) at (a) no detuning and max detuning in each direction, and (b) low and high power. The insets show the splitting of the PL doublet as a function (a) of the laser detuning and (b) of the excitation intensity. The fit is obtained with $\hbar\Omega_r = 100$ $\mu$eV.}\label{FitSplitDet}}	
+	{\begin{center}
+		\includegraphics[width=7cm]{Pictures/StarkFit.png}
+	\end{center}}
+	\end{figure}
+
+	A resonant laser permits to address any spin state of the Cr and selectively shift its energy. For instance, as presented in Fig.~\ref{DarkExcSplit}, a $\sigma+$ excitation on the dark exciton state (5) induces a splitting of the high energy line (1) in $\sigma-$ polarization (state $|S_z=-1,-1\rangle$) without affecting the central line (2). This shows that such resonant excitation can be used to tune the energy of $S_z=-1$ without affecting $S_z=0$. The energy tuning induced by a coherent optical driving is particularly interesting for the control of the Cr spin states $S_z=\pm1$. These states could be efficiently mixed by applied weak anisotropic in-plane strain through a fine structure term of the form $E(S_x^2-S_y^2)$ \cite{LafuenteCrQD}. A relative shift of the energy of $S_z=+1$ or $S_z=-1$ by a resonant optical excitation would affect their coupling and consequently the Cr spin coherent dynamics.
 	
 	\begin{figure}[h!]
 	\fcapside{\caption{PL of line (1) and (2) (high energy line) for a laser on resonance with the dark exciton state (5). Inset: PL intensity map of line (1) as a function of the laser detuning around (5).}\label{DarkExcSplit}}	
 	{\begin{center}
-		\includegraphics[width=7cm]{Pictures/StarkDark.eps}
-	\end{center}}
-	\end{figure}
-
-	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
-	
-	\begin{figure}[h!]
-	\fcapside{\caption{PL spectra of line (5) for an excitation on line (1) at (a) no detuning and max detuning in each direction, and (b) low and high power. The insets show the splitting of the PL doublet as a function (a) of the laser detuning and (b) of the excitation intensity. The fit is obtained with $\hbar\Omega_r = 100$ $\mu$eV.}\label{FutSplitDet}}	
-	{\begin{center}
-		\includegraphics[width=7cm]{Pictures/StarkFit.png}
+		\includegraphics[width=6cm]{Pictures/StarkDark.eps}
 	\end{center}}
 	\end{figure}
 	
@@ -246,7 +264,7 @@
 	
 	\section{Conclusion}
 	
-	It presents a large bunching revealing a PL intermittency which results from fluctuations of the Cr spin with a timescale in the 10 ns range. Correlation of the intensity emitted by two different lines of the exciton-Cr (X-Cr) complex (namely, cross-correlation), presents an anti-bunching at short delays. A calculation of the time dependence of the spin levels population in Cr-doped QDs shows that the observed spin dynamics is governed by the exciton/Cr interaction. These measurements also provide a lower bound in the 20 ns range for the intrinsic Cr spin relaxation time.
+	Curabitur eget ipsum egestas dui viverra suscipit. Cras aliquet lacus vitae erat finibus semper. Nulla pharetra eget urna vitae sodales. Nunc faucibus velit lacus, nec ornare eros aliquet quis. Donec a orci nec sem pulvinar ultricies sit amet ut arcu. Nullam id vehicula enim, at tincidunt velit. Duis vestibulum lorem a molestie fringilla. Nullam tincidunt semper placerat. Donec nibh sem, ornare eget cursus ac, luctus sit amet eros. Phasellus eget interdum nisi. Donec mollis risus id lectus fringilla, et commodo risus iaculis. Donec at lacus sed nibh posuere posuere sit amet eget sapien. In dignissim, enim sit amet convallis fermentum, lacus nulla gravida tortor, non facilisis ex nisl sit amet augue. Maecenas eu enim condimentum, consectetur ligula vel, tincidunt nisl. Nam laoreet dictum volutpat. Donec at erat venenatis, ultrices lorem ac, vestibulum neque.
 	
 	
 \printbibliography
