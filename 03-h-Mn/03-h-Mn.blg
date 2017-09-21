@@ -1,0 +1,37 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[1] Config.pm:357> INFO - Logfile is '03-h-Mn.blg'
+[104] biber-MSWIN64:303> INFO - === 
+[167] Biber.pm:359> INFO - Reading '03-h-Mn.bcf'
+[386] Biber.pm:835> INFO - Found 27 citekeys in bib section 0
+[420] Biber.pm:3670> INFO - Processing section 0
+[457] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography.bib' for section 0
+[474] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[503] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography.bib'
+[549] Utils.pm:164> WARN - month field 'Jan' in entry 'SingleExcSpectro' is not an integer - this will probably not sort properly.
+[554] Utils.pm:164> WARN - month field 'Jul' in entry 'VBMArticle' is not an integer - this will probably not sort properly.
+[557] Utils.pm:164> WARN - month field 'Sep' in entry 'DynhMn' is not an integer - this will probably not sort properly.
+[561] Utils.pm:164> WARN - month field 'Apr' in entry 'CarInSpinSplit' is not an integer - this will probably not sort properly.
+[567] Utils.pm:164> WARN - month field 'May' in entry 'BiexFinStruct' is not an integer - this will probably not sort properly.
+[570] Utils.pm:164> WARN - month field 'Feb' in entry 'LucienSFD' is not an integer - this will probably not sort properly.
+[573] Utils.pm:164> WARN - month field 'Mar' in entry 'BesombesAccPhon' is not an integer - this will probably not sort properly.
+[575] Utils.pm:164> WARN - month field 'May' in entry 'ExcSpinRelaxQD' is not an integer - this will probably not sort properly.
+[580] Utils.pm:164> WARN - month field 'Nov' in entry 'ExcSpinDecay' is not an integer - this will probably not sort properly.
+[586] Utils.pm:164> WARN - month field 'Mar' in entry 'hSpinRelax' is not an integer - this will probably not sort properly.
+[591] Utils.pm:164> WARN - month field 'Oct' in entry 'Supercouplinghhlh' is not an integer - this will probably not sort properly.
+[597] Utils.pm:164> WARN - month field 'Aug' in entry 'SpinQJumps' is not an integer - this will probably not sort properly.
+[600] Utils.pm:164> WARN - month field 'Nov' in entry 'ephBroad' is not an integer - this will probably not sort properly.
+[604] Utils.pm:164> WARN - month field 'Jun' in entry 'MnResSpinDyn' is not an integer - this will probably not sort properly.
+[611] Utils.pm:164> WARN - month field 'Apr' in entry 'VybornyMagAnisQDs' is not an integer - this will probably not sort properly.
+[615] Utils.pm:164> WARN - month field 'Nov' in entry 'CaoSpinPhonCoupl' is not an integer - this will probably not sort properly.
+[617] Utils.pm:164> WARN - month field 'Aug' in entry 'OptOrientMn' is not an integer - this will probably not sort properly.
+[621] Utils.pm:164> WARN - month field 'May' in entry 'LeGallElecNuclDyn' is not an integer - this will probably not sort properly.
+[627] Utils.pm:164> WARN - month field 'Mar' in entry 'SingleHolePopTrap' is not an integer - this will probably not sort properly.
+[630] Utils.pm:164> WARN - month field 'Jan' in entry 'PhotoSpinOrient' is not an integer - this will probably not sort properly.
+[641] Utils.pm:164> WARN - month field 'Jul' in entry 'CouplingNVOscill' is not an integer - this will probably not sort properly.
+[689] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[690] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[690] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[690] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[724] bbl.pm:608> INFO - Writing '03-h-Mn.bbl' with encoding 'UTF-8'
+[733] bbl.pm:712> INFO - Output to 03-h-Mn.bbl
+[733] Biber.pm:109> INFO - WARNINGS: 21
