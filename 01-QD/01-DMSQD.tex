@@ -54,13 +54,13 @@
 %		- Systèe symmétrique pour une inversion de l'axe z -> niveau de spin du Mn dégénéré deux à deux avec spins Mn opposés et spin electron opposé
 %		- Spectre obtenu en micro-photoluminescence = photographie de l'état statistique du Mn
 
-	This chapter aims to present the system we will study as well as the main theoretical tools one needs to understand it fully. We begin presenting CdTe crystal and electronic structures, and the interaction between carriers and light. We then see how the strains affect the carriers energy levels. We continue reducing the dimensions of the system we look at to get to one of the core of this thesis: the quantum dot (QD). We describe the effect of the confinement on the carrier, before seeing how they interact with each other inside the QD. We finish the section with the effect of the shape and strains anisotropy on the carriers and the QDs emission.
+	This chapter aims to present the system we will study as well as the main theoretical tools one needs to understand it. We begin presenting the semiconductor physics, and especially the CdTe crystal and electronic structure, and the interaction between carriers and light. We then see how the strains affect the energy levels of the carriers. We the reduce the dimensions of the system, confining the carriers in three dimension, creating what is called the quantum dots (QDs). We describe the effect of the confinement on the carriers, before explaining  how they interact with each other inside the QD. We finish the section with the effect of the shape and strains anisotropy on the carriers and the emission of yhe QDs.
 	
-	In the second section, we introduce the magnetic atoms and see how they interact with the semiconductor carriers. We begin describing generally the interaction between localized electrons on the outer shell of a magnetic atom, and the one in the semiconductor. We then apply this description to the two magnetic atoms we will study in this thesis: the Manganese (Mn) and the Chromium (Cr).
+	In the second section, we introduce the magnetic atoms and see how they interact with the semiconductor carriers. We begin describing the interaction between localized electrons on the outer shell of a magnetic atom, and carriers of interest in the semiconductor. We then apply this description to the two magnetic atoms of this thesis: Manganese (Mn) and Chromium (Cr).
 	
-	In the third section, we see how the insertion of the magnetic atom inside a lattice affects its spin. We begin by describing the case of the Mn, not strongly coupled to the strain state at its position nor to the crystal field. We continue with the Cr, presenting an orbital momentum $L = 2$, making it strongly affected by the strains and the crystal field.
+	In the third section, it is shown how the insertion of the magnetic atom in the semiconductor matrix affects its spin. We begin by describing the case of the Mn, weakly coupled to the strain and to the crystal field. We continue with the case of Cr, which strongly affected by the strains and the crystal field.
 	
-	We finish this chapter by an illustration, applying the different concept we saw to a simple system: an exciton coupled to a Mn atom in a neutral quantum dot.
+	We finish this chapter by applying the different concepts we described so far to a simple system: an exciton coupled to a Mn atom in a neutral quantum dot.
 	
 %	In the next sections, we open the discussion on the magnetic atoms, starting with the Diluted Magnetic Semiconductors, semiconductors with a low density of magnetic impurity inserted in the lattice. We see how these impurities can dramatically change the behaviour of the carriers and thus the properties of said semiconductor. We then give more details on the two atoms we focus on in this thesis: the Manganese and the Chromium. The second section details their interactions with the carriers, while we study in the third their interaction with the semiconductor crystal field.
 %	
@@ -81,9 +81,7 @@
 	
  		\subsection{Band structure of CdTe and ZnTe\label{BandStruct}}
 		
-		CdTe and ZnTe are two II-VI semiconductors, meaning they are composed of an anion from the column VI of periodic table (Te), and a cation from the column II (Cd or Zn). They both crystallize in a zinc blend structure when grown in Molecular Beam Epitaxy (MBE, see 
-		%Chap.~\ref{Growth}
-		Chap.~II for more informations on this technique). As shown in Fig.~\ref{Zinc-Blende}, in this structure, each species is organized in a face centered lattice, one of them being shift from the other by a quarter of the [111] diagonal. Each ion is then in a tetragonal environment, meaning the zinc-blende structure is of the $T_d$ space-group.
+		CdTe and ZnTe are II-VI semiconductors, meaning they are composed of an anion from the column VI of periodic table (Te), and a cation from the column II (Cd or Zn). They both naturally crystallize in a zinc blend structure when grown in Molecular Beam Epitaxy (MBE, see  Chap.~\ref{Growth} for more informations on this technique). As shown in Fig.~\ref{Zinc-Blende}, in this structure, each species is organized in a face centered lattice, one of them being shift from the other by a quarter of the [111] diagonal. Each ion is then in a tetragonal environment. In other words, the zinc-blende structure is of the $T_d$ space-group.
 
 	\begin{figure}[h!]
 	\caption{Zinc-blende crystal elementary cell. Both CdTe and ZnTe crystallize in this structure.\label{Zinc-Blende}}
@@ -92,21 +90,25 @@
 	\end{center}}
 	\end{figure}
 
-	The external orbitals are $s$ for the cation (4$d^{10}$5$s^2$ for Cd,  3$d^{10}$4$s^2$ for Zn) and $p$ for the anion (4$d^{10}$5$s^2$5$p^4$ for Te). Considering a N units crystal, it then contain 8N valence electrons, coming from the $s$ and $p$ levels of the ions. The $s$ and $p$ orbitals of these atoms hybridize to form 8 levels, 4 bonding and 4 anti-bonding.
+	The external orbitals for the cation are $s$ (4$d^{10}$5$s^2$ for Cd,  3$d^{10}$4$s^2$ for Zn) and $p$ for the anion (4$d^{10}$5$s^2$5$p^4$ for Te). Considering a single unit of crystal, it then contain 8 valence electrons, coming from the $s$ and $p$ levels of the ions. The $s$ and $p$ orbitals of these atoms hybridize to form 8 levels, 4 bonding and 4 anti-bonding.
 	
-	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2N valence electrons. 6N will be taken to fill the three bonding bands of higher energy, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the available electrons are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band is formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
+	The lowest band of the bonding levels, coming from $s$ orbitals, will be filled by 2 valence electrons. 6 will be taken to fill the three bonding bands of higher energy, formed by the hybridization of $p$ orbitals. Those bonding states form the valence band. At higher energy, the anti-bonding states form the conduction band. Since all the available electrons are used to fill the valence band, the conduction band is empty in the ground state. The lower energy band of the conduction band is formed by the anti-symmetric combination of the $s$ orbitals. At higher energy, the anti-symmetric hybridization of $p$ orbitals form three other bands.
 
-	The energy needed to promote one electron from the higher energy state of the valence band to the lower energy state of the conduction band is called the gap. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.40$ eV and  $E_{g, CdTe} = 1.60$ eV at 5K~\cite{FurdynaDMS}. It is possible to promote an electron from the valence band to the conduction band by injecting in the semiconductor at least as much energy as the size of the gap. The absence of an electron in the valence band can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. An electron-hole pair form a hydrogen-like system called an exciton.
+	The energy needed to excite one electron from the higher energy state of the valence band to the lower energy state of the conduction band is called the gap. The gap is really important for the opto-electric properties of the semiconductor. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.40$ eV and  $E_{g, CdTe} = 1.60$ eV at 5K~\cite{FurdynaDMS}.
 	
-	When growing two semiconductors of different gap on top of each other, a band offset appears at the interface. This offset is distributed between the valence band and the conduction band. It creates traps for the carriers in those bands, confining them in the band of lower energy. For CdTe over ZnTe, the distribution of the offset is around 5\% for the valence, 95\% for the conduction band. The confinement of the electron of the conduction band is thus far more efficient than confinement of the hole.
+	{\huge EXPLAIN SOMEWHERE ELSE (I.1.3 ?)}The absence of an electron in the valence band can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. An electron-hole pair form a hydrogen-like system called an exciton.
+	
+	{\huge SPEAK ABOUT HETEROSTRUCTURE BEFORE AND SPEAK HERE ABOUT TYPE I, II AND III}
+	
+	When growing two semiconductors of different band gap on top of each other, a band offset appears at the interface. This offset is distributed between the valence band and the conduction band. It physically confine the carriers in the semiconductor of smaller gap. For CdTe on ZnTe, the distribution of the offset is around 5\% for the valence, 95\% for the conduction band. The confinement of the electrons in the conduction band is thus far more efficient than confinement of the hole.
 
-		\subsubsection*{Description around $k = 0$\label{k0Descr}}
+		\subsubsection*{Band structure near the center of the Brillouin zone ($k = 0$)\label{k0Descr}}
 
-	For CdTe, both the maximum of the valence band and the minimum of the conduction band are reached at the center of the Brillouin zone, at $k = 0$. It means CdTe is a direct band gap semiconductor, and its optical properties are controlled by the symmetry at $k = 0$. At this point, the conduction has the $T_d$ group $\Gamma_6$ symmetry. As discussed, this band comes from the overlap of atomic $s$ orbitals, meaning the conduction electron will have no orbital momentum, and a total angular momentum $J = \dfrac{1}{2}$.
+	For CdTe and ZnTe, both the maximum of the valence band and the minimum of the conduction band are reached at the center of the Brillouin zone, at $k = 0$ with $k$ the electrons wave vector. It means CdTe is a direct band gap semiconductor, and its optical properties are controlled by the symmetry at $k = 0$. At this point, the conduction band has the $T_d$ group $\Gamma_6$ symmetry. As discussed, this band comes from the overlap of atomic $s$ orbitals, meaning the conduction electron will have no orbital momentum, and a total angular momentum $J = \dfrac{1}{2}$.
 	
 	The valence band is formed from $p$ orbitals, presenting a orbital momentum $L = 1$. It couples at $k = 0$ with the electron spin $S = \dfrac{1}{2}$ through the spin-orbit coupling, giving two sub-bands of total angular momentum $J = \dfrac{1}{2}$ and $J = \dfrac{3}{2}$. In the $T_d$ group, the quadruplet $J = \dfrac{3}{2}$ is of $\Gamma_8$ symmetry, and the doublet $J = \dfrac{1}{2}$ is of $\Gamma_7$ symmetry. Those bands are split by the spin-orbit interaction, with an energy $\Delta_{SO}$.
 	
-	When the spin-orbit coupling is introduced, $\mathbf{L}$ and $\mathbf{S}$ are not good quantum number anymore. $\mathbf{J} = \mathbf{L}+ \mathbf{S}$, however, commute with the system hamiltonian. Therefore, we chose the eigenstates $J^2$, $J_z$ as a basis for the system at $k = 0$. They can be deduced from the composition of the two uncoupled basis:
+	When the spin-orbit coupling is introduced, $\mathbf{L}$ and $\mathbf{S}$ are not good quantum number anymore. We can show that $\mathbf{J} = \mathbf{L}+ \mathbf{S}$, however, commute the hamiltonian presented in the following sections. Therefore, we chose the eigenstates $J^2$, $J_z$ as a basis for the system at $k = 0$. They can be deduced from the composition of the two uncoupled basis:
 	\begin{align}	
 		\Gamma_6&:
 			\label{eBasis}
@@ -139,7 +141,7 @@ with:
 		|0\rangle &= |Z\rangle \\
 		|-1\rangle &= \frac{|X\rangle - i |Y\rangle}{\sqrt{2}}
 	\end{align*}
-where $|X\rangle$, $|Y\rangle$ and $|X\rangle$ are the wave function of the valence band top at $k = 0$. They are calculated from the overlap of the atomic orbital $p_X$, $p_Y$ and $p_Z$.
+where $|X\rangle$, $|Y\rangle$ and $|X\rangle$ are the wave function of the valence band top at $k = 0$. They are calculated from the hybridization of the atomic orbital $p_X$, $p_Y$ and $p_Z$.
 
 %	Introducing the spin-orbit interaction, the conduction band, formed by the hybridization of $s$ orbitals, is of $\Gamma_6$ (spherical) symmetry at the center of the Brillouin zone (for $k \simeq 0$), two-fold degenerated, with an orbital momentum (spin) $\sigma = \dfrac{1}{2}$. In a similar fashion, the valence band will be split into two bands: a first one of $\Gamma_8$ symmetry, with a spin $J = \dfrac{3}{2}$, four-fold degenerated ; and the second one, at lower energy, of $\Gamma_7$ symmetry, with a spin $\dfrac{1}{2}$, two-fold degenerated. The splitting $\Gamma_7-\Gamma_8$ is of $\Delta_{SO} \simeq 0.9$ eV in II-VI semiconductor. This gap is wide enough to ignore the effect of the $\Gamma_7$ band for the rest of this document and focusing on the effect between the top of the valence band and the bottom of the conduction band.
 	
