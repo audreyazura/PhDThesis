@@ -17,6 +17,7 @@
 \usepackage[backend=biber,style=phys]{biblatex}
 \usepackage{upgreek}
 \usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage[ampersand]{easylist}
 
 \addbibresource{../Bibliography.bib}
 
@@ -96,19 +97,17 @@
 
 	The energy needed to excite one electron from the higher energy state of the valence band to the lower energy state of the conduction band is called the gap. The gap is really important for the opto-electric properties of the semiconductor. In the ZnTe and CdTe cases, they are equal to $E_{g, ZnTe} = 2.40$ eV and  $E_{g, CdTe} = 1.60$ eV at 5K~\cite{FurdynaDMS}.
 	
-	{\huge EXPLAIN SOMEWHERE ELSE (I.1.3 ?)}The absence of an electron in the valence band can be viewed as a quasi-particle called a hole, with a spin and a charge opposed to the one of the promoted electron. An electron-hole pair form a hydrogen-like system called an exciton.
+	The promotion of an electron to the conduction band leave in the valence band a quasi-particule called a hole. The hole represents the absence of an electron, and has thus the opposite characteristic (spin, charge, wave vector...) as the missing electron. Aside from the promotion of an electron to the conduction band, holes can also be injected in the semiconductor via the introduction of p-type defect.
 	
 	\begin{figure}[h!]
 	\caption{Different type of heterojunctions between two semiconductors.\label{SCType}}
 	{\begin{center}
-		\includegraphics[width=13cm]{Pictures/SCType.png}
+		\includegraphics[width=14cm]{Pictures/SCType.png}
 	\end{center}}
 	\end{figure}	
 	
-	{\huge SPEAK ABOUT HETEROSTRUCTURE BEFORE AND SPEAK HERE ABOUT TYPE I, II AND III}
+	When growing two semiconductors of different band gap on top of each other, a band offset appears at the interface. This offset is distributed between the valence band and the conduction band. It can be distributed in three different ways, depending of the relative energies of the conductions bands and valence bands. Those configurations are illustrated in Fig.~\ref{SCType}. CdTe grown over ZnTe is a type I semiconductor. In this case, both the electrons and the holes are confined in the semiconductor of smaller gap (since holes have the opposite energies as the missing electrons, they are confined in the higher energy part of the valence band). For CdTe on ZnTe, the distribution of the offset is around 5\% for the valence, 95\% for the conduction band. The confinement of the electrons in the conduction band is thus far more efficient than confinement of the hole.
 	
-	When growing two semiconductors of different band gap on top of each other, a band offset appears at the interface. This offset is distributed between the valence band and the conduction band. It physically confine the carriers in the semiconductor of smaller gap. For CdTe on ZnTe, the distribution of the offset is around 5\% for the valence, 95\% for the conduction band. The confinement of the electrons in the conduction band is thus far more efficient than confinement of the hole.
-
 		\subsubsection*{Band structure near the center of the Brillouin zone ($k = 0$)\label{k0Descr}}
 			
 	The optical properties of direct gap semiconductors such as CdTe and ZnTe are controlled by their symmetry at the center of the Brillouin zone, correspond to an electron wave vector $\mathbf{k} = 0$. At this point, the conduction band has the $T_d$ group $\Gamma_6$ symmetry. As discussed, this band comes from the overlap of atomic $s$ orbitals, meaning the conduction electron will have no orbital momentum, and a total angular momentum $J = \dfrac{1}{2}$.
@@ -206,13 +205,13 @@ Finally, for any spin operator $O$ ($O = \bm{\upsigma}$, $\mathbf{J}$ or any oth
 		\langle \Psi_v | {\cal H}_{AF} | \Psi_c \rangle \propto \langle u_{\Gamma_8, J_z} | \mathbf{p} | u_{\Gamma_6, \sigma_z} \rangle
 	\end{align}
 Considering that $|\uparrow\rangle$ and $|\downarrow\rangle$ are orthogonal states, we can easily deduce the authorized transitions:
-	\begin{itemize}
-		\item Between $| u_{\Gamma_6, +\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, +\frac{3}{2}} \rangle$ (corresponding to a hole $J_z = -\frac{3}{2}$), an exciton of total angular momentum $X_z = -1$, coupled by $p_- = p_x - ip_y$, corresponding to a $\sigma-$ photon absorption or emission.
-		\item Between $| u_{\Gamma_6, -\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, -\frac{3}{2}} \rangle$ (corresponding to a hole $J_z = +\frac{3}{2}$), an exciton of total angular momentum $X_z = +1$, coupled by $p_+ = p_x + ip_y$, corresponding to a $\sigma+$ photon absorption or emission.
-		\item Between $| u_{\Gamma_6, +\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, -\frac{1}{2}} \rangle$ (corresponding to a hole $J_z = +\frac{1}{2}$) coupled via a $\sigma+$ photon absorption or emission.
-		\item Between $| u_{\Gamma_6, -\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, +\frac{1}{2}} \rangle$ (corresponding to a hole $J_z = -\frac{1}{2}$) coupled via a $\sigma-$ photon absorption or emission.
-		\item Between $| u_{\Gamma_6, \pm\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, \mp\frac{1}{2}} \rangle$ coupled via a $\pi_z$ photon absorption or emission.
-	\end{itemize}
+	\begin{easylist}[itemize]
+		& Between $| u_{\Gamma_6, +\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, +\frac{3}{2}} \rangle$ (corresponding to a hole $J_z = -\frac{3}{2}$), coupled by $p_- = p_x - ip_y$, corresponding to a $\sigma-$ photon absorption or emission.
+		& Between $| u_{\Gamma_6, -\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, -\frac{3}{2}} \rangle$ (corresponding to a hole $J_z = +\frac{3}{2}$), coupled by $p_+ = p_x + ip_y$, corresponding to a $\sigma+$ photon absorption or emission.
+		& Between $| u_{\Gamma_6, +\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, -\frac{1}{2}} \rangle$ (corresponding to a hole $J_z = +\frac{1}{2}$) coupled via a $\sigma+$ photon absorption or emission.
+		& Between $| u_{\Gamma_6, -\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, +\frac{1}{2}} \rangle$ (corresponding to a hole $J_z = -\frac{1}{2}$) coupled via a $\sigma-$ photon absorption or emission.
+		& Between $| u_{\Gamma_6, \pm\frac{1}{2}} \rangle$ and $| u_{\Gamma_8, \mp\frac{1}{2}} \rangle$ coupled via a $\pi_z$ photon absorption or emission.
+	\end{easylist}
 Those transitions are summarize on Fig.~\ref{SelectionRules}, with their respective relative probability calculated from the oscillator strength of each of these transitions.
 
 	\begin{figure}[h!]
@@ -223,7 +222,7 @@ Those transitions are summarize on Fig.~\ref{SelectionRules}, with their respect
 	\label{SelectionRules}
 	\end{figure}
 
-	Exciton of total angular momentum $J_z = \pm2$ also exists. They are formed by an electron of spin $\pm \dfrac{1}{2}$ coupled to a hole of spin $\pm \dfrac{3}{2}$. However, since this transition is forbidden by the conversation of angular momentum, they cannot recombine radiatively.
+%	Exciton of total angular momentum $J_z = \pm2$ also exists. They are formed by an electron of spin $\pm \dfrac{1}{2}$ coupled to a hole of spin $\pm \dfrac{3}{2}$. However, since this transition is forbidden by the conversation of angular momentum, they cannot recombine radiatively.
 
 		\subsubsection*{$k \neq 0$: the $\mathbf{k}.\mathbf{p}$ approach}	
 	
@@ -475,7 +474,7 @@ We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band 
 
 		\subsection{The quantum dot: confining the carrier in 3 dimensions\label{e-hIntQD}}
 		
-		Embedding a semiconductor in another one of larger gap creates trap for carriers, confining them in one or multiple directions. CdTe conduction band is at a lower energy than ZnTe ones, creating such a trap. Using the procedure we will describe in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions, acting like a 3D trap for the free carriers. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". However, the interaction between the hole and the electron cannot be overlook, adding to this potential the Coulomb interaction between the particule and the quasi-particule. It consists of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). Moreover, the hole being the absence of an electron, its energy, charge, spin, orbital momentum, $\mathbf{k}$ and mass are, by definition, opposite to the missing electron. The electron-hole system has a hydrogen-like behaviour and is called an exciton.
+		Embedding a semiconductor in another one of larger band gap confines spatially the carriers in one or multiple directions. Using the procedure we will describe in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". The hole and the electron also interact through the Coulomb interaction, consisting of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). The electron-hole system has a hydrogen-like behaviour and is called an exciton.
 
 	\begin{figure}[h!]
 	\fcapside{\caption{AFM image (AFM image (250 nm $\times$ 250 nm) of CdTe/ZnTe quantum dots before caping. The dot density is estimated to be in the $10^{10}$ dots.cm$^{-2}$ range.}\label{AFM}}
@@ -495,8 +494,7 @@ Since we are in a confined environment, we can consider only the states around $
 	\end{align}
 with $F_e (\mathbf{r}) = \sum_{\mathbf{k}} c_{\mathbf{k}} \exp (i\mathbf{k}.\mathbf{r})$ the electron envelop function and $F_{J_z} (\mathbf{r}) = c_{J_z,\mathbf{k}} \exp (i\mathbf{k}.\mathbf{r})$, $J_z = \{\pm \frac{3}{2}, \pm \frac{1}{2}\}$ the hole envelop functions.
 
-	The effective mass approximation allows us to replace the periodic crystal potential and the free-electron kinetic energy by the effective Hamiltonian representing the band extrema, using $m_e$ for the conduction band 
-and ${\cal H}_L + {\cal H}_{BP}$ for the top of the valence band. Considering the effective mass is the same in CdTe and ZnTe, we can now work with the simple picture of an effective mass carrier with the envelop function defined in Eqs.~\ref{eEnvFunc} and \ref{hEnvFunc}, trapped in a potential $V_e (\mathbf{r})$ for the conduction band or $V_h (\mathbf{r})$ for the valence band, created by the band offset between the two semiconductors. We write the Schrödinger equations for these particles:
+	The effective mass approximation allows us to replace the periodic crystal potential and the free-electron kinetic energy by the effective hamiltonians representing the band extrema. Considering the effective mass is the same in CdTe and ZnTe, we can now work with the simple picture of an effective mass carrier with the envelop function defined in Eqs.~\ref{eEnvFunc} and \ref{hEnvFunc}, trapped in a potential $V_e (\mathbf{r})$ for the conduction band or $V_h (\mathbf{r})$ for the valence band, created by the band offset between the two semiconductors. We write the Schrödinger equations for these particles:
 	\begin{align}
 		\left(\frac{\hbar^2}{2m_e}\Delta \right)F_e (\mathbf{r}) + V_e (\mathbf{r}) F_e (\mathbf{r}) &= E_eF_e (\mathbf{r}) \label{eSchroding} \\
 		(\tilde{{\cal H}}_L + \tilde{{\cal H}}_{BP} + V_h (\mathbf{r})) 
@@ -515,18 +513,16 @@ and ${\cal H}_L + {\cal H}_{BP}$ for the top of the valence band. Considering th
 			\end{pmatrix}
 			\label{hSchroding}
 	\end{align}
-with $\tilde{{\cal H}}_L$ and $\tilde{{\cal H}}_{BP}$ the hole hamiltonians
-%, opposite to the electron hamiltonians defined in Eq.~\ref{LuttHamil} and \ref{BPHamil}.
-. In particular, we have to take the opposite of the electron hamiltonian defined in Eq.~\ref{LuttHamil}. In $\tilde{{\cal H}}_L$, the $k$-terms transform into a gradient of the envelop function with the form $i\nabla$. For simplicity, the $\tilde{}$ will be dropped in the next equations. The derivation of the effective mass approximation can be found in reference \cite{LuttElecMotion}.
+with $\tilde{{\cal H}}_L$ and $\tilde{{\cal H}}_{BP}$ the hole hamiltonians. In particular, we have to take the opposite of the electron hamiltonian defined in Eq.~\ref{LuttHamil}. In $\tilde{{\cal H}}_L$, the $k$-terms transform into a gradient of the envelop function with the form $i\nabla$. For simplicity, the $\tilde{}$ will be dropped in the next equations. The derivation of the effective mass approximation can be found in reference \cite{LuttElecMotion}.
 
-	As pointed out in the end of Sec.~\ref{BPSec}, the gap between lh and hh is wide enough to neglect lh contribution in first approximation. This is called the heavy hole approximation, uncoupling the four differential equations defined in Eq.~\ref{hSchroding}. Only the ground states $|\pm \frac{3}{2}\rangle$ are considered, with the effective mass given by the diagonal term of ${\cal H}_{L}$, noted $m_{h, \parallel}$ in the plane and $m_{h, z}$ along the growth axis. The spin operator $J_x$, $J_y$ and $J_z$ can then be redefined in the heavy-hole space as $j_x$, $j_y$, $j_z$, written with the Pauli matrix looking like $\sigma_x$, $\sigma_y$ and $\sigma_z$.
+	As pointed out in the end of Sec.~\ref{BPSec}, the gap between lh and hh is of about 300 meV, wide enough to neglect the lh contribution in first approximation. This is called the heavy hole approximation, decoupling the four differential equations defined in Eq.~\ref{hSchroding}. Only the ground states $|\pm \frac{3}{2}\rangle$ are considered, with the effective mass given by the diagonal term of ${\cal H}_{L}$, noted $m_{h, \parallel}$ in the plane and $m_{h, z}$ along the growth axis. The spin operator $J_x$, $J_y$ and $J_z$ can then be redefined in the heavy-hole space as $j_x$, $j_y$, $j_z$, written with the Pauli matrices like $\sigma_x$, $\sigma_y$ and $\sigma_z$.
 	
-	Even with those two approximations, this problem is still unsolvable analytically. However, it is possible for some chosen potentials. Let's consider a lens like quantum dot, with a radius in the $xy$ plane, noted $\rho$, much larger than its height $L_z$. We can therefore define two different harmonic oscillators: a 2D oscillator $V_{c,v} (\rho)$ in the plane, and a 1D oscillator $V_{c,v} (z)$ along the growth axis:
+	Even with those two approximations, the problem is not solvable analytically. However, it is possible for some chosen potentials. Let's consider a lens like quantum dot, with a radius in the $xy$ plane, noted $\rho$, much larger than its height $L_z$. We can therefore define two different harmonic oscillators: a 2D oscillator $V_{c,v} (\rho)$ in the plane, and a 1D oscillator $V_{c,v} (z)$ along the growth axis:
 	\begin{align}
 		V_{c,v} (\rho) = 4 \Delta E_{c,v} \frac{\rho ^2}{L_z^2} \\
 		V_{c,v} (z) = 4 \Delta E_{c,v} \frac{z^2}{L_z^2}
 	\end{align}
-with $\Delta E_{c,v}$ the difference of conduction (resp. valence) band energy between the two semiconductors. The potential of the whole quantum dot will then be $V_{c,v} (\mathbf{r}) = V_{c,v} (\rho) + V_{c,v} (z)$. Separating the potential in those two parts means we are searching for solution of the form $F(z, \rho, \theta) = \chi (z) \phi_{n,m} (\rho, \theta)$, with $\theta$ the angle between the position vector and the $x$ axis.
+with $\Delta E_{c,v}$ the band offset between the two conduction (resp. valence) bands. The potential of the whole quantum dot will then be $V_{c,v} (\mathbf{r}) = V_{c,v} (\rho) + V_{c,v} (z)$. Separating the potential in those two parts means we are searching for solution of the form $F(z, \rho, \theta) = \chi (z) \phi_{n,m} (\rho, \theta)$, with $\theta$ the angle between the position vector and the $x$ axis.
 
 	We write the characteristic spatial width $\sigma$ and characteristic frequency $\omega$ of the 2D harmonic oscillator felt by the hole:
 	\begin{align}
@@ -543,13 +539,15 @@ We can write the same equality along $z$ replacing $\rho$ by $z$ and $m_{h, \par
 			& F_{c,v}^{Exc, \pm 1} (z, \rho, \theta) = \frac{1}{(\sqrt{\pi}\Sigma_z)^{\frac{1}{2}}} \exp \left(- \frac{z^2}{2 \Sigma_z^2}\right) \frac{1}{(\sqrt{\pi}\Sigma_{\rho})^{\frac{1}{2}}} \exp \left(- \frac{\rho^2}{2 \Sigma_{\rho}^2}\right) \frac{\rho}{\sigma_{\rho}} \exp (\pm i\theta) \label{ExcWF} \\
 			& E_{e,h}^{Exc, \pm 1} = \hbar \frac{\omega_z^{e,h} + 3 \omega_{\rho}^{e,h}}{2}
 	\end{align}
-We see that these energy levels are quantified in a way looking like an isolated atom, as pointed earlier. In reference to the atomic notation, the ground state, lower energy level, is noted $S$ and the two first degenerated level are noted $P$, even though atomic p-states usually are 3 fold degenerated.
+We see that these energy levels are quantified in a way looking like an isolated atom. In reference to the atomic notation, the ground state, lower energy level, is noted $S$ and the two first degenerated level are noted $P$, even though atomic p-states usually are 3 fold degenerated.
 
 	One remarkable feature of the envelop functions is that both GS and the two first excited states present the same envelop along the $z$ axis. The cause is directly the symmetry of the QD: since $L_z \ll L_{\rho}$, $\omega_z^{e,h} \gg \omega_{\rho}^{e,h}$, and since $E_{osc.\ harmo.} = (n+\frac{1}{2})\hbar \omega$, the next possible envelop function along the $z$ axis is at higher energy than the next one in the plane. This geometry is also responsible for the 2 fold degeneracy of the $P$-states.
 	
-	Both the GS and the excited states are once again degenerated due to the spin of the electron and the hole. The electron is in the conduction band with the $\Gamma_6$ symmetry: its spin along the $z$ axis is $\sigma_z = \pm \frac{1}{2}$ (noted $|\uparrow\rangle$ for $+\frac{1}{2}$ and $|\downarrow\rangle$ for $-\frac{1}{2}$). Since we are in the hh approximation, considering the lh are far enough from the band edge to be negligible, the hole spin can only take the values $J_z = \pm \frac{3}{2}$ (noted $|\Uparrow\rangle$ for $+\frac{3}{2}$ and $|\Downarrow\rangle$ for $-\frac{3}{2}$). As pointed ahead, the hole is defined with the opposed characteristic of the missing electron. For instance, a hole $|\Downarrow\rangle$ corresponds to the absence of a valence electron $\Psi_v (\mathbf{r}) = u_{\Gamma_8, \frac{3}{2}} (\mathbf{r}) F_{\frac{3}{2}} (\mathbf{r})$.
+	Both the GS and the excited states are once again degenerated due to the spin of the electron and the hole. The electron is in the conduction band with the $\Gamma_6$ symmetry: its spin along the $z$ axis is $\sigma_z = \pm \frac{1}{2}$ (noted $|\uparrow\rangle$ for $+\frac{1}{2}$ and $|\downarrow\rangle$ for $-\frac{1}{2}$). Since we are in the hh approximation, considering that the lh are far enough from the band edge to be negligible, the hole spin can only take the values $J_z = \pm \frac{3}{2}$ (noted $|\Uparrow\rangle$ for $+\frac{3}{2}$ and $|\Downarrow\rangle$ for $-\frac{3}{2}$). As pointed ahead, the hole is defined with the opposed characteristic of the missing electron. For instance, a hole $|\Downarrow\rangle$ corresponds to the absence of a valence electron $\Psi_v (\mathbf{r}) = u_{\Gamma_8, \frac{3}{2}} (\mathbf{r}) F_{\frac{3}{2}} (\mathbf{r})$.
 	
-	The confinement alone does not change the recombination rules we discussed in Sec.~\ref{k0Descr}. The addition of envelop functions in the carriers wave function adds another selection term:
+	From the selection rules found in Sec.~\ref{k0Descr}, we can see that the only excitons able to recombine optically in the hh approximation are either formed by an electron of spin $\sigma_z = -\frac{1}{2}$ and a hole of angular momentum $J_z = +\frac{3}{2}$ (exciton of total angular momentum $X_z = +1$, recombining in $\sigma+$ polarization), or an electron of spin $\sigma_z = +\frac{1}{2}$ and a hole of angular momentum $J_z = -\frac{3}{2}$ (exciton of total angular momentum $X_z = -1$, recombining in $\sigma-$ polarization). Excitons of total angular moment $X_z = \pm2$ (electron spin $\sigma_z = \pm\frac{1}{2}$ with hole spin $J_z = \pm \frac{3}{2}$ exists, but cannot recombine optically.
+	
+	The addition of envelop functions in the carriers wave function adds another selection term:
 	\begin{align}
 		|\langle \Psi_v | \mathbf{p} | \Psi_c \rangle |^2 = |\langle F_v | F_c \rangle |^2|\langle u_{\Gamma_8, J_z} | \mathbf{p} | u_{\Gamma_6, \sigma_z} \rangle |^2
 	\end{align}
@@ -576,7 +574,7 @@ The first term is the overlap of the envelop function, making sure the hole and 
 %	
 %	We see thus that, for an exciton in the $S$ state of the QD, four configurations are possible. First, we have the bright states $|\uparrow \Downarrow \rangle$ for a $\sigma-$ absorption, with an angular momentum $X_z = \sigma_z + j_z = \frac{1}{2} - \frac{3}{2} = -1$; and $|\downarrow \Uparrow \rangle$, for a $\sigma+$ absorption, with an angular momentum $X_z = -\frac{1}{2} + \frac{3}{2} = +1$. Both of these states are optically active, meaning their transitions are permitted and they can recombine radiatively. Two other states, not able to recombine radiatively, can exists and are called dark states: $| \uparrow \Uparrow \rangle$, with an angular momentum $X_z = +2$, and $| \downarrow \Downarrow \rangle$, with an angular momentum $X_z = -2$.
 	
-	Approximating the QD potential as harmonic usually overestimate the confinement, and thus the single-particle energy. But the wave-functions found in this chapter can still be used as trial wave-functions for variational calculations in other potential, in order to estimate the correct energy level.
+	Approximating the QD potential as a harmonic potential usually overestimate the confinement, and thus the single-particle energy. But the wave-functions found in this chapter can still be used as trial wave-functions for variational calculations in other potential, in order to calculate the correct energy level.
 	
 %	We discussed in this chapter about the neutral exciton ($X$), formed by a single electron-hole pair. However, several types of exciton can be observed in a quantum dots. First to consider are the charged excitons. In this case, a supplementary charge is injected in the QD in addition to the exciton, forming a hole-hole-electron ($X^+$) or hole-electron-electron ($X^-$) complex. It also happen that two excitons with opposed spins are trapped in a dot. This complex is called biexciton, noted $X^2$, and relax to leave a single neutral exciton in the QD. Charged biexciton and other multi-exciton complex also exist but are not discussed in this thesis. Even if the physics of each of this systems is different, the selection rules devised in this chapter apply to all of them.
 
@@ -641,21 +639,24 @@ The first term is the overlap of the envelop function, making sure the hole and 
 
 	%Bir et Pikus: l'interaction d'échange de coulomb de l'électron CB and les électrons VB peut être séparés en deux terme : un short range et un long range.
 	
-	Electrons are fermions, and thus are subjected to the Pauli exclusion principle. Being charged particles, they also interact with each other via the Coulomb interaction. Both of those have to be considered to write the interaction between the carriers in the semiconductor. It was shown by Wardzyński et al.~\cite{ExchSplitInteratomic} that the interaction between a conduction electron and all the electrons of the valence band can be written as an interaction between the considered electron and the corresponding hole. It can separated into two term: the direct Coulomb interaction and the exchange Coulomb interaction.
+	Electrons are fermions, and thus are subjected to the Pauli exclusion principle. Being charged particles, they also interact with each other via the Coulomb interaction. Both of those have to be considered to write the interaction between the carriers in the semiconductor. It was shown by Wardzyński et al.~\cite{ExchSplitInteratomic} that the interaction between a conduction electron and all the electrons of the valence band can be written as an interaction between the considered electron and the corresponding hole. It can be separated into two terms: the direct Coulomb interaction, independent of the particles spins, and the exchange Coulomb interaction.
 	
-%Dire que le terme direct ne dépend pas du spind es particules ?
+%Dire que le terme direct ne dépend pas du spind des particules ?
 	
-	In exciton, the direct Coulomb term is attractive, as classically expected from an electric interaction between two opposite charges. However, more complex systems can exist in a semiconductor: charged excitons X$^+$ (hole-hole-electron complex) and X$^-$ (hole-electron-electron complex), or biexciton X$^2$ (two excitons of opposite total angular momentum). Higher order multi-excition or charged biexciton might also exists but they are not discussed in this thesis. For such complex, the total Coulomb interaction between the two charge might become attractive.
+	In exciton, the direct Coulomb term is attractive, as classically expected from an electric interaction between two opposite charges. However, more complex systems can exist in a semiconductor: charged excitons X$^+$ (hole-hole-electron complex) and X$^-$ (hole-electron-electron complex), or biexciton X$^2$ (two excitons of opposite total angular momentum). Higher order multi-exciton or charged biexciton might also exists but they are not discussed in this thesis. In those multi-excitons, the total Coulomd interaction and the confinement make the system stable.
 
-	Taking into account the symmetry of the crystal, Bir and Pikus demonstrated~\cite{BPExchInt} that the exchange hamiltonian between an electron of the conduction band and hole in the valence band can be decomposed in two different components:\newline
-	For an electron and a hole in the same Brillouin zone, the short-range exchange interaction is to be considered. It can be written:
-	\begin{align}
-		{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{j} + \sum_{i = x,y,z} b_i^{exch} \sigma_i j_i^3
-	\end{align}
-The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one take into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This have never been observed experimentally in bulk semiconductor, but it is expected to be much smaller than the lift induced by $I_{eh}^{sr}$.\newline
-	For carriers in different Brillouin-zone, the long-range exchange interaction have to be considered. In bulk semiconductors, the long range term doesn't affect the bright exciton at $k = 0$. Since the radiative recombination we study occurs at $k=0$, the long range interaction does not affect it.
+	Taking into account the symmetry of the crystal, Bir and Pikus demonstrated~\cite{BPExchInt} that the exchange hamiltonian between an electron of the conduction band and hole in the valence band can be decomposed in two different components:
+	\begin{easylist}[enumerate]
+		\ListProperties(Numbers=r, FinalMark={) })
+		& For an electron and a hole in the same Brillouin zone, the short-range exchange interaction has to be considered. It can be written:
+		\begin{align}
+			{\cal H}_{eh}^{sr} = I_{eh}^{sr} \bm{\upsigma}.\mathbf{j} + \sum_{i = x,y,z} b_i^{exch} \sigma_i j_i^3
+		\end{align}
+The first term lift the degeneracy between exciton of total angular moment $X=2$ and $X=1$. The second one takes into account the reduction of symmetry in a cubic lattice and gives the dark states a fine structure. This splitting is expected to be much smaller than the lift induced by $I_{eh}^{sr}$, but has never been observed experimentally in bulk semiconductor.
+		& Carriers in different Brillouin-zone might be affected by the long-range exchange interaction. In bulk semiconductors, the long range term doesn't affect the bright exciton at $k = 0$. Since the radiative recombination we study occurs at $k=0$ in the studied semiconductors, the effects of the long range interaction are not visible via this probe.
 	
-	In a quantum dot, the confinement of the carrier leads to a better overlap of the wave function and thus greater short range exchange energies. Moreover, in an anisotropic potential, such as the one of Stransky-Krastanov dots (see Chap.~II.1), the long-range interaction mixes the bright exciton, splitting them in two levels. 
+	In a quantum dot, the confinement of the carrier leads to a better overlap of the wave function and thus greater short range exchange energies. Moreover, in an anisotropic potential, such as the one of Stransky-Krastanov dots (see Sec.~\ref{SK}), the long-range interaction mixes the bright excitons, splitting them in two levels. It is usually written as a $\delta_1$ term in the exchange hamiltonian, mixing the bright exciton states.
+	\end{easylist}
 	%The splitting between the dark and bright excitons is thus also affected.
 
 	Taking into account all these effects, we can the write the total exchange hamiltonian in the heavy hole exciton subspace ($X_z = |+2\rangle$, $|+1\rangle$, $|-1\rangle$, $|-2\rangle$):
@@ -670,7 +671,7 @@ The first term lift the degeneracy between exciton of total angular moment $X=2$
 		\end{pmatrix}
 	\end{align}
 %with $\delta_1$ the splitting of the bright exciton induced by the exchange interaction.
-with $\delta_0 = \frac{3}{2}I_{eh}$, $I_{eh} < 0$, representing the splitting between dark and bright exciton, $\delta_1$ the splitting between the bright exciton states and $\delta_2$ the dark exciton states fine structure. $\delta_0$ value is controlled both by long-range and short-range interaction, and is typically of about 1 meV in CdTe/ZnTe. $\delta_1$ only appear in anisotropic quantum dot and is induced by the long-range interaction, varying between a few tens and a few hundreds of $\mu$eV. Finally, $\delta_2$ primarily arise from the short-range interaction.
+with $\delta_0 = \frac{3}{2}I_{eh}$, representing the splitting between dark and bright exciton, $I_{eh} < 0$ being the electron-hole exchange constant; $\delta_1$ the splitting between the bright exciton states; and $\delta_2$ the fine structure of the dark exciton states. $\delta_0$ value is controlled both by long-range and short-range interaction, and is typically about 1 meV in CdTe/ZnTe. $\delta_1$ only appears in anisotropic QDs and is induced by the long-range interaction, varying between a few tens and a few hundreds of $\mu$eV. Finally, $\delta_2$ primarily arise from the short-range interaction.
 
 %	In a quantum dot, the confinement of the carrier leads to a better overlap of the wave function and thus greater exchange energies. The exchange interaction has to be taken into account in order to fully understand the optical properties of such dots. Writing $\mathbf{j} = (j_z, j_+, j_-)$ and $\bm{\upsigma} = (\sigma_z, \sigma_+, \sigma_-)$, we can develop the exchange hamiltonian for a quantization axis along $z$:
 %	\begin{align}
@@ -683,14 +684,14 @@ with $\delta_0 = \frac{3}{2}I_{eh}$, $I_{eh} < 0$, representing the splitting be
 %with $\delta_0$ representing the splitting between dark and bright exciton, $\delta_1$ the splitting between the bright exciton states and $\delta_2$ the splitting between the dark exciton states. $\delta_0$ value is controlled both by long-range and short-range interaction, and is typically of about 1 meV in CdTe/ZnTe. $\delta_1$ only appear in anisotropic quantum dot and is induced by the long-range interaction, varying between a few tens and a few hundreds of $\mu$eV. Finally, $\delta_2$ primarily arise from the short-range interaction.
 	
 %	We note $\varphi_1$ the direction of the strain anisotropy in the QD.
-	Calculating the eigenstate of the hamiltonian \ref{Heh}, we find that the optically active states are linearly polarized along $\varphi_1$ and $\varphi_1 + 90^{\circ}$ as followed:
+	Calculating the eigenstate of the hamiltonian \ref{Heh}, we find that the long range interaction induce a linear polarization of the PL of the optically active states along $\varphi_1$ and $\varphi_1 + 90^{\circ}$ as follows:
 	\begin{align}
 		|\pi_{\varphi_1}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle + \exp(i\varphi_1)|-1\rangle\right) \\
 		|\pi_{\varphi_1 + 90^{\circ}}\rangle = \frac{1}{\sqrt{2}}\left(\exp(-i\varphi_1)|+1\rangle - \exp(i\varphi_1)|-1\rangle\right)
 	\end{align}
 where $\varphi_1 = \dfrac{\pi}{4}$ corresponds to a polarization of the emission along the 110 axis.
 
-	This model works well for quantum dots with an elongated lens shape ($C_{2v}$ symmetry).  However, more realistic self-assembled quantum dots have symmetries which can deviate quite substantially from the idealized shapes of circular or ellipsoidal lenses. For a $C_{s}$ symmetry (truncated ellipsoidal lens), additional terms coupling the dark and the bright excitons have to be included in the electron-hole exchange Hamiltonian. Following Ref. \cite{ZielinskiDarExc}, the general form of the electron-hole exchange Hamiltonian in the heavy-hole exciton basis for a low symmetry quantum dot (C$_s$) and a polarization along 110 is:
+	This model works well for quantum dots with an elongated lens shape ($C_{2v}$ symmetry), the shape taken for ideal QDs.  However, more realistic self-assembled quantum dots have symmetries which can deviate quite substantially from the idealized shapes of circular or ellipsoidal lenses. For a $C_{s}$ symmetry (truncated ellipsoidal lens), additional terms coupling the dark and the bright excitons have to be included in the electron-hole exchange Hamiltonian. Following Ref. \cite{ZielinskiDarExc}, the general form of the electron-hole exchange Hamiltonian in the heavy-hole exciton basis for a low symmetry quantum dot (C$_s$) and a polarization along 110 is:
 	\begin{align}
 		\label{HehCs}
 		\mathcal{H}_{eh} =\frac{1}{2} \left(
@@ -706,17 +707,17 @@ where $\varphi_1 = \dfrac{\pi}{4}$ corresponds to a polarization of the emission
 		
 		\subsection{Valence band mixing\label{VBM}}	
 	
-	The long range exchange interaction split the neutral exciton bright states in two linearly polarized lines, with a $90^{\circ}$ angle between them. However, this simple picture doesn't fit well with the data, such as presented in Fig.~\ref{XAlLinPol}. For once, it is clear for the neutral species ($X$, $X^2$) that the angle between the polarization of the two lines is different from $90^{\circ}$. Moreover, the charged species ($X^+$, $X^-$) are found to present linear polarization dependency, when the presence of the second hole ($X^+$) or electron ($X^-$) with an opposite spin should compensate the exciton exchange interaction, and thus this system should not present any dependency in linear polarization.
+	We showed that the long range exchange interaction split the neutral exciton bright states in two linearly polarized lines, with a $90^{\circ}$ angle between them. However, this simple picture doesn't fit well with the data, such as presented in Fig.~\ref{XAlLinPol}. It is clear for the neutral species (X, X$^2$) that the angle between the polarization of the two lines is different from $90^{\circ}$. Moreover, the charged species (X$^+$, X$^-$) are found to present linear polarization dependencies. In those systems, the presence of two carriers (hole for X$^+$, electron for X$^-$) with opposite spin cancel out the electron-hole exchange interaction. Their linear polarization dependencies arise then from another phenomena.
 	
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=13cm]{Pictures/LinPol.png}
 	\end{center}
-	\caption{PL intensities of the lines of the bi-exciton, the charged excitons and the neurtral exciton of CdTe/ZnTe quantum dot as the function of the angle of the linearly polarized detection. To simplify the reading, the intensities were also plotted on polar graph (bottom). Picture taken from Yoan L\'eger PhD thesis~\cite{YoanTh}.}
+	\caption{PL intensities of the bi-exciton (X$^2$), the charged excitons (X$^+$, X$^-$) and the neutral exciton (X) of a CdTe/ZnTe QD as the function of the angle of the linearly polarized detection. To simplify the reading, the intensities were also plotted on polar graph (bottom). Picture taken from Yoan L\'eger PhD thesis~\cite{YoanTh}.}
 	\label{XAlLinPol}
 	\end{figure}
 	
-	In order to fully understand itss dependency, we have to stop neglecting the light hole contribution. Looking at the general form of the Luttinger hamiltonian \ref{HLMat}, we see that it mixes heavy hole and light hole through its non-diagonal term $b_{Lutt}$ and $c_{Lutt}$. The Bir-Pikus hamiltonian \ref{BPHamil} presents the same symmetry and the same form as the Luttinger hamiltonian and thus also induces a coupling between the lh states and the hh states.
+	In order to understand the linear polarization dependency, we have include the light hole contribution. Looking at the general form of the Luttinger hamiltonian \ref{HLMat}, we see that it mixes heavy hole and light hole through its non-diagonal term $b_{Lutt}$ and $c_{Lutt}$. The Bir-Pikus hamiltonian \ref{BPHamil} presents the same symmetry and the same form as the Luttinger hamiltonian and thus also induces a coupling between the lh states and the hh states.
 	
 	In general, we can write the hamiltonian describing the influence of shape and strain on the valence structure in the ($|\dfrac{3}{2}, +\dfrac{3}{2}\rangle$, $|\dfrac{3}{2}, +\dfrac{1}{2}\rangle$, $|\dfrac{3}{2}, -\dfrac{1}{2}\rangle$, $|\dfrac{3}{2}, -\dfrac{3}{2}\rangle$) basis as:	
 	\begin{align}
@@ -732,7 +733,7 @@ where $\varphi_1 = \dfrac{\pi}{4}$ corresponds to a polarization of the emission
 %where $R = \delta_{xx,yy} - i \delta_{xy}$ describes the mixing induced by an anisotropy in the QD $xy$ plane, $Q = \delta_{xz} - i \delta_{yz}$ stands for an asymmetry in the plane containing the QD growth axis $z$, and $\Delta_{lh}$ is the splitting between lh and hh induced by the in-plane bi-axial strain and the confinement. The asymmetry described by $Q$ may come from the QD shape or the strain distribution. 
 The induced hh/lh mixing is called Valence Band Mixing (VBM).
 
-	Supposing a VBM only caused by strain anisotropy, through the Bir-Pikus hamiltonian, we can write these parameters as function of the Bir-Pikus parameters and the crystal strain $\varepsilon_{ij}$ ($i,j = x$, $y$, $z$). The VBM parameters then writes as follow~\cite{kpMethod}:
+	Supposing a VBM only caused by strain anisotropy, its parameters can be written as function of the Bir-Pikus parameters and the crystal strain $\varepsilon_{ij}$ ($i,j = x$, $y$, $z$). The VBM parameters then writes~\cite{kpMethod}:
 	%with $x$ the (100) axis of the crystal lattice and $z$ as defined above
 	\begin{align}
 		p 	&= a_v Tr(\varepsilon) \\
