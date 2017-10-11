@@ -252,9 +252,45 @@
 	
 	In the absence of coupling between the two considered states, the Hamiltonian of this two level system is written:
 	\begin{align}
-		{\cal H}_{AT}^{unpert} = \hbar \omega_L p p ^{\dagger} + \hbar \omega_{EG} |E\rangle \langleE|
+		{\cal H}_{AT}^{unpert} = \hbar \omega_L p p ^{\dagger} + \hbar \omega_{EG} |E\rangle \langle E|
 	\end{align}
-with $p$ (resp. $p^{\dagger}$) is the annihilation (resp. creation) operator for a photon in the mode $\omega_L$. The eigenstates of this system are $|G,n\rangle$, with the energy $\hbar n \omega_L$, and $|E,n\rangle$, with the energy $\hbar (\omega_{EG} + n \omega_L$. Since the detuning $\delta = \omega_L - \omega_{EG}$ is many order of magnitude smaller than $\omega_L$ and $\omega_{EG}$, the energy level are grouped two by two. The energy separation between two states of a doublet is $\delta$, and the doublets are split by a multiple of $\hbar \omega_L$. The states are represented in Fig.~\ref{StarkPres} by $(Cr, n)$, $(XCr, n)$, $(Cr, n+1)$ and $(XCr, n+1)$, for $\delta = 0$.
+with $p$ (resp. $p^{\dagger}$) is the annihilation (resp. creation) operator for a photon in the mode $\omega_L$. The eigenstates of this system are $|G,n\rangle$, with the energy $\hbar n \omega_L$, and $|E,n\rangle$, with the energy $\hbar (\omega_{EG} + n \omega_L)$. Since the detuning $\delta = \omega_L - \omega_{EG}$ is many order of magnitude smaller than $\omega_L$ and $\omega_{EG}$, the energy level are grouped two by two. The energy levels are then organized in doublet, formed by the states $|G, n \rangle$ and $|E, n-1 \rangle$, split by $\delta$. Each doublet is seperated by $\hbar \omega_L$. The states are represented in Fig.~\ref{StarkPres} by $(Cr, n)$, $(XCr, n)$, $(Cr, n+1)$ and $(XCr, n+1)$, for $\delta = 0$.
+
+	The light-matter interaction originates for the dipole interaction. In second quantification, in the rotating wave approximation, it is written:
+	\begin{align}
+		V \approx \hbar g (a |E\rangle \langle G| + a^{\dagger} |G\rangle \langle E|)
+	\end{align}
+with $g$ the electric dipole matrix element describing the couplig between the dipole of a quantum dot transition and the mode $\omega_L$ of the electric field. The levels $|G, n \rangle$ and $|E, n-1 \rangle$ of a multiplet are coupled through stimulated ($a^{\dagger} |G\rangle \langle E|$) and absorption ($a |E\rangle \langle G|$) of a photon. The total hamiltonian write for a given $n$ photon state:
+	\begin{align}
+		{\cal H}_n =
+		\begin{pmatrix}
+			\hbar n \omega_L & \dfrac{\hbar \Omega_{r,n}}{2} \\
+			\dfrac{\hbar \Omega_{r,n}}{2} & \hbar (\omega_{EG} + (n-1) \omega_L)
+		\end{pmatrix}
+	\end{align}
+with $\Omega_{r,n} = g \sqrt{n}$ is the Rabi frequency and $\delta = \omega_L - \omega_{EG}$ the detuning of the laser. We write the mean energy of the $n$ photon state multiplet $E_n^0 = \frac{\hbar}{2}(\omega_{EG} + (2n - 1)\omega_L$. The hamiltonian ${\cal H}_n$ becomes:
+	\begin{align}
+		{\cal H}_n = E_n^0 I_2 + \frac{\hbar}{2}
+		\begin{pmatrix}
+			\delta & \Omega_{r,n} \\
+			\Omega_{r,n} & \delta
+		\end{pmatrix}
+	\end{align}
+Diagonalizing the hamiltonian, we find the eigenstates $|I, n \rangle$ and $|II, n \rangle$ described at the beginning of this section:
+	\begin{align}
+		|I, n\rangle &= c |G, n\rangle - s |E, n-1\rangle \\
+		|II, n\rangle &= c |G, n\rangle + s |E, n-1\rangle
+	\end{align}
+with $c = \sqrt{\dfrac{1}{2} \left(1 - \dfrac{\delta}{\Omega'_{r,n}}\right)}$ and $s = \sqrt{\dfrac{1}{2} \left(1 + \dfrac{\delta}{\Omega'_{r,n}}\right)}$, with $\Omega'_{r,n} = \sqrt{\Omega_{rn}^2 + \delta^2}$ the generalized Rabi flopping frequency. We also find the corresponding energies and the splitting of the states:
+	\begin{align}
+		E_I &= E_n^0 - \frac{\hbar}{2} \Omega'_{r,n} \\
+		E_{II} &= E_n^0 + \frac{\hbar}{2} \Omega'_{r,n} \\
+		\Delta E_{I - II} &= \hbar \Omega'_{r,n}
+	\end{align}
+
+	At resonance ($\delta = 0$), $c = s = \sqrt{2}$. The states $|E, n-1 \rangle$ and $|G, n\rangle$ corresponding to the upper and lower levels of the transitions have then equal contribution to the dressed levels $|I, n\rangle$ and $|II, n\rangle$: the dressed states are entangled atom-field states.
+	
+	The splitting observed experimentally is given by $\Omega'_{r,n}$, with $n$ the average number of photons of the laser excitation. This splitting depends on the Rabi splitting $\Omega_L = g\sqrt{n}$. Since $n$ is proportional to the laser power $P$, $\Omega_L$ is then proportional to $\sqrt{P}$. In the following experiments, we observe it using a non resonant excitation to generate PL by a transitions involving a third level and an optically dressed state as shown in Fig.~\ref{StarkPres}. The PL of such a transition are split because, for instance, the emission from $|S_z = -1, +1 \rangle$ can occur toward any of the dressed states $(II, n)$ and $(I, n)$ as they contain the component of the $|+1 \rangle$ state. The resulting PL is split by $\Omega'_r$: this is the Autler-Townes splitting~\ref{AutlerTownes}. In our QD, such a splitting can be observed in the PL of all the X-Cr states associated with $S_z=+1$: the low energy bright exciton state $|S_z=+1,-1\rangle$ (line (4)) and the dark exciton $|S_z=+1,+2\rangle$ (line (5)), close in energy to the bright exciton and which acquires some oscillator strength through the exciton mixing induced by the electron-hole exchange interaction in a low symmetry QD~\cite{LafuenteCrQD}.
 	
 %	At high excitation intensity, a strong coupling with the resonant laser field mixes the states with a Cr spin component $S_z=+1$ in the presence (X-Cr) or absence (Cr alone) of the exciton. In the ground state of the QD (Cr alone) two hybrid matter-field states are created (inset of Fig.~\ref{StarkPres}). Their splitting, $\hbar\Omega_r^{\prime}=\hbar\sqrt{\Omega_r^2+\delta^2}$, depends on the energy detuning of the laser $\hbar\delta$ and on its intensity through the Rabi energy $\hbar \Omega_r$~\cite{ExcDressStatesBeat}. It can be observed in the PL of all the X-Cr states associated with $S_z=+1$: the low energy bright exciton state $|S_z=+1,-1\rangle$ (line (4)) and the dark exciton $|S_z=+1,+2\rangle$ (line (5)), close in energy to the bright exciton and which acquires some oscillator strength through the exciton mixing induced by the electron-hole exchange interaction in a low symmetry QD~\cite{LafuenteCrQD}.
 		
