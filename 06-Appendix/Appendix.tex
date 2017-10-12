@@ -1,0 +1,73 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{lipsum}
+\usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage[ampersand]{easylist}
+
+\addbibresource{../Bibliography.bib}
+\makeatletter
+	\renewcommand{\thechapter}{\Roman{chapter}}
+\makeatother
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\floatsetup[table]{style=plaintop}
+
+\begin{document}	
+	
+	\appendix	
+	
+	\chapter{Tsukuba machine specificity\label{Machine}}
+	
+%	MAKE A PARAGRAPH OR TWO ABOUT THE DIFFERENCE BETWEEN THE MEASURED TEMPERATURE AND THE REAL TEMPERATURE.
+	
+	\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=14cm]{Pictures/MBEFull.eps}
+	\end{center}
+	\caption{MBE machine in which the growth took place. There is 8 cells available: Aluminium, Cadmium, Chromium, Iron, Magnesium, Manganese, Tellurium and Zinc.}
+	\label{MBE}
+	\end{figure}
+		
+		Sample holder in Tsukuba were flat plates of molybdenum, in which two screw holes were pierced. The two holes were used to fix two metallic rods which maintain the sample on the holder. This way, the sample didn't move or fall during the entry in the chamber or the growth. Two sample holders were available in Tsukuba, marked and unmarked, with a temperature offset difference of about 15$^{\circ}$C.
+		
+		The load lock chamber can hold to samples at the same time. Beginning at this stage, the sample were put upside down, in order for the sample to face the cells when entering the main chamber. Once the two samples holder were placed the load-lock chamber, it is pump and nitrogen gas is injected in.
+		
+		To put a sample holder in the main chamber, it was fixed to a transfer cane via a screw hole on his back. As shown on Fig.\ref{MBE}, the cell were placed on the lower part of the MBE machine, so the sample holder as to be put upside down in the main chamber in order to face them. Once in the chamber, the sample temperature was measured through a thermocouple at a few centimetre from the sample holder. This distance induced an offset on the measured temperature. This was important in the ALE to be in the temperature interval where 0.5 ML are grown each cycle. The temperature was therefore calibrated in order to grow the right number of monolayer for each growth (see part \ref{SKGrowth} and \ref{SFDGrowth}). The system being really stable in time, we kept this calibration for all the growth.
+		
+		The flux of each cells was calculated using Beam Equivalent Pressure (BEP) in the main chamber. The pressure in the main chamber was measured with a nude ionization gauge, both before and after having opened a single cell. Subtracting these two numbers gave us the BEP of the cell. The pressure in the main chamber was typically between $1.0 \times 10^{-9}$ Torr and $1.0 \times 10^{-8}$ Torr.
+%		All the flux measurement were done with a pressure a gauge: we took the pressure in the main chamber, open a single cell for a given time, and measure the pressure in the main chamber just after having close the cell. The main chamber was then pump again in order to recreate the ultra-vacuum conditions.
+Since the growth speed depend on the flux of the cell, we used this method to control it: we first calibrate the growth speed in function of the pressure in the chamber, and then used these equivalence to control the growth process.
+
+	\chapter{Gold deposition time callibration}
+	
+	The exposition time of the sample in the sputtering machine was calibrated using gold deposited on a non-doped GaAs substrate. In order to keep a collection of the light emitted by the quantum, a thin layer is necessary. However, for the applied electric field to be uniform, we need a gold layer thick enough to be continuous on the entire surface. Such a uniform layer means the resistance of the sample surface is then limited by the gold resistance, showing at 0 $\Omega$ on our ohmmeter. The sample resistance was measured with a two pins ohmmeter. The resistance was taken between several point of the surface in order to reduce the effect of local environment. Results of the resistance measurement are presented in Tab.~\ref{AuDep}.
+	
+	\begin{table}[h!]
+		\renewcommand{\arraystretch}{1.5}
+		\begin{center}
+			\caption{Conductivity of the Au layer on GaAs for different deposition time.}
+			\label{AuDep}
+			\begin{tabular}{|M{4.5cm}|M{0.5cm} M{0.5cm} M{0.5cm} M{0.5cm} M{0.5cm} M{0.5cm}|}
+				\hline
+				Gold deposition time (s) & 15 & 20 & 25 & 30 & 35 & 60 \\ \hline
+				Resistance ($\Omega$) & 300 & 80 & 25 & 20 & 0 & 0 \\ \hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+
+\end{document}
