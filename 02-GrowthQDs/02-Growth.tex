@@ -131,7 +131,7 @@
 	\label{RHEEDStep}
 	\end{figure}
 	
-	Beginning the growth, the substrate temperature was initially raised to $415^{\circ}$C. The Zn cell shutter was open starting at $360^{\circ}$C, in order to flatten the surface for the growth. While it took several minutes to raise the substrate temperature, the growth was stop by the auto-regulation of the ZnTe growth. When the substrate temperature reach $415^{\circ}$C, the Te shutter was also open, in order to grow the ZnTe buffer layer. This thick ZnTe layer keep us far from the substrate surface, that can have some default, and gives us a flat surface~\cite{ChangZnTe}. The surface quality is checked by RHEED, presenting clear diffraction lines (Fig.~\ref{RHEEDStep} (b)). The substrate temperature was then lowered to $295^{\circ}$C, the Zn cell being open until the temperature reach $360^{\circ}$C.
+	Beginning the growth, the substrate temperature was initially raised to $400^{\circ}$C. The Zn cell shutter was open starting at $355^{\circ}$C, in order to flatten the surface for the growth. While it took several minutes to raise the substrate temperature, the growth was stop by the auto-regulation of the ZnTe growth. When the substrate temperature reach $400^{\circ}$C, the Te shutter was also open, in order to grow the ZnTe buffer layer. This thick ZnTe layer keep us far from the substrate surface, that can have some default, and gives us a flat surface~\cite{ChangZnTe}. The surface quality is checked by RHEED, presenting clear diffraction lines (Fig.~\ref{RHEEDStep} (b)). The substrate temperature was then lowered to $295^{\circ}$C, the Zn cell being open until the temperature reach $355^{\circ}$C.
 	
 	CdTe is grown by ALE, in which the choice of substrate temperature fix the quantity of material deposited at each cycle. It was found that 0.5 ML of CdTe is deposited at each cycle for a substrate temperature between 260$^{\circ}$C and 290$^{\circ}$C~\cite{HMarALE}. Taking a temperature between those two limits allows for a small uncertainty on the substrate temperature while keeping a really good control on the growth of the sample.
 	
@@ -243,7 +243,7 @@
 
 %	The barrier for strain free samples are made of CdTe. The chosen substrate for the growth was GaAs, on which we grew a layer of about 3 $\mu$m of CdTe. Growing such a thick layer guaranty that the remaining strain are in the order of $0.1\%$ \cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. Moreover, a small ZnTe layer was grown between GaAs and CdTe, which accelerated the relaxation of the strains \cite{StrainRelaxZnTeGaAs001}.
 	
-	In SK dots, the some strain remain in the QD layer, and we have no control on them. As will be discussed later, remaining strains limits the life-time of the Cr spin. We decided therefore to grow strain-free dot to get rid of those limits. They are formed by the thickness fluctuations of a CdTe quantum well in Cd$_x$Mg$_{1-x}$Te barriers. These fluctuations form steps localizing the carriers, acting as QDs. In order to have no strain in the CdTe QW, we match the Cd$_x$Mg$_{1-x}$Te barrier on CdTe. We then chose to grow the barrier as Cd$_{0.7}$Mg$_{0.3}$Te, keeping a lattice parameter close enough to CdTe to grow thick enough barriers, and keeping enough gap difference to localize the carriers. The needed flux for this growth are shown in Tab.~\ref{FluxTempSFD}.
+	In SK dots, the some strain remain in the QD layer, and we have no control on them. As will be discussed later, remaining strains limits the life-time of the Cr spin. We decided therefore to grow strain-free dot to get rid of those limits. They are formed by the thickness fluctuations of a CdTe quantum well in Cd$_{0.7}$Mg$_{0.3}$Te barriers, grown on a CdTe substrate. These fluctuations form steps localizing the carriers, acting as QDs. We chose to use Cd$_{0.7}$Mg$_{0.3}$Te to keep a lattice parameter close enough to CdTe to grow thick enough barriers, and keeping enough gap difference to localize the carriers. The needed flux for this growth are shown in Tab.~\ref{FluxTempSFD}.
 	
 	\begin{table}[h!]
 	\begin{center}		
@@ -260,11 +260,13 @@
 	\end{center}
 	\end{table}
 	
-	The strain-free sample were grown on an hybrid substrate. It was made from a GaAs substrate, cleaned using H$^*$ plasma. A thin layer (about 7 nm) of ZnTe was first grown in order to help the relaxation of strains~\cite{StrainRelaxZnTeGaAs001}. We then grew a CdTe layer of about 3 $\mu$m, in order to recover the lattice parameter and not have defect close to the surface. With this thickness, the remaining strains in the layer should be of about $0.1\%$~\cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}. The RHEED taken after the growth of the CdTe layer (Fig.~\ref{Hybrid} (d)) shows sharp straight line, suggesting the recovery of a flat surface. Since we did a large quantity of hybrid substrate, to be cut later to do multiple samples with it, a protective layer of amorphous Te was grown on the surface to keep it from being damaged outside the MBE chamber.
+	The critical thickness of Cd$_{0.7}$Mg$_{0.3}$Te on CdTe is not exactly known. Systematic studies were done on CdTe/CdZnTe gives an empirical law to calculate the critical thickness~\cite{CritThickCdTeCdZnTe}. This law was used for different II-VI material and gives a good approximation of the different critical thickness, overestimating slightly the effects of strain. For CdTe/Cd$_{0.7}$Mg$_{0.3}$Te, we found a critical thickness $h_c = 130$ nm. We chose to grow 40 nm below the QW, and 90 nm above it, to keep the surface far from the quantum well.
+	
+	The strain-free sample were grown on a hybrid substrate formed by a thick CdTe layer grown on GaAs. It was done on a fourth of a 2 inches GaAs substrate and protected by Te. The GaAs substrate was cleaned using H$^*$ plasma. A thin layer (about 7 nm) of ZnTe was first grown at 415$^{\circ}$C in order to get the right crystal orientation when growing the CdTe layer. We then grew a CdTe layer of about 3 $\mu$m at 360$^{\circ}$C, to recover a good crystallinity of the CdTe layer~\cite{StrainRelaxCdTeGaAs111}. The RHEED taken after the growth of the CdTe layer (Fig.~\ref{Hybrid} (d)) shows sharp straight line, showing the recovery of a flat surface.
 
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14cm]{Pictures/HybridSubstrate.eps}
+		\includegraphics[width=14cm]{Pictures/HybridSubstrate.png}
 	\end{center}
 	\caption{Left: Layer structure of the hybrid substrate with its protective Te cap.
 		Right: RHEED pattern taken at different key moment of the growth: (a) before H$^*$ cleaning of GaAs, (b) after H$^*$ cleaning of GaAs, (c) after the growth of the ZnTe layer, (d) after the growth of the CdTe layer.}
@@ -278,7 +280,7 @@
 %	As said in the introduction, the strain free dots are formed by thickness variation of a CdTe QW surrounded by CdMgTe barrier. In order to have to good confinement while keeping a close enough lattice constant, we chose to use Cd$_{0.7}$Mg$_{0.3}$Te. Therefore, the first step of the growth was to chose the flux for the growth. We went through a process of trial and error, growing several samples and testing their composition with Electron Probe Mico-Analysis and X-Ray diffraction, as well as the thickness grown with a step gauge, in order to estimate the growth speed. Since we wanted to grow Cd$_{0.7}$Mg$_{0.3}$Te, we began the test with a ration Te:Cd of 1:0.7 and a ratio Te:Mg of 1:0.3. After five round of adjustment, we achieve the growth of Cd$_{0.7}$Mg$_{0.3}$Te, settling with the targeted flux presented in Tab.\ref{FluxTempSFD}.
 %	For the settled Mg flux, the step gauge indicated a grown thickness of $520 \pm 5$ nm. Since we grew the test layer during 1h, we found a growing speed of about 0.15 nm.s$^{-1}$.
 	
-	For the actual growth of strain free samples, we began to heat the substrate temperature to 300$^{\circ}$C, in order to remove the protective amorphous Te layer. We waited a few seconds at this temperature to remove all the deposited Te, and then resumed the heating to go to $360^{\circ}$C. Starting at $320^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $360^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m layer of CdTe on top of the 3 $\mu$m grown on the hybrid substrate, in order to be as close as possible of a total lattice parameter recovery ~\cite{StrainRelaxCdTeGaAs111,StrainRelaxCdTeGaAs100}.
+	For the growth of strain free samples, we began to heat the substrate temperature to 300$^{\circ}$C and waited a few seconds to remove all the deposited Te; We then heated the sample to $360^{\circ}$C. Starting at $320^{\circ}$C, we opened the Te cells in order to stabilize the surface. When the substrate temperature was stabilized at $360^{\circ}$C, we opened the Cd cells and grew a 2.35 $\mu$m of CdTe on top of the 3 $\mu$m grown on the hybrid substrate, in order to be get far from the surface that might have been slightly damage during the conservation or the Te evaporation.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -288,20 +290,17 @@
 	\label{RecipeSFD}
 	\end{figure}
 	
-	We grew the first Cd$_{0.7}$Mg$_{0.3}$Te barrier on this buffer layer. The critical thickness of Cd$_{0.7}$Mg$_{0.3}$Te on CdTe is not exactly known. However, Cd$_{0.96}$Zn$_{0.04}$Te has a lattice parameter close to Cd$_{0.7}$Mg$_{0.3}$Te, and we expect their critical thickness to be close. In order to be safe, we chose to limit ourselves to a maximum cumulated thickness of 130 nm~\cite{CritThickCdTeCdZnTe}. We chose to grow 40 nm below the QW, and 90 nm above it, in order to have a thicker protective layer.
-%Moreover, it was shown on Mn that a thick layer above was better for the hole trapping.
-
-	Once the 40 nm barrier layer was grown, we lowered the substrate temperature under Te flux. Growing the QW layer in a Te environment smooth the surface layer of the sample and help having a flat surface to grow the well. Once the substrate temperature reach respectively $295^{\circ}$C, we began the ALE of the QW. Two QW thickness was tested: either 4 ML or 2 ML. In both case, the growth was done growing CdTe layer as done for the strained samples, opening the Cr cell for 3 s for one cycle every two cycles. The whole recipe is described in Fig.~\ref{RecipeSFD}.
+	We grew the 40 nm Cd$_{0.7}$Mg$_{0.3}$Te barrier on this buffer layer. Once the done, we lowered the substrate temperature under Te flux, in order to smoothen the sample surface. Once the substrate temperature reach $295^{\circ}$C, we began the ALE of the QW. Two QW thicknesses were tested: 4 ML and 2 ML. The Cd and Te cycles were the same as for the SK dots. The Cr, however, was open for only 3 s, but once every two cycles, for a total of 4 opening in the 4 ML case, and 2 opening for the 2 ML case. The whole recipe is described in Fig.~\ref{RecipeSFD}.
 	
 	We then raised the substrate temperature up to $360^{\circ}$C, under a Te flux, in order to proceed to the growth of the upper barrier, acting also as a protective layer. The opening time was there calculated to grow 90 nm of Cd$_{0.7}$Mg$_{0.3}$Te.
 
 	\subsubsection*{Optical characterization}
 	
-	Four sample of strain-free dots doped with Cr were produced, listed in Tab.~\ref{SFDsamples}.
+	Four samples of strain-free dots doped with Cr were produced (see Tab.~\ref{SFDsamples}). The Cr concentration were taken high because it was see on the strain-free dots grown in Grenoble that a higher concentration of Mn was needed in strain-free dots than in SK dots. It was supposed to be the same with Cr. The Cr concentration was later rose after no dot doped with a single Cr was found.
 	
 	\begin{table}[h!]
 		\begin{center}
-			\caption{List of sample grown trying to incorporate Cr in SFD dots.\label{SFDsamples}}
+			\caption{Strain-free QDs doped with Cr.\label{SFDsamples}}
 			\begin{tabular}{M{2cm}|M{2.5cm}|M{3.5cm}|M{3cm}}
 				Sample & \# CdTe MLs & Cr aimed concentration (\%) & Probability of Cr-doped QD \\
 				\hline
@@ -322,29 +321,31 @@
 %	\label{ChargeVar}
 %	\end{figure}
 	
-	The sample presented thin and intense peaks, as shown in Fig.~\ref{SpectraSFD}. It hints at a better confinement of the carriers in the QDs than what have been expected from dots formed by the thickness variation of a quantum well. This may be caused by higher steps than expected at the CdTe/Cd$_{0.7}$Mg$_{0.3}$Te interface.
+	The sample presented thin and intense peaks, as shown in Fig.~\ref{SpectraSFD}. It hints at a better confinement of the carriers in the QDs than the strain-free dots grown in Grenoble. This may be caused by higher steps than expected at the CdTe/Cd$_{0.7}$Mg$_{0.3}$Te interface.
 	
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=10cm]{Pictures/SFDSpectra.eps}
 	\end{center}
-	\caption{(a) Macro-photoluminescence of a sample containing strain free dots. (b) Examples of spectra taken in such a sample.}
+	\caption{(a) Macro-PL of a SFD5. (b) Examples of spectra taken under $\mu$-PL in SFD5.}
 	\label{SpectraSFD}
 	\end{figure}
 	
-	As discussed in Sec.~\ref{XMn}, the presence of a magnetic atom splits the emission of the exciton into several peaks, the number depending on the spin of the magnetic atom. However, such complex was not found in the strain-free samples. The cause of this absence could lie in the absence of strain. In SK dots, the presence of strains increases the probability of the Jahn-Teller deformation to occur along the $z$ axis. In strain-free dots, all direction are equivalent, and we expect two third of the Cr-doped dots to be undetectable because they are quantized in the plane, creating no splitting visible in our setup.
+	As discussed in Sec.~\ref{XMn}, the presence of a magnetic atom splits the emission of the exciton into several peaks, the number depending on the spin of the magnetic atom. Such complex was not found in the strain-free samples. This may be caused by a problem in the Cr incorporation. The Cr possibly is not well embedded in the QW layer. More tests have to be done, depositing the Cr at different moment of the growth.
 	
-	In order to counter that, it was proposed to slightly strain the quantum well. This might be done by growing the sample on Cd$_{0.96}$Zn$_{0.04}$Te instead of CdTe. The lattice parameter of Cdte and Cd$_{0.96}$Zn$_{0.04}$Te are close, so the strain it will create in the lattice should remain weak. They should however be enough to increase the probability of a deformation along the $z$ axis, making more dots visible in our setup.
+	Another possible cause of this absence could lie in the absence of strain. In SK dots, the presence of strains increases the probability of the Jahn-Teller deformation to occur along the $z$ axis. In strain-free dots, all direction are equivalent, and we expect two third of the Cr-doped dots to be undetectable because they are quantized in the plane, creating no splitting visible in our setup.
+	
+	In order to increase the probability for the Cr to be quantized along the $z$ axis, it is proposed to slightly strain the quantum well. This might be done by growing the sample on Cd$_{0.96}$Zn$_{0.04}$Te instead of CdTe. The lattice parameter of Cdte and Cd$_{0.96}$Zn$_{0.04}$Te have a lattice mismatch of only 0.3\%, so the strain it will create in the lattice should remain weak. They should however be enough to increase the probability of a deformation along the $z$ axis, making more dots visible in our setup.
 	
 	\section*{Conclusion}
 	
-	We saw in this chapter how we grew the samples studied in the next chapters. The samples were characterized in Grenoble and the Cr concentration in the samples was refined through a feedback loop between Grenoble and Tsukuba. More test have to be done with a targeted concentration around 0.10\%.
+	We saw in this chapter how we grew the samples studied in the next chapters. The samples were characterized in Grenoble. SK dots with single Cr atom embedded were found and studied. New Cr concentration were tested in Tsukuba after the feedbacks from Grenoble. More tests have to be done to increase the probability of finding dots doped with a single Cr atom.
 	
-	Two other kind of sample were also grown: charge control samples and strain-free dots. Both of them encountered mild success. We were able to apply an electric field on charge control samples, but not dots containing a single Cr atom were found. In the strain-free dots, we saw the dot had a good localisation of carriers, but no Cr-doped dots were found either. More test have to be done in both of them to be able to use them for an optical study of single Cr atoms in CdTe quantum dots.
+	First step toward new kind of sample were also done: strain-free QD with single Cr, and SK dots with single Cr embedded in a field effect structure. Localized carrier emission was detected in the former, and we successfully applied bias voltage on the later. However, for both, no Cr-doped dots were found in. More tests have to be done to optimize their growth.
 %
 % 	We used the characterization of the samples done in Tsukuba to narrow down on a Cr flux for the growth of Cr-doped QDs, and we decided to aim for a Cr estimated concentration in the sample of  0.17\%. We then went to two other kind of sample: one enabling the application of an electric field on the dots, and one with strain free dots. The charge control samples growth was a partial success: we were able to apply an electric field on the sample, but no dot containing a single Cr was found. Strain-free dot presented promising fine peaks in their emission, but we were not able to find Cr in them either. More experiments will be done in order to successfully grow sample with the possibility of charge control, and strain-free dots.
-	
-	In the next chapters, we will study the optical properties and the spin dynamics in the magnetic QDs grown in Grenoble (Chap.~\ref{CoDynMn}) and Tsukuba (Chap.~\ref{MagOptStud} and \ref{CrDyn}).
+%
+%	In the next chapters, we will study the optical properties and the spin dynamics in the magnetic QDs grown in Grenoble (Chap.~\ref{CoDynMn}) and Tsukuba (Chap.~\ref{MagOptStud} and \ref{CrDyn}).
 
 \printbibliography
 
