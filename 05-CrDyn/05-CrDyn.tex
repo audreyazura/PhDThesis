@@ -34,7 +34,7 @@
 	{\huge A REFAIRE}
 	We begin showing the possibility to prepare the Cr spin using resonant optical pumping. Monitoring the time dependence of the intensity of the resonant fluorescence of the quantum dot during this process permits us to probe the dynamics of the optical initialization of the Cr spin. To further probe the dynamics under excitation, we used photon correlation techniques. Auto-correlation of the photons emitted by the QD under continuous optical excitation reveals fluctuations of the localized spin with a timescale in the 10 ns range. Cross-correlation gives quantitative transfer time between Cr spin states. Using the resonant, we measured a Cr spin relaxation time in the dark at $T = 5$ K in the $\mu$s range. We also show the possibility to heat the Cr spin using phonons. Finally, we demonstrate that, under a resonant single-mode laser field, the energy of any spin state of an individual Cr atom can be independently tuned by using the optical Stark shift effect.
 	
-	\section{Probing the spin fluctuations of the Cr}
+	\section{Probing the spin fluctuations of the Cr\label{ProbeSpinFluc}}
 	
 %	In order to probe the X-Cr dynamics under excitation, we performed auto-correlation of the photoluminescence (PL) intensity emitted by individual lines of an isolated Cr-doped QD to probe the dynamics of the magnetic atom under continuous wave (CW) optical excitation.
 	
@@ -92,7 +92,7 @@
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14cm]{Pictures/ExperimentSchema.png}
+		\includegraphics[width=13cm]{Pictures/ExperimentSchema.png}
 	\end{center}
 	\caption{Schematic view of the micro-spectroscopy set-up used for the time-resolved optical pumping experiment. The monomode laser is a dye laser tuned on resonance with the studied dot transition, acting as the pump. The other dye laser is tuned on a resonant state at $E_{probe} = 2070$ meV, acting as the probe. Both beamsplitters are non-polarizing.}
 	\label{PumpExpSetup}
@@ -102,7 +102,7 @@
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=12cm]{Pictures/PumpResults.png}
+		\includegraphics[width=13cm]{Pictures/PumpResults.png}
 	\end{center}
 	\caption{(a) PL transients recorded in circular polarization on line (3) and on line (4) (as defined in the inset) under the resonant (pump on (1)) and quasi-resonant optical excitation sequences displayed at the bottom. Inset: PL of X-Cr and configuration of the resonant excitation and detection. (b) and (c): Energy detuning dependence of resonant PL intensity ($I_1$, at the beginning and $I_2$, at the end of the pump pulse) and of the corresponding normalized amplitude of pumping transient $\Delta I/I_2 = (I_1-I_2)/I_2$.}
 	\label{PumpingExp}
@@ -117,52 +117,78 @@
 	The time evolution of the PL of the low energy line of X-Cr under an excitation on the high energy line is presented in Fig.~\ref{PumpingExp} (a) for two different pump-probe sequences: probe on and probe off. When the probe laser is on, a large effective Cr spin temperature is established before each pumping pulse. The amplitude of the resonant PL is maximum at the beginning of the pump pulse ($I_1$) and progressively decreases. A decrease of about 80\% is observed with a characteristic decay time in the tens of $ns$ range. When the probe laser is off, the initial amplitude of the PL transient during the pump pulse is significantly weaker. This decrease is a consequence of the conservation of the out of equilibrium Cr spin distribution during the dark time between two consecutive pumping pulses.
 	
 	The steady state resonant PL intensity reached at the end of the pump pulse ($I_2$) depends on the optical pumping efficiency which is controlled by the ratio of the spin-flip rate for the Cr spin in the exchange field of the exciton and the relaxation of the Cr spin in the empty dot. However, even with cross-circularly polarized excitation/detection, this steady state PL can also contain a weak contribution from an absorption in the acoustic phonon sideband of the low energy line~\cite{BesombesAccPhon}. Fig.~\ref{PumpingExp} (b) presents the amplitude of the resonant PL detected on the low energy line for a detuning of the pump around the high energy line. A resonance is observed in the initial amplitude $I_1$ of the PL. It reflects the energy dependence of the absorption of the QD. A small decrease of the steady state PL $I_2$ is also observed at the resonance. As displayed in Fig.~\ref{PumpingExp} (c), the corresponding normalized amplitude of the pumping transient, $(I_1-I_2)/I_2$, presents a clear resonant behaviour demonstrating the excitation energy dependence of the optical pumping process. The width of the resonance ($\sim 100\mu eV$) is the width of the QD's absorption broadened by the fluctuating environment~\cite{SubnanoSpectralDiff}.
-
-	\section{Dynamics of a Cr spin under optical excitation}
-
-	A signature of the optical pumping can also be observed without modulating the probe (probe ON all the time). We did the experiment in two configurations, presented on Fig.~\ref{ContProbe}: either exciting resonantly on line (1) (high energy) and detecting on line (4) (low energy), or the opposite. The signal was detected in $\sigma_cross$ configuration. When the pump pulse is turned on the high energy peak, we can see the same transients as shown in Fig.~\ref{PumpingExp}: a first, quick increase followed by a slower decrease. The pumping transient seems smaller due to the high background signal created by the continuous probe. When the pulse is turned off, the  PL decreases quickly, followed by a slow increase during about 200 ns before coming back at the intensity it has before the pumping. This is the same transient as the one observed on the probe pulse in Fig.~\ref{PumpingExp}.
 	
 	\begin{figure}[h!]
 	\caption{Optical pumping under a CW probe at $E = 2004$ meV. (a) Pumping on line (1) and detecting on line (4). (b) Pumping on line (4) and detecting on line (1).}
 	\label{ContProbe}
 	{\begin{center}
-		\includegraphics[width=10.3cm]{Pictures/ContProbe.eps}
+		\includegraphics[width=10.8cm]{Pictures/ContProbe.eps}
 	\end{center}}
 	\end{figure}
 	
-	The complimentary evolution happens when we pump on the line (4) and detect on line (1). In this case, when the pumping laser is turned on, we first observe a decrease about 100 ns long. The PL intensity then stabilize before diminishing slightly when the pump pulse finish, and then increasing slowly in a 200 ns timescale. The first decrease correspond to the establishment of the pumped state: the high energy state is emptied to fill the low energy one. Since there is no mechanism allowing the system to come back in the high energy state, it then stays empty for the duration of the pumping pulse. However, since the probe laser stays on even during the pump pulse, the state is still populated by it, and so some photons are still detected during this time. As before, the increase after the end of the pumping correspond to the destruction of the nonequilibrium population distribution established during the pumping pulse, and the repopulation of the emptied states.
+	A signature of the optical pumping can also be observed without modulating the probe (probe ON all the time). We did the experiment in two configurations, presented on Fig.~\ref{ContProbe}: either exciting resonantly on line (1) (corresponding to the state $|S_z = -1, X-z = -1 \rangle$ when exciting in $\sigma-$ polarization) and detecting on line (4) (corresponding to the state $|S_z = -1, X-z = +1 \rangle$ when exciting in $\sigma-$ polarization), or the opposite. The signal was detected in $\sigma_cross$ configuration. When the pump pulse is turned on the high energy peak, we can see the same transients as shown in Fig.~\ref{PumpingExp}: a first, quick increase followed by a slower decrease. The pumping transient seems smaller due to the high background signal created by the continuous probe. When the pulse is turned off, the  PL decreases quickly, followed by a slow increase during about 200 ns before coming back at the intensity it has before the pumping. This is the same transient as the one observed on the probe pulse in Fig.~\ref{PumpingExp}.
+	
+	The complimentary evolution happens when we pump on the line (4) and detect on line (1). In this case, when the pumping laser is turned on, we first observe a decrease about 100 ns long, corresponding to the pumping of the low energy state. The PL intensity then stabilize before diminishing slightly when the pump pulse finish, and then increasing slowly in a 200 ns timescale, when the population is restored by the non-resonant laser. When the pump laser is turned on, the low energy state $|S_z = -1, X-z = +1 \rangle$ is pumped. Since we are monitoring at high energy on the $|S_z = -1, X-z = -1 \rangle$ state, there is no relaxation path toward it from the pumped state, and thus only its population decrease is observed. Some signal is still detected due to the non-resonant probe injecting exciton independently from the Cr spin.
+	
+	We demonstrated the possibility to optically pepare the spin of a Cr spin embedded in a QD via resonant optical pumping, and the ability to probe the pumped Cr state after a exciton spin-flip. This preparation can be used to study the dynamic of the Cr spin in different configuration, and open the possibility to study other phenomena than the auto-correlation alone.
+
+	\section{Dynamics of a Cr spin under optical excitation}
+	
+	We begin looking at the evolution of the pumping and heating transients with the power of their respective laser. With the autocorrelation, it is another probe of the dynamic of the X-Cr system under excitation.
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=14.8cm]{Pictures/PWProbe.eps}
+		\includegraphics[width=13.5cm]{Pictures/PWProbe.eps}
 	\end{center}
 	\caption{PL transients measured on line (4) while pumping on line (4) at $P_{pump} = 250$ $\mu$W (red) or without pumping (dark). (a) $P_{probe} = 125 $ $\mu$W. (b) $P_{probe} = 250 $ $\mu$W. (c) $P_{probe} = 500 $ $\mu$W.}
 	\label{PWProbe}
 	\end{figure}
 	
-	Going back to alternance of pump and probe pulses, we studied evolution of the quantum dot PL under variation of the probe laser power. The results are presented on Fig.~\ref{PWProbe}. The first noticeable evolution is the increase of the PL intensity during the probe pulse, proportional to the increase of the probe power. A higher power lead to a higher probability of injecting an exciton in the QD. Therefore, more photon will be emitted by the dot, proportionally to the laser power, as long as there is no contribution of the biexciton.
+	
+	We began to study the evolution of the heating transient with the probe laser. The results are presented on Fig.~\ref{PWProbe}. The first noticeable evolution is the increase of the PL intensity during the probe pulse, proportional to the increase of the probe power. A higher power lead to a higher probability of injecting an exciton in the QD. Therefore, more photon will be emitted by the dot, proportionally to the laser power, as long as there is no contribution of the biexciton.
 	
 	More interestingly, we observe that the speed of this spin heating process depends on the intensity of the probe laser. The probe pulse last for about 500 ns, and, for a laser power of 125 $\mu$W, the nonequilibrium population distribution is not completely destroyed at the end of it (Fig.~\ref{PWProbe} (a)). The transient reduces to about 200 ns for a laser power of 500 $\mu$W. This speeding of the heating process is also controlled by the higher rate of carriers injection. The heating is done by the interaction between the excitons and the Cr spin. The probe inject excitons at high energy in the QD, interacting with the Cr independently of its spin state. A higher number of injected high energy carriers therefore leads to a quicker destruction of the nonequilibrium state created by the pump pulse.
 	
 	\begin{figure}
 	\fcapside{\caption{Detail of the PL transient measured during the resonant pump pulse for a power $P_{probe} = 250$ $\mu$W. The exponential fit (green) gives a characteristic time of $\tau_{pump} = 60$ ns. The inset presents the evolution of $\tau_{pump}$ as a function of the pumping laser power.}\label{PWPump}}
-	{\includegraphics[width=7cm]{Pictures/PWPump.eps}}
-\end{figure}
+	{\includegraphics[width=6cm]{Pictures/PWPump.eps}}
+	\end{figure}	
 	
-	Injecting carriers at the energy of a given transition at a higher rate also helps pumping it quicker. This is illustrated on Fig.~\ref{PWPump}. As expected for a spin optical pumping process, the characteristic time of the PL transient decreases with the increase of the pump laser intensity (inset of Fig.~\ref{PWPump})~\cite{ClaireOptInit}. The acceleration of the pumping process is also due to the higher probability of carriers to be in the quantum dot. The system is pumped in a given state when interacting with carriers injected by the resonant pump. A higher injection rate of carriers at this particular energy increase the probability of interacting with the Cr on the right spin state, and thus pump the system faster.
+	Study of the evolution of the pumping transient as a function of the pumping laser power were also done, and the results are presented on Fig.~\ref{PWPump}. As expected for a spin optical pumping process, the characteristic time of the PL transient decreases with the increase of the pump laser intensity (inset of Fig.~\ref{PWPump})~\cite{ClaireOptInit}. This transient is akin to the autocorrelation discussed in Sec.~\ref{ProbeSpinFluc}: it measures the time it takes for the X-Cr to exit the excited state. With a higher intensity laser, there is an exciton in the QD more often, and since $\tau_{X-Cr} > \tau_{Cr}$, the system relax faster. However, it is hard to extract value from this, such as it was with the autocorrelation.
+%	
+%	The acceleration of the pumping process is also due to the higher probability of carriers to be in the quantum dot. The system is pumped in a given state when interacting with carriers injected by the resonant pump. A higher injection rate of carriers at this particular energy increase the probability of interacting with the Cr on the right spin state, and thus pump the system faster.
 	
 		\subsection{Optical pumping induced by h-Cr flip-flop}
 		
-		\lipsum[1]
-		
+	Using optical pumping, the relaxation of the Cr spin on the different QD state. We saw in Sec.~\ref{ResOptPump} that it was possible to see a signature of the pumping on the low energy state after a exciton spin flip.  In this section we will look at the population of the state $S_z = 0$ when pumping on the $|S_z = -1, X_z = -1\rangle$ transition.
+
 	\begin{figure}[h!]
 	{\caption{(a) Pumping experiment at T= 5 K in circular polarization exciting on line (1) and detecting either on line (3) (black) or on line (4) (red). The inset presents the experiment configuration, with the excitation shown as a green arrow and the detection as red and black arrows. (b) Pumping experiemnt at T= 5 K in linear polarization, line (3).}\label{Pump0}}	
 	\begin{center}
-		\includegraphics[width=13cm]{Pictures/Pump0.png}
+		\includegraphics[width=13.5cm]{Pictures/Pump0.png}
 	\end{center}
 	\end{figure}
 		
-		\lipsum[2]
+	Fig.~\ref{Pump0} (a) shows the Pl detected during the probe and pump pulse on the low energy line in red and in the central peak in black. The detection on the low energy line is similar to the one presented in Fig.~\ref{PumpingExp}. It was reported here for comparison with the evolution of the state $S_z = 0$.
+		
+	During the probe pulse, the central peak shows a quick increase followed by a slow decrease, lasting for about 250 ns. This second transient is opposite to the one seen on when detecting on the low energy peak. It shows the reconstruction of the equilibrium state during the probe pulse. It shows that, when emptying a pumped state, some of the population have relaxed toward $S_z = 0$ and have been stocked here. When heating with the non-resonant pulse, this state is emptied and the thermal equilibrium is restored.
+		
+	A clearer signature of the preparation of state can be seen during the pump pulse. There again, a quick increase is first seen, before a decrease of the PL intensity. However, the PL stays at high intensity even at the end of pumping pulse. This large remaining signal is due to the contribution of the peak phonon band when exciting in circular polarization. In order to get rid of this contribution, did the same experiment in linear polarization, detecting in cross linear polarization. However, doing so, we cannot excite selectively one transition, since exciton $X_z = +1$ and $X_z = -1$ are injected under such an excitation. Therefore, we are exciting a linear combination of the states $|S_z = +1, X_z = +1\rangle$ and $|S_z = -1, X_z = -1\rangle$. Nonetheless, a high intensity is observed at the beginning of both the probe pulse and the pump pulse. This shows that, when a high energy state is pumped, part of the population may relax toward the state $S_z = 0$.
+		
+	This relaxation can be explained by a hole-Cr spins flip-flop in the excited state, such as the one presented for the hole-Mn pseudo-spin relaxation in Sec.~\ref{RelaxMech}. As with the Mn, the non-diagonal term of the hole-Cr exchange interaction mixes the heavy holes and the light hole. The perturbed $|S_z = 0, X_z = +1\rangle$ state can be written:
+		\begin{align}
+			\widetilde{|0\rangle |\Uparrow_h, \downarrow_e\rangle} = |0\rangle |\Uparrow_h, \downarrow_e\rangle - \frac{\sqrt{18}}{2} \frac{I_{hCr}}{\Delta_{lh}} |+1\rangle |\uparrow_h, \downarrow_e\rangle
+		\end{align}
+Moreover, one can notice that the $|S_z = 0, X_z = +1\rangle$ state is only one hole-Cr spin flip-flop away from the dark state state $|S_z = +1, X_z = -2\rangle$. This one can be written:
+		\begin{align}
+			\widetilde{|+1\rangle |\Downarrow_h, \downarrow_e\rangle} = |+1\rangle |\Downarrow_h, \downarrow_e\rangle - \frac{\sqrt{18}}{2} \frac{I_{hCr}}{\Delta_{lh}} |0\rangle |\downarrow_h, \downarrow_e\rangle
+		\end{align}
+
+	The effects of phonons can be seen by interfacing those two states through the Bir-Pikus hamiltonian ${\cal H}_{BP}$ described in Eq.~\ref{BPHamil}. The phonon induced deformation comes into play through the off-diagonal term of the hamiltonian. The phonon-mediated coupling between $\widetilde{|0\rangle |\Uparrow_h, \downarrow_e\rangle}$ and $\widetilde{|+1\rangle |\Downarrow_h, \downarrow_e\rangle}$ can the be found through the hamiltonian term:
+	\begin{align}
+		\widetilde{\langle \Downarrow_h, \downarrow_e| \langle +1|} {\cal H}_{BP} \widetilde{|0\rangle |\Uparrow_h, \downarrow_e\rangle} = 2 \times \left(-\frac{\sqrt{18}}{2} \frac{I_{hCr}}{\Delta_{lh}} \right) \times r^*
+	\end{align}
+with $r^*$ as defined in Eq.~\ref{VBMParam}.
 
 	\begin{figure}[h!]
 	{\caption{Relaxation paths for the X-Cr system, starting either on the $|S_z = +1, X_z = +1\rangle$ state and finishing on the $|S_z = 0, X_z = +1\rangle$ one, or starting either on the $|S_z = -1, X_z = -1\rangle$ state and finishing on the $|S_z = 0, X_z = -1\rangle$ one, after a hole flip followed by a hole-Cr flip-flop mediated by phonons.}\label{hCrRelax}}	
@@ -170,8 +196,8 @@
 		\includegraphics[width=14cm]{Pictures/hCrRelax.png}
 	\end{center}
 	\end{figure}
-		
-		\lipsum[3]
+
+	However, the closest state that can be resonantly excited is $|S_z = +1, X_z = +1\rangle$. To reach $|S_z = +1, X_z = -2\rangle$, a spin flip of the hole has to occur first. In CdTe quantum dot, this spin flip was found to occur with a characteristic time $\tau_h = 5$ ns. Once it occur, the system can emit a phonon to relax from $|S_z = +1, X_z = -2\rangle$ to $|S_z = 0, X_z = +1\rangle$. This same process can be devised for a resonant excitation toward $|S_z = -1, X_z = -1\rangle$. The hole flip will then bring the system to $|S_z = -1, X_z = +2\rangle$, from which it can do a phonon-mediated relaxation toward $|S_z = 0, X_z = -1\rangle$. Those two processes are illustrated on Fig.~\ref{hCrRelax}.
 	
 	\begin{figure}[h!]
 	\fcapside{\caption{Relaxation time $\tau_{hCr}$ between the states $|S_z = \pm1, X_z = \mp2\rangle$ and $|S_z = 0, X_z = \pm1\rangle$, calculated at a temperature T = 7 K with the gaussian hole wave function parameters $l_z = 1.2$ nm and $l_{\bot} = 3$ nm, and the parameters $I_{hCr} = 0.25$ meV and $\Delta_{lh} = 25$ meV.}\label{TauhCr}}	
@@ -180,7 +206,7 @@
 	\end{center}}
 	\end{figure}
 		
-		\lipsum[4]
+	The same consideration done in Sec.~\ref{RelaxMech} can be done here to find the characteristic time $\tau_{hCr}$ of the phonon-mediated relaxation as a function of the splitting between the two states. The resulting curve is drawn on Fig.~\ref{TauhCr}. A bright exciton - dark exciton splitting in the meV is expected for Cr in Sk dots. It gives a $\tau_{hCr}$ of a few ns, which is coherent with the fast state preparation observed in Fig.~\ref{Pump0}.
 		
 		\subsection{Cr heating by non-equilibrium phonons?}
 	
