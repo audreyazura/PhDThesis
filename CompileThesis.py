@@ -3,12 +3,16 @@
 import re
 #import antigravity
 
-ignoreLorem = False
-rm Thesis.tex
-echo 'Old Thesis.tex deleted'
+####################### PARAMETERS #######################
 
 first = 1
 maxCount = 5
+ignoreLorem = True
+
+########################## CODE ##########################
+
+rm Thesis.tex
+echo 'Old Thesis.tex deleted'
 
 packages = []
 lastPack = 2
@@ -36,7 +40,7 @@ if ignoreLorem:
 	lipsumStr = re.compile(r'ipsum')
 
 Thesis = open('Thesis.tex', 'w')
-for i in range(first,maxCount):
+for i in range(first,maxCount+1):
 #for i in [first, maxCount-1]:
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
