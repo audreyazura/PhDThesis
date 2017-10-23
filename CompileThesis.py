@@ -91,7 +91,7 @@ for i in range(first,maxCount+1):
 									Thesis = open('Thesis.tex', 'a')
 							
 							#for the last file, we print all the line with the exception above, and have to not ignore the printbiblio and end{document}
-							elif i == maxCount-1 && not(bibresStr.search(treatedLine)):
+							elif i == maxCount && not(bibresStr.search(treatedLine)):
 								print(treatedLine, file=Thesis)
 							
 							#for all the other line in any file, we just ignore the printbiblio and end{document}, and print otherwise
