@@ -1,4 +1,0 @@
-QD1 = not important
-QD2 = dot334 QD150604
-QD3 = dot334 QD3
-QD4 = dot334 QD4

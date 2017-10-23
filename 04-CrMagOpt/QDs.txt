@@ -1,0 +1,5 @@
+QD1 = dot334 QD3
+QD2 = dot338 QD3
+QD3 = dot334 QD4
+QD4 = QD 130617
+QD5, 6, 7 = dot390
