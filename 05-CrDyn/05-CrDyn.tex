@@ -316,7 +316,13 @@ Fig.~\ref{TauhCr} shows $\tau_{hCr}$ as a function of the splitting between the 
 	
 	The Cr spin-flip time found for a relaxation in the dark (microseconds range) is a lot longer than the one found under optical excitation (tens of nanosecond range, see Sec.~\ref{ResOptPump}). As shown in Sec.~\ref{hCrff}, the fast relaxation of the Cr under excitation is caused by the h-Cr efficient relaxation path. For Cr alone, the picture is quite different.
 	
-	After the pump pulse, the Cr spin state $S_z = -1$ has been partially emptied,r educed to a steady state. During the dark time, the emptied state will be repopulated from the other states. The transfer is possible from the state $S_z = 0$ by a Cr spin flip mediated by the capture of a phonon. This is a classical thermal repopulation, depending of the cube of the energy splitting between the states. The population transfer can also come from the state $S_z = +1$. Since the splitting between $S_z = +1$ and $S_z = -1$ is negligible, the transfer by a one phonon process is not possible. However, two phonons process is possible: either the Orbach process, using an excited state as an intermediary, or the Raman process, using a virtual state. Two different times can therefore be expected: one for the one phonon process and one for the two phonons process. The $\mu$s time found in Fig.~\ref{RelaxDark} could then be the shorter of those two times only.
+	After the pump pulse, the Cr spin state $S_z = -1$ has been partially emptied. During the dark time, it is repopulated from the states $S_z = 0$ and $S_z = +1$. The transfer is possible from the state $S_z = 0$ by a Cr spin flip mediated by the capture of a phonon. This one phonon mechanism is called direct mechanism, depending of the cube of the energy splitting between the states $\Delta_{i,j}$, with $i$ and $j$ the different Cr spin states.
+	
+	This mechanism is efficient for the transfer from $S_z = 0$, with $\Delta_{0, -1} \approx 2$ meV, but not fro the transfer from $S_z = +1$, because $\Delta_{+1, -1} \approx 0$ meV. However, the states $S_z = +1$ and $S_z = -1$ are separated by two units of spin and close in energy, and therefore are mixed by the in-plane anisotropy term $E$. This mixing can induce a transfer between the two states. Another possible source of transfer comes from two phonons mechanism: the system absorb a phonon, going from $S_z = +1$ to an excited state, and then relaxing by the emission of a phonon toward $S_z = -1$. Two processes exist: the Raman mechanism, using a virtual state as the excited state, or the Orbach mechanism, using an actual excited state of the system (e.g. $S_z = 2$).
+	
+	From this picture, we could expect two transition times: one between $S_z = 0$ and $S_z = \pm1$, driven by the direct mechanism, and one between $S_z = +1$ and $S_z = -1$, driven by the in-plan strain anisotropy and the two phonons mechanisms. However, Fig.~\ref{RelaxDark} shows only one time, suggesting that the second might occurs at a longer time scale.
+%	
+%	The population transfer can also come from the state $S_z = +1$. Since the splitting between $S_z = +1$ and $S_z = -1$ is negligible ($\Delta_{ij} \approx 0$), the transfer by a one phonon process is not efficient. However, two phonons process is possible: either the Orbach process, using an excited state as an intermediary, or the Raman process, using a virtual state. Two different times can therefore be expected: one for the one phonon process and one for the two phonons process. The $\mu$s time found in Fig.~\ref{RelaxDark} could then be the shorter of those two times only.
 
 	\begin{figure}[h!]
 	\begin{center}
@@ -336,7 +342,9 @@ Fig.~\ref{TauhCr} shows $\tau_{hCr}$ as a function of the splitting between the 
 		
 %		\subsection{Dressed atom picture and Autler-Townes splitting}	
 	
-	The resonant optical excitation on a X-Cr line can also be used to tune the energy of any Cr spin state through the optical Stark effect~\cite{ClairStarkEffect, CohOptSpectr,EmissionDressedExcBiexc}. When a laser is put on resonance with a QD transition, a coupling is created between the laser photons and the resonantly excited quantum dot levels. The photons of the laser field are coherently absorbed by the ground state and emitted by the excited state at a Rabi flopping frequency $\Omega_r$, depending on the strength of the coupling between the laser field and the transition dipole. For a $n$ photon state of the control laser, the unperturbed states $|Cr\rangle \times |n\rangle$ and $|X-Cr\rangle \times |n-1\rangle$, degenerated at resonance, are no longer stationary solutions of the hamiltonian. Instead, stationary solutions are anti-linear (noted $|I, n\rangle$ in Fig.~\ref{StarkPres}) and linear ($|II, n\rangle$) combination of the unperturbed states, split proportionally to the Rabi flopping frequency $\Omega_r$. This splitting is called Autler-Townes splitting~\cite{AutlerTownes} and is well described by the dressed-atom picture. This splitting can be exploited to control the coherent dynamics of a Cr spin~\cite{OptSignSpinSwitch, MnResSpinDyn}.
+	Optical Stark effect can be used to control the energy of a given state of a QD, using a high intensity optical field in resonance with a QD transition~\cite{CohOptSpectr,EmissionDressedExcBiexc}. It has been demonstrated that this control can also been achieved in QD doped with a single Mn atom~\cite{ClairStarkEffect}. In this case, each exciton-Mn level can be addressed and tuned individually. We propose in this section to demonstrate the same control possibility for a Cr embedded in a QD.
+	
+	When a laser is put on resonance with a QD transition, a coupling is created between the laser photons and the resonantly excited quantum dot levels. The photons of the laser field are coherently absorbed by the ground state and emitted by the excited state at a Rabi flopping frequency $\Omega_r$, depending on the strength of the coupling between the laser field and the transition dipole. For a $n$ photon state of the control laser, the unperturbed states $|Cr\rangle \times |n\rangle$ and $|X-Cr\rangle \times |n-1\rangle$, degenerated at resonance, are no longer stationary solutions of the hamiltonian. Instead, stationary solutions are anti-linear (noted $|I, n\rangle$ in Fig.~\ref{StarkPres}) and linear ($|II, n\rangle$) combination of the unperturbed states, split proportionally to the Rabi flopping frequency $\Omega_r$. This splitting is called Autler-Townes splitting~\cite{AutlerTownes} and is well described by the dressed-atom picture. This splitting can be exploited to control the coherent dynamics of a Cr spin~\cite{OptSignSpinSwitch, MnResSpinDyn}.
 	
 	\begin{figure}[h!]
 	\begin{center}
@@ -386,21 +394,21 @@ with $c = \sqrt{\dfrac{1}{2} \left(1 - \dfrac{\delta}{\Omega'_{r,n}}\right)}$ an
 		\Delta E_{I - II} &= \hbar \Omega'_{r,n}
 	\end{align}
 
-	At resonance ($\delta = 0$), $c = s = \sqrt{\frac{1}{2}}$. The states $|E, n-1 \rangle$ and $|G, n\rangle$ corresponding to the upper and lower levels of the transitions have then equal contribution to the dressed levels $|I, n\rangle$ and $|II, n\rangle$: the dressed states are entangled atom-field states.
+	At resonance ($\delta = 0$), $c = s = \sqrt{1/2}$. The states $|E, n-1 \rangle$ and $|G, n\rangle$ corresponding to the upper and lower levels of the transitions have then equal contribution to the dressed levels $|I, n\rangle$ and $|II, n\rangle$: the dressed states are entangled atom-field states.
 	
 %	At high excitation intensity, a strong coupling with the resonant laser field mixes the states with a Cr spin component $S_z=+1$ in the presence (X-Cr) or absence (Cr alone) of the exciton. In the ground state of the QD (Cr alone) two hybrid matter-field states are created (inset of Fig.~\ref{StarkPres}). Their splitting, $\hbar\Omega_r^{\prime}=\hbar\sqrt{\Omega_r^2+\delta^2}$, depends on the energy detuning of the laser $\hbar\delta$ and on its intensity through the Rabi energy $\hbar \Omega_r$~\cite{ExcDressStatesBeat}. It can be observed in the PL of all the X-Cr states associated with $S_z=+1$: the low energy bright exciton state $|S_z=+1,-1\rangle$ (line (4)) and the dark exciton $|S_z=+1,+2\rangle$ (line (5)), close in energy to the bright exciton and which acquires some oscillator strength through the exciton mixing induced by the electron-hole exchange interaction in a low symmetry QD~\cite{LafuenteCrQD}.
 		
-%		\subsection{Dressing of a Cr atom}	
-	
-	To observe the influence of a high power resonant laser on a QD doped with a single Cr atom, we used the optical configuration presented in Fig.~\ref{StarkSplitandDet}. A high intensity laser was put in resonance with the high energy transition, in $\sigma+$ polarization, exciting the state $S_z = +1$ in order to induce Autler-Townes splitting of this state. The splitting was observed using a non resonant excitation to generate PL by a transitions involving a third level and an optically dressed state.
-	
+%		\subsection{Dressing of a Cr atom}
+
 	\begin{figure}[h!]
 	\begin{center}
 		\includegraphics[width=14cm]{Pictures/StarkSplitDet.png}
 	\end{center}
 	\caption{(a) PL of QD2 X-Cr and configuration of excitation in the resonant optical control experiments. The inset illustrate the laser induced splittings in the ground and excited states for a $\sigma+$ excitation on $|S_z=+1\rangle$. (b) PL intensity maps of lines (5) and (4) for an excitation on (1) as a function of the detuning (top) and of the excitation intensity (bottom). The PL is produced by a second non-resonant laser.}
 	\label{StarkSplitandDet}
-	\end{figure}		
+	\end{figure}
+	
+	To observe the influence of a high power resonant laser on a QD doped with a single Cr atom, we used the optical configuration presented in Fig.~\ref{StarkSplitandDet}. A high intensity laser was put in resonance with the high energy transition, in $\sigma+$ polarization, exciting the state $S_z = +1$ in order to induce Autler-Townes splitting of this state. The splitting was observed using a non resonant excitation to generate PL by a transitions involving a third level and an optically dressed state.		
 
 	The splitting observed experimentally is given by $\Omega'_{r,n}$, with $n$ the average number of photons of the laser excitation. This splitting depends on the Rabi splitting $\Omega_L = g\sqrt{n}$. Since $n$ is proportional to the laser power $P$, $\Omega_L$ is then proportional to $\sqrt{P}$. The PL of such a transition are split because, for instance, the emission from $|S_z = +1, -1 \rangle$ can occur toward any of the dressed states $(II, n)$ and $(I, n)$ as they contain the component of the $S_z = +1$ state. In our QD, such a splitting can be observed in the PL of all the X-Cr states associated with $S_z=+1$: the low energy bright exciton state $|S_z=+1,-1\rangle$ (line (4)) and the dark exciton $|S_z=+1,+2\rangle$ (line (5)), close in energy to the bright exciton and which acquires some oscillator strength through the exciton mixing induced by the electron-hole exchange interaction in a low symmetry QD~\cite{LafuenteCrQD}.
 	
@@ -412,10 +420,6 @@ with $c = \sqrt{\dfrac{1}{2} \left(1 - \dfrac{\delta}{\Omega'_{r,n}}\right)}$ an
 	\end{figure}
 
 	Both the line (4) and line (5) are splitted in the same fashion by an excitation on line (1), showing that all those states share a common ground state, and that the laser influence the energy of said ground state. The splitting measured on line (5) for a resonant excitation on line (1) is plotted as a function of the square root of the resonant laser intensity $P$ in Fig.~\ref{FitSplitDet} showing that, as expected for a two level system, it linearly depends on the laser field strength. The Rabi splitting can reach 150 $\mu eV$ at high excitation power. As the pump laser is detuned, the optically active transitions asymptotically approaches the original excitonic transitions where the remaining offset is the optical Stark shift.
-
-	A resonant laser permits to address any spin state of the Cr and selectively shift its energy. For instance, as presented in Fig.~\ref{DarkExcSplit}, a $\sigma+$ excitation on the dark exciton state (5) induces a splitting of the high energy line (1) in $\sigma-$ polarization (state $|S_z=-1,-1\rangle$) without affecting the central line (2). This confirms that such resonant excitation can be used to tune the energy of $S_z=-1$ without affecting $S_z=0$.
-	
-	The energy tuning induced by a coherent optical driving is particularly interesting for the control of the Cr spin states $S_z=\pm1$. These states could be efficiently mixed by applied weak anisotropic in-plane strain through a fine structure term of the form $E(S_x^2-S_y^2)$ \cite{LafuenteCrQD}. A relative shift of the energy of $S_z=+1$ or $S_z=-1$ by a resonant optical excitation would affect their coupling and consequently the Cr spin coherent dynamics.
 	
 	\begin{figure}[h!]
 	\fcapside{\caption{PL of line (1) and (2) (high energy line) for a laser on resonance with the dark exciton state (5). Inset: PL intensity map of line (1) as a function of the laser detuning around (5).}\label{DarkExcSplit}}	
@@ -423,17 +427,27 @@ with $c = \sqrt{\dfrac{1}{2} \left(1 - \dfrac{\delta}{\Omega'_{r,n}}\right)}$ an
 		\includegraphics[width=6cm]{Pictures/StarkDark.eps}
 	\end{center}}
 	\end{figure}
+
+	A resonant laser permits to address any spin state of the Cr and selectively shift its energy. For instance, as presented in Fig.~\ref{DarkExcSplit}, a $\sigma+$ excitation on the dark exciton state (5) induces a splitting of the high energy line (1) in $\sigma-$ polarization (state $|S_z=-1,-1\rangle$) without affecting the central line (2). This confirms that such resonant excitation can be used to tune the energy of $S_z=-1$ without affecting $S_z=0$.
+	
+	In this section, we have demonstrated the possibility to tune the Cr energy levels using optical Stark effect. The different Cr spin states can be addressed and controlled individually, without perturbing the other spin states. This open the possibility control the Cr spin state, which is a key step to use it in hybrid spin-mechanical system.
 	
 	\section*{Conclusion}
 	
-	The Cr spin dynamics was first probed using autocorrelation and crosscorrelation experiments, giving a relaxation time of the Cr spin $\tau_{Cr}$ of at least 20 ns.
+	The Cr spin dynamics was first observed using autocorrelation and crosscorrelation experiments, giving a relaxation time of the Cr spin $\tau_{Cr}$ under optical excitation in the 10 ns range.
 	
-	In order to probe this dynamics with precision, we developed a pumping experiment for the Cr spin. Using resonant optical pumping, the Cr relaxation time in the dark was found to be $\tau_{Cr} = $ 1.7 $\mu$s at T = 5 K. A relaxation channel between the states $|S_z = \pm 1, X_z = \pm 1 \rangle$ and $|S_z = 0, X_z = \pm 1 \rangle$ were also evidenced by resonant optical pumping. We proposed a phonon-mediated h-Cr spin flip-flop to explain this relaxation, such as the one presented in Sec.~III.2.3%\ref{RelaxMech}
+	In order to analyse this dynamics in more details, we developed a resonant optical pumping experiment for the Cr spin. Several phonon related mechanisms were evidenced using this experiment. A fast transfer between $S_z = 0$ and $S_z = \pm1$ under excitation was evidenced. This transfer was explained by h-Cr spins flip-flop similar to the one proposed for h-Mn in Sec.~III.2.3%\ref{RelaxMech}
 . It gives a hole-Cr relaxation time $\tau_{hCr}$ in the ns scale, which fits well the experiments.
+
+	Using resonant optical pumping, we also showed that the Cr spin dynamics is strongly affected by optically generated phonons. The possibility to heat the Cr spin through non-equilibrium phonons was demonstrated. A final proof of the effect could be given by depositing a thin metal layer on the back on the sample. A laser will then be able to excite phonons in it and inject them in the semiconductors without injecting carriers.
 	
-	We also show the possibility to control the Cr spin state using optical Stark shift. It is possible to independently tune each Cr spin state. It could therefore be used to affect the coupling of the different Cr states, especially the $S_z = +1$ and $S_z = -1$ states, coupled through the strain anisotropy term $E$.
+	The relaxation of the Cr spin in the dark was also probed using resonant optical pumping. Two times were found, depending on the technique used to probe the relaxation. One was found in the $\mu$s range, while the other is about ten times higher. We proposed to explain those two times with two relaxation mechanism: a one phonon mechanism (direct mechanism) between $S_z = 0$ and $S_z = \pm1$, and a two phonon mechanisms (Raman or Orbach mechanisms) between $S_z = +1$ and $S_z = -1$. The states $S_z = \pm1$ are also mixed by the in-plane strain anisotropy term $E$.
 	
-	Possible effects of the phonons on the Cr spin was also evidenced. However, the experiments conducted during this thesis was not enough to really conclude on these effects. Further experiments are needed to test them. We propose to deposit a thin metal layer on the back on the sample. A laser will then be able to excite phonons in it and inject them in the semiconductors without injecting carriers.
+	Several experiments can be done to test this last hypothesis and isolate those two transfer time. First, the direct mechanism could be probed using the relaxation in the dark of the state $S_z = 0$. A linearly polarized laser would excite both the states $S_z = +1$ and $S_z = -1$, and their populations would be transferred toward $S_z = 0$. The state of $S_z = 0$ would be probed in cross-linear configuration during the resonant excitation. The evolution of the pumping transient with the time between two pulses $\tau_{dark}$ would be a measure of the transfer between $S_z = 0$ and $S_z = \pm1$ via the direct mechanism.
+	
+	The transfer mechanism between $S_z = +1$ and $S_z = -1$ could be probed using other experiments. First, probing the Cr spin relaxation in the dark under magnetic field would permits whether this relaxation is driven by $E$ or by the two phonons mechanisms: two levels need to be almost degenerated to be efficiently coupled by $E$. Therefore its effect should disappear quickly in magnetic field, whereas the effect of the two phonons mechanism would need a higher magnetic field to disappear. Probing the evolution of $\tau_{Cr}$ in temperature would confirm the role of phonons in the transfer mechanism. The Raman mechanism depends on $T^7$. It should therefore be inefficient at low temperature, and become quickly important as the temperature rise.
+	
+	We also showed the possibility to control the Cr spin state using optical Stark shift. It is possible to independently tune each Cr spin state. This energy tuning is particularly interesting for the control of the Cr spin states $S_z=\pm1$. These states could be efficiently mixed by applied weak anisotropic in-plane strain through a fine structure term of the form $E(S_x^2-S_y^2)$~\cite{LafuenteCrQD}. A relative shift of the energy of $S_z=+1$ or $S_z=-1$ by a resonant optical excitation would affect their coupling and consequently the Cr spin coherent dynamics.
 	
 \printbibliography
 
