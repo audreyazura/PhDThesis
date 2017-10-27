@@ -33,6 +33,7 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 floatsetStr = re.compile(r'\\floatsetup')
+refStr = re.compile(r'~[.0-9I]{1,10}%')
 
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
@@ -53,13 +54,13 @@ for i in range(first,maxCount+1):
 			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
 					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line) || lipsumStr.search(line)))):
-						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line)))
+						treatedLine = refStr.sub(nullChain, pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line))))
 						
 						#first file: we print all the package and add it to the package library
 						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
 							print(treatedLine, file=Thesis)
 							if usepackageStr.search(treatedLine):
-								package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
+								package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, treatedLine))
 								packages.append(package)
 #								print("Package added: " + package)
 								lastPack+=1
