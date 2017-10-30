@@ -42,7 +42,7 @@ if ignoreLorem:
 
 Thesis = open('Thesis.tex', 'w')
 for i in range(first,maxCount+1):
-#for i in [first, maxCount-1]:
+#for i in [first, maxCount]:
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
