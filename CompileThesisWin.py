@@ -54,13 +54,16 @@ for i in range(first,maxCount+1):
 			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
 					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line) || lipsumStr.search(line)))):
-						treatedLine = refStr.sub(nullChain, pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line))))
+#						treatedLine = refStr.sub(nullChain, pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line))))
+						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, line))
+						if refStr.search(treatedLine):
+							treatedLine = refStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine))
 						
 						#first file: we print all the package and add it to the package library
 						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
-							print(treatedLine, file=Thesis)
+							print(treatedLine, file=Thesis, end='')
 							if usepackageStr.search(treatedLine):
-								package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, treatedLine))
+								package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine)))
 								packages.append(package)
 #								print("Package added: " + package)
 								lastPack+=1
@@ -71,7 +74,7 @@ for i in range(first,maxCount+1):
 							#if we find a new package, we have to add it to the header and to the list of used package
 							if usepackageStr.search(treatedLine):
 								if not(any(s in line for s in packages)):
-									package = usepackageStr.sub(nullChain, closebracStr.sub( nullChain, treatedLine))
+									package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine)))
 									packages.append(package)
 #									print("Package added: " + package)
 									lastPack+=1
@@ -80,12 +83,12 @@ for i in range(first,maxCount+1):
 									with open('Thesis.tex', 'r') as refThesis:
 										with open('copThesis.tex', 'w') as copiedThesis:
 											for copLine in refThesis:
-												copTreatedLine = newlineStr.sub(nullChain, copLine)
 												if countLine == lastPack:
-													adLine = copTreatedLine + '\n' + treatedLine
+													copTreatedLine = newlineStr.sub(nullChain, copLine)
+													adLine = copTreatedLine + treatedLine
 													print(adLine, file=copiedThesis)
 												else:
-													print(copTreatedLine, file=copiedThesis)
+													print(copLine, file=copiedThesis, end='')
 												countLine+=1
 									!(del Thesis.tex)
 									!(rename copThesis.tex Thesis.tex)
@@ -93,11 +96,11 @@ for i in range(first,maxCount+1):
 							
 							#for the last file, we print all the line with the exception above, and have to not ignore the printbiblio and end{document}
 							elif i == maxCount && not(bibresStr.search(treatedLine)):
-								print(treatedLine, file=Thesis)
+								print(treatedLine, file=Thesis, end='')
 							
 							#for all the other line in any file, we just ignore the printbiblio and end{document}, and print otherwise
 							elif not(biblioStr.search(treatedLine) || enddocStr.search(treatedLine)):
-								print(treatedLine, file=Thesis)
+								print(treatedLine, file=Thesis, end='')
 				
 			print('File ' + cfile.group() + ' done')
 
