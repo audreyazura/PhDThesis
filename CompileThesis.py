@@ -5,8 +5,8 @@ import re
 
 ####################### PARAMETERS #######################
 
-first = 1
-maxCount = 5
+firstChap = 1
+lastChap = 4
 ignoreLorem = True
 
 ########################## CODE ##########################
@@ -41,8 +41,8 @@ if ignoreLorem:
 	lipsumStr = re.compile(r'ipsum')
 
 Thesis = open('Thesis.tex', 'w')
-for i in range(first,maxCount+1):
-#for i in [first, maxCount]:
+for i in range(firstChap,lastChap+1):
+#for i in [firstChap, lastChap]:
 	num = '0' + str(i)
 	fold = re.search(num + '-[a-zA-z-]{1,10}', $(ls))
 	if fold:
@@ -60,7 +60,7 @@ for i in range(first,maxCount+1):
 							treatedLine = refStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine))
 						
 						#first file: we print all the package and add it to the package library
-						if i == first && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
+						if i == firstChap && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
 							print(treatedLine, file=Thesis, end='')
 							if usepackageStr.search(treatedLine):
 								package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine)))
@@ -95,7 +95,7 @@ for i in range(first,maxCount+1):
 									Thesis = open('Thesis.tex', 'a')
 							
 							#for the last file, we print all the line with the exception above, and have to not ignore the printbiblio and end{document}
-							elif i == maxCount && not(bibresStr.search(treatedLine)):
+							elif i == lastChap && not(bibresStr.search(treatedLine)):
 								print(treatedLine, file=Thesis, end='')
 							
 							#for all the other line in any file, we just ignore the printbiblio and end{document}, and print otherwise
