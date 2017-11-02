@@ -202,7 +202,7 @@ Finally, for any spin operator $O$ ($O = \bm{\upsigma}$, $\mathbf{J}$ or any oth
 		O_- = O_x - iO_y
 	\end{align}
 
-	We are mainly interested in two light matter interaction in the semiconductor:  absorption of a photon of energy equal to or higher than the band gap by an electron of the valence band to reach the conduction band; or emission of photon by an electron relaxing from the conduction band to the valence band. However, angular momentum conservation rules forbid some transitions. In order to find them, we consider the coupling between a conduction band electron $|\Psi_c\rangle$ and a valence band hole $|\Psi_v\rangle$ through, in the dipolar approximation, the hamiltonian ${\cal H}_{dip} = -\mathbf{d}.\mathbf{E}$ with $\mathbf{d}$ the dipole operator and $\mathbf{E}$ the electric field, that can also be written ${\cal H}_{dip} = -\frac{e}{m}\mathbf{p}.\mathbf{A}$ with $\mathbf{p}$ the electron momentum and $\mathbf{A}$ the potential vector~\cite{}. In this section, we go with the later. We then get:
+	We are mainly interested in two light matter interaction in the semiconductor:  absorption of a photon of energy equal to or higher than the band gap by an electron of the valence band to reach the conduction band; or emission of photon by an electron relaxing from the conduction band to the valence band. However, angular momentum conservation rules forbid some transitions. In order to find them, we consider the coupling between a conduction band electron $|\Psi_c\rangle$ and a valence band hole $|\Psi_v\rangle$ through, in the dipolar approximation, the hamiltonian ${\cal H}_{dip} = -\mathbf{d}.\mathbf{E}$ with $\mathbf{d}$ the dipole operator and $\mathbf{E}$ the electric field, that can also be written ${\cal H}_{dip} = -\frac{e}{m}\mathbf{p}.\mathbf{A}$ with $\mathbf{p}$ the electron momentum and $\mathbf{A}$ the potential vector~\cite{RosencherOptoElec}. In this section, we go with the later. We then get:
 	\begin{align}
 		\langle \Psi_v | {\cal H}_{AF} | \Psi_c \rangle \propto \langle u_{\Gamma_8, J_z} | \mathbf{p} | u_{\Gamma_6, \sigma_z} \rangle
 	\end{align}
@@ -839,11 +839,13 @@ where $\frac{3}{2}I_{eh}$ corresponds to the energy splitting between bright and
 		\end{align}
 with $I$ the interaction constant, $\bm{\upsigma}$ the electron spin and $\mathbf{S}$ the spin of the magnetic atom.
 	
-	This interaction represents the Pauli exclusion principle through the interaction between two spins. Almost all the interactions in this section will be of this form, although representing different physical processes, with only the interaction constant $I$ varying from one to another.
+	This interaction represents the Pauli exclusion principle through the interaction between two spins. All the interactions in this section will be of this form, although representing different physical processes, with only the interaction constant $I$ varying from one to another.
 	
-	Both Cr and Mn are close in size to the Cd atoms they replace, so their insertion only induces a small perturbation in the crystal structure, meaning the semiconductor wave function will not be significantly altered by them. We can then, as usual, write the conduction electron wave function as $|\psi_{\mathbf{k}}\rangle|\sigma;\sigma_z\rangle \equiv |\psi_{\mathbf{k}};\sigma_z\rangle$, $|\psi_{\mathbf{k}}\rangle$ being the Bloch function of the semiconductor. On the other side, considering a magnetic atom at $\mathbf{r} = \mathbf{R_d}$, we write the spatial component of the wave function $\Phi_d (\mathbf{r} - \mathbf{R_d})$. Its total electronic spin, sum of the electron spins on its $d$ orbital, is noted $|S; S_z\rangle$. The whole wave function of the magnetic atom is then $|\Phi_d;S_Z\rangle$.
+		\subsubsection*{Hamiltonian of a DMS}
 	
-	Using Born-Oppenheimer approximation, separating the movement of the electrons from the one of the nuclei, we can write the hamiltonian for these electrons:
+	Both Cr and Mn are close in size to the Cd atoms they replace, so their insertion only induces a small perturbation in the crystal structure, meaning the semiconductor wave function will not be significantly altered by them. We can then, as usual, write the conduction electron wave function as $|\psi_{\mathbf{k}}\rangle|\sigma;\sigma_z\rangle \equiv |\psi_{\mathbf{k}};\sigma_z\rangle$, $|\psi_{\mathbf{k}}\rangle$ being the Bloch function of the electron. In a first time, we only consider electrons of the conduction band. On the other side, considering a magnetic atom at $\mathbf{r} = \mathbf{R_d}$, we write the spatial component of the wave function $\Phi_d (\mathbf{r} - \mathbf{R_d})$. Its total electronic spin, sum of the electron spins on its $d$ orbital, is noted $|S; S_z\rangle$. The whole wave function of the magnetic atom is then $|\Phi_d;S_Z\rangle$.
+	
+	Let's first consider the hamiltonian for single magnetic atom. Using Born-Oppenheimer approximation, separating the movement of the electrons from the one of the nuclei, we can write the hamiltonian for these electrons:
 	\begin{align}
 	\label{BOHamil}
 		{\cal H}_{BO} = \sum_i \left(\frac{p_i^2}{2m_c} + V_c (\mathbf{r}_i) \right) + \frac{1}{2} \sum_{i,j} \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r_i} - \mathbf{r_j}|}
@@ -853,25 +855,24 @@ The first term is a single particle hamiltonian, taking into account the kinetic
 	We can rewrite this hamiltonian using second quantification. We define the destruction (resp. creation) operator of a particle in the conduction band at the wave vector $\mathbf{k}$ and the spin $\sigma$ as $a_{\mathbf{k}, \sigma}$ (resp. $a_{\mathbf{k}, \sigma}^{\dagger}$). In the same way, we define the destruction (resp. creation) operator of the electronic level of an impurity as $a_{d, S}$ (resp. $a_{d, S}^{\dagger}$). Assuming the number of electrons on the $d$ orbital of the considered magnetic atom does not change, the hamiltonian \ref{BOHamil} then becomes:
 	\begin{align}
 			{\cal H}_{SQ} &= \sum_{\mathbf{k}, \sigma} E_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}, \sigma} + \sum_{S} E_d a_{d, S}^{\dagger} a_{d, S} + \sum_{\mathbf{k}, \mathbf{k}'} U_{\mathbf{k}, \mathbf{k}'} a_{\mathbf{k}, \sigma}^{\dagger} a_{\mathbf{k}', \sigma} \nonumber \\
-								&\qquad\qquad\quad+ \sum_{\mathbf{k}, \sigma, S} M_{\mathbf{k}} (a_{\mathbf{k}, \sigma}^{\dagger} a_{d, S} + a_{d, S}^{\dagger} a_{\mathbf{k}, \sigma}) + \frac{1}{2} \sum_{i,j,m,n} V_{i,j,m,n} a_i^{\dagger} a_j^{\dagger} a_n a_m \label{HamilSQ} \\
+								&\qquad\qquad\quad+ \sum_{\mathbf{k}, \sigma, S} V_{kd} (a_{\mathbf{k}, \sigma}^{\dagger} a_{d, S} + a_{d, S}^{\dagger} a_{\mathbf{k}, \sigma}) + \frac{1}{2} \sum_{i,j,m,n} V_{i,j,m,n} a_i^{\dagger} a_j^{\dagger} a_n a_m \label{HamilSQ} \\
 						&= {\cal H}_0 + {\cal H}_d + V_d + {\cal H}_{hyb} + {\cal H}_{Coulomb} \nonumber
 	\end{align}
-with $E_{\mathbf{k}}$, $E_d$, $U_{\mathbf{k}, \mathbf{k}'}$, $M_{\mathbf{k}}$ and $V_{i,j,m,n}$ the interactions constant. The constant electron number assumption is good enough for the picture we want to draw since most of the spin-driven interactions do not induce a change of this number.
+with $E_{\mathbf{k}}$, $E_d$, $U_{\mathbf{k}, \mathbf{k}'}$, $V_{kd}$ and $V_{i,j,m,n}$ the interactions constant. The constant electron number assumption is good enough for the picture we want to draw since most of the spin-driven interactions do not induce a change of this number.
 
 	${\cal H}_0$ represents the energy of the unperturbed wave function of the semiconductor, with $E_k$ the energy of an electron with the wave vector $\mathbf{k}$.
 	
 	${\cal H}_d$ is the same as ${\cal H}_0$ but for an electron of the $d$ orbital of the considered magnetic impurity, with $E_d$ the energy of an electron on this orbital.
 	
-	$V_d$ represents the impurities potential, allowing the semiconductor electrons to scatter on it. However, Mn and Cr does not modify strongly the crystal potential. We can then consider that the states of the semiconductor $|\psi_k\rangle$ are also solution of the full crystal potential, including impurity, and neglect this term.
+	$V_d$ represents the impurity potential, allowing the semiconductor electrons to scatter on it. However, in II-VI materials, both Mn and Cr are isoelectric impurities. Their modification to the host semiconductor potential is therefore negligible~\cite{DyakonovSpinPhysicsSC} and $|\psi_k\rangle$ can still be used as solutions for the electrons of the semiconductor.
 	
-	${\cal H}_{hyb}$, also called the Anderson hamiltonian, mixes the semiconductor states with the states of the impurities. It represents an exchange interaction between an electron of the semiconductor and one of the $d$ orbital of an impurity. We can write the exchange constant as:
-	\begin{align}
-	\label{Vkd}
-		V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_1 \Phi_d (\mathbf{r} - \mathbf{R_d})
-	\end{align}
-with ${\cal H}_1$ the one particle hamiltonian. This term depends on the Bloch state of both the semiconductor and the impurity, meaning it can be reduced to zero by the symmetry of such functions in some specific cases.
+	${\cal H}_{hyb}$, also called the Anderson hamiltonian, mixes the semiconductor states with the states of the impurities. It represents an exchange interaction between an electron of the semiconductor and one of the $d$ orbital of an impurity.
 
-	Let's now focus on the last term, ${\cal H}_{Coulomb}$, representing the two particles exchange. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either an electron of the semiconductor or of one of the impurities. We can then separate this hamiltonian in three different terms depending on the value of $i$, $j$, $m$ and $n$ as illustrated in Fig.~\ref{HybridEner}.
+	${\cal H}_{Coulomb}$ is a two particles hamiltonian represents the direct and the exchange Coulomb interaction between the electrons of the semiconductor and of the impurity. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either an electron of the semiconductor or of one of the impurities.
+	
+		\subsubsection*{The exchange interaction in DMS}
+
+	We first focus on the action of ${\cal H}_{Coulomb}$. It can be separated in three different terms depending on the value of $i$, $j$, $m$ and $n$ as illustrated in Fig.~\ref{HybridEner}.
 	
 %	\begin{figure}[h!]
 %	\begin{center}
@@ -888,7 +889,7 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depends on the Bloch s
 	\end{center}}
 	\end{figure}
 
-	We first consider two states belonging to the continuum of the semiconductors, appearing as $J_1$ on the diagram. This is the hamiltonian $H_{eh}$ introduced in Sec.~\ref{ehExch}.
+	Let's begin with the interaction noted $J_1$ on the diagram, two states belonging to the continuum of the semiconductors. This is the hamiltonian $H_{eh}$ introduced in Sec.~\ref{ehExch}.
 
 %	Using Hartree-Fock approximation, considering all electron of the semiconductor except the one we look at as an effective electric field, we can include this term in the crystal potential, representing now both the potential of the ion lattice and the potential of the electrons. $V_{kd}$ will then use ${\cal H}_{HF}$ instead of ${\cal H}_1$:
 %	\begin{align}
@@ -896,21 +897,21 @@ with ${\cal H}_1$ the one particle hamiltonian. This term depends on the Bloch s
 %	\end{align}
 %The interaction between the electron of the semiconductor will then be treated with more details in Sec.~\ref{ExchIntQD}.
 	
-	The next interaction we consider is the one of two electrons from a localized atom. It represents internal transitions of the atom, representing the Hund rule. It is written:
+	The next interaction we consider is the one of two electrons from a localized atom. It represents internal transitions of the atom, given by the Hund rule. It is written:
 	\begin{align}
 		{\cal H}_U = \sum_{d, S, S'} U a_{d, S}^{\dagger} a_{d, S'}^{\dagger} a_{d, S'} a_{d, S'}
 	\end{align}
-with $U = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r'} \dfrac{e^2}{4\pi\varepsilon_0 |\mathbf{r} - \mathbf{r'}|} |\Phi_d (\mathbf{r})|^2 |\Phi_d (\mathbf{r'})|^2$ the Coulomb interaction between two electrons on the same orbital with different spins. Thus, it costs more energy to add an electron on the same orbital than on another. We find back the Hund rule, with electrons first filling all orbitals with parallel spin before adding an electron to an orbital with another one, with opposed spin.
+with $U = \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r'} \dfrac{e^2}{4\pi\varepsilon_0 |\mathbf{r} - \mathbf{r'}|} |\Phi_d (\mathbf{r})|^2 |\Phi_d (\mathbf{r'})|^2$ the Coulomb interaction between two electrons on the same orbital with different spins. Thus, it costs more energy to add an electron on the same orbital than on another. The Hund rule is verified, with electrons first filling all orbitals with parallel spin before adding an electron to an orbital with second one, with opposed spin.
 	
 	The third interaction is the one between an electron from the magnetic atom and an electron from the semiconductor. In the same way as with carriers of the bulk, it can be separated in two terms that will be developed in the next paragraphs: a direct Coulomb interaction between the two electrons, and an exchange interaction arising from the fermionic nature of electrons.
 	
-	The direct Coulomb interaction doesn't depend on the spins of the electrons. It only act on the total energy of the system and is therefore only needed when searching the total energy of an exciton. We write it:
+	The direct Coulomb interaction can be written:
 	\begin{align}
 		K &= + \sum_{\mathbf{k}, \sigma, \sigma'} K_{\mathbf{k}} a_{\mathbf{k}, \sigma}^{\dagger} a_{d, \sigma'}^{\dagger} a_{d, \sigma'} a_{\mathbf{k}, \sigma} \\
 		\text{with} \nonumber \\
 		K_k &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' |\psi_k (\mathbf{r})|^2 \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} |\Phi_d (\mathbf{r}')|^2 \nonumber
 	\end{align}
-It is clear that the spin $\sigma$ (resp. $\sigma'$) of the $k$ electron (resp. $d$ electron) is not changed by this interaction. Since it only induces a shift in the total energy, we can redefine the origin of the energy axis to ignore it.
+It is clear that the spin $\sigma$ (resp. $\sigma'$) of the $\mathbf{k}$ electron (resp. $d$ electron) are not involved in this interaction: they are not changed by it. The wave vector $\mathbf{k}$ is also not affected by this interaction. The direct Coulomb interaction therefore only acts on the total energy of the system. The origin of the energy axis can be redefine to ignore it.
 
 	The second term, the exchange interaction, written in second quantification, reads:
 		\begin{align}
@@ -918,7 +919,7 @@ It is clear that the spin $\sigma$ (resp. $\sigma'$) of the $k$ electron (resp. 
 			\text{with} \nonumber \\
 			I_{kk'}^{ex} &= \int \mathrm{d} \mathbf{r} \mathrm{d} \mathbf{r}' \psi_{k'}^* (\mathbf{r}) \psi_{k}^* (\mathbf{r}') \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} \Phi_{d}^* (\mathbf{r}) \Phi_{d}^* (\mathbf{r}') \label{sdConst}
 		\end{align}
-As can be seen on Eq.~\ref{sdSQ}, this interaction exchange, as suggested by its name, the spin $\sigma$ and $\sigma'$ of both electrons. Eq.~\ref{sdConst} shows that the spin interaction comes from a Coulomb interaction between two fermions.
+As can be seen on Eq.~\ref{sdSQ}, this interaction exchange the spin $\sigma$ and $\sigma'$ of both electrons, as suggested by its name. Eq.~\ref{sdConst} shows that the spin interaction comes from a Coulomb interaction between two fermions.
 
 	We define:
 		\begin{align}
@@ -930,69 +931,86 @@ As can be seen on Eq.~\ref{sdSQ}, this interaction exchange, as suggested by its
 		\end{align}
 Considering now that this interaction does not change the number of electrons on the $d$ orbital of the considered magnetic atom, we can write the interaction as a Kondo hamiltonian~\cite{KacmanD0alphabetaIIVI}:
 	\begin{align}
+		\label{Exchsd}
 		{\cal H}_{sd} = - \sum_{k, k'} I_{kk'}^{ex} \bm{\upsigma}_{k,k'}.\mathbf{S}
 	\end{align}
 Since $I_{k,k'}^{ex}$ is positive, the negative sign in front of the Kondo hamiltonian shows that the energy minimum is reached when the spins of both electrons are aligned, and is therefore ferromagnetic.
 	
-	We can now write the hamiltonian \ref{HamilSQ}, detailing these new hamiltonians:
+	We can now write the total hamiltonian \ref{HamilSQ}, breaking the hamiltonian ${\cal H}_{Coulomb}$ into its different part:
 		\begin{align}
 			{\cal H}_{SQ} &= {\cal H}_0 + {\cal H}_d + {\cal H}_{hyb} + {\cal H}_{eh} + {\cal H}_{U} + {\cal H}_{sd}
 		\end{align}
-with the exchange constant in ${\cal H}_{hyb}$, $V_{kd} = \int \mathrm{d}\mathbf{r} \psi_k^* (\mathbf{r}) {\cal H}_1 \Phi_d (\mathbf{r} - \mathbf{R_d})$.
+		
+		\subsubsection*{Orbital hybridization}
 
-	We now have two hamiltonians to model the exchange interaction between the impurities electrons and the one of the semiconductor: ${\cal H}_{hyb}$ and ${\cal H}_{sd}$. Schrieffer and Wolff rewrote the Anderson hamiltonian ${\cal H}_{hyb}$ in order to give a form closer to the Kondo hamiltonian~\cite{RelationAnderKondo}:
+	We now have two hamiltonians to model the exchange interaction between the impurity and the semiconductor electrons: ${\cal H}_{sd}$ and ${\cal H}_{hyb}$. The first one was put in Heisenberg form in the previous section. This section will focus on the hybridization. The hybridization constant can be written as~\cite{AndersonHamil}:
+	\begin{align}
+	\label{Vkd}
+		V_{kd} = \frac{1}{\sqrt{N}}\int \mathrm{d}\mathbf{r} \Phi_d^* (\mathbf{r} - \mathbf{R_d}) {\cal H}_{HF} (\mathbf{r}) \psi_k (\mathbf{r})
+	\end{align}
+with $N$ the number of primitive cell in the crystal and ${\cal H}_{HF} (\mathbf{r})$ the Hartree-Fock hamiltonian for a single electron.
+	
+	Schrieffer and Wolff rewrote the Anderson hamiltonian ${\cal H}_{hyb}$ in order to give a form closer to the Kondo hamiltonian~\cite{RelationAnderKondo}:
 	\begin{align}
 	\label{Ikk'}
 			{\cal H}_{hyb} &= \sum_{k,k'} V_{kd} V_{k'd} \left(\dfrac{1}{E_k - (E_d + U)} + \dfrac{1}{E_{k'} - (E_d + U)}\right. \nonumber \\
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
 			 				&= -  \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
 	\end{align}
-The Fig.~\ref{EnerTransit} illustrates the different energies introduced in \ref{Ikk'}, presenting virtual transitions to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
+This form suppose that the magnetic atom $d$ levels are far from the band edge. This assumption works well for Mn. However, the Cr ground state is at the edge of the valence band. Therefore, knowing the sign of $E_k - E_d$ or $E_{k'} - E_d$ is more difficult. In order to give an idea of the construction of the hybridization, we will focus on the Mn case. The case of the Cr will be discussed more in details in Sec.~\ref{CrCdTe}.
 
 	\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=10cm]{Pictures/EnergyLevels.png}
-	\end{center}
-	\caption{Schema of the band structure and virtual transitions between valence band and conduction band. Picture taken from Laurent Maingault's PhD thesis~\cite{LaurentTh}. $E_d$ is the ground energy of the $d$ electrons of the magnetic atom; $U$ is the energy needed for the magnetic atom to reach its first excited state; $E_v (k)$ is the valence band energy; $E_g (k)$ is the conduction band energy}
-	\label{EnerTransit}
+	\fcapside{\caption{Schema of the band structure and virtual transitions between valence band and conduction band. Picture taken from Laurent Maingault's PhD thesis~\cite{LaurentTh}. $E_d$ is the ground energy of the $d$ electrons of the magnetic atom; $U$ is the energy needed for the magnetic atom to reach its first excited state; $E_v (k)$ is the valence band energy; $E_g (k)$ is the conduction band energy}\label{EnerTransit}}
+	{\begin{center}
+		\includegraphics[width=7.6cm]{Pictures/EnergyLevels.png}
+	\end{center}}
 	\end{figure}
-
-	Doing this transformation is an important step, since it is now possible to use a Heisenberg type spin hamiltonian instead of a hamiltonian mixing wave functions. Both type of interaction can now bewritten, using the same formalism. The only difference is in the exchange constant:  $I_{kk'}^{ex}$ for the exchange, and $I_{kk'}^{hyb}$ for the hybridization.
+	
+	The Fig.~\ref{EnerTransit} illustrates the different energies introduced in \ref{Ikk'}, presenting virtual transitions to the $d$ orbital of the magnetic atom. The two possible energies are $E_d$ for the low energy level, and $E_d + U$ for the high energy one, $U$ being the energy needed to add an electron to the orbital.
 
 	Supposing the coupling occurs between two electrons with a close $k$ ($k \simeq k'$), we can rewrite $I_{kk'}^{hyb}$ as:
 	\begin{align}
 		\begin{array}{rl}
 			I_{kk'}^{hyb} &= 2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_k - (E_d + U)} \\
-						&= -2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_d + U - E_k})
+						&= -2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_d + U - E_k)}
 		\end{array}
 	\end{align}
-Fig.~\ref{EnerTransit} presents the case where the magnetic atom ground state is deep inside the valence band. This is the case for the Mn atom. In this case, one can see that $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$ is negative. Thus, $I_{kk'}^{hyb}$ is negative, and we see that, while exchange leads to a ferromagnetic coupling, hybridization leads to an anti-ferromagnetic one. There will be a competition in the semiconductor between these two for every type of carrier.
+For a magnetic atom ground state is deep inside the valence band, as it is the case for the Mn atom, $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$ is negative (see Fig.~\ref{EnerTransit}). Thus, $I_{kk'}^{hyb}$ is negative, and leads to an anti-ferromagnetic one.
 
-	The Cr case is more complicated: its ground state is at the edge of the valence band. Therefore, knowing the sign of $E_k - E_d$ is more difficult. It will be discussed more in details in Sec.~\ref{CrCdTe}.
+\subsubsection*{Exchange constants in DMS}
+
+	With this last transformation, it is now possible to use a Heisenberg type spin hamiltonian for all interactions instead of a hamiltonian mixing wave functions. The only difference between the interactions is in the exchange constant:  $I_{kk'}^{ex}$ for the exchange, and $I_{kk'}^{hyb}$ for the hybridization.
 
 	Using the same hypothesis done on Sec.~\ref{BandStruct} of small $k$ value, and the value of $V_{kd}$ presented in Eq.~\ref{Vkd}, we can rewrite the exchange constant:
 	\begin{align}
-		I_{00, \{c,v\}}^{hyb} &= -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) \int \mathrm{d}\mathbf{r} \Phi_r^* (\mathbf{r}) {\cal H}_1 \psi_0^{\{c,v\}} \\
-		I_{00, \{c,v\}}^{ex} &= \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|\psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d} (\mathbf{r})
+		I_{00, \{c,v\}}^{hyb} &= -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) |V_{kd}|^2 \\
+		I_{00, \{c,v\}}^{ex} &= \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* (\mathbf{r}) \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} \psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d (\mathbf{r})
 	\end{align}
-The valence band is formed by the $p$ orbital of the semiconductor matrix, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
-	\begin{align}
-		I_{pd} =I_{00, v}^{hyb} +  I_{00, v}^{ex}
-	\end{align}
-In the conduction band, the orbitals are $s$, and so we will write the interaction $I_{sd}$. However, since $s$ orbitals have a spherical symmetry, there is no hybridization contribution. The expression is then pretty easy:
+	
+	In the conduction band, the orbitals are $s$, and so we will write the interaction $I_{sd}$. However, since $s$ orbitals have a spherical symmetry, there is no hybridization contribution~\cite{BhattacharjeeExchVB}. The expression is then pretty easy:
 	\begin{align}
 		I_{sd} = I_{00, c}^{ex}
 	\end{align}
+As discussed earlier, this lead to a ferromagnetic coupling between the conduction band electrons and the magnetic atom.
 
-	The same kind of reasoning can be done for the holes instead of electrons in the valence band. However, since the holes have an angular momentum $J = \dfrac{3}{2}$ instead of a pure spin $S = \dfrac{1}{2}$, we have to change $\sigma_h$ to $J$ and $I_{pd}$ to $\dfrac{I_{pd}}{3}$. We can now rewrite the Hamiltonian of the interaction with one magnetic atom in the Heisenberg notation:
+	This model can also be used in the valence band~\cite{BhattacharjeeExchVB}. The valence band is formed by the $p$ orbital of the semiconductor matrix, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
+	\begin{align}
+		I_{pd} =I_{00, v}^{hyb} +  I_{00, v}^{ex}
+	\end{align}
+The two interactions are in competition in the valence band, with the exchange interaction inducing a ferromagnetic coupling, and the hybridization inducing an anti-ferromagnetic one. The final sign of the interaction depends on the material, and is more discussed in Sec.~\ref{AtinCdTe}.
+
+	The exchange interaction in the valence band can be rewritten for holes, using the total angular momentum $\mathbf{J}$ instead of the pure spin $\mathbf{S}$. However, since $J = 3/2$ and the exchange constant $I_{pd}$ has been defined for $S = 1/2$, the hole exchange hamiltonian have to be written using $I_{pd}/3$.
+	
+	The interaction between semiconductors carriers one magnetic atom in the Heisenberg notation:
 %	\begin{align}
 %	\label{HSingleAt}
 %		{\cal H}_{SQ} = {\cal H}_0 + {\cal H}_{eh} + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
 %	\end{align}	
 	\begin{align}
 	\label{HSingleAt}
+	\renewcommand{\arraystretch}{1}
 		\begin{array}{rlcccccc}
-			{\cal H}_{SQ} &= {\cal H}_0 &+& {\cal H}_{eh} &-& \underbrace{I_{sd} \bm{\upsigma}.\mathbf{S}} &-& \underbrace{I_{pd} \mathbf{J}.\mathbf{S}} \\
+			{\cal H}_{SQ} &= {\cal H}_0 &+& {\cal H}_{eh} &-& \underbrace{I_{sd} \bm{\upsigma}.\mathbf{S}} &-& \underbrace{\dfrac{I_{pd}}{3} \mathbf{J}.\mathbf{S}} \\
 						&= {\cal H}_0 &+& {\cal H}_{eh} &+& {\cal H}_{sd} &+& {\cal H}_{pd}
 		\end{array}
 	\end{align}
@@ -1025,7 +1043,9 @@ with $\alpha \propto I_{sd}^{00}$ the interaction constant between the impurity'
 	\end{align}
 with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity's and the valence band's Bloch function at $\mathbf{k} = 0$.
 
-	To be complete with the analysis, we should also take into account the confinement due to the quantum dot. This means the wave vector $\mathbf{k}$ of the carriers can be different from 0, leading to small perturbative effect on ${\cal H}_{sd}$ and ${\cal H}_{pd}$. This was done thoroughly by Laurent Maingault in the Chap.~I.3 of his PhD thesis~\cite{LaurentTh}. It is shown that the hamiltonian changed as follow:
+		\subsubsection*{Interactions for $k \neq 0$}
+
+	To be complete with the analysis, we should also take into account the confinement due to the quantum dot. This means the wave vector $\mathbf{k}$ of the carriers can be different from 0, leading to small perturbative effect on ${\cal H}_{sd}$ and ${\cal H}_{pd}$. This was done in details by Laurent Maingault in the Chap.~I.3 of his PhD thesis~\cite{LaurentTh}. It is shown that the hamiltonian changed as follow:
 	\begin{align}
 			{\cal H}_{sd} (\mathbf{R}) &= -\alpha \bm{\upsigma}.\mathbf{S} \left| F_c(\mathbf{R}) - A_2\left( \frac{\partial^2 F_c}{\partial z^2} (\mathbf{R}) + \frac{\partial^2 F_c}{\partial \rho^2}(\mathbf{R})\right) \right|^2 \nonumber \\
 										&  \qquad \qquad \qquad - \beta \bm{\upsigma}.\mathbf{S} \left( (C_2 - B_2) \left| \frac{\partial^2 F_c}{\partial z^2} (\mathbf{R}) \right|^2 + C_2 \left| \frac{\partial^2 F_c}{\partial \rho^2} (\mathbf{R}) \right|^2 \right) \\
@@ -1033,7 +1053,7 @@ with $\beta \propto I_{pd}^{00}$ the interaction constant between impurity's and
 	\end{align}
 with $F_c(\mathbf{R})$ (resp. $F_v(\mathbf{R})$) the electron (resp. hole) envelop function, $F_v'' (\mathbf{R})$ the second derivative of the hole envelop function, and $A_2$, $B_2$, $C_2$ constant depending on the semiconductor lattice. For CdTe, $A_2 = 10.3$ \AA$^{-2}$, $B_2 = 0.781$ \AA$^{-2}$ and $C_2 = 19.8$ \AA$^{-2}$.
 
-		\subsection{Insertion of Mn or Cr atom in a semiconductor lattice}
+		\subsection{Insertion of Mn or Cr atom in a semiconductor lattice\label{AtinCdTe}}
 		
 		We will consider in the section the interaction between single magnetic atoms and the carrier trapped in quantum dots. Specifically, we will be interested in the interaction with a Manganese or a Chromium atom. This does not change significantly the picture we drew in the previous section. However, for the interaction between the semiconductor electrons and the magnetic atom $d$ electrons, we will have to also take into account the overlap between the magnetic atom and the carriers. For a magnetic atom A at the position $\mathbf{R}$, we define the exchange constant:
 		\begin{align}
@@ -1113,7 +1133,7 @@ We ignore ${\cal H}_0$ here since it only shift the energy of the system without
 Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange interaction. We can also write the Cr spin operators as follows:
 	\begin{align}
 		\begin{array}{rl}
-			S_{Cr, x} &= \begin{pmatrix}
+			S_{Cr, x} =& \begin{pmatrix}
 					0 & 1 & 0 & 0 & 0 \\
 					1 & 0 & \sqrt{\frac{3}{2}} & 0 & 0 \\
 					0 & \sqrt{\frac{3}{2}} & 0 & \sqrt{\frac{3}{2}} & 0 \\
@@ -1121,7 +1141,7 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 					0 & 0 & 0 & 1 & 0
 				   \end{pmatrix} \\
 			\\
-			S_{Cr, y} &= i
+			S_{Cr, y} = i&
 				   \begin{pmatrix}
 					0 & -1 & 0 & 0 & 0 \\
 					1 & 0 & -\sqrt{\frac{3}{2}} & 0 & 0 \\
@@ -1130,7 +1150,7 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 					0 & 0 & 0 & 1 & 0
 				   \end{pmatrix} \\
 			\\
-			S_{Cr, z} &= \begin{pmatrix}
+			S_{Cr, z} =& \begin{pmatrix}
 					2 & 0 & 0 & 0 & 0 \\
 					0 & 1 & 0 & 0 & 0 \\
 					0 & 0 & 0 & 0 & 0 \\
@@ -1323,7 +1343,7 @@ One should note the QDs could be partially relaxed and may contain a significant
 		We can now group \ref{HamilD0} and \ref{HamilE} in order to write the complete hamiltonian of an isolated Cr in a CdTe/ZnTe QD with anisotropic strains :
 		\begin{align}
 			\label{Cralone}
-			{\cal H}_{Cr,\varepsilon} = D_0 S_z^2 &+& E(S_x^2 - S_y^2)
+			{\cal H}_{Cr,\varepsilon} = D_0 S_z^2 + E(S_x^2 - S_y^2)
 		\end{align}
 		
 		This large sensitivity of the Cr spin to local strains makes the Cr a particularly interesting qubit for the development of hybrid spin-mechanical systems~\cite{CouplingNVOscill,LafuenteStrainMn,QuantSpinTrasducer}.
