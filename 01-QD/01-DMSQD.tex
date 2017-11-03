@@ -986,6 +986,7 @@ For a magnetic atom ground state is deep inside the valence band, as it is the c
 		I_{00, \{c,v\}}^{hyb} &= -2 \left(\frac{U}{(E_{\{c,v\}}(0) - E_d)(E_d + U - E_{\{c,v\}}(0))}\right) |V_{kd}|^2 \\
 		I_{00, \{c,v\}}^{ex} &= \int \mathrm{d}\mathbf{r} \mathrm{d}\mathbf{r}' \psi_0^{*\{c,v\}} (\mathbf{r}) \Psi_d^* (\mathbf{r}) \frac{e^2}{4\pi \varepsilon_0 |\mathbf{r}' - \mathbf{r}|} \psi_0^{\{c,v\}} (\mathbf{r}) \Psi_d (\mathbf{r})
 	\end{align}
+It has been shown that these results can be used both in the conduction band and in the valence band of semiconductors~\cite{BhattacharjeeExchVB}.
 	
 	In the conduction band, the orbitals are $s$, and so we will write the interaction $I_{sd}$. However, since $s$ orbitals have a spherical symmetry, there is no hybridization contribution~\cite{BhattacharjeeExchVB}. The expression is then pretty easy:
 	\begin{align}
@@ -993,13 +994,13 @@ For a magnetic atom ground state is deep inside the valence band, as it is the c
 	\end{align}
 As discussed earlier, this lead to a ferromagnetic coupling between the conduction band electrons and the magnetic atom.
 
-	This model can also be used in the valence band~\cite{BhattacharjeeExchVB}. The valence band is formed by the $p$ orbital of the semiconductor matrix, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
+	The valence band is formed by the $p$ orbital of the semiconductor matrix, as discussed in Sec.~\ref{BandStruct}. We then write $I_{pd}$ as the sum of the hybridization and the exchange contributions:
 	\begin{align}
 		I_{pd} =I_{00, v}^{hyb} +  I_{00, v}^{ex}
 	\end{align}
 The two interactions are in competition in the valence band, with the exchange interaction inducing a ferromagnetic coupling, and the hybridization inducing an anti-ferromagnetic one. The final sign of the interaction depends on the material, and is more discussed in Sec.~\ref{AtinCdTe}.
 
-	The exchange interaction in the valence band can be rewritten for holes, using the total angular momentum $\mathbf{J}$ instead of the pure spin $\mathbf{S}$. However, since $J = 3/2$ and the exchange constant $I_{pd}$ has been defined for $S = 1/2$, the hole exchange hamiltonian have to be written using $I_{pd}/3$.
+	The exchange interaction in the valence band can be rewritten for holes, using the total angular momentum $\mathbf{J}$ instead of the pure spin $\mathbf{S}$. However, since $J = 3/2$ and the exchange constant $I_{pd}$ has been defined for $S = 1/2$, the hole exchange hamiltonian have to be written using $I_{pd}/3$~\cite{BhattacharjeeExchVB}.
 	
 	The interaction between semiconductors carriers one magnetic atom in the Heisenberg notation:
 %	\begin{align}
@@ -1037,7 +1038,7 @@ Projecting along the quantization axis, we just replace $\bm{\upsigma}.\langle\m
 	\end{align}
 with $\alpha \propto I_{sd}^{00}$ the interaction constant between the impurity's and the conduction band's Bloch function at $\mathbf{k} = 0$, and $N_0$ the number of cell per volume.
 	
-	The same consideration can be done for valence band. It can be written for heavy holes:
+	The same consideration can be done for valence band. It is written for heavy holes:
 	\begin{align}
 		\Delta E_v = -N_0 x \frac{\beta}{3} J_z \langle S_z \rangle
 	\end{align}
