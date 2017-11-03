@@ -1,0 +1,67 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{upgreek}
+\usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage[ampersand]{easylist}
+\usepackage{lipsum}
+
+\addbibresource{../Bibliography.bib}
+
+\makeatletter
+	\renewcommand{\thechapter}{\Roman{chapter}}
+\makeatother
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\floatsetup[table]{style=plaintop}
+
+\begin{document}
+
+\chapter*{Introduction}
+
+	Miniaturisation is one of the challenge of this century: electronic system keep getting smaller. On the same time, our need in informatics power keeps growing. In order to keep up, memories have to became smaller and the physical system storing the information too. This thesis study a system that reach the ultimate limit of information storing: using a single atom as a bit of information.
+	
+	In a computer, the operation are done on the time scale of a few nanoseconds. The system stocking the information must last longer than the characteristic time of those operations.
+	
+	 One promising system for this development is the quantum dots (QDs): small islands of semiconductor embedded in a semiconductor of wider gap.
+
+\lipsum[49]
+
+\begin{table} \centering
+	\begin{tabular}{|m{3cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|}
+		\hline		
+		Inserted atom & V$^{2+}$ & Cr$^{2+}$ & Mn$^{2+}$ & Fe$^{2+}$ & Co$^{2+}$ & Ni$^{2+}$ & Cu$^{2+}$ \\
+		\hline \hline
+		$d$-shell & $d^3$ & $d^4$ & $d^5$ & $d^6$ & $d^7$ & $d^8$ & $d^9$ \\
+		\hline
+		Electronic spin & 3/2 & 2 & 5/2 & 2 & 3/2 & 1 & 1/2 \\
+		\hline
+		Nuclear spin & 7/2 & 0 & 5/2 & 0 & 7/2 & 0 & 3/2 \\
+		\hline
+	\end{tabular}
+	\caption{List of different possible transition metals and their key properties in the context of our study.}
+	\label{DMSAtoms}
+\end{table}
+
+	Tab.~\ref{DMSAtoms} lists the different transition metal that can be inserted in a semiconductor lattice. Mn was the first atom to be successfully inserted and optically probed in CdTe/ZnTe QDs, in 2004~\cite{FirstMn}. Since then, several other magnetic atoms have been embedded in II-VI QDs and studied: Co (2014)~\cite{KobakCo} and Cr (2016)~\cite{LafuenteCrQD}. It was believed that Fe was not suitable for spintronics application, since it has a single, non-degenerate ground state in II-VI semiconductors. However, it was demonstrated that, under high strains, the ground state become nearly doubly degenerated~\cite{SmolenskiFe}.
+
+\lipsum[67]
+
+\printbibliography
+
+\end{document}
