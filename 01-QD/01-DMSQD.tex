@@ -472,11 +472,14 @@ And, since we are in the valence band with $J = \frac{3}{2}$ and $J_x^2 + J_y^2 
 													&= 2b \left(1 + \dfrac{2C_{12}}{C_{11}} \right) \dfrac{a_{CdTe} - a_{ZnTe}}{a_{CdTe}}
 		\end{array}
 	\end{align}
-We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band is 300 meV above the lh one, and we could thus neglect the lh bad in first approximation. However, to describe the valence band in QDs, one should take into account more complex effect, such as a coupling of the confined heavy hole with ground state light holes in the barriers~\cite{Couplinghhlhbarrier}, or the the effective reduction of hh/lh splitting due to supercoupling via a dense manifold of hh like QD states lying between the confined heavy hole and light hole levels~\cite{Supercouplinghhlh}. These effects can drastically change the hh/lh effective splitting, creating energy level between lh and hh ones and will be needed to understand the dynamics of a hole coupled to an atomic atom presented in Chap.~\ref{CoDynMn} and \ref{CrDyn}.
+We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band is 300 meV above the lh one, and we could thus neglect the lh bad in first approximation. However, to describe the valence band in QDs, one should take into account more complex effect, such as a coupling of the confined heavy hole with ground state light holes in the barriers~\cite{Couplinghhlhbarrier}, or the the effective reduction of hh/lh splitting due to supercoupling via a dense manifold of hh like QD states lying between the confined heavy hole and light hole levels~\cite{Supercouplinghhlh}. These effects can drastically change the hh/lh effective splitting, creating energy level between lh and hh ones and will be needed to understand the dynamics of a hole coupled to an atomic atom presented in Chap.~III%~\ref{CoDynMn}
+ and IV% \ref{CrDyn}
+.
 
 		\subsection{The quantum dot: confining the carrier in 3 dimensions\label{e-hIntQD}}
 		
-		Embedding a semiconductor in another one of larger band gap confines spatially the carriers in one or multiple directions. Using the procedure we will describe in Chap.~\ref{Growth}, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". The hole and the electron also interact through the Coulomb interaction, consisting of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). The electron-hole system has a hydrogen-like behaviour and is called an exciton.
+		Embedding a semiconductor in another one of larger band gap confines spatially the carriers in one or multiple directions. Using the procedure we will describe in Chap.~II%~\ref{Growth}
+, we can create nanometre size island of CdTe in a ZnTe lattice, effectively confining electrons in all three directions. This lead to a quantization of the carriers energy levels and a discretization of the optical properties. This confinement being analogue to the Coulomb interaction of an isolated atom, such a structure is often dubbed "artificial atom". The hole and the electron also interact through the Coulomb interaction, consisting of an attractive term, shifting energy levels, and an exchange interaction (discussed in Sec.~\ref{ehExch}). The electron-hole system has a hydrogen-like behaviour and is called an exciton.
 
 	\begin{figure}[h!]
 	\fcapside{\caption{AFM image (AFM image (250 nm $\times$ 250 nm) of CdTe/ZnTe quantum dots before caping. The dot density is estimated to be in the $10^{10}$ dots.cm$^{-2}$ range.}\label{AFM}}
@@ -829,13 +832,13 @@ where $\frac{3}{2}I_{eh}$ corresponds to the energy splitting between bright and
 	Hence, the valence band mixing through the short range exchange interaction splits the bright states into two linearly polarized states along axis defined by the strain angle $\theta_s$. The competition between this effect and the long range exchange interaction results in an angle between the two linearly polarized states different from $90^{\circ}$, as observed in the emission of CdTe/ZnTe QDs~\cite{DELum} and in InAs/GaAs ones~\cite{PolarIIIV}. Dark states are also coupled to bright ones in second order, giving them a weak oscillator strenght, with a dipole along $z$. A more in depth investigation of these effects was done in Yoan L\'eger's PhD thesis~\cite{YoanTh}.
 
 	
-	\section{Exchange interaction between carrier and magnetic atom\label{Exch}}
+	\section{Exchange interaction between carrier and a magnetic atom\label{Exch}}
 	
 		\subsection{Exchange interaction in diluted magnetic semiconductors\label{ExchDMS}}
 		
-		We are interested in thesis to introduce a low density of either Manganese (Mn) or Chromium (Cr) atoms in the crystal. A semiconductor doped this way is called Diluted Magnetic Semiconductor (DMS). The magnetic atoms interact with the semiconductor electrons via its localized electrons on its outside $d$ shell, via the exchange interaction. Specific properties of the DMS will arise from this interaction. In this thesis, we are at the limit of what is considered a DMS: the density of magnetic atom (Mn and Cr) is about the same of the density of QDs. This way, statistically, a few QDs contains a single magnetic atom per QD.
+		We are interested in thesis to introduce a low density of either Manganese (Mn) or Chromium (Cr) atoms in the crystal. A semiconductor doped this way is called Diluted Magnetic Semiconductor (DMS). The magnetic atoms interact with the semiconductor electrons via its localized electrons on its outside $d$ shell, via the exchange interaction. Specific properties of the DMS will arise from this interaction. In this thesis, we are at the limit of what is considered a DMS: the density of magnetic atom (Mn and Cr) is about the same of the density of QDs, in order to statistically get a single magnetic atom in some of the QDs.
 		
-		In this section, the interactions between the different electrons of the semiconductor will be written as "Heisenberg" interactions:
+		In this section, we will express the interactions between the different electrons of the semiconductor will be written as "Heisenberg" interactions:
 		\begin{align}
 			{\cal H}_{Heisenberg} = I \bm{\upsigma}.\mathbf{S}
 		\end{align}
@@ -843,7 +846,7 @@ with $I$ the interaction constant, $\bm{\upsigma}$ the electron spin and $\mathb
 	
 		\subsubsection*{Hamiltonian of a DMS}
 	
-	Let's first defined the wave functions considered in a DMS. The conduction electron wave function can be written as $|\psi_{\mathbf{k}}\rangle|\sigma;\sigma_z\rangle \equiv |\psi_{\mathbf{k}};\sigma_z\rangle$, $|\psi_{\mathbf{k}}\rangle$ being the Bloch function of the electron. In a first time, we only consider electrons of the conduction band. On the other side, considering a magnetic atom at $\mathbf{r} = \mathbf{R_d}$, we write the spatial component of the wave function $\Phi_d (\mathbf{r} - \mathbf{R_d})$. Its total electronic spin, sum of the electron spins on its $d$ orbital, is noted $|S; S_z\rangle$. The whole wave function of the magnetic atom is then $|\Phi_d;S_Z\rangle$.
+	Let's first defined the wave functions considered in a DMS. The conduction electron wave function can be written as $|\psi_{\mathbf{k}}\rangle|\sigma;\sigma_z\rangle \equiv |\psi_{\mathbf{k}};\sigma_z\rangle$, $|\psi_{\mathbf{k}}\rangle$ being the Bloch function of the electron. First, we only consider electrons of the conduction band. On the other side, considering a magnetic atom at $\mathbf{r} = \mathbf{R_d}$, we write the spatial component of the wave function $\Phi_d (\mathbf{r} - \mathbf{R_d})$. Its total electronic spin, sum of the electron spins on its $d$ orbital, is noted $|S; S_z\rangle$. The whole wave function of the magnetic atom is then $|\Phi_d;S_Z\rangle$.
 	
 	For simplification, let's begin with a single magnetic atom in the semiconductor lattice. Using Born-Oppenheimer approximation, separating the movement of the electrons from the one of the nuclei, we can write the hamiltonian of this material:
 	\begin{align}
@@ -868,7 +871,7 @@ with $E_{\mathbf{k}}$, $E_d$, $U_{\mathbf{k}, \mathbf{k}'}$, $V_{kd}$ and $V_{i,
 	
 	${\cal H}_{hyb}$, also called the Anderson hamiltonian, mixes the semiconductor states with the states of the impurities. This mixing leads to an exchange interaction between an electron of the semiconductor and one of the $d$ orbital of an impurity.
 
-	${\cal H}_{Coulomb}$ is a two particles hamiltonian represents the direct and the exchange Coulomb interaction between the electrons of the semiconductor and of the impurity. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either an electron of the semiconductor or of one of the impurities.
+	${\cal H}_{Coulomb}$ is a two particles hamiltonian which represents the direct and the exchange Coulomb interaction between the electrons of the semiconductor and of the impurity. $i$, $j$, $m$ and $n$ each represents a full wave function, both spatial and spin part, and can be either an electron of the semiconductor or one of the impurities.
 	
 		\subsubsection*{The Coulomb interaction in DMS}
 
@@ -957,7 +960,7 @@ with $N$ the number of primitive cells in the crystal and ${\cal H}_{HF} (\mathb
 			 				& \qquad \qquad \qquad \qquad \qquad \qquad \left. - \dfrac{1}{E_k - E_d} - \dfrac{1}{E_{k'} - E_d}\right)a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S} \nonumber \\
 			 				&= -  \sum_{k,k'} I_{kk'}^{hyb} a_{k', \sigma}^{\dagger} a_{k, -\sigma} a_{d, S-2\sigma}^{\dagger} a_{d, S}
 	\end{align}
-This form suppose that the magnetic atom $d$ levels are far from the band edge. This assumption works well for Mn. However, the Cr ground state is at the edge of the valence band. Therefore, knowing the sign of $E_k - E_d$ or $E_{k'} - E_d$ is more difficult~\cite{BlinowskyKinExchDMS}. In order to give an idea of the construction of the hybridization, we will focus on the Mn case. The case of the Cr will be discussed more in details in Sec.~\ref{CrCdTe}.
+This form results from a perturbative approach and supposes that the magnetic atom $d$ levels are far from the band edge. This assumption works well for Mn. However, the Cr ground state is at the edge of the valence band. Therefore, knowing the sign of $E_k - E_d$ or $E_{k'} - E_d$ is more difficult~\cite{BlinowskyKinExchDMS}. In order to give an idea of the construction of the hybridization, we will focus on the Mn case. The case of the Cr will be discussed more in details in Sec.~\ref{CrCdTe}.
 
 	\begin{figure}[h!]
 	\fcapside{\caption{Schema of the band structure and virtual transitions between valence band and conduction band. Picture taken from Laurent Maingault's PhD thesis~\cite{LaurentTh}. $E_d$ is the ground energy of the $d$ electrons of the magnetic atom; $U$ is the energy needed for the magnetic atom to reach its first excited state; $E_v ({\mathbf{k}})$ is the valence band energy; $E_g ({\mathbf{k}})$ is the conduction band energy}\label{EnerTransit}}
@@ -975,7 +978,7 @@ This form suppose that the magnetic atom $d$ levels are far from the band edge. 
 						&= -2|V_{kd}|^2 \dfrac{U}{(E_k - E_d)(E_d + U - E_k)}
 		\end{array}
 	\end{align}
-For a magnetic atom ground state is deep inside the valence band, as it is the case for the Mn atom, $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$ is negative (see Fig.~\ref{EnerTransit}). Thus, $I_{kk'}^{hyb}$ is negative, and leads to an anti-ferromagnetic coupling.
+For a magnetic atom with a ground state deep in the valence band, as it is the case for the Mn atom, $U$ and $E_k - E_d$ are both positive, while $E_k - (E_d + U)$ is negative (see Fig.~\ref{EnerTransit}). Thus, $I_{kk'}^{hyb}$ is negative, and leads to an anti-ferromagnetic coupling.
 
 \subsubsection*{Exchange constants in DMS}
 
@@ -1002,7 +1005,7 @@ The two interactions are in competition in the valence band, with the exchange i
 
 	However, we saw that, for the carriers of the valence band (electrons or holes), the good quantum number is the total angular momentum $\mathbf{J}$ and not the pure spin $\bm{\upsigma}$ anymore. We have then to use $\mathbf{J}$ instead of $\bm{\upsigma}$ for carriers of the valence band. And since $J = 3/2$ and the exchange constant $I_{pd}$ has been defined for $\sigma = 1/2$, the hole exchange hamiltonian have to be written using $I_{pd}/3$~\cite{BhattacharjeeExchVB}.
 	
-	The interaction between semiconductors carriers one magnetic atom in the Heisenberg notation:
+	The interaction between the semiconductors carriers and one magnetic atom in the Heisenberg notation therefore reads:
 %	\begin{align}
 %	\label{HSingleAt}
 %		{\cal H}_{SQ} = {\cal H}_0 + {\cal H}_{eh} + I_{sd} \bm{\upsigma}.\mathbf{S} + I_{pd} \mathbf{J}.\mathbf{S}
@@ -1016,7 +1019,7 @@ The two interactions are in competition in the valence band, with the exchange i
 		\end{array}
 	\end{align}
 
-Since a DMS contain a small percentage of magnetic atoms, we can write the hamiltonian of the full semiconductor by summing up the interaction all the sites with magnetic atoms. We finally get:
+Since a DMS contain a small percentage of magnetic atoms, we can write the full hamiltonian by summing the exchange interaction between carriers and a magnetic atom on all the sites with a magnetic atom. We finally get:
 %	\begin{align}
 %	\label{HDMS}
 %		\begin{array}{rlcccccc}
@@ -1033,13 +1036,13 @@ Since a DMS contain a small percentage of magnetic atoms, we can write the hamil
 	\begin{align}
 		\sum_i I_{sd} (\mathbf{R}_i) \bm{\upsigma}.\mathbf{S}_i = x \sum_{\mathbf{R}} I_{sd} (\mathbf{R}) \bm{\upsigma}.\langle \mathbf{S} \rangle
 	\end{align}
-Projecting along the quantization axis, we just replace $\bm{\upsigma}.\langle\mathbf{S} \rangle$ by $\sigma_z \langle S_z \rangle$. Since the atoms are seen as a magnetic field, they induce a degeneracy lift $\Delta E_c$ between the two spin values of conduction electron, $|\sigma_z = \pm \dfrac{1}{2} \rangle$:
+Projecting along the quantization axis, we just replace $\bm{\upsigma}.\langle\mathbf{S} \rangle$ by $\sigma_z \langle S_z \rangle$. Since the atoms are seen as a magnetic field, they induce a splitting $\Delta E_c$ between the two spin values of conduction electron, $|\sigma_z = \pm \dfrac{1}{2} \rangle$:
 	\begin{align}
 		\Delta E_c = -N_0 x \alpha \sigma_z \langle S_z \rangle
 	\end{align}
 with $\alpha \propto I_{sd}^{00}$ the interaction constant between the impurity's and the conduction band's Bloch function at $\mathbf{k} = 0$, and $N_0$ the number of cell per volume.
 	
-	The same considerations can be done for the holes in the valence band. It is written for heavy holes:
+	The same considerations can be done for the holes in the valence band. The splitting found for the heavy holes reads:
 	\begin{align}
 		\Delta E_v = -N_0 x \frac{\beta}{3} J_z \langle S_z \rangle
 	\end{align}
@@ -1134,15 +1137,14 @@ We ignore ${\cal H}_0$ here since it only shift the energy of the system without
 		\end{align}
 Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange interaction. We can also write the Cr spin operators as follows:
 	\begin{align}
-		\begin{array}{rl}
 			S_{Cr, x} =& \begin{pmatrix}
 					0 & 1 & 0 & 0 & 0 \\
 					1 & 0 & \sqrt{\frac{3}{2}} & 0 & 0 \\
 					0 & \sqrt{\frac{3}{2}} & 0 & \sqrt{\frac{3}{2}} & 0 \\
 					0 & 0 & \sqrt{\frac{3}{2}} & 0 & 1 \\
 					0 & 0 & 0 & 1 & 0
-				   \end{pmatrix} \\
-			\\
+				   \end{pmatrix} \nonumber \\
+			\nonumber \\
 			S_{Cr, y} = i&
 				   \begin{pmatrix}
 					0 & -1 & 0 & 0 & 0 \\
@@ -1150,8 +1152,10 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 					0 & \sqrt{\frac{3}{2}} & 0 & -\sqrt{\frac{3}{2}} & 0 \\
 					0 & 0 & \sqrt{\frac{3}{2}} & 0 & -1 \\
 					0 & 0 & 0 & 1 & 0
-				   \end{pmatrix} \\
-			\\
+				   \end{pmatrix}
+	\end{align}
+	\begin{align}
+		\begin{array}{rl}
 			S_{Cr, z} =& \begin{pmatrix}
 					2 & 0 & 0 & 0 & 0 \\
 					0 & 1 & 0 & 0 & 0 \\
@@ -1159,7 +1163,7 @@ Once again, we ignore ${\cal H}_0$ since it did not affect the spins exchange in
 					0 & 0 & 0 & -1 & 0 \\
 					0 & 0 & 0 & 0 & -2
 				   \end{pmatrix}
-		\end{array}
+		\end{array} \nonumber
 	\end{align}
 		
 		In the conduction band, the situation is the same as with Mn: the conduction electrons $s$ orbital are orthogonal to the Chromium $d$ orbital, and the hybridization is then zero. Only the Coulomb interaction remains and induces a ferromagnetic coupling between the electrons of the band and the Cr electronic spin. $N_0 \alpha$ was never measured in Cd$_x$Cr$_{1-x}$Te, but most magnetic atoms in II-VI semiconductor presents a value between $0.2$ eV and $0.3$ eV. It is then generally assumed that, in II-VI semiconductor, $N_0 \alpha \approx 0.2$ eV~\cite{MacspdexchCr}. We also chose to use this value.
