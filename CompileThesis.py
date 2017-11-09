@@ -33,7 +33,7 @@ docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
 newcomStr = re.compile(r'\\renewcommand')
 floatsetStr = re.compile(r'\\floatsetup')
-refStr = re.compile(r'~[.0-9I]{1,10}%')
+refStr = re.compile(r'[~ ][.0-9IV]{1,10}%')
 
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
