@@ -34,13 +34,19 @@
 
 \chapter*{Introduction}
 
-	Miniaturisation is one of the challenge of this century: electronic system keep getting smaller. On the same time, our need in informatics power keeps growing. In order to keep up, memories have to became smaller and the physical system storing the information too. This thesis study a system that reach the ultimate limit of information storing: using a single atom as a bit of information.
+	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. There is therefore a need of two level quantum systems that can be easily prepared and controlled, with a lifetime longer than the calculation time of the computer (a few tens of picoseconds).
+%	
+%	Miniaturisation is one of the challenge of this century: electronic system keep getting smaller. On the same time, our need in informatics power keeps growing. In order to keep up, memories have to became smaller and the physical system storing the information too. We propose in this thesis, to study a system that reach the ultimate limit of information storing: using a single atom as a bit of information.
+%	
+%	In a computer, the operation are done on the time scale of a few tens of picosecond. The system stocking the information must last longer than the characteristic time of those operations.
 	
-	In a computer, the operation are done on the time scale of a few nanoseconds. The system stocking the information must last longer than the characteristic time of those operations.
+	 One promising system is the quantum dots (QDs): small islands, with a characteristic size of a few nanometers, of semiconductor embedded in a semiconductor of wider gap. Carriers can be injected in the QD, were they are confined in three dimensions. This confinement leads to a quantization of the carriers energy, akin to the energy level of the electrons in an isolated atom. For this reason, they are dubbed "artificial atom". It has be shown that these structure can be used to control electrically or optically the spin of the injected carriers~\cite{GreilichControlElSpin,PressOptControlSpin}. The coherence time of the spin of the carriers in a quantum dot is of hundreds of picoseconds~\cite{}. This can be enough for the calculation. However, it is too short for stocking information between two operations.
+	 
+	 In order to get a longer coherence time, NV centers~\cite{FuchsNVQMem} or atomic spins directly inserted in the semiconductors~\cite{PierreAtomSpin} can be used. However, in those system, the spin are harder to control than the spins of carriers in QDs.
+	 
+	 Another approach arises from the Diluted Magnetic Semiconductors. It was shown that, in such materials, there was a strong interaction between the carriers and the magnetic atoms spins. Inserting magnetic atoms in QD, it is possible to use this interaction to control their spins with the injected carriers. In this thesis, the reasoning goes to its limit, inserting a single magnetic atom in a QD, and controlling it optically. Such individual spins are promising for the implementation of emerging quantum information technologies in the solid state~\cite{PettaCohManipElSpin,VeldhorstTwoQbitLogGate,SaeediRoomTQbitStor,BarGillElSpinCoh}. Magnetic dopants in conventional semiconductors present many desirable features, such as reproducible quantum properties, stability, and potential scalability for further applications~\cite{KoenradSingDop}. Thanks to their point-like character, a longer spin coherence time (compared to carriers’ spins) can also be expected at low temperature, making them potentially good systems to store quantum information.
 	
-	 One promising system for this development is the quantum dots (QDs): small islands of semiconductor embedded in a semiconductor of wider gap.
-
-\lipsum[49]
+	The control of the spin state of individual~\cite{FirstMn,ClairStarkEffect,KudelskiMnInAsFineStruct,KrebsMnInAsMagAniso,BaudinOptPumpInAs,KobakDesignQDSolotronic} or pairs~\cite{BesombesTwoMn,KrebsTwoMn} of magnetic atoms has been demonstrated. The spin of a magnetic atom in a QD can be prepared by the injection of spin polarized carriers and its state can be read through the energy and polarization of the photons emitted by the QD~\cite{OptControlSpin,OptSignSpinSwitch,OptManipMn}. The insertion of a magnetic atom in a QD where the strain or the charge states can be controlled also offers degrees of freedom to tune the properties of the localized spin such as its magnetic anisotropy responsible for the spin memory at zero magnetic field \cite{ObergContMagAniso}.
 
 \begin{table} \centering
 	\begin{tabular}{|m{3cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|}
@@ -58,9 +64,18 @@
 	\label{DMSAtoms}
 \end{table}
 
-	Tab.~\ref{DMSAtoms} lists the different transition metal that can be inserted in a semiconductor lattice. Mn was the first atom to be successfully inserted and optically probed in CdTe/ZnTe QDs, in 2004~\cite{FirstMn}. Since then, several other magnetic atoms have been embedded in II-VI QDs and studied: Co (2014)~\cite{KobakCo} and Cr (2016)~\cite{LafuenteCrQD}. It was believed that Fe was not suitable for spintronics application, since it has a single, non-degenerate ground state in II-VI semiconductors. However, it was demonstrated that, under high strains, the ground state become nearly doubly degenerated~\cite{SmolenskiFe}.
-
-\lipsum[67]
+	Tab.~\ref{DMSAtoms} lists the different magnetic atoms that can be inserted in a semiconductor lattice. Each of those atoms has a unique set of electronic spin, nuclear spin and orbital momentum. Those properties changes the behaviour of the magnetic atom inserted in the semiconductor matrix, and it is therefore interesting to have a large choice. Mn was the first atom to be successfully inserted and optically probed in CdTe/ZnTe QDs, in 2004~\cite{FirstMn}. Since then, several other magnetic atoms have been embedded in II-VI QDs and studied: Co (2014)~\cite{KobakCo} and Fe (2016)~\cite{SmolenskiFe}.
+	
+	In this thesis, I propose to study two systems that are promising for the realization of spin \emph{qbit} coupled to strains: the hole-Mn hybrid spin and the spin of a Cr atom in a QD. Growth of the Mn-doped QDs were grown in Grenoble, in the INAC-CNRS joined team NPSC, by Herv\'e Boukari. The Cr-doped QDs were grown in Tsukuba, in the team of Pr. Shinji Kuroda, by Hayato Ustumi, Masahiro Sunaga and myself. I studied the dots in Grenoble, with the help of Lucien Besombes.
+	
+	This thesis is organized as follows:
+	\begin{description}
+		\item[Chapter I] I present in this chapter the system we will study as well as the main theoretical tools one needs to understand it. It presents the main theory we need to describe the semiconductor matrix and the quantum dot. We then propose a model for the interaction between the carrier and the magnetic, and apply it to the Mn and the Cr. Finally, we look at how the semiconductor matrix modify the Mn and Cr spin structure.
+		\item[Chapter II] I discuss in this chapter the growth of the quantum dots. \lipsum[67]
+		\item[Chapter III] \lipsum[69]
+		\item[Chapter IV] \lipsum[42]
+		\item[Chapter V] \lipsum[33]
+	\end{description}
 
 \printbibliography
 
