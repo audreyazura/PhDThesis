@@ -18,7 +18,7 @@ packages = []
 lastPack = 2
 
 nullChain = ''
-commentStr = re.compile(r'^%')
+commentStr = re.compile(r'^%(?!%)')
 pictureStr = re.compile(r"Pictures/")
 addrStr = re.compile(r"\.\./")
 newlineStr = re.compile(r"\n")

@@ -1,11 +1,11 @@
-#!/usr/local/bin/xonsh
+#!"C:/Users/Alban Lafuente/Miniconda3/pkgs/xonsh-0.5.12-py36_2/Scripts/xonsh.bat"
 
 import re
 #import antigravity
 
 ####################### PARAMETERS #######################
 
-first = 1
+first = 0
 maxCount = 5
 ignoreLorem = True
 
@@ -18,7 +18,7 @@ packages = []
 lastPack = 2
 
 nullChain = ''
-commentStr = re.compile(r'^%')
+commentStr = re.compile(r'^%(?!%)')
 pictureStr = re.compile(r"Pictures/")
 addrStr = re.compile(r"\.\./")
 newlineStr = re.compile(r"\n")
@@ -42,19 +42,17 @@ if ignoreLorem:
 
 Thesis = open('Thesis.tex', 'w')
 for i in range(first,maxCount+1):
-#for i in [first, maxCount]:
 	num = '0' + str(i)
-    fold = re.search(num + '-[a-zA-z-]{1,10}', str(!(dir)))
-    if fold:
-    	folder = fold.group()
-    	pictureFold = folder + '/Pictures/'
-    	cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', str(!(dir @(folder))))
-    	if cfile:
+	fold = re.search(num + '-[a-zA-z-]{1,10}', str(!(dir)))
+	if fold:
+		folder = fold.group()
+		pictureFold = folder + '/Pictures/'
+		cfile = re.search(num + '-[a-zA-Z-]{4,8}.tex', str(!(dir @(folder))))
+		if cfile:
 			searchedFile = folder + '/' + cfile.group()
 			with open(searchedFile, 'r') as inpFile:
 				for line in inpFile:
 					if not(commentStr.search(line) || (ignoreLorem && (loremStr.search(line) || curabiturStre.search(line) || lipsumStr.search(line)))):
-#						treatedLine = refStr.sub(nullChain, pictureStr.sub(pictureFold, addrStr.sub(nullChain, newlineStr.sub(nullChain, line))))
 						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, line))
 						if refStr.search(treatedLine):
 							treatedLine = refStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine))
@@ -65,7 +63,6 @@ for i in range(first,maxCount+1):
 							if usepackageStr.search(treatedLine):
 								package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine)))
 								packages.append(package)
-#								print("Package added: " + package)
 								lastPack+=1
 								
 						#for all other file, we ignore the header, but will have to test if a new package is introduced
@@ -76,7 +73,6 @@ for i in range(first,maxCount+1):
 								if not(any(s in line for s in packages)):
 									package = usepackageStr.sub(nullChain, closebracStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine)))
 									packages.append(package)
-#									print("Package added: " + package)
 									lastPack+=1
 									countLine = 1
 									Thesis.close()
@@ -89,7 +85,7 @@ for i in range(first,maxCount+1):
 													print(adLine, file=copiedThesis)
 												else:
 													print(copLine, file=copiedThesis, end='')
-												countLine+=1
+													countLine+=1
 									!(del Thesis.tex)
 									!(rename copThesis.tex Thesis.tex)
 									Thesis = open('Thesis.tex', 'a')
