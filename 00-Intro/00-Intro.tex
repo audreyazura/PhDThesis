@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,12pt,nofrench]{thujf}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -19,20 +19,76 @@
 \usepackage[capbesideposition={right,center}]{floatrow}
 \usepackage[ampersand]{easylist}
 \usepackage{lipsum}
+\usepackage{pdfpages}
+\usepackage[english]{minitoc}
+
+%%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%
 
 \addbibresource{../Bibliography.bib}
+
+
+
+%%%%%%%%%%%%%%%%%%%% Chapter numbering %%%%%%%%%%%%%%%%%%%%
 
 \makeatletter
 	\renewcommand{\thechapter}{\Roman{chapter}}
 \makeatother
 
+
+
+%%%%%%%%%%%%%%%%%%%% Special command for tables %%%%%%%%%%%%%%%%%%%%
+
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 \floatsetup[table]{style=plaintop}
 
+
+
+%%%%%%%%%%%%%%%%%%%% Header %%%%%%%%%%%%%%%%%%%%
+
+\newcommand\upun[1]{\uppercase{\underline{\underline{#1}}}}
+\FormatHeadingsWith\upun
+
+\newcommand\itheadings[1]{\textit{#1}}
+\FormatHeadingsWith{\itheadings}
+
+% for a line under the header:
+\setlength{\HeadRuleWidth}{0.4pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%% Start of the document %%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%% Header and footer positions and style %%%%%%%%%%%%%%%%%%%%
+
+\OddHead={{\leftmark\rightmark}{\hfil\slshape\rightmark}}
+\EvenHead={{\leftmark}{{\slshape\leftmark}\hfil}}
+\OddFoot={\hfil\thepage}
+\EvenFoot={\thepage\hfil}
+\pagestyle{ThesisHeadingsII}
+
+
+%%%%%%%%%%%%%%%%%%%% Style of the Table of Content %%%%%%%%%%%%%%%%%%%%
+
+\FrameChaptersInToc
+
+%small ToC for each chapter:
+\dominitoc
+
+
+%%%%%%%%%%%%%%%%%%%% Start of the thesis %%%%%%%%%%%%%%%%%%%%
+
+\includepdf{Pictures/THES_MOD_02_UGA_couverture_these_cotutelle.pdf}
+
+%\shipout\null
+
+\clearpage
+\thispagestyle{empty}
+
 \chapter*{Introduction}
+\pagenumbering{roman}
 
 	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. There is therefore a need of two level quantum systems that can be easily prepared and controlled, with a lifetime longer than the calculation time of the computer (a few tens of picoseconds).
 %	
@@ -70,18 +126,156 @@
 	
 	This thesis is organized as follows:
 	\begin{description}
-		\item[Chapter~I%~\ref{DMSQDTh}
+		\item[Chapter~\ref{testn}%~\ref{DMSQDTh}
 ] I present in this chapter the system we will study as well as the main theoretical tools one needs to understand it. It presents the main theory we need to describe the semiconductor matrix and the quantum dot. We then propose a model for the interaction between the carrier and the magnetic, and apply it to the Mn and the Cr. Finally, we look at how the semiconductor matrix modify the Mn and Cr spin structure.
-		\item[Chapter~II%~\ref{Growth}
+		\item[Chapter~\ref{test1}%~\ref{Growth}
 ] I discuss in this chapter the growth of the quantum dots. \lipsum[67]
-		\item[Chapter~III%~\ref{CoDynMn}
-]] \lipsum[69]
-		\item[Chapter~IV%~\ref{MagOptStud}
-]] \lipsum[42]
+		\item[Chapter~\ref{testk}%~\ref{CoDynMn}
+] \lipsum[69]
+		\item[Chapter~\ref{testr}%~\ref{MagOptStud}
+] \lipsum[42]
 		\item[Chapter~V%~\ref{CrDyn}
-]] \lipsum[33]
+] \lipsum[33]
 	\end{description}
 	
+\tableofcontents
+\clearpage
+\thispagestyle{empty}
+
+\pagenumbering{arabic}
+\clearpage
+\thispagestyle{empty}
+
+\chapter{test\label{test1}}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+
+\chapter{testn\label{testn}}
+	\section{tarantino}
+		\lipsum[10]
+		
+\chapter{test\label{testk}}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+
+\chapter{testn\label{testr}}
+	\section{tarantino}
+		\lipsum[10]
+		
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+
+\chapter{test}
+	\section{test1}
+	 \lipsum[10]
+	 \section{test2}
+	 	\subsection{test3}
+	 		\lipsum[20]
+	 	\subsection{test4}
+	 		\lipsum[5]
+	 		
+\chapter{testn}
+	\section{tarantino}
+		\lipsum[10]
+		
 \printbibliography
 
 \end{document}
