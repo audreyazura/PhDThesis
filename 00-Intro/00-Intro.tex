@@ -52,7 +52,7 @@
 \newcommand\itheadings[1]{\textit{#1}}
 \FormatHeadingsWith{\itheadings}
 
-% for a line under the header:
+%%for a line under the header:
 \setlength{\HeadRuleWidth}{0.4pt}
 
 
@@ -74,7 +74,7 @@
 
 \FrameChaptersInToc
 
-%small ToC for each chapter:
+%%small ToC for each chapter:
 \dominitoc
 
 
@@ -90,19 +90,23 @@
 \chapter*{Introduction}
 \pagenumbering{roman}
 
-	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. There is therefore a need of two level quantum systems that can be easily prepared and controlled, with a lifetime longer than the calculation time of the computer (a few tens of picoseconds).
+	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. As system able to store the quantum information is therefore searched. The two main criteria for this system is its characteristic time, that must be long enough to do the operation and stock the results, and the ease of preparation in a given state, determining the speed of each operation.
 %	
 %	Miniaturisation is one of the challenge of this century: electronic system keep getting smaller. On the same time, our need in informatics power keeps growing. In order to keep up, memories have to became smaller and the physical system storing the information too. We propose in this thesis, to study a system that reach the ultimate limit of information storing: using a single atom as a bit of information.
 %	
 %	In a computer, the operation are done on the time scale of a few tens of picosecond. The system stocking the information must last longer than the characteristic time of those operations.
 	
-	 One promising system is the quantum dots (QDs): small islands, with a characteristic size of a few nanometers, of semiconductor embedded in a semiconductor of wider gap. Carriers can be injected in the QD, were they are confined in three dimensions. This confinement leads to a quantization of the carriers energy, akin to the energy level of the electrons in an isolated atom. For this reason, they are dubbed "artificial atom". It has be shown that these structure can be used to control electrically or optically the spin of the injected carriers~\cite{GreilichControlElSpin,PressOptControlSpin}. The coherence time of the spin of the carriers in a quantum dot is of hundreds of picoseconds~\cite{}. This can be enough for the calculation. However, it is too short for stocking information between two operations.
-	 
-	 In order to get a longer coherence time, NV centers~\cite{FuchsNVQMem} or atomic spins directly inserted in the semiconductors~\cite{PierreAtomSpin} can be used. However, in those system, the spin are harder to control than the spins of carriers in QDs.
-	 
-	 Another approach arises from the Diluted Magnetic Semiconductors. It was shown that, in such materials, there was a strong interaction between the carriers and the magnetic atoms spins. Inserting magnetic atoms in QD, it is possible to use this interaction to control their spins with the injected carriers. In this thesis, the reasoning goes to its limit, inserting a single magnetic atom in a QD, and controlling it optically. Such individual spins are promising for the implementation of emerging quantum information technologies in the solid state~\cite{PettaCohManipElSpin,VeldhorstTwoQbitLogGate,SaeediRoomTQbitStor,BarGillElSpinCoh}. Magnetic dopants in conventional semiconductors present many desirable features, such as reproducible quantum properties, stability, and potential scalability for further applications~\cite{KoenradSingDop}. Thanks to their point-like character, a longer spin coherence time (compared to carriers’ spins) can also be expected at low temperature, making them potentially good systems to store quantum information.
+	One promising system is the quantum dots (QDs), nanometer sized devices designed to confine carrier in all three dimensions. This confinement leads to a quantization of the carriers energy, akin to the energy level of the electrons in an isolated atom. For this reason, they are dubbed "artificial atom". 
 	
-	The control of the spin state of individual~\cite{FirstMn,ClairStarkEffect,KudelskiMnInAsFineStruct,KrebsMnInAsMagAniso,BaudinOptPumpInAs,KobakDesignQDSolotronic} or pairs~\cite{BesombesTwoMn,KrebsTwoMn} of magnetic atoms has been demonstrated. The spin of a magnetic atom in a QD can be prepared by the injection of spin polarized carriers and its state can be read through the energy and polarization of the photons emitted by the QD~\cite{OptControlSpin,OptSignSpinSwitch,OptManipMn}. The insertion of a magnetic atom in a QD where the strain or the charge states can be controlled also offers degrees of freedom to tune the properties of the localized spin such as its magnetic anisotropy responsible for the spin memory at zero magnetic field \cite{ObergContMagAniso}.
+	Multiple methods exists to form such devices: gate trapping single electrons in-between the electrodes (logical \emph{qubit}), nanometers-sized grains formed by the precipitation of semiconductors in a solution (colloidal dots), thickness variation of a quantum well, strains relaxation of a semiconductor layer... I will focus in this thesis on the later type of QDs, usually grown using Molecular Beam Epitaxy (MBE). They are formed by small island, with a characteristic size of a few nanometers, of a small gap semiconductor inserted in a wide gap semiconductor matrix. Well known example are InAs/GaAs (for the III-V semiconductors), CdSe/ZnSe or CdTe/ZnTe (for the II-VI semiconductors). More specifically, in this thesis, I studied optically active QDs: carriers can be injected in via excitation from a laser, and their relaxation comes with the emission of a photon. Carriers injected in these QDs have a lifetime of a few hundreds of picoseconds~\cite{GreilichCarLifetimeQD}. This is too short to stock the informations in any significant amount of time.
+	
+	The spin coherence time of the carriers spin in these QDs is way longer than the carrier lifetime: the injected electrons can go through several excitation/relaxation while keeping the same spin. It has been shown that, in a single logical \emph{qubit}, the coherence time of the carriers can get as high as 1 $\mu$s~\cite{PettaCohManipElSpin}. Moreover, it has been demonstrated that QDs can be used to control electrically (for the logical \emph{qubit}) or optically (for the optically active dots) the spin of the injected carriers~\cite{GreilichControlElSpin, PressOptControlSpin}. Optical preparation of the carrier spin state only take a few nanoseconds. All of this makes the spin of carriers trapped in a QD a really promising system for the realization of a \emph{qubit}~\cite{LossQuantComput, ImamogluQDQuantInfo, AwschalomSpinCohSC, WolfSpintronics}. However, the coherence time of the spin of the carrier sharply drop when an ensemble of QDs is considered, falling to about 10 ns~\cite{GurudevOptGenElSpinCoh, BrackerOptPumpElNucSpin, BraunElSpinRelax}.
+	 
+	Exiting the world of QDs, two systems can be proposed to get longer spin coherence coherence: Nitrogen-Vacancy (NV) centers~\cite{FuchsNVQMem} or atomic spins directly inserted in the semiconductors~\cite{PierreAtomSpin}. In both those systems, the quantum information can be stored on the spin of the NV center or the magnetic atom. In NV centers, electronic spin coherence in the microseconds range and nuclear spin in the tens of microseconds were found. However, the preparation of the electronic spin of the NV center took hundreds of nanoseconds, which would slow the calculations down. The same kind of coherence and manipulation time can be expected for the atomic spins.
+	 
+	In order to get the best of the two approach, a long coherence with fast preparation, one could imagine to mix those two systems by including magnetic atoms in the QDs. It was shown that, in semiconductors with a low density of magnetic atom, the so called Diluted Magnetic Semiconductors (DMS), there was a strong interaction between the carriers and the magnetic atoms spins. Inserting magnetic atoms in QD, it is possible to use this interaction to control their spins with the injected carriers. In this thesis, the reasoning goes to its limit, inserting a single magnetic atom in a QD, and controlling it optically. Such individual spins are promising for the implementation of emerging quantum information technologies in the solid state~\cite{VeldhorstTwoQbitLogGate, SaeediRoomTQbitStor,BarGillElSpinCoh}. Magnetic dopants in conventional semiconductors present many desirable features, such as reproducible quantum properties, stability, and potential scalability for further applications~\cite{KoenradSingDop}. Thanks to their point-like character, a longer spin coherence time (compared to carriers’ spins) can also be expected at low temperature, making them potentially good systems to store quantum information.
+	
+	The control of the spin state of individual~\cite{FirstMn, ClairStarkEffect, KudelskiMnInAsFineStruct, KrebsMnInAsMagAniso, BaudinOptPumpInAs, KobakDesignQDSolotronic} or pairs~\cite{BesombesTwoMn,KrebsTwoMn} of magnetic atoms has been demonstrated. The spin of a magnetic atom in a QD can be prepared by the injection of spin polarized carriers and its state can be read through the energy and polarization of the photons emitted by the QD~\cite{OptControlSpin, OptSignSpinSwitch, OptManipMn}. The insertion of a magnetic atom in a QD where the strain or the charge states can be controlled also offers degrees of freedom to tune the properties of the localized spin such as its magnetic anisotropy responsible for the spin memory at zero magnetic field \cite{ObergContMagAniso}.
 
 \begin{table} \centering
 	\begin{tabular}{|m{3cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|}
@@ -122,17 +126,21 @@
 
 	Tab.~\ref{DMSAtoms} lists the different magnetic atoms that can be inserted in a semiconductor lattice. Each of those atoms has a unique set of electronic spin, nuclear spin and orbital momentum. Those properties changes the behaviour of the magnetic atom inserted in the semiconductor matrix, and it is therefore interesting to have a large choice. Mn was the first atom to be successfully inserted and optically probed in CdTe/ZnTe QDs, in 2004~\cite{FirstMn}. Since then, several other magnetic atoms have been embedded in II-VI QDs and studied: Co (2014)~\cite{KobakCo} and Fe (2016)~\cite{SmolenskiFe}.
 	
+	Mn in II-VI semiconductors has been widely studied in the last decades. In bulk semiconductors, the coherence time was found to reach the milliseconds range for vanishing Mn concentration~\cite{ScalbertSpinRelaxCdMnTe, DietlDynaSpinMnDMS}. Once inserted in II-VI QDs, it was demonstrated that the Mn spin could be optically prepared in a few tens of nanoseconds, depending on the laser power~\cite{ClaireTh}. In the same time, a relaxation time of the Mn spin of a few microseconds was found~\cite{OptControlSpin}.
+	
+	Cr is of particular interest here: its orbital momentum couples to the lattice and make it sensible to the strains. This opens new ways to manipulate the spin state of this magnetic atom without having to use optical excitation. Moreover, it presents no nuclear spin. There is therefore no hyperfine interaction for Cr atom in a CdTe/ZnTe QD. This is expected to lead to longer coherence time for the Cr spin.
+	
 	In this thesis, I propose to study two systems that are promising for the realization of spin \emph{qbit} coupled to strains: the hole-Mn hybrid spin and the spin of a Cr atom in a QD. Growth of the Mn-doped QDs were grown in Grenoble, in the INAC-CNRS joined team NPSC, by Herv\'e Boukari. The Cr-doped QDs were grown in Tsukuba, in the team of Pr. Shinji Kuroda, by Hayato Ustumi, Masahiro Sunaga and myself. I studied the dots in Grenoble, with the help of Lucien Besombes.
 	
 	This thesis is organized as follows:
 	\begin{description}
-		\item[Chapter~\ref{testn}%~\ref{DMSQDTh}
+		\item[Chapter~I%~\ref{DMSQDTh}
 ] I present in this chapter the system we will study as well as the main theoretical tools one needs to understand it. It presents the main theory we need to describe the semiconductor matrix and the quantum dot. We then propose a model for the interaction between the carrier and the magnetic, and apply it to the Mn and the Cr. Finally, we look at how the semiconductor matrix modify the Mn and Cr spin structure.
-		\item[Chapter~\ref{test1}%~\ref{Growth}
+		\item[Chapter~II%~\ref{Growth}
 ] I discuss in this chapter the growth of the quantum dots. \lipsum[67]
-		\item[Chapter~\ref{testk}%~\ref{CoDynMn}
+		\item[Chapter~III%~\ref{CoDynMn}
 ] \lipsum[69]
-		\item[Chapter~\ref{testr}%~\ref{MagOptStud}
+		\item[Chapter~IV%~\ref{MagOptStud}
 ] \lipsum[42]
 		\item[Chapter~V%~\ref{CrDyn}
 ] \lipsum[33]
@@ -145,136 +153,6 @@
 \pagenumbering{arabic}
 \clearpage
 \thispagestyle{empty}
-
-\chapter{test\label{test1}}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-
-\chapter{testn\label{testn}}
-	\section{tarantino}
-		\lipsum[10]
-		
-\chapter{test\label{testk}}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-
-\chapter{testn\label{testr}}
-	\section{tarantino}
-		\lipsum[10]
-		
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
-
-\chapter{test}
-	\section{test1}
-	 \lipsum[10]
-	 \section{test2}
-	 	\subsection{test3}
-	 		\lipsum[20]
-	 	\subsection{test4}
-	 		\lipsum[5]
-	 		
-\chapter{testn}
-	\section{tarantino}
-		\lipsum[10]
 		
 \printbibliography
 
