@@ -18,8 +18,10 @@
 \usepackage{upgreek}
 \usepackage[capbesideposition={right,center}]{floatrow}
 \usepackage[ampersand]{easylist}
+\usepackage{lipsum}
 \usepackage{pdfpages}
 \usepackage[english]{minitoc}
+\usepackage{rotating}
 
 %%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%
 
@@ -51,6 +53,7 @@
 \newcommand\itheadings[1]{\textit{#1}}
 \FormatHeadingsWith{\itheadings}
 
+%%for a line under the header:
 \setlength{\HeadRuleWidth}{0.4pt}
 
 
@@ -72,6 +75,7 @@
 
 \FrameChaptersInToc
 
+%%small ToC for each chapter:
 \dominitoc
 
 
@@ -86,21 +90,19 @@
 \chapter*{Introduction}
 \pagenumbering{roman}
 
-	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. As system able to store the quantum information is therefore searched. The two main criteria for this system is its characteristic time, that must be long enough to do the operation and stock the results, and the ease of manipulation, determining the speed of each operation.
+	Constructing a quantum computer is one of the challenge of this century. The core component of this computer is the \emph{qbit}, quantum bits. Instead of regular bits, that can take the states (values) $|0\rangle$ and $|1\rangle$, the \emph{qbits}, being quantum devices, can also be in a superposition of states, $\alpha |0\rangle + \beta |1\rangle$. As system able to store the quantum information is therefore searched. The two main criteria for this system is its characteristic time, that must be long enough to do the operation and stock the results, and the ease of preparation in a given state, determining the speed of each operation.
 	
 	One promising system is the quantum dots (QDs), nanometer sized devices designed to confine carrier in all three dimensions. This confinement leads to a quantization of the carriers energy, akin to the energy level of the electrons in an isolated atom. For this reason, they are dubbed "artificial atom". 
 	
-	Multiple methods exists to form such devices: gate trapping single electrons in-between the electrodes, nanometers-sized grains formed by the precipitation of semiconductors in a solution (colloidal dots), thickness variation of a quantum well, strains relaxation of a semiconductor layer... I will focus in this thesis on the later type of QDs, usually grown using Molecular Beam Epitaxy (MBE). They are formed by small island, with a characteristic size of a few nanometers, of a small gap semiconductor inserted in a wide gap semiconductor matrix. Well known example are InAs/GaAs, CdSe/ZnSe or CdTe/ZnTe.
-		 
-	 Carriers in those QDs have a lifetime of a few hundreds of picoseconds~\cite{GreilichCarLifetimeQD}.
-	 
-	 It has be shown that these structure can be used to control electrically or optically the spin of the injected carriers~\cite{GreilichControlElSpin,PressOptControlSpin}. The coherence time of the spin of the carriers in a quantum dot is of a few nanoseconds~\cite{}. This can be enough for the calculation. However, it is too short for stocking information between two operations.
-	 
-	 In order to get a longer coherence time, NV centers~\cite{FuchsNVQMem} or atomic spins directly inserted in the semiconductors~\cite{PierreAtomSpin} can be used. However, in those system, the spin are harder to control than the spins of carriers in QDs.
-	 
-	 The Diluted Magnetic Semiconductors opens the possibility to mix those two systems. It was shown that, in such materials, there was a strong interaction between the carriers and the magnetic atoms spins. Inserting magnetic atoms in QD, it is possible to use this interaction to control their spins with the injected carriers. In this thesis, the reasoning goes to its limit, inserting a single magnetic atom in a QD, and controlling it optically. Such individual spins are promising for the implementation of emerging quantum information technologies in the solid state~\cite{PettaCohManipElSpin,VeldhorstTwoQbitLogGate,SaeediRoomTQbitStor,BarGillElSpinCoh}. Magnetic dopants in conventional semiconductors present many desirable features, such as reproducible quantum properties, stability, and potential scalability for further applications~\cite{KoenradSingDop}. Thanks to their point-like character, a longer spin coherence time (compared to carriers’ spins) can also be expected at low temperature, making them potentially good systems to store quantum information.
+	Multiple methods exists to form such devices: gate trapping single electrons in-between the electrodes (logical \emph{qubit}), nanometers-sized grains formed by the precipitation of semiconductors in a solution (colloidal dots), thickness variation of a quantum well, strains relaxation of a semiconductor layer... I will focus in this thesis on the later type of QDs, usually grown using Molecular Beam Epitaxy (MBE). They are formed by small island, with a characteristic size of a few nanometers, of a small gap semiconductor inserted in a wide gap semiconductor matrix. Well known example are InAs/GaAs (for the III-V semiconductors), CdSe/ZnSe or CdTe/ZnTe (for the II-VI semiconductors). More specifically, in this thesis, I studied optically active QDs: carriers can be injected in via excitation from a laser, and their relaxation comes with the emission of a photon. Carriers injected in these QDs have a lifetime of a few hundreds of picoseconds~\cite{GreilichCarLifetimeQD}. This is too short to stock the informations in any significant amount of time.
 	
-	The control of the spin state of individual~\cite{FirstMn,ClairStarkEffect,KudelskiMnInAsFineStruct,KrebsMnInAsMagAniso,BaudinOptPumpInAs,KobakDesignQDSolotronic} or pairs~\cite{BesombesTwoMn,KrebsTwoMn} of magnetic atoms has been demonstrated. The spin of a magnetic atom in a QD can be prepared by the injection of spin polarized carriers and its state can be read through the energy and polarization of the photons emitted by the QD~\cite{OptControlSpin,OptSignSpinSwitch,OptManipMn}. The insertion of a magnetic atom in a QD where the strain or the charge states can be controlled also offers degrees of freedom to tune the properties of the localized spin such as its magnetic anisotropy responsible for the spin memory at zero magnetic field \cite{ObergContMagAniso}.
+	The spin coherence time of the carriers spin in these QDs is way longer than the carrier lifetime: the injected electrons can go through several excitation/relaxation while keeping the same spin. It has been shown that, in a single logical \emph{qubit}, the coherence time of the carriers can get as high as 1 $\mu$s~\cite{PettaCohManipElSpin}. Moreover, it has been demonstrated that QDs can be used to control electrically (for the logical \emph{qubit}) or optically (for the optically active dots) the spin of the injected carriers~\cite{GreilichControlElSpin, PressOptControlSpin}. Optical preparation of the carrier spin state only take a few nanoseconds. All of this makes the spin of carriers trapped in a QD a really promising system for the realization of a \emph{qubit}~\cite{LossQuantComput, ImamogluQDQuantInfo, AwschalomSpinCohSC, WolfSpintronics}. However, the coherence time of the spin of the carrier sharply drop when an ensemble of QDs is considered, falling to about 10 ns~\cite{GurudevOptGenElSpinCoh, BrackerOptPumpElNucSpin, BraunElSpinRelax}.
+	 
+	Exiting the world of QDs, two systems can be proposed to get longer spin coherence coherence: Nitrogen-Vacancy (NV) centers~\cite{FuchsNVQMem} or atomic spins directly inserted in the semiconductors~\cite{PierreAtomSpin}. In both those systems, the quantum information can be stored on the spin of the NV center or the magnetic atom. In NV centers, electronic spin coherence in the microseconds range and nuclear spin in the tens of microseconds were found. However, the preparation of the electronic spin of the NV center took hundreds of nanoseconds, which would slow the calculations down. The same kind of coherence and manipulation time can be expected for the atomic spins.
+	 
+	In order to get the best of the two approach, a long coherence with fast preparation, one could imagine to mix those two systems by including magnetic atoms in the QDs. It was shown that, in semiconductors with a low density of magnetic atom, the so called Diluted Magnetic Semiconductors (DMS), there was a strong interaction between the carriers and the magnetic atoms spins. Inserting magnetic atoms in QD, it is possible to use this interaction to control their spins with the injected carriers. In this thesis, the reasoning goes to its limit, inserting a single magnetic atom in a QD, and controlling it optically. Such individual spins are promising for the implementation of emerging quantum information technologies in the solid state~\cite{VeldhorstTwoQbitLogGate, SaeediRoomTQbitStor,BarGillElSpinCoh}. Magnetic dopants in conventional semiconductors present many desirable features, such as reproducible quantum properties, stability, and potential scalability for further applications~\cite{KoenradSingDop}. Thanks to their point-like character, a longer spin coherence time (compared to carriers’ spins) can also be expected at low temperature, making them potentially good systems to store quantum information.
+	
+	The control of the spin state of individual~\cite{FirstMn, ClairStarkEffect, KudelskiMnInAsFineStruct, KrebsMnInAsMagAniso, BaudinOptPumpInAs, KobakDesignQDSolotronic} or pairs~\cite{BesombesTwoMn,KrebsTwoMn} of magnetic atoms has been demonstrated. The spin of a magnetic atom in a QD can be prepared by the injection of spin polarized carriers and its state can be read through the energy and polarization of the photons emitted by the QD~\cite{OptControlSpin, OptSignSpinSwitch, OptManipMn}. The insertion of a magnetic atom in a QD where the strain or the charge states can be controlled also offers degrees of freedom to tune the properties of the localized spin such as its magnetic anisotropy responsible for the spin memory at zero magnetic field \cite{ObergContMagAniso}.
 
 \begin{table} \centering
 	\begin{tabular}{|m{3cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|m{1cm}|}
@@ -120,13 +122,19 @@
 
 	Tab.~\ref{DMSAtoms} lists the different magnetic atoms that can be inserted in a semiconductor lattice. Each of those atoms has a unique set of electronic spin, nuclear spin and orbital momentum. Those properties changes the behaviour of the magnetic atom inserted in the semiconductor matrix, and it is therefore interesting to have a large choice. Mn was the first atom to be successfully inserted and optically probed in CdTe/ZnTe QDs, in 2004~\cite{FirstMn}. Since then, several other magnetic atoms have been embedded in II-VI QDs and studied: Co (2014)~\cite{KobakCo} and Fe (2016)~\cite{SmolenskiFe}.
 	
-	In this thesis, I propose to study two systems that are promising for the realization of spin \emph{qbit} coupled to strains: the hole-Mn hybrid spin and the spin of a Cr atom in a QD. Growth of the Mn-doped QDs were grown in Grenoble, in the INAC-CNRS joined team NPSC, by Herv\'e Boukari. The Cr-doped QDs were grown in Tsukuba, in the team of Pr. Shinji Kuroda, by Hayato Ustumi, Masahiro Sunaga and myself. I studied the dots in Grenoble, with the help of Lucien Besombes.
+	Mn in II-VI semiconductors has been widely studied in the last decades. In bulk semiconductors, the coherence time was found to reach the milliseconds range for vanishing Mn concentration~\cite{ScalbertSpinRelaxCdMnTe, DietlDynaSpinMnDMS}. Inserted in II-VI QDs, it was demonstrated that a single Mn spin could be optically prepared in a few tens of nanoseconds, depending on the laser power~\cite{ClaireTh}. In the same time, a relaxation time of the Mn spin of a few microseconds was found~\cite{OptControlSpin}. The dynamic of a Mn spin was also probed in a positively charged QD, forming a hybrid spin bycoupling with the resident hole~\cite{DynhMn}, and in a strain-free environment~\cite{LucienSFD}.
+	
+	Single Cr atom in a QD is also of particular interest here: its orbital momentum couples to the lattice and make it sensible to the strains. This opens new ways to manipulate the spin state of this magnetic atom without having to use optical excitation. Moreover, it presents no nuclear spin. There is therefore no hyperfine interaction for Cr atom in a CdTe/ZnTe QD. This is expected to lead to longer coherence time for the Cr spin.
+	
+	In this thesis, I propose to continue the study of the hole-Mn hybrid spin, and to start the study a single Cr atom in a QD. Those two systems are promising for the realization of spin \emph{qubit} coupled to strains. Growth of the Mn-doped QDs was done in Grenoble, in the INAC-CNRS joined team NPSC, by Herv\'e Boukari. The Cr-doped QDs were grown in Tsukuba, in the team of Pr. Shinji Kuroda, by Hayato Ustumi, Masahiro Sunaga and myself. I studied the dots in Grenoble, with the help of Lucien Besombes.
 	
 	This thesis is organized as follows:
 	\begin{description}
 		\item[Chapter~\ref{DMSQDTh}] I present in this chapter the system we will study as well as the main theoretical tools one needs to understand it. It presents the main theory we need to describe the semiconductor matrix and the quantum dot. We then propose a model for the interaction between the carrier and the magnetic, and apply it to the Mn and the Cr. Finally, we look at how the semiconductor matrix modify the Mn and Cr spin structure.
-		\item[Chapter~\ref{Growth}		\item[Chapter~\ref{CoDynMn}		\item[Chapter~IV%~\ref{MagOptStud}
-		\item[Chapter~V%~\ref{CrDyn}
+		\item[Chapter~\ref{Growth}] I discuss in this chapter the growth of the quantum dots. \lipsum[67]
+		\item[Chapter~\ref{CoDynMn}] \lipsum[69]
+		\item[Chapter~\ref{MagOptStud}] \lipsum[42]
+		\item[Chapter~\ref{CrDyn}] \lipsum[33]
 	\end{description}
 	
 \tableofcontents
@@ -142,7 +150,6 @@
 
 
 
-\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 
 
@@ -549,8 +556,7 @@ And, since we are in the valence band with $J = \frac{3}{2}$ and $J_x^2 + J_y^2 
 													&= 2b \left(1 + \dfrac{2C_{12}}{C_{11}} \right) \dfrac{a_{CdTe} - a_{ZnTe}}{a_{CdTe}}
 		\end{array}
 	\end{align}
-We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band is 300 meV above the lh one, and we could thus neglect the lh bad in first approximation. However, to describe the valence band in QDs, one should take into account more complex effect, such as a coupling of the confined heavy hole with ground state light holes in the barriers~\cite{Couplinghhlhbarrier}, or the the effective reduction of hh/lh splitting due to supercoupling via a dense manifold of hh like QD states lying between the confined heavy hole and light hole levels~\cite{Supercouplinghhlh}. These effects can drastically change the hh/lh effective splitting, creating energy level between lh and hh ones and will be needed to understand the dynamics of a hole coupled to an atomic atom presented in Chap.~\ref{CoDynMn} and IV% \ref{CrDyn}
-.
+We find that, in a fully strained CdTe layer over a ZnTe substrate, the hh band is 300 meV above the lh one, and we could thus neglect the lh bad in first approximation. However, to describe the valence band in QDs, one should take into account more complex effect, such as a coupling of the confined heavy hole with ground state light holes in the barriers~\cite{Couplinghhlhbarrier}, or the the effective reduction of hh/lh splitting due to supercoupling via a dense manifold of hh like QD states lying between the confined heavy hole and light hole levels~\cite{Supercouplinghhlh}. These effects can drastically change the hh/lh effective splitting, creating energy level between lh and hh ones and will be needed to understand the dynamics of a hole coupled to an atomic atom presented in Chap.~\ref{CoDynMn} and \ref{CrDyn}.
 
 		\subsection{The quantum dot: confining the carrier in 3 dimensions\label{e-hIntQD}}
 		
@@ -1320,7 +1326,6 @@ We use in this part the heavy-hole approximation, ignoring the effect of the non
 
 
 
-\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 
 
@@ -1644,8 +1649,7 @@ with $D_0$ depicting the effect of the biaxial strain and $E$ describing a possi
 	\begin{align}
 		{\cal H}_{hMn}^{ex}=I_{hMn}\mathbf{S}\cdot\mathbf{J}
 	\end{align}
-with $I_{hMn}$ the exchange energy between the hole and the Mn and $\mathbf{J}$ the hole spin operator. In the presence of heavy-hole/light-hole mixing, $\mathbf{J}$, represented in the basis of the two low energy heavy-hole states, is related to the Pauli matrices by $J_z=3/2\tau_z$ and $J_{\pm}= \xi \tau_{\pm}$ with $\xi=-2\sqrt{3}e^{-2i\theta}\rho_c/\Delta_{lh}$, $\tau_+ = \tau_x + i\tau_y$ and $\tau_- = \tau_x - i\tau_y$, $\tau_x$, $\tau_y$, $\tau_z$ being the Pauli matrices. $\rho_c$ is the coupling energy between heavy holes and light holes separated by an effective energy splitting $\Delta_{lh}$. $\theta$ is the angle relative to the [110] axis of the principal axis of the anisotropy (shape and/or strain) responsible for the heavy-hole/light-hole mixing~\cite{SingleExcSpectro,VBMArticle}. The matrices $J_z$ and $J_{\pm}$ are described in more details in Eq.~\ref{JtildeUP} to I.63% \ref{JtildeZ}
-. For a weak valence band mixing, the hole-Mn energy levels are mainly controlled by $I_{hMn}S_zJ_z$ and form 12 eigenstates organized in 6 doublets with well-defined $S_z$ and $J_z$. These states are labelled $|S_z,J_z\rangle$.
+with $I_{hMn}$ the exchange energy between the hole and the Mn and $\mathbf{J}$ the hole spin operator. In the presence of heavy-hole/light-hole mixing, $\mathbf{J}$, represented in the basis of the two low energy heavy-hole states, is related to the Pauli matrices by $J_z=3/2\tau_z$ and $J_{\pm}= \xi \tau_{\pm}$ with $\xi=-2\sqrt{3}e^{-2i\theta}\rho_c/\Delta_{lh}$, $\tau_+ = \tau_x + i\tau_y$ and $\tau_- = \tau_x - i\tau_y$, $\tau_x$, $\tau_y$, $\tau_z$ being the Pauli matrices. $\rho_c$ is the coupling energy between heavy holes and light holes separated by an effective energy splitting $\Delta_{lh}$. $\theta$ is the angle relative to the [110] axis of the principal axis of the anisotropy (shape and/or strain) responsible for the heavy-hole/light-hole mixing~\cite{SingleExcSpectro,VBMArticle}. The matrices $J_z$ and $J_{\pm}$ are described in more details in Eq.~\ref{JtildeUP} to \ref{JtildeZ}. For a weak valence band mixing, the hole-Mn energy levels are mainly controlled by $I_{hMn}S_zJ_z$ and form 12 eigenstates organized in 6 doublets with well-defined $S_z$ and $J_z$. These states are labelled $|S_z,J_z\rangle$.
 
 
 	\begin{figure}[h!]
@@ -2207,8 +2211,7 @@ with $\bm{\upsigma}$ the electron spin and $J_z$ the hole spin operator. $I_{eCr
 	\label{CrTemp}
 	\end{figure}
 	
-	Since the Cr spin states $S_z = \pm2$ do not appear on the PL because they cannot be thermally populated at T = 5K, one could expect to see their emission at higher temperature. Fig.~\ref{CrTemp} presents the emission of two dots as a function of the temperature. With the increase of the temperature, we observe a significant line broadening induced by the interaction with acoustic phonons~\cite{BesombesAccPhon}. In order to keep a significant PL intensity and resolved PL lines, we limited our investigation to temperature below 40K. Even at this temperature, the PL peaks corresponding to $S_z = \pm2$ does not appear. However, the structure of the emission change slightly with the temperature. The intensity of the outside peaks, associated with the states $S_z = \pm1$, decreases faster than the intensity of the PL peak associated with $S_z = 0$ when the temperature increases. This is an unexpected picture, since a higher temperature should allow the higher energy states $S_z = \pm1$ to be more populated by emptying the ground state when increasing. To explain this behaviour on the low energy peak, we propose that the state $S_z = 0$ is partly populated by a h-Cr spins flip-flop from the states $S_z = \pm1$ coupled to the dark states. This process is explained with more details in Sec.~V.3.1%~\ref{hCrff}
-. When the temperature rises, the probability for the dark states to recombine non-radiatively increases, and thus the decrease of the population and PL intensity of the peaks associated with the state $S_z = 0$ would be slower than the intensity of the one associated with $S_z = \pm1$.
+	Since the Cr spin states $S_z = \pm2$ do not appear on the PL because they cannot be thermally populated at T = 5K, one could expect to see their emission at higher temperature. Fig.~\ref{CrTemp} presents the emission of two dots as a function of the temperature. With the increase of the temperature, we observe a significant line broadening induced by the interaction with acoustic phonons~\cite{BesombesAccPhon}. In order to keep a significant PL intensity and resolved PL lines, we limited our investigation to temperature below 40K. Even at this temperature, the PL peaks corresponding to $S_z = \pm2$ does not appear. However, the structure of the emission change slightly with the temperature. The intensity of the outside peaks, associated with the states $S_z = \pm1$, decreases faster than the intensity of the PL peak associated with $S_z = 0$ when the temperature increases. This is an unexpected picture, since a higher temperature should allow the higher energy states $S_z = \pm1$ to be more populated by emptying the ground state when increasing. To explain this behaviour on the low energy peak, we propose that the state $S_z = 0$ is partly populated by a h-Cr spins flip-flop from the states $S_z = \pm1$ coupled to the dark states. This process is explained with more details in Sec.~\ref{hCrff}. When the temperature rises, the probability for the dark states to recombine non-radiatively increases, and thus the decrease of the population and PL intensity of the peaks associated with the state $S_z = 0$ would be slower than the intensity of the one associated with $S_z = \pm1$.
 	%\newpage
 
 
@@ -2456,8 +2459,7 @@ $-\dfrac{\pi}{2}$ & 2.2 & 2 & -1 & 0.4 & 1.5 & 25 & 20 \\
 
 \chapter{Dynamics and optical control of an individual Cr spin in a CdTe QD\label{CrDyn}}
 	
-	As shown in Chap.~IV%~\ref{MagOptStud}
-, we successfully included single Cr atoms in CdTe QDs, and were able to probe them optically. We evidenced a strong spin-to-strain coupling for the Cr, particularly promising for the development of hybrid spin-mechanical systems and coherent mechanical driving of the spin of Cr atoms. For the realisation of these experiments, it is important to be able to prepare the spin of a single Cr atom and to study its dynamics.
+	As shown in Chap.~\ref{MagOptStud}, we successfully included single Cr atoms in CdTe QDs, and were able to probe them optically. We evidenced a strong spin-to-strain coupling for the Cr, particularly promising for the development of hybrid spin-mechanical systems and coherent mechanical driving of the spin of Cr atoms. For the realisation of these experiments, it is important to be able to prepare the spin of a single Cr atom and to study its dynamics.
 	
 	First, the dynamics of a Cr spin under optical excitation was accessed using photon correlation techniques. Auto-correlation of the photons emitted by the QD under continuous optical excitation reveals fluctuations of the localized spin with a timescale in the 10 ns range. Cross-correlation experiments allow to extract quantitative transfer time between Cr spin states.
 	
@@ -2477,8 +2479,7 @@ $-\dfrac{\pi}{2}$ & 2.2 & 2 & -1 & 0.4 & 1.5 & 25 & 20 \\
 	\end{center}}
 	\end{figure}	
 	
-	The experiments were performed on QD2, presented in Fig.~IV.1%~\ref{SpectraX}
-. The PL of QD2 is reported in the inset of Fig.~\ref{AutocorExpCr}. This QD presents a large splitting between each peaks, making the probing of a single spin state easier. Fig.~\ref{AutocorExpCr} shows g$^{(2)}(\tau)$ for the lines (1), (4) and (5) recorded in circular polarization. These signals are compared with the auto-correlation obtained for the PL of a non-magnetic QD (black line) which is characteristic of a single-photon emitter with a dip (anti-bunching) at short delays, with a full width at half maximum (FWHM) of about 1 ns. The width of the anti-bunching is given by the lifetime of the emitter and the generation rate of excitons and its depth is limited by the time resolution of the HBT setup. As illustrated in Fig.~\ref{AutocorExpCr}, typical non-magnetic CdTe/ZnTe QDs do not present any significant bunching induced by charge fluctuations \cite{QDAutocor,IndistPhoton}. A similar auto-correlation on a X-Cr PL line still presents a reduced coincidence rate near zero delay, but it is mainly characterized by a large photon bunching with a FWHM of about 20 ns. This large bunching reflects an intermittency in the emission of a given line of the QD coming from fluctuations of the Cr spin in a 10 ns timescale as it will be confirmed by cross-correlation measurements.
+	The experiments were performed on QD2, presented in Fig.~\ref{SpectraX}. The PL of QD2 is reported in the inset of Fig.~\ref{AutocorExpCr}. This QD presents a large splitting between each peaks, making the probing of a single spin state easier. Fig.~\ref{AutocorExpCr} shows g$^{(2)}(\tau)$ for the lines (1), (4) and (5) recorded in circular polarization. These signals are compared with the auto-correlation obtained for the PL of a non-magnetic QD (black line) which is characteristic of a single-photon emitter with a dip (anti-bunching) at short delays, with a full width at half maximum (FWHM) of about 1 ns. The width of the anti-bunching is given by the lifetime of the emitter and the generation rate of excitons and its depth is limited by the time resolution of the HBT setup. As illustrated in Fig.~\ref{AutocorExpCr}, typical non-magnetic CdTe/ZnTe QDs do not present any significant bunching induced by charge fluctuations \cite{QDAutocor,IndistPhoton}. A similar auto-correlation on a X-Cr PL line still presents a reduced coincidence rate near zero delay, but it is mainly characterized by a large photon bunching with a FWHM of about 20 ns. This large bunching reflects an intermittency in the emission of a given line of the QD coming from fluctuations of the Cr spin in a 10 ns timescale as it will be confirmed by cross-correlation measurements.
 
 		The amplitude of the bunching reaches 5 for line (1) and is slightly weaker for the lower energy lines (4) and (5). In a simple picture of blinking where the selected QD line can be either in a state ON (populated) or OFF (empty), the amplitude of the bunching is given by $\Gamma_{OFF}/\Gamma_{ON}$, with $\Gamma_{ON}$ the transition rates from OFF to ON, and $\Gamma_{OFF}$ the one from ON to OFF~\cite{SubnanoSpectDiff}. An amplitude of bunching larger than 1 is then expected in a multilevel spin system where, after a spin relaxation, multiple spin-flips are usually required to come back to the initial state ($\Gamma_{ON}<\Gamma_{OFF}$). Let us also note that the bunching signal is not affected by a weak transverse magnetic field ($B_x=0.42$ T in Fig.~\ref{AutocorExpCr}). This confirms the presence of a large strain induced magnetic anisotropy $D_0$ which splits the Cr and X-Cr states and blocks their precession in a weak magnetic field.
 		

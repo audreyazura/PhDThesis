@@ -5,7 +5,7 @@ import re
 
 ####################### PARAMETERS #######################
 
-firstChap = 1
+firstChap = 0
 lastChap = 5
 ignoreLorem = True
 
@@ -31,14 +31,14 @@ enddocStr = re.compile(r'\end{doc')
 closebracStr = re.compile(r'\}')
 docclassStr = re.compile(r'\\documentclass')
 makeatStr = re.compile(r'\makeat')
-newcomStr = re.compile(r'\\renewcommand')
+newcoStr = re.compile(r'\\[re]{0,2}newco')
 floatsetStr = re.compile(r'\\floatsetup')
 refStr = re.compile(r'[~ ][.0-9IV]{1,10}%')
 
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
 	curabiturStre = re.compile(r'Curabitur')
-	lipsumStr = re.compile(r'ipsum')
+	lipsumStr = re.compile(r'^[	]*\\lipsum')
 
 Thesis = open('Thesis.tex', 'w')
 for i in range(firstChap,lastChap+1):
@@ -69,7 +69,7 @@ for i in range(firstChap,lastChap+1):
 								lastPack+=1
 								
 						#for all other file, we ignore the header, but will have to test if a new package is introduced
-						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcomStr.search(treatedLine) || begindocStr.search(treatedLine) || floatsetStr.search(treatedLine)):
+						elif not(docclassStr.search(treatedLine) || makeatStr.search(treatedLine) || newcoStr.search(treatedLine) || begindocStr.search(treatedLine) || floatsetStr.search(treatedLine)):
 							
 							#if we find a new package, we have to add it to the header and to the list of used package
 							if usepackageStr.search(treatedLine):
