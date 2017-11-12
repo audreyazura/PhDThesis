@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{xcolor}
+\usepackage[backend=biber,style=phys]{biblatex}
+\usepackage{upgreek}
+\usepackage[capbesideposition={right,center}]{floatrow}
+\usepackage[ampersand]{easylist}
+
+\addbibresource{../Bibliography.bib} 
+
+\makeatletter
+	\renewcommand{\thechapter}{\Roman{chapter}}
+\makeatother
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\floatsetup[table]{style=plaintop}
+
+\begin{document}
+	\chapter*{Conclusion}
+	
+	We studied in this thesis two different systems: single Mn spin in positively charged QDs, and single Cr atom in a neutral QD. We have shown that both are strongly coupled to phonons and strains. This coupling opens new ways to probe and control the spins of the magnetic atoms, not only optically, but also mechanically. It also opens the possibility to control their spin dynamics by changing the strain states at their position.
+	
+	We showed that the Mn spin structure in a positively charged QD forms $\Lambda$-level systems between two hole-Mn ground states and one electron-Mn level. Those $\Lambda$ systems were used to study the dynamic of the hybrid h-Mn spin. A spin relaxation time in the tens of nanoseconds range was found. A fast relaxation channel between the two hole-Mn ground states of the $\Lambda$ systems. We proposed that this relaxation was done by a coupling to acoustic phonons. This gives a hole-Mn spin flip-flop time of a few nanoseconds, which is consistent with the experiments. We also demonstrate that the electron-Mn states $|M = 3, M_z = +1\rangle$ and $|M = 3, M_z = -1\rangle$, as well as $|M = 2, M_z = +1\rangle$ and $|M = 2, M_z = -1\rangle$, are coupled through the in-plane strain anisotropy. These results demonstrate the potential of magnetic QDs where one could exploit the intrinsic spin to strain interaction to coherently couple the spin of a magnetic atom to the motion of a nano-mechanical oscillator~\cite{SensingOscilQuBit, CouplingNVOscill} and suggest some possible coherent mechanical spin-driving of a magnetic atom.
+	
+	For the first time, the physics of a single Cr atom embedded in a II-VI QD was studied. Its spin was probed optically under magnetic field. The energy structure of the Cr spin in a self-assembled QD was deduced from this experiment. It evidenced that the splitting caused by the magnetic anisotropy is strong enough to keep the states $S_z = \pm2$ to be thermally populated. Several anti-crossing characteristic from a Cr-doped QDs appears under magnetic field, opening the possibility to extract parameters of the dot. The evolution of the PL under magnetic field also evidence that the h-Cr coupling is anti-ferromagnetic, contrary to what was suggested in the literature.
+	
+	We also probed the dynamics of the Cr spin in a QD. Photon correlation experiments gave a spin relaxation time in the 10 nanoseconds range. This number was then confirmed by pump-probe experiments. These last experiments were also used to probe the relaxation of the Cr spin in the dark. A relaxation time in the microsecond range was found. A strong influence of the phonons on the Cr spin dynamics was also evidenced. Hole-Cr spin flip-flops mediated by acoustic phonons, similar to the hole-Mn ones, were evidenced in the excited state, flipping the Cr spin from $S_z = \pm1$ to $S_z = 0$. The possibility of heating the Cr spin through phonon alone, without injecting any carrier in the dot, was also demonstrated. Finally, we demonstrated that it was possible to control the energy of a given Cr spin state by Stark shifting.
+	
+	The study of Cr atoms in CdTe/ZnTe QDs only began. Even though we have a good picture of its behaviour, many doors remains open for the study. As presented in Chapter~V%~\ref{CrDyn}
+, the presence of a heating pulse before a dark time affects the Cr spin relaxation in the dark. It was suppposed that it was caused by two different relaxation processes, mediated either by one or two phonons. Several experiments were proposed to test this hypothesis and probe those two mechanisms in Sec.~V.4%~\ref{CrDark}
+ and have yet to be realized.
+  	
+	On a closer time scale, we propose to used Surface Acoustic Waves (SAW) to control the Cr spin.
+	
+\end{document}
