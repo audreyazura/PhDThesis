@@ -6,7 +6,7 @@ import re
 ####################### PARAMETERS #######################
 
 firstChap = 0
-lastChap = 5
+lastChap = 6
 ignoreLorem = True
 
 ########################## CODE ##########################
