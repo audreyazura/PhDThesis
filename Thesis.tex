@@ -139,7 +139,7 @@
 	
 \tableofcontents
 \clearpage
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \pagenumbering{arabic}
 \clearpage
@@ -154,6 +154,8 @@
 
 
 \chapter{Diluted magnetic semiconductor quantum dots\label{DMSQDTh}}
+
+\minitoc
 
 
 	This chapter aims to present the system we will study as well as the main theoretical tools one needs to understand it. We begin presenting the semiconductor physics, and especially the CdTe crystal and electronic structure, and the interaction between carriers and light. We then see how the strains affect the energy levels of the carriers. We then reduce the dimensions of the system, confining the carriers in three dimension, creating what is called the quantum dots (QDs). We describe the effect of the confinement on the carriers, before explaining  how they interact with each other inside the QD. We finish the section with the effect of the shape and strains anisotropy on the carriers and the emission of the QDs.
@@ -1331,6 +1333,8 @@ We use in this part the heavy-hole approximation, ignoring the effect of the non
 
 \chapter{Growth and first characterization of Cr-doped CdTe quantum dots\label{Growth}}
 
+\minitoc
+
 	During this thesis, we studied two types of magnetic quantum dots: self assembled QDs and strain free QDs. The self assembled QDs are formed by the partial relaxation of the strain of a CdTe layer on a ZnTe substrate (Stranski-Krastanov dots). Strain free dots are formed by thickness variation of a CdTe /CdMgTe thin quantum well on a CdTe substrate. The growth of Cr doped samples were done in Pr. Shinji Kuroda laboratory, in the University of Tsukuba. The Mn-doped samples were grown at Grenoble, in the CEA-CNRS joined team NPSC, by Dr. Herv\'e Boukari.
 	
 	We will focus in this chapter on the growth done at Tsukuba by Molecular Beam Epitaxy (MBE). We begin by giving some general explanation on the MBE process and the different tools that are used in it. We then go to the growth of the self-assembled Cr-doped quantum dots, detailing the preparation of the substrate, the growth, and discussing the first characterization of the samples. In the last section, we present two other kinds of sample we grew: samples with the possibility of applying an electric field on them, and the strain free dots. For each of them, we detail the growth process and present basic characterization. 
@@ -1613,6 +1617,8 @@ We use in this part the heavy-hole approximation, ignoring the effect of the non
 
 
 \chapter{Spin dynamics in Mn-doped positively charged quantum dots\label{CoDynMn}}
+
+\minitoc
 
 	%Bi-exciton was studied by Lucien Besombes \emph{et al.} a few years ago~\cite{}.
 
@@ -2143,6 +2149,8 @@ where $\gamma_{jj}$ is the pure dephasing rate of level $j$.
 
 \chapter{Magneto-optical study of Cr-doped CdTe quantum dots\label{MagOptStud}}
 
+\minitoc
+
 
 	The main goal of this thesis was to optically probe the spin of a single Cr atom in a semiconductor matrix. We saw in Sec.~\ref{CrSemiCon} how the incorporation of a Cr atom in a semiconductor lattice affects its spin structure. This chapter is dedicated to demonstrate that a single Cr embedded in a CdTe/ZnTe QD	can be probed optically, and to highlight the study of the carrier-Cr interactions.
 	
@@ -2177,7 +2185,7 @@ where $\gamma_{jj}$ is the pure dephasing rate of level $j$.
 	
 	\begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=15cm]{04-CrMagOpt/Pictures/LinPol.png}
+		\includegraphics[width=14.5cm]{04-CrMagOpt/Pictures/LinPol.png}
 	\end{center}
 	\caption{(a) Low temperature (T = 5 K) PL of QD2 recorded in linear polarization along two orthogonal directions. (b) Linear polarization PL intensity map of QD2. The 0$^{\circ}$ polarization angle corresponds to an emission polarized along the QD cleavage axis, either $[110]$ or $[1\bar{1}0]$. (c) Illustration of the energy levels of the ground state (Cr), the bright exciton states ($|\pm1\rangle$) coupled to the spin of a Cr (X-Cr), showing the splitting of the central peak via the bright exciton coupling, and dominant PL transitions: $\sigma$+ in blue, $\sigma-$ in red and $\pi$ in green and black.}
 	\label{CrLinPolar}
@@ -2458,6 +2466,8 @@ $-\dfrac{\pi}{2}$ & 2.2 & 2 & -1 & 0.4 & 1.5 & 25 & 20 \\
 
 
 \chapter{Dynamics and optical control of an individual Cr spin in a CdTe QD\label{CrDyn}}
+
+\minitoc
 	
 	As shown in Chap.~\ref{MagOptStud}, we successfully included single Cr atoms in CdTe QDs, and were able to probe them optically. We evidenced a strong spin-to-strain coupling for the Cr, particularly promising for the development of hybrid spin-mechanical systems and coherent mechanical driving of the spin of Cr atoms. For the realisation of these experiments, it is important to be able to prepare the spin of a single Cr atom and to study its dynamics.
 	
@@ -2584,8 +2594,6 @@ $-\dfrac{\pi}{2}$ & 2.2 & 2 & -1 & 0.4 & 1.5 & 25 & 20 \\
 	\end{figure}
 	
 	A study of the evolution of the pumping transient as a function of the pump laser power was also done, and the results are presented in Fig.~\ref{PWPump}. As expected for a spin optical pumping process, the characteristic time of the PL transient decreases with the increase of the pump laser intensity (inset of Fig.~\ref{PWPump})~\cite{ClaireOptInit}. The transient time scale is close to the bunching time found in Sec.~\ref{ProbeSpinFluc}, confirming the results of the autocorrelation and cross-correlation experiment.
-	
-	\newpage
 	
 	
 		\subsection{Optical pumping induced by h-Cr flip-flop\label{hCrff}}
@@ -2826,8 +2834,7 @@ with $c = \sqrt{\dfrac{1}{2} \left(1 - \dfrac{\delta}{\Omega'_{r,n}}\right)}$, $
 	
 	The study of Cr atoms in CdTe/ZnTe QDs only began. Even though we have a good picture of its behaviour, many doors remains open for the study. As presented in Chapter~\ref{CrDyn}, the presence of a heating pulse before a dark time affects the Cr spin relaxation in the dark. It was suppposed that it was caused by two different relaxation processes, mediated either by one or two phonons. Several experiments were proposed to test this hypothesis and probe those two mechanisms in Sec.~\ref{CrDark} and have yet to be realized.
   	
-	The next important step is to prove the possibility to control the Cr spin with phonons. We propose to develop single spin Surface Acoustic Wave (SAW) devices to demonstrate a complete coherent mechanical driving of
-the spin of an individual Cr atom inserted in a II-VI semiconductor QD. SAW generated close to the surface of a sample can be used to make variation in time of the in-plane strain at a controlled and precise frequency. To generate them, piezo-electric transducers will be designed and realized on samples with Cr-doped QDs. SAW will be used to generate phonons tuned on resonance with the energy splitting of the Cr spin states $S_z = \pm1$. Introducing these SAW during the dark time of a pumping experiment such as the one presented in Sec.~\ref{CrDark}, the resonance in the mechanical excitation of the $S_z = +1$ and $S_z = -1$ transition can be detected in the amplitude of the resonant optical pumping signal. This will permit to optically detect the mechanical coherent control of the Cr spin and mechanically determine its coherence time. This system forms a promising plateform to study the interaction of a spin \emph{qubit} with SAW, which we propose as efficient quantum bus between different trails of \emph{qubits}.
+	The next important step is to prove the possibility to control the Cr spin with phonons. We propose to develop single spin Surface Acoustic Wave (SAW) devices to demonstrate a complete coherent mechanical driving of the spin of an individual Cr atom inserted in a II-VI semiconductor QD. SAW generated close to the surface of a sample can be used to make variation in time of the in-plane strain at a controlled and precise frequency. To generate them, piezo-electric transducers will be designed and realized on samples with Cr-doped QDs. SAW will be used to generate phonons tuned on resonance with the energy splitting of the Cr spin states $S_z = \pm1$. Introducing these SAW during the dark time of a pumping experiment such as the one presented in Sec.~\ref{CrDark}, the resonance in the mechanical excitation of the $S_z = +1$ and $S_z = -1$ transition can be detected in the amplitude of the resonant optical pumping signal. This will permit to optically detect the mechanical coherent control of the Cr spin and mechanically determine its coherence time. This system forms a promising plateform to study the interaction of a spin \emph{qubit} with SAW, which we propose as efficient quantum bus between different trails of \emph{qubits}.
 	
 \printbibliography
 	

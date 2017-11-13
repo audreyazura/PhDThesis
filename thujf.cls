@@ -132,7 +132,7 @@
 \else
    \RequirePackage[frenchb]{babel}
 \fi
-\RequirePackage[latin1]{inputenc}
+\RequirePackage[utf8]{inputenc}
 
     %---------------------------------------------------
   

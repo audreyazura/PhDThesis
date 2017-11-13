@@ -1,0 +1,107 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\@frame@switchfalse 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\@framechaptersintoc 
+\defcounter {refsection}{0}\relax 
+\contentsline {tlstarchapter}{Introduction}{i}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {I}Diluted magnetic semiconductor quantum dots}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.1}II-VI semiconductor quantum dots}{2}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.1.1}Band structure of CdTe and ZnTe}{2}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.1.2}Lattice mismatch and the Bir-Pikus Hamiltonian }{11}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.1.3}The quantum dot: confining the carrier in 3 dimensions}{14}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.1.4}Electron-hole exchange in quantum dots}{18}{subsection.1.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.1.5}Valence band mixing}{20}{subsection.1.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.2}Exchange interaction between carrier and a magnetic atom}{24}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.2.1}Exchange interaction in diluted magnetic semiconductors}{24}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.2.2}Insertion of Mn or Cr atom in a semiconductor lattice}{32}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.3}Fine and hyperfine structure of a magnetic atom in II-VI semiconductors}{36}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.3.1}Mn atom in II-VI semiconductors~}{36}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {I.3.2}Cr atom in II-VI semiconductor}{39}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I.4}The X-Mn system}{42}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {II}Growth and first characterization of Cr-doped CdTe quantum dots}{45}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {II.1}The Molecular Beam Expitaxy}{46}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {II.2}Self-assembled CdTe/ZnTe quantum dots doped with single Cr atoms}{48}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II.2.1}Substrate preparation}{48}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II.2.2}Stranski-Krastanov quantum dots growth}{49}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II.2.3}Optical characterization}{54}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {II.3}Charge tunable samples and strain-free samples}{55}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II.3.1}Charge tunable samples}{55}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {II.3.2}Strain-free quantum dots}{57}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {III}Spin dynamics in Mn-doped positively charged quantum dots}{63}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III.1}Mn in a positively charged CdTe quantum dot}{64}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.1.1}Spin structure of a positively charged Mn doped quantum dot}{64}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.1.2}Resonant PL of X$^+$-Mn}{70}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III.2}Hole-Mn spin dynamics under resonant excitation}{72}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.2.1}Cycling in and escaping from the $\Lambda $-level system}{72}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.2.2}Resonant optical pumping of the hole-Mn spin}{75}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.2.3}Modelling of spin relaxation mechanism: hole-Mn flip-flops mediated by a lattice deformation}{79}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {III.2.4}Model of the carrier-Mn spin dynamics under resonant excitation}{83}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {III.3}Strain induced coherent dynamics of coupled carriers and Mn spins in a quantum dot}{91}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {IV}Magneto-optical study of Cr-doped CdTe quantum dots}{99}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.1}Strained QDs containing an individual Cr atom}{100}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {IV.1.1}Energy structure of X-Cr in a quantum dot~}{100}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {IV.1.2}Excited states of a Cr-doped QD}{105}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {IV.1.3}Magneto-optics of QDs doped with a single Cr atom}{108}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.2}Modelization of a Cr-doped QD}{113}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {IV.3}Charge fluctuation of a Cr ion in the vicinity of the QDs}{118}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {V}Dynamics and optical control of an individual Cr spin in a CdTe QD}{123}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.1}Probing the spin fluctuations of the Cr}{124}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.2}Resonant optical pumping of a Cr spin}{128}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.3}Dynamics of a Cr spin under optical excitation}{133}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {V.3.1}Optical pumping induced by h-Cr flip-flop}{135}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {V.3.2}Cr heating by non-equilibrium phonons?}{139}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.4}Cr spin relaxation in the dark}{141}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {V.5}Optical Stark effect on an individual Cr spin}{145}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {tlstarchapter}{Conclusion}{151}{chapter*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {tlstarchapter}{Bibliography}{153}{chapter*.20}
