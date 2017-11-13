@@ -34,6 +34,7 @@ makeatStr = re.compile(r'\makeat')
 newcoStr = re.compile(r'\\[re]{0,2}newco')
 floatsetStr = re.compile(r'\\floatsetup')
 refStr = re.compile(r'[~ ][.0-9IV]{1,10}%')
+chapStr = re.compile(r'^\\chapter{')
 
 if ignoreLorem:
 	loremStr = re.compile(r'Lorem')
@@ -58,6 +59,8 @@ for i in range(firstChap,lastChap+1):
 						treatedLine = pictureStr.sub(pictureFold, addrStr.sub(nullChain, line))
 						if refStr.search(treatedLine):
 							treatedLine = refStr.sub(nullChain, newlineStr.sub(nullChain, treatedLine))
+						if chapStr.search(treatedLine):
+							treatedLine = treatedLine + "\n\\minitoc\n"
 						
 						#first file: we print all the package and add it to the package library
 						if i == firstChap && not(printbibStr.search(treatedLine) || enddocStr.search(treatedLine)):
