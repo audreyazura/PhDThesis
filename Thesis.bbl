@@ -7125,6 +7125,65 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.100.703
       \endverb
     \endentry
+    \entry{SchuetzSAWQuantTransduc}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1b4ccbdb1c9954a5273d7d9ebc2e0f80}{%
+           family={Schuetz},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c8f9d496830cc3512a567683623f2f07}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=939c36641816fbf4a4e0b8a05dc53026}{%
+           family={Giedke},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5f3cf3b86000e655895b80286e40a1fe}{%
+           family={Vandersypen},
+           familyi={V\bibinitperiod},
+           given={L.\bibnamedelimi M.\bibnamedelimi K.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=26d8922ad7bc34315aab0c5a936cff52}{%
+           family={Lukin},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ebaa4a3f64ab5ac8587be674f805603a}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6d08fccdd8022a33bfb6e7993ec1c799}
+      \strng{fullhash}{d00a6ef21b8f6c30dad7ced81e8fbc58}
+      \strng{authornamehash}{6d08fccdd8022a33bfb6e7993ec1c799}
+      \strng{authorfullhash}{d00a6ef21b8f6c30dad7ced81e8fbc58}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{month}{9}
+      \field{title}{Universal Quantum Transducers Based on Surface Acoustic Waves}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{pages}{031031}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.5.031031
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.5.031031
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

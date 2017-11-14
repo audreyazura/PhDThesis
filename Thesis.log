@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  13 NOV 2017 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  14 NOV 2017 13:06
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1838,14 +1838,19 @@ df)
  <use 02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf u
 sed on input line 1509.
-(pdftex.def)             Requested size: 298.75394pt x 394.1933pt.
- [56 <./02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf>] [57]
-<02-GrowthQDs/Pictures/HybridSubstrate.png, id=1146, 898.85812pt x 416.30531pt>
+(pdftex.def)             Requested size: 341.43306pt x 450.50247pt.
+ [56 <./02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57]
+<02-GrowthQDs/Pictures/HybridSubstrate.png, id=1147, 898.85812pt x 416.30531pt>
 File: 02-GrowthQDs/Pictures/HybridSubstrate.png Graphic file (type png)
 <use 02-GrowthQDs/Pictures/HybridSubstrate.png>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/HybridSubstrate.png used on inpu
 t line 1547.
 (pdftex.def)             Requested size: 398.33858pt x 184.48982pt.
+ [58 <./02-GrowthQDs/Pictures/HybridSubstrate.png>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSFD.eps>
 (epstopdf)                    date: 2017-10-13 21:14:09
 (epstopdf)                    size: 55161 bytes
@@ -1858,7 +1863,7 @@ eSFD-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSFD.eps>
 (epstopdf)             \includegraphics on input line 1560.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=1147, 756.8275pt x 49
+<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=1155, 756.8275pt x 49
 7.86pt>
 File: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1867,10 +1872,6 @@ Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf u
 sed on input line 1560.
 (pdftex.def)             Requested size: 284.52756pt x 187.16803pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[58 <./02-GrowthQDs/Pictures/HybridSubstrate.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1894,9 +1895,6 @@ pdf)
 Package pdftex.def Info: 02-GrowthQDs/Pictures/SFDSpectra-eps-converted-to.pdf 
 used on input line 1594.
 (pdftex.def)             Requested size: 284.52756pt x 181.57007pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [59 <./02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>] [60 <./02-GrowthQ
 Ds/Pictures/SFDSpectra-eps-converted-to.pdf>] [61] [62
@@ -2288,7 +2286,7 @@ df)
  <use 03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf>
 Package pdftex.def Info: 03-h-Mn/Pictures/PolarRateTotal-eps-converted-to.pdf u
 sed on input line 2082.
-(pdftex.def)             Requested size: 312.9803pt x 362.56569pt.
+(pdftex.def)             Requested size: 355.65944pt x 412.00606pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2297,7 +2295,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
  [92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: Text page 93 contains only floats.
+
+
+Overfull \vbox (2.02287pt too high) has occurred while \output is active []
 
 
 Overfull \hbox (38.37364pt too wide) has occurred while \output is active
@@ -2360,7 +2362,7 @@ Package pdftex.def Info: 03-h-Mn/Pictures/LevelSplitB-eps-converted-to.pdf used
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 1275) has occurred while \output is active []
 
  [94]
 
@@ -2551,13 +2553,8 @@ df)
  <use 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>
 Package pdftex.def Info: 04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf u
 sed on input line 2245.
-(pdftex.def)             Requested size: 423.94588pt x 263.81807pt.
-
-Overfull \hbox (5.6922pt too wide) in paragraph at lines 2245--2246
- [] 
- []
-
-[107 <./04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 409.7195pt x 254.97108pt.
+ [107 <./04-CrMagOpt/Pictures/PLEDotPres-eps-converted-to.pdf>]
 Overfull \hbox (5.13042pt too wide) in paragraph at lines 2253--2254
 []\T1/cmr/m/n/12 Finally, an-other in-ter-est-ing ex-cited state ap-pear at 203
 0 meV. This state presents
@@ -3267,7 +3264,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2840.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2840.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 91202352BE6E6E07F6DAF788EEFD6A01;4669.
+(rerunfilecheck)             Checksum: 529DCE0266141DF54A5DC8A4356B6431;4668.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3278,10 +3275,10 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2840.
  ) 
 Here is how much of TeX's memory you used:
- 20117 strings out of 493328
- 326970 string characters out of 3139095
- 937135 words of memory out of 3000000
- 22459 multiletter control sequences out of 15000+200000
+ 20120 strings out of 493328
+ 327098 string characters out of 3139095
+ 937196 words of memory out of 3000000
+ 22461 multiletter control sequences out of 15000+200000
  29941 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,25n,50p,1902b,3111s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3311,9 +3308,9 @@ onts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on Thesis.pdf (174 pages, 8919633 bytes).
+Output written on Thesis.pdf (174 pages, 8919786 bytes).
 PDF statistics:
  3271 PDF objects out of 3580 (max. 8388607)
- 614 named destinations out of 1000 (max. 500000)
+ 615 named destinations out of 1000 (max. 500000)
  824 words of extra memory for PDF output out of 10000 (max. 10000000)
 
