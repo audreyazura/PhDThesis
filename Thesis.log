@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  14 NOV 2017 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  14 NOV 2017 16:39
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -3264,7 +3264,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2840.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2840.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 529DCE0266141DF54A5DC8A4356B6431;4668.
+(rerunfilecheck)             Checksum: 91202352BE6E6E07F6DAF788EEFD6A01;4669.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3277,7 +3277,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2840.
 Here is how much of TeX's memory you used:
  20120 strings out of 493328
  327098 string characters out of 3139095
- 937196 words of memory out of 3000000
+ 937197 words of memory out of 3000000
  22461 multiletter control sequences out of 15000+200000
  29941 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3308,9 +3308,9 @@ onts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on Thesis.pdf (174 pages, 8919786 bytes).
+Output written on Thesis.pdf (174 pages, 8921011 bytes).
 PDF statistics:
- 3271 PDF objects out of 3580 (max. 8388607)
+ 3274 PDF objects out of 3580 (max. 8388607)
  615 named destinations out of 1000 (max. 500000)
  824 words of extra memory for PDF output out of 10000 (max. 10000000)
 

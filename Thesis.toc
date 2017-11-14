@@ -96,7 +96,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {V.3.1}Optical pumping induced by h-Cr flip-flop}{135}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {V.3.2}Cr heating by non-equilibrium phonons}{139}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.2}Cr heating by non-equilibrium phonons?}{139}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {V.4}Cr spin relaxation in the dark}{141}{section.5.4}
 \defcounter {refsection}{0}\relax 
