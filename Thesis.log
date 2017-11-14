@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  14 NOV 2017 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.29)  14 NOV 2017 19:16
 entering extended mode
 **./Thesis.tex
 (Thesis.tex
@@ -1707,13 +1707,17 @@ e 1365.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47 <./02-GrowthQDs/Pictures/MBE.png>]
+
 Overfull \hbox (14.12605pt too wide) in paragraph at lines 1378--1378
 []\T1/cmr/bx/n/17.28 Self-assembled CdTe/ZnTe quan-tum dots doped
  []
 
-[48 <./02-GrowthQDs/Pictures/EwaldRHEED.png>] [49]
-<02-GrowthQDs/Pictures/RHEEDStep.png, id=1050, 680.5425pt x 416.30531pt>
+[47 <./02-GrowthQDs/Pictures/MBE.png>] [48 <./02-GrowthQDs/Pictures/EwaldRHEED.
+png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49] <02-GrowthQDs/Pictures/RHEEDStep.png, id=1051, 680.5425pt x 416.30531pt>
 File: 02-GrowthQDs/Pictures/RHEEDStep.png Graphic file (type png)
 
 <use 02-GrowthQDs/Pictures/RHEEDStep.png>
@@ -1737,7 +1741,7 @@ Osc-eps-converted-to.pdf 02-GrowthQDs/Pictures/RheedOsc.eps>
 (epstopdf)             \includegraphics on input line 1437.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RheedOsc-eps-converted-to.pdf, id=1067, 623.32875pt x 41
+<02-GrowthQDs/Pictures/RheedOsc-eps-converted-to.pdf, id=1068, 623.32875pt x 41
 5.5525pt>
 File: 02-GrowthQDs/Pictures/RheedOsc-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1788,14 +1792,9 @@ ed on input line 1457.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[52 <./02-GrowthQDs/Pictures/RheedOsc-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53 <./02-GrowthQDs/Pictures/ArrheniusCr.png> <./02-GrowthQDs/Pictures/RecipeS
-K-eps-converted-to.pdf>]
-Underfull \vbox (badness 6944) has occurred while \output is active []
-
- [54]
+[52 <./02-GrowthQDs/Pictures/RheedOsc-eps-converted-to.pdf>] [53 <./02-GrowthQD
+s/Pictures/ArrheniusCr.png> <./02-GrowthQDs/Pictures/RecipeSK-eps-converted-to.
+pdf>] [54]
 <02-GrowthQDs/Pictures/ChargeContSample.png, id=1104, 295.85532pt x 200.24812pt
 >
 File: 02-GrowthQDs/Pictures/ChargeContSample.png Graphic file (type png)
@@ -1818,7 +1817,6 @@ Overfull \hbox (6.42339pt too wide) in paragraph at lines 1496--1496
  [] 
  []
 
-[55 <./02-GrowthQDs/Pictures/ChargeContSample.png>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/MapEfield.eps>
 (epstopdf)                    date: 2017-10-12 19:45:41
 (epstopdf)                    size: 27990527 bytes
@@ -1831,7 +1829,7 @@ ield-eps-converted-to.pdf 02-GrowthQDs/Pictures/MapEfield.eps>
 (epstopdf)             \includegraphics on input line 1509.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf, id=1114, 722.7pt x 953.5
+<02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf, id=1107, 722.7pt x 953.5
 625pt>
 File: 02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1839,18 +1837,18 @@ df)
 Package pdftex.def Info: 02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf u
 sed on input line 1509.
 (pdftex.def)             Requested size: 341.43306pt x 450.50247pt.
- [56 <./02-GrowthQDs/Pictures/MapEfield-eps-converted-to.pdf>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57]
+[55 <./02-GrowthQDs/Pictures/ChargeContSample.png>] [56 <./02-GrowthQDs/Picture
+s/MapEfield-eps-converted-to.pdf>] [57]
 <02-GrowthQDs/Pictures/HybridSubstrate.png, id=1147, 898.85812pt x 416.30531pt>
 File: 02-GrowthQDs/Pictures/HybridSubstrate.png Graphic file (type png)
 <use 02-GrowthQDs/Pictures/HybridSubstrate.png>
 Package pdftex.def Info: 02-GrowthQDs/Pictures/HybridSubstrate.png used on inpu
 t line 1547.
 (pdftex.def)             Requested size: 398.33858pt x 184.48982pt.
- [58 <./02-GrowthQDs/Pictures/HybridSubstrate.png>]
 Package epstopdf Info: Source file: <02-GrowthQDs/Pictures/RecipeSFD.eps>
 (epstopdf)                    date: 2017-10-13 21:14:09
 (epstopdf)                    size: 55161 bytes
@@ -1863,7 +1861,7 @@ eSFD-eps-converted-to.pdf 02-GrowthQDs/Pictures/RecipeSFD.eps>
 (epstopdf)             \includegraphics on input line 1560.
 Package epstopdf Info: Output file is already uptodate.
 
-<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=1155, 756.8275pt x 49
+<02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf, id=1148, 756.8275pt x 49
 7.86pt>
 File: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1872,6 +1870,10 @@ Package pdftex.def Info: 02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf u
 sed on input line 1560.
 (pdftex.def)             Requested size: 284.52756pt x 187.16803pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58 <./02-GrowthQDs/Pictures/HybridSubstrate.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1895,6 +1897,9 @@ pdf)
 Package pdftex.def Info: 02-GrowthQDs/Pictures/SFDSpectra-eps-converted-to.pdf 
 used on input line 1594.
 (pdftex.def)             Requested size: 284.52756pt x 181.57007pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [59 <./02-GrowthQDs/Pictures/RecipeSFD-eps-converted-to.pdf>] [60 <./02-GrowthQ
 Ds/Pictures/SFDSpectra-eps-converted-to.pdf>] [61] [62
@@ -3277,7 +3282,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2840.
 Here is how much of TeX's memory you used:
  20120 strings out of 493328
  327098 string characters out of 3139095
- 937197 words of memory out of 3000000
+ 937196 words of memory out of 3000000
  22461 multiletter control sequences out of 15000+200000
  29941 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3308,7 +3313,7 @@ onts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb>
-Output written on Thesis.pdf (174 pages, 8921011 bytes).
+Output written on Thesis.pdf (174 pages, 8920937 bytes).
 PDF statistics:
  3274 PDF objects out of 3580 (max. 8388607)
  615 named destinations out of 1000 (max. 500000)

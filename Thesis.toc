@@ -44,11 +44,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {II.2.2}Stranski-Krastanov quantum dots growth}{49}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.2.3}Optical characterization}{54}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {II.2.3}Optical characterization}{53}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {II.3}Charge tunable samples and strain-free samples}{55}{section.2.3}
+\contentsline {section}{\numberline {II.3}Charge tunable samples and strain-free samples}{54}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.3.1}Charge tunable samples}{55}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {II.3.1}Charge tunable samples}{54}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {II.3.2}Strain-free quantum dots}{57}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
