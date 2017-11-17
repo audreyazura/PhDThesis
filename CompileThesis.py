@@ -1,5 +1,3 @@
-#!/usr/local/bin/xonsh
-
 import re
 #import antigravity
 
@@ -27,10 +25,10 @@ biblioStr = re.compile(r'[b,B]iblio')
 printbibStr = re.compile(r'\\printbiblio')
 bibresStr = re.compile(r'\\addbibres')
 begindocStr = re.compile(r'\\begin{doc')
-enddocStr = re.compile(r'\end{doc')
+enddocStr = re.compile(r'\\end{doc')
 closebracStr = re.compile(r'\}')
 docclassStr = re.compile(r'\\documentclass')
-makeatStr = re.compile(r'\makeat')
+makeatStr = re.compile(r'\\makeat')
 newcoStr = re.compile(r'\\[re]{0,2}newco')
 floatsetStr = re.compile(r'\\floatsetup')
 refStr = re.compile(r'[~ ][.0-9IV]{1,10}%')
