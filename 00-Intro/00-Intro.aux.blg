@@ -1,0 +1,5 @@
+[0] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:321> INFO - Logfile is '00-Intro.aux.blg'
+[87] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
+[206] Utils.pm:185> ERROR - Cannot find control file '00-Intro.aux.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[207] Biber.pm:109> INFO - ERRORS: 1
