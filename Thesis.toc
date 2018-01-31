@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {II.3.1}Charge tunable samples}{55}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {II.3.2}Strain-free quantum dots}{56}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {II.3.2}Strain-free quantum dots}{57}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {III}Spin dynamics in Mn-doped positively charged quantum dots}{63}{chapter.3}
 \defcounter {refsection}{0}\relax 
