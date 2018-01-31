@@ -4,7 +4,9 @@
 \select@language {english}
 \@framechaptersintoc 
 \defcounter {refsection}{0}\relax 
-\contentsline {tlstarchapter}{Introduction}{i}{chapter*.1}
+\contentsline {tlstarchapter}{Acknowledgement}{i}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {tlstarchapter}{Introduction}{v}{chapter*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {I}Diluted magnetic semiconductor quantum dots}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -102,6 +104,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {V.5}Optical Stark effect on an individual Cr spin}{145}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {tlstarchapter}{Conclusion}{151}{chapter*.19}
+\contentsline {tlstarchapter}{Conclusion}{151}{chapter*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {tlstarchapter}{Bibliography}{153}{chapter*.20}
+\contentsline {tlstarchapter}{Bibliography}{153}{chapter*.21}
